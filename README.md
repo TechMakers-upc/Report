@@ -254,7 +254,25 @@ Asimismo, la evidencia científica reciente señala que los sistemas tradicional
 
 En conjunto, esta literatura reciente confirma que existe una necesidad sostenida de herramientas de mantenimiento modernas, de adopción inmediata (baja fricción) y financieramente accesibles como una plataforma de automatización en entorno móvil que permitan a las plantas industriales y contratistas responder en tiempo real ante tiempos muertos, coincidiendo plenamente con los hallazgos operativos obtenidos en las entrevistas de campo.
 
----
+### Árbol de Problemas
+
+El Árbol de Problemas fue elaborado para jerarquizar visualmente la problemática, estableciendo una relación de causalidad entre el problema central —la ineficiencia y altos costos por tiempos muertos (downtime) en la gestión de mantenimiento industrial de pymes y sus efectos. Las Causas (raíces) y los Efectos (impactos) identificados fueron validados mediante la triangulación de los hallazgos de las entrevistas de campo y la literatura sectorial reciente, la cual subraya que la dependencia de procesos manuales y la barrera de adopción de software complejo extienden drásticamente los tiempos de recuperación frente a fallas (Senseye, 2022; Narula et al., 2023).
+
+**Gráfico 1: Árbol de problemas**
+
+![Árbol de Problemas FixCore](Assets/Images/arbol_problemas.png)
+
+*Fuente: Elaboración propia.*
+
+### Diagrama de Ishikawa
+
+Para complementar el análisis estructural, se aplicó el Diagrama de Ishikawa (Espina de Pescado) categorizando las causas raíz en seis ejes fundamentales: Proceso, Personas, Tecnología, Información, Entorno y Gestión[cite: 6]. Este desglose sistemático no solo demuestra el rigor metodológico, sino que también justifica la multidimensionalidad de la solución FixCore al validar las causas operativas (p. ej., la necesidad de Tecnología móvil para superar las limitaciones del Entorno ruidoso de planta y la agilidad de Proceso para combatir la comunicación fragmentada).
+
+**Gráfico 2: Diagrama de Ishikawa**
+
+![Diagrama de Ishikawa FixCore](Assets/Images/diagrama_ishikawa.png)
+
+*Fuente: Elaboración propia.*
 
 ### 2.3.1. User Personas. 
 
