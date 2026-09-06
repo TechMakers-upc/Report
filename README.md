@@ -286,8 +286,6 @@ Para complementar el análisis estructural, se aplicó el Diagrama de Ishikawa (
 
 ## 2.5. Ubiquitous Language. 
 
-### 2.5. Ubiquitous Language
-
 Es el lenguaje común compartido entre desarrolladores y expertos del negocio que se formula para alinear modelos mentales y eliminar ambigüedades. Este lenguaje asegura que tanto la documentación técnica como el código fuente final de FixCore utilicen exactamente los mismos términos definidos para el dominio de mantenimiento industrial.
 
 | Concepto | Definición |
