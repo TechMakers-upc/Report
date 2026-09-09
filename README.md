@@ -372,7 +372,7 @@ El estado actual del mantenimiento industrial se ha centrado principalmente en c
 
 | Campo | Detalle |
 | :--- | :--- |
-| **Nombre y apellido** | ![Caterina Villanueva ](Assets/Images/caterina.png)|
+| **Nombre y apellido** | Caterina Villanueva ![Caterina Villanueva ](Assets/Images/caterina.png)|
 | **Edad** | 35 años | 
 | **Ubicación** | San miguel |
 | **Inicio de la entrevista** | 11:59 am |
