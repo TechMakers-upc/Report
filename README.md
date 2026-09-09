@@ -640,6 +640,63 @@ El sistema tipográfico de FixCore sigue un ritmo diseñado para evitar el desor
 *   Los números utilizados en tablas e inventarios utilizan tabulación monoespaciada automática (tabular lining) para que los códigos de repuestos y los precios se alineen perfectamente en columnas.
 *   Las etiquetas de estado (badges) utilizan un incremento de espaciado entre letras (tracking de +0.05em) y van siempre en mayúsculas para asegurar visibilidad a distancia.
 
+#### 4.1.1.3. Color Palette
+
+La paleta de colores de FixCore está diseñada para comunicar solidez técnica y agilidad operativa, manteniendo una legibilidad extrema para entornos industriales donde la iluminación puede ser deficiente o las pantallas pueden tener brillo reducido. Cada color tiene un propósito específico en el flujo de reporte y gestión de mantenimiento.
+
+**Esquema de Color Primario**
+
+El esquema de color primario de FixCore transmite tecnología, precisión y control centralizado:
+
+*   **Core Blue (#38bdf8 - Sky 400):** El azul eléctrico de FixCore representa el núcleo del sistema, la conectividad y la eficiencia tecnológica. Es el color principal utilizado para botones de acción primarios (ej. "Crear Orden de Trabajo"), enlaces de navegación, estados activos y elementos centrales del dashboard. Su tono brillante garantiza un alto contraste sobre fondos oscuros, evocando un panel de control moderno.
+*   **Core Dark (#0284c7 - Sky 600):** Una versión más profunda del azul primario, utilizada para estados *hover* (al pasar el cursor) y para dar énfasis estructural en las tarjetas de información de las máquinas, manteniendo la jerarquía sin saturar la vista.
+*   **Core Light (#7dd3fc - Sky 300):** Una versión más clara utilizada para fondos sutiles, selección de pestañas o para resaltar filas específicas dentro del inventario de repuestos.
+
+**Esquema de Color Secundario**
+
+El esquema secundario se centra en el estado de salud de la maquinaria y la finalización de tareas:
+
+*   **Operational Green (#10b981 - Emerald 500):** El verde en FixCore representa máquinas operativas, salud de los activos y éxito. Se utiliza exclusivamente para:
+    *   Estado "Operativo" en el panel de maquinaria.
+    *   Órdenes de Trabajo (OT) marcadas como "Completadas".
+    *   Indicadores de mantenimiento preventivo al día.
+*   **Operational Green Dark (#047857 - Emerald 700):** Versión más oscura para estados *hover* en botones de confirmación o cierre de tareas.
+
+**Esquema de Color de Alerta**
+
+En el mantenimiento industrial, las alertas equivalen a dinero y tiempo, por lo que estos colores comunican urgencia de forma inequívoca:
+
+*   **Warning Amber (#f59e0b - Amber 500):** Naranja/Ámbar para advertencias de nivel medio y programación pendiente. Utilizado para:
+    *   Mantenimientos preventivos próximos a vencer.
+    *   Stock bajo de repuestos en el inventario.
+    *   Máquinas operando con advertencias de rendimiento.
+*   **Downtime Red (#ef4444 - Red 500):** Rojo para fallas críticas, inactividad y pérdidas de producción. Su uso es estricto y llama a la acción inmediata:
+    *   Estado "Falla" o "Tiempo Muerto" (Downtime) de una máquina.
+    *   Alertas críticas enviadas por webhook al WhatsApp del Jefe de Planta.
+    *   Acciones destructivas (ej. "Eliminar activo").
+
+**Paleta de Colores Neutral**
+
+Los colores neutrales (basados en tonos fríos/pizarra) construyen la estructura visual, permitiendo un modo oscuro eficiente y un modo claro de alto contraste para las fábricas:
+
+*   **White (#ffffff):** Color de fondo primario para tarjetas de información y formularios en el modo claro.
+*   **Slate 50 (#f8fafc):** Fondo general de la aplicación para reducir el cansancio visual frente al blanco puro.
+*   **Slate 100 (#f1f5f9):** Fondo para barras de navegación laterales y separadores de secciones de maquinaria.
+*   **Slate 200 (#e2e8f0):** Bordes sutiles en tablas de historiales y divisiones de celdas.
+*   **Slate 300 (#cbd5e1):** Bordes de campos de entrada (inputs) en los formularios de reporte.
+*   **Slate 400 (#94a3b8):** Iconos secundarios y texto de apoyo (ej. "Última revisión hace 2 días").
+*   **Slate 500 (#64748b):** Texto descriptivo en las tarjetas de inventario y manuales.
+*   **Slate 700 (#334155):** Cuerpo de texto principal, descripciones de fallas y detalles técnicos.
+*   **Slate 900 (#0f172a):** Texto de máxima jerarquía, títulos de máquinas y métricas clave en fondos claros; utilizado también como fondo principal para la interfaz en Modo Oscuro.
+
+**Uso de Color en la Interfaz**
+
+El sistema de color de FixCore obedece a estrictas normativas de seguridad industrial y accesibilidad:
+
+*   El color **nunca** es el único indicador de una falla (las alertas rojas siempre van acompañadas del texto "FALLA" y un icono de advertencia).
+*   Se prioriza el contraste ultra-alto (superando el estándar WCAG AA) debido a que los operarios utilizan las pantallas bajo luces fluorescentes industriales o luz solar directa.
+*   Los estados interactivos responden de forma evidente (cambio de color + sombra + elevación) para confirmar las acciones táctiles rápidas del técnico en planta.
+
 ### 4.1.2. Web Style Guidelines. 
 
 ## 4.2. Information Architecture. 
