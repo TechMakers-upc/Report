@@ -20,7 +20,7 @@
 
 **Startup:** TechMakers
 
-**Producto:** 
+**Producto:** FixCore
 
 **Relación de integrantes:**
 
@@ -165,6 +165,14 @@ La visión de TechMakers es conseguir que Fixcore se convierta progresivamente e
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
+| Integrante | Descripcion | 
+| :--- | :--- | 
+|  | | 
+|  |  | 
+|  |Mendoza Boluarte Pierre (u202320973) | 
+|  | | 
+|  |  | 
+
 
 ## 1.2. Solution Profile 
 
@@ -251,9 +259,11 @@ El estado actual del mantenimiento industrial se ha centrado principalmente en c
   <img src="Assets/Images//lean-ux-canvas.png" alt="Lean UX Canvas FixCore" />
 </div>
 
+*Fuente: Elaboración propia.*
+
 ## 1.3. Segmentos objetivo. 
 
-## Segmento 1: Pymes de Manufactura y Producción
+> **Segmento 1: Pymes de Manufactura y Producción**
 
 * **Segmento objetivos:** Jefes de planta, coordinadores de producción y gerentes de mantenimiento interno en pequeñas y medianas empresas del sector manufacturero.
 * **Descripción:** Unidades productivas que dependen de la disponibilidad continua de su maquinaria (como envasadoras, tornos o fajas transportadoras). Su necesidad principal es reducir los tiempos de inactividad, solicitar asistencia técnica de forma inmediata y llevar un control sobre sus equipos para evitar paradas de emergencia en su línea de producción.
@@ -265,7 +275,7 @@ El estado actual del mantenimiento industrial se ha centrado principalmente en c
 * **Clase social:** B y C.
 * **Datos de sustento:** Durante el último año, el sector manufacturero peruano experimentó una contracción del 6,65 % en su producción; sin embargo, la inversión en bienes de capital (compra de nueva maquinaria) aumentó cerca de un 8 % (INEI, 2024). Este escenario obliga a las fábricas a proteger su nueva inversión, maximizando la vida útil de sus máquinas y reduciendo al mínimo los gastos por fallas imprevistas mediante plataformas de gestión centralizada.
 
-## Segmento 2: Firmas Consultoras y Contratistas de Ingeniería Industrial
+> **Segmento 2: Firmas Consultoras y Contratistas de Ingeniería Industrial**
 
 * **Segmento objetivos:** Dueños, gerentes de operaciones o supervisores de planificación en empresas proveedoras de servicios de consultoría, mantenimiento industrial y reparación de maquinaria.
 * **Descripción:** Organizaciones B2B dedicadas a ejecutar planes de mantenimiento preventivo y correctivo para terceros. Requieren centralizar la asignación de técnicos en campo, gestionar inventarios de repuestos y asegurar el cumplimiento de sus tiempos de atención mediante herramientas digitales que eliminen el uso de papel.
@@ -355,7 +365,35 @@ El estado actual del mantenimiento industrial se ha centrado principalmente en c
 
 ### 2.2.1. Diseño de entrevistas. 
 
-### 2.2.2. Registro de entrevistas. 
+
+### 2.2.2. Registro de entrevistas.
+
+### Segmento 1 : Pymes de Manufactura y Producción 
+| Campo | Detalle |
+| :--- | :--- |
+| **Nombre y apellido** | Carla Aguilar |
+| **Edad** | 26 años | 
+| **Ubicación** | Magdalena del Mar |
+| **Inicio de la entrevista** |  |
+| **Duración** |  |
+| **Enlace** | aca colocamos el link del video (todas las entrevistas juntas en uno solo)|
+
+> **Resumen:**
+> Carla es una profesional muy práctica y siempre enfocada en cumplir las metas de producción de la fábrica. Su personalidad es directa y prefiere soluciones rápidas antes que cosas complicadas o muy visuales. A nivel tecnológico se defiende bastante bien y confía en marcas duraderas como Samsung para su celular personal y equipos Dell para su computadora de oficina. En su día a día utiliza el navegador Google Chrome para gestionar sus correos y hojas de cálculo. Su principal canal de comunicación es WhatsApp, una herramienta que usa tanto para hablar con su familia como para dirigir a todo su equipo de operarios. Durante la charla mostró mucha frustración porque la información importante se pierde entre tantos mensajes del chat grupal. La propuesta de nuestra plataforma le llamó bastante la atención, en especial la idea de que los operarios puedan reportar fallas haciendo solo un par de clics desde sus teléfonos, y valoró mucho la posibilidad de recibir alertas automáticas directo a su celular para no tener que estar adivinando qué pasa en la planta.
+
+
+### Segmento 2 : Firmas Consultoras y Contratistas de Ingeniería Industrial
+| Campo | Detalle |
+| :--- | :--- |
+| **Nombre y apellido** | Valeria Salazar |
+| **Edad** | 34 años | 
+| **Ubicación** | San Miguel |
+| **Inicio de la entrevista** |  |
+| **Duración** |  |
+| **Enlace** | aca colocamos el link del video (todas las entrevistas juntas en uno solo)|
+
+> **Resumen:**
+> Valeria tiene una mentalidad muy orientada a los negocios y analiza todo desde el punto de vista de la rentabilidad. Su mayor preocupación todos los días es mantener contentos a sus clientes corporativos y aprovechar al máximo las horas de trabajo de sus técnicos. Ella es usuaria de productos Apple y maneja toda su agenda desde su iPhone y su iPad, mientras que en la oficina prefiere usar un navegador comun en su entorno para revisar correos y contratos. Se nota que confía en marcas industriales de prestigio, ya que siempre busca mostrar profesionalismo y seguridad. En la entrevista indico se cansa por la cantidad de trabajo manual que implica armar reportes distintos para cada cliente,considera que el sistema encaja perfecto con lo que necesitan porque funcionaría como un panel de control central para monitorear a todas las plantas al mismo tiempo. Además, le pareció justo un modelo de pago basado en la cantidad de operarios que usan la plataforma y destacó que esta tecnología le serviría como una excelente herramienta de ventas para demostrar innovación.
 
 ### 2.2.3. Análisis de entrevistas. 
 
@@ -375,7 +413,7 @@ En conjunto, esta literatura reciente confirma que existe una necesidad sostenid
 
 El Árbol de Problemas fue elaborado para jerarquizar visualmente la problemática, estableciendo una relación de causalidad entre el problema central —la ineficiencia y altos costos por tiempos muertos (downtime) en la gestión de mantenimiento industrial de pymes y sus efectos. Las Causas (raíces) y los Efectos (impactos) identificados fueron validados mediante la triangulación de los hallazgos de las entrevistas de campo y la literatura sectorial reciente, la cual subraya que la dependencia de procesos manuales y la barrera de adopción de software complejo extienden drásticamente los tiempos de recuperación frente a fallas (Senseye, 2022; Narula et al., 2023).
 
-**Gráfico 1: Árbol de problemas**
+**Gráfico 2: Árbol de problemas**
 
 ![Árbol de Problemas FixCore](Assets/Images/arbol_problemas.png)
 
@@ -385,7 +423,7 @@ El Árbol de Problemas fue elaborado para jerarquizar visualmente la problemáti
 
 Para complementar el análisis estructural, se aplicó el Diagrama de Ishikawa (Espina de Pescado) categorizando las causas raíz en seis ejes fundamentales: Proceso, Personas, Tecnología, Información, Entorno y Gestión[cite: 6]. Este desglose sistemático no solo demuestra el rigor metodológico, sino que también justifica la multidimensionalidad de la solución FixCore al validar las causas operativas (p. ej., la necesidad de Tecnología móvil para superar las limitaciones del Entorno ruidoso de planta y la agilidad de Proceso para combatir la comunicación fragmentada).
 
-**Gráfico 2: Diagrama de Ishikawa**
+**Gráfico 3: Diagrama de Ishikawa**
 
 ![Diagrama de Ishikawa FixCore](Assets/Images/diagrama_ishikawa.png)
 
