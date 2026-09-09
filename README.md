@@ -182,10 +182,15 @@ A continuación, se presentan los integrantes de TechMakers y las principales ca
 
 ## 1.2. Solution Profile 
 
-### 1.2.1 Antecedentes y problemática 
+### 1.2.1 Antecedentes y problemática
 
-Para entender el contexto de Fixcore, analizamos la situación del sector manufacturero en el Perú el cual es un pilar fundamental para la economía que necesita optimización constante. Según datos del Instituto Nacional de Estadística e Informática (INEI), en el año 2023 el sector manufactura contribuyó con un 12,2 % al Producto Bruto Interno (PBI) nacional, sin embargo este sector experimentó una disminución del 6,6 % en su producción durante ese mismo año haciendo que las empresas industriales busquen mayor eficiencia y reducir sobrecostos operativos. Una de las principales vías para lograrlo es la modernización de la gestión de sus activos físicos. Investigaciones como la de la firma consultora McKinsey & Company demuestran que el pasar de un modelo de mantenimiento reactivo a enfoques preventivos y predictivos permite reducir los costos generales de mantenimiento entre un 18 % y un 25 %.También se podemos decir que la implementación de estas tecnologías logran disminuir el tiempo de inactividad no planificado hasta en un 50 %.
-Aunque el impacto positivo de la digitalización es notoria apreciamos que los contratistas de servicios técnicos y los administradores de pymes industriales sufren graves fricciones en su operación diaria. El problema se centra en las dificultades para gestionar eficientemente las programaciones de mantenimiento y el inventario de repuestos necesarios. Esto pasa porque la gran mayoría sigue empleando métodos como cuadernos de cargo, pizarras o herramientas digitales como hojas de Excel, que no brindan soporte adecuado a un modelo de negocio que puede escalar. Al no contar con un sistema especializado las fechas de servicio preventivo caducan sin previo aviso, se sufre de falta de stock en piezas clave y los equipos fallan de repente. Entonces esta carencia de control provoca paradas de emergencia en las líneas de producción lo que eleva drásticamente los costos de reparación y afecta la rentabilidad de las empresas involucradas.
+Para entender el contexto de FixCore, analizamos la situación del sector manufacturero en el Perú, el cual representa una parte importante de la economía nacional y requiere una mejora constante de sus procesos. Según datos del Instituto Nacional de Estadística e Informática (INEI), en 2023 el sector manufactura contribuyó con un 12,2 % al Producto Bruto Interno (PBI) nacional. Sin embargo, durante ese mismo año presentó una disminución del 6,6 % en su producción, lo que genera la necesidad de buscar una mayor eficiencia y reducir los sobrecostos operativos.
+
+Una de las formas de lograrlo es mediante una mejor gestión de los activos y del mantenimiento de la maquinaria. Investigaciones de McKinsey & Company señalan que pasar de un modelo de mantenimiento reactivo a enfoques preventivos y predictivos puede reducir los costos generales de mantenimiento entre un 18 % y un 25 %. Además, este tipo de mejoras puede contribuir a disminuir el tiempo de inactividad no planificado.
+
+A pesar de los beneficios de la digitalización, los contratistas de servicios técnicos y los administradores de pymes industriales todavía presentan dificultades en sus actividades diarias. Uno de los principales problemas es la gestión de las fechas de mantenimiento y el control del inventario de repuestos. Muchas empresas continúan utilizando cuadernos, pizarras y hojas de Excel para registrar esta información, lo que dificulta mantenerla organizada y actualizada.
+
+Como consecuencia, algunos mantenimientos pueden realizarse fuera de la fecha prevista, pueden faltar repuestos necesarios para una reparación o una falla puede tardar más tiempo en ser atendida. Estas situaciones pueden generar paradas no planificadas en las líneas de producción, mayores costos de reparación y pérdidas para las empresas involucradas.
 
 
 ---
@@ -193,22 +198,25 @@ Aunque el impacto positivo de la digitalización es notoria apreciamos que los c
 
 | Pregunta | Formulación | Respuesta |
 | :--- | :--- | :--- |
-| **Who?** | ¿Quienes son los afectados? | Firmas contratistas de servicio técnico industrial y dueños o administradores de Pymes del sector manufacturero. |
-| **What?** | ¿Cual es el problema? | Dificultades para planificar fechas de mantenimiento y controlar el inventario de repuestos debido al uso de registros manuales y sistemas desconectados. |
-| **Where?** | ¿Dónde ocurre? | En plantas de producción, fábricas, talleres industriales, negocios con equipamiento industrial en el Perú. |
-| **When?** | ¿Cuando se hace la evidencia? | Durante la operación diaria, especialmente cuando caduca la fecha de revisión de una máquina y puede llegar a ocurrir una falla imprevista o se requiere un repuesto urgente que no está en almacén a falta de stock que no se previó anteriormente. |
-| **Why?** | ¿Por qué ocurre? | Porque dependen de cuadernos de cargo, pizarras y hojas de excel, lo que impide generar alertas automáticas, rastrear el historial técnico y sincronizar el inventario. |
-| **How?** | ¿Cómo se manifiesta? | A través de paradas de planta no planificadas a causa de máquinas paralizadas sin previo aviso por fallas técnicas, falta de stock de piezas críticas y desorganización en las visitas de los técnicos. |
-| **How Much?** | ¿Cuál es la magnitud? | Las paradas de emergencia y fallas imprevistas pueden llegar a paralizar líneas enteras de producción, lo que genera sobrecostos operativos no esperados, por reparaciones reactivas que impactan directamente en la rentabilidad de los afectados. |
-
+| **Who?** | ¿Quiénes son los afectados? | Firmas contratistas de servicio técnico industrial y dueños o administradores de pymes del sector manufacturero. |
+| **What?** | ¿Cuál es el problema? | Dificultades para planificar las fechas de mantenimiento y controlar el inventario de repuestos debido al uso de registros manuales y sistemas desconectados. |
+| **Where?** | ¿Dónde ocurre? | En plantas de producción, fábricas, talleres industriales y negocios con equipamiento industrial en el Perú. |
+| **When?** | ¿Cuándo ocurre el problema? | Durante la operación diaria, especialmente cuando se aproxima o vence una fecha de mantenimiento, ocurre una falla imprevista o se necesita un repuesto que no se encuentra disponible. |
+| **Why?** | ¿Por qué ocurre? | Porque muchas empresas dependen de cuadernos, pizarras y hojas de Excel, lo que dificulta generar alertas, consultar el historial técnico y mantener actualizado el inventario. |
+| **How?** | ¿Cómo se manifiesta? | Mediante paradas no planificadas, fallas atendidas con demora, falta de repuestos y desorganización en la coordinación de los técnicos. |
+| **How Much?** | ¿Cuál es la magnitud? | El problema puede generar tiempos muertos, reparaciones de emergencia y sobrecostos que afectan directamente la productividad y rentabilidad de las empresas. |
 
 ---
 
 ### 1.2.2 Lean UX Process. 
 
-#### 1.2.2.1. Lean UX Problem Statements. 
+#### 1.2.2.1. Lean UX Problem Statements.
 
-El estado actual del mantenimiento industrial se ha centrado principalmente en contratistas de servicio técnico y pymes manufactureras que aún dependen de cuadernos de cargo, pizarras acrílicas o tablas de Excel aisladas para programar sus revisiones y controlar los repuestos utilizados. Lo que los productos y servicios actuales no logran resolver es una plataforma web accesible y adaptable que unifique la programación preventiva de los equipos con el control de inventario y el seguimiento operativo, sin requerir implementaciones de software costosas o complejas. Nuestro producto abordará esta brecha mediante Fixcore, una aplicación web SaaS intuitiva que centraliza los perfiles técnicos de la maquinaria, ofrece un calendario interactivo de mantenimientos, automatiza alertas de vencimiento y descuenta repuestos en tiempo real. Nuestro enfoque inicial serán las firmas contratistas de mantenimiento industrial y los administradores de planta en pymes manufactureras. Sabremos que tenemos éxito cuando al menos el 75% de los operarios utilice la aplicación web desde sus dispositivos durante su turno, los clientes reduzcan sus paradas de máquina no planificadas en al menos un 30% y los quiebres de stock de repuestos críticos disminuyan en un 25%.
+El estado actual del mantenimiento industrial se ha centrado principalmente en contratistas de servicio técnico y pymes manufactureras que aún dependen de cuadernos de cargo, pizarras o archivos de Excel aislados para programar sus revisiones y controlar los repuestos utilizados. Lo que los productos y servicios actuales no logran resolver es la falta de una solución web accesible y adaptable que unifique la programación preventiva de los equipos, el control de inventario y el seguimiento operativo, sin requerir implementaciones costosas o complejas.
+
+Nuestro producto abordará esta brecha mediante FixCore, una aplicación web SaaS intuitiva que centraliza los perfiles técnicos de la maquinaria, ofrece un calendario de mantenimientos, genera alertas de vencimiento y permite mantener actualizado el inventario de repuestos.
+
+Nuestro enfoque inicial serán las firmas contratistas de mantenimiento industrial y los administradores de planta en pymes manufactureras. Sabremos que tenemos éxito cuando al menos el 75 % de los operarios utilice la aplicación web durante su turno, los clientes reduzcan sus paradas de máquina no planificadas en al menos un 30 % y los quiebres de stock de repuestos críticos disminuyan en un 25 %.
 
 #### 1.2.2.2. Lean UX Assumptions. 
 
@@ -231,12 +239,13 @@ El estado actual del mantenimiento industrial se ha centrado principalmente en c
 * Creemos que el 85% de los clientes renovará su suscripción mensual tras ver el orden operativo en sus talleres.
 
 **User Assumptions**
-* **¿Quién es el usuario?** El supervisor o jefe de mantenimiento, que organiza la programación y el técnico operario que consulta tareas y reporta desde la planta.
-* **¿Dónde encaja nuestro producto?** En la rutina diaria del taller y de la planta de producción, sirviendo como la bitácora oficial y centralizada del negocio.
-* **¿Qué problemas tiene?** La falta de alertas en las revisiones y el desconocimiento del stock real de piezas.
-* **¿Cuándo y cómo es usado?** De manera continua durante los turnos de trabajo mediante navegadores web desde PCs, tablets o smartphones.
-* **¿Qué características son importantes?** Calendario interactivo, perfiles digitales de máquinas, control de repuestos y notificaciones automáticas.
-* **¿Cómo debe verse?** Una interfaz web limpia, moderna, con navegación intuitiva y diseñada bajo los estándares para facilitar la lectura.
+
+* Creemos que nuestros principales usuarios serán los supervisores o jefes de mantenimiento que organizan las actividades y los técnicos operarios que ejecutan tareas y reportan desde la planta.
+* Creemos que FixCore será utilizado como una herramienta central para organizar las actividades diarias de mantenimiento dentro de talleres y plantas de producción.
+* Creemos que los usuarios tienen dificultades debido a la falta de alertas de mantenimiento y al desconocimiento del stock disponible de repuestos.
+* Creemos que los usuarios utilizarán la plataforma durante sus turnos de trabajo desde computadoras, tablets o smartphones.
+* Creemos que los usuarios necesitan principalmente un calendario de mantenimiento, perfiles digitales de las máquinas, control de repuestos y notificaciones automáticas.
+* Creemos que los usuarios necesitan una interfaz web limpia, sencilla y fácil de utilizar durante sus actividades diarias.
 
 **User Outcome and Benefit Assumptions**
 * Creemos que los jefes quieren organizar mejor las tareas para evitar el pago excesivo de horas extras por emergencias.
@@ -245,19 +254,24 @@ El estado actual del mantenimiento industrial se ha centrado principalmente en c
 * Creemos que todos los involucrados quieren eliminar los errores causados por documentos extraviados o ilegibles.
 
 **Feature Assumptions**
-* El calendario interactivo permitirá visualizar y reasignar mantenimientos diarios de manera ágil.
-* Los perfiles de maquinaria digitalizarán manuales, marcas y modelos en una vista centralizada.
-* El módulo de inventario actualizará las existencias automáticamente al cerrar una orden de servicio.
-* El sistema de notificaciones enviará alertas antes de que caduquen las fechas de revisión preventiva.
-* El panel principal (Dashboard) mostrará métricas y resúmenes gráficos del estado de las operaciones.
 
-#### 1.2.2.3. Lean UX Hypothesis Statements. 
+* Creemos que un calendario interactivo permitirá visualizar y reasignar los mantenimientos diarios de manera más organizada.
+* Creemos que los perfiles digitales de maquinaria permitirán centralizar manuales, marcas, modelos e información importante de cada equipo.
+* Creemos que un módulo de inventario permitirá mantener actualizado el stock de repuestos utilizados en las órdenes de trabajo.
+* Creemos que un sistema de notificaciones permitirá avisar con anticipación sobre mantenimientos próximos y situaciones importantes.
+* Creemos que un panel principal permitirá a los responsables consultar métricas y resúmenes sobre el estado de las operaciones.
 
-* **Hipótesis 1:** Creemos que reduciremos las compras de emergencia en un 15% si los jefes de mantenimiento obtienen alertas automáticas cuando un repuesto se está acabando con el módulo de control de inventario en tiempo real.
-* **Hipótesis 2:** Creemos que los técnicos reportan sus trabajos un 20% más rápido si los operarios de campo obtienen un acceso inmediato a las fichas técnicas y manuales desde cualquier dispositivo con la aplicación web adaptable.
-* **Hipótesis 3:** Creemos que lograremos una alta adopción de la plataforma si el personal técnico obtiene un flujo de trabajo simplificado para registrar reparaciones sin escribir de más con las órdenes de trabajo digitales de la interfaz web.
-* **Hipótesis 4:** Creemos que el 85% de las empresas se quedarán con nosotros si los dueños y gerentes obtienen reportes claros sobre el comportamiento de sus máquinas con el panel de control analítico de la plataforma.
+#### 1.2.2.3. Lean UX Hypothesis Statements.
 
+* **Hipótesis 1:** Creemos que reduciremos las paradas de máquina no planificadas si los jefes de mantenimiento pueden organizar mejor las revisiones de los equipos mediante un calendario interactivo de mantenimientos.
+
+* **Hipótesis 2:** Creemos que los técnicos podrán realizar sus actividades de manera más rápida si pueden consultar la información y los manuales de las máquinas mediante perfiles digitales centralizados.
+
+* **Hipótesis 3:** Creemos que reduciremos las compras de repuestos de emergencia en un 15 % si los jefes de mantenimiento pueden conocer el stock disponible mediante un módulo de inventario actualizado.
+
+* **Hipótesis 4:** Creemos que reduciremos las paradas no planificadas si los responsables de mantenimiento reciben avisos con anticipación mediante un sistema de notificaciones automáticas.
+
+* **Hipótesis 5:** Creemos que aumentaremos la permanencia de los clientes en la plataforma si los dueños y gerentes pueden conocer de forma clara el estado de sus máquinas mediante un panel de métricas y reportes.
 #### 1.2.2.4. Lean UX Canvas. 
 
 <div align="center">
