@@ -547,7 +547,7 @@ Es el lenguaje común compartido entre desarrolladores y expertos del negocio qu
 |:--------------|:-----|:----------|:----------------------|:--------------|
 ||||||
 
-## 3.2. Impact Mapping. 
+## 3.2. Impact Mapping. a
 
 
 ## 3.3. Product Backlog. 
