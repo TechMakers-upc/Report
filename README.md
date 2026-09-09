@@ -370,14 +370,44 @@ El estado actual del mantenimiento industrial se ha centrado principalmente en c
 
 ### Segmento 1 : Pymes de Manufactura y Producción 
 
-| Foto | Campo | Detalle |
-| :---: | :--- | :--- |
-| <img src="Assets/Images/caterina.png" alt="Caterina Villanueva" width="130"> | **Nombre y apellido** | Caterina Villanueva |
-| | **Edad** | 35 años |
-| | **Ubicación** | San Miguel |
-| | **Inicio de la entrevista** | 11:59 am |
-| | **Duración** | 4.56 min |
-| | **Enlace** | [aca colocamos el link del video (todas las entrevistas juntas en uno solo)](URL_DEL_VIDEO) |
+<table>
+  <thead>
+    <tr>
+      <th align="center">Foto</th>
+      <th align="left">Campo</th>
+      <th align="left">Detalle</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="6" align="center" valign="middle" width="200">
+        <img src="Assets/Images/caterina.png" alt="Caterina Villanueva" width="160">
+      </td>
+      <td><strong>Nombre y apellido</strong></td>
+      <td>Caterina Villanueva</td>
+    </tr>
+    <tr>
+      <td><strong>Edad</strong></td>
+      <td>35 años</td>
+    </tr>
+    <tr>
+      <td><strong>Ubicación</strong></td>
+      <td>San Miguel</td>
+    </tr>
+    <tr>
+      <td><strong>Inicio de la entrevista</strong></td>
+      <td>11:59 am</td>
+    </tr>
+    <tr>
+      <td><strong>Duración</strong></td>
+      <td>4.56 min</td>
+    </tr>
+    <tr>
+      <td><strong>Enlace</strong></td>
+      <td><a href="URL_DEL_VIDEO">aca colocamos el link del video (todas las entrevistas juntas en uno solo)</a></td>
+    </tr>
+  </tbody>
+</table>
 
 **Resumen:**
 **¿Cuál es tu nombre, edad y qué cargo ocupas en la planta?**
