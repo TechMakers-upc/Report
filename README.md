@@ -372,15 +372,15 @@ El estado actual del mantenimiento industrial se ha centrado principalmente en c
 
 | Campo | Detalle |
 | :--- | :--- |
-| **Nombre y apellido** | Caterina Villanueva |
+| **Nombre y apellido** | ![Caterina Villanueva ](Assets/Images/caterina.png)|
 | **Edad** | 35 años | 
 | **Ubicación** | San miguel |
 | **Inicio de la entrevista** | 11:59 am |
 | **Duración** | 4.56 min |
 | **Enlace** | aca colocamos el link del video (todas las entrevistas juntas en uno solo)|
 
-> **Resumen:**
-> **¿Cuál es tu nombre, edad y qué cargo ocupas en la planta?**
+**Resumen:**
+**¿Cuál es tu nombre, edad y qué cargo ocupas en la planta?**
 Mi nombre es Caterina, tengo 35 años y soy coordinadora de producción. Principalmente superviso que la producción se desarrolle con normalidad y coordino con el área de mantenimiento cuando ocurre algún problema con las máquinas.
 
 **¿A qué sector industrial pertenece la empresa y, aproximadamente, cuántas máquinas principales operan?**
