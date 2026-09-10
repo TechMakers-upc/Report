@@ -799,6 +799,30 @@ Los formularios en FexCore están diseñados para requerir menos de 3 clics y mi
 **Secondary Navigation (Breadcrumbs)**
 * Vital para la estructura jerárquica industrial. Rastrea la ubicación exacta: `Planta Lima > Área de Empaque > Faja Transportadora B > Motor Eléctrico`.
 
+#### 4.1.2.5. Accessibility Guidelines
+
+FexCore cumple con el estándar WCAG AA, priorizando las realidades del trabajo físico.
+
+**Visual Accessibility (Visibilidad en Planta)**
+* Contraste ultra-alto (> 4.5:1). El sistema debe ser legible bajo la luz solar intensa o la luz fluorescente parpadeante de una fábrica.
+* Las alertas de estado no dependen solo del color: una luz roja siempre va acompañada de la palabra en negrita "**FALLA CRÍTICA**" y un icono triangular de advertencia.
+
+**Keyboard Navigation & Screen Readers**
+* Soporte total de teclado (Tab, Enter, Space) y etiquetas ARIA para garantizar que el software sea utilizable por personal de oficina con limitaciones motrices o de visión.
+
+#### 4.1.2.6. Animation Guidelines
+
+En un entorno industrial, la velocidad supera a la estética. Las animaciones en FexCore son pragmáticas y utilitarias.
+
+**Purpose of Animations (Propósito)**
+* **Feedback inmediato:** Confirmar que un toque fue registrado para que el técnico no presione múltiples veces.
+* **Carga de datos:** Usar *Skeleton Loaders* (esquemas grises parpadeantes) en lugar de spinners para que la interfaz se sienta más rápida, crucial cuando el Wi-Fi de la fábrica es inestable.
+
+**Animation Principles**
+* **Ultrarrápidas:** 150ms-200ms como máximo. El software debe sentirse instantáneo y mecánico, no flotante ni lento.
+* Sin efectos de rebote (bounces) innecesarios; se utilizan curvas *ease-out* directas.
+* Compatibilidad total con la preferencia del sistema operativo de reducción de movimiento (*prefers-reduced-motion*).
+
 ## 4.2. Information Architecture. 
 
 ### 4.2.1. Organization Systems. 
