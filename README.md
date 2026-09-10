@@ -761,6 +761,44 @@ FexCore define los siguientes puntos de quiebre para adaptar su interfaz:
 **Fluid Typography**
 La tipografía (Roboto y Open Sans) escala mediante *viewport units* y funciones `clamp()`, asegurando que las alertas de "MÁQUINA DETENIDA" sean legibles desde la distancia en un móvil, sin verse desproporcionadas en un monitor ultrawide.
 
+#### 4.1.2.2. Web Component States
+
+Los componentes de FexCore comunican sus estados de forma inconfundible para evitar errores críticos en la gestión de mantenimiento:
+
+**Estados Interactivos**
+* **Default:** Estado base. Tarjetas en *Slate 800* (modo oscuro) o *White* con bordes sutiles en *Slate 200*.
+* **Hover (Escritorio):** El color de fondo se oscurece ligeramente (ej. de *Core Blue* a *Core Dark*), el cursor cambia a puntero y la tarjeta se eleva para indicar interactividad a los gerentes.
+* **Active/Pressed (Móvil):** Estado crítico en planta. Al presionar, el botón reduce su escala al 95% instantáneamente y oscurece su fondo, brindando retroalimentación táctil visual de que la falla fue reportada.
+* **Focus (Teclado):** Anillo de enfoque de 3px en *Core Blue*. Vital para el personal administrativo que ingresa inventarios rápidamente usando tabulación.
+* **Disabled:** Botones opacos (50%) con cursor bloqueado. Utilizado para evitar reportes duplicados cuando una máquina ya está en estado de "Falla".
+
+#### 4.1.2.3. Form Elements
+
+Los formularios en FexCore están diseñados para requerir menos de 3 clics y minimizar la fricción cognitiva del operario.
+
+**Input Fields (Campos de Entrada)**
+* Altura mínima de 48px para facilitar el toque rápido.
+* Bordes de alto contraste y tipografía grande (16px mínimo) para evitar zoom automático en móviles.
+* Mensajes de error en *Downtime Red* ubicados explícitamente debajo del campo fallido.
+
+**Buttons (Botones)**
+* **Primary:** Fondo *Core Blue*, texto blanco. Para acciones de avance (ej. "Crear Orden", "Guardar").
+* **Danger:** Fondo *Downtime Red*, texto blanco. Restringido a acciones críticas (ej. "Reportar Parada de Máquina", "Eliminar Activo").
+* **Secondary:** Borde gris y texto *Slate 700*. Para acciones cancelatorias o filtros.
+* Todos los botones móviles ocupan el 100% del ancho del contenedor.
+
+**Selects y Dropdowns**
+* Optimizados para búsquedas rápidas. Los selectores de maquinaria incluyen barras de búsqueda integradas para evitar el scroll infinito en listas de 100+ equipos.
+
+#### 4.1.2.4. Navigation Patterns
+
+**Global Navigation (Navegación Principal)**
+* **Desktop:** Barra lateral izquierda (Sidebar) oscura, expandible/colapsable, mostrando todos los módulos (Dashboard, Activos, Órdenes, Inventario).
+* **Mobile:** Barra de navegación inferior (Bottom Tab Bar) anclada a la pantalla para que el operario alcance los botones "Inicio", "Escanear QR" y "Alertas" con el dedo pulgar.
+
+**Secondary Navigation (Breadcrumbs)**
+* Vital para la estructura jerárquica industrial. Rastrea la ubicación exacta: `Planta Lima > Área de Empaque > Faja Transportadora B > Motor Eléctrico`.
+
 ## 4.2. Information Architecture. 
 
 ### 4.2.1. Organization Systems. 
