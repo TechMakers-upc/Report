@@ -742,6 +742,25 @@ La interfaz de FixCore muta drásticamente según el contexto de uso y el dispos
 
 ### 4.1.2. Web Style Guidelines. 
 
+#### 4.1.2.1. Responsive Design Principles
+
+Los principios de diseño responsivo de FexCore garantizan que la plataforma sea una herramienta de alta precisión tanto para el gerente en su oficina como para el técnico que se desplaza por la planta industrial.
+
+**Mobile-First Approach (Enfoque Técnico-Primero)**
+FexCore adopta un diseño mobile-first riguroso, asumiendo que el reporte de fallas ocurrirá en condiciones adversas (de pie, con prisa o usando guantes). Este enfoque asegura que:
+* El contenido esencial (botones de reporte y estado de la máquina) sea hiper-visible.
+* Las áreas táctiles tengan un tamaño industrial (mínimo 48x48px).
+* La versión móvil (app/PWA) esté centrada en la acción táctica, mientras que la versión de escritorio se expande hacia el análisis estratégico (dashboards y tablas complejas).
+
+**Breakpoints Established**
+FexCore define los siguientes puntos de quiebre para adaptar su interfaz:
+* **Mobile (0-767px):** Optimizado para operarios en planta. Navegación simplificada, tarjetas apiladas verticalmente y CTAs de ancho completo.
+* **Tablet (768-1023px):** Utilizado por supervisores de área en movimiento. Permite ver columnas duales y vistas previas de órdenes de trabajo.
+* **Desktop (1024-1440px):** Vista analítica para la Gerencia. Tableros de control de 12 columnas, tablas de inventario extendidas y gráficos de mantenimiento predictivo.
+
+**Fluid Typography**
+La tipografía (Roboto y Open Sans) escala mediante *viewport units* y funciones `clamp()`, asegurando que las alertas de "MÁQUINA DETENIDA" sean legibles desde la distancia en un móvil, sin verse desproporcionadas en un monitor ultrawide.
+
 ## 4.2. Information Architecture. 
 
 ### 4.2.1. Organization Systems. 
