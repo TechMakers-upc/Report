@@ -827,6 +827,74 @@ En un entorno industrial, la velocidad supera a la estética. Las animaciones en
 
 ### 4.2.1. Organization Systems. 
 
+#### 4.2.1.1. Organización del Landing Page
+
+El Landing Page de FexCore sirve como el punto de entrada principal para tomadores de decisión (Jefes de Planta, Gerentes de Operaciones) que buscan modernizar su gestión de mantenimiento. Su organización está diseñada para guiar al usuario a través de un recorrido de conversión altamente profesional y enfocado en el retorno de inversión (ROI) industrial.
+
+**Estructura Jerárquica en el Landing Page**
+
+La organización del Landing Page sigue una jerarquía visual clara que refleja el proceso lógico de evaluación B2B:
+* **Nivel 1 - Header de Impacto:** El *hero section* presenta el valor principal de FexCore de manera inmediata ("El núcleo de tu mantenimiento industrial"). El visitante entiende en menos de 3 segundos que la plataforma reduce tiempos muertos. Incluye el título principal, subtítulo explicativo, una previsualización de la interfaz móvil/dashboard, y botones de llamada a la acción primarios ("Probar Gratis" / "Solicitar Demo").
+* **Nivel 2 - Beneficios Clave:** Inmediatamente después, se presentan los diferenciadores principales en una cuadrícula de tarjetas (Baja Fricción, Trazabilidad, Alertas por WhatsApp). Responde a la pregunta: ¿Cómo FexCore elimina el caos de los reportes en papel?
+* **Nivel 3 - Módulos y Flujo de Trabajo:** Las secciones siguientes explican la funcionalidad paso a paso (1. Escanea QR, 2. Reporta Falla, 3. Reparación Rápida) y profundizan en los módulos principales (Órdenes de Trabajo, Inventario, Dashboard).
+* **Nivel 4 - Footer y Navegación Adicional:** El *footer* proporciona navegación secundaria, enlaces a políticas de privacidad, soporte técnico y opciones de contacto organizadas por función empresarial.
+
+**Principios de Organización Aplicados**
+
+La organización del Landing Page de FexCore aplica los siguientes principios:
+* **Jerarquía visual estricta:** El usuario escanea naturalmente de arriba abajo, siendo guiado desde el problema (tiempos muertos) hacia la solución (software) y la acción (demo).
+* **Progresión pragmática:** La narrativa avanza desde la promesa de valor gerencial hacia la facilidad de uso operativo, mitigando la objeción clásica de "mis técnicos no usarán un sistema complejo".
+* **Agrupación por función:** Características similares (funcionalidades de campo vs. análisis gerencial) comparten secciones visualmente delimitadas.
+
+#### 4.2.1.2. Organización de la Aplicación Web (Dashboard y Área Principal)
+
+La aplicación web de FexCore posee una estructura dual, ya que debe satisfacer a dos perfiles de usuario con necesidades diametralmente opuestas: la urgencia táctica del técnico en planta y la necesidad analítica del gerente.
+
+**Sistema de Organización Principal**
+
+La aplicación utiliza un sistema matricial que combina los siguientes enfoques:
+
+**1. Organización por audiencia (Roles de usuario):**
+* **Técnico/Operario:** El usuario que está en la fábrica reportando y solucionando fallas. Su vista (mobile-first) se organiza en torno a la inmediatez: Escanear QR, Órdenes Asignadas Hoy, Reportar Falla.
+* **Gerente/Supervisor:** El usuario que gestiona recursos y analiza datos. Su vista (desktop-first) se organiza en torno a métricas generales, aprobación de compras, control de inventario y tiempos medios de reparación (MTTR).
+
+**2. Organización por función principal (Áreas del software):**
+* **Mantenimiento:** Centro de operaciones para Órdenes de Trabajo (OTs), asignación de tareas y reportes de falla.
+* **Activos:** El catálogo completo de maquinaria, especificaciones técnicas y manuales.
+* **Inventario:** Control de repuestos, stock mínimo y valoración económica.
+* **Analítica:** Dashboards, reportes exportables en PDF/Excel y auditoría de tiempos muertos.
+
+**3. Organización cronológica y de urgencia:**
+* **Órdenes de Trabajo:** Ordenadas por prioridad (Crítica, Alta, Media) y fecha de vencimiento.
+* **Historial de Fallas:** Lista cronológica en orden inverso (más reciente primero) dentro del perfil de cada máquina.
+* **Alertas:** Registro cronológico de notificaciones automatizadas enviadas.
+
+**Esquemas de Categorización para Activos (Maquinaria)**
+
+La maquinaria en FexCore se organiza para reflejar la realidad física de la planta:
+* **Por Ubicación/Línea de Producción:** (Ej. Planta Lima > Área de Empaque > Línea 2).
+* **Por Criticidad:** (Alta, Media, Baja) para determinar qué máquina recibe atención prioritaria en caso de fallas simultáneas.
+* **Por Estado Operativo:** Operativo (Verde), En Falla (Rojo), Mantenimiento Preventivo (Ámbar).
+
+**Esquemas de Categorización para el Inventario (Repuestos)**
+
+El almacén de repuestos se organiza utilizando:
+* **Por Familia/Categoría:** Eléctricos, Mecánicos, Neumáticos, Consumibles, Hidráulicos.
+* **Por Compatibilidad:** Repuestos filtrados automáticamente según la máquina que se está reparando.
+* **Por Nivel de Stock:** Stock Crítico (requiere compra inmediata), Stock Óptimo, Exceso.
+
+#### 4.2.1.3. Estrategia de Organización para Búsqueda y Acceso Rápido
+
+En el mantenimiento industrial, el tiempo de búsqueda es tiempo de inactividad (downtime). FexCore implementa una arquitectura orientada al acceso ultrarrápido:
+
+**Accesos Directos Basados en Contexto**
+* **Para el Técnico (Planta):** Escaneo de código QR pegado en la máquina física, que abre instantáneamente el formulario de reporte de esa máquina específica sin tener que buscarla en el sistema.
+* **Para el Gerente (Oficina):** Tarjetas de KPI dinámicas en el dashboard que funcionan como filtros rápidos (ej. hacer clic en "3 Máquinas Detenidas" redirige automáticamente a la lista filtrada de esas 3 máquinas).
+
+**Colecciones y Agrupaciones Predictivas**
+* **Kits de Mantenimiento Previos (Bundles):** Agrupación de repuestos que siempre se consumen juntos (ej. "Kit de cambio de aceite: Filtro + Aceite 5W + Empaquetadura"). Al generar la Orden de Trabajo, el operario puede retirar todo el bloque con un solo clic.
+* **Autocompletado de Búsqueda:** Buscadores globales que reconocen códigos de serie parciales (SKU) o nombres coloquiales con los que los operarios llaman a las herramientas.
+
 ### 4.2.2. Labeling Systems. 
 
 ### 4.2.3. SEO Tags and Meta Tags 
