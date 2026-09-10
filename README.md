@@ -897,6 +897,76 @@ En el mantenimiento industrial, el tiempo de búsqueda es tiempo de inactividad 
 
 ### 4.2.2. Labeling Systems. 
 
+Aquí el equipo explica de qué maneras se representarán los datos, priorizando la agilidad operativa y buscando evitar la confusión o fricción para los técnicos en planta y gerentes. En esta sección se especifican las etiquetas (con el mínimo número de palabras) a utilizar para representar los conjuntos de información y las asociaciones directas entre las mismas.
+
+#### 4.2.2.1. Principios de Etiquetado
+
+FexCore sigue principios específicos para todas las etiquetas utilizadas en la plataforma, enfocándose en la jerga industrial estandarizada:
+
+*   **Mínimo número de palabras:** Las etiquetas son cortas, directas y accionables. Máximo 2 palabras para botones tácticos (ej. "Cerrar OT") y 3 para navegación.
+*   **Lenguaje de planta (Común):** Se utilizan los términos que los técnicos e ingenieros ya emplean en su día a día. El sistema se adapta a la fábrica, no al revés.
+*   **Consistencia estricta:** Un concepto tiene una única etiqueta en todo el software. "Maquinaria" siempre se etiqueta como "Activos" para evitar duplicidad conceptual con "Equipos" o "Sistemas".
+*   **Diferenciación clara:** Las etiquetas de emergencia visualmente y textualmente se separan de las rutinarias ("Falla Crítica" vs. "Mantenimiento Preventivo").
+*   **Orientación a la acción:** Los botones utilizan verbos imperativos claros para no generar dudas en situaciones de estrés ("Reportar", "Escanear", "Cerrar").
+
+#### 4.2.2.2. Etiquetas de Navegación Principal
+
+Las etiquetas del menú principal de navegación (Sidebar y Bottom Bar):
+
+| Etiqueta | Descripción |
+| :--- | :--- |
+| **Dashboard** | Panel principal con KPIs, resumen operativo y alertas de planta |
+| **Activos** | Inventario y jerarquía de toda la maquinaria y equipos físicos |
+| **Órdenes (OTs)** | Centro de gestión de Órdenes de Trabajo (preventivas y correctivas) |
+| **Inventario** | Control de almacén, repuestos y stock de consumibles |
+| **Reportes** | Área de analítica, exportación de datos y auditoría de tiempos |
+| **Configuración** | Ajustes de perfil, permisos de usuario y estructura de la planta |
+
+#### 4.2.2.3. Etiquetas de Mantenimiento y Activos
+
+Etiquetas utilizadas para estructurar la información técnica de las máquinas:
+
+| Etiqueta | Descripción |
+| :--- | :--- |
+| **Falla / Parada** | Evento inesperado que detiene la producción (Downtime) |
+| **OT Preventiva** | Tarea de mantenimiento programada por calendario o uso |
+| **OT Correctiva** | Tarea de reparación en respuesta a una falla reportada |
+| **Downtime** | Tiempo total acumulado de inactividad de una máquina |
+| **Manuales** | Documentación técnica y diagramas adjuntos al activo |
+
+#### 4.2.2.4. Etiquetas de Inventario
+
+Etiquetas utilizadas para la gestión del almacén y repuestos:
+
+| Etiqueta | Descripción |
+| :--- | :--- |
+| **SKU** | Código único de identificación del repuesto en almacén |
+| **Stock Actual** | Cantidad física disponible del repuesto en tiempo real |
+| **Stock Mínimo** | Nivel de alerta que indica la necesidad de reabastecer |
+| **Consumibles** | Materiales de desgaste rápido (aceites, filtros, trapos) |
+| **Solicitud de Compra** | Requerimiento formal para adquirir repuestos agotados |
+
+#### 4.2.2.5. Etiquetas de Acciones de Usuario
+
+Etiquetas para los botones y flujos de interacción:
+
+| Etiqueta | Descripción |
+| :--- | :--- |
+| **Reportar Falla** | Acción de alta prioridad para alertar sobre una máquina detenida |
+| **Escanear QR** | Acción móvil para identificar un activo físicamente en planta |
+| **Iniciar OT** | Registrar el inicio del tiempo de reparación (marca el reloj) |
+| **Cerrar OT** | Finalizar la tarea, documentar la solución y consumo de repuestos |
+| **Asignar Técnico** | Acción gerencial para delegar una OT a un operario específico |
+| **Exportar PDF** | Descargar el historial o reporte de la máquina para auditorías |
+
+#### 4.2.2.6. Reglas de Asociación entre Etiquetas
+
+Las etiquetas en FexCore se relacionan de manera predecible y jerárquica:
+
+*   **Ruta Espacial (Breadcrumbs):** La navegación refleja la ubicación física real en la fábrica. *Planta > Área > Línea de Producción > Activo* (ej. Planta Lima > Empaque > Línea 2 > Faja Transportadora).
+*   **Color a Estado:** Las etiquetas de estado siempre están vinculadas a la paleta de colores. "Operativo" (Verde), "Preventivo" (Ámbar), "En Falla" (Rojo).
+*   **Botón a Acción Relacionada:** El título del formulario modal o la pantalla siguiente refleja exactamente el texto del botón presionado (Si presiona "Asignar Técnico", la ventana que se abre se titula "Asignar Técnico").
+
 ### 4.2.3. SEO Tags and Meta Tags 
 
 ### 4.2.4. Searching Systems. 
