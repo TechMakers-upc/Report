@@ -446,31 +446,145 @@ Sí, yo creo que primero iniciaría con dos o tres máquinas y ya luego para tod
 **Una vez comprobado el valor del sistema, ¿cuánto estarías dispuesta a pagar mensualmente por módulos avanzados y analítica de datos (rango en dólares o soles)?**
 Yo creo que entre 500 a 1000 soles. Incluso un poquito más. O sea, también tendría que ver qué es lo que me va a beneficiar y qué cosas van a comprender el paquete que me van a ofrecer. Pero no tendría ningún problema con pagarlo para poder optimizar los procesos.
 
-| Campo | Detalle |
-| :--- | :--- |
-| **Nombre y apellido** | Carla Aguilar |
-| **Edad** | 26 años | 
-| **Ubicación** | Magdalena del Mar |
-| **Inicio de la entrevista** |  |
-| **Duración** |  |
-| **Enlace** | aca colocamos el link del video (todas las entrevistas juntas en uno solo)|
+<table>
+  <thead>
+    <tr>
+      <th align="center">Foto</th>
+      <th align="left">Campo</th>
+      <th align="left">Detalle</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="6" align="center" valign="middle" width="200">
+        <img src="" alt="" width="160">
+      </td>
+      <td><strong>Nombre y apellido</strong></td>
+      <td>Carla Aguilar</td>
+    </tr>
+    <tr>
+      <td><strong>Edad</strong></td>
+      <td>26 años</td>
+    </tr>
+    <tr>
+      <td><strong>Ubicación</strong></td>
+      <td>Magdalena del Mar</td>
+    </tr>
+    <tr>
+      <td><strong>Inicio de la entrevista</strong></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>Duración</strong></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>Enlace</strong></td>
+      <td><a href="URL_DEL_VIDEO"></a></td>
+    </tr>
+  </tbody>
+</table>
 
-> **Resumen:**
-> Carla es una profesional muy práctica y siempre enfocada en cumplir las metas de producción de la fábrica. Su personalidad es directa y prefiere soluciones rápidas antes que cosas complicadas o muy visuales. A nivel tecnológico se defiende bastante bien y confía en marcas duraderas como Samsung para su celular personal y equipos Dell para su computadora de oficina. En su día a día utiliza el navegador Google Chrome para gestionar sus correos y hojas de cálculo. Su principal canal de comunicación es WhatsApp, una herramienta que usa tanto para hablar con su familia como para dirigir a todo su equipo de operarios. Durante la charla mostró mucha frustración porque la información importante se pierde entre tantos mensajes del chat grupal. La propuesta de nuestra plataforma le llamó bastante la atención, en especial la idea de que los operarios puedan reportar fallas haciendo solo un par de clics desde sus teléfonos, y valoró mucho la posibilidad de recibir alertas automáticas directo a su celular para no tener que estar adivinando qué pasa en la planta.
+**Resumen:**
+**¿Cuál es tu nombre, edad y qué cargo ocupas en la planta?**
+Hola mi Nombre es Carla Aguilar , tengo 26 años y soy jefa de planta
+
+**¿A qué sector industrial pertenece la empresa y, aproximadamente, cuántas máquinas principales operan?**
+La empresa es una fabrica de envases de plastico, ahorita tenemos 15 maquinas principales operando entre inyectores y sopladoras
+
+**¿Cómo gestionan actualmente el reporte de fallas de maquinaria y las órdenes de trabajo (ej. Excel, papel, grupos de WhatsApp, pizarras)?**
+Todo lo manejamos por grupos de WhatsApp y tenemos una pizarra que tambien usamos para las ordenes de trabajo, cuando es fin de mes me siento a pasar todo a un Excel para el reporte de gerencia.
+
+**¿Qué dispositivos utilizan más los operarios y técnicos durante su turno en planta (smartphones, tablets, radios)?**
+Casi todos los técnicos usan sus celulares personales, la gran mayoría cuenta con sistema Android ya que es lo mas comun creo para este sector.
+
+**¿Qué tan frecuente es que una máquina sufra tiempos muertos debido a una mala comunicación o lentitud al reportar la falla?** Nos pasa unas dos hasta tres veces en el mes. A veces la máquina empieza a fallar, el operario no me aviso a tiempo y terminamos con la línea parada por horas debido a esta falta de comunicacion y errores que se comenten
+
+**¿Cuáles son las mayores frustraciones que enfrentas al intentar consolidar la información de mantenimiento a fin de mes?**
+Mi mayor dolor de cabeza es tener que buscar en las conversaciones de WhatsApp para acordarme cuando se cambió una pieza o sobre las fallas que hubo quien lo soluciono y eso mas que nada.
+
+**¿Has intentado implementar algún software de mantenimiento anteriormente? Si es así, ¿cuál fue el resultado o la principal barrera de adopción por parte de los técnicos?**
+Una vez intentamos usar el Excel de Google pero los muchachos no querían llenarlo porque las celdas se veían muy pequeñas en sus celulares y les quitaba tiempo, ademas que algunos no entendian.
+
+**¿Qué elemento te generaría más confianza para adoptar un nuevo sistema: la facilidad de uso para el operario, la automatización de alertas, o el costo de implementación?**
+Definitivamente la facilidad de uso para el operario. Si les pongo a teclear mucho texto, simplemente no lo van a usar.
+
+**¿Cómo crees que impactaría en la productividad si los técnicos pudieran reportar una falla en menos de 3 clics desde su celular?**
+Ayudaría muchísimo. Si pueden reportar una falla en tres clics, ya no tendrían la típica excusa de que estaban ocupados y no tuvieron tiempo de avisar.
+
+**¿Qué tan útil te resultaría recibir notificaciones automáticas de fallas críticas directamente en tu WhatsApp?**
+Para mi seria genial,yo paro metida en WhatsApp todo el día, así que recibir la alerta por ahí me ahorraría estar caminando por toda la planta para ver si algo falló o esperar que me avisen si es que no se olvidaron y asi poder actuar rapidamente.
+
+**Si existiera una versión básica gratuita (modelo freemium) para probar el sistema con algunas máquinas, ¿te animarías a implementarlo en tu planta?**
+Sí me animaría totalmente. Empezaría probando con las tres máquinas inyectoras que son las más críticas para la producción.
+
+**Una vez comprobado el valor del sistema, ¿cuánto estarías dispuesta a pagar mensualmente por módulos avanzados y analítica de datos (rango en dólares o soles)?**
+Yo creo que pagaría entre 80 y 100 dólares mensuales si de verdad me soluciona todo el desorden que tenemos ahora.
 
 
 ### Segmento 2 : Firmas Consultoras y Contratistas de Ingeniería Industrial
-| Campo | Detalle |
-| :--- | :--- |
-| **Nombre y apellido** | Valeria Salazar |
-| **Edad** | 34 años | 
-| **Ubicación** | San Miguel |
-| **Inicio de la entrevista** |  |
-| **Duración** |  |
-| **Enlace** | aca colocamos el link del video (todas las entrevistas juntas en uno solo)|
+<table>
+  <thead>
+    <tr>
+      <th align="center">Foto</th>
+      <th align="left">Campo</th>
+      <th align="left">Detalle</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="6" align="center" valign="middle" width="200">
+        <img src="" alt="" width="160">
+      </td>
+      <td><strong>Nombre y apellido</strong></td>
+      <td>Valeria Salazar</td>
+    </tr>
+    <tr>
+      <td><strong>Edad</strong></td>
+      <td>34 años</td>
+    </tr>
+    <tr>
+      <td><strong>Ubicación</strong></td>
+      <td>San Miguel</td>
+    </tr>
+    <tr>
+      <td><strong>Inicio de la entrevista</strong></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>Duración</strong></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>Enlace</strong></td>
+      <td><a href="URL_DEL_VIDEO"></a></td>
+    </tr>
+  </tbody>
+</table>
 
-> **Resumen:**
-> Valeria tiene una mentalidad muy orientada a los negocios y analiza todo desde el punto de vista de la rentabilidad. Su mayor preocupación todos los días es mantener contentos a sus clientes corporativos y aprovechar al máximo las horas de trabajo de sus técnicos. Ella es usuaria de productos Apple y maneja toda su agenda desde su iPhone y su iPad, mientras que en la oficina prefiere usar un navegador comun en su entorno para revisar correos y contratos. Se nota que confía en marcas industriales de prestigio, ya que siempre busca mostrar profesionalismo y seguridad. En la entrevista indico se cansa por la cantidad de trabajo manual que implica armar reportes distintos para cada cliente,considera que el sistema encaja perfecto con lo que necesitan porque funcionaría como un panel de control central para monitorear a todas las plantas al mismo tiempo. Además, le pareció justo un modelo de pago basado en la cantidad de operarios que usan la plataforma y destacó que esta tecnología le serviría como una excelente herramienta de ventas para demostrar innovación.
+**Resumen:**
+**¿Podría indicarme su nombre, cargo y el tipo de servicios de ingeniería o mantenimiento que brinda su empresa?**
+Hola me llamo Valeria Salaza,trabajo en el area de Operaciones en mi empresa, nosotros nos dedicamos a brindar mantenimiento industrial preventivo y correctivo
+
+**¿A cuántas plantas industriales o clientes prestan servicio de manera simultánea?** Actualmente atendemos a ocho plantas fijas con las que tenemos contratos anuales
+
+**¿Cómo coordinan actualmente el despliegue de sus técnicos en campo cuando un cliente reporta una emergencia o falla en sus equipos?** Todo es a base de llamadas telefónicas y correos. Cuando un cliente reporta una emergencia, tengo que empezar a llamar uno por uno a mis técnicos para ver quién está más cerca de esa fábrica
+
+**Desde su experiencia operativa, ¿cuáles son las mayores limitaciones logísticas o tecnológicas que enfrentan para atender múltiples plantas a la vez?** Lo más limitante es el cruce de horarios y el hecho de no saber si es que tienen el repuesto exacto hasta que llega a la planta del cliente.
+
+**¿Qué tan complejo les resulta estandarizar los reportes de mantenimiento y KPIs para entregárselos a diferentes clientes?** Es un trabajo agotador,cada cliente nos pide un formato distinto para su reporte, algunos quieren PDF, otros Excel, y perdemos horas valiosas transcribiendo todo.
+
+**¿Suelen utilizar herramientas de automatización de flujos de trabajo o integración de APIs en sus operaciones diarias?** No, por ahora todo nuestro flujo operativo es completamente manual y dependemos de la memoria de los coordinadores.
+
+**¿Qué funcionalidades considera indispensables en una plataforma digital para que decida utilizarla como el motor operativo de todos sus técnicos (ej. webhooks, portal multi-cliente, alertas en tiempo real)?** Yo creo que lo indispensable sería un portal unificado donde yo pueda ver a todos mis clientes en una sola pantalla y saber exactamente en qué estado está cada orden de trabajo.
+
+**¿Qué tan importante sería para su firma poder integrar el sistema de mantenimiento con otras herramientas de comunicación (como notificaciones automáticas vía n8n a WhatsApp)?** Sería un valor agregado gigante,el cliente sentiría que estamos monitoreando sus máquinas todo el tiempo sin que nosotros tengamos que hacer el trabajo manual de avisarles.
+
+**¿Cree que ofrecer a sus clientes una herramienta ágil para que les reporten fallas mejoraría la percepción de su servicio tercerizado? ¿Por qué?** Claro que sí, porque proyecta una imagen de empresa moderna y tecnológica, lo cual nos ayuda a justificar nuestras tarifas frente a la competencia.
+
+**¿Preferiría un modelo de precios basado en la cantidad de técnicos (usuarios) o en la cantidad de plantas/clientes gestionados?** Prefiero un modelo basado en la cantidad de técnicos. De esa manera, si logro conseguir más clientes y fábricas, el sistema no me penaliza cobrándome más por cada nueva planta.
+
+**¿Estaría dispuesto a recomendar e implementar este sistema directamente en la infraestructura tecnológica de sus clientes?** Sí lo haría, siempre y cuando el sistema nos permita poner el logotipo de nuestra consultora en los reportes finales que se le entregan al cliente.
 
 ### 2.2.3. Análisis de entrevistas. 
 
