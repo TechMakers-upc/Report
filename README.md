@@ -539,6 +539,81 @@ Sí me animaría totalmente. Empezaría probando con las tres máquinas inyector
 **Una vez comprobado el valor del sistema, ¿cuánto estarías dispuesta a pagar mensualmente por módulos avanzados y analítica de datos (rango en dólares o soles)?**
 Yo creo que pagaría entre 80 y 100 dólares mensuales si de verdad me soluciona todo el desorden que tenemos ahora.
 
+<table>
+  <thead>
+    <tr>
+      <th align="center">Foto</th>
+      <th align="left">Campo</th>
+      <th align="left">Detalle</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="6" align="center" valign="middle" width="200">
+        <img src="" alt="" width="160">
+      </td>
+      <td><strong>Nombre y apellido</strong></td>
+      <td>Mitjail Landa</td>
+    </tr>
+    <tr>
+      <td><strong>Edad</strong></td>
+      <td>29 años</td>
+    </tr>
+    <tr>
+      <td><strong>Ubicación</strong></td>
+      <td>Ate Vitarte</td>
+    </tr>
+    <tr>
+      <td><strong>Timing de la entrevista</strong></td>
+      <td>Inicia: 8:58 - Termina: 16:47</td>
+    </tr>
+    <tr>
+      <td><strong>Duración</strong></td>
+      <td>7 minutos y 49 segundos</td>
+    </tr>
+    <tr>
+      <td><strong>Enlace</strong></td>
+      <td><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423973_upc_edu_pe/IQD8ECWrYrRxQaNhmjXB91vmAWdSEk3YRD64TUu5xywjVz8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=WNbf7E">Video de las entrevistas</a></td>
+    </tr>
+  </tbody>
+</table>
+
+**Resumen:**
+**¿Cuál es tu nombre, edad y qué cargo ocupas en la planta?**
+Mitjail Landa, de 29 años, ocupa el cargo de gestión de proyectos.
+
+**¿A qué sector industrial pertenece la empresa y, aproximadamente, cuántas máquinas principales operan?**
+La empresa pertenece al sector de telecomunicaciones y opera cientos de equipos distribuidos a nivel nacional.
+
+**¿Cómo gestionan actualmente el reporte de fallas de maquinaria y las órdenes de trabajo (ej. Excel, papel, grupos de WhatsApp, pizarras)?**
+Los reportes son notificados por los usuarios mediante llamadas telefónicas y correos electrónicos.
+
+**¿Qué dispositivos utilizan más los operarios y técnicos durante su turno en planta (smartphones, tablets, radios)?**
+Los operarios utilizan mayormente celulares.
+
+**¿Qué tan frecuente es que una máquina sufra tiempos muertos debido a una mala comunicación o lentitud al reportar la falla?** 
+No es muy común, pero los tiempos muertos son altos.
+
+**¿Cuáles son las mayores frustraciones que enfrentas al intentar consolidar la información de mantenimiento a fin de mes?**
+La desorganización y saturación generada por el trabajo de varias personas de diferentes áreas.
+
+**¿Has intentado implementar algún software de mantenimiento anteriormente? Si es así, ¿cuál fue el resultado o la principal barrera de adopción por parte de los técnicos?**
+Se ha intentado y se está planeando su implementación para proyectos recientes que requieren mantenimiento preventivo.
+
+**¿Qué elemento te generaría más confianza para adoptar un nuevo sistema: la facilidad de uso para el operario, la automatización de alertas, o el costo de implementación?**
+Lo más importante es la facilidad de uso para el operario debido a que les ayudará a adaptarse al sistema. La automatización de alertas también es importante para tomar precauciones.
+
+**¿Cómo crees que impactaría en la productividad si los técnicos pudieran reportar una falla en menos de 3 clics desde su celular?**
+Sería muy bueno para brindar atención rápida
+
+**¿Qué tan útil te resultaría recibir notificaciones automáticas de fallas críticas directamente en tu WhatsApp?**
+Le resulta muy útil y plantea integraciones mediante mensajes de texto o audios pregrabados. 
+
+**Si existiera una versión básica gratuita (modelo freemium) para probar el sistema con algunas máquinas, ¿te animarías a implementarlo en tu planta?**
+Se animaría a probarlo para averiguar como se desarrolla o adapta en su contexto laboral.
+
+**Una vez comprobado el valor del sistema, ¿cuánto estarías dispuesto a pagar mensualmente por módulos avanzados y analítica de datos (rango en dólares o soles)?**
+Dependerá de los módulos y analíticas integradas, basándose en que tan útiles sean. Estima que, si es un buen sistema, un rango de precios que estaría dispuesto a pagar es de 50 a 100 soles mensuales, pero plantea realizar un estudio de mercado primero antes de dar un rango definitivo.
 
 ### Segmento 2: Firmas Consultoras y Contratistas de Ingeniería Industrial
 <table>
