@@ -550,7 +550,7 @@ Yo creo que pagaría entre 80 y 100 dólares mensuales si de verdad me soluciona
   <tbody>
     <tr>
       <td rowspan="6" align="center" valign="middle" width="200">
-        <img src="" alt="" width="160">
+        <img src="Assets/Images/entrevista_3_segmento_1.jpg" alt="Entrevista a Mitjail Landa" width="160">
       </td>
       <td><strong>Nombre y apellido</strong></td>
       <td>Mitjail Landa</td>
