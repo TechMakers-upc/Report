@@ -71,9 +71,9 @@
   - [|   | **Amenazas** | Competidores establecidos con mayores presupuestos; desconfianza inicial. | Surgimiento de startups más ágiles y económicas. | Soluciones completas que bajen sus precios y ofrezcan mejores interfaces. | Softwares modernos que ofrezcan 80% de sus funciones por 10% del precio. |](#---amenazas--competidores-establecidos-con-mayores-presupuestos-desconfianza-inicial--surgimiento-de-startups-más-ágiles-y-económicas--soluciones-completas-que-bajen-sus-precios-y-ofrezcan-mejores-interfaces--softwares-modernos-que-ofrezcan-80-de-sus-funciones-por-10-del-precio-)
     - [2.1.2. Estrategias y tácticas frente a competidores.](#212-estrategias-y-tácticas-frente-a-competidores)
   - [2.2. Entrevistas.](#22-entrevistas)
+    - [2.2.1. Diseño de entrevistas.](#221-diseño-de-entrevistas)
     - [Guía de preguntas para Pymes de Manufactura y Producción](#guía-de-preguntas-para-pymes-de-manufactura-y-producción)
     - [Guía de preguntas para Firmas Consultoras y Contratistas de Ingeniería Industrial](#guía-de-preguntas-para-firmas-consultoras-y-contratistas-de-ingeniería-industrial)
-    - [2.2.1. Diseño de entrevistas.](#221-diseño-de-entrevistas)
     - [2.2.2. Registro de entrevistas.](#222-registro-de-entrevistas)
     - [Segmento 1: Pymes de Manufactura y Producción](#segmento-1-pymes-de-manufactura-y-producción)
     - [Segmento 2: Firmas Consultoras y Contratistas de Ingeniería Industrial](#segmento-2-firmas-consultoras-y-contratistas-de-ingeniería-industrial)
@@ -362,6 +362,8 @@ El estado actual del mantenimiento industrial se ha centrado principalmente en c
 
 ## 2.2. Entrevistas. 
 
+### 2.2.1. Diseño de entrevistas. 
+
 ### Guía de preguntas para Pymes de Manufactura y Producción
 
 * ¿Cuál es tu nombre, edad y qué cargo ocupas en la planta?
@@ -390,8 +392,6 @@ El estado actual del mantenimiento industrial se ha centrado principalmente en c
 * ¿Cree que ofrecer a sus clientes una herramienta ágil para que les reporten fallas mejoraría la percepción de su servicio tercerizado? ¿Por qué?
 * ¿Preferiría un modelo de precios basado en la cantidad de técnicos (usuarios) o en la cantidad de plantas/clientes gestionados?
 * ¿Estaría dispuesto a recomendar e implementar este sistema directamente en la infraestructura tecnológica de sus clientes?
-
-### 2.2.1. Diseño de entrevistas. 
 
 
 ### 2.2.2. Registro de entrevistas.
