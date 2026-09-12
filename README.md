@@ -1176,6 +1176,147 @@ Las etiquetas en FexCore se relacionan de manera predecible y jerárquica:
 
 ### 4.2.3. SEO Tags and Meta Tags 
 
+En esta sección se incluyen los SEO Tags y Meta Tags, junto con los valores que se asignarán en las principales páginas de FexCore, abarcando tanto el sitio web estático (Landing Page) desplegado en Vercel como la estructura de la Web Application. Se definen Title, Meta Description, Keywords, Author y esquemas de datos clave.
+
+#### 4.2.3.1. Configuración SEO General
+
+FexCore implementa una configuración SEO robusta gestionada a través del enrutador y el archivo `app/layout.tsx` para maximizar su visibilidad en buscadores B2B.
+
+**Nombre del Sitio**
+FexCore - El núcleo de tu mantenimiento industrial
+
+**Dominio Principal**
+https://fixcore-eta.vercel.app/
+
+#### 4.2.3.2. Landing Page SEO Tags
+
+El Landing Page (`app/page.tsx`) es el punto de entrada más importante para la captación de leads y conversiones comerciales.
+
+**Title Tag**
+FexCore | El núcleo de tu mantenimiento industrial - Software CMMS
+
+**Meta Description**
+Erradica el caos operativo y reduce los tiempos muertos con la plataforma líder en gestión de activos y órdenes de trabajo. ¡Moderniza tu mantenimiento industrial hoy!
+
+**Meta Keywords**
+mantenimiento industrial, gestión de activos, órdenes de trabajo, reducir tiempos muertos, software CMMS, SaaS B2B, mantenimiento predictivo, control de inventario
+
+**Meta Author**
+FexCore Team
+
+**Open Graph Tags (para redes sociales)**
+*   `og:title` = FexCore | El núcleo de tu mantenimiento industrial
+*   `og:description` = Erradica el caos operativo y reduce los tiempos muertos en tu planta. Diseñado para Gerentes, Supervisores y Técnicos.
+*   `og:image` = https://fixcore-eta.vercel.app/favicon.ico
+*   `og:url` = https://fixcore-eta.vercel.app/
+*   `og:type` = website
+*   `og:site_name` = FexCore
+
+**Twitter Card Tags**
+*   `twitter:card` = summary_large_image
+*   `twitter:title` = FexCore | El núcleo de tu mantenimiento industrial
+*   `twitter:description` = Erradica el caos operativo y reduce los tiempos muertos con la plataforma líder.
+*   `twitter:image` = https://fixcore-eta.vercel.app/favicon.ico
+
+#### 4.2.3.3. Web Application - Dashboard SEO Tags
+
+El dashboard es la página principal (escritorio gerencial) a la que accede el usuario después de iniciar sesión en la aplicación.
+
+**Title Tag**
+Dashboard Ejecutivo - FexCore
+
+**Meta Description**
+Tu espacio de control industrial. Maximiza el ROI, audita tiempos muertos (MTTR) y supervisa el estado de tu planta en tiempo real.
+
+**Meta Robots**
+`noindex, nofollow`
+*(El dashboard contiene información confidencial de la planta y no debe ser indexado por los motores de búsqueda).*
+
+#### 4.2.3.4. Página de Detalles por Rol SEO Tags
+
+Corresponde a la ruta dinámica `app/detalles/[rol]/page.tsx` diseñada para explicar el valor del software según el perfil del usuario.
+
+**Title Tag**
+Soluciones para [Gerencia / Supervisión / Técnicos] - FexCore
+
+**Meta Description**
+Descubre cómo FexCore optimiza la operación para tu rol. Accede a paneles analíticos, asignación de OTs sin fricción o reportes de fallas rápidos.
+
+#### 4.2.3.5. Página de Gestión de Activos / Inventario SEO Tags
+
+Sección transaccional de la aplicación enfocada en el control de almacén y la jerarquía de maquinaria.
+
+**Title Tag**
+Gestión de Activos e Inventario - FexCore
+
+**Meta Description**
+Controla el inventario de repuestos y la jerarquía física de tus activos. Mantén la trazabilidad total de tu fábrica y evita quiebres de stock.
+
+#### 4.2.3.6. Página de Perfil de Activo Individual SEO Tags
+
+**Title Tag**
+[Nombre o Código del Activo / Máquina] - FexCore
+
+**Meta Description**
+[Descripción específica del estado operativo del activo, MTTR, ubicación en planta y fallas reportadas recientes de 150-160 caracteres]
+
+#### 4.2.3.7. Página de Reporte de Fallas (OTs) SEO Tags
+
+**Title Tag**
+Reporte de Fallas y OTs - FexCore
+
+**Meta Description**
+Practica una respuesta ágil ante paradas de máquina. Reporta fallas en 3 clics, asigna técnicos y gestiona Órdenes de Trabajo desde cualquier dispositivo móvil.
+
+### 4.2.3.8. Estructura de Datos Schema Markup
+
+FexCore implementa `Schema.org` (en formato JSON-LD) para optimizar su presentación en motores de búsqueda como una solución de software empresarial B2B:
+
+**Organization Schema**
+
+```json
+{
+  "@context": "[https://schema.org](https://schema.org)",
+  "@type": "Organization",
+  "name": "FexCore",
+  "url": "[https://fixcore-eta.vercel.app/](https://fixcore-eta.vercel.app/)",
+  "logo": "[https://fixcore-eta.vercel.app/favicon.ico](https://fixcore-eta.vercel.app/favicon.ico)",
+  "description": "Plataforma B2B para la gestión integral del mantenimiento industrial y reducción de tiempos muertos.",
+  "sameAs": [
+    "[https://www.linkedin.com/company/fexcore](https://www.linkedin.com/company/fexcore)"
+  ]
+}
+```
+
+**SoftwareApplication Schema (Para la Landing Page y SaaS)**
+
+```json
+{
+  "@context": "[https://schema.org](https://schema.org)",
+  "@type": "SoftwareApplication",
+  "name": "FexCore",
+  "applicationCategory": "BusinessApplication",
+  "operatingSystem": "Web, iOS, Android",
+  "description": "Software integral de gestión de mantenimiento (CMMS) con paneles gerenciales y aplicación de baja fricción para técnicos.",
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "price": "0",
+    "description": "Demostración técnica gratuita para plantas industriales."
+  }
+}
+```
+
+### 4.2.3.9. Directrices SEO Generales
+
+FexCore sigue las siguientes directrices estructurales para mantener un SEO técnico optimizado en toda la plataforma:
+
+*   **URLs descriptivas:** Se utilizan rutas semánticas dinámicas generadas por el App Router de Next.js, como `/detalles/[rol]`[cite: 1].
+*   **Un H1 por página:** Restricción estricta de un solo título principal por vista, típicamente alojado dentro del componente `HeroSection.tsx`[cite: 1].
+*   **Jerarquía de encabezados correcta:** Uso escalonado y lógico de etiquetas H1 > H2 > H3, implementado modularmente en componentes como `AudienceSection.tsx` y `SolutionsSection.tsx`[cite: 1].
+*   **Etiquetas alt significativas:** Todas las representaciones de interfaz y recursos visuales ubicados en `/components/mockups/` (como `DesktopMockup.tsx` o `MobileMockup.tsx`) cuentan con texto alternativo que describe exactamente la función que se está mostrando[cite: 1].
+*   **Links con anchor text descriptivo:** Se evita el uso de frases genéricas como "clic aquí"[cite: 1]. Los enlaces generados en `Navbar.tsx` y `BottomCTA.tsx` utilizan textos de acción claros como "Solicitar Demostración" o "Ver Funcionamiento"[cite: 1].
+
 ### 4.2.4. Searching Systems. 
 
 ### 4.2.5. Navigation Systems. 
