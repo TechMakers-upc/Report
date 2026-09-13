@@ -697,29 +697,125 @@ En conjunto, esta literatura reciente confirma que existe una necesidad sostenid
 
 El Árbol de Problemas fue elaborado para jerarquizar visualmente la problemática, estableciendo una relación de causalidad entre el problema central —la ineficiencia y altos costos por tiempos muertos (downtime) en la gestión de mantenimiento industrial de pymes y sus efectos. Las Causas (raíces) y los Efectos (impactos) identificados fueron validados mediante la triangulación de los hallazgos de las entrevistas de campo y la literatura sectorial reciente, la cual subraya que la dependencia de procesos manuales y la barrera de adopción de software complejo extienden drásticamente los tiempos de recuperación frente a fallas (Senseye, 2022; Narula et al., 2023).
 
-**Gráfico 2: Árbol de problemas**
-
-![Árbol de Problemas FixCore](Assets/Images/arbol_problemas.png)
-
-*Fuente: Elaboración propia.*
+<div align="center">
+  <strong>Gráfico 1: Árbol de problemas</strong><br><br>
+  <img src="Assets/Images/arbol_problemas.png" width="400"><br>
+  <em>Fuente: Elaboración propia.</em>
+</div>
 
 ### Diagrama de Ishikawa
 
 Para complementar el análisis estructural, se aplicó el Diagrama de Ishikawa (Espina de Pescado) categorizando las causas raíz en seis ejes fundamentales: Proceso, Personas, Tecnología, Información, Entorno y Gestión[cite: 6]. Este desglose sistemático no solo demuestra el rigor metodológico, sino que también justifica la multidimensionalidad de la solución FixCore al validar las causas operativas (p. ej., la necesidad de Tecnología móvil para superar las limitaciones del Entorno ruidoso de planta y la agilidad de Proceso para combatir la comunicación fragmentada).
 
-**Gráfico 3: Diagrama de Ishikawa**
-
-![Diagrama de Ishikawa FixCore](Assets/Images/diagrama_ishikawa.png)
-
-*Fuente: Elaboración propia.*
+<div align="center">
+  <strong>Gráfico 2: Diagrama de Ishikawa</strong><br><br>
+  <img src="Assets/Images/diagrama_ishikawa.png" width="400"><br>
+  <em>Fuente: Elaboración propia.</em>
+</div>
 
 ### 2.3.1. User Personas. 
 
+En esta sección se presentan las fichas de User Persona desarrolladas a partir del análisis de entrevistas y del análisis competitivo. Se tomó en cuenta la información estadística obtenida en las entrevistas a los segmentos estudiados, donde se identificaron las características objetivas y subjetivas más comunes, complementado con el análisis competitivo del mercado de capacitación en primeros auxilios.
+
+**Segmento 1: Pymes de Manufactura y Producción**
+
+<div align="center">
+  <strong>Gráfico 3: User Person del segmento pymes</strong><br><br>
+  <img src="Assets/Images/userpersona1.png" width="400"><br>
+  <em>Fuente: Elaboración propia.</em>
+</div>
+
+**Segmento 2: Firmas Consultoras y Contratistas de Ingeniería Industrial**
+
+<div align="center">
+  <strong>Gráfico 4: User Person del segmento consultoras y contratistas</strong><br><br>
+  <img src="Assets/Images/userpersona2.png" width="400"><br>
+  <em>Fuente: Elaboración propia.</em>
+</div>
+
 ### 2.3.2. User Task Matrix. 
+
+El presente User Task Matrix reúne las tareas principales que los User Persona (representativos de los tres segmentos objetivo de FexCore) realizan para alcanzar sus metas relacionadas con la gestión de mantenimiento industrial y reducción de tiempos muertos.
+
+Cada tarea fue evaluada según dos criterios:
+*   **Frecuencia (Frc):** qué tan a menudo el usuario realiza la tarea (Alta / Media / Baja).
+*   **Importancia (Imp):** qué tan relevante considera el usuario dicha tarea para cumplir su objetivo (Alta / Media / Baja).
+
+Los segmentos considerados son:
+1.  **Técnicos de Piso / Operarios**
+2.  **Jefes de Planta / Supervisores de Producción**
+3.  **Firmas Consultoras / Gerencia de Operaciones**
+
+### User Task Matrix - FexCore
+
+| Tareas principales | Técnicos (Frc) | Técnicos (Imp) | Supervisores (Frc) | Supervisores (Imp) | Consultores (Frc) | Consultores (Imp) |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: |
+| **Reportar fallas o paradas de línea** | Alta | Alta | Media | Alta | Baja | Media |
+| **Ejecutar y cerrar Órdenes de Trabajo (OTs)** | Alta | Alta | Media | Alta | Baja | Media |
+| **Consultar inventario de repuestos y manuales** | Alta | Alta | Alta | Alta | Media | Media |
+| **Comunicar alertas críticas o cuellos de botella** | Alta | Alta | Alta | Alta | Media | Alta |
+| **Asignar técnicos a mantenimientos correctivos** | Baja | Baja | Alta | Alta | Alta | Alta |
+| **Planificar cronogramas preventivos** | Baja | Media | Alta | Alta | Alta | Alta |
+| **Generar reportes gerenciales y KPIs** | Baja | Baja | Alta | Alta | Alta | Alta |
+| **Auditar tiempos muertos (MTTR) y disponibilidad** | Baja | Baja | Alta | Alta | Alta | Alta |
+| **Revisar el historial o estado de una máquina** | Media | Media | Alta | Alta | Alta | Media |
+| **Acceder desde smartphones en planta (Baja fricción)** | Alta | Alta | Alta | Alta | Media | Media |
+| **Validar cumplimiento de OTs (Checklists y firmas)** | Media | Alta | Alta | Alta | Alta | Alta |
+| **Gestionar operarios multi-planta / multi-cliente** | Baja | Baja | Baja | Media | Alta | Alta |
+
+### Análisis de resultados
+
+**Tareas más frecuentes:**
+Entre los tres segmentos, las tareas *"Acceder desde smartphones en planta"*, *"Consultar inventario de repuestos"* y *"Comunicar alertas críticas"* presentan alta frecuencia. Esto refleja la necesidad operativa del día a día por tener acceso móvil, visibilidad de stock y una comunicación rápida para evitar paradas prolongadas.
+
+**Tareas más importantes:**
+En todos los casos, las tareas *"Comunicar alertas críticas"*, *"Auditar tiempos muertos (MTTR)"* y *"Validar cumplimiento de OTs"* destacan con alta importancia. Esto evidencia que los usuarios valoran resolver las emergencias de inmediato y tener un control de calidad estricto respaldado por datos para proteger los bienes de capital.
+
+**Diferencias entre segmentos:**
+*   **Los Técnicos de Piso** priorizan la inmediatez: su enfoque absoluto está en reportar fallas rápidamente, ejecutar OTs y consultar repuestos desde sus celulares sin interfaces complejas (baja fricción).
+*   **Los Supervisores y Jefes de Planta (ej. Carla)** actúan como el puente de control: dan igual peso a la asignación de recursos, la planificación y la generación de reportes mensuales para la gerencia, buscando consolidar la información.
+*   **Las Firmas Consultoras (ej. Víctor)** concentran sus tareas en la gestión a gran escala: auditar KPIs, estandarizar reportes y gestionar operaciones multi-planta para justificar el valor de su servicio tercerizado.
+
+**Coincidencias clave:**
+Todos los perfiles coinciden en la necesidad de un acceso digital unificado y sin fricción (especialmente móvil) que erradique la dependencia del papel y los grupos informales de WhatsApp. Esta convergencia valida el enfoque de FexCore como un núcleo centralizado que conecta la inmediatez del operario con la analítica del gerente.
 
 ### 2.3.3. User Journey Mapping. 
 
+Los siguientes User Journey Mapping describen las experiencia actuales (As-Is) de los dos segmentos principales de FixCore: pymes y contratistas o consultoras.
+
+El objetivo es comprender las motivaciones, frustraciones y oportunidades que surgen en cada etapa del proceso de aprendizaje, desde la búsqueda de información hasta la aplicación de conocimientos, con el fin de identificar puntos críticos que servirán de base para diseñar una experiencia más efectiva, práctica y accesible.
+
+<div align="center">
+  <strong>Gráfico 5:  User Journey Map – Carla Garcia (jefa de planta)</strong><br><br>
+  <img src="Assets/Images/journeymap1.png" width="400"><br>
+  <em>Fuente: Elaboración propia.</em>
+</div>
+
+
+<div align="center">
+  <strong>Gráfico 6: User Journey Map – Victor Salazar (Contratista de mantenimiento)</strong><br><br>
+  <img src="Assets/Images/journeymap2.png" width="400"><br>
+  <em>Fuente: Elaboración propia.</em>
+</div>
+
 ### 2.3.4. Empathy Mapping. 
+
+El proceso de Empathy Mapping permitió comprender de manera más profunda los pensamientos, emociones, necesidades y motivaciones de los dos User Persona de Fixcore.
+
+Cada mapa busca responder las preguntas centrales del diseño centrado en el usuario: ¿con quién estamos empatizando?, ¿qué necesita?, ¿qué piensa y siente?, ¿qué ve, dice, hace y escucha?, además de identificar sus pains (frustraciones o dificultades) y gains (motivaciones y oportunidades).
+
+<div align="center">
+  <strong>Gráfico 7: Empathy Map de jefa de planta</strong><br><br>
+  <img src="Assets/Images/empathymap1.png" width="400"><br>
+  <em>Fuente: Elaboración propia.</em>
+</div>
+
+
+<div align="center">
+  <strong>Gráfico 8: Empathy Map de contratistas o consultores</strong><br><br>
+  <img src="Assets/Images/empathymap2.png" width="400"><br>
+  <em>Fuente: Elaboración propia.</em>
+</div>
 
 ## 2.4. Big Picture EventStorming. 
 
