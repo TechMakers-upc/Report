@@ -1415,7 +1415,225 @@ FexCore sigue las siguientes directrices estructurales para mantener un SEO téc
 
 ### 4.2.4. Searching Systems. 
 
+En esta sección el equipo explica qué medios de ayuda se brindará al usuario para la búsqueda de datos dentro de la plataforma web y móvil de FixCore. Dichas decisiones sobre los sistemas de búsqueda tratan de evitar que los usuarios se sientan perdidos entre el volumen de información industrial y operativa. Aquí se especifican qué opciones de búsqueda ofrecerá la aplicación, con qué filtros contará el usuario en cada módulo y cómo lucirán los datos después de la búsqueda.
+
+### 4.2.4.1. Sistema de Búsqueda General
+
+FixCore implementa un sistema de búsqueda integral que permite a los usuarios encontrar rápidamente activos, personal o tickets de mantenimiento en toda la plataforma.
+
+**Componentes de Búsqueda**
+*   **Barra de búsqueda global:** Accesible de forma persistente desde el *header* (cabecera) en todas las vistas principales de la aplicación web. Permite la búsqueda rápida mediante códigos alfanuméricos exactos (ej. código de máquina o número de Orden de Trabajo).
+*   **Escáner QR integrado (Móvil):** Para el uso en planta, la búsqueda principal física se realiza activando la cámara del dispositivo para escanear el código QR adherido a la maquinaria, lo cual redirige automáticamente al perfil detallado del activo en el sistema.
+*   **Búsqueda predictiva:** El sistema muestra sugerencias instantáneas en un menú desplegable mientras el usuario escribe (ej. al teclear "Inyec...", sugiere opciones como "Inyectora 01", "Inyectora 02").
+
+**Características de la Búsqueda**
+*   **Autocomplete:** Autocompleta términos populares y coincidencias parciales de nombres de técnicos, maquinarias o repuestos registrados en la base de datos.
+*   **Tolerancia a errores:** Maneja errores tipográficos comunes para no arrojar resultados vacíos ante faltas ortográficas leves.
+*   **Resultados por categoría:** La interfaz agrupa los resultados encontrados bajo etiquetas visuales (ej. "Activos", "Órdenes de Trabajo", "Usuarios/Técnicos").
+
+---
+
+### 4.2.4.2. Sistema de Búsqueda de Órdenes de Trabajo (OTs) y Fallas
+
+El módulo central de mantenimiento cuenta con un sistema de búsqueda optimizado para gestionar el flujo de tickets diarios.
+
+**Opciones de Búsqueda**
+*   **Buscar por ID:** Localizar un ticket exacto ingresando su correlativo (ej. OT-1045).
+*   **Buscar por Activo:** Visualizar todas las fallas o tickets asociados a un equipo específico.
+*   **Buscar por Asignación:** Filtrar los tickets asignados a un técnico o equipo de trabajo particular.
+
+**Filtros Disponibles**
+
+| Filtro | Descripción | Opciones |
+| :--- | :--- | :--- |
+| **Tipo de Mantenimiento** | Naturaleza de la intervención | Preventivo, Correctivo, Predictivo |
+| **Prioridad** | Nivel de urgencia del ticket | Crítica (Parada de línea), Alta, Media, Baja |
+| **Estado de la OT** | Fase del flujo de trabajo | Pendiente, En curso, En pausa (falta repuesto), Cerrada |
+| **Rango de Fechas** | Periodo de reporte de la falla | Hoy, Última semana, Último mes, Personalizado |
+
+**Presentación de Resultados**
+*   Los resultados se renderizan en un *DataGrid* (Tabla interactiva) con opciones de paginación o en una vista *Kanban* (Tarjetas desplazables).
+*   Uso de *badges* (etiquetas) de colores semánticos (rojo, amarillo, verde, gris) para identificar visualmente la "Prioridad" y el "Estado".
+*   Inclusión de botones de acción rápida en cada fila/tarjeta para "Ver detalles", "Editar" o "Asignar".
+
+---
+
+### 4.2.4.3. Sistema de Búsqueda en Inventario y Gestión de Activos
+
+El módulo de infraestructura y almacén tiene un sistema de búsqueda especializado para controlar el stock de repuestos y el catálogo de maquinaria.
+
+**Opciones de Búsqueda**
+*   **Búsqueda por nombre/SKU:** Coincidencia con nombres descriptivos de piezas o códigos de inventario (SKU).
+*   **Búsqueda por categoría:** Filtrar el catálogo según el tipo de componente.
+*   **Búsqueda por ubicación (Arquitectura Multi-Tenant):** Permite a los usuarios administradores filtrar en qué planta física, cliente o almacén específico se encuentra el repuesto o la máquina.
+
+**Filtros Disponibles en Inventario**
+
+| Filtro | Descripción | Opciones |
+| :--- | :--- | :--- |
+| **Categoría** | Familia del componente | Mecánico, Eléctrico, Neumático, Herramientas, EPPs |
+| **Disponibilidad (Stock)** | Nivel de inventario en tiempo real | En stock, Stock crítico (Mínimo), Agotado |
+| **Ubicación / Planta** | Sede donde se aloja el activo | Planta Principal, Almacén Externo, [Sede Seleccionable] |
+
+**Orden de Resultados**
+*   **Estado de Stock:** Ordenamiento ascendente/descendente para priorizar decisiones de compra.
+*   **Alfabético (A-Z):** Orden estándar por nombre de repuesto o equipo.
+*   **Rotación:** Componentes con mayor frecuencia de uso histórico.
+
+**Presentación de Resultados de Búsqueda**
+*   Interfaz en formato de lista o cuadrícula que expone: Nombre del ítem, SKU, ubicación designada y cantidad exacta disponible.
+*   Alertas visuales automatizadas (íconos de advertencia en rojo/naranja) adheridas a los ítems que han alcanzado su umbral de stock crítico.
+
+---
+
+### 4.2.4.4. Sistema de Búsqueda en Historial y Auditoría
+
+Este sistema está diseñado para la extracción de datos analíticos, generación de reportes y auditoría del rendimiento general de la planta.
+
+**Tipos de Búsqueda en Historial**
+*   **Historial de Intervenciones:** Búsqueda del registro completo de mantenimientos pasados de un equipo para análisis de ciclo de vida.
+*   **Registro de Tiempos Muertos (Downtime):** Búsqueda de eventos específicos de parada de línea.
+*   **Auditoría de Rendimiento:** Búsqueda del historial de tickets resueltos por usuario/técnico.
+
+**Filtros por Tipo de Historial**
+*   **Historial de Activos:**
+    *   Filtrado por rango temporal (ej. *Date picker* para seleccionar un trimestre específico).
+    *   Filtrado por componentes o repuestos reemplazados durante la reparación.
+*   **Historial de Tiempos Muertos:**
+    *   Filtrado por rangos de duración de la parada (ej. > 2 horas).
+    *   Filtrado por turno operativo u horario de ocurrencia.
+*   **Presentación:** Los resultados alimentan un Dashboard analítico con gráficos interactivos. Incluye controles directos para exportar la data mostrada y filtrada a formatos estándar (PDF con branding personalizable o tablas Excel/CSV), visualizando métricas clave como el MTTR (Tiempo Medio de Reparación).
+
 ### 4.2.5. Navigation Systems. 
+
+En esta sección el equipo explica cuáles serán las acciones y técnicas que guiarán a los usuarios (Jefes de Planta, Contratistas y Técnicos) a través del Landing Page y las aplicaciones de FixCore, permitiéndoles cumplir sus metas e interactuar de forma satisfactoria con el producto. Aquí se detalla de qué maneras los usuarios irán recorriendo los distintos módulos operativos y gerenciales.
+
+### 4.2.5.1. Sistema de Navegación Global
+
+FixCore implementa un sistema de navegación global consistente, adaptado tanto para la gestión en oficina como para el trabajo en planta.
+
+**Elementos de Navegación Principal**
+*   **Header fijo (Desktop):**
+    *   Logo de FixCore (redirecciona siempre al Dashboard principal).
+    *   Selector de Tenant/Planta (Crucial para el perfil Contratista como Víctor).
+    *   Barra de búsqueda global (para OTs, activos o repuestos).
+    *   Acciones de usuario (Centro de notificaciones, perfil, configuración).
+*   **Header colapsable (Mobile):**
+    *   Hamburger menu con panel deslizable lateral.
+    *   Logo reducido.
+    *   Campana de notificaciones de alertas críticas.
+*   **Sidebar (Aplicación Web):**
+    *   Navegación principal de módulos.
+    *   Acceso rápido a OTs urgentes o pendientes.
+    *   Estado de conexión y sincronización de datos.
+
+**Comportamiento de Navegación**
+*   Transiciones rápidas e instantáneas (arquitectura SPA con Next.js).
+*   Indicador visual (highlight) de la página actual en el menú.
+*   Persistencia de estado en tablas y filtros al cambiar de vista y regresar.
+
+---
+
+### 4.2.5.2. Navegación del Landing Page
+
+El Landing Page corporativo tiene una navegación optimizada para la conversión B2B de PYMEs y firmas consultoras.
+
+**Navegación Principal**
+*   **Sticky header:** Se mantiene visible en la parte superior al hacer scroll.
+*   **Links de anclaje (Smooth scroll):** Dirigen a secciones clave (Soluciones, Beneficios, Precios).
+*   **CTA principal:** Botones prominentes de "Prueba Gratis" (para el modelo freemium) o "Solicitar Demo".
+*   **Login:** Acceso directo al entorno de la aplicación para usuarios registrados.
+
+**Navegación Footer**
+*   Enlaces a casos de éxito y recursos (guías de mantenimiento).
+*   Redes sociales corporativas (LinkedIn, Twitter).
+*   Información legal (Términos de servicio, Política de privacidad B2B).
+*   Datos de contacto y soporte técnico.
+
+---
+
+### 4.2.5.3. Navegación de la Aplicación Web
+
+La aplicación web, orientada a Jefes de Planta y Consultores, cuenta con una navegación estructurada para manejar altos volúmenes de datos.
+
+**Tipos de Navegación**
+*   **Navegación principal (Sidebar):**
+    *   Dashboard (Vista general y KPIs)
+    *   Órdenes de Trabajo (OTs)
+    *   Inventario (Repuestos)
+    *   Activos (Catálogo de maquinaria)
+    *   Reportes
+    *   Equipo (Usuarios y Roles)
+*   **Navegación contextual:**
+    *   Breadcrumbs para rastrear la ubicación en jerarquías profundas (ej. Plantas > Zonas > Máquinas).
+    *   Tabs (Pestañas) para alternar vistas dentro del perfil de una máquina (ej. Info General, Historial de OTs, Manuales).
+*   **Navegación de Retroceso:**
+    *   Botón "Atrás" integrado en la cabecera de las vistas de detalle.
+    *   Breadcrumbs interactivos para saltar a niveles superiores.
+
+---
+
+### 4.2.5.4. Sistema de Breadcrumbs
+
+FixCore implementa breadcrumbs para facilitar la navegación profunda en la jerarquía de activos e inventario.
+
+**Estructura de Breadcrumbs (Ejemplo)**
+*   FixCore > Planta San Miguel > Activos > Inyectoras > Inyectora 01 > OT-1045
+
+**Reglas de Breadcrumbs**
+*   Máximo 4 a 5 niveles de profundidad mostrados.
+*   El elemento actual (el último de la derecha) no es enlazable y aparece en texto neutral.
+*   Los niveles superiores son siempre hipervínculos navegables.
+*   Separador consistente (ej. un ícono de flecha `>` o un *slash* `/`).
+
+---
+
+### 4.2.5.5. Navegación Mobile
+
+La navegación móvil está diseñada con un enfoque de "baja fricción" exclusivo para los operarios y técnicos en piso de planta.
+
+**Patrón de Navegación Mobile**
+*   **Bottom navigation bar (Barra inferior):** Acceso a un toque a las 4 secciones vitales: Inicio, Mis OTs, Inventario, Perfil.
+*   **Botón de Acción Flotante (FAB):** Un botón central prominente para la acción principal: "Escanear QR / Reportar Falla".
+*   **Hamburger menu:** Para configuraciones secundarias o cierre de sesión.
+*   **Zonas táctiles amplias:** Navegación adaptada para ser usada con guantes de seguridad o pantallas industriales.
+
+---
+
+### 4.2.5.6. Navegación Operativa (Flujo de Trabajo)
+
+El flujo de atención de mantenimiento tiene una navegación guiada para evitar errores en campo.
+
+**Flujo de Creación / Cierre de OT**
+*   **Asistente paso a paso (Wizard):** Navegación lineal para reporte de fallas (Paso 1: Escanear, Paso 2: Seleccionar problema, Paso 3: Confirmar).
+*   **Indicador de progreso:** Barra visual al llenar el checklist de mantenimiento preventivo.
+*   **Prevención de pérdida de datos:** Modal de advertencia ("¿Estás seguro de salir?") si un técnico intenta abandonar el formulario de cierre de OT sin guardar los cambios.
+
+---
+
+### 4.2.5.7. Accesibilidad en Navegación
+
+FixCore asegura una navegación inclusiva y adaptada a entornos industriales de alta demanda visual.
+
+**Características de Accesibilidad**
+*   **Alto contraste:** Uso de colores de estado (Rojo para máquina parada, Verde para operativa) con contraste suficiente para lectura en pantallas móviles bajo luz natural.
+*   **Navegación por teclado:** Soporte completo para que los usuarios administrativos puedan navegar por las tablas (DataGrids) usando flechas y tabulador.
+*   **Labels descriptivos:** Textos claros en botones e íconos (ej. el ícono de llave inglesa siempre acompañado del texto "Reparar" en *tooltips*).
+
+---
+
+### 4.2.5.8. Feedback de Navegación
+
+FixCore proporciona respuestas visuales inmediatas para confirmar que las acciones críticas del mantenimiento han sido registradas.
+
+**Indicadores Visuales**
+*   **Estados Activos:** Resaltado claro (*active state highlighted*) de la sección actual en el menú lateral.
+*   **Cambio de estados:** Transiciones de color inmediatas cuando una máquina pasa de "Operativa" a "Falla" en el Dashboard.
+*   **Toasts/Snackbars:** Mensajes emergentes breves confirmando acciones (ej. "OT-1045 creada exitosamente", "Alerta enviada a Jefatura").
+
+**Estados de Carga**
+*   **Skeleton screens:** Para simular el diseño mientras cargan los grandes volúmenes de datos del inventario o el historial de OTs, evitando saltos visuales.
+*   **Spinners:** Para procesamientos de botones (ej. al hacer clic en "Guardar Reporte").
 
 ## 4.3. Landing Page UI Design. 
 
