@@ -1417,7 +1417,7 @@ FexCore sigue las siguientes directrices estructurales para mantener un SEO téc
 
 En esta sección el equipo explica qué medios de ayuda se brindará al usuario para la búsqueda de datos dentro de la plataforma web y móvil de FixCore. Dichas decisiones sobre los sistemas de búsqueda tratan de evitar que los usuarios se sientan perdidos entre el volumen de información industrial y operativa. Aquí se especifican qué opciones de búsqueda ofrecerá la aplicación, con qué filtros contará el usuario en cada módulo y cómo lucirán los datos después de la búsqueda.
 
-### 4.2.4.1. Sistema de Búsqueda General
+#### 4.2.4.1. Sistema de Búsqueda General
 
 FixCore implementa un sistema de búsqueda integral que permite a los usuarios encontrar rápidamente activos, personal o tickets de mantenimiento en toda la plataforma.
 
@@ -1433,7 +1433,7 @@ FixCore implementa un sistema de búsqueda integral que permite a los usuarios e
 
 ---
 
-### 4.2.4.2. Sistema de Búsqueda de Órdenes de Trabajo (OTs) y Fallas
+#### 4.2.4.2. Sistema de Búsqueda de Órdenes de Trabajo (OTs) y Fallas
 
 El módulo central de mantenimiento cuenta con un sistema de búsqueda optimizado para gestionar el flujo de tickets diarios.
 
@@ -1458,7 +1458,7 @@ El módulo central de mantenimiento cuenta con un sistema de búsqueda optimizad
 
 ---
 
-### 4.2.4.3. Sistema de Búsqueda en Inventario y Gestión de Activos
+#### 4.2.4.3. Sistema de Búsqueda en Inventario y Gestión de Activos
 
 El módulo de infraestructura y almacén tiene un sistema de búsqueda especializado para controlar el stock de repuestos y el catálogo de maquinaria.
 
@@ -1486,7 +1486,7 @@ El módulo de infraestructura y almacén tiene un sistema de búsqueda especiali
 
 ---
 
-### 4.2.4.4. Sistema de Búsqueda en Historial y Auditoría
+#### 4.2.4.4. Sistema de Búsqueda en Historial y Auditoría
 
 Este sistema está diseñado para la extracción de datos analíticos, generación de reportes y auditoría del rendimiento general de la planta.
 
@@ -1508,7 +1508,7 @@ Este sistema está diseñado para la extracción de datos analíticos, generaci�
 
 En esta sección el equipo explica cuáles serán las acciones y técnicas que guiarán a los usuarios (Jefes de Planta, Contratistas y Técnicos) a través del Landing Page y las aplicaciones de FixCore, permitiéndoles cumplir sus metas e interactuar de forma satisfactoria con el producto. Aquí se detalla de qué maneras los usuarios irán recorriendo los distintos módulos operativos y gerenciales.
 
-### 4.2.5.1. Sistema de Navegación Global
+#### 4.2.5.1. Sistema de Navegación Global
 
 FixCore implementa un sistema de navegación global consistente, adaptado tanto para la gestión en oficina como para el trabajo en planta.
 
@@ -1534,7 +1534,7 @@ FixCore implementa un sistema de navegación global consistente, adaptado tanto 
 
 ---
 
-### 4.2.5.2. Navegación del Landing Page
+#### 4.2.5.2. Navegación del Landing Page
 
 El Landing Page corporativo tiene una navegación optimizada para la conversión B2B de PYMEs y firmas consultoras.
 
@@ -1552,7 +1552,7 @@ El Landing Page corporativo tiene una navegación optimizada para la conversión
 
 ---
 
-### 4.2.5.3. Navegación de la Aplicación Web
+#### 4.2.5.3. Navegación de la Aplicación Web
 
 La aplicación web, orientada a Jefes de Planta y Consultores, cuenta con una navegación estructurada para manejar altos volúmenes de datos.
 
@@ -1573,7 +1573,7 @@ La aplicación web, orientada a Jefes de Planta y Consultores, cuenta con una na
 
 ---
 
-### 4.2.5.4. Sistema de Breadcrumbs
+#### 4.2.5.4. Sistema de Breadcrumbs
 
 FixCore implementa breadcrumbs para facilitar la navegación profunda en la jerarquía de activos e inventario.
 
@@ -1588,7 +1588,7 @@ FixCore implementa breadcrumbs para facilitar la navegación profunda en la jera
 
 ---
 
-### 4.2.5.5. Navegación Mobile
+#### 4.2.5.5. Navegación Mobile
 
 La navegación móvil está diseñada con un enfoque de "baja fricción" exclusivo para los operarios y técnicos en piso de planta.
 
@@ -1600,7 +1600,7 @@ La navegación móvil está diseñada con un enfoque de "baja fricción" exclusi
 
 ---
 
-### 4.2.5.6. Navegación Operativa (Flujo de Trabajo)
+#### 4.2.5.6. Navegación Operativa (Flujo de Trabajo)
 
 El flujo de atención de mantenimiento tiene una navegación guiada para evitar errores en campo.
 
@@ -1611,7 +1611,7 @@ El flujo de atención de mantenimiento tiene una navegación guiada para evitar 
 
 ---
 
-### 4.2.5.7. Accesibilidad en Navegación
+#### 4.2.5.7. Accesibilidad en Navegación
 
 FixCore asegura una navegación inclusiva y adaptada a entornos industriales de alta demanda visual.
 
@@ -1622,7 +1622,7 @@ FixCore asegura una navegación inclusiva y adaptada a entornos industriales de 
 
 ---
 
-### 4.2.5.8. Feedback de Navegación
+#### 4.2.5.8. Feedback de Navegación
 
 FixCore proporciona respuestas visuales inmediatas para confirmar que las acciones críticas del mantenimiento han sido registradas.
 
