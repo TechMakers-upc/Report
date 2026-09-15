@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="Assets/Images/UPC_logo_transparente.png" alt="Logo de la Universidad" style="width:20%; height: auto;">
+<img src="assets/images/UPC_logo_transparente.png" alt="Logo de la Universidad" style="width:20%; height: auto;">
 
 ## Universidad Peruana de Ciencias Aplicadas
 
@@ -51,7 +51,6 @@
 - [Contenido](#contenido)
   - [Tabla de contenidos](#tabla-de-contenidos)
 - [Student Outcome](#student-outcome)
-- [Capítulo I: Introducción](#capítulo-i-introducción)
   - [1.1. Startup Profile](#11-startup-profile)
     - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
     - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
@@ -85,10 +84,29 @@
 - [Capítulo IV: Product Design](#capítulo-iv-product-design)
   - [4.1. Style Guidelines.](#41-style-guidelines)
     - [4.1.1. General Style Guidelines.](#411-general-style-guidelines)
+      - [4.1.1.1 Branding](#4111-branding)
+      - [4.1.1.2. Typography](#4112-typography)
+      - [4.1.1.3. Color Palette](#4113-color-palette)
+      - [4.1.1.4. Spacing System](#4114-spacing-system)
     - [4.1.2. Web Style Guidelines.](#412-web-style-guidelines)
+      - [4.1.2.1. Responsive Design Principles](#4121-responsive-design-principles)
+      - [4.1.2.2. Web Component States](#4122-web-component-states)
+      - [4.1.2.3. Form Elements](#4123-form-elements)
+      - [4.1.2.4. Navigation Patterns](#4124-navigation-patterns)
+      - [4.1.2.5. Accessibility Guidelines](#4125-accessibility-guidelines)
+      - [4.1.2.6. Animation Guidelines](#4126-animation-guidelines)
   - [4.2. Information Architecture.](#42-information-architecture)
     - [4.2.1. Organization Systems.](#421-organization-systems)
+      - [4.2.1.1. Organización del Landing Page](#4211-organización-del-landing-page)
+      - [4.2.1.2. Organización de la Aplicación Web (Dashboard y Área Principal)](#4212-organización-de-la-aplicación-web-dashboard-y-área-principal)
+      - [4.2.1.3. Estrategia de Organización para Búsqueda y Acceso Rápido](#4213-estrategia-de-organización-para-búsqueda-y-acceso-rápido)
     - [4.2.2. Labeling Systems.](#422-labeling-systems)
+      - [4.2.2.1. Principios de Etiquetado](#4221-principios-de-etiquetado)
+      - [4.2.2.2. Etiquetas de Navegación Principal](#4222-etiquetas-de-navegación-principal)
+      - [4.2.2.3. Etiquetas de Mantenimiento y Activos](#4223-etiquetas-de-mantenimiento-y-activos)
+      - [4.2.2.4. Etiquetas de Inventario](#4224-etiquetas-de-inventario)
+      - [4.2.2.5. Etiquetas de Acciones de Usuario](#4225-etiquetas-de-acciones-de-usuario)
+      - [4.2.2.6. Reglas de Asociación entre Etiquetas](#4226-reglas-de-asociación-entre-etiquetas)
     - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
     - [4.2.4. Searching Systems.](#424-searching-systems)
     - [4.2.5. Navigation Systems.](#425-navigation-systems)
@@ -223,7 +241,7 @@ Nuestro enfoque inicial serán las firmas contratistas de mantenimiento industri
 **Business Assumptions**
 * Creemos que nuestros clientes necesitan dejar de usar cuadernos y hojas de cálculo porque la información se pierde o desactualiza, y requieren un historial centralizado de sus máquinas.
 * Estas necesidades se pueden resolver con una aplicación web moderna donde cada máquina tenga su propia ficha técnica digital accesible de forma rápida.
-* Nuestros clientes iniciales son los jefes de mantenimiento de fábricas y los dueños de empresas que prestan servicios tecnicos.
+* Nuestros clientes iniciales son los jefes de mantenimiento de fábricas y los dueños de empresas que prestan servicios técnicos.
 * El valor principal que un cliente busca es evitar paradas imprevistas en la línea de producción y tener control total sobre sus activos físicos.
 * El cliente también se beneficiará al poder ver de forma ágil el rendimiento de sus técnicos y los costos de reparación asociados.
 * Conseguiremos clientes ofreciendo pruebas piloto directas en una línea de producción de sus instalaciones para demostrar el valor de la plataforma.
@@ -354,6 +372,8 @@ Nuestro enfoque inicial serán las firmas contratistas de mantenimiento industri
 
 ## 2.2. Entrevistas. 
 
+### 2.2.1. Diseño de entrevistas. 
+
 ### Guía de preguntas para Pymes de Manufactura y Producción
 
 * ¿Cuál es tu nombre, edad y qué cargo ocupas en la planta?
@@ -383,12 +403,10 @@ Nuestro enfoque inicial serán las firmas contratistas de mantenimiento industri
 * ¿Preferiría un modelo de precios basado en la cantidad de técnicos (usuarios) o en la cantidad de plantas/clientes gestionados?
 * ¿Estaría dispuesto a recomendar e implementar este sistema directamente en la infraestructura tecnológica de sus clientes?
 
-### 2.2.1. Diseño de entrevistas. 
-
 
 ### 2.2.2. Registro de entrevistas.
 
-### Segmento 1 : Pymes de Manufactura y Producción 
+### Segmento 1: Pymes de Manufactura y Producción 
 
 <table>
   <thead>
@@ -466,31 +484,220 @@ Sí, yo creo que primero iniciaría con dos o tres máquinas y ya luego para tod
 **Una vez comprobado el valor del sistema, ¿cuánto estarías dispuesta a pagar mensualmente por módulos avanzados y analítica de datos (rango en dólares o soles)?**
 Yo creo que entre 500 a 1000 soles. Incluso un poquito más. O sea, también tendría que ver qué es lo que me va a beneficiar y qué cosas van a comprender el paquete que me van a ofrecer. Pero no tendría ningún problema con pagarlo para poder optimizar los procesos.
 
-| Campo | Detalle |
-| :--- | :--- |
-| **Nombre y apellido** | Carla Aguilar |
-| **Edad** | 26 años | 
-| **Ubicación** | Magdalena del Mar |
-| **Inicio de la entrevista** |  |
-| **Duración** |  |
-| **Enlace** | aca colocamos el link del video (todas las entrevistas juntas en uno solo)|
+<table>
+  <thead>
+    <tr>
+      <th align="center">Foto</th>
+      <th align="left">Campo</th>
+      <th align="left">Detalle</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="6" align="center" valign="middle" width="200">
+        <img src="" alt="" width="160">
+      </td>
+      <td><strong>Nombre y apellido</strong></td>
+      <td>Carla Aguilar</td>
+    </tr>
+    <tr>
+      <td><strong>Edad</strong></td>
+      <td>26 años</td>
+    </tr>
+    <tr>
+      <td><strong>Ubicación</strong></td>
+      <td>Magdalena del Mar</td>
+    </tr>
+    <tr>
+      <td><strong>Inicio de la entrevista</strong></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>Duración</strong></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>Enlace</strong></td>
+      <td><a href="URL_DEL_VIDEO"></a></td>
+    </tr>
+  </tbody>
+</table>
 
-> **Resumen:**
-> Carla es una profesional muy práctica y siempre enfocada en cumplir las metas de producción de la fábrica. Su personalidad es directa y prefiere soluciones rápidas antes que cosas complicadas o muy visuales. A nivel tecnológico se defiende bastante bien y confía en marcas duraderas como Samsung para su celular personal y equipos Dell para su computadora de oficina. En su día a día utiliza el navegador Google Chrome para gestionar sus correos y hojas de cálculo. Su principal canal de comunicación es WhatsApp, una herramienta que usa tanto para hablar con su familia como para dirigir a todo su equipo de operarios. Durante la charla mostró mucha frustración porque la información importante se pierde entre tantos mensajes del chat grupal. La propuesta de nuestra plataforma le llamó bastante la atención, en especial la idea de que los operarios puedan reportar fallas haciendo solo un par de clics desde sus teléfonos, y valoró mucho la posibilidad de recibir alertas automáticas directo a su celular para no tener que estar adivinando qué pasa en la planta.
+**Resumen:**
+**¿Cuál es tu nombre, edad y qué cargo ocupas en la planta?**
+Hola mi Nombre es Carla Aguilar , tengo 26 años y soy jefa de planta
 
+**¿A qué sector industrial pertenece la empresa y, aproximadamente, cuántas máquinas principales operan?**
+La empresa es una fábrica de envases de plástico, ahorita tenemos 15 máquinas principales operando entre inyectores y sopladoras
 
-### Segmento 2 : Firmas Consultoras y Contratistas de Ingeniería Industrial
-| Campo | Detalle |
-| :--- | :--- |
-| **Nombre y apellido** | Valeria Salazar |
-| **Edad** | 34 años | 
-| **Ubicación** | San Miguel |
-| **Inicio de la entrevista** |  |
-| **Duración** |  |
-| **Enlace** | aca colocamos el link del video (todas las entrevistas juntas en uno solo)|
+**¿Cómo gestionan actualmente el reporte de fallas de maquinaria y las órdenes de trabajo (ej. Excel, papel, grupos de WhatsApp, pizarras)?**
+Todo lo manejamos por grupos de WhatsApp y tenemos una pizarra que también usamos para las órdenes de trabajo, cuando es fin de mes me siento a pasar todo a un Excel para el reporte de gerencia.
 
-> **Resumen:**
-> Valeria tiene una mentalidad muy orientada a los negocios y analiza todo desde el punto de vista de la rentabilidad. Su mayor preocupación todos los días es mantener contentos a sus clientes corporativos y aprovechar al máximo las horas de trabajo de sus técnicos. Ella es usuaria de productos Apple y maneja toda su agenda desde su iPhone y su iPad, mientras que en la oficina prefiere usar un navegador comun en su entorno para revisar correos y contratos. Se nota que confía en marcas industriales de prestigio, ya que siempre busca mostrar profesionalismo y seguridad. En la entrevista indico se cansa por la cantidad de trabajo manual que implica armar reportes distintos para cada cliente,considera que el sistema encaja perfecto con lo que necesitan porque funcionaría como un panel de control central para monitorear a todas las plantas al mismo tiempo. Además, le pareció justo un modelo de pago basado en la cantidad de operarios que usan la plataforma y destacó que esta tecnología le serviría como una excelente herramienta de ventas para demostrar innovación.
+**¿Qué dispositivos utilizan más los operarios y técnicos durante su turno en planta (smartphones, tablets, radios)?**
+Casi todos los técnicos usan sus celulares personales, la gran mayoría cuenta con sistema Android, ya que es lo más común creo para este sector.
+
+**¿Qué tan frecuente es que una máquina sufra tiempos muertos debido a una mala comunicación o lentitud al reportar la falla?** Nos pasa unas dos hasta tres veces en el mes. A veces la máquina empieza a fallar, el operario no me aviso a tiempo y terminamos con la línea parada por horas debido a esta falta de comunicación y errores que se comenten
+
+**¿Cuáles son las mayores frustraciones que enfrentas al intentar consolidar la información de mantenimiento a fin de mes?**
+Mi mayor dolor de cabeza es tener que buscar en las conversaciones de WhatsApp para acordarme cuando se cambió una pieza o sobre las fallas que hubo quien lo soluciono y eso más que nada.
+
+**¿Has intentado implementar algún software de mantenimiento anteriormente? Si es así, ¿cuál fue el resultado o la principal barrera de adopción por parte de los técnicos?**
+Una vez intentamos usar el Excel de Google, pero los muchachos no querían llenarlo porque las celdas se veían muy pequeñas en sus celulares y les quitaba tiempo, además que algunos no entendían.
+
+**¿Qué elemento te generaría más confianza para adoptar un nuevo sistema: la facilidad de uso para el operario, la automatización de alertas, o el costo de implementación?**
+Definitivamente la facilidad de uso para el operario. Si les pongo a teclear mucho texto, simplemente no lo van a usar.
+
+**¿Cómo crees que impactaría en la productividad si los técnicos pudieran reportar una falla en menos de 3 clics desde su celular?**
+Ayudaría muchísimo. Si pueden reportar una falla en tres clics, ya no tendrían la típica excusa de que estaban ocupados y no tuvieron tiempo de avisar.
+
+**¿Qué tan útil te resultaría recibir notificaciones automáticas de fallas críticas directamente en tu WhatsApp?**
+Para mí sería genial, yo paro metida en WhatsApp todo el día, así que recibir la alerta por ahí me ahorraría estar caminando por toda la planta para ver si algo falló o esperar que me avisen si es que no se olvidaron y así poder actuar rápidamente.
+
+**Si existiera una versión básica gratuita (modelo freemium) para probar el sistema con algunas máquinas, ¿te animarías a implementarlo en tu planta?**
+Sí me animaría totalmente. Empezaría probando con las tres máquinas inyectoras que son las más críticas para la producción.
+
+**Una vez comprobado el valor del sistema, ¿cuánto estarías dispuesta a pagar mensualmente por módulos avanzados y analítica de datos (rango en dólares o soles)?**
+Yo creo que pagaría entre 80 y 100 dólares mensuales si de verdad me soluciona todo el desorden que tenemos ahora.
+
+<table>
+  <thead>
+    <tr>
+      <th align="center">Foto</th>
+      <th align="left">Campo</th>
+      <th align="left">Detalle</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="6" align="center" valign="middle" width="200">
+        <img src="Assets/Images/entrevista_3_segmento_1.jpg" alt="Entrevista a Mitjail Landa" width="160">
+      </td>
+      <td><strong>Nombre y apellido</strong></td>
+      <td>Mitjail Landa</td>
+    </tr>
+    <tr>
+      <td><strong>Edad</strong></td>
+      <td>29 años</td>
+    </tr>
+    <tr>
+      <td><strong>Ubicación</strong></td>
+      <td>Ate Vitarte</td>
+    </tr>
+    <tr>
+      <td><strong>Timing de la entrevista</strong></td>
+      <td>Inicia: 8:58 - Termina: 16:47</td>
+    </tr>
+    <tr>
+      <td><strong>Duración</strong></td>
+      <td>7 minutos y 49 segundos</td>
+    </tr>
+    <tr>
+      <td><strong>Enlace</strong></td>
+      <td><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423973_upc_edu_pe/IQD8ECWrYrRxQaNhmjXB91vmAWdSEk3YRD64TUu5xywjVz8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=WNbf7E">Video de las entrevistas</a></td>
+    </tr>
+  </tbody>
+</table>
+
+**Resumen:**
+**¿Cuál es tu nombre, edad y qué cargo ocupas en la planta?**
+Mitjail Landa, de 29 años, ocupa el cargo de gestión de proyectos.
+
+**¿A qué sector industrial pertenece la empresa y, aproximadamente, cuántas máquinas principales operan?**
+La empresa pertenece al sector de telecomunicaciones y opera cientos de equipos distribuidos a nivel nacional.
+
+**¿Cómo gestionan actualmente el reporte de fallas de maquinaria y las órdenes de trabajo (ej. Excel, papel, grupos de WhatsApp, pizarras)?**
+Los reportes son notificados por los usuarios mediante llamadas telefónicas y correos electrónicos.
+
+**¿Qué dispositivos utilizan más los operarios y técnicos durante su turno en planta (smartphones, tablets, radios)?**
+Los operarios utilizan mayormente celulares.
+
+**¿Qué tan frecuente es que una máquina sufra tiempos muertos debido a una mala comunicación o lentitud al reportar la falla?** 
+No es muy común, pero los tiempos muertos son altos.
+
+**¿Cuáles son las mayores frustraciones que enfrentas al intentar consolidar la información de mantenimiento a fin de mes?**
+La desorganización y saturación generada por el trabajo de varias personas de diferentes áreas.
+
+**¿Has intentado implementar algún software de mantenimiento anteriormente? Si es así, ¿cuál fue el resultado o la principal barrera de adopción por parte de los técnicos?**
+Se ha intentado y se está planeando su implementación para proyectos recientes que requieren mantenimiento preventivo.
+
+**¿Qué elemento te generaría más confianza para adoptar un nuevo sistema: la facilidad de uso para el operario, la automatización de alertas, o el costo de implementación?**
+Lo más importante es la facilidad de uso para el operario debido a que les ayudará a adaptarse al sistema. La automatización de alertas también es importante para tomar precauciones.
+
+**¿Cómo crees que impactaría en la productividad si los técnicos pudieran reportar una falla en menos de 3 clics desde su celular?**
+Sería muy bueno para brindar atención rápida
+
+**¿Qué tan útil te resultaría recibir notificaciones automáticas de fallas críticas directamente en tu WhatsApp?**
+Le resulta muy útil y plantea integraciones mediante mensajes de texto o audios pregrabados. 
+
+**Si existiera una versión básica gratuita (modelo freemium) para probar el sistema con algunas máquinas, ¿te animarías a implementarlo en tu planta?**
+Se animaría a probarlo para averiguar como se desarrolla o adapta en su contexto laboral.
+
+**Una vez comprobado el valor del sistema, ¿cuánto estarías dispuesto a pagar mensualmente por módulos avanzados y analítica de datos (rango en dólares o soles)?**
+Dependerá de los módulos y analíticas integradas, basándose en que tan útiles sean. Estima que, si es un buen sistema, un rango de precios que estaría dispuesto a pagar es de 50 a 100 soles mensuales, pero plantea realizar un estudio de mercado primero antes de dar un rango definitivo.
+
+### Segmento 2: Firmas Consultoras y Contratistas de Ingeniería Industrial
+<table>
+  <thead>
+    <tr>
+      <th align="center">Foto</th>
+      <th align="left">Campo</th>
+      <th align="left">Detalle</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="6" align="center" valign="middle" width="200">
+        <img src="" alt="" width="160">
+      </td>
+      <td><strong>Nombre y apellido</strong></td>
+      <td>Valeria Salazar</td>
+    </tr>
+    <tr>
+      <td><strong>Edad</strong></td>
+      <td>34 años</td>
+    </tr>
+    <tr>
+      <td><strong>Ubicación</strong></td>
+      <td>San Miguel</td>
+    </tr>
+    <tr>
+      <td><strong>Inicio de la entrevista</strong></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>Duración</strong></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>Enlace</strong></td>
+      <td><a href="URL_DEL_VIDEO"></a></td>
+    </tr>
+  </tbody>
+</table>
+
+**Resumen:**
+**¿Podría indicarme su nombre, cargo y el tipo de servicios de ingeniería o mantenimiento que brinda su empresa?**
+Hola me llamo Valeria Salazar, trabajo en el área de Operaciones en mi empresa, nosotros nos dedicamos a brindar mantenimiento industrial preventivo y correctivo
+
+**¿A cuántas plantas industriales o clientes prestan servicio de manera simultánea?** Actualmente atendemos a ocho plantas fijas con las que tenemos contratos anuales
+
+**¿Cómo coordinan actualmente el despliegue de sus técnicos en campo cuando un cliente reporta una emergencia o falla en sus equipos?** Todo es a base de llamadas telefónicas y correos. Cuando un cliente reporta una emergencia, tengo que empezar a llamar uno por uno a mis técnicos para ver quién está más cerca de esa fábrica
+
+**Desde su experiencia operativa, ¿cuáles son las mayores limitaciones logísticas o tecnológicas que enfrentan para atender múltiples plantas a la vez?** Lo más limitante es el cruce de horarios y el hecho de no saber si es que tienen el repuesto exacto hasta que llega a la planta del cliente.
+
+**¿Qué tan complejo les resulta estandarizar los reportes de mantenimiento y KPIs para entregárselos a diferentes clientes?** Es un trabajo agotador, cada cliente nos pide un formato distinto para su reporte, algunos quieren PDF, otros Excel, y perdemos horas valiosas transcribiendo todo.
+
+**¿Suelen utilizar herramientas de automatización de flujos de trabajo o integración de APIs en sus operaciones diarias?** No, por ahora todo nuestro flujo operativo es completamente manual y dependemos de la memoria de los coordinadores.
+
+**¿Qué funcionalidades considera indispensables en una plataforma digital para que decida utilizarla como el motor operativo de todos sus técnicos (ej. webhooks, portal multi-cliente, alertas en tiempo real)?** Yo creo que lo indispensable sería un portal unificado donde yo pueda ver a todos mis clientes en una sola pantalla y saber exactamente en qué estado está cada orden de trabajo.
+
+**¿Qué tan importante sería para su firma poder integrar el sistema de mantenimiento con otras herramientas de comunicación (como notificaciones automáticas vía n8n a WhatsApp)?** Sería un valor agregado gigante, el cliente sentiría que estamos monitoreando sus máquinas todo el tiempo sin que nosotros tengamos que hacer el trabajo manual de avisarles.
+
+**¿Cree que ofrecer a sus clientes una herramienta ágil para que les reporten fallas mejoraría la percepción de su servicio tercerizado? ¿Por qué?** Claro que sí, porque proyecta una imagen de empresa moderna y tecnológica, lo cual nos ayuda a justificar nuestras tarifas frente a la competencia.
+
+**¿Preferiría un modelo de precios basado en la cantidad de técnicos (usuarios) o en la cantidad de plantas/clientes gestionados?** Prefiero un modelo basado en la cantidad de técnicos. De esa manera, si logro conseguir más clientes y fábricas, el sistema no me penaliza cobrándome más por cada nueva planta.
+
+**¿Estaría dispuesto a recomendar e implementar este sistema directamente en la infraestructura tecnológica de sus clientes?** Sí lo haría, siempre y cuando el sistema nos permita poner el logotipo de nuestra consultora en los reportes finales que se le entregan al cliente.
 
 ### 2.2.3. Análisis de entrevistas. 
 
@@ -510,29 +717,125 @@ En conjunto, esta literatura reciente confirma que existe una necesidad sostenid
 
 El Árbol de Problemas fue elaborado para jerarquizar visualmente la problemática, estableciendo una relación de causalidad entre el problema central —la ineficiencia y altos costos por tiempos muertos (downtime) en la gestión de mantenimiento industrial de pymes y sus efectos. Las Causas (raíces) y los Efectos (impactos) identificados fueron validados mediante la triangulación de los hallazgos de las entrevistas de campo y la literatura sectorial reciente, la cual subraya que la dependencia de procesos manuales y la barrera de adopción de software complejo extienden drásticamente los tiempos de recuperación frente a fallas (Senseye, 2022; Narula et al., 2023).
 
-**Gráfico 2: Árbol de problemas**
-
-![Árbol de Problemas FixCore](Assets/Images/arbol_problemas.png)
-
-*Fuente: Elaboración propia.*
+<div align="center">
+  <strong>Gráfico 1: Árbol de problemas</strong><br><br>
+  <img src="Assets/Images/arbol_problemas.png" width="400"><br>
+  <em>Fuente: Elaboración propia.</em>
+</div>
 
 ### Diagrama de Ishikawa
 
 Para complementar el análisis estructural, se aplicó el Diagrama de Ishikawa (Espina de Pescado) categorizando las causas raíz en seis ejes fundamentales: Proceso, Personas, Tecnología, Información, Entorno y Gestión[cite: 6]. Este desglose sistemático no solo demuestra el rigor metodológico, sino que también justifica la multidimensionalidad de la solución FixCore al validar las causas operativas (p. ej., la necesidad de Tecnología móvil para superar las limitaciones del Entorno ruidoso de planta y la agilidad de Proceso para combatir la comunicación fragmentada).
 
-**Gráfico 3: Diagrama de Ishikawa**
-
-![Diagrama de Ishikawa FixCore](Assets/Images/diagrama_ishikawa.png)
-
-*Fuente: Elaboración propia.*
+<div align="center">
+  <strong>Gráfico 2: Diagrama de Ishikawa</strong><br><br>
+  <img src="Assets/Images/diagrama_ishikawa.png" width="400"><br>
+  <em>Fuente: Elaboración propia.</em>
+</div>
 
 ### 2.3.1. User Personas. 
 
+En esta sección se presentan las fichas de User Persona desarrolladas a partir del análisis de entrevistas y del análisis competitivo. Se tomó en cuenta la información estadística obtenida en las entrevistas a los segmentos estudiados, donde se identificaron las características objetivas y subjetivas más comunes, complementado con el análisis competitivo del mercado de capacitación en primeros auxilios.
+
+**Segmento 1: Pymes de Manufactura y Producción**
+
+<div align="center">
+  <strong>Gráfico 3: User Person del segmento pymes</strong><br><br>
+  <img src="Assets/Images/userpersona1.png" width="400"><br>
+  <em>Fuente: Elaboración propia.</em>
+</div>
+
+**Segmento 2: Firmas Consultoras y Contratistas de Ingeniería Industrial**
+
+<div align="center">
+  <strong>Gráfico 4: User Person del segmento consultoras y contratistas</strong><br><br>
+  <img src="Assets/Images/userpersona2.png" width="400"><br>
+  <em>Fuente: Elaboración propia.</em>
+</div>
+
 ### 2.3.2. User Task Matrix. 
+
+El presente User Task Matrix reúne las tareas principales que los User Persona (representativos de los tres segmentos objetivo de FexCore) realizan para alcanzar sus metas relacionadas con la gestión de mantenimiento industrial y reducción de tiempos muertos.
+
+Cada tarea fue evaluada según dos criterios:
+*   **Frecuencia (Frc):** qué tan a menudo el usuario realiza la tarea (Alta / Media / Baja).
+*   **Importancia (Imp):** qué tan relevante considera el usuario dicha tarea para cumplir su objetivo (Alta / Media / Baja).
+
+Los segmentos considerados son:
+1.  **Técnicos de Piso / Operarios**
+2.  **Jefes de Planta / Supervisores de Producción**
+3.  **Firmas Consultoras / Gerencia de Operaciones**
+
+### User Task Matrix - FexCore
+
+| Tareas principales | Técnicos (Frc) | Técnicos (Imp) | Supervisores (Frc) | Supervisores (Imp) | Consultores (Frc) | Consultores (Imp) |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: |
+| **Reportar fallas o paradas de línea** | Alta | Alta | Media | Alta | Baja | Media |
+| **Ejecutar y cerrar Órdenes de Trabajo (OTs)** | Alta | Alta | Media | Alta | Baja | Media |
+| **Consultar inventario de repuestos y manuales** | Alta | Alta | Alta | Alta | Media | Media |
+| **Comunicar alertas críticas o cuellos de botella** | Alta | Alta | Alta | Alta | Media | Alta |
+| **Asignar técnicos a mantenimientos correctivos** | Baja | Baja | Alta | Alta | Alta | Alta |
+| **Planificar cronogramas preventivos** | Baja | Media | Alta | Alta | Alta | Alta |
+| **Generar reportes gerenciales y KPIs** | Baja | Baja | Alta | Alta | Alta | Alta |
+| **Auditar tiempos muertos (MTTR) y disponibilidad** | Baja | Baja | Alta | Alta | Alta | Alta |
+| **Revisar el historial o estado de una máquina** | Media | Media | Alta | Alta | Alta | Media |
+| **Acceder desde smartphones en planta (Baja fricción)** | Alta | Alta | Alta | Alta | Media | Media |
+| **Validar cumplimiento de OTs (Checklists y firmas)** | Media | Alta | Alta | Alta | Alta | Alta |
+| **Gestionar operarios multi-planta / multi-cliente** | Baja | Baja | Baja | Media | Alta | Alta |
+
+### Análisis de resultados
+
+**Tareas más frecuentes:**
+Entre los tres segmentos, las tareas *"Acceder desde smartphones en planta"*, *"Consultar inventario de repuestos"* y *"Comunicar alertas críticas"* presentan alta frecuencia. Esto refleja la necesidad operativa del día a día por tener acceso móvil, visibilidad de stock y una comunicación rápida para evitar paradas prolongadas.
+
+**Tareas más importantes:**
+En todos los casos, las tareas *"Comunicar alertas críticas"*, *"Auditar tiempos muertos (MTTR)"* y *"Validar cumplimiento de OTs"* destacan con alta importancia. Esto evidencia que los usuarios valoran resolver las emergencias de inmediato y tener un control de calidad estricto respaldado por datos para proteger los bienes de capital.
+
+**Diferencias entre segmentos:**
+*   **Los Técnicos de Piso** priorizan la inmediatez: su enfoque absoluto está en reportar fallas rápidamente, ejecutar OTs y consultar repuestos desde sus celulares sin interfaces complejas (baja fricción).
+*   **Los Supervisores y Jefes de Planta (ej. Carla)** actúan como el puente de control: dan igual peso a la asignación de recursos, la planificación y la generación de reportes mensuales para la gerencia, buscando consolidar la información.
+*   **Las Firmas Consultoras (ej. Víctor)** concentran sus tareas en la gestión a gran escala: auditar KPIs, estandarizar reportes y gestionar operaciones multi-planta para justificar el valor de su servicio tercerizado.
+
+**Coincidencias clave:**
+Todos los perfiles coinciden en la necesidad de un acceso digital unificado y sin fricción (especialmente móvil) que erradique la dependencia del papel y los grupos informales de WhatsApp. Esta convergencia valida el enfoque de FexCore como un núcleo centralizado que conecta la inmediatez del operario con la analítica del gerente.
 
 ### 2.3.3. User Journey Mapping. 
 
+Los siguientes User Journey Mapping describen las experiencia actuales (As-Is) de los dos segmentos principales de FixCore: pymes y contratistas o consultoras.
+
+El objetivo es comprender las motivaciones, frustraciones y oportunidades que surgen en cada etapa del proceso de aprendizaje, desde la búsqueda de información hasta la aplicación de conocimientos, con el fin de identificar puntos críticos que servirán de base para diseñar una experiencia más efectiva, práctica y accesible.
+
+<div align="center">
+  <strong>Gráfico 5:  User Journey Map – Carla Garcia (jefa de planta)</strong><br><br>
+  <img src="Assets/Images/journeymap1.png" width="400"><br>
+  <em>Fuente: Elaboración propia.</em>
+</div>
+
+
+<div align="center">
+  <strong>Gráfico 6: User Journey Map – Victor Salazar (Contratista de mantenimiento)</strong><br><br>
+  <img src="Assets/Images/journeymap2.png" width="400"><br>
+  <em>Fuente: Elaboración propia.</em>
+</div>
+
 ### 2.3.4. Empathy Mapping. 
+
+El proceso de Empathy Mapping permitió comprender de manera más profunda los pensamientos, emociones, necesidades y motivaciones de los dos User Persona de Fixcore.
+
+Cada mapa busca responder las preguntas centrales del diseño centrado en el usuario: ¿con quién estamos empatizando?, ¿qué necesita?, ¿qué piensa y siente?, ¿qué ve, dice, hace y escucha?, además de identificar sus pains (frustraciones o dificultades) y gains (motivaciones y oportunidades).
+
+<div align="center">
+  <strong>Gráfico 7: Empathy Map de jefa de planta</strong><br><br>
+  <img src="Assets/Images/empathymap1.png" width="400"><br>
+  <em>Fuente: Elaboración propia.</em>
+</div>
+
+
+<div align="center">
+  <strong>Gráfico 8: Empathy Map de contratistas o consultores</strong><br><br>
+  <img src="Assets/Images/empathymap2.png" width="400"><br>
+  <em>Fuente: Elaboración propia.</em>
+</div>
 
 ## 2.4. Big Picture EventStorming. 
 
@@ -919,17 +1222,595 @@ La interfaz de FixCore muta drásticamente según el contexto de uso y el dispos
 
 ### 4.1.2. Web Style Guidelines. 
 
+#### 4.1.2.1. Responsive Design Principles
+
+Los principios de diseño responsivo de FexCore garantizan que la plataforma sea una herramienta de alta precisión tanto para el gerente en su oficina como para el técnico que se desplaza por la planta industrial.
+
+**Mobile-First Approach (Enfoque Técnico-Primero)**
+FexCore adopta un diseño mobile-first riguroso, asumiendo que el reporte de fallas ocurrirá en condiciones adversas (de pie, con prisa o usando guantes). Este enfoque asegura que:
+* El contenido esencial (botones de reporte y estado de la máquina) sea hiper-visible.
+* Las áreas táctiles tengan un tamaño industrial (mínimo 48x48px).
+* La versión móvil (app/PWA) esté centrada en la acción táctica, mientras que la versión de escritorio se expande hacia el análisis estratégico (dashboards y tablas complejas).
+
+**Breakpoints Established**
+FexCore define los siguientes puntos de quiebre para adaptar su interfaz:
+* **Mobile (0-767px):** Optimizado para operarios en planta. Navegación simplificada, tarjetas apiladas verticalmente y CTAs de ancho completo.
+* **Tablet (768-1023px):** Utilizado por supervisores de área en movimiento. Permite ver columnas duales y vistas previas de órdenes de trabajo.
+* **Desktop (1024-1440px):** Vista analítica para la Gerencia. Tableros de control de 12 columnas, tablas de inventario extendidas y gráficos de mantenimiento predictivo.
+
+**Fluid Typography**
+La tipografía (Roboto y Open Sans) escala mediante *viewport units* y funciones `clamp()`, asegurando que las alertas de "MÁQUINA DETENIDA" sean legibles desde la distancia en un móvil, sin verse desproporcionadas en un monitor ultrawide.
+
+#### 4.1.2.2. Web Component States
+
+Los componentes de FexCore comunican sus estados de forma inconfundible para evitar errores críticos en la gestión de mantenimiento:
+
+**Estados Interactivos**
+* **Default:** Estado base. Tarjetas en *Slate 800* (modo oscuro) o *White* con bordes sutiles en *Slate 200*.
+* **Hover (Escritorio):** El color de fondo se oscurece ligeramente (ej. de *Core Blue* a *Core Dark*), el cursor cambia a puntero y la tarjeta se eleva para indicar interactividad a los gerentes.
+* **Active/Pressed (Móvil):** Estado crítico en planta. Al presionar, el botón reduce su escala al 95% instantáneamente y oscurece su fondo, brindando retroalimentación táctil visual de que la falla fue reportada.
+* **Focus (Teclado):** Anillo de enfoque de 3px en *Core Blue*. Vital para el personal administrativo que ingresa inventarios rápidamente usando tabulación.
+* **Disabled:** Botones opacos (50%) con cursor bloqueado. Utilizado para evitar reportes duplicados cuando una máquina ya está en estado de "Falla".
+
+#### 4.1.2.3. Form Elements
+
+Los formularios en FexCore están diseñados para requerir menos de 3 clics y minimizar la fricción cognitiva del operario.
+
+**Input Fields (Campos de Entrada)**
+* Altura mínima de 48px para facilitar el toque rápido.
+* Bordes de alto contraste y tipografía grande (16px mínimo) para evitar zoom automático en móviles.
+* Mensajes de error en *Downtime Red* ubicados explícitamente debajo del campo fallido.
+
+**Buttons (Botones)**
+* **Primary:** Fondo *Core Blue*, texto blanco. Para acciones de avance (ej. "Crear Orden", "Guardar").
+* **Danger:** Fondo *Downtime Red*, texto blanco. Restringido a acciones críticas (ej. "Reportar Parada de Máquina", "Eliminar Activo").
+* **Secondary:** Borde gris y texto *Slate 700*. Para acciones cancelatorias o filtros.
+* Todos los botones móviles ocupan el 100% del ancho del contenedor.
+
+**Selects y Dropdowns**
+* Optimizados para búsquedas rápidas. Los selectores de maquinaria incluyen barras de búsqueda integradas para evitar el scroll infinito en listas de 100+ equipos.
+
+#### 4.1.2.4. Navigation Patterns
+
+**Global Navigation (Navegación Principal)**
+* **Desktop:** Barra lateral izquierda (Sidebar) oscura, expandible/colapsable, mostrando todos los módulos (Dashboard, Activos, Órdenes, Inventario).
+* **Mobile:** Barra de navegación inferior (Bottom Tab Bar) anclada a la pantalla para que el operario alcance los botones "Inicio", "Escanear QR" y "Alertas" con el dedo pulgar.
+
+**Secondary Navigation (Breadcrumbs)**
+* Vital para la estructura jerárquica industrial. Rastrea la ubicación exacta: `Planta Lima > Área de Empaque > Faja Transportadora B > Motor Eléctrico`.
+
+#### 4.1.2.5. Accessibility Guidelines
+
+FexCore cumple con el estándar WCAG AA, priorizando las realidades del trabajo físico.
+
+**Visual Accessibility (Visibilidad en Planta)**
+* Contraste ultra-alto (> 4.5:1). El sistema debe ser legible bajo la luz solar intensa o la luz fluorescente parpadeante de una fábrica.
+* Las alertas de estado no dependen solo del color: una luz roja siempre va acompañada de la palabra en negrita "**FALLA CRÍTICA**" y un icono triangular de advertencia.
+
+**Keyboard Navigation & Screen Readers**
+* Soporte total de teclado (Tab, Enter, Space) y etiquetas ARIA para garantizar que el software sea utilizable por personal de oficina con limitaciones motrices o de visión.
+
+#### 4.1.2.6. Animation Guidelines
+
+En un entorno industrial, la velocidad supera a la estética. Las animaciones en FexCore son pragmáticas y utilitarias.
+
+**Purpose of Animations (Propósito)**
+* **Feedback inmediato:** Confirmar que un toque fue registrado para que el técnico no presione múltiples veces.
+* **Carga de datos:** Usar *Skeleton Loaders* (esquemas grises parpadeantes) en lugar de spinners para que la interfaz se sienta más rápida, crucial cuando el Wi-Fi de la fábrica es inestable.
+
+**Animation Principles**
+* **Ultrarrápidas:** 150ms-200ms como máximo. El software debe sentirse instantáneo y mecánico, no flotante ni lento.
+* Sin efectos de rebote (bounces) innecesarios; se utilizan curvas *ease-out* directas.
+* Compatibilidad total con la preferencia del sistema operativo de reducción de movimiento (*prefers-reduced-motion*).
+
 ## 4.2. Information Architecture. 
 
 ### 4.2.1. Organization Systems. 
 
+#### 4.2.1.1. Organización del Landing Page
+
+El Landing Page de FexCore sirve como el punto de entrada principal para tomadores de decisión (Jefes de Planta, Gerentes de Operaciones) que buscan modernizar su gestión de mantenimiento. Su organización está diseñada para guiar al usuario a través de un recorrido de conversión altamente profesional y enfocado en el retorno de inversión (ROI) industrial.
+
+**Estructura Jerárquica en el Landing Page**
+
+La organización del Landing Page sigue una jerarquía visual clara que refleja el proceso lógico de evaluación B2B:
+* **Nivel 1 - Header de Impacto:** El *hero section* presenta el valor principal de FexCore de manera inmediata ("El núcleo de tu mantenimiento industrial"). El visitante entiende en menos de 3 segundos que la plataforma reduce tiempos muertos. Incluye el título principal, subtítulo explicativo, una previsualización de la interfaz móvil/dashboard, y botones de llamada a la acción primarios ("Probar Gratis" / "Solicitar Demo").
+* **Nivel 2 - Beneficios Clave:** Inmediatamente después, se presentan los diferenciadores principales en una cuadrícula de tarjetas (Baja Fricción, Trazabilidad, Alertas por WhatsApp). Responde a la pregunta: ¿Cómo FexCore elimina el caos de los reportes en papel?
+* **Nivel 3 - Módulos y Flujo de Trabajo:** Las secciones siguientes explican la funcionalidad paso a paso (1. Escanea QR, 2. Reporta Falla, 3. Reparación Rápida) y profundizan en los módulos principales (Órdenes de Trabajo, Inventario, Dashboard).
+* **Nivel 4 - Footer y Navegación Adicional:** El *footer* proporciona navegación secundaria, enlaces a políticas de privacidad, soporte técnico y opciones de contacto organizadas por función empresarial.
+
+**Principios de Organización Aplicados**
+
+La organización del Landing Page de FexCore aplica los siguientes principios:
+* **Jerarquía visual estricta:** El usuario escanea naturalmente de arriba abajo, siendo guiado desde el problema (tiempos muertos) hacia la solución (software) y la acción (demo).
+* **Progresión pragmática:** La narrativa avanza desde la promesa de valor gerencial hacia la facilidad de uso operativo, mitigando la objeción clásica de "mis técnicos no usarán un sistema complejo".
+* **Agrupación por función:** Características similares (funcionalidades de campo vs. análisis gerencial) comparten secciones visualmente delimitadas.
+
+#### 4.2.1.2. Organización de la Aplicación Web (Dashboard y Área Principal)
+
+La aplicación web de FexCore posee una estructura dual, ya que debe satisfacer a dos perfiles de usuario con necesidades diametralmente opuestas: la urgencia táctica del técnico en planta y la necesidad analítica del gerente.
+
+**Sistema de Organización Principal**
+
+La aplicación utiliza un sistema matricial que combina los siguientes enfoques:
+
+**1. Organización por audiencia (Roles de usuario):**
+* **Técnico/Operario:** El usuario que está en la fábrica reportando y solucionando fallas. Su vista (mobile-first) se organiza en torno a la inmediatez: Escanear QR, Órdenes Asignadas Hoy, Reportar Falla.
+* **Gerente/Supervisor:** El usuario que gestiona recursos y analiza datos. Su vista (desktop-first) se organiza en torno a métricas generales, aprobación de compras, control de inventario y tiempos medios de reparación (MTTR).
+
+**2. Organización por función principal (Áreas del software):**
+* **Mantenimiento:** Centro de operaciones para Órdenes de Trabajo (OTs), asignación de tareas y reportes de falla.
+* **Activos:** El catálogo completo de maquinaria, especificaciones técnicas y manuales.
+* **Inventario:** Control de repuestos, stock mínimo y valoración económica.
+* **Analítica:** Dashboards, reportes exportables en PDF/Excel y auditoría de tiempos muertos.
+
+**3. Organización cronológica y de urgencia:**
+* **Órdenes de Trabajo:** Ordenadas por prioridad (Crítica, Alta, Media) y fecha de vencimiento.
+* **Historial de Fallas:** Lista cronológica en orden inverso (más reciente primero) dentro del perfil de cada máquina.
+* **Alertas:** Registro cronológico de notificaciones automatizadas enviadas.
+
+**Esquemas de Categorización para Activos (Maquinaria)**
+
+La maquinaria en FexCore se organiza para reflejar la realidad física de la planta:
+* **Por Ubicación/Línea de Producción:** (Ej. Planta Lima > Área de Empaque > Línea 2).
+* **Por Criticidad:** (Alta, Media, Baja) para determinar qué máquina recibe atención prioritaria en caso de fallas simultáneas.
+* **Por Estado Operativo:** Operativo (Verde), En Falla (Rojo), Mantenimiento Preventivo (Ámbar).
+
+**Esquemas de Categorización para el Inventario (Repuestos)**
+
+El almacén de repuestos se organiza utilizando:
+* **Por Familia/Categoría:** Eléctricos, Mecánicos, Neumáticos, Consumibles, Hidráulicos.
+* **Por Compatibilidad:** Repuestos filtrados automáticamente según la máquina que se está reparando.
+* **Por Nivel de Stock:** Stock Crítico (requiere compra inmediata), Stock Óptimo, Exceso.
+
+#### 4.2.1.3. Estrategia de Organización para Búsqueda y Acceso Rápido
+
+En el mantenimiento industrial, el tiempo de búsqueda es tiempo de inactividad (downtime). FexCore implementa una arquitectura orientada al acceso ultrarrápido:
+
+**Accesos Directos Basados en Contexto**
+* **Para el Técnico (Planta):** Escaneo de código QR pegado en la máquina física, que abre instantáneamente el formulario de reporte de esa máquina específica sin tener que buscarla en el sistema.
+* **Para el Gerente (Oficina):** Tarjetas de KPI dinámicas en el dashboard que funcionan como filtros rápidos (ej. hacer clic en "3 Máquinas Detenidas" redirige automáticamente a la lista filtrada de esas 3 máquinas).
+
+**Colecciones y Agrupaciones Predictivas**
+* **Kits de Mantenimiento Previos (Bundles):** Agrupación de repuestos que siempre se consumen juntos (ej. "Kit de cambio de aceite: Filtro + Aceite 5W + Empaquetadura"). Al generar la Orden de Trabajo, el operario puede retirar todo el bloque con un solo clic.
+* **Autocompletado de Búsqueda:** Buscadores globales que reconocen códigos de serie parciales (SKU) o nombres coloquiales con los que los operarios llaman a las herramientas.
+
 ### 4.2.2. Labeling Systems. 
+
+Aquí el equipo explica de qué maneras se representarán los datos, priorizando la agilidad operativa y buscando evitar la confusión o fricción para los técnicos en planta y gerentes. En esta sección se especifican las etiquetas (con el mínimo número de palabras) a utilizar para representar los conjuntos de información y las asociaciones directas entre las mismas.
+
+#### 4.2.2.1. Principios de Etiquetado
+
+FexCore sigue principios específicos para todas las etiquetas utilizadas en la plataforma, enfocándose en la jerga industrial estandarizada:
+
+*   **Mínimo número de palabras:** Las etiquetas son cortas, directas y accionables. Máximo 2 palabras para botones tácticos (ej. "Cerrar OT") y 3 para navegación.
+*   **Lenguaje de planta (Común):** Se utilizan los términos que los técnicos e ingenieros ya emplean en su día a día. El sistema se adapta a la fábrica, no al revés.
+*   **Consistencia estricta:** Un concepto tiene una única etiqueta en todo el software. "Maquinaria" siempre se etiqueta como "Activos" para evitar duplicidad conceptual con "Equipos" o "Sistemas".
+*   **Diferenciación clara:** Las etiquetas de emergencia visualmente y textualmente se separan de las rutinarias ("Falla Crítica" vs. "Mantenimiento Preventivo").
+*   **Orientación a la acción:** Los botones utilizan verbos imperativos claros para no generar dudas en situaciones de estrés ("Reportar", "Escanear", "Cerrar").
+
+#### 4.2.2.2. Etiquetas de Navegación Principal
+
+Las etiquetas del menú principal de navegación (Sidebar y Bottom Bar):
+
+| Etiqueta | Descripción |
+| :--- | :--- |
+| **Dashboard** | Panel principal con KPIs, resumen operativo y alertas de planta |
+| **Activos** | Inventario y jerarquía de toda la maquinaria y equipos físicos |
+| **Órdenes (OTs)** | Centro de gestión de Órdenes de Trabajo (preventivas y correctivas) |
+| **Inventario** | Control de almacén, repuestos y stock de consumibles |
+| **Reportes** | Área de analítica, exportación de datos y auditoría de tiempos |
+| **Configuración** | Ajustes de perfil, permisos de usuario y estructura de la planta |
+
+#### 4.2.2.3. Etiquetas de Mantenimiento y Activos
+
+Etiquetas utilizadas para estructurar la información técnica de las máquinas:
+
+| Etiqueta | Descripción |
+| :--- | :--- |
+| **Falla / Parada** | Evento inesperado que detiene la producción (Downtime) |
+| **OT Preventiva** | Tarea de mantenimiento programada por calendario o uso |
+| **OT Correctiva** | Tarea de reparación en respuesta a una falla reportada |
+| **Downtime** | Tiempo total acumulado de inactividad de una máquina |
+| **Manuales** | Documentación técnica y diagramas adjuntos al activo |
+
+#### 4.2.2.4. Etiquetas de Inventario
+
+Etiquetas utilizadas para la gestión del almacén y repuestos:
+
+| Etiqueta | Descripción |
+| :--- | :--- |
+| **SKU** | Código único de identificación del repuesto en almacén |
+| **Stock Actual** | Cantidad física disponible del repuesto en tiempo real |
+| **Stock Mínimo** | Nivel de alerta que indica la necesidad de reabastecer |
+| **Consumibles** | Materiales de desgaste rápido (aceites, filtros, trapos) |
+| **Solicitud de Compra** | Requerimiento formal para adquirir repuestos agotados |
+
+#### 4.2.2.5. Etiquetas de Acciones de Usuario
+
+Etiquetas para los botones y flujos de interacción:
+
+| Etiqueta | Descripción |
+| :--- | :--- |
+| **Reportar Falla** | Acción de alta prioridad para alertar sobre una máquina detenida |
+| **Escanear QR** | Acción móvil para identificar un activo físicamente en planta |
+| **Iniciar OT** | Registrar el inicio del tiempo de reparación (marca el reloj) |
+| **Cerrar OT** | Finalizar la tarea, documentar la solución y consumo de repuestos |
+| **Asignar Técnico** | Acción gerencial para delegar una OT a un operario específico |
+| **Exportar PDF** | Descargar el historial o reporte de la máquina para auditorías |
+
+#### 4.2.2.6. Reglas de Asociación entre Etiquetas
+
+Las etiquetas en FexCore se relacionan de manera predecible y jerárquica:
+
+*   **Ruta Espacial (Breadcrumbs):** La navegación refleja la ubicación física real en la fábrica. *Planta > Área > Línea de Producción > Activo* (ej. Planta Lima > Empaque > Línea 2 > Faja Transportadora).
+*   **Color a Estado:** Las etiquetas de estado siempre están vinculadas a la paleta de colores. "Operativo" (Verde), "Preventivo" (Ámbar), "En Falla" (Rojo).
+*   **Botón a Acción Relacionada:** El título del formulario modal o la pantalla siguiente refleja exactamente el texto del botón presionado (Si presiona "Asignar Técnico", la ventana que se abre se titula "Asignar Técnico").
 
 ### 4.2.3. SEO Tags and Meta Tags 
 
+En esta sección se incluyen los SEO Tags y Meta Tags, junto con los valores que se asignarán en las principales páginas de FexCore, abarcando tanto el sitio web estático (Landing Page) desplegado en Vercel como la estructura de la Web Application. Se definen Title, Meta Description, Keywords, Author y esquemas de datos clave.
+
+#### 4.2.3.1. Configuración SEO General
+
+FexCore implementa una configuración SEO robusta gestionada a través del enrutador y el archivo `app/layout.tsx` para maximizar su visibilidad en buscadores B2B.
+
+**Nombre del Sitio**
+FexCore - El núcleo de tu mantenimiento industrial
+
+**Dominio Principal**
+https://fixcore-eta.vercel.app/
+
+#### 4.2.3.2. Landing Page SEO Tags
+
+El Landing Page (`app/page.tsx`) es el punto de entrada más importante para la captación de leads y conversiones comerciales.
+
+**Title Tag**
+FexCore | El núcleo de tu mantenimiento industrial - Software CMMS
+
+**Meta Description**
+Erradica el caos operativo y reduce los tiempos muertos con la plataforma líder en gestión de activos y órdenes de trabajo. ¡Moderniza tu mantenimiento industrial hoy!
+
+**Meta Keywords**
+mantenimiento industrial, gestión de activos, órdenes de trabajo, reducir tiempos muertos, software CMMS, SaaS B2B, mantenimiento predictivo, control de inventario
+
+**Meta Author**
+FexCore Team
+
+**Open Graph Tags (para redes sociales)**
+*   `og:title` = FexCore | El núcleo de tu mantenimiento industrial
+*   `og:description` = Erradica el caos operativo y reduce los tiempos muertos en tu planta. Diseñado para Gerentes, Supervisores y Técnicos.
+*   `og:image` = https://fixcore-eta.vercel.app/favicon.ico
+*   `og:url` = https://fixcore-eta.vercel.app/
+*   `og:type` = website
+*   `og:site_name` = FexCore
+
+**Twitter Card Tags**
+*   `twitter:card` = summary_large_image
+*   `twitter:title` = FexCore | El núcleo de tu mantenimiento industrial
+*   `twitter:description` = Erradica el caos operativo y reduce los tiempos muertos con la plataforma líder.
+*   `twitter:image` = https://fixcore-eta.vercel.app/favicon.ico
+
+#### 4.2.3.3. Web Application - Dashboard SEO Tags
+
+El dashboard es la página principal (escritorio gerencial) a la que accede el usuario después de iniciar sesión en la aplicación.
+
+**Title Tag**
+Dashboard Ejecutivo - FexCore
+
+**Meta Description**
+Tu espacio de control industrial. Maximiza el ROI, audita tiempos muertos (MTTR) y supervisa el estado de tu planta en tiempo real.
+
+**Meta Robots**
+`noindex, nofollow`
+*(El dashboard contiene información confidencial de la planta y no debe ser indexado por los motores de búsqueda).*
+
+#### 4.2.3.4. Página de Detalles por Rol SEO Tags
+
+Corresponde a la ruta dinámica `app/detalles/[rol]/page.tsx` diseñada para explicar el valor del software según el perfil del usuario.
+
+**Title Tag**
+Soluciones para [Gerencia / Supervisión / Técnicos] - FexCore
+
+**Meta Description**
+Descubre cómo FexCore optimiza la operación para tu rol. Accede a paneles analíticos, asignación de OTs sin fricción o reportes de fallas rápidos.
+
+#### 4.2.3.5. Página de Gestión de Activos / Inventario SEO Tags
+
+Sección transaccional de la aplicación enfocada en el control de almacén y la jerarquía de maquinaria.
+
+**Title Tag**
+Gestión de Activos e Inventario - FexCore
+
+**Meta Description**
+Controla el inventario de repuestos y la jerarquía física de tus activos. Mantén la trazabilidad total de tu fábrica y evita quiebres de stock.
+
+#### 4.2.3.6. Página de Perfil de Activo Individual SEO Tags
+
+**Title Tag**
+[Nombre o Código del Activo / Máquina] - FexCore
+
+**Meta Description**
+[Descripción específica del estado operativo del activo, MTTR, ubicación en planta y fallas reportadas recientes de 150-160 caracteres]
+
+#### 4.2.3.7. Página de Reporte de Fallas (OTs) SEO Tags
+
+**Title Tag**
+Reporte de Fallas y OTs - FexCore
+
+**Meta Description**
+Practica una respuesta ágil ante paradas de máquina. Reporta fallas en 3 clics, asigna técnicos y gestiona Órdenes de Trabajo desde cualquier dispositivo móvil.
+
+### 4.2.3.8. Estructura de Datos Schema Markup
+
+FexCore implementa `Schema.org` (en formato JSON-LD) para optimizar su presentación en motores de búsqueda como una solución de software empresarial B2B:
+
+**Organization Schema**
+
+```json
+{
+  "@context": "[https://schema.org](https://schema.org)",
+  "@type": "Organization",
+  "name": "FexCore",
+  "url": "[https://fixcore-eta.vercel.app/](https://fixcore-eta.vercel.app/)",
+  "logo": "[https://fixcore-eta.vercel.app/favicon.ico](https://fixcore-eta.vercel.app/favicon.ico)",
+  "description": "Plataforma B2B para la gestión integral del mantenimiento industrial y reducción de tiempos muertos.",
+  "sameAs": [
+    "[https://www.linkedin.com/company/fexcore](https://www.linkedin.com/company/fexcore)"
+  ]
+}
+```
+
+**SoftwareApplication Schema (Para la Landing Page y SaaS)**
+
+```json
+{
+  "@context": "[https://schema.org](https://schema.org)",
+  "@type": "SoftwareApplication",
+  "name": "FexCore",
+  "applicationCategory": "BusinessApplication",
+  "operatingSystem": "Web, iOS, Android",
+  "description": "Software integral de gestión de mantenimiento (CMMS) con paneles gerenciales y aplicación de baja fricción para técnicos.",
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "price": "0",
+    "description": "Demostración técnica gratuita para plantas industriales."
+  }
+}
+```
+
+### 4.2.3.9. Directrices SEO Generales
+
+FexCore sigue las siguientes directrices estructurales para mantener un SEO técnico optimizado en toda la plataforma:
+
+*   **URLs descriptivas:** Se utilizan rutas semánticas dinámicas generadas por el App Router de Next.js, como `/detalles/[rol]`[cite: 1].
+*   **Un H1 por página:** Restricción estricta de un solo título principal por vista, típicamente alojado dentro del componente `HeroSection.tsx`[cite: 1].
+*   **Jerarquía de encabezados correcta:** Uso escalonado y lógico de etiquetas H1 > H2 > H3, implementado modularmente en componentes como `AudienceSection.tsx` y `SolutionsSection.tsx`[cite: 1].
+*   **Etiquetas alt significativas:** Todas las representaciones de interfaz y recursos visuales ubicados en `/components/mockups/` (como `DesktopMockup.tsx` o `MobileMockup.tsx`) cuentan con texto alternativo que describe exactamente la función que se está mostrando[cite: 1].
+*   **Links con anchor text descriptivo:** Se evita el uso de frases genéricas como "clic aquí"[cite: 1]. Los enlaces generados en `Navbar.tsx` y `BottomCTA.tsx` utilizan textos de acción claros como "Solicitar Demostración" o "Ver Funcionamiento"[cite: 1].
+
 ### 4.2.4. Searching Systems. 
 
+En esta sección el equipo explica qué medios de ayuda se brindará al usuario para la búsqueda de datos dentro de la plataforma web y móvil de FixCore. Dichas decisiones sobre los sistemas de búsqueda tratan de evitar que los usuarios se sientan perdidos entre el volumen de información industrial y operativa. Aquí se especifican qué opciones de búsqueda ofrecerá la aplicación, con qué filtros contará el usuario en cada módulo y cómo lucirán los datos después de la búsqueda.
+
+#### 4.2.4.1. Sistema de Búsqueda General
+
+FixCore implementa un sistema de búsqueda integral que permite a los usuarios encontrar rápidamente activos, personal o tickets de mantenimiento en toda la plataforma.
+
+**Componentes de Búsqueda**
+*   **Barra de búsqueda global:** Accesible de forma persistente desde el *header* (cabecera) en todas las vistas principales de la aplicación web. Permite la búsqueda rápida mediante códigos alfanuméricos exactos (ej. código de máquina o número de Orden de Trabajo).
+*   **Escáner QR integrado (Móvil):** Para el uso en planta, la búsqueda principal física se realiza activando la cámara del dispositivo para escanear el código QR adherido a la maquinaria, lo cual redirige automáticamente al perfil detallado del activo en el sistema.
+*   **Búsqueda predictiva:** El sistema muestra sugerencias instantáneas en un menú desplegable mientras el usuario escribe (ej. al teclear "Inyec...", sugiere opciones como "Inyectora 01", "Inyectora 02").
+
+**Características de la Búsqueda**
+*   **Autocomplete:** Autocompleta términos populares y coincidencias parciales de nombres de técnicos, maquinarias o repuestos registrados en la base de datos.
+*   **Tolerancia a errores:** Maneja errores tipográficos comunes para no arrojar resultados vacíos ante faltas ortográficas leves.
+*   **Resultados por categoría:** La interfaz agrupa los resultados encontrados bajo etiquetas visuales (ej. "Activos", "Órdenes de Trabajo", "Usuarios/Técnicos").
+
+---
+
+#### 4.2.4.2. Sistema de Búsqueda de Órdenes de Trabajo (OTs) y Fallas
+
+El módulo central de mantenimiento cuenta con un sistema de búsqueda optimizado para gestionar el flujo de tickets diarios.
+
+**Opciones de Búsqueda**
+*   **Buscar por ID:** Localizar un ticket exacto ingresando su correlativo (ej. OT-1045).
+*   **Buscar por Activo:** Visualizar todas las fallas o tickets asociados a un equipo específico.
+*   **Buscar por Asignación:** Filtrar los tickets asignados a un técnico o equipo de trabajo particular.
+
+**Filtros Disponibles**
+
+| Filtro | Descripción | Opciones |
+| :--- | :--- | :--- |
+| **Tipo de Mantenimiento** | Naturaleza de la intervención | Preventivo, Correctivo, Predictivo |
+| **Prioridad** | Nivel de urgencia del ticket | Crítica (Parada de línea), Alta, Media, Baja |
+| **Estado de la OT** | Fase del flujo de trabajo | Pendiente, En curso, En pausa (falta repuesto), Cerrada |
+| **Rango de Fechas** | Periodo de reporte de la falla | Hoy, Última semana, Último mes, Personalizado |
+
+**Presentación de Resultados**
+*   Los resultados se renderizan en un *DataGrid* (Tabla interactiva) con opciones de paginación o en una vista *Kanban* (Tarjetas desplazables).
+*   Uso de *badges* (etiquetas) de colores semánticos (rojo, amarillo, verde, gris) para identificar visualmente la "Prioridad" y el "Estado".
+*   Inclusión de botones de acción rápida en cada fila/tarjeta para "Ver detalles", "Editar" o "Asignar".
+
+---
+
+#### 4.2.4.3. Sistema de Búsqueda en Inventario y Gestión de Activos
+
+El módulo de infraestructura y almacén tiene un sistema de búsqueda especializado para controlar el stock de repuestos y el catálogo de maquinaria.
+
+**Opciones de Búsqueda**
+*   **Búsqueda por nombre/SKU:** Coincidencia con nombres descriptivos de piezas o códigos de inventario (SKU).
+*   **Búsqueda por categoría:** Filtrar el catálogo según el tipo de componente.
+*   **Búsqueda por ubicación (Arquitectura Multi-Tenant):** Permite a los usuarios administradores filtrar en qué planta física, cliente o almacén específico se encuentra el repuesto o la máquina.
+
+**Filtros Disponibles en Inventario**
+
+| Filtro | Descripción | Opciones |
+| :--- | :--- | :--- |
+| **Categoría** | Familia del componente | Mecánico, Eléctrico, Neumático, Herramientas, EPPs |
+| **Disponibilidad (Stock)** | Nivel de inventario en tiempo real | En stock, Stock crítico (Mínimo), Agotado |
+| **Ubicación / Planta** | Sede donde se aloja el activo | Planta Principal, Almacén Externo, [Sede Seleccionable] |
+
+**Orden de Resultados**
+*   **Estado de Stock:** Ordenamiento ascendente/descendente para priorizar decisiones de compra.
+*   **Alfabético (A-Z):** Orden estándar por nombre de repuesto o equipo.
+*   **Rotación:** Componentes con mayor frecuencia de uso histórico.
+
+**Presentación de Resultados de Búsqueda**
+*   Interfaz en formato de lista o cuadrícula que expone: Nombre del ítem, SKU, ubicación designada y cantidad exacta disponible.
+*   Alertas visuales automatizadas (íconos de advertencia en rojo/naranja) adheridas a los ítems que han alcanzado su umbral de stock crítico.
+
+---
+
+#### 4.2.4.4. Sistema de Búsqueda en Historial y Auditoría
+
+Este sistema está diseñado para la extracción de datos analíticos, generación de reportes y auditoría del rendimiento general de la planta.
+
+**Tipos de Búsqueda en Historial**
+*   **Historial de Intervenciones:** Búsqueda del registro completo de mantenimientos pasados de un equipo para análisis de ciclo de vida.
+*   **Registro de Tiempos Muertos (Downtime):** Búsqueda de eventos específicos de parada de línea.
+*   **Auditoría de Rendimiento:** Búsqueda del historial de tickets resueltos por usuario/técnico.
+
+**Filtros por Tipo de Historial**
+*   **Historial de Activos:**
+    *   Filtrado por rango temporal (ej. *Date picker* para seleccionar un trimestre específico).
+    *   Filtrado por componentes o repuestos reemplazados durante la reparación.
+*   **Historial de Tiempos Muertos:**
+    *   Filtrado por rangos de duración de la parada (ej. > 2 horas).
+    *   Filtrado por turno operativo u horario de ocurrencia.
+*   **Presentación:** Los resultados alimentan un Dashboard analítico con gráficos interactivos. Incluye controles directos para exportar la data mostrada y filtrada a formatos estándar (PDF con branding personalizable o tablas Excel/CSV), visualizando métricas clave como el MTTR (Tiempo Medio de Reparación).
+
 ### 4.2.5. Navigation Systems. 
+
+En esta sección el equipo explica cuáles serán las acciones y técnicas que guiarán a los usuarios (Jefes de Planta, Contratistas y Técnicos) a través del Landing Page y las aplicaciones de FixCore, permitiéndoles cumplir sus metas e interactuar de forma satisfactoria con el producto. Aquí se detalla de qué maneras los usuarios irán recorriendo los distintos módulos operativos y gerenciales.
+
+#### 4.2.5.1. Sistema de Navegación Global
+
+FixCore implementa un sistema de navegación global consistente, adaptado tanto para la gestión en oficina como para el trabajo en planta.
+
+**Elementos de Navegación Principal**
+*   **Header fijo (Desktop):**
+    *   Logo de FixCore (redirecciona siempre al Dashboard principal).
+    *   Selector de Tenant/Planta (Crucial para el perfil Contratista como Víctor).
+    *   Barra de búsqueda global (para OTs, activos o repuestos).
+    *   Acciones de usuario (Centro de notificaciones, perfil, configuración).
+*   **Header colapsable (Mobile):**
+    *   Hamburger menu con panel deslizable lateral.
+    *   Logo reducido.
+    *   Campana de notificaciones de alertas críticas.
+*   **Sidebar (Aplicación Web):**
+    *   Navegación principal de módulos.
+    *   Acceso rápido a OTs urgentes o pendientes.
+    *   Estado de conexión y sincronización de datos.
+
+**Comportamiento de Navegación**
+*   Transiciones rápidas e instantáneas (arquitectura SPA con Next.js).
+*   Indicador visual (highlight) de la página actual en el menú.
+*   Persistencia de estado en tablas y filtros al cambiar de vista y regresar.
+
+---
+
+#### 4.2.5.2. Navegación del Landing Page
+
+El Landing Page corporativo tiene una navegación optimizada para la conversión B2B de PYMEs y firmas consultoras.
+
+**Navegación Principal**
+*   **Sticky header:** Se mantiene visible en la parte superior al hacer scroll.
+*   **Links de anclaje (Smooth scroll):** Dirigen a secciones clave (Soluciones, Beneficios, Precios).
+*   **CTA principal:** Botones prominentes de "Prueba Gratis" (para el modelo freemium) o "Solicitar Demo".
+*   **Login:** Acceso directo al entorno de la aplicación para usuarios registrados.
+
+**Navegación Footer**
+*   Enlaces a casos de éxito y recursos (guías de mantenimiento).
+*   Redes sociales corporativas (LinkedIn, Twitter).
+*   Información legal (Términos de servicio, Política de privacidad B2B).
+*   Datos de contacto y soporte técnico.
+
+---
+
+#### 4.2.5.3. Navegación de la Aplicación Web
+
+La aplicación web, orientada a Jefes de Planta y Consultores, cuenta con una navegación estructurada para manejar altos volúmenes de datos.
+
+**Tipos de Navegación**
+*   **Navegación principal (Sidebar):**
+    *   Dashboard (Vista general y KPIs)
+    *   Órdenes de Trabajo (OTs)
+    *   Inventario (Repuestos)
+    *   Activos (Catálogo de maquinaria)
+    *   Reportes
+    *   Equipo (Usuarios y Roles)
+*   **Navegación contextual:**
+    *   Breadcrumbs para rastrear la ubicación en jerarquías profundas (ej. Plantas > Zonas > Máquinas).
+    *   Tabs (Pestañas) para alternar vistas dentro del perfil de una máquina (ej. Info General, Historial de OTs, Manuales).
+*   **Navegación de Retroceso:**
+    *   Botón "Atrás" integrado en la cabecera de las vistas de detalle.
+    *   Breadcrumbs interactivos para saltar a niveles superiores.
+
+---
+
+#### 4.2.5.4. Sistema de Breadcrumbs
+
+FixCore implementa breadcrumbs para facilitar la navegación profunda en la jerarquía de activos e inventario.
+
+**Estructura de Breadcrumbs (Ejemplo)**
+*   FixCore > Planta San Miguel > Activos > Inyectoras > Inyectora 01 > OT-1045
+
+**Reglas de Breadcrumbs**
+*   Máximo 4 a 5 niveles de profundidad mostrados.
+*   El elemento actual (el último de la derecha) no es enlazable y aparece en texto neutral.
+*   Los niveles superiores son siempre hipervínculos navegables.
+*   Separador consistente (ej. un ícono de flecha `>` o un *slash* `/`).
+
+---
+
+#### 4.2.5.5. Navegación Mobile
+
+La navegación móvil está diseñada con un enfoque de "baja fricción" exclusivo para los operarios y técnicos en piso de planta.
+
+**Patrón de Navegación Mobile**
+*   **Bottom navigation bar (Barra inferior):** Acceso a un toque a las 4 secciones vitales: Inicio, Mis OTs, Inventario, Perfil.
+*   **Botón de Acción Flotante (FAB):** Un botón central prominente para la acción principal: "Escanear QR / Reportar Falla".
+*   **Hamburger menu:** Para configuraciones secundarias o cierre de sesión.
+*   **Zonas táctiles amplias:** Navegación adaptada para ser usada con guantes de seguridad o pantallas industriales.
+
+---
+
+#### 4.2.5.6. Navegación Operativa (Flujo de Trabajo)
+
+El flujo de atención de mantenimiento tiene una navegación guiada para evitar errores en campo.
+
+**Flujo de Creación / Cierre de OT**
+*   **Asistente paso a paso (Wizard):** Navegación lineal para reporte de fallas (Paso 1: Escanear, Paso 2: Seleccionar problema, Paso 3: Confirmar).
+*   **Indicador de progreso:** Barra visual al llenar el checklist de mantenimiento preventivo.
+*   **Prevención de pérdida de datos:** Modal de advertencia ("¿Estás seguro de salir?") si un técnico intenta abandonar el formulario de cierre de OT sin guardar los cambios.
+
+---
+
+#### 4.2.5.7. Accesibilidad en Navegación
+
+FixCore asegura una navegación inclusiva y adaptada a entornos industriales de alta demanda visual.
+
+**Características de Accesibilidad**
+*   **Alto contraste:** Uso de colores de estado (Rojo para máquina parada, Verde para operativa) con contraste suficiente para lectura en pantallas móviles bajo luz natural.
+*   **Navegación por teclado:** Soporte completo para que los usuarios administrativos puedan navegar por las tablas (DataGrids) usando flechas y tabulador.
+*   **Labels descriptivos:** Textos claros en botones e íconos (ej. el ícono de llave inglesa siempre acompañado del texto "Reparar" en *tooltips*).
+
+---
+
+#### 4.2.5.8. Feedback de Navegación
+
+FixCore proporciona respuestas visuales inmediatas para confirmar que las acciones críticas del mantenimiento han sido registradas.
+
+**Indicadores Visuales**
+*   **Estados Activos:** Resaltado claro (*active state highlighted*) de la sección actual en el menú lateral.
+*   **Cambio de estados:** Transiciones de color inmediatas cuando una máquina pasa de "Operativa" a "Falla" en el Dashboard.
+*   **Toasts/Snackbars:** Mensajes emergentes breves confirmando acciones (ej. "OT-1045 creada exitosamente", "Alerta enviada a Jefatura").
+
+**Estados de Carga**
+*   **Skeleton screens:** Para simular el diseño mientras cargan los grandes volúmenes de datos del inventario o el historial de OTs, evitando saltos visuales.
+*   **Spinners:** Para procesamientos de botones (ej. al hacer clic en "Guardar Reporte").
 
 ## 4.3. Landing Page UI Design. 
 
