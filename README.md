@@ -255,6 +255,8 @@ Explicación de la propuesta:
 
 * Diseño inclusivo: Se priorizaron áreas táctiles amplias y formularios sencillos para que los técnicos puedan reportar fallas y gestionar tareas rápidamente desde el campo.
 
+<img src="./Assets/Images/tu_imagen.png" alt="wireframes">
+
 ### 4.4.2. Web Applications Wireflow Diagrams. 
 
 ### 4.4.2. Web Applications Mock-ups. 
