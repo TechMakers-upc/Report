@@ -247,17 +247,50 @@ Los perfiles clave contemplados son el Jefe de Planta, quien administra los recu
 
 Esta sección presenta los wireframes de baja fidelidad de FixCore, diseñados en Figma. La plataforma se estructuró bajo un enfoque mobile-first y responsivo, adaptándose a los tres roles principales del sistema (Jefe de Planta, Técnico y Gerente de Operaciones).
 
+<img src="./Assets/Images/Captura de pantalla 2026-09-15 035232.png" alt="wireframes">
+
 Explicación de la propuesta:
 
 * Estructura consistente: Se utilizaron tarjetas (cards), barras de navegación fijas y botones grandes para asegurar una lectura rápida y evitar errores operativos en la planta.
 
-* Jerarquía visual: La información se organizó mediante tipografías escalonadas, separadores claros y etiquetas de colores estandarizadas (verde para operativo, ámbar para alertas y rojo para fallas críticas).
+* Jerarquía visual: Al tratarse de wireframes estructurales, la jerarquía se estableció mediante tipografías escalonadas, líneas divisorias y bloques de contenido delimitados, utilizando variaciones de tono en lugar de color para diferenciar campos y contenedores.
 
 * Diseño inclusivo: Se priorizaron áreas táctiles amplias y formularios sencillos para que los técnicos puedan reportar fallas y gestionar tareas rápidamente desde el campo.
 
-<img src="./Assets/Images/Captura de pantalla 2026-09-15 035232.png" alt="wireframes">
-
 ### 4.4.2. Web Applications Wireflow Diagrams. 
+
+En esta sección presentamos los Wireflows diseñados para FixCore, los cuales enlazan la estructura visual de nuestros wireframes de baja fidelidad con los recorridos interactivos que realiza cada rol para alcanzar sus objetivos principales. A diferencia de un flujo de tareas tradicional, este enfoque nos permite visualizar simultáneamente el diseño de cada pantalla y la secuencia de transiciones ante las acciones del usuario, mostrando los cambios de estado mediante la incorporación progresiva de los wireframes correspondientes.
+
+Para construir estos diagramas, previamente analizamos las rutas típicas de interacción de nuestros usuarios. El desarrollo se centró en los perfiles principales que definimos para el sistema: el Jefe de Planta (enfocado en la administración de activos y la planificación), el Técnico (responsable de la ejecución y el reporte directo en campo) y el Gerente de Operaciones (orientado a la supervisión macro y la revisión de métricas).
+
+#### 4.4.2.1. Wireflow 01 — Jefe de Planta registra su cuenta y maquinas. 
+
+Usuario: Jefe de planta
+Obetivo de usuario: Como Jefe de Planta, deseo registrarme con una cuenta y a la vez las máquina en el sistema indicando sus datos técnicos y ubicación para llevar un control centralizado de los activos que requieren mantenimiento preventivo y correctivo.
+
+imagen 
+
+Explicación del flujo: Nuestro flujo arranca en la pantalla principal de acceso, donde ingresamos el usuario y la contraseña. Al presionar el botón de inicio de sesión, el sistema valida las credenciales y nos lleva  hacia el panel de bienvenida adaptado específicamente al perfil del usuario (ya sea el tablero del Jefe de Planta, la vista operativa del Técnico o el resumen ejecutivo del Gerente de Operaciones). Una vez en el panel principal del Jefe de Planta, desde donde accedemos al módulo de maquinaria para agregar un nuevo equipo, lo que nos dirige hacia el formulario de registro en su estado inicial. Ingresamos los datos obligatorios, como nombre, planta, categoría y nivel de criticidad. Al confirmar la acción, el sistema valida los datos y nos redirige al listado general de activos actualizado. Con esto logramos automatizar el registro y dejamos atrás los controles en papel o Excel.
+
+#### 4.4.2.2. Wireflow 02 — Técnico accede a la informacion de maquinas. 
+
+Usuario: Técnico
+Obetivo de usuario: Como Técnico de campo, deseo observar los fallos de las maquinas y dirigirme a la planta asignada, reportarme para que la incidencia quede registrada formalmente y pueda ser atendida sin retrasos.
+
+imagen 
+
+Explicación del flujo: Este recorrido parte de la interfaz móvil del Técnico, donde seleccionamos la opción abrir dependiendo la maquina a trabajar y así visualizar el formulario correspondiente. Elegimos la máquina afectada y verificamos la prioridad. Al presionar el botón "ACEPTAR", la interfaz muestra un estado de confirmación y refresca de inmediato el panel de tareas asignadas con la nueva alerta visible. Diseñamos este flujo para garantizar una baja fricción y agilizar la comunicación directa desde el área de operaciones.
+
+#### 4.4.2.3. Wireflow 03 — Gerente de Operaciones revisa el resumen de operaciones
+
+Usuario: Gerente de Operaciones
+Obetivo de usuario: Como Gerente de Operaciones, deseo consultar un resumen general de las actividades y el estado de las plantas para evaluar el rendimiento general y tomar decisiones informadas.
+
+imagen 
+
+Explicación del flujo: El flujo comienza en el panel ejecutivo del Gerente de Operaciones, donde visualizamos las métricas globales del estado de las plantas. Al seleccionar un indicador o una planta en particular, el wireframe transiciona hacia una vista detallada que muestra el historial de intervenciones, las órdenes de trabajo y los tiempos muertos acumulados. De esta manera, facilitamos una auditoría rápida y transparente del desempeño operativo.
+
+
 
 ### 4.4.2. Web Applications Mock-ups. 
 
