@@ -268,7 +268,7 @@ Para construir estos diagramas, previamente analizamos las rutas típicas de int
 Usuario: Jefe de planta
 Obetivo de usuario: Como Jefe de Planta, deseo registrarme con una cuenta y a la vez las máquina en el sistema indicando sus datos técnicos y ubicación para llevar un control centralizado de los activos que requieren mantenimiento preventivo y correctivo.
 
-imagen 
+<img src="./Assets/Images/Captura de pantalla 2026-09-15 043453.png" alt="wireframes"> 
 
 Explicación del flujo: Nuestro flujo arranca en la pantalla principal de acceso, donde ingresamos el usuario y la contraseña. Al presionar el botón de inicio de sesión, el sistema valida las credenciales y nos lleva  hacia el panel de bienvenida adaptado específicamente al perfil del usuario (ya sea el tablero del Jefe de Planta, la vista operativa del Técnico o el resumen ejecutivo del Gerente de Operaciones). Una vez en el panel principal del Jefe de Planta, desde donde accedemos al módulo de maquinaria para agregar un nuevo equipo, lo que nos dirige hacia el formulario de registro en su estado inicial. Ingresamos los datos obligatorios, como nombre, planta, categoría y nivel de criticidad. Al confirmar la acción, el sistema valida los datos y nos redirige al listado general de activos actualizado. Con esto logramos automatizar el registro y dejamos atrás los controles en papel o Excel.
 
@@ -277,7 +277,7 @@ Explicación del flujo: Nuestro flujo arranca en la pantalla principal de acceso
 Usuario: Técnico
 Obetivo de usuario: Como Técnico de campo, deseo observar los fallos de las maquinas y dirigirme a la planta asignada, reportarme para que la incidencia quede registrada formalmente y pueda ser atendida sin retrasos.
 
-imagen 
+<img src="./Assets/Images/Captura de pantalla 2026-09-15 050753.png" alt="wireframes"> 
 
 Explicación del flujo: Este recorrido parte de la interfaz móvil del Técnico, donde seleccionamos la opción abrir dependiendo la maquina a trabajar y así visualizar el formulario correspondiente. Elegimos la máquina afectada y verificamos la prioridad. Al presionar el botón "ACEPTAR", la interfaz muestra un estado de confirmación y refresca de inmediato el panel de tareas asignadas con la nueva alerta visible. Diseñamos este flujo para garantizar una baja fricción y agilizar la comunicación directa desde el área de operaciones.
 
@@ -286,7 +286,7 @@ Explicación del flujo: Este recorrido parte de la interfaz móvil del Técnico,
 Usuario: Gerente de Operaciones
 Obetivo de usuario: Como Gerente de Operaciones, deseo consultar un resumen general de las actividades y el estado de las plantas para evaluar el rendimiento general y tomar decisiones informadas.
 
-imagen 
+<img src="./Assets/Images/Captura de pantalla 2026-09-15 051008.png" alt="wireframes"> 
 
 Explicación del flujo: El flujo comienza en el panel ejecutivo del Gerente de Operaciones, donde visualizamos las métricas globales del estado de las plantas. Al seleccionar un indicador o una planta en particular, el wireframe transiciona hacia una vista detallada que muestra el historial de intervenciones, las órdenes de trabajo y los tiempos muertos acumulados. De esta manera, facilitamos una auditoría rápida y transparente del desempeño operativo.
 
