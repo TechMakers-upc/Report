@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="Assets/Images/UPC_logo_transparente.png" alt="Logo de la Universidad" style="width:20%; height: auto;">
+<img src="assets/images/UPC_logo_transparente.png" alt="Logo de la Universidad" style="width:20%; height: auto;">
 
 ## Universidad Peruana de Ciencias Aplicadas
 
