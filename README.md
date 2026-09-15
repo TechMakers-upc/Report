@@ -237,18 +237,23 @@
 
 ## 4.4. Web Applications UX/UI Design. 
 
+En esta sección se detalla el diseño visual e interactivo de la plataforma web y móvil de FixCore, un sistema open-source diseñado para optimizar y centralizar el mantenimiento industrial. La propuesta se fundamenta en las necesidades de los usuarios, criterios de usabilidad y la estructura de información planificada previamente, asegurando armonía con la identidad visual del proyecto.
+
+El desarrollo se divide en cuatro apartados principales: los Wireframes, que establecen la distribución y jerarquía visual de los elementos en cada pantalla; los Wireflow Diagrams, que muestran la secuencia de navegación según los propósitos de cada usuario; los Mock-ups, que reflejan el diseño gráfico final aplicando la paleta de estilos; y los User Flow Diagrams, que conectan las interfaces con el recorrido ideal y las posibles rutas ante errores o imprevistos.
+
+Los perfiles clave contemplados son el Jefe de Planta, quien administra los recursos y la planificación; el Técnico, enfocado en la ejecución y reporte directo desde la zona de operaciones; y el Gerente de Operaciones, que supervisa el rendimiento general a nivel ejecutivo.
+
 ### 4.4.1. Web Applications Wireframes. 
-...
 
 Esta sección presenta los wireframes de baja fidelidad de FixCore, diseñados en Figma. La plataforma se estructuró bajo un enfoque mobile-first y responsivo, adaptándose a los tres roles principales del sistema (Jefe de Planta, Técnico y Gerente de Operaciones).
 
 Explicación de la propuesta:
 
-Estructura consistente: Se utilizaron tarjetas (cards), barras de navegación fijas y botones grandes para asegurar una lectura rápida y evitar errores operativos en la planta.
+* Estructura consistente: Se utilizaron tarjetas (cards), barras de navegación fijas y botones grandes para asegurar una lectura rápida y evitar errores operativos en la planta.
 
-Jerarquía visual: La información se organizó mediante tipografías escalonadas, separadores claros y etiquetas de colores estandarizadas (verde para operativo, ámbar para alertas y rojo para fallas críticas).
+* Jerarquía visual: La información se organizó mediante tipografías escalonadas, separadores claros y etiquetas de colores estandarizadas (verde para operativo, ámbar para alertas y rojo para fallas críticas).
 
-Diseño inclusivo: Se priorizaron áreas táctiles amplias y formularios sencillos para que los técnicos puedan reportar fallas y gestionar tareas rápidamente desde el campo.
+* Diseño inclusivo: Se priorizaron áreas táctiles amplias y formularios sencillos para que los técnicos puedan reportar fallas y gestionar tareas rápidamente desde el campo.
 
 ### 4.4.2. Web Applications Wireflow Diagrams. 
 
