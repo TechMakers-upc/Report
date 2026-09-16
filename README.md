@@ -1931,6 +1931,110 @@ FixCore proporciona respuestas visuales inmediatas para confirmar que las accion
 
 ### 4.3.1. Landing Page Wireframe. 
 
+#### 4.3.1.1. Introducción al Wireframe del Landing Page
+
+El wireframe del Landing Page de FixCore establece la estructura fundamental y el flujo de persuasión B2B antes de la aplicación de la interfaz gráfica final (UI). Este esquema sirve como plano arquitectónico para definir la jerarquía de la información, guiando al visitante desde la propuesta de valor inicial en el *Hero Section* centrada en la reducción de tiempos muertos, pasando por la validación técnica (métricas de impacto y características del sistema), hasta los planes de suscripción y el llamado a la acción final (CTA).
+
+Aunque el diseño adopta un enfoque responsivo indispensable para su eventual visualización en el entorno operativo, la estructura del wireframe prioriza una lectura analítica y detallada en resolución *desktop*. Esto responde directamente al perfil del comprador objetivo (Jefaturas de Planta y Gerencias de Operaciones), quienes evalúan, comparan y toman decisiones de adquisición de software SaaS principalmente desde equipos de oficina. La distribución en bloques modulares —como la grilla de beneficios y la segmentación por perfiles de usuario— garantiza que el recorrido de navegación sea intuitivo, escalable y esté optimizado para maximizar la conversión hacia el modelo *Freemium* o la solicitud de demostraciones.
+
+#### 4.3.1.2. Wireframe Desktop
+El wireframe desktop del Landing Page se estructura en las siguientes regiones principales:
+
+Estructura General Desktop
+
+<div align="center">
+  <strong>Gráfico: Wireframe desktop del Landing de FixCore</strong><br><br>
+  <img src="report/assets/images/wireframedesktop.png" width="400"><br>
+  <em>Fuente: Elaboración propia.</em>
+</div>
+
+#### 4.3.1.3. wireframe Mobile
+El wireframe mobile adapta la estructura desktop a formatos verticales:
+
+<div align="center">
+  <strong>Wireframe mobile del Landing de FixCore</strong><br><br>
+  <img src="report/assets/images/wireframemovile.png" width="400"><br>
+  <em>Fuente: Elaboración propia.</em>
+</div>
+
+#### 4.3.1.1. Introducción al Wireframe del Landing Page
+
+El wireframe del Landing Page de FixCore establece la estructura fundamental y el flujo de persuasión B2B antes de la aplicación de la interfaz gráfica final (UI). Este esquema sirve como plano arquitectónico para definir la jerarquía de la información, guiando al visitante desde la propuesta de valor inicial en el *Hero Section* centrada en la reducción de tiempos muertos, pasando por la validación técnica (métricas de impacto y características del sistema), hasta los planes de suscripción y el llamado a la acción final (CTA).
+
+El diseño del wireframe sigue el principio de "mobile-first" adaptando el flujo en una sola columna para operarios en campo, pero prioriza la presentación analítica en desktop, dado que el Landing Page busca maximizar conversiones corporativas. Los compradores objetivos (Jefaturas de Planta y Gerencias de Operaciones) evalúan y toman decisiones de adquisición de software SaaS principalmente desde pantallas grandes. El wireframe está diseñado para ser escalable, modular y mantener su efectividad en ambos formatos.
+
+---
+
+#### 4.3.1.4. Regiones del wireframe y su Función
+
+A continuación se detalla cada región de los wireframes (Desktop y Mobile) según su función en el recorrido de conversión del usuario B2B:
+
+**A. Header (Navegación Global)**
+El header contiene la identidad de FixCore y las vías rápidas de contacto. En desktop es una barra horizontal persistente; en mobile se colapsa en un menú hamburguesa para ahorrar espacio en pantalla.
+*   **Elementos:**
+    *   Logo de FixCore (enlace al inicio).
+    *   Navegación principal: Características, Soluciones, Precios, FAQ.
+    *   Botones de acción (CTAs): "Iniciar Sesión" (Ghost button) y "Solicitar Demo" / "Prueba Gratis" (Botón sólido).
+*   **Principios aplicados:** Posicionamiento estándar SaaS (login a la derecha) y máxima prominencia visual para el botón de conversión principal.
+
+**B. Hero Section**
+Es la primera impresión. Diseñado para enganchar inmediatamente al tomador de decisión mediante la promesa de valor central y apoyo visual de la plataforma.
+*   **Elementos:**
+    *   Badge superior de validación (ej. "+50 plantas industriales").
+    *   Título principal (H1) orientado a la reducción de tiempos muertos.
+    *   Subtítulo descriptivo sobre la digitalización de OTs.
+    *   Bloque central inferior para un mockup de alta fidelidad (Dashboard de métricas + celular escaneando QR).
+*   **Principios aplicados:** Estructura en "Z" invertida o bloque central para dirigir la mirada desde el texto directamente hacia la previsualización del producto y los botones de acción.
+
+**C. Stats Section (Barra de Impacto)**
+Una franja horizontal oscura que contrasta fuertemente para mostrar métricas duras.
+*   **Elementos:** 4 bloques cuantitativos (ej. 30% reducción MTTR, +10,000 OTs, 99% disponibilidad, 0 papel). En mobile se apilan en formato 2x2 o 1x4.
+*   **Principios aplicados:** Scaneo rápido de información, uso de números grandes para generar confianza inmediata y justificar el ROI del producto.
+
+**D. Features Section (Características Principales)**
+Desglosa el "cómo" lo hace a través de una grilla de funcionalidades de la plataforma.
+*   **Elementos:** Grilla de 6 tarjetas (3x2 en desktop, 1x6 scrollable en mobile). Cada una incluye un placeholder para ícono, título (ej. "Reportes por QR", "Control de Inventario") y un texto breve.
+*   **Principios aplicados:** Uniformidad visual, lectura en patrón de "F" y uso de iconografía para romper la monotonía del texto técnico.
+
+**E. How It Works Section (Paso a Paso)**
+Explica el flujo operativo del mantenimiento de forma simplificada.
+*   **Elementos:** 3 columnas numeradas secuencialmente (1. Escanea y Reporta, 2. Asigna y Repara, 3. Mide y Optimiza).
+*   **Principios aplicados:** Reducción de la carga cognitiva. Transformar un proceso industrial complejo en 3 pasos digeribles.
+
+**F. Use Cases / Solutions Section (Soluciones por Perfil)**
+Segmenta la propuesta de valor para los diferentes actores (Jefes de Planta vs. Contratistas).
+*   **Elementos:** 3 tarjetas de gran tamaño. En desktop se distribuyen 2 arriba y 1 centrada abajo; en mobile se apilan verticalmente. Contienen placeholders para ilustraciones complejas.
+*   **Principios aplicados:** *Targeting* visual. Permite que cada *User Persona* (Carla o Víctor) encuentre rápidamente la solución a sus dolores específicos.
+
+**G. Pricing Section (Planes de Suscripción)**
+Presenta el modelo de negocio (*Freemium*, *Planta*, *Contratista*).
+*   **Elementos:** Un *toggle switch* superior (Mensual/Anual) y 3 tarjetas de precios. La tarjeta central es ligeramente más grande y destacada.
+*   **Principios aplicados:** Efecto "Señuelo" (Decoy effect) y anclaje de precios. Destacar el plan intermedio o más rentable como la opción por defecto.
+
+**H. FAQ Section (Preguntas Frecuentes)**
+Resolución de objeciones B2B comunes antes del cierre.
+*   **Elementos:** Lista tipo acordeón (collapsible) con preguntas sobre implementación, hardware, adopción de operarios y cobro por licencias.
+*   **Principios aplicados:** Diseño expansible para mantener la página limpia y retener a los usuarios que buscan respuestas técnicas específicas.
+
+**I. Bottom CTA & Footer**
+El último esfuerzo de conversión y navegación secundaria.
+*   **Elementos:** 
+    *   Franja oscura con un título persuasivo ("¿Listo para proteger tus activos?").
+    *   Botón central ("Comienza tu Prueba Gratuita").
+    *   Footer: Logo, enlaces legales (Privacidad, Términos B2B), redes y soporte.
+*   **Principios aplicados:** Contraste de fondo para "despertar" al usuario al final del scroll y aislar la decisión de compra.
+
+---
+
+#### 4.3.1.5. Principios de Diseño Aplicados en los Wireframes
+
+El esquema estructural de FixCore se sostiene en los siguientes fundamentos UX/UI:
+
+*   **Jerarquía Visual y Contraste:** Uso de bloques con fondos oscuros (Stats y Bottom CTA) intercalados con fondos claros para crear "cortes" naturales en la lectura y evitar la fatiga visual.
+*   **Modularidad (Grid System):** Aplicación de un sistema de grillas estricto (12 columnas en desktop) que permite que los bloques de 3 (Features, How it works) y 2 (Testimonios) se redistribuyan perfectamente al hacer reflow en pantallas móviles (1 columna).
+*   **Diseño Orientado a la Conversión (CRO):** Los llamados a la acción (CTAs) mantienen una ubicación estratégica y constante a lo largo de todo el recorrido (Header, Hero, Pricing, Bottom), reduciendo la fricción para solicitar la demo.
+*   **Escalabilidad Mobile-First:** Elementos como el acordeón de FAQs y la barra de navegación se transforman en patrones nativos móviles (hamburguesa, menús desplegables) asegurando áreas táctiles de mínimo 44x44px.
+
 ### 4.3.2. Landing Page Mock-up. 
 
 ## 4.4. Web Applications UX/UI Design. 
