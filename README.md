@@ -153,8 +153,57 @@
 
 # Student Outcome 
 
-<br>
-<br>
+<div align="center">
+<table border="1">
+  <tr>
+  <th>Criterio Especifico</th>
+  <th>Acciones Realizadas</th>
+  <th>Conclusiones</th>
+  </tr>
+
+  <tr>
+  <th>Comunica oralmente con efectividad a diferentes rangos de audiencia</th>
+
+  <td>
+  Alvar Lucas Córdova	<br> AV1: <br>
+
+  <br> Sunio Danilo Landa Sánchez <br> AV1: <br>
+
+  <br> Giuseppe Adrián Villanueva Rodríguez <br> AV1: <br>
+
+  <br> Diego Rances Rojas Huaranga <br> AV1: <br>
+
+  <br> Pierre Alessandro Mendoza Boluarte <br> AV1: <br>
+  </td>
+
+  <td>
+  AV1: <br>
+
+  </td>
+  </tr>
+
+  <tr>
+  <th>Comunica por escrito con efectividad a diferentes rangos de audiencia </th>
+
+  <td>
+  Alvar Lucas Córdova	<br> AV1: <br>
+
+  <br> Sunio Danilo Landa Sánchez <br> AV1: <br>
+
+  <br> Giuseppe Adrián Villanueva Rodríguez <br> AV1: <br>
+
+  <br> Diego Rances Rojas Huaranga <br> AV1: <br>
+
+  <br> Pierre Alessandro Mendoza Boluarte <br> AV1: <br>
+  </td>
+
+  <td>
+  AV1: <br>
+  
+  </td>
+  </tr>
+</table>
+</div>
 
 # Capítulo I: Introduction 
 
