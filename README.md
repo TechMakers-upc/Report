@@ -192,14 +192,76 @@ La visión de TechMakers es lograr que FixCore se convierta progresivamente en u
 
 A continuación, se presentan los integrantes de TechMakers y las principales capacidades que cada uno aporta al desarrollo del proyecto.
 
-| Integrante | Descripción |
-| :--- | :--- |
-| **Alvar Lucas Córdova (u202324461)** | [foto, carrera, principales conocimientos técnicos y habilidades que aporta al equipo.] |
-| **Sunio Danilo Landa Sánchez (u202423973)** | [] |
-| **Giuseppe Adrián Villanueva Rodríguez (u20221c554)** | [] |
-| **Diego Rances Rojas Huaranga (u20241E096)** | [] |
-| **Pierre Alessandro Mendoza Boluarte (u202320973)** | [] |
+<div align="center">
 
+<table border="1">
+  <tr>
+    <th>Integrante</th>
+    <th colspan="2">Descripción</th>
+  </tr>
+
+  <tr>
+    <th rowspan="2">Alvar Lucas Córdova</th>
+    <td colspan="2">(img)</td>
+  </tr>
+  <tr>
+    <td colspan="2">
+    <b>Codigo:</b> u202324461 <br>
+    <b>Carrera:</b> <br>
+    <b>Conocimientos técnicos y habilidades:</b>
+    </td>
+  </tr>
+
+  <tr>
+    <th rowspan="2">Sunio Danilo Landa Sánchez</th>
+    <td colspan="2">(img)</td>
+  </tr>
+  <tr>
+    <td colspan="2">
+    <b>Codigo:</b> u202423973 <br>
+    <b>Carrera:</b> <br>
+    <b>Conocimientos técnicos y habilidades:</b>
+    </td>
+  </tr>
+
+  <tr>
+    <th rowspan="2">Giuseppe Adrián Villanueva Rodríguez</th>
+    <td colspan="2">(img)</td>
+  </tr>
+  <tr>
+    <td colspan="2">
+    <b>Codigo:</b> u20221c554 <br>
+    <b>Carrera:</b> <br>
+    <b>Conocimientos técnicos y habilidades:</b>
+    </td>
+  </tr>
+
+  <tr>
+    <th rowspan="2">Diego Rances Rojas Huaranga</th>
+    <td colspan="2">(img)</td>
+  </tr>
+  <tr>
+    <td colspan="2">
+    <b>Codigo:</b> u20241E096 <br>
+    <b>Carrera:</b> <br>
+    <b>Conocimientos técnicos y habilidades:</b>
+    </td>
+  </tr>
+
+  <tr>
+    <th rowspan="2">Pierre Alessandro Mendoza Boluarte</th>
+    <td colspan="2">(img)</td>
+  </tr>
+  <tr>
+    <td colspan="2">
+    <b>Codigo:</b> u202320973 <br>
+    <b>Carrera:</b> <br>
+    <b>Conocimientos técnicos y habilidades:</b>
+    </td>
+  </tr>
+</table>
+
+</div>
 
 ## 1.2. Solution Profile 
 
@@ -293,6 +355,7 @@ Nuestro enfoque inicial serán las firmas contratistas de mantenimiento industri
 * **Hipótesis 4:** Creemos que reduciremos las paradas no planificadas si los responsables de mantenimiento reciben avisos con anticipación mediante un sistema de notificaciones automáticas.
 
 * **Hipótesis 5:** Creemos que aumentaremos la permanencia de los clientes en la plataforma si los dueños y gerentes pueden conocer de forma clara el estado de sus máquinas mediante un panel de métricas y reportes.
+
 #### 1.2.2.4. Lean UX Canvas. 
 
 <div align="center">
