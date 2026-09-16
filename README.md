@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/images/UPC_logo_transparente.png" alt="Logo de la Universidad" style="width:20%; height: auto;">
+<img src="report/assets/images/UPC_logo_transparente.png" alt="Logo de la Universidad" style="width:20%; height: auto;">
 
 ## Universidad Peruana de Ciencias Aplicadas
 
@@ -51,6 +51,7 @@
 - [Contenido](#contenido)
   - [Tabla de contenidos](#tabla-de-contenidos)
 - [Student Outcome](#student-outcome)
+- [Capítulo I: Introduction](#capítulo-i-introduction)
   - [1.1. Startup Profile](#11-startup-profile)
     - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
     - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
@@ -152,11 +153,62 @@
 
 # Student Outcome 
 
-<br>
-<br>
+<div align="center">
+<table border="1">
+  <tr>
+  <th>Criterio Especifico</th>
+  <th>Acciones Realizadas</th>
+  <th>Conclusiones</th>
+  </tr>
+
+  <tr>
+  <th>Comunica oralmente con efectividad a diferentes rangos de audiencia</th>
+
+  <td>
+  Alvar Lucas Córdova	<br> AV1: <br>
+
+  <br> Sunio Danilo Landa Sánchez <br> AV1: <br>
+
+  <br> Giuseppe Adrián Villanueva Rodríguez <br> AV1: <br>
+
+  <br> Diego Rances Rojas Huaranga <br> AV1: <br>
+
+  <br> Pierre Alessandro Mendoza Boluarte <br> AV1: <br>
+  </td>
+
+  <td>
+  AV1: <br>
+
+  </td>
+  </tr>
+
+  <tr>
+  <th>Comunica por escrito con efectividad a diferentes rangos de audiencia </th>
+
+  <td>
+  Alvar Lucas Córdova	<br> AV1: <br>
+
+  <br> Sunio Danilo Landa Sánchez <br> AV1: <br>
+
+  <br> Giuseppe Adrián Villanueva Rodríguez <br> AV1: <br>
+
+  <br> Diego Rances Rojas Huaranga <br> AV1: <br>
+
+  <br> Pierre Alessandro Mendoza Boluarte <br> AV1: <br>
+  </td>
+
+  <td>
+  AV1: <br>
+  
+  </td>
+  </tr>
+</table>
+</div>
+
+# Capítulo I: Introduction 
 
 <div align="center">
-  <img src="Assets/Images/capitulo-1.png" 
+  <img src="report/assets/images/capitulo-1.png" 
   alt="Capitulo 1" />
 </div>
 
@@ -189,14 +241,76 @@ La visión de TechMakers es lograr que FixCore se convierta progresivamente en u
 
 A continuación, se presentan los integrantes de TechMakers y las principales capacidades que cada uno aporta al desarrollo del proyecto.
 
-| Integrante | Descripción |
-| :--- | :--- |
-| **Alvar Lucas Córdova (u202324461)** | [foto, carrera, principales conocimientos técnicos y habilidades que aporta al equipo.] |
-| **Sunio Danilo Landa Sánchez (u202423973)** | [] |
-| **Giuseppe Adrián Villanueva Rodríguez (u20221c554)** | [] |
-| **Diego Rances Rojas Huaranga (u20241E096)** | [] |
-| **Pierre Alessandro Mendoza Boluarte (u202320973)** | [] |
+<div align="center">
 
+<table border="1">
+  <tr>
+    <th>Integrante</th>
+    <th colspan="2">Descripción</th>
+  </tr>
+
+  <tr>
+    <th rowspan="2">Alvar Lucas Córdova</th>
+    <td colspan="2">(img)</td>
+  </tr>
+  <tr>
+    <td colspan="2">
+    <b>Codigo:</b> u202324461 <br>
+    <b>Carrera:</b> <br>
+    <b>Conocimientos técnicos y habilidades:</b>
+    </td>
+  </tr>
+
+  <tr>
+    <th rowspan="2">Sunio Danilo Landa Sánchez</th>
+    <td colspan="2">(img)</td>
+  </tr>
+  <tr>
+    <td colspan="2">
+    <b>Codigo:</b> u202423973 <br>
+    <b>Carrera:</b> <br>
+    <b>Conocimientos técnicos y habilidades:</b>
+    </td>
+  </tr>
+
+  <tr>
+    <th rowspan="2">Giuseppe Adrián Villanueva Rodríguez</th>
+    <td colspan="2">(img)</td>
+  </tr>
+  <tr>
+    <td colspan="2">
+    <b>Codigo:</b> u20221c554 <br>
+    <b>Carrera:</b> <br>
+    <b>Conocimientos técnicos y habilidades:</b>
+    </td>
+  </tr>
+
+  <tr>
+    <th rowspan="2">Diego Rances Rojas Huaranga</th>
+    <td colspan="2">(img)</td>
+  </tr>
+  <tr>
+    <td colspan="2">
+    <b>Codigo:</b> u20241E096 <br>
+    <b>Carrera:</b> <br>
+    <b>Conocimientos técnicos y habilidades:</b>
+    </td>
+  </tr>
+
+  <tr>
+    <th rowspan="2">Pierre Alessandro Mendoza Boluarte</th>
+    <td colspan="2">(img)</td>
+  </tr>
+  <tr>
+    <td colspan="2">
+    <b>Codigo:</b> u202320973 <br>
+    <b>Carrera:</b> <br>
+    <b>Conocimientos técnicos y habilidades:</b>
+    </td>
+  </tr>
+</table>
+
+</div>
 
 ## 1.2. Solution Profile 
 
@@ -290,11 +404,12 @@ Nuestro enfoque inicial serán las firmas contratistas de mantenimiento industri
 * **Hipótesis 4:** Creemos que reduciremos las paradas no planificadas si los responsables de mantenimiento reciben avisos con anticipación mediante un sistema de notificaciones automáticas.
 
 * **Hipótesis 5:** Creemos que aumentaremos la permanencia de los clientes en la plataforma si los dueños y gerentes pueden conocer de forma clara el estado de sus máquinas mediante un panel de métricas y reportes.
+
 #### 1.2.2.4. Lean UX Canvas. 
 
 <div align="center">
   <p><b>Gráfico 1</b>: Lean UX Canvas FixCore</p>
-  <img src="Assets/Images//lean-ux-canvas.png" alt="Lean UX Canvas FixCore" />
+  <img src="report/assets/images//lean-ux-canvas.png" alt="Lean UX Canvas FixCore" />
 </div>
 
 *Fuente: Elaboración propia.*
@@ -345,7 +460,7 @@ Nuestro enfoque inicial serán las firmas contratistas de mantenimiento industri
 | ¿Por qué llevar a cabo este análisis? | El objetivo de este análisis es identificar las fortalezas, debilidades, oportunidades y amenazas del entorno competitivo en el sector de software CMMS, con el fin de definir la ventaja competitiva de nuestro sistema frente a las alternativas existentes y orientar las estrategias de diferenciación e innovación. |
 | :--- | :--- |
 
-| **Competidores** | &nbsp; | **FixCore**<br><br>![FixCore](Assets/Images/fixcore.png) | **Fracttal**<br><br>![Fracttal](Assets/Images/fracttal.png) | **UpKeep**<br><br>![UpKeep](Assets/Images/upkeep.png) | **IBM Maximo**<br><br>![IBM Maximo](Assets/Images/ibm.png) |
+| **Competidores** | &nbsp; | **FixCore**<br><br>![FixCore](report/assets/images/fixcore.png) | **Fracttal**<br><br>![Fracttal](report/assets/images/fracttal.png) | **UpKeep**<br><br>![UpKeep](report/assets/images/upkeep.png) | **IBM Maximo**<br><br>![IBM Maximo](report/assets/images/ibm.png) |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Perfil** | **Overview** | Sistema integral de gestión de mantenimiento industrial, enfocado en escalabilidad, arquitectura moderna y automatización de procesos. | Plataforma CMMS/EAM basada en la nube y enfocada en IoT y movilidad para mantenimiento predictivo. | Solución móvil (mobile-first) para agilizar la gestión de órdenes de trabajo de técnicos en campo. | EAM robusto a nivel empresarial para operaciones críticas e industrias de gran envergadura. |
 | &nbsp; | **Ventaja competitiva** | Arquitectura backend de alto rendimiento, flujos automatizados de alertas en tiempo real y modelo de adopción de baja fricción. | Ecosistema de IoT integrado y fuerte presencia en el mercado de habla hispana. | Extrema facilidad de uso y curva de adopción casi nula para el usuario final (técnicos). | Capacidad de personalización ilimitada y potencia para manejar millones de activos. |
@@ -419,7 +534,7 @@ Nuestro enfoque inicial serán las firmas contratistas de mantenimiento industri
   <tbody>
     <tr>
       <td rowspan="6" align="center" valign="middle" width="200">
-        <img src="Assets/Images/caterina.png" alt="Caterina Villanueva" width="160">
+        <img src="report/assets/images/caterina.png" alt="Caterina Villanueva" width="160">
       </td>
       <td><strong>Nombre y apellido</strong></td>
       <td>Caterina Villanueva</td>
@@ -570,7 +685,7 @@ Yo creo que pagaría entre 80 y 100 dólares mensuales si de verdad me soluciona
   <tbody>
     <tr>
       <td rowspan="6" align="center" valign="middle" width="200">
-        <img src="Assets/Images/entrevista_3_segmento_1.jpg" alt="Entrevista a Mitjail Landa" width="160">
+        <img src="report/assets/images/entrevista_3_segmento_1.jpg" alt="Entrevista a Mitjail Landa" width="160">
       </td>
       <td><strong>Nombre y apellido</strong></td>
       <td>Mitjail Landa</td>
@@ -719,7 +834,7 @@ El Árbol de Problemas fue elaborado para jerarquizar visualmente la problemáti
 
 <div align="center">
   <strong>Gráfico 1: Árbol de problemas</strong><br><br>
-  <img src="Assets/Images/arbol_problemas.png" width="400"><br>
+  <img src="report/assets/images/arbol_problemas.png" width="400"><br>
   <em>Fuente: Elaboración propia.</em>
 </div>
 
@@ -729,7 +844,7 @@ Para complementar el análisis estructural, se aplicó el Diagrama de Ishikawa (
 
 <div align="center">
   <strong>Gráfico 2: Diagrama de Ishikawa</strong><br><br>
-  <img src="Assets/Images/diagrama_ishikawa.png" width="400"><br>
+  <img src="report/assets/images/diagrama_ishikawa.png" width="400"><br>
   <em>Fuente: Elaboración propia.</em>
 </div>
 
@@ -741,7 +856,7 @@ En esta sección se presentan las fichas de User Persona desarrolladas a partir 
 
 <div align="center">
   <strong>Gráfico 3: User Person del segmento pymes</strong><br><br>
-  <img src="Assets/Images/userpersona1.png" width="400"><br>
+  <img src="report/assets/images/userpersona1.png" width="400"><br>
   <em>Fuente: Elaboración propia.</em>
 </div>
 
@@ -749,7 +864,7 @@ En esta sección se presentan las fichas de User Persona desarrolladas a partir 
 
 <div align="center">
   <strong>Gráfico 4: User Person del segmento consultoras y contratistas</strong><br><br>
-  <img src="Assets/Images/userpersona2.png" width="400"><br>
+  <img src="report/assets/images/userpersona2.png" width="400"><br>
   <em>Fuente: Elaboración propia.</em>
 </div>
 
@@ -807,14 +922,14 @@ El objetivo es comprender las motivaciones, frustraciones y oportunidades que su
 
 <div align="center">
   <strong>Gráfico 5:  User Journey Map – Carla Garcia (jefa de planta)</strong><br><br>
-  <img src="Assets/Images/journeymap1.png" width="400"><br>
+  <img src="report/assets/images/journeymap1.png" width="400"><br>
   <em>Fuente: Elaboración propia.</em>
 </div>
 
 
 <div align="center">
   <strong>Gráfico 6: User Journey Map – Victor Salazar (Contratista de mantenimiento)</strong><br><br>
-  <img src="Assets/Images/journeymap2.png" width="400"><br>
+  <img src="report/assets/images/journeymap2.png" width="400"><br>
   <em>Fuente: Elaboración propia.</em>
 </div>
 
@@ -826,14 +941,14 @@ Cada mapa busca responder las preguntas centrales del diseño centrado en el usu
 
 <div align="center">
   <strong>Gráfico 7: Empathy Map de jefa de planta</strong><br><br>
-  <img src="Assets/Images/empathymap1.png" width="400"><br>
+  <img src="report/assets/images/empathymap1.png" width="400"><br>
   <em>Fuente: Elaboración propia.</em>
 </div>
 
 
 <div align="center">
   <strong>Gráfico 8: Empathy Map de contratistas o consultores</strong><br><br>
-  <img src="Assets/Images/empathymap2.png" width="400"><br>
+  <img src="report/assets/images/empathymap2.png" width="400"><br>
   <em>Fuente: Elaboración propia.</em>
 </div>
 
@@ -1054,7 +1169,7 @@ El logotipo de FixCore consiste en un isotipo geométrico combinado con el nombr
 
 <div align="center">
   <strong>Gráfico: Logo de FixCore</strong><br><br>
-  <img src="Assets/Images/fixcore.png" alt="FixCore" width="250"><br>
+  <img src="report/assets/images/fixcore.png" alt="FixCore" width="250"><br>
   <em>Fuente: Elaboración propia.</em>
 </div>
 
@@ -1094,7 +1209,7 @@ FixCore utiliza dos familias tipográficas complementarias que equilibran la est
 
 <div align="center">
   <strong>Gráfico: Tipografía utilizada en FixCore (Ejemplo Roboto)</strong><br><br>
-  <img src="Assets/Images/tipografia_fixcore.png" alt="Muestra Tipográfica Roboto" width="400"><br>
+  <img src="report/assets/images/tipografia_fixcore.png" alt="Muestra Tipográfica Roboto" width="400"><br>
   <em>Fuente: Elaboración propia.</em>
 </div>
 
