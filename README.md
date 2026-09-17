@@ -2847,7 +2847,7 @@ Estructura General Desktop
 
 <div align="center">
   <strong>Gráfico: Wireframe desktop del Landing de FixCore</strong><br><br>
-  <img src="report/assets/images/wweb.png" width="400"><br>
+  <img src="report/assets/images/wweb.jpeg" width="400"><br>
   <em>Fuente: Elaboración propia.</em>
 </div>
 
@@ -2856,7 +2856,7 @@ El wireframe mobile adapta la estructura desktop a formatos verticales:
 
 <div align="center">
   <strong>Wireframe mobile del Landing de FixCore</strong><br><br>
-  <img src="report/assets/images/wmovil.png" width="400"><br>
+  <img src="report/assets/images/wmovil.jpeg" width="400"><br>
   <em>Fuente: Elaboración propia.</em>
 </div>
 
