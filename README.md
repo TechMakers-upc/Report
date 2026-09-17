@@ -753,7 +753,7 @@ Yo creo que entre 500 a 1000 soles. Incluso un poquito más. O sea, también ten
   <tbody>
     <tr>
       <td rowspan="6" align="center" valign="middle" width="200">
-        <img src="" alt="" width="160">
+        <img src="report/assets/images/Carla_Aguilar.jpeg" alt="" width="160">
       </td>
       <td><strong>Nombre y apellido</strong></td>
       <td>Carla Aguilar</td>
@@ -768,15 +768,15 @@ Yo creo que entre 500 a 1000 soles. Incluso un poquito más. O sea, también ten
     </tr>
     <tr>
       <td><strong>Inicio de la entrevista</strong></td>
-      <td></td>
+      <td>4:38</td>
     </tr>
     <tr>
       <td><strong>Duración</strong></td>
-      <td></td>
+      <td>4:19</td>
     </tr>
     <tr>
       <td><strong>Enlace</strong></td>
-      <td><a href="URL_DEL_VIDEO"></a></td>
+      <td><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423973_upc_edu_pe/IQD8ECWrYrRxQaNhmjXB91vmAWdSEk3YRD64TUu5xywjVz8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=WNbf7E">Video de las entrevistas</a></td>
     </tr>
   </tbody>
 </table>
@@ -905,7 +905,7 @@ Dependerá de los módulos y analíticas integradas, basándose en que tan útil
   <tbody>
     <tr>
       <td rowspan="6" align="center" valign="middle" width="200">
-        <img src="" alt="" width="160">
+        <img src="report/assets/images/Valeria_Salazar.jpeg" alt="" width="160">
       </td>
       <td><strong>Nombre y apellido</strong></td>
       <td>Valeria Salazar</td>
@@ -920,18 +920,19 @@ Dependerá de los módulos y analíticas integradas, basándose en que tan útil
     </tr>
     <tr>
       <td><strong>Inicio de la entrevista</strong></td>
-      <td></td>
+      <td>24:11</td>
     </tr>
     <tr>
       <td><strong>Duración</strong></td>
-      <td></td>
+      <td>4:26</td>
     </tr>
     <tr>
       <td><strong>Enlace</strong></td>
-      <td><a href="URL_DEL_VIDEO"></a></td>
+      <td><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423973_upc_edu_pe/IQD8ECWrYrRxQaNhmjXB91vmAWdSEk3YRD64TUu5xywjVz8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=WNbf7E">Video de las entrevistas</a></td>
     </tr>
   </tbody>
 </table>
+
 
 **Resumen:**
 **¿Podría indicarme su nombre, cargo y el tipo de servicios de ingeniería o mantenimiento que brinda su empresa?**
@@ -3113,19 +3114,187 @@ El mock-up aplica los principios de diseño responsivo *Mobile-First* a través 
 
 ### 4.6.1. Design-Level EventStorming. 
 
+Realizamos una sesión de Design-Level EventStorming tomando como punto de partida los resultados obtenidos en el Big Picture EventStorming. En esta etapa profundizamos en los principales procesos identificados del dominio de FixCore, detallamos los actores, comandos, aggregates, eventos de dominio, reglas de negocio y consultas involucrados en cada flujo. Esto nos ayudo a mejorar el modelo inicial, delimitar las responsabilidades del sistema y establecer una primera definición de los Bounded Contexts, buscando que cada uno mantenga una responsabilidad clara dentro de la arquitectura de la plataforma.
+
+<div align="center">
+  <strong>Gráfico 20:Design-Level EventStorming </strong><br><br>
+  <img src="report/assets/images/Design-Level-Storming.png" width="700"><br>
+  <em>Fuente: Elaboración propia.</em>
+</div>
+
 ### 4.6.2. Software Architecture Context Diagram. 
+
+En esta sección se presenta el Diagrama de Contexto de FixCore, con el fin de mostrar el sistema desde una perspectiva general y su relación con los principales usuarios y sistemas externos. El diagrama permite identificar quiénes interactúan con FixCore y cuál es el propósito general de estas interacciones.Este diagrama muestra a FixCore como el sistema central para la gestión del mantenimiento industrial. El administrador de planta utiliza la plataforma para gestionar plantas, activos, actividades de mantenimiento y órdenes de trabajo.El tecnico la usa para reportar fallas, ejecutar ordenes y registrar actividades de mantenimiento,por ultimo qel Consultor Industrial coordina los servicios de mantenimiento y técnicos en las plantas. Además, FixCore se comunica con el Servicio de Notificaciones WhatsApp, un sistema externo encargado de enviar alertas y notificaciones importantes relacionadas con el mantenimiento.
+
+
+<div align="center">
+  <strong></strong><br><br>
+  <img src="report/assets/images/FixCoreSystemContext-dark.png" width="700"><br>
+  <em>Fuente: Elaboración propia.</em>
+</div>
 
 ### 4.6.3. Software Architecture Container Diagrams. 
 
+En esta sección se presenta el Container Diagram de FixCore, elaborado bajo el C4 Model donde intentamos mostrar los elementos principales de la arquitectura y como se distribuyen las responsabilidades entre ellos. El diagrama incluye la Aplicación Web, API REST, servicios especializados y sus respectivas bases de datos,tambien incluimos el servicio externo de notificaciones.Por ultimo,en el diagrama indicamos las principales decisiones tecnológicas y las formas de comunicación entre los containers mediante HTTPS, REST y JSON. Cada container representa una unidad de despliegue independiente, permitiendo organizar las funcionalidades de FixCore de acuerdo con sus responsabilidades.
+
+<div align="center">
+  <strong></strong><br><br>
+  <img src="report/assets/images/DiagramaContainersFixCore-dark.png" width="700"><br>
+  <em>Fuente: Elaboración propia.</em>
+</div>
+
 ### 4.6.4. Software Architecture Components Diagrams. 
+
+Ahora presentamos los Diagramas de Componentes de FixCore, desarrollados a partir de los containers definidos apartado anterior. Estos diagramas permiten profundizar en la estructura interna de cada container, identificando sus principales componentes, responsabilidades, relaciones e implementación tecnológica,estos nos ayuda a obtener una vision más detallada de como se organiza cada parte de la plataforma y como es que sus componentes colaboran para cumplir con las funcionalidades definidas para FixCore.
+
+* **1.Diagrama de Componentes – Aplicación Web**
+
+Este diagrama muestra la descomposición de la Aplicación Web de FixCore. Se presentan los componentes responsables de la navegación, autenticación, gestión de activos, mantenimiento preventivo, fallas y ordenes de trabajo, inventario, reportes y notificaciones. Los componentes utilizan un Cliente API para comunicarse con la API REST.
+<div align="center">
+  <strong></strong><br><br>
+  <img src="report/assets/images/ComponentesAplicacionWeb-dark.png" width="700"><br>
+  <em>Fuente: Elaboración propia.</em>
+</div>
+
+
+* **2.Diagrama de Componentes – API REST**
+
+Este diagrama representa la estructura interna de la API REST de FixCore. Se muestran los controladores encargados de recibir y gestionar las solicitudes relacionadas con autenticación, usuarios, activos, mantenimiento, fallas, órdenes de trabajo, inventario y reportes, funcionando como punto de comunicación entre la Aplicación Web y los servicios del sistema.
+<div align="center">
+  <strong></strong><br><br>
+  <img src="report/assets/images/ComponentesApiRest-dark.png" width="700"><br>
+  <em>Fuente: Elaboración propia.</em>
+</div>
+
+* **3.Diagrama de Componentes – Identidad y Acceso**
+
+Este diagrama presenta los componentes encargados de la gestión de identidad y acceso en FixCore.Incluimos la autenticacion,gestión de usuarios, roles, permisos y recuperación de acceso, además del parte responsable de la persistencia de esta información en la Base de Datos de Identidad.
+
+* **4.Diagrama de Componentes – Recursos y Activos**
+
+Este diagrama muestra la descomposición del servicio encargado de administrar los recursos y activos industriales. Sus componentes permiten gestionar plantas, activos, fichas técnicas, manuales e historial de los activos, utilizando un repositorio para almacenar y consultar la información correspondiente.
+
+<div align="center">
+  <strong></strong><br><br>
+  <img src="report/assets/images/ComponentesActivos-dark.png" width="700"><br>
+  <em>Fuente: Elaboración propia.</em>
+</div>
+
+* **5.Diagrama de Componentes – Diseño y planificacion**
+
+Este diagrama representa los componentes relacionados con el diseño y planificación del mantenimiento preventivo. Incluye la gestion de planes, programacion, reprogramacion, calendario y control de vencimientos. El repositorio de planificacion permite almacenar y consultar la informacion necesaria para gestionar las actividades programadas.
+
+<div align="center">
+  <strong></strong><br><br>
+  <img src="report/assets/images/ComponentesPlanificacion-dark.png" width="700"><br>
+  <em>Fuente: Elaboración propia.</em>
+</div>
+
+* **6.Diagrama de Componentes – Ejecución y Monitoreo**
+
+Este diagrama muestra los componentes principales para la ejecucion del mantenimiento en FixCore. Incluye la gestion de fallas,ordenes de trabajo, cuando se asigna un tecnico, la ejecucion, registro de actividades, cierre y gestión de alertas. Tambien se incorpora el cliente de notificaciones WhatsApp y el repositorio encargado de persistir la información de ejecucion.
+
+<div align="center">
+  <strong></strong><br><br>
+  <img src="report/assets/images/ComponentesEjecucion-dark.png" width="700"><br>
+  <em>Fuente: Elaboración propia.</em>
+</div>
+
+* **7.Diagrama de Componentes – Inventario y Repuestos**
+
+Este diagrama representa los componentes responsables de administrar el inventario y los repuestos que se usaron en las actividades de mantenimiento. Incluye la gestion de inventario,control de stock, consumo, movimientos y alertas de stock, ademas de la persistencia de datos.
+
+<div align="center">
+  <strong></strong><br><br>
+  <img src="report/assets/images/ComponentesInventario-dark.png" width="700"><br>
+  <em>Fuente: Elaboración propia.</em>
+</div>
+
+* **8.Diagrama de Componentes – Panel y Reportes**
+
+Este diagrama muestra la estructura interna del servicio encargado de proporcionar información para el analisis,sus componentes permiten consultar KPIs, metricas de mantenimiento y operativas, desempeño de técnicos, generar reportes y preparar la informacion para el panel de control.
+
+<div align="center">
+  <strong></strong><br><br>
+  <img src="report/assets/images/ComponentesReportes-dark.png" width="700"><br>
+  <em>Fuente: Elaboración propia.</em>
+</div>
 
 ## 4.7. Software Object-Oriented Design. 
 
+En esta sección se presenta el diseño orientado a objetos de FixCore, detallando la estructura de sus principales elementos de software y su organización dentro de los bounded contexts que se definieron.
+
 ### 4.7.1. Class Diagrams. 
+
+Se presentan los diagramas de clases UML de cada bounded context, mostrando sus clases, interfaces, enumeraciones, atributos, métodos, visibilidad y relaciones, con el fin de representar con mayor detalle la estructura del sistema.
+
+#### 4.7.1.1. Class Diagram – Identity & Access Management
+
+![](report/assets/images/class_diagram-BC1.png)
+
+#### 4.7.1.2. Class Diagram – Resource & Asset Management
+
+![](report/assets/images/class_diagram-BC2.png)
+#### 4.7.1.3. Class Diagram – Service Design & Planning
+
+![](report/assets/images/class_diagram-BC3.png)
+
+#### 4.7.1.4. Class Diagram – Service Execution & Monitoring
+
+![](report/assets/images/class_diagram-BC4.png)
+
+#### 4.7.1.5. Class Diagram – Inventory & Spare Parts Management
+
+![](report/assets/images/class_diagram-BC5.png)
+
 
 ## 4.8. Database Design. 
 
+En esta sección presentamos el diseño de las bases de datos de FixCore para cada Bounded Context, considerando la estructura necesaria para la persistencia de la información. Los diagramas muestran las principales tablas, columnas, claves primarias, claves foráneas, restricciones y relaciones entre las entidades de cada contexto.
+
 ### 4.8.1. Database Diagrams. 
+
+En este apartado mostramos los Database Diagrams correspondientes a cada Bounded Context, detallando las tablas y sus relaciones para representar como se almacenara y organizara la informacion de FixCore en una base de datos relacional.
+
+#### 4.8.1.1. Database Diagram – Identity & Access Management
+
+<div align="center">
+  <strong></strong><br><br>
+  <img src="report/assets/images/diagrama_db_BC1.png" width="700"><br>
+  <em>Fuente: Elaboración propia.</em>
+</div>
+
+#### 4.8.1.2. Database Diagram – Resource & Asset Management
+
+<div align="center">
+  <strong></strong><br><br>
+  <img src="report/assets/images/diagrama_db_BC2.png" width="700"><br>
+  <em>Fuente: Elaboración propia.</em>
+</div>
+
+#### 4.8.1.3. Database Diagram – Service Design & Planning
+
+<div align="center">
+  <strong></strong><br><br>
+  <img src="report/assets/images/diagrama_db_BC3.png" width="700"><br>
+  <em>Fuente: Elaboración propia.</em>
+</div>
+
+#### 4.8.1.4. Database Diagram – Service Execution & Monitoring
+
+<div align="center">
+  <strong></strong><br><br>
+  <img src="report/assets/images/diagrama_db_BC4.png" width="700"><br>
+  <em>Fuente: Elaboración propia.</em>
+</div>
+
+#### 4.8.1.5. Database Diagram – Inventory & Spare Parts Management
+
+<div align="center">
+  <strong></strong><br><br>
+  <img src="report/assets/images/diagrama_db_BC5.png" width="700"><br>
+  <em>Fuente: Elaboración propia.</em>
+</div>
 
 
 # Capítulo V: Product Implementation, Validation & Deployment  
