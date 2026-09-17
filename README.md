@@ -325,18 +325,21 @@ A pesar de los beneficios de la digitalización, los contratistas de servicios t
 Como consecuencia, algunos mantenimientos pueden realizarse fuera de la fecha prevista, pueden faltar repuestos necesarios para una reparación o una falla puede tardar más tiempo en ser atendida. Estas situaciones pueden generar paradas no planificadas en las líneas de producción, mayores costos de reparación y pérdidas para las empresas involucradas.
 
 
----
+
 ### Técnica de The 5 'W's y 2 'H's
 
-| Pregunta | Formulación | Respuesta |
-| :--- | :--- | :--- |
-| **Who?** | ¿Quiénes son los afectados? | Firmas contratistas de servicio técnico industrial y dueños o administradores de pymes del sector manufacturero. |
-| **What?** | ¿Cuál es el problema? | Dificultades para planificar las fechas de mantenimiento y controlar el inventario de repuestos debido al uso de registros manuales y sistemas desconectados. |
-| **Where?** | ¿Dónde ocurre? | En plantas de producción, fábricas, talleres industriales y negocios con equipamiento industrial en el Perú. |
-| **When?** | ¿Cuándo ocurre el problema? | Durante la operación diaria, especialmente cuando se aproxima o vence una fecha de mantenimiento, ocurre una falla imprevista o se necesita un repuesto que no se encuentra disponible. |
-| **Why?** | ¿Por qué ocurre? | Porque muchas empresas dependen de cuadernos, pizarras y hojas de Excel, lo que dificulta generar alertas, consultar el historial técnico y mantener actualizado el inventario. |
-| **How?** | ¿Cómo se manifiesta? | Mediante paradas no planificadas, fallas atendidas con demora, falta de repuestos y desorganización en la coordinación de los técnicos. |
-| **How Much?** | ¿Cuál es la magnitud? | El problema puede generar tiempos muertos, reparaciones de emergencia y sobrecostos que afectan directamente la productividad y rentabilidad de las empresas. |
+| Pregunta      | Formulación                 | Respuesta |
+| :------------ | :-------------------------- | :-------- |
+| **Who?**      | ¿Quiénes son los afectados? | Firmas contratistas de servicio técnico industrial, dueños o administradores de pymes del sector manufacturero, y técnicos u operarios encargados de ejecutar actividades de mantenimiento. |
+| **What?**     | ¿Cuál es el problema?       | Dificultades para planificar los mantenimientos, reportar y atender fallas, controlar el inventario de repuestos y mantener centralizada la información debido al uso de registros manuales y sistemas desconectados. |
+| **Where?**    | ¿Dónde ocurre?              | En plantas de producción, fábricas, talleres industriales y empresas contratistas que realizan actividades de mantenimiento en el Perú. |
+| **When?**     | ¿Cuándo ocurre el problema? | Durante la operación diaria, especialmente cuando se aproxima o vence una fecha de mantenimiento, ocurre una falla imprevista, se asigna una orden de trabajo o se necesita un repuesto que no se encuentra disponible. |
+| **Why?**      | ¿Por qué ocurre?            | Porque muchas empresas todavía dependen de cuadernos, pizarras, hojas de Excel, llamadas y mensajes de WhatsApp, lo que dificulta generar alertas, coordinar a los técnicos, consultar el historial técnico y mantener actualizado el inventario. |
+| **How?**      | ¿Cómo se manifiesta?        | Mediante paradas no planificadas, fallas atendidas con demora, información dispersa, falta de repuestos, dificultades para coordinar técnicos y poca trazabilidad de las actividades de mantenimiento. |
+| **How Much?** | ¿Cuál es la magnitud?       | El problema puede generar tiempos muertos, reparaciones de emergencia, retrasos en la atención y sobrecostos que afectan directamente la productividad y rentabilidad de las empresas. |
+
+
+
 
 ---
 
@@ -344,11 +347,14 @@ Como consecuencia, algunos mantenimientos pueden realizarse fuera de la fecha pr
 
 #### 1.2.2.1. Lean UX Problem Statements.
 
-El estado actual del mantenimiento industrial se ha centrado principalmente en contratistas de servicio técnico y pymes manufactureras que aún dependen de cuadernos de cargo, pizarras o archivos de Excel aislados para programar sus revisiones y controlar los repuestos utilizados. Lo que los productos y servicios actuales no logran resolver es la falta de una solución web accesible y adaptable que unifique la programación preventiva de los equipos, el control de inventario y el seguimiento operativo, sin requerir implementaciones costosas o complejas.
+El estado actual del mantenimiento industrial presenta dificultades principalmente en pymes manufactureras, firmas contratistas de mantenimiento y técnicos u operarios que todavía dependen de cuadernos, pizarras, hojas de Excel, llamadas telefónicas o mensajes de WhatsApp para programar mantenimientos, reportar fallas, coordinar órdenes de trabajo y controlar los repuestos utilizados. Esta forma de trabajo provoca que la información se encuentre dispersa, dificulta el seguimiento de las actividades y aumenta el riesgo de retrasos, errores y paradas no planificadas.
 
-Nuestro producto abordará esta brecha mediante FixCore, una aplicación web SaaS intuitiva que centraliza los perfiles técnicos de la maquinaria, ofrece un calendario de mantenimientos, genera alertas de vencimiento y permite mantener actualizado el inventario de repuestos.
+Los productos y servicios actuales no siempre logran resolver estas necesidades de manera accesible para pequeñas y medianas empresas, debido a que muchas soluciones existentes pueden resultar costosas, complejas de implementar o poco prácticas para los técnicos que trabajan directamente en planta.
 
-Nuestro enfoque inicial serán las firmas contratistas de mantenimiento industrial y los administradores de planta en pymes manufactureras. Sabremos que tenemos éxito cuando al menos el 75 % de los operarios utilice la aplicación web durante su turno, los clientes reduzcan sus paradas de máquina no planificadas en al menos un 30 % y los quiebres de stock de repuestos críticos disminuyan en un 25 %.
+Nuestro producto abordará esta brecha mediante FixCore, una aplicación web SaaS intuitiva y adaptable que permitirá centralizar la información de las máquinas, programar mantenimientos preventivos, registrar fallas, gestionar Órdenes de Trabajo, controlar el inventario de repuestos y consultar información relevante desde computadoras, tablets o smartphones.
+
+Nuestro enfoque inicial estará dirigido a pymes de manufactura y producción, firmas consultoras y contratistas de ingeniería industrial, y técnicos u operarios de mantenimiento que participan directamente en las actividades operativas. Sabremos que estamos teniendo éxito cuando al menos el 75 % de los operarios utilice la aplicación web durante su turno, los clientes reduzcan las paradas de máquina no planificadas en al menos un 30 % y los quiebres de stock de repuestos críticos disminuyan en un 25 %.
+
 
 #### 1.2.2.2. Lean UX Assumptions. 
 
@@ -407,10 +413,13 @@ Nuestro enfoque inicial serán las firmas contratistas de mantenimiento industri
 
 #### 1.2.2.4. Lean UX Canvas. 
 
+
 <div align="center">
   <p><b>Gráfico 1</b>: Lean UX Canvas FixCore</p>
-  <img src="report/assets/images//lean-ux-canvas.png" alt="Lean UX Canvas FixCore" />
+  <img src="report/assets/images/lean_ux_canvas.png" alt="Lean UX Canvas FixCore">
 </div>
+
+
 
 *Fuente: Elaboración propia.*
 
@@ -440,6 +449,21 @@ Nuestro enfoque inicial serán las firmas contratistas de mantenimiento industri
 * **Clase social:** A y B.
 * **Datos de sustento:** Según un estudio de McKinsey Global Institute (2015), la transición hacia modelos de mantenimiento preventivo soportados por herramientas digitales permite a las firmas consultoras y contratistas reducir los costos de reparación entre un 18 % y un 25 %. Además, la digitalización incrementa la productividad de los técnicos en campo, lo que genera una demanda directa de software especializado (SaaS) que reemplace las hojas de cálculo tradicionales para poder atender a más fábricas a la vez.
 
+> **Segmento 3: Técnicos y Operarios de Mantenimiento Industrial**
+
+* **Segmento objetivo:** Técnicos, operarios y personal de mantenimiento que ejecutan tareas preventivas y correctivas dentro de plantas industriales o empresas contratistas.
+* **Descripción:** Usuarios operativos encargados de inspeccionar equipos, reportar fallas, ejecutar órdenes de trabajo, consultar manuales y repuestos, y registrar las actividades realizadas durante el mantenimiento. Necesitan una herramienta sencilla, rápida y adaptable a dispositivos móviles para trabajar directamente desde planta sin depender de papel, llamadas o mensajes dispersos.
+* **Edad:** 20 a 50 años.
+* **Sexo:** Hombres y mujeres.
+* **Ubicación:** Plantas industriales, fábricas, talleres y zonas de mantenimiento en el Perú.
+* **Formación educativa:** Técnicos industriales, técnicos mecánicos, técnicos eléctricos, electromecánicos u operarios con experiencia práctica en mantenimiento.
+* **Poder adquisitivo:** Medio.
+* **Clase social:** B y C.
+* **Datos de sustento:** Las entrevistas realizadas a jefes de planta evidencian que los técnicos utilizan principalmente smartphones durante sus turnos y que la facilidad de uso es uno de los factores más importantes para adoptar una nueva herramienta de mantenimiento. Además, las dificultades actuales incluyen reportes tardíos, uso de WhatsApp, formatos manuales y baja adopción de sistemas complejos.
+
+
+
+
 # Capítulo II: Requirements Elicitation & Analysis 
 
 ## 2.1. Competidores. 
@@ -455,35 +479,137 @@ Nuestro enfoque inicial serán las firmas contratistas de mantenimiento industri
 
 ---
 
-### 2.1.1. Análisis competitivo. 
+### 2.1.1. Análisis competitivo.
 
-| ¿Por qué llevar a cabo este análisis? | El objetivo de este análisis es identificar las fortalezas, debilidades, oportunidades y amenazas del entorno competitivo en el sector de software CMMS, con el fin de definir la ventaja competitiva de nuestro sistema frente a las alternativas existentes y orientar las estrategias de diferenciación e innovación. |
-| :--- | :--- |
 
-| **Competidores** | &nbsp; | **FixCore**<br><br>![FixCore](report/assets/images/fixcore.png) | **Fracttal**<br><br>![Fracttal](report/assets/images/fracttal.png) | **UpKeep**<br><br>![UpKeep](report/assets/images/upkeep.png) | **IBM Maximo**<br><br>![IBM Maximo](report/assets/images/ibm.png) |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| **Perfil** | **Overview** | Sistema integral de gestión de mantenimiento industrial, enfocado en escalabilidad, arquitectura moderna y automatización de procesos. | Plataforma CMMS/EAM basada en la nube y enfocada en IoT y movilidad para mantenimiento predictivo. | Solución móvil (mobile-first) para agilizar la gestión de órdenes de trabajo de técnicos en campo. | EAM robusto a nivel empresarial para operaciones críticas e industrias de gran envergadura. |
-| &nbsp; | **Ventaja competitiva** | Arquitectura backend de alto rendimiento, flujos automatizados de alertas en tiempo real y modelo de adopción de baja fricción. | Ecosistema de IoT integrado y fuerte presencia en el mercado de habla hispana. | Extrema facilidad de uso y curva de adopción casi nula para el usuario final (técnicos). | Capacidad de personalización ilimitada y potencia para manejar millones de activos. |
-| **Perfil de Marketing** | **Mercado objetivo** | Firmas de ingeniería industrial, empresas de manufactura y flotas que buscan digitalizar su mantenimiento sin costos excesivos. | Medianas y grandes empresas de mantenimiento industrial y facilities que requieren digitalización formal. | Pymes y equipos de campo que necesitan digitalizar órdenes de trabajo rápidamente. | Corporaciones globales, mineras, petroleras y plantas de manufactura masiva. |
-| &nbsp; | **Estrategias de marketing** | Demostraciones técnicas, alianzas con consultoras de ingeniería industrial y enfoque open-core / freemium. | Inbound marketing corporativo, webinars, y difusión de casos de éxito B2B. | Posicionamiento en tiendas de apps, SEO agresivo y pruebas gratuitas autogestionadas. | Ventas directas corporativas (Enterprise Sales) y red global de partners integradores. |
-| **Perfil de Producto** | **Productos & Servicios** | Gestión de activos, órdenes de trabajo, alertas interactivas vía webhooks, reportes de KPI y APIs abiertas. | CMMS completo, módulo IoT, integración ERP, exámenes y reportes avanzados. | App móvil de gestión de tareas, escaneo de códigos QR, inventario básico. | Gestión del ciclo de vida de activos, predictivo con IA, control de inventarios complejos. |
-| &nbsp; | **Precios & costos** | Modelo freemium: acceso básico gratuito/open-source y planes premium para módulos analíticos. | Pago por usuario (medio a alto). | Suscripción por licencia de usuario (bajo a medio). | Licenciamiento empresarial extremadamente alto y costos de implementación. |
-| &nbsp; | **Canales** | Web responsive y app móvil (Android/iOS). | Web y app móvil (Android/iOS). | Principalmente app móvil (iOS/Android) y Web. | Implementación in-situ (On-premise) o nube corporativa. |
-| **Análisis SWOT** | **Fortalezas** | Backend escalable; fácil integración con automatizaciones externas; costos competitivos. | Solución muy madura; ecosistema IoT nativo; contenido validado en el sector. | Interfaz intuitiva; alta usabilidad; adopción rápida por los operarios en terreno. | Poder absoluto de procesamiento de datos; IA integrada; respaldo global corporativo. |
-| &nbsp; | **Debilidades** | Marca nueva en el mercado; necesidad de construir casos de éxito iniciales. | Curva de aprendizaje media; soporte técnico a veces lento en planes bajos; alto costo. | Falta de funciones empresariales profundas y gestión financiera de activos. | Complejidad excesiva; inalcanzable para pymes; requiere consultoría extensa. |
-| &nbsp; | **Oportunidades** | Gran segmento de pymes con procesos manuales; integrar simuladores de fallas. | Expansión global y mejora de sus algoritmos de predicción. | Añadir módulos de IA sencillos para predecir fallas; ampliar idiomas. | Migración de empresas tradicionales a la nube híbrida y modernización. |
-| &nbsp; | **Amenazas** | Competidores establecidos con mayores presupuestos; desconfianza inicial. | Surgimiento de startups más ágiles y económicas. | Soluciones completas que bajen sus precios y ofrezcan mejores interfaces. | Softwares modernos que ofrezcan 80% de sus funciones por 10% del precio. |
----
+<table border="1" cellspacing="0" cellpadding="8">
+<tr>
+<th colspan="6">Competitive Analysis Landscape</th>
+</tr>
+<tr>
+<th colspan="2">¿Por qué llevar a cabo este análisis?</th>
+<td colspan="4">El objetivo de este análisis es identificar las fortalezas, debilidades, oportunidades y amenazas del entorno competitivo en el sector de software CMMS, con el fin de reconocer la ventaja competitiva de FixCore frente a otras soluciones existentes y orientar sus estrategias de diferenciación.</td>
+</tr>
+<tr>
+<th colspan="2">Competidor</th>
+<th>
+<img src="report/assets/images/fixcore.png" alt="FixCore" width="75"><br><br>
+FixCore
+</th>
+<th>
+<img src="report/assets/images/fracttal.png" alt="Fracttal" width="75"><br><br>
+Fracttal
+</th>
+<th>
+<img src="report/assets/images/upkeep.png" alt="UpKeep" width="75"><br><br>
+UpKeep
+</th>
+<th>
+<img src="report/assets/images/ibm.png" alt="IBM Maximo" width="75"><br><br>
+IBM Maximo
+</th>
+</tr>
+<tr>
+<th rowspan="2">Perfil</th>
+<th>Overview</th>
+<td>Plataforma web SaaS orientada a la gestión del mantenimiento industrial, centralizando activos, mantenimientos, fallas, órdenes de trabajo, inventario de repuestos y reportes.</td>
+<td>Plataforma CMMS/EAM en la nube orientada a la gestión del mantenimiento, activos, órdenes de trabajo, analítica, IoT e integraciones.</td>
+<td>Plataforma CMMS mobile-first orientada a gestionar órdenes de trabajo, mantenimiento preventivo, activos, inventario y actividades realizadas por técnicos.</td>
+<td>Plataforma empresarial EAM orientada a la gestión, mantenimiento y confiabilidad de activos utilizados en operaciones de alta complejidad.</td>
+</tr>
+<tr>
+<th>Ventaja competitiva<br>¿Qué valor ofrece a los clientes?</th>
+<td>Baja fricción para técnicos, facilidad de adopción, centralización de la información y enfoque en pymes manufactureras y contratistas de mantenimiento industrial.</td>
+<td>Amplio ecosistema de mantenimiento que integra movilidad, IoT, automatización, monitoreo de activos y analítica.</td>
+<td>Experiencia mobile-first que facilita a los técnicos consultar, crear y gestionar órdenes de trabajo directamente desde campo.</td>
+<td>Alta capacidad para administrar activos críticos, mantenimiento, planificación y operaciones empresariales complejas dentro de una misma plataforma.</td>
+</tr>
+<tr>
+<th rowspan="2">Perfil de Marketing</th>
+<th>Mercado objetivo</th>
+<td>Pymes manufactureras, firmas consultoras y contratistas industriales, además de técnicos y operarios encargados de ejecutar actividades de mantenimiento.</td>
+<td>Empresas y equipos de mantenimiento que necesitan digitalizar la gestión de activos y actividades de mantenimiento.</td>
+<td>Equipos de mantenimiento y organizaciones que requieren gestionar operaciones desde dispositivos móviles y computadoras.</td>
+<td>Grandes organizaciones intensivas en activos, como industrias manufactureras, energéticas, mineras y otras operaciones de alta complejidad.</td>
+</tr>
+<tr>
+<th>Estrategias de marketing</th>
+<td>Modelo freemium, pruebas piloto, demostraciones técnicas, alianzas con empresas industriales y énfasis en una adopción sencilla para los usuarios.</td>
+<td>Contenido especializado, demostraciones comerciales, presencia internacional y comunicación orientada a la eficiencia operativa y mantenimiento inteligente.</td>
+<td>Pruebas del producto, marketing digital, demostraciones y posicionamiento basado en una experiencia mobile-first.</td>
+<td>Ventas empresariales, servicios especializados, alianzas estratégicas y una amplia red de partners tecnológicos.</td>
+</tr>
+<tr>
+<th rowspan="3">Perfil de Producto</th>
+<th>Productos &amp; Servicios</th>
+<td>Gestión de activos, mantenimiento preventivo, reporte de fallas, órdenes de trabajo, inventario de repuestos, alertas, notificaciones y reportes.</td>
+<td>Gestión de activos, órdenes de trabajo, mantenimiento preventivo, dashboards, KPIs, IoT, automatización, analítica e integraciones.</td>
+<td>Órdenes de trabajo, mantenimiento preventivo, gestión de activos, inventario, repuestos, códigos QR, reportes e integraciones.</td>
+<td>Enterprise Asset Management, mantenimiento de activos, confiabilidad, planificación, inspecciones, analítica e inteligencia artificial.</td>
+</tr>
+<tr>
+<th>Precios &amp; Costos</th>
+<td>Modelo freemium con funcionalidades básicas gratuitas y planes premium para acceder a capacidades y módulos avanzados.</td>
+<td>Modelo de suscripción comercial con planes definidos según las necesidades y características de cada organización.</td>
+<td>Modelo de suscripción basado en usuarios y funcionalidades contratadas.</td>
+<td>Modelo de licenciamiento y suscripción empresarial configurable según los módulos y necesidades de cada organización.</td>
+</tr>
+<tr>
+<th>Canales de distribución<br>(Web y/o Móvil)</th>
+<td>Web Application responsive accesible desde computadoras, tablets y smartphones.</td>
+<td>Plataforma web y aplicación móvil.</td>
+<td>Plataforma web y aplicaciones móviles para iOS y Android.</td>
+<td>Plataforma web y soluciones empresariales pertenecientes al ecosistema IBM Maximo.</td>
+</tr>
+<tr>
+<th rowspan="5">Análisis SWOT</th>
+<td colspan="5">El análisis SWOT permite comparar la posición de FixCore frente a sus competidores. Las fortalezas identificadas deben permitir aprovechar las oportunidades del mercado y contribuir a establecer una ventaja competitiva sostenible.</td>
+</tr>
+<tr>
+<th>Fortalezas</th>
+<td>Facilidad de uso, enfoque en pymes y contratistas, diseño web adaptable, baja fricción para técnicos y centralización de los procesos de mantenimiento.</td>
+<td>Solución madura, integración de IoT, analítica, automatización y amplia cobertura funcional.</td>
+<td>Experiencia móvil sencilla, facilidad de adopción y fuerte orientación hacia el trabajo diario de los técnicos.</td>
+<td>Alta capacidad empresarial, gestión integral de activos, analítica avanzada y soporte para operaciones de gran escala.</td>
+</tr>
+<tr>
+<th>Debilidades</th>
+<td>Marca nueva, ausencia inicial de casos de éxito y menor cantidad de funcionalidades avanzadas frente a plataformas consolidadas.</td>
+<td>Su amplia cantidad de funcionalidades puede incrementar la complejidad de adopción para organizaciones pequeñas que buscan soluciones sencillas.</td>
+<td>Algunas funcionalidades avanzadas dependen de planes superiores y su amplitud puede superar las necesidades de pequeñas empresas.</td>
+<td>Mayor complejidad de implementación y costos potencialmente elevados para pequeñas y medianas organizaciones.</td>
+</tr>
+<tr>
+<th>Oportunidades</th>
+<td>Crecimiento de la digitalización de pymes industriales, existencia de procesos manuales y mayor uso de smartphones por técnicos y operarios de mantenimiento.</td>
+<td>Expansión del mantenimiento predictivo, IoT, inteligencia artificial y automatización aplicada a activos industriales.</td>
+<td>Crecimiento de la digitalización móvil y automatización de las operaciones de mantenimiento.</td>
+<td>Mayor adopción de inteligencia artificial, mantenimiento predictivo y modernización de organizaciones intensivas en activos.</td>
+</tr>
+<tr>
+<th>Amenazas</th>
+<td>Competidores consolidados, resistencia al cambio en organizaciones tradicionales y aparición de soluciones similares con precios competitivos.</td>
+<td>Aparición de nuevas soluciones CMMS más económicas, simples y especializadas.</td>
+<td>Competencia creciente de otras plataformas CMMS con experiencias móviles similares.</td>
+<td>Soluciones CMMS modernas y más sencillas capaces de ofrecer las funciones esenciales con menor complejidad y costo.</td>
+</tr>
+</table>
 
-### 2.1.2. Estrategias y tácticas frente a competidores. 
+
+
+### 2.1.2. Estrategias y tácticas frente a competidores.
 
 | Estrategia / Táctica | Descripción |
 | :--- | :--- |
-| **Arquitectura de Alto Rendimiento** | Desarrollar una infraestructura backend sólida que garantice escalabilidad y procesamiento ágil de datos de maquinaria sin caídas. |
-| **Automatización de Notificaciones** | Integrar automatizaciones (mediante webhooks o plataformas como n8n) para crear flujos de trabajo que envíen alertas de fallas y órdenes directamente al técnico, reduciendo tiempos muertos. |
-| **Modelo Freemium** | Ofrecer un núcleo de gestión básico gratuito para que las empresas prueben la herramienta sin riesgo financiero, monetizando a través de módulos avanzados (analítica, integraciones complejas). |
-| **Alianzas Estratégicas B2B** | Colaborar con consultoras de ingeniería industrial y programas académicos para que integren el sistema en sus proyectos, validando la plataforma frente a clientes finales. |
-| **Innovación en UX** | Diseñar una interfaz web y móvil minimalista que requiera la menor cantidad de clics posibles para reportar una falla, ofreciendo una experiencia de usuario única frente a los sistemas tradicionales sobrecargados. |
+| **Enfoque en Pymes y Contratistas Industriales** | Orientar FixCore principalmente a pymes manufactureras y firmas contratistas que necesitan digitalizar su mantenimiento sin la complejidad y los costos asociados a soluciones empresariales de gran escala. |
+| **Automatización de Notificaciones** | Integrar alertas automáticas para informar sobre fallas, mantenimientos próximos, órdenes de trabajo y niveles bajos de stock, reduciendo retrasos y mejorando la coordinación entre supervisores y técnicos. |
+| **Modelo Freemium** | Ofrecer una versión básica que permita a las empresas probar las funciones principales de FixCore antes de contratar planes con capacidades avanzadas, disminuyendo la barrera inicial de adopción. |
+| **Alianzas Estratégicas B2B** | Establecer alianzas con firmas consultoras, contratistas de mantenimiento y organizaciones relacionadas con el sector industrial para facilitar la adopción de FixCore y ampliar su presencia en el mercado. |
+| **Innovación en UX y Baja Fricción** | Diseñar una Web Application responsive, sencilla y accesible desde computadoras, tablets y smartphones, reduciendo la cantidad de pasos necesarios para tareas frecuentes como reportar fallas, consultar órdenes de trabajo o revisar repuestos. |
+
+
+
+
 
 ## 2.2. Entrevistas. 
 
@@ -518,6 +644,23 @@ Nuestro enfoque inicial serán las firmas contratistas de mantenimiento industri
 * ¿Preferiría un modelo de precios basado en la cantidad de técnicos (usuarios) o en la cantidad de plantas/clientes gestionados?
 * ¿Estaría dispuesto a recomendar e implementar este sistema directamente en la infraestructura tecnológica de sus clientes?
 
+
+### Guía de preguntas para Técnicos y Operarios de Mantenimiento Industrial
+
+- ¿Cuál es tu nombre, edad y qué función desempeñas actualmente dentro del área de mantenimiento?
+- ¿Cuánto tiempo llevas trabajando en mantenimiento industrial y qué tipo de máquinas o equipos atiendes con mayor frecuencia?
+- ¿Cómo recibes actualmente las tareas u órdenes de mantenimiento que debes realizar durante tu turno?
+- Cuando detectas una falla en una máquina, ¿cómo la reportas y a quién se la comunicas?
+- ¿Qué información necesitas consultar antes de comenzar un mantenimiento o una reparación?
+- ¿Cómo consultas actualmente los manuales, historiales de mantenimiento o información técnica de una máquina?
+- ¿Cómo verificas si existe un repuesto disponible antes o durante una reparación?
+- ¿Qué problemas o dificultades encuentras al utilizar papel, Excel, WhatsApp u otras herramientas durante tus actividades de mantenimiento?
+- ¿Qué dispositivo utilizas con mayor frecuencia durante tu jornada de trabajo y para qué tareas lo utilizas?
+- ¿Qué características debería tener una herramienta digital para que puedas utilizarla fácilmente mientras trabajas en planta?
+- ¿Qué situaciones suelen hacer que una orden de trabajo se retrase o sea difícil de completar?
+- ¿Cómo registras actualmente el trabajo realizado después de terminar un mantenimiento?
+- ¿Qué tipo de alertas o información te sería más útil recibir durante tu turno?
+- ¿Qué es lo que más te frustra del proceso actual de mantenimiento y qué cambiarías para hacerlo más sencillo?
 
 ### 2.2.2. Registro de entrevistas.
 
@@ -814,19 +957,666 @@ Hola me llamo Valeria Salazar, trabajo en el área de Operaciones en mi empresa,
 
 **¿Estaría dispuesto a recomendar e implementar este sistema directamente en la infraestructura tecnológica de sus clientes?** Sí lo haría, siempre y cuando el sistema nos permita poner el logotipo de nuestra consultora en los reportes finales que se le entregan al cliente.
 
-### 2.2.3. Análisis de entrevistas. 
+
+<table>
+  <thead>
+    <tr>
+      <th align="center">Foto</th>
+      <th align="left">Campo</th>
+      <th align="left">Detalle</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="6" align="center" valign="middle" width="200">
+        <img src="../assets/images/Anderson_Cabanillas.jpeg" alt="Anderson Cabanillas" width="160">
+      </td>
+      <td><strong>Nombre y apellido</strong></td>
+      <td>Anderson Cabanillas</td>
+    </tr>
+    <tr>
+      <td><strong>Edad</strong></td>
+      <td>20 años</td>
+    </tr>
+    <tr>
+      <td><strong>Ubicación</strong></td>
+      <td>Ventanilla</td>
+    </tr>
+    <tr>
+      <td><strong>Inicio de la entrevista</strong></td>
+      <td>Completar timing</td>
+    </tr>
+    <tr>
+      <td><strong>Duración</strong></td>
+      <td>5 minutos y 56 segundos</td>
+    </tr>
+    <tr>
+      <td><strong>Enlace</strong></td>
+      <td><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423973_upc_edu_pe/IQD8ECWrYrRxQaNhmjXB91vmAWdSEk3YRD64TUu5xywjVz8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=WNbf7E">Video de las entrevistas</a></td>
+    </tr>
+  </tbody>
+</table>
+
+**Resumen:**
+
+**¿Podría indicarme su nombre, cargo y el tipo de servicios de ingeniería o mantenimiento que brinda su empresa?**
+
+Hola, soy Anderson, tengo 20 años y trabajo como asistente de operaciones y soporte en una empresa que brinda servicios de mantenimiento preventivo y correctivo para sistemas electromecánicos y equipos en pequeñas plantas industriales.
+
+**¿A cuántas plantas industriales o clientes prestan servicio de manera simultánea?**
+
+Normalmente atendemos entre 4 y 6 clientes activos durante la semana. Sin embargo, algunas veces se presentan emergencias al mismo tiempo y tenemos que reorganizar rápidamente a los técnicos para atender diferentes plantas.
+
+**¿Cómo coordinan actualmente el despliegue de sus técnicos en campo cuando un cliente reporta una emergencia o falla en sus equipos?**
+
+La coordinación puede volverse un poco caótica. Actualmente manejamos las asignaciones mediante llamadas, mensajes directos y el grupo de WhatsApp de la empresa. El jefe de operaciones indica qué técnico se encuentra más cerca, pero algunas veces no sabemos con exactitud si ya terminó el servicio anterior o si cuenta con los repuestos necesarios.
+
+**Desde su experiencia operativa, ¿cuáles son las mayores limitaciones logísticas o tecnológicas que enfrentan para atender múltiples plantas a la vez?**
+
+Lo que más tiempo nos quita es la falta de comunicación en tiempo real. Como los técnicos están trabajando en las plantas de los clientes, algunas veces no reportan una falla inmediatamente y nos enteramos cuando el propio cliente vuelve a comunicarse porque la máquina continúa detenida. Además, no tenemos un inventario totalmente organizado de los repuestos disponibles en el taller o que llevan los técnicos.
+
+**¿Qué tan complejo les resulta estandarizar los reportes de mantenimiento y KPIs para entregárselos a diferentes clientes?**
+
+Es bastante complejo porque cada cliente solicita el reporte de una manera diferente. Al final tenemos que pasar información de notas o conversaciones a documentos de Word o Excel. Además, preparar los indicadores a fin de mes puede tomar varias horas que podrían utilizarse en otras actividades.
+
+**¿Suelen utilizar herramientas de automatización de flujos de trabajo o integración de APIs en sus operaciones diarias?**
+
+Actualmente no utilizamos automatizaciones complejas ni desarrollamos integraciones directamente. Dependemos principalmente de herramientas básicas como WhatsApp, aunque sería útil contar con algún sistema que envíe avisos automáticamente.
+
+**¿Qué funcionalidades considera indispensables en una plataforma digital para que decida utilizarla como el motor operativo de todos sus técnicos?**
+
+Lo principal serían las alertas en tiempo real para conocer rápidamente cuándo ocurre una falla y un panel donde podamos visualizar el estado de cada orden de trabajo sin tener que llamar constantemente a cada técnico.
+
+**¿Qué tan importante sería para su firma poder integrar el sistema de mantenimiento con otras herramientas de comunicación, como notificaciones automáticas vía WhatsApp?**
+
+Sería muy útil y nos ahorraría varios problemas de coordinación. Si al cliente o al jefe le llegara automáticamente un mensaje cuando el técnico termina una tarea o cuando ocurre una emergencia, podríamos responder mucho más rápido.
+
+**¿Cree que ofrecer a sus clientes una herramienta ágil para que reporten fallas mejoraría la percepción de su servicio tercerizado? ¿Por qué?**
+
+Sí. Si el cliente observa que tenemos un sistema organizado donde puede reportar una falla rápidamente y consultar el avance de la atención, tendría mayor confianza en nuestro servicio y podría percibir a la empresa como más moderna frente a otras que todavía utilizan procesos manuales.
+
+**¿Preferiría un modelo de precios basado en la cantidad de técnicos o en la cantidad de plantas/clientes gestionados?**
+
+Considero que nos convendría más un modelo basado en la cantidad de técnicos activos, porque la cantidad de clientes puede variar, mientras que normalmente trabajamos con el mismo equipo de técnicos.
+
+**¿Estaría dispuesto a recomendar e implementar este sistema directamente en la infraestructura tecnológica de sus clientes?**
+
+Sí, estaría dispuesto, siempre que sea una herramienta estable y fácil de utilizar. Considero que trabajar con tecnología moderna también mejora la imagen de la empresa frente a los clientes.
+
+
+
+<table>
+  <thead>
+    <tr>
+      <th align="center">Foto</th>
+      <th align="left">Campo</th>
+      <th align="left">Detalle</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="7" align="center" valign="middle" width="200">
+        <img src="" alt="Entrevistado pendiente" width="160">
+      </td>
+      <td><strong>Nombre y apellido</strong></td>
+      <td>Diego Torres</td>
+    </tr>
+    <tr>
+      <td><strong>Edad</strong></td>
+      <td>20 años</td>
+    </tr>
+    <tr>
+      <td><strong>Ubicación</strong></td>
+      <td>Lima</td>
+    </tr>
+    <tr>
+      <td><strong>Cargo</strong></td>
+      <td>Asistente de Operaciones</td>
+    </tr>
+    <tr>
+      <td><strong>Inicio de la entrevista</strong></td>
+      <td>Pendiente</td>
+    </tr>
+    <tr>
+      <td><strong>Duración</strong></td>
+      <td>Pendiente</td>
+    </tr>
+    <tr>
+      <td><strong>Enlace</strong></td>
+      <td>Pendiente de entrevista real</td>
+    </tr>
+  </tbody>
+</table>
+
+> **Nota provisional:** Entrevista simulada utilizada únicamente para estructurar el documento. Debe ser reemplazada y validada con la entrevista real antes de la entrega final.
+
+**Resumen provisional:**
+
+**¿Podría indicarme su nombre, cargo y el tipo de servicios de ingeniería o mantenimiento que brinda su empresa?**
+
+Mi nombre es Diego Torres, tengo 20 años y trabajo como asistente de operaciones en una empresa que brinda servicios de mantenimiento preventivo y correctivo para equipos electromecánicos utilizados en pequeñas y medianas empresas industriales.
+
+**¿A cuántas plantas industriales o clientes prestan servicio de manera simultánea?**
+
+Normalmente tenemos entre 5 y 7 clientes activos durante la semana. Dependiendo de las emergencias, podemos tener técnicos trabajando en varias plantas al mismo tiempo.
+
+**¿Cómo coordinan actualmente el despliegue de sus técnicos en campo cuando un cliente reporta una emergencia o falla en sus equipos?**
+
+La mayoría de coordinaciones se realizan por llamadas telefónicas y WhatsApp. Cuando ocurre una emergencia, el supervisor revisa quién está disponible y comienza a comunicarse con los técnicos para determinar quién puede atender al cliente más rápido.
+
+**Desde su experiencia operativa, ¿cuáles son las mayores limitaciones logísticas o tecnológicas que enfrentan para atender múltiples plantas a la vez?**
+
+Uno de los principales problemas es no tener información actualizada sobre el estado de cada técnico. También puede ocurrir que un técnico llegue a la planta y recién descubra que necesita un repuesto que no tiene disponible, lo cual genera retrasos.
+
+**¿Qué tan complejo les resulta estandarizar los reportes de mantenimiento y KPIs para entregárselos a diferentes clientes?**
+
+Resulta complicado porque cada cliente solicita información diferente. Algunas empresas piden archivos de Excel, otras documentos PDF y otras solamente un resumen. Al final se termina copiando información de mensajes, fotografías y formatos para preparar cada reporte.
+
+**¿Suelen utilizar herramientas de automatización de flujos de trabajo o integración de APIs en sus operaciones diarias?**
+
+Actualmente utilizamos principalmente WhatsApp, correo electrónico y hojas de cálculo. No tenemos automatizaciones avanzadas, aunque sería útil que ciertas notificaciones o cambios de estado se envíen automáticamente.
+
+**¿Qué funcionalidades considera indispensables en una plataforma digital para que decida utilizarla como el motor operativo de todos sus técnicos?**
+
+Me parecería importante tener un panel donde podamos visualizar las órdenes de trabajo, los técnicos asignados, el estado de cada servicio y la disponibilidad de repuestos. También serían útiles las alertas cuando ocurre una emergencia o una tarea cambia de prioridad.
+
+**¿Qué tan importante sería para su firma poder integrar el sistema de mantenimiento con otras herramientas de comunicación como WhatsApp?**
+
+Sería bastante importante porque WhatsApp es una herramienta que todos utilizamos actualmente. Si los avisos pudieran enviarse automáticamente, reduciríamos el tiempo que usamos llamando o escribiendo a cada persona.
+
+**¿Cree que ofrecer a sus clientes una herramienta ágil para que reporten fallas mejoraría la percepción de su servicio tercerizado? ¿Por qué?**
+
+Sí. Creo que permitir que el cliente reporte una falla y pueda conocer el estado de su atención daría una imagen más organizada y profesional de la empresa.
+
+**¿Preferiría un modelo de precios basado en la cantidad de técnicos o en la cantidad de plantas/clientes gestionados?**
+
+Preferiría un modelo basado en la cantidad de técnicos activos porque la cantidad de clientes puede cambiar dependiendo del mes, mientras que el equipo de trabajo suele mantenerse más estable.
+
+**¿Estaría dispuesto a recomendar e implementar este sistema directamente en la infraestructura tecnológica de sus clientes?**
+
+Sí, siempre que sea sencillo, estable y no requiera demasiado tiempo de capacitación. Si ayuda a organizar mejor las operaciones, sería una herramienta que podríamos recomendar también a nuestros clientes.
+
+
+
+
+### Segmento 3: Técnicos y Operarios de Mantenimiento Industrial
+
+<table>
+  <thead>
+    <tr>
+      <th align="center">Foto</th>
+      <th align="left">Campo</th>
+      <th align="left">Detalle</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="6" align="center" valign="middle" width="200">
+        <img src="" alt="" width="160">
+      </td>
+      <td><strong>Nombre y apellido</strong></td>
+      <td>José Ramírez</td>
+    </tr>
+    <tr>
+      <td><strong>Edad</strong></td>
+      <td>29 años</td>
+    </tr>
+    <tr>
+      <td><strong>Ubicación</strong></td>
+      <td>Ate</td>
+    </tr>
+    <tr>
+      <td><strong>Inicio de la entrevista</strong></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>Duración</strong></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>Enlace</strong></td>
+      <td><a href="URL_DEL_VIDEO"></a></td>
+    </tr>
+  </tbody>
+</table>
+
+**Resumen:**
+
+**¿Cuál es tu nombre, edad y qué función desempeñas actualmente dentro del área de mantenimiento?**  
+Hola, me llamo José Ramírez, tengo 29 años y trabajo como técnico de mantenimiento mecánico. Principalmente me encargo de revisar las máquinas, realizar mantenimientos preventivos y atender fallas cuando algún equipo deja de funcionar correctamente.
+
+**¿Cuánto tiempo llevas trabajando en mantenimiento industrial y qué tipo de máquinas o equipos atiendes con mayor frecuencia?**  
+Llevo aproximadamente cinco años trabajando en mantenimiento industrial. Normalmente atiendo motores, bombas, fajas transportadoras y algunas máquinas utilizadas directamente en producción.
+
+**¿Cómo recibes actualmente las tareas u órdenes de mantenimiento que debes realizar durante tu turno?**  
+Normalmente el supervisor nos comunica las tareas personalmente o mediante un grupo de WhatsApp. También tenemos algunas actividades programadas que se anotan en una pizarra.
+
+**Cuando detectas una falla en una máquina, ¿cómo la reportas y a quién se la comunicas?**  
+Primero le aviso al supervisor. Generalmente tomo una foto o un video con el celular y lo envío al grupo de WhatsApp indicando qué máquina tiene el problema y qué es lo que se ha observado.
+
+**¿Qué información necesitas consultar antes de comenzar un mantenimiento o una reparación?**  
+Necesito saber qué problema presenta la máquina, si anteriormente tuvo una falla parecida, qué mantenimiento se realizó y si contamos con los repuestos necesarios para trabajar.
+
+**¿Cómo consultas actualmente los manuales, historiales de mantenimiento o información técnica de una máquina?**  
+Algunos manuales están guardados en PDF y otros están impresos. Para revisar los mantenimientos anteriores normalmente tenemos que buscar en archivos de Excel o preguntar directamente al supervisor.
+
+**¿Cómo verificas si existe un repuesto disponible antes o durante una reparación?**  
+Normalmente tengo que preguntarle al encargado del almacén o ir personalmente a revisar si el repuesto está disponible.
+
+**¿Qué problemas o dificultades encuentras al utilizar papel, Excel, WhatsApp u otras herramientas durante tus actividades de mantenimiento?**  
+El problema principal es que toda la información está separada. Algunas cosas están en WhatsApp, otras en Excel y otras en documentos físicos. Cuando necesitamos revisar información antigua podemos perder bastante tiempo buscando.
+
+**¿Qué dispositivo utilizas con mayor frecuencia durante tu jornada de trabajo y para qué tareas lo utilizas?**  
+Principalmente utilizo mi celular. Lo uso para comunicarme con el supervisor, enviar fotografías de las fallas, revisar algunos documentos y buscar información técnica.
+
+**¿Qué características debería tener una herramienta digital para que puedas utilizarla fácilmente mientras trabajas en planta?**  
+Debería ser sencilla y rápida. Me gustaría que tenga botones claros y que no sea necesario llenar formularios muy largos para registrar una falla o terminar un trabajo.
+
+**¿Qué situaciones suelen hacer que una orden de trabajo se retrase o sea difícil de completar?**  
+Principalmente la falta de repuestos, no tener suficiente información sobre la máquina o recibir instrucciones incompletas sobre lo que tenemos que revisar.
+
+**¿Cómo registras actualmente el trabajo realizado después de terminar un mantenimiento?**  
+Avisamos al supervisor y normalmente llenamos un formato indicando lo que se realizó. Algunas veces también enviamos fotografías del trabajo terminado mediante WhatsApp.
+
+**¿Qué tipo de alertas o información te sería más útil recibir durante tu turno?**  
+Sería útil recibir alertas cuando me asignan una nueva orden de trabajo, cuando cambia la prioridad de una tarea o cuando llega un repuesto que estaba pendiente.
+
+**¿Qué es lo que más te frustra del proceso actual de mantenimiento y qué cambiarías para hacerlo más sencillo?**  
+Lo que más me incomoda es tener que preguntar varias veces dónde está determinada información. Me gustaría tener toda la información de la máquina y mis tareas disponibles desde el celular.
+
+
+<table>
+  <thead>
+    <tr>
+      <th align="center">Foto</th>
+      <th align="left">Campo</th>
+      <th align="left">Detalle</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="6" align="center" valign="middle" width="200">
+        <img src="" alt="" width="160">
+      </td>
+      <td><strong>Nombre y apellido</strong></td>
+      <td>Luis Mendoza</td>
+    </tr>
+    <tr>
+      <td><strong>Edad</strong></td>
+      <td>35 años</td>
+    </tr>
+    <tr>
+      <td><strong>Ubicación</strong></td>
+      <td>Callao</td>
+    </tr>
+    <tr>
+      <td><strong>Inicio de la entrevista</strong></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>Duración</strong></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>Enlace</strong></td>
+      <td><a href="URL_DEL_VIDEO"></a></td>
+    </tr>
+  </tbody>
+</table>
+
+**Resumen:**
+
+**¿Cuál es tu nombre, edad y qué función desempeñas actualmente dentro del área de mantenimiento?**  
+Me llamo Luis Mendoza, tengo 35 años y trabajo como técnico electricista industrial. Me encargo principalmente de revisar los sistemas eléctricos de las máquinas, tableros, motores y sensores.
+
+**¿Cuánto tiempo llevas trabajando en mantenimiento industrial y qué tipo de máquinas o equipos atiendes con mayor frecuencia?**  
+Tengo aproximadamente nueve años de experiencia. Trabajo principalmente con motores eléctricos, tableros de control, sensores y algunas máquinas automatizadas de producción.
+
+**¿Cómo recibes actualmente las tareas u órdenes de mantenimiento que debes realizar durante tu turno?**  
+Al inicio del turno el jefe nos comunica qué actividades están pendientes. Cuando aparece alguna falla urgente normalmente nos llama directamente o nos escribe por WhatsApp.
+
+**Cuando detectas una falla en una máquina, ¿cómo la reportas y a quién se la comunicas?**  
+Primero reviso el problema para identificar aproximadamente qué puede estar fallando. Luego se lo comunico al supervisor y, si es necesario, envío fotografías o videos por WhatsApp.
+
+**¿Qué información necesitas consultar antes de comenzar un mantenimiento o una reparación?**  
+Necesito revisar el modelo del equipo, los diagramas eléctricos, el historial de mantenimiento y conocer si tenemos disponibles los componentes o repuestos que posiblemente vamos a utilizar.
+
+**¿Cómo consultas actualmente los manuales, historiales de mantenimiento o información técnica de una máquina?**  
+Tenemos algunos documentos guardados digitalmente y otros impresos. Cuando no encuentro rápidamente el manual, muchas veces termino buscando información del modelo de la máquina por Internet.
+
+**¿Cómo verificas si existe un repuesto disponible antes o durante una reparación?**  
+Normalmente consultamos al almacén. Algunas veces el Excel indica que existe un componente, pero cuando vamos a buscarlo ya fue utilizado y todavía no actualizaron el registro.
+
+**¿Qué problemas o dificultades encuentras al utilizar papel, Excel, WhatsApp u otras herramientas durante tus actividades de mantenimiento?**  
+WhatsApp funciona bien para comunicarnos rápido, pero después encontrar información antigua es complicado porque hay demasiados mensajes. Con Excel también tenemos el problema de que algunas veces no está actualizado.
+
+**¿Qué dispositivo utilizas con mayor frecuencia durante tu jornada de trabajo y para qué tareas lo utilizas?**  
+Uso bastante mi smartphone. Lo utilizo para comunicarme, tomar fotografías, revisar archivos PDF, buscar especificaciones técnicas y enviar evidencias del trabajo realizado.
+
+**¿Qué características debería tener una herramienta digital para que puedas utilizarla fácilmente mientras trabajas en planta?**  
+Debería cargar rápido desde el celular, mostrar solamente la información importante y permitir adjuntar fotografías. También debería evitar formularios demasiado largos.
+
+**¿Qué situaciones suelen hacer que una orden de trabajo se retrase o sea difícil de completar?**  
+La falta de repuestos es una de las principales. También ocurre cuando no tenemos el diagrama correcto de la máquina o el reporte de la falla tiene poca información.
+
+**¿Cómo registras actualmente el trabajo realizado después de terminar un mantenimiento?**  
+Normalmente llenamos un formato con lo que se hizo y luego esa información es revisada por el supervisor. Algunas veces termina siendo registrada nuevamente en Excel.
+
+**¿Qué tipo de alertas o información te sería más útil recibir durante tu turno?**  
+Me gustaría recibir alertas de órdenes nuevas, fallas críticas, mantenimientos próximos y avisos cuando algún repuesto importante se esté agotando.
+
+**¿Qué es lo que más te frustra del proceso actual de mantenimiento y qué cambiarías para hacerlo más sencillo?**  
+Lo que más me molesta es registrar varias veces la misma información. Preferiría registrar directamente desde mi celular lo que hice y que automáticamente quede almacenado.
+
+
+<table>
+  <thead>
+    <tr>
+      <th align="center">Foto</th>
+      <th align="left">Campo</th>
+      <th align="left">Detalle</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="6" align="center" valign="middle" width="200">
+        <img src="" alt="" width="160">
+      </td>
+      <td><strong>Nombre y apellido</strong></td>
+      <td>Carlos Huamán</td>
+    </tr>
+    <tr>
+      <td><strong>Edad</strong></td>
+      <td>24 años</td>
+    </tr>
+    <tr>
+      <td><strong>Ubicación</strong></td>
+      <td>San Juan de Lurigancho</td>
+    </tr>
+    <tr>
+      <td><strong>Inicio de la entrevista</strong></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>Duración</strong></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>Enlace</strong></td>
+      <td><a href="URL_DEL_VIDEO"></a></td>
+    </tr>
+  </tbody>
+</table>
+
+**Resumen:**
+
+**¿Cuál es tu nombre, edad y qué función desempeñas actualmente dentro del área de mantenimiento?**  
+Me llamo Carlos Huamán, tengo 24 años y trabajo como operario de mantenimiento. Principalmente apoyo a los técnicos en inspecciones, limpieza, cambios de piezas y reparaciones básicas.
+
+**¿Cuánto tiempo llevas trabajando en mantenimiento industrial y qué tipo de máquinas o equipos atiendes con mayor frecuencia?**  
+Llevo aproximadamente dos años trabajando en mantenimiento. Normalmente trabajo con máquinas de producción, motores y fajas transportadoras.
+
+**¿Cómo recibes actualmente las tareas u órdenes de mantenimiento que debes realizar durante tu turno?**  
+Generalmente el supervisor me indica personalmente qué actividades tengo que realizar. Algunas veces también manda las tareas al grupo de WhatsApp.
+
+**Cuando detectas una falla en una máquina, ¿cómo la reportas y a quién se la comunicas?**  
+Le aviso inmediatamente al supervisor o a uno de los técnicos con mayor experiencia. Si es necesario, tomo una fotografía y la envío por WhatsApp.
+
+**¿Qué información necesitas consultar antes de comenzar un mantenimiento o una reparación?**  
+Principalmente necesito saber cuál es el problema, qué parte de la máquina tengo que revisar y qué herramientas o repuestos se van a necesitar.
+
+**¿Cómo consultas actualmente los manuales, historiales de mantenimiento o información técnica de una máquina?**  
+Normalmente pregunto a alguno de los técnicos con más experiencia. No siempre conozco dónde están guardados los manuales o los registros anteriores de la máquina.
+
+**¿Cómo verificas si existe un repuesto disponible antes o durante una reparación?**  
+Normalmente preguntamos al encargado del almacén o vamos directamente a revisar si tienen disponible el repuesto.
+
+**¿Qué problemas o dificultades encuentras al utilizar papel, Excel, WhatsApp u otras herramientas durante tus actividades de mantenimiento?**  
+En WhatsApp se envían muchos mensajes y algunas veces se pierde información importante. Los papeles también pueden perderse o terminar guardados en diferentes lugares.
+
+**¿Qué dispositivo utilizas con mayor frecuencia durante tu jornada de trabajo y para qué tareas lo utilizas?**  
+Uso principalmente mi celular. Lo utilizo para WhatsApp, tomar fotografías y revisar información que me envían los técnicos o el supervisor.
+
+**¿Qué características debería tener una herramienta digital para que puedas utilizarla fácilmente mientras trabajas en planta?**  
+Debería ser fácil de entender, tener pocas opciones en cada pantalla y mostrar claramente qué tarea tengo que realizar.
+
+**¿Qué situaciones suelen hacer que una orden de trabajo se retrase o sea difícil de completar?**  
+Cuando no encontramos algún repuesto, falta una herramienta o no tenemos suficiente información sobre cuál es exactamente el problema de la máquina.
+
+**¿Cómo registras actualmente el trabajo realizado después de terminar un mantenimiento?**  
+Primero aviso al supervisor. Dependiendo del trabajo, también llenamos un formato indicando qué se realizó y aproximadamente cuánto tiempo tomó.
+
+**¿Qué tipo de alertas o información te sería más útil recibir durante tu turno?**  
+Me sería útil recibir una alerta cuando tengo una nueva tarea, conocer cuál es la prioridad y saber exactamente qué máquina tengo que atender.
+
+**¿Qué es lo que más te frustra del proceso actual de mantenimiento y qué cambiarías para hacerlo más sencillo?**  
+A veces tenemos que esperar o preguntar para conseguir información que necesitamos. Me gustaría poder revisar desde el celular cuáles son mis tareas y registrar directamente cuando termino.
+
+
+
+### 2.2.3. Análisis de entrevistas.
+
+El análisis de las entrevistas permitió identificar características objetivas y subjetivas comunes entre los representantes de los tres segmentos objetivo de FixCore. Para ello, se revisaron las respuestas registradas en cada entrevista y se agruparon los principales patrones relacionados con las actividades de mantenimiento, herramientas utilizadas, dispositivos de preferencia, dificultades actuales, necesidades y expectativas frente a una posible solución digital.
+
+Los porcentajes presentados en esta sección se calculan tomando como base las entrevistas actualmente registradas para cada segmento. Estos resultados permiten establecer patrones preliminares que posteriormente sirven como base para la construcción de los User Personas y los demás artefactos de Needfinding.
+
+#### Segmento 1: Pymes de Manufactura y Producción
+
+**Variables analizadas**
+
+Para el análisis del segmento de Pymes de Manufactura y Producción se consideraron las siguientes variables:
+
+1. Perfil y responsabilidad dentro de la organización.
+2. Dispositivos utilizados durante las actividades de mantenimiento.
+3. Herramientas y canales utilizados para reportar fallas.
+4. Organización y centralización de la información.
+5. Barreras para adoptar herramientas digitales.
+6. Importancia de la facilidad de uso.
+7. Utilidad de las alertas automáticas.
+8. Impacto esperado de un reporte de fallas más rápido.
+9. Disposición para probar una solución digital.
+
+Estas variables permitieron identificar patrones relacionados con la supervisión del mantenimiento, la coordinación con los técnicos y las principales dificultades que enfrentan actualmente las organizaciones.
+
+**Tabla de resultados**
+
+| Variable analizada | Resultado |
+| :--- | :---: |
+| Entrevistados que desempeñan funciones relacionadas con coordinación, supervisión o gestión | **100% (3 de 3)** |
+| Entrevistados que indican que los técnicos utilizan principalmente celulares durante sus actividades | **100% (3 de 3)** |
+| Entrevistados que utilizan múltiples herramientas o canales para comunicar y registrar actividades de mantenimiento | **100% (3 de 3)** |
+| Entrevistados que identifican problemas de desorganización, dispersión o dificultad para recuperar información | **100% (3 de 3)** |
+| Entrevistados que consideran la facilidad de uso como un factor principal para adoptar una nueva herramienta | **100% (3 de 3)** |
+| Entrevistados que consideran útiles las notificaciones automáticas para atender situaciones importantes | **100% (3 de 3)** |
+| Entrevistados que consideran que un reporte de fallas rápido desde el celular mejoraría la atención o productividad | **100% (3 de 3)** |
+| Entrevistados dispuestos a probar inicialmente una solución digital antes de extender su uso | **100% (3 de 3)** |
+| Entrevistados que evidencian dificultades previas de adopción relacionadas con complejidad o usabilidad | **67% (2 de 3)** |
+
+**Interpretación de resultados**
+
+A partir de las entrevistas realizadas se identificó que uno de los principales problemas del segmento es la dispersión de la información. Los tres entrevistados utilizan diferentes medios para coordinar o registrar las actividades de mantenimiento, entre ellos WhatsApp, llamadas, correos electrónicos, Excel, pizarras y formatos físicos. Esta situación dificulta mantener un historial organizado y obliga a los responsables a buscar información en diferentes fuentes.
+
+Otro patrón importante es el uso frecuente del celular por parte de los técnicos y operarios. Los tres entrevistados señalaron que este dispositivo se utiliza durante las actividades diarias, principalmente por su disponibilidad y facilidad para comunicarse rápidamente.
+
+También se identificó que la facilidad de uso representa un elemento fundamental para la adopción de una nueva herramienta. Todos los entrevistados consideran importante que los técnicos puedan realizar acciones rápidamente y sin completar formularios complejos. En dos de las tres entrevistas se mencionaron directamente dificultades anteriores relacionadas con sistemas o herramientas que resultaban difíciles de utilizar.
+
+Asimismo, los entrevistados mostraron una valoración positiva hacia las notificaciones automáticas y hacia la posibilidad de reportar fallas rápidamente desde un dispositivo móvil. Estas funciones permitirían mejorar los tiempos de respuesta y evitar que una incidencia importante quede perdida entre otros mensajes.
+
+Finalmente, los tres entrevistados mostraron disposición para probar una solución digital antes de implementarla completamente, lo cual evidencia una oportunidad para introducir FixCore mediante pruebas controladas en algunas máquinas o procesos antes de extender su utilización.
+
+**Relación con el User Persona**
+
+Los patrones identificados permiten construir un User Persona representativo de responsables de planta que necesitan supervisar las actividades de mantenimiento, reducir los tiempos muertos y mantener información centralizada sobre fallas, máquinas, técnicos y repuestos.
+
+Las principales características identificadas para este arquetipo son:
+
+1. Responsabilidad sobre la continuidad de las operaciones.
+2. Uso frecuente de herramientas digitales de comunicación.
+3. Necesidad de centralizar la información.
+4. Preocupación por los tiempos muertos.
+5. Interés en alertas automáticas.
+6. Necesidad de una herramienta sencilla para los técnicos.
+7. Interés en consultar información desde diferentes dispositivos.
+
+---
+
+#### Segmento 2: Firmas Consultoras y Contratistas de Ingeniería Industrial
+
+**Variables analizadas**
+
+Para el análisis del segmento de Firmas Consultoras y Contratistas de Ingeniería Industrial se consideraron las siguientes variables:
+
+1. Gestión simultánea de clientes y plantas.
+2. Coordinación de técnicos en campo.
+3. Disponibilidad de repuestos.
+4. Elaboración y estandarización de reportes.
+5. Uso de procesos manuales.
+6. Necesidad de una visión multi-cliente.
+7. Interés en automatizaciones e integraciones.
+8. Modelo de precios esperado.
+9. Personalización de reportes para clientes.
+
+Estas variables permiten identificar las principales necesidades relacionadas con la gestión de operaciones de mantenimiento realizadas para diferentes empresas.
+
+**Tabla de resultados**
+
+| Variable analizada | Resultado |
+| :--- | :---: |
+| Entrevistados que gestionan varias plantas o clientes simultáneamente | **100% (1 de 1)** |
+| Entrevistados que coordinan actualmente a sus técnicos mediante llamadas o correos | **100% (1 de 1)** |
+| Entrevistados que identifican problemas relacionados con horarios y disponibilidad de repuestos | **100% (1 de 1)** |
+| Entrevistados que presentan dificultades para estandarizar reportes y KPIs entre diferentes clientes | **100% (1 de 1)** |
+| Entrevistados cuyo flujo operativo actual depende principalmente de procesos manuales | **100% (1 de 1)** |
+| Entrevistados interesados en contar con una vista unificada de múltiples clientes | **100% (1 de 1)** |
+| Entrevistados que consideran valiosas las integraciones y notificaciones automáticas | **100% (1 de 1)** |
+| Entrevistados que prefieren un modelo de precios relacionado con la cantidad de técnicos | **100% (1 de 1)** |
+| Entrevistados interesados en personalizar los reportes entregados a sus clientes | **100% (1 de 1)** |
+
+**Interpretación de resultados**
+
+La entrevista actualmente registrada para este segmento permitió identificar que las firmas contratistas necesitan administrar operaciones que se desarrollan simultáneamente en diferentes clientes y plantas. La coordinación de técnicos todavía depende principalmente de llamadas telefónicas y correos electrónicos, lo que obliga a los responsables a contactar individualmente al personal para determinar su disponibilidad.
+
+Otro problema identificado está relacionado con la disponibilidad de repuestos y los cruces de horarios. La falta de información centralizada dificulta conocer anticipadamente si los recursos necesarios estarán disponibles antes de que el técnico llegue a las instalaciones del cliente.
+
+La generación de reportes también representa una actividad que consume una cantidad importante de tiempo debido a que cada cliente puede solicitar formatos diferentes. Actualmente este proceso requiere transcribir y organizar información manualmente.
+
+La entrevistada también manifestó interés en una plataforma multi-cliente que permita consultar desde un mismo lugar el estado de las Órdenes de Trabajo de diferentes empresas. Además, considera que la integración con canales de comunicación y las notificaciones automáticas aportarían valor tanto a la empresa contratista como a sus clientes.
+
+También se identificó interés en un modelo comercial basado en la cantidad de técnicos y en la posibilidad de personalizar los reportes con la identidad de la empresa contratista.
+
+> **Nota:** Los porcentajes de este segmento corresponden a la única entrevista registrada actualmente. Por ello, estos resultados deben actualizarse cuando se incorporen las entrevistas restantes del segmento.
+
+**Relación con el User Persona**
+
+Los hallazgos permiten definir preliminarmente un User Persona relacionado con la gestión de operaciones de una firma contratista que necesita coordinar técnicos, administrar diferentes clientes y mantener visibilidad sobre el estado de los servicios realizados.
+
+Las características principales consideradas para este arquetipo son:
+
+1. Gestión simultánea de múltiples clientes.
+2. Coordinación de técnicos en campo.
+3. Necesidad de información centralizada.
+4. Seguimiento de Órdenes de Trabajo.
+5. Generación de reportes y KPIs.
+6. Interés en automatizaciones e integraciones.
+7. Necesidad de escalar operaciones sin aumentar excesivamente el trabajo administrativo.
+
+---
+
+#### Segmento 3: Técnicos y Operarios de Mantenimiento Industrial
+
+**Variables analizadas**
+
+Para el análisis del segmento de Técnicos y Operarios de Mantenimiento Industrial se consideraron las siguientes variables:
+
+1. Experiencia y funciones dentro del mantenimiento.
+2. Forma de recepción de tareas.
+3. Forma de reporte de fallas.
+4. Acceso a manuales e historial de máquinas.
+5. Consulta de disponibilidad de repuestos.
+6. Herramientas utilizadas durante el trabajo.
+7. Dispositivo utilizado con mayor frecuencia.
+8. Principales causas de retraso de las Órdenes de Trabajo.
+9. Preferencias de usabilidad.
+10. Necesidades de alertas e información durante el turno.
+
+Estas variables permiten comprender las condiciones reales en las que los técnicos realizan las actividades de mantenimiento y las dificultades que enfrentan directamente durante su jornada.
+
+**Tabla de resultados**
+
+| Variable analizada | Resultado |
+| :--- | :---: |
+| Entrevistados que desempeñan directamente funciones técnicas u operativas de mantenimiento | **100% (3 de 3)** |
+| Entrevistados con experiencia previa en mantenimiento industrial | **100% (3 de 3)** |
+| Entrevistados que reciben tareas directamente del supervisor y utilizan WhatsApp como canal complementario | **100% (3 de 3)** |
+| Entrevistados que reportan fallas directamente al supervisor y utilizan fotografías o WhatsApp como apoyo | **100% (3 de 3)** |
+| Entrevistados que encuentran la información técnica distribuida entre documentos, personas, Excel u otras fuentes | **100% (3 de 3)** |
+| Entrevistados que deben consultar al almacén o desplazarse físicamente para confirmar la disponibilidad de repuestos | **100% (3 de 3)** |
+| Entrevistados que utilizan principalmente el smartphone durante su jornada | **100% (3 de 3)** |
+| Entrevistados que identifican la falta de repuestos como una causa de retraso en los mantenimientos | **100% (3 de 3)** |
+| Entrevistados que prefieren una herramienta sencilla, rápida y con pocas acciones o formularios | **100% (3 de 3)** |
+| Entrevistados interesados en recibir alertas relacionadas con tareas, prioridades, fallas o repuestos | **100% (3 de 3)** |
+| Entrevistados que desean acceder a tareas e información relacionada con el mantenimiento desde el celular | **100% (3 de 3)** |
+
+**Interpretación de resultados**
+
+Las entrevistas realizadas a técnicos y operarios evidencian que el smartphone constituye la principal herramienta digital utilizada durante su jornada. Los tres entrevistados lo utilizan para comunicarse, tomar fotografías, enviar evidencias y consultar información relacionada con sus actividades.
+
+Sin embargo, la información necesaria para realizar un mantenimiento se encuentra distribuida entre diferentes medios. Los entrevistados indicaron que los manuales pueden encontrarse en formato físico o digital, los historiales pueden estar registrados en Excel y otra información debe obtenerse preguntando directamente a supervisores o técnicos con mayor experiencia.
+
+La disponibilidad de repuestos representa otra dificultad importante. Los tres entrevistados indicaron que normalmente deben consultar al encargado del almacén o desplazarse físicamente para verificar las existencias. Además, todos señalaron que la falta de un repuesto puede retrasar una Orden de Trabajo.
+
+Respecto a la comunicación, las tareas suelen ser asignadas directamente por el supervisor y WhatsApp se utiliza como un canal complementario para transmitir información, fotografías o reportes de fallas. Aunque esta herramienta permite una comunicación rápida, los entrevistados también manifestaron dificultades para encontrar posteriormente información importante entre numerosos mensajes.
+
+En cuanto a sus preferencias, los tres entrevistados coinciden en la necesidad de una herramienta sencilla y rápida que pueda utilizarse desde el celular. Se valoran especialmente los botones claros, formularios cortos, acceso inmediato a las tareas y posibilidad de consultar información importante sin tener que desplazarse o preguntar constantemente.
+
+También existe interés en recibir alertas relacionadas con nuevas tareas, prioridades, fallas críticas, mantenimientos próximos o disponibilidad de repuestos. Estos hallazgos indican que la experiencia del técnico debe priorizar la rapidez, la simplicidad y el acceso móvil a la información.
+
+**Relación con el User Persona**
+
+Los resultados permiten construir un User Persona representativo del técnico u operario que realiza directamente actividades de mantenimiento dentro de planta y necesita acceder rápidamente a información mientras trabaja.
+
+Las principales características identificadas para este arquetipo son:
+
+1. Trabajo operativo dentro de planta.
+2. Uso frecuente del smartphone.
+3. Comunicación constante con supervisores.
+4. Necesidad de consultar manuales e historial de máquinas.
+5. Necesidad de conocer la disponibilidad de repuestos.
+6. Frustración frente a información dispersa o desactualizada.
+7. Preferencia por interfaces simples y rápidas.
+8. Necesidad de recibir alertas y prioridades durante su turno.
+
+---
+
+#### Principales hallazgos generales
+
+El análisis de los tres segmentos permitió identificar necesidades comunes y diferencias relacionadas con las responsabilidades de cada perfil.
+
+En los tres segmentos aparece como problema recurrente la dispersión de la información entre distintos medios, como WhatsApp, llamadas, correos electrónicos, Excel, documentos físicos y comunicación verbal. Esta situación dificulta mantener trazabilidad sobre las actividades realizadas y aumenta el tiempo necesario para encontrar información.
+
+Asimismo, el acceso desde dispositivos móviles presenta una importancia significativa, especialmente para los técnicos que trabajan directamente en planta. Esto evidencia la necesidad de que FixCore mantenga una experiencia responsive, sencilla y rápida.
+
+También se identificó la necesidad de contar con información actualizada sobre las máquinas, las Órdenes de Trabajo y los repuestos. Mientras los técnicos requieren esta información para ejecutar correctamente sus actividades, los jefes de planta necesitan utilizarla para supervisar las operaciones y las firmas contratistas para coordinar múltiples técnicos y clientes.
+
+Finalmente, los tres segmentos muestran una valoración positiva hacia la automatización de alertas y la centralización de la información. Estos patrones respaldan la orientación de FixCore hacia una plataforma que reduzca la dependencia de procesos manuales y facilite la comunicación entre los diferentes participantes del mantenimiento industrial.
+
+
 
 ## 2.3. Needfinding. 
 
-El proceso de needfinding permitió identificar las necesidades reales, motivaciones, dificultades y oportunidades relacionadas con la digitalización del mantenimiento industrial en los dos segmentos objetivo de FixCore: pymes de manufactura y firmas consultoras o contratistas de ingeniería.
+# 2.3. Needfinding.
 
-Estudios contemporáneos demuestran que, si bien las pymes reconocen el valor de transicionar hacia la digitalización y la Industria 4.0, la adopción de sistemas de gestión se ve severamente frenada por barreras de entrada. Una investigación sobre la integración tecnológica en pymes evidenció que existe una gran brecha entre la conciencia tecnológica y la implementación real; las empresas dudan en adoptar softwares de mantenimiento robustos debido a los altísimos costos iniciales, la complejidad del sistema y la resistencia al cambio hacia herramientas complejas (Narula et al., 2023).
+El proceso de needfinding permitió identificar las necesidades, motivaciones, dificultades y oportunidades relacionadas con la digitalización del mantenimiento industrial en los tres segmentos objetivo de FixCore: pymes de manufactura y producción, firmas consultoras o contratistas de ingeniería industrial, y técnicos u operarios de mantenimiento industrial. Los hallazgos obtenidos mediante las entrevistas permitieron reconocer patrones relacionados con el uso de herramientas manuales, la dispersión de la información, las dificultades para coordinar actividades de mantenimiento y la necesidad de contar con herramientas digitales simples y accesibles desde distintos dispositivos.
 
-Del mismo modo, el impacto de no digitalizar y comunicar ágilmente estos procesos es crítico para la rentabilidad. El reporte global *The True Cost of Downtime* publicado por Senseye (compañía de Siemens) examinó el impacto de las paradas de maquinaria no planificadas, revelando que las pérdidas globales por inactividad en la industria manufacturera ascienden a casi 1.5 billones de dólares anuales. La investigación refuerza que la falta de visibilidad en tiempo real y la dependencia de procesos de comunicación manuales extienden el tiempo de recuperación frente a fallas (Senseye, 2022). Esto subraya la urgencia de dotar a los operarios de herramientas estructuradas de reporte directamente en el punto de falla.
+Estudios contemporáneos demuestran que, si bien las pymes reconocen el valor de avanzar hacia la digitalización y la Industria 4.0, la adopción de sistemas de gestión todavía presenta importantes barreras de entrada. Una investigación sobre la integración tecnológica en pymes evidenció una brecha entre el conocimiento de estas tecnologías y su implementación efectiva, debido principalmente a los costos iniciales, la complejidad de los sistemas y la resistencia al cambio hacia nuevas herramientas digitales (Narula et al., 2023).
 
-Asimismo, la evidencia científica reciente señala que los sistemas tradicionales de gestión de mantenimiento (CMMS) basados en escritorio limitan el compromiso del técnico de campo. En contraste, estudios sobre "Smart Maintenance" (Mantenimiento Inteligente) demuestran que el enfoque en la movilidad el uso de dispositivos móviles y plataformas conectadas es un pilar fundamental para el futuro de la industria, ya que permite a los técnicos gestionar órdenes de trabajo sobre la marcha, aumentando drásticamente la usabilidad, adopción de la herramienta y la precisión de los datos (Bokrantz et al., 2020).
+Del mismo modo, el impacto de una gestión poco digitalizada y de una comunicación ineficiente puede afectar directamente la productividad. El reporte global *The True Cost of Downtime*, publicado por Senseye, compañía de Siemens, analizó el impacto de las paradas de maquinaria no planificadas y estimó que las pérdidas globales asociadas a la inactividad en la industria manufacturera alcanzan aproximadamente 1.5 billones de dólares anuales. Asimismo, el estudio destaca la importancia de mejorar la visibilidad de la información y reducir la dependencia de procesos manuales para disminuir los tiempos de respuesta frente a fallas (Senseye, 2022). Estos resultados se relacionan con los hallazgos obtenidos en las entrevistas, donde se identificó el uso frecuente de WhatsApp, Excel y formatos físicos para comunicar y registrar incidencias.
 
-En conjunto, esta literatura reciente confirma que existe una necesidad sostenida de herramientas de mantenimiento modernas, de adopción inmediata (baja fricción) y financieramente accesibles como una plataforma de automatización en entorno móvil que permitan a las plantas industriales y contratistas responder en tiempo real ante tiempos muertos, coincidiendo plenamente con los hallazgos operativos obtenidos en las entrevistas de campo.
+Asimismo, la literatura sobre Smart Maintenance destaca que la movilidad, el uso de dispositivos móviles y las plataformas conectadas representan elementos importantes para la evolución de la gestión del mantenimiento. Estas tecnologías permiten a los técnicos consultar información y gestionar órdenes de trabajo directamente durante sus actividades, favoreciendo la usabilidad, la adopción de los sistemas y la precisión de la información registrada (Bokrantz et al., 2020). Este aspecto coincide con las entrevistas realizadas, en las que el smartphone aparece como uno de los dispositivos más utilizados por técnicos y operarios durante su jornada laboral.
+
+En conjunto, tanto los hallazgos obtenidos mediante las entrevistas como la literatura revisada evidencian la necesidad de herramientas de mantenimiento que centralicen la información, faciliten la comunicación entre responsables y técnicos, permitan consultar el estado de los repuestos y reduzcan la complejidad de las tareas de registro. Estos resultados sirven como base para la construcción de los User Personas, User Task Matrix, User Journey Maps, Empathy Maps y As-Is Scenario Maps de FixCore.
+
+
 
 ### Árbol de Problemas
 
@@ -848,55 +1638,80 @@ Para complementar el análisis estructural, se aplicó el Diagrama de Ishikawa (
   <em>Fuente: Elaboración propia.</em>
 </div>
 
-### 2.3.1. User Personas. 
 
-En esta sección se presentan las fichas de User Persona desarrolladas a partir del análisis de entrevistas y del análisis competitivo. Se tomó en cuenta la información estadística obtenida en las entrevistas a los segmentos estudiados, donde se identificaron las características objetivas y subjetivas más comunes, complementado con el análisis competitivo del mercado de capacitación en primeros auxilios.
+### 2.3.1. User Personas.
 
-**Segmento 1: Pymes de Manufactura y Producción**
+A partir del análisis de las entrevistas realizadas a los tres segmentos objetivo de FixCore, se desarrollaron tres User Personas representativos. Cada uno resume los principales objetivos, motivaciones, frustraciones, habilidades y comportamientos identificados en los usuarios entrevistados.
 
 <div align="center">
-  <strong>Gráfico 3: User Person del segmento pymes</strong><br><br>
-  <img src="report/assets/images/userpersona1.png" width="400"><br>
+  <strong>Gráfico 3: User Persona - Carla García, Jefa de Planta</strong><br><br>
+  <img src="report/assets/images/Carla García — Jefa de Planta.png" width="700"><br>
   <em>Fuente: Elaboración propia.</em>
 </div>
 
-**Segmento 2: Firmas Consultoras y Contratistas de Ingeniería Industrial**
+<br>
 
 <div align="center">
-  <strong>Gráfico 4: User Person del segmento consultoras y contratistas</strong><br><br>
-  <img src="report/assets/images/userpersona2.png" width="400"><br>
+  <strong>Gráfico 4: User Persona - Víctor Salazar, Coordinador de Operaciones</strong><br><br>
+  <img src="report/assets/images/Víctor Salazar — Coordinador de Operaciones.png" width="700"><br>
   <em>Fuente: Elaboración propia.</em>
 </div>
 
-### 2.3.2. User Task Matrix. 
+<br>
 
-El presente User Task Matrix reúne las tareas principales que los User Persona (representativos de los tres segmentos objetivo de FexCore) realizan para alcanzar sus metas relacionadas con la gestión de mantenimiento industrial y reducción de tiempos muertos.
+<div align="center">
+  <strong>Gráfico 5: User Persona - José Ramírez, Técnico de Mantenimiento Industrial</strong><br><br>
+  <img src="report/assets/images/José Ramírez — Técnico de Mantenimiento Industrial.png" width="700"><br>
+  <em>Fuente: Elaboración propia.</em>
+</div>
 
-Cada tarea fue evaluada según dos criterios:
-*   **Frecuencia (Frc):** qué tan a menudo el usuario realiza la tarea (Alta / Media / Baja).
-*   **Importancia (Imp):** qué tan relevante considera el usuario dicha tarea para cumplir su objetivo (Alta / Media / Baja).
+### 2.3.2. User Task Matrix.
 
-Los segmentos considerados son:
-1.  **Técnicos de Piso / Operarios**
-2.  **Jefes de Planta / Supervisores de Producción**
-3.  **Firmas Consultoras / Gerencia de Operaciones**
+El presente User Task Matrix reúne las principales tareas que realizan los User Personas representativos de los tres segmentos objetivo de FixCore para alcanzar sus objetivos relacionados con la gestión del mantenimiento industrial.
 
-### User Task Matrix - FexCore
+Las tareas consideradas corresponden a actividades que los usuarios realizan actualmente dentro de sus procesos de mantenimiento, independientemente de la existencia de FixCore. Para cada tarea se consideran dos criterios:
+
+- **Frecuencia (Frc):** indica qué tan seguido el User Persona realiza la tarea.
+- **Importancia (Imp):** indica qué tan relevante resulta la tarea para alcanzar sus objetivos.
+
+Para ambos criterios se emplean los niveles **Alta, Media y Baja**.
+
+Los User Personas considerados representan los siguientes segmentos:
+
+1. **Técnicos y Operarios de Mantenimiento Industrial**
+2. **Pymes de Manufactura y Producción**
+3. **Firmas Consultoras y Contratistas de Ingeniería Industrial**
+
+> **Nota:** Una vez definidos los User Personas, los nombres de los segmentos utilizados en la tabla serán reemplazados por el nombre correspondiente de cada User Persona.
+
+### User Task Matrix - FixCore
 
 | Tareas principales | Técnicos (Frc) | Técnicos (Imp) | Supervisores (Frc) | Supervisores (Imp) | Consultores (Frc) | Consultores (Imp) |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **Reportar fallas o paradas de línea** | Alta | Alta | Media | Alta | Baja | Media |
-| **Ejecutar y cerrar Órdenes de Trabajo (OTs)** | Alta | Alta | Media | Alta | Baja | Media |
-| **Consultar inventario de repuestos y manuales** | Alta | Alta | Alta | Alta | Media | Media |
-| **Comunicar alertas críticas o cuellos de botella** | Alta | Alta | Alta | Alta | Media | Alta |
-| **Asignar técnicos a mantenimientos correctivos** | Baja | Baja | Alta | Alta | Alta | Alta |
-| **Planificar cronogramas preventivos** | Baja | Media | Alta | Alta | Alta | Alta |
-| **Generar reportes gerenciales y KPIs** | Baja | Baja | Alta | Alta | Alta | Alta |
-| **Auditar tiempos muertos (MTTR) y disponibilidad** | Baja | Baja | Alta | Alta | Alta | Alta |
-| **Revisar el historial o estado de una máquina** | Media | Media | Alta | Alta | Alta | Media |
-| **Acceder desde smartphones en planta (Baja fricción)** | Alta | Alta | Alta | Alta | Media | Media |
-| **Validar cumplimiento de OTs (Checklists y firmas)** | Media | Alta | Alta | Alta | Alta | Alta |
-| **Gestionar operarios multi-planta / multi-cliente** | Baja | Baja | Baja | Media | Alta | Alta |
+| **Reportar fallas o paradas de maquinaria** | Alta | Alta | Media | Alta | Baja | Media |
+| **Ejecutar órdenes de trabajo de mantenimiento** | Alta | Alta | Media | Alta | Baja | Media |
+| **Registrar las actividades realizadas después de un mantenimiento** | Alta | Alta | Media | Alta | Media | Media |
+| **Consultar manuales, historial e información técnica de una máquina** | Alta | Alta | Alta | Alta | Media | Media |
+| **Verificar la disponibilidad de repuestos** | Alta | Alta | Alta | Alta | Media | Alta |
+| **Comunicar fallas críticas o situaciones que requieren atención inmediata** | Media | Alta | Alta | Alta | Media | Alta |
+| **Asignar técnicos para atender mantenimientos o fallas** | Baja | Baja | Alta | Alta | Alta | Alta |
+| **Planificar mantenimientos preventivos** | Baja | Media | Alta | Alta | Alta | Alta |
+| **Generar reportes de mantenimiento y KPIs** | Baja | Baja | Alta | Alta | Alta | Alta |
+| **Revisar tiempos muertos y disponibilidad de maquinaria** | Baja | Baja | Alta | Alta | Alta | Alta |
+| **Verificar el cumplimiento de las órdenes de trabajo** | Media | Alta | Alta | Alta | Alta | Alta |
+| **Coordinar técnicos entre diferentes plantas o clientes** | Baja | Baja | Baja | Media | Alta | Alta |
+
+#### Análisis del User Task Matrix
+
+A partir de la matriz se observan diferencias claras entre las responsabilidades de los tres User Personas.
+
+En el caso de los **técnicos y operarios de mantenimiento**, las tareas con mayor frecuencia e importancia se relacionan directamente con la ejecución del trabajo en planta. Entre ellas destacan el reporte de fallas, la ejecución de órdenes de trabajo, el registro de las actividades realizadas, la consulta de información técnica y la verificación de repuestos. Esto evidencia que este segmento necesita acceder rápidamente a información operativa durante su jornada de trabajo.
+
+Los **jefes de planta y supervisores de producción** presentan una mayor participación en actividades de coordinación y control. Para ellos son especialmente importantes la planificación de mantenimientos preventivos, la asignación de técnicos, la supervisión del cumplimiento de las órdenes de trabajo, la revisión de los tiempos muertos y la generación de reportes. Su principal objetivo es mantener organizada la operación y reducir las interrupciones en la producción.
+
+Por otro lado, las **firmas consultoras y contratistas de ingeniería industrial** presentan una mayor frecuencia e importancia en tareas relacionadas con la coordinación de múltiples técnicos, plantas y clientes. Asimismo, requieren planificar mantenimientos, asignar personal, supervisar órdenes de trabajo y generar reportes para sus clientes.
+
+Como coincidencia entre los tres perfiles, se identifica la necesidad de contar con información actualizada sobre las máquinas, las órdenes de trabajo y los repuestos disponibles. Sin embargo, mientras que los técnicos se enfocan principalmente en la ejecución de las actividades de mantenimiento, los supervisores se concentran en la planificación y seguimiento, y las firmas consultoras en la coordinación de operaciones entre diferentes clientes y plantas.
 
 ### Análisis de resultados
 
@@ -916,45 +1731,127 @@ Todos los perfiles coinciden en la necesidad de un acceso digital unificado y si
 
 ### 2.3.3. User Journey Mapping. 
 
-Los siguientes User Journey Mapping describen las experiencia actuales (As-Is) de los dos segmentos principales de FixCore: pymes y contratistas o consultoras.
-
-El objetivo es comprender las motivaciones, frustraciones y oportunidades que surgen en cada etapa del proceso de aprendizaje, desde la búsqueda de información hasta la aplicación de conocimientos, con el fin de identificar puntos críticos que servirán de base para diseñar una experiencia más efectiva, práctica y accesible.
+A partir de los User Personas definidos, se elaboraron tres User Journey Maps con el propósito de representar el recorrido actual de cada perfil durante las actividades relacionadas con el mantenimiento industrial. En cada mapa se muestran sus objetivos, procesos, principales problemas, experiencia emocional y oportunidades de mejora identificadas durante las entrevistas.
 
 <div align="center">
-  <strong>Gráfico 5:  User Journey Map – Carla Garcia (jefa de planta)</strong><br><br>
-  <img src="report/assets/images/journeymap1.png" width="400"><br>
+  <strong>Gráfico 6: User Journey Map - Carla García, Jefa de Planta</strong><br><br>
+  <img src="report/assets/images/User Journey Map - Carla García — Jefa de Planta.png" width="700"><br>
   <em>Fuente: Elaboración propia.</em>
 </div>
 
+<br>
 
 <div align="center">
-  <strong>Gráfico 6: User Journey Map – Victor Salazar (Contratista de mantenimiento)</strong><br><br>
-  <img src="report/assets/images/journeymap2.png" width="400"><br>
+  <strong>Gráfico 7: User Journey Map - Víctor Salazar, Coordinador de Operaciones</strong><br><br>
+  <img src="report/assets/images/User Journey Map - Víctor Salazar — Coordinador de Operaciones.png" width="700"><br>
+  <em>Fuente: Elaboración propia.</em>
+</div>
+
+<br>
+
+<div align="center">
+  <strong>Gráfico 8: User Journey Map - José Ramírez, Técnico de Mantenimiento Industrial</strong><br><br>
+  <img src="report/assets/images/User Journey Map - José Ramírez — Técnico de Mantenimiento Industrial.png" width="700"><br>
   <em>Fuente: Elaboración propia.</em>
 </div>
 
 ### 2.3.4. Empathy Mapping. 
 
-El proceso de Empathy Mapping permitió comprender de manera más profunda los pensamientos, emociones, necesidades y motivaciones de los dos User Persona de Fixcore.
-
-Cada mapa busca responder las preguntas centrales del diseño centrado en el usuario: ¿con quién estamos empatizando?, ¿qué necesita?, ¿qué piensa y siente?, ¿qué ve, dice, hace y escucha?, además de identificar sus pains (frustraciones o dificultades) y gains (motivaciones y oportunidades).
+A partir de los User Personas definidos y de los hallazgos obtenidos en las entrevistas, se elaboraron tres Empathy Maps para profundizar en las necesidades, comportamientos, pensamientos, frustraciones y expectativas de cada perfil representativo de los segmentos objetivo de FixCore.
 
 <div align="center">
-  <strong>Gráfico 7: Empathy Map de jefa de planta</strong><br><br>
-  <img src="report/assets/images/empathymap1.png" width="400"><br>
+  <strong>Gráfico 9: Empathy Map - Carla García, Jefa de Planta</strong><br><br>
+  <img src="report/assets/images/Empathy Map - Carla García — Jefa de Planta.png" width="700"><br>
   <em>Fuente: Elaboración propia.</em>
 </div>
 
+<br>
 
 <div align="center">
-  <strong>Gráfico 8: Empathy Map de contratistas o consultores</strong><br><br>
-  <img src="report/assets/images/empathymap2.png" width="400"><br>
+  <strong>Gráfico 10: Empathy Map - Víctor Salazar, Coordinador de Operaciones</strong><br><br>
+  <img src="report/assets/images/Empathy Map - Víctor Salazar — Coordinador de Operaciones.png" width="700"><br>
+  <em>Fuente: Elaboración propia.</em>
+</div>
+
+<br>
+
+<div align="center">
+  <strong>Gráfico 11: Empathy Map - José Ramírez, Técnico de Mantenimiento Industrial</strong><br><br>
+  <img src="report/assets/images/Empathy Map - José Ramírez — Técnico de Mantenimiento Industrial.png" width="700"><br>
+  <em>Fuente: Elaboración propia.</em>
+</div>
+
+### 2.3.5. As-Is Scenario Mapping.
+
+<div align="center">
+  <strong>Gráfico 9: As-Is Scenario Mapping - Pymes de Manufactura y Producción</strong><br><br>
+  <img src="report/assets/images/As Is Segmento 1.png" width="700"><br>
+  <em>Fuente: Elaboración propia.</em>
+</div>
+
+<br>
+
+<div align="center">
+  <strong>Gráfico 10: As-Is Scenario Mapping - Firmas Consultoras y Contratistas de Ingeniería Industrial</strong><br><br>
+  <img src="report/assets/images/As Is Segmento 2.png" width="700"><br>
+  <em>Fuente: Elaboración propia.</em>
+</div>
+
+<br>
+
+<div align="center">
+  <strong>Gráfico 11: As-Is Scenario Mapping - Técnicos y Operarios de Mantenimiento Industrial</strong><br><br>
+  <img src="report/assets/images/As Is Segmento 3.png" width="700"><br>
   <em>Fuente: Elaboración propia.</em>
 </div>
 
 ## 2.4. Big Picture EventStorming. 
 
-El Big Picture EventStorming consiste en una exploración de alto nivel que busca alinear a los involucrados mediante el mapeo de eventos de dominio en una línea de tiempo extensa. Su propósito es capturar la narrativa completa del negocio para identificar puntos de fricción y establecer los límites preliminares de los Bounded Contexts antes de realizar un diseño técnico detallado.
+El Big Picture Event Storming consiste en una exploración de alto nivel que busca alinear a los involucrados mediante el mapeo de eventos de dominio en una línea de tiempo extensa. Su propósito es capturar la narrativa completa del negocio para identificar puntos de fricción y establecer los límites preliminares de los Bounded Contexts antes de realizar un diseño técnico detallado. A continuación se presentarán los pasos realizados para la elaboración del tablero.
+
+**1- Generación de eventos del dominio**  
+En esta primera etapa se colocaron tarjetas naranjas que representen a los diferentes eventos que pueden ocurrir dentro del dominio del negocio.
+
+<div align="center">
+  <strong>Gráfico 12: Etapa 1 del Big picture Event Storming</strong><br><br>
+  <img src="report/assets/images/techmakers-bp-eventstorming-1.jpg" width="700"><br>
+  <em>Fuente: Elaboración propia.</em>
+</div>
+
+**2- Ordenamiento cronológico de eventos**  
+En esta fase se ordenaron los eventos colocados previamente hasta formar una secuencia ordenada cronológicamente.
+
+<div align="center">
+  <strong>Gráfico 13: Etapa 2 del Big picture Event Storming</strong><br><br>
+  <img src="report/assets/images/techmakers-bp-eventstorming-2.jpg" width="700"><br>
+  <em>Fuente: Elaboración propia.</em>
+</div>
+
+**3- Identificación de actores y sistemas externos**  
+En esta etapa se agregaron tarjetas amarillas que representen a los usuarios responsables de generar ciertos eventos, así como tarjetas azules que representen unos sistemas externos involucrados.
+
+<div align="center">
+  <strong>Gráfico 14: Etapa 3 del Big picture Event Storming</strong><br><br>
+  <img src="report/assets/images/techmakers-bp-eventstorming-3.jpg" width="700"><br>
+  <em>Fuente: Elaboración propia.</em>
+</div>
+
+**4- Identificación de problemas**  
+En esta última fase se colocaron tarjetas rosadas que indiquen posibles ambigüedades o problemas que tienen que discutirse en relación con la secuencia.
+
+<div align="center">
+  <strong>Gráfico 15: Etapa 4 del Big picture Event Storming</strong><br><br>
+  <img src="report/assets/images/techmakers-bp-eventstorming-4.jpg" width="700"><br>
+  <em>Fuente: Elaboración propia.</em>
+</div>
+
+**Procesos clave:**  
+Luego de elaborar el tablero de Big Picture Event Storming identificamos los siguientes procesos importantes para nuestro negocio:  
+- Creación y acceso a cuentas de usuario.
+- Registro de plantas industriales con sus integrantes.
+- Registro de activos, repuestos y problemas.
+- Planificación de mantenimientos.
+- Creación y registro de órdenes de trabajo.
 
 ## 2.5. Ubiquitous Language. 
 
@@ -980,8 +1877,6 @@ Es el lenguaje común compartido entre desarrolladores y expertos del negocio qu
 # Capítulo III: Requirements Specification 
 
 ## 3.1. User Stories.
-
-
 
 | Story ID | Título | Descripción | Criterios de aceptación | Relacionado con |
 | :--- | :--- | :--- | :--- | :--- |
@@ -1056,21 +1951,29 @@ Es el lenguaje común compartido entre desarrolladores y expertos del negocio qu
 | **US69** | Servicio de métricas y reportes | Como Developer, deseo disponer de endpoints para consultar KPIs de mantenimiento y reportes para que la Web Application pueda presentar información de seguimiento. | **Escenario 1:** Dado un request con un periodo válido, cuando el API procesa la consulta, entonces devuelve las métricas calculadas con los registros disponibles.<br><br>**Escenario 2:** Dado un periodo sin información suficiente, cuando se realiza la consulta, entonces el API devuelve una respuesta indicando que no existen datos para calcular la métrica solicitada. | EP09 |
 | **US70** | Servicio de notificaciones externas | Como Developer, deseo integrar el API con un servicio externo de notificaciones para enviar alertas relacionadas con eventos importantes de mantenimiento. | **Escenario 1:** Dado que ocurre un evento configurado para notificación externa, cuando el API envía el request al servicio correspondiente, entonces registra el envío realizado correctamente.<br><br>**Escenario 2:** Dado que el servicio externo responde con un error, cuando se intenta enviar la notificación, entonces el API registra el fallo y conserva el evento que originó la alerta. | EP09 |
 
+
 ### Epics
 
 | Epic ID | Título | Descripción |
 | :--- | :--- | :--- |
-| **EP01** | Gestión de Plantas y Activos | Permite registrar y organizar las plantas, máquinas y su información técnica dentro de FixCore. |
-| **EP02** | Mantenimiento Preventivo | Permite programar, consultar y controlar las actividades de mantenimiento preventivo de las máquinas. |
-| **EP03** | Fallas y Órdenes de Trabajo | Permite registrar fallas, generar órdenes de trabajo y organizar las actividades realizadas por los técnicos. |
-| **EP04** | Inventario y Repuestos | Permite registrar, consultar y controlar los repuestos utilizados durante las actividades de mantenimiento. |
-| **EP05** | Seguimiento y Reportes | Permite consultar indicadores, historial y reportes relacionados con el mantenimiento y el estado de las operaciones. |
-| **EP06** | Alertas y Notificaciones | Permite informar a los responsables sobre mantenimientos próximos, fallas importantes, órdenes asignadas y niveles bajos de stock. |
-| **EP07** | Gestión de Usuarios | Permite administrar el acceso de los jefes de planta y técnicos que utilizarán FixCore. |
-| **EP08** | Landing Page | Permite presentar FixCore, sus principales funcionalidades, beneficios, segmentos y planes disponibles. |
-| **EP09** | RESTful API | Permite brindar los servicios necesarios para conectar la Web Application con las principales funciones de FixCore. |
+| **EP01** | Gestión de Plantas y Activos | Permite registrar, organizar y consultar plantas, máquinas, fichas técnicas, manuales, estados e historiales de mantenimiento de los activos. |
+| **EP02** | Mantenimiento Preventivo | Permite programar, reprogramar, consultar y controlar los mantenimientos preventivos de las máquinas y sus frecuencias de ejecución. |
+| **EP03** | Gestión de Fallas y Órdenes de Trabajo | Permite reportar y priorizar fallas, generar Órdenes de Trabajo, asignar técnicos y registrar la ejecución de actividades de mantenimiento. |
+| **EP04** | Inventario y Repuestos | Permite registrar, consultar y controlar repuestos, existencias, movimientos de inventario y materiales utilizados durante los mantenimientos. |
+| **EP05** | Monitoreo, Métricas y Reportes | Permite consultar el estado de las operaciones, tiempos muertos, MTTR, cumplimiento preventivo, desempeño de técnicos y generar reportes de mantenimiento. |
+| **EP06** | Alertas y Notificaciones | Permite generar y enviar alertas relacionadas con mantenimientos próximos, fallas críticas, Órdenes de Trabajo asignadas y niveles bajos de stock. |
+| **EP07** | Gestión de Usuarios y Accesos | Permite gestionar la autenticación, recuperación de acceso, registro de técnicos y permisos de los usuarios según sus responsabilidades y plantas asignadas. |
+| **EP08** | Landing Page | Permite presentar FixCore a los visitantes, mostrando su propósito, funcionalidades, beneficios para los segmentos objetivo, planes disponibles y acceso a la Web Application. |
+| **EP09** | RESTful API | Agrupa las Technical Stories necesarias para brindar mediante servicios RESTful las funcionalidades de autenticación, activos, mantenimiento, fallas, Órdenes de Trabajo, inventario, métricas y notificaciones de FixCore. |
+
 
 ## 3.2. Impact Mapping. 
+
+<div align="center">
+  <strong>Impact Mapping - FixCore</strong><br><br>
+  <img src="report/assets/images/Impact Mapping - FixCore.png" width="700"><br>
+  <em>Fuente: Elaboración propia.</em>
+</div>
 
 
 ## 3.3. Product Backlog. 
