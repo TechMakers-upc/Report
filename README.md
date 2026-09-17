@@ -1807,7 +1807,45 @@ A partir de los User Personas definidos y de los hallazgos obtenidos en las entr
 
 ## 2.4. Big Picture EventStorming. 
 
-El Big Picture EventStorming consiste en una exploración de alto nivel que busca alinear a los involucrados mediante el mapeo de eventos de dominio en una línea de tiempo extensa. Su propósito es capturar la narrativa completa del negocio para identificar puntos de fricción y establecer los límites preliminares de los Bounded Contexts antes de realizar un diseño técnico detallado.
+El Big Picture EventStorming consiste en una exploración de alto nivel que busca alinear a los involucrados mediante el mapeo de eventos de dominio en una línea de tiempo extensa. Su propósito es capturar la narrativa completa del negocio para identificar puntos de fricción y establecer los límites preliminares de los Bounded Contexts antes de realizar un diseño técnico detallado. A continuación se presentarán los pasos realizados para la elaboración del tablero.
+
+**1- Generación de eventos del dominio**  
+En esta primera etapa se colocaron tarjetas naranjas que representen a los diferentes eventos que pueden ocurrir dentro del dominio del negocio.
+
+<div align="center">
+  <strong>Gráfico 12: Etapa 1 del Big picture Eventstorming</strong><br><br>
+  <img src="report/assets/images/techmakers-bp-eventstorming-1.jpg" width="700"><br>
+  <em>Fuente: Elaboración propia.</em>
+</div>
+
+**2- Ordenamiento cronológico de eventos**  
+En esta fase se ordenaron los eventos colocados previamente hasta formar una secuencia ordenada cronológicamente.
+
+<div align="center">
+  <strong>Gráfico 13: Etapa 2 del Big picture Eventstorming</strong><br><br>
+  <img src="report/assets/images/techmakers-bp-eventstorming-2.jpg" width="700"><br>
+  <em>Fuente: Elaboración propia.</em>
+</div>
+
+**3- Identificación de actores y sistemas externos**    
+En esta etapa se agregaron tarjetas amarillas que representen a los usuarios responsables de generar ciertos eventos, así como tarjetas azules que representen unos sistemas externos involucrados.
+
+<div align="center">
+  <strong>Gráfico 14: Etapa 3 del Big picture Eventstorming</strong><br><br>
+  <img src="report/assets/images/techmakers-bp-eventstorming-3.jpg" width="700"><br>
+  <em>Fuente: Elaboración propia.</em>
+</div>
+
+**4- Identificación de problemas**  
+En esta última fase se colocaron tarjetas rosadas que indiquen posibles ambigüedades o problemas que tienen que discutirse en relación con la secuencia.
+
+<div align="center">
+  <strong>Gráfico 15: Etapa 4 del Big picture Eventstorming</strong><br><br>
+  <img src="report/assets/images/techmakers-bp-eventstorming-4.jpg" width="700"><br>
+  <em>Fuente: Elaboración propia.</em>
+</div>
+
+
 
 ## 2.5. Ubiquitous Language. 
 
