@@ -1827,7 +1827,7 @@ En esta fase se ordenaron los eventos colocados previamente hasta formar una sec
   <em>Fuente: Elaboración propia.</em>
 </div>
 
-**3- Identificación de actores y sistemas externos**    
+**3- Identificación de actores y sistemas externos**  
 En esta etapa se agregaron tarjetas amarillas que representen a los usuarios responsables de generar ciertos eventos, así como tarjetas azules que representen unos sistemas externos involucrados.
 
 <div align="center">
@@ -1845,7 +1845,13 @@ En esta última fase se colocaron tarjetas rosadas que indiquen posibles ambigü
   <em>Fuente: Elaboración propia.</em>
 </div>
 
-
+**Procesos clave:**  
+Luego de elaborar el tablero de Big Picture Eventstorming identificamos los siguientes procesos importantes para nuestro negocio:  
+- Creación y acceso a cuentas de usuario.
+- Registro de plantas industriales con sus integrantes.
+- Registro de activos, repuestos y problemas.
+- Planificación de mantenimientos.
+- Creación y registros de órdenes de trabajo.
 
 ## 2.5. Ubiquitous Language. 
 
