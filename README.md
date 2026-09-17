@@ -3020,7 +3020,7 @@ Las siguiente referencias muestran el mock-up final:
 
 <div align="center">
   <strong>Gráfico: Mock-up desktop del Landing de Fixcore</strong><br><br>
-  <img src="report/assets/images/web.jpeg" width="400"><br>
+  <img src="report/assets/images/web.png" width="400"><br>
   <em>Fuente: Elaboración propia.</em>
 </div>
 
