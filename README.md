@@ -2940,6 +2940,163 @@ El esquema estructural de FixCore se sostiene en los siguientes fundamentos UX/U
 
 ### 4.3.2. Landing Page Mock-up. 
 
+### 4.3.2. Landing Page Mock-up
+
+Esta sección presenta y explica los Mock-ups (prototipos de alta fidelidad) del Landing Page de FixCore, tanto en su versión para Desktop Web Browser como Mobile Web Browser. En esta propuesta se evidencia la aplicación de los principios de diseño visual, accesibilidad y la arquitectura de información validada previamente en los wireframes, consolidando el Design System corporativo orientado al sector B2B (Mantenimiento Industrial).
+
+#### 4.3.2.1. Introducción al Mock-up
+
+El mock-up del Landing Page representa la implementación visual final del producto. Transforma el esquema estructural (Lo-Fi) aplicando los colores corporativos, tipografías, iconografía y espaciados definidos para crear una experiencia visual coherente que transmita confianza, modernidad y eficiencia operativa, valores centrales de FixCore.
+
+#### 4.3.2.2. Mock-up Desktop
+
+El mock-up desktop del Landing Page aplica los siguientes elementos del Design System para maximizar la conversión en pantallas grandes:
+
+**Paleta de Colores Aplicada**
+*   **Primary (Azul Brillante):** `#0ea5e9` (Aprox.)
+    *   Utilizado en botones primarios principales (Hero Section, Iniciar Sesión), enlaces activos e iconografía clave.
+*   **Corporate Dark (Azul Marino/Navy):** `#0f172a` (Aprox.)
+    *   Utilizado para crear contrastes fuertes en secciones de alto impacto: Barra de Estadísticas (Stats), Tarjeta de Precio destacada ("Planta") y el Bottom CTA.
+*   **Success Accent (Verde):** `#16a34a` (Aprox.)
+    *   Utilizado estratégicamente en el botón final de conversión ("Comenzar Prueba Gratuita") y en los *checkmarks* de los planes de precios para indicar beneficios activos.
+*   **Escala de Grises y Fondos:**
+    *   Fondos principales: Blanco (White) y Gris muy claro (Gray-50) para separar secciones sutilmente.
+    *   Texto: Gray-900 para títulos de alta jerarquía y Gray-600 para legibilidad en párrafos descriptivos.
+
+**Tipografía Aplicada**
+*   **Headings (Ej. Inter o Poppins)**
+    *   H1: 48-64px ExtraBold - Título principal del Hero ("Elimina los tiempos muertos...").
+    *   H2: 36-40px Bold - Títulos de sección centrados.
+    *   H3: 20-24px SemiBold - Nombres de características y títulos de tarjetas.
+*   **Body Text**
+    *   Body: 16px Regular - Descripciones y párrafos.
+    *   Small: 14px Regular - Elementos secundarios, navegación y *footers*.
+
+**Componentes Visuales**
+*   **Tarjetas (Cards):**
+    *   Fondo: Blanco sólido para características y testimonios. Fondo oscuro degradado para los Casos de Uso.
+    *   Bordes y Radio: Esquinas redondeadas (aprox. 12px a 16px) para suavizar la estética industrial.
+    *   Sombra: Sombras sutiles (`shadow-sm` y `shadow-md`) para crear profundidad y separar los elementos del fondo gris claro.
+*   **Botones:**
+    *   Primario: Relleno azul, texto blanco, esquinas redondeadas.
+    *   Secundario (Ghost): Texto gris oscuro, fondo transparente y borde sutil.
+    *   Call to Action Final: Relleno verde vibrante para atraer la vista al final del recorrido.
+
+#### 4.3.2.3. Mock-up Mobile
+
+El mock-up mobile mantiene una estricta consistencia visual con la versión desktop, adaptando la experiencia de lectura y navegación a pantallas pequeñas (Mobile-first adaptativo):
+
+**Adaptaciones Mobile**
+*   **Diseño Responsive (Reflow):**
+    *   El grid de contenido colapsa de 3 o 2 columnas a **1 sola columna vertical** (Features, Casos de Uso, Pricing).
+    *   La barra de navegación horizontal desaparece y se condensa en un menú hamburguesa (Hamburger menu) ubicado en la esquina superior derecha.
+    *   La barra de estadísticas (Stats) adapta sus 4 métricas a un grid de 2x2 para no hacer el scroll excesivamente largo y mantener los números legibles.
+*   **Touch Targets (Zonas Táctiles):**
+    *   Botones expandidos al 100% del ancho del contenedor (`w-full`) para facilitar el toque con una sola mano.
+    *   Espaciado (padding) aumentado en el menú desplegable de las FAQs para evitar toques accidentales entre preguntas.
+*   **Optimización Visual:**
+    *   El mockup del Dashboard y el celular en el Hero Section se escala proporcionalmente y se centra debajo del texto principal.
+
+#### 4.3.2.4. Vistas Detalladas por Sección
+
+*   **Hero Section:** Fondo blanco limpio. Título alineado a la izquierda (en desktop) con fuerte contraste. Los botones de acción están agrupados ("Prueba Gratis" sólido y "Ver Video" con ícono). A la derecha, una composición gráfica en alta fidelidad de la plataforma.
+*   **Stats Section:** Franja horizontal azul oscuro que rompe el fondo blanco. Números enormes en color blanco con subtítulos en azul brillante para rápida lectura de métricas clave (MTTR, OTs).
+*   **Features Section:** Grilla limpia (3x2 en desktop). Cada tarjeta incluye un ícono azul minimalista en la parte superior izquierda, seguido de un título en negrita y un párrafo gris.
+*   **Use Cases Section:** Tres tarjetas oscuras con ilustraciones integradas que rompen el patrón claro de la página, llamando la atención de los tres perfiles de comprador (Jefes, Contratistas, Técnicos).
+*   **Pricing Section:** Destaca por el efecto anclaje. La tarjeta central (Plan Planta) es más alta y tiene fondo azul oscuro con texto blanco, forzando la atención visual hacia ella frente a las dos tarjetas blancas laterales.
+*   **FAQ y Bottom CTA:** Preguntas frecuentes limpias con divisores grises delgados. El recorrido culmina en un bloque azul oscuro masivo que contiene un único botón verde brillante, creando el punto de mayor contraste de toda la página para forzar el clic final.
+
+#### 4.3.2.5. Aplicación del Design System y Accesibilidad
+
+El mock-up evidencia una aplicación madura de los principios de diseño para productos SaaS:
+*   **Jerarquía y "Scannability":** Los usuarios pueden escanear la página leyendo solo los H2 (Títulos de sección centrados) y entender toda la propuesta de valor sin leer los párrafos pequeños.
+*   **Diseño Inclusivo y Contraste:** El uso de texto blanco puro sobre los fondos azul oscuro (Navy) supera holgadamente los estándares de contraste WCAG AA, asegurando legibilidad incluso en monitores industriales con bajo brillo.
+*   **Consistencia:** Los radios de los botones, las sombras de las tarjetas y los grosores de línea se repiten uniformemente a través de todas las secciones, generando confianza institucional.
+
+#### 4.3.2.6. Referencias Visuales
+Las siguiente referencias muestran el mock-up final:
+
+**Desktop Homepage Mock-up**
+
+<div align="center">
+  <strong>Gráfico: Mock-up desktop del Landing de Fixcore</strong><br><br>
+  <img src="report/assets/images/web.jpeg" width="400"><br>
+  <em>Fuente: Elaboración propia.</em>
+</div>
+
+El mockup desktop muestra:
+
+*   Hero section completo con mockup de la plataforma (Dashboard en monitor y escáner en móvil)
+*   Barra de estadísticas oscura con 4 métricas clave
+*   6 features cards en grid (distribución 3x2)
+*   3 steps visuales numerados (Paso a paso)
+*   3 tarjetas oscuras de casos de uso por perfil (distribución 2x1)
+*   2 tarjetas de testimonios con avatares
+*   3 tarjetas de planes de precios (con el plan central destacado)
+*   Sección FAQ en formato acordeón
+*   Bottom CTA section oscuro con botón de conversión final y footer
+
+**Mobile Homepage Mock-up**
+
+<div align="center">
+  <strong>Gráfico: Mock-up mobile del Landing de Fixcore</strong><br><br>
+  <img src="report/assets/images/movil.jpeg" width="400"><br>
+  <em>Fuente: Elaboración propia.</em>
+</div>
+
+El mockup mobile muestra:
+
+*   Menú de navegación colapsado (Hamburger menu) para maximizar el espacio de visualización.
+*   Hero section adaptado a formato vertical, priorizando la lectura (Texto > Botones CTA > Mockup de la plataforma).
+*   Barra de estadísticas (Stats) reestructurada en un bloque apilado para lectura rápida sin scroll horizontal.
+*   Grilla de 6 *Features cards* colapsada a una lista vertical de 1 columna.
+*   Tarjetas de "Casos de Uso" y "Pasos" alineadas verticalmente ocupando el ancho completo (`w-full`) de la pantalla.
+*   Tarjetas de "Planes de Precios" apiladas en scroll vertical, manteniendo el plan "Planta" con fondo oscuro visualmente destacado.
+*   Sección FAQ optimizada para interacción táctil en formato acordeón de 1 columna.
+*   Bottom CTA adaptado a la pantalla móvil con el botón verde de conversión principal centrado.
+
+---
+
+#### 4.3.2.7. Estados Interactivos en el Mock-up
+
+Los mock-ups móviles también definen los estados interactivos de los componentes principales para asegurar un *feedback* táctil adecuado:
+
+**Estados de Botón (CTAs)**
+*   **Default:** Color de relleno sólido (Azul corporativo o Verde para el CTA final), con sombra sutil (`shadow-sm`).
+*   **Touch/Hover:** Oscurecimiento leve del fondo y aumento de la sombra (`shadow-md`) para indicar interactividad.
+*   **Active (Tap):** Escala ligeramente reducida (ej. `scale-95`) para proporcionar respuesta táctil inmediata al usuario al pulsar en la pantalla.
+*   **Disabled:** Opacidad reducida al 50% e inhabilitación de eventos táctiles.
+
+**Estados de Tarjeta (Features, Pricing y Casos de Uso)**
+*   **Default:** Borde sutil o sombra media (`shadow-md`), esquinas redondeadas.
+*   **Tap/Focus:** Sombra incrementada (`shadow-lg`) y leve elevación visual (`translateY(-4px)`).
+*   **Transición:** Suave de `300ms ease-in-out` para evitar saltos bruscos en la interfaz móvil.
+
+**Estados de Acordeón (FAQ)**
+*   **Collapsed (Cerrado):** Pregunta visible, ícono de cruz (+) o flecha hacia abajo.
+*   **Expanded (Abierto):** Ícono cambia a menos (-) o flecha hacia arriba, la respuesta se despliega con una animación suave, el título adopta un color azul activo para indicar su estado.
+
+---
+
+#### 4.3.2.8. Diseño Responsivo General
+
+El mock-up aplica los principios de diseño responsivo *Mobile-First* a través de las siguientes configuraciones:
+
+**Breakpoints Aplicados**
+*   **Mobile:** 320px - 639px (Vista actual representada en el mock-up).
+*   **Tablet:** 640px - 1023px.
+*   **Desktop:** 1024px+.
+
+**Comportamiento en Mobile (Reflow y Adaptación)**
+*   **Stacking de Grids:** Todos los contenedores que en desktop eran de 2 o 3 columnas (Características, Casos de uso, Precios) se colapsan a 1 sola columna vertical.
+*   **Ajuste Tipográfico:** Reducción proporcional de los tamaños de fuente (ej. el H1 del Hero baja de 56px a 36px o 40px) para evitar la fragmentación excesiva de palabras y mantener la legibilidad.
+*   **Touch Targets (Zonas táctiles):** Expansión de los botones principales y enlaces del menú para que cumplan con la altura mínima recomendada de 44px a 48px, facilitando el uso con el pulgar.
+*   **Alineación:** Transición de alineación izquierda (Desktop) a alineación centrada o de ancho completo (Mobile) para equilibrar el peso visual.
+
+**Imágenes Responsivas y Rendimiento**
+*   Uso de atributos `srcset` para cargar versiones reducidas de las ilustraciones y mockups en redes móviles.
+*   Implementación de *Lazy Loading* (carga diferida) para las imágenes de las secciones inferiores (Casos de Uso, Testimonios) que se encuentran por debajo del *fold* (primera pantalla visual).
+
 ## 4.4. Web Applications UX/UI Design. 
 
 ### 4.4.1. Web Applications Wireframes. 
