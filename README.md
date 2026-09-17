@@ -3170,6 +3170,13 @@ Este diagrama representa la estructura interna de la API REST de FixCore. Se mue
 
 Este diagrama presenta los componentes encargados de la gestión de identidad y acceso en FixCore.Incluimos la autenticacion,gestión de usuarios, roles, permisos y recuperación de acceso, además del parte responsable de la persistencia de esta información en la Base de Datos de Identidad.
 
+<div align="center">
+  <strong></strong><br><br>
+  <img src="report/assets/images/ComponentesIdentidadAcceso-dark.png" width="700"><br>
+  <em>Fuente: Elaboración propia.</em>
+</div>
+
+
 * **4.Diagrama de Componentes – Recursos y Activos**
 
 Este diagrama muestra la descomposición del servicio encargado de administrar los recursos y activos industriales. Sus componentes permiten gestionar plantas, activos, fichas técnicas, manuales e historial de los activos, utilizando un repositorio para almacenar y consultar la información correspondiente.
