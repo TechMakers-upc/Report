@@ -3306,16 +3306,81 @@ En este apartado mostramos los Database Diagrams correspondientes a cada Bounded
 
 # Capítulo V: Product Implementation, Validation & Deployment  
 
-
 ## 5.1. Software Configuration Management. 
 
 ### 5.1.1. Software Development Environment Configuration. 
 
+En esta sección se presentan las herramientas usadas por los integrantes del equipo durante el desarrollo del proyecto, considerando cada tipo de actividades realizadas.
+
+**Project Management**
+
+Esta sección corresponde a los productos usados para la administración de proyecto, así como la comunicación entre integrantes.
+
+|Producto|Proposito de uso|Ruta de referencia|
+|:-------|:---------------|:-----------------|
+||||
+
+**Requirements Management** 
+
+En esta sección se presentan los productos usados para la gestión de los requisitos del proyecto.
+
+|Producto|Proposito de uso|Ruta de referencia|
+|:-------|:---------------|:-----------------|
+||||
+
+**Product UX/UI Design** 
+
+A continuación se presentan los productos utilizados para el diseño de interfaces y de experiencia del usuario.
+
+|Producto|Proposito de uso|Ruta de referencia|
+|:-------|:---------------|:-----------------|
+||||
+
+**Software Development** 
+
+En esta sección se encuentran las herramientas usadas por los integrantes del equipo para el desarrollo del software relacionado al proyecto.
+
+|Producto|Proposito de uso|Ruta de referencia|
+|:-------|:---------------|:-----------------|
+||||
+
+**Software Deployment** 
+
+Aca se presentan los productos usados para el despliegue de nuestros productos de software.
+
+|Producto|Proposito de uso|Ruta de referencia|
+|:-------|:---------------|:-----------------|
+||||
+
+**Software Documentation**
+
+A continuación se presentan los productos utilizados para documentar el software del proyecto.
+
+|Producto|Proposito de uso|Ruta de referencia|
+|:-------|:---------------|:-----------------|
+||||
+
 ### 5.1.2. Source Code Management. 
+
+Para administrar los cambios realizados en los distintos ambitos de nuestro proyecto, usamos la plataforma GitHub, en la cual creamos una organización con repositorios correspondientes a cada entregable.
+
+Enlace de la organización: [https://github.com/TechMakers-upc](https://github.com/TechMakers-upc)  
+
+Enlace del repositorio del informe: [https://github.com/TechMakers-upc/Report](https://github.com/TechMakers-upc/Report)  
+
+Enlace del repositorio de la Landing Page: [https://github.com/TechMakers-upc/Landing-Page](https://github.com/TechMakers-upc/Landing-Page)
+
+Además, usamos el flujo de trabajo conocido como "GitFlow".
+
+
 
 ### 5.1.3. Source Code Style Guide & Conventions. 
 
+
+
 ### 5.1.4. Software Deployment Configuration. 
+
+
 
 ## 5.2. Landing Page, Services & Applications Implementation. 
 
@@ -3323,20 +3388,191 @@ En este apartado mostramos los Database Diagrams correspondientes a cada Bounded
 
 #### 5.2.1.1. Sprint Planning 1. 
 
+<div align="center">
+<table border="1">
+  <tr>
+    <th> Sprint #
+    </th>
+    <th> Sprint 1
+    </td>
+  </tr>
+  <tr>
+    <th> Sprint Planning Background
+    </th>
+  </tr>
+
+  <tr>
+    <th> Date
+    </th>
+    <td> e
+    </td>
+  </tr>
+
+  <tr>
+    <th> Time
+    </th>
+    <td> e
+    </td>
+  </tr>
+
+  <tr>
+    <th> Location
+    </th>
+    <td> e
+    </td>
+  </tr>
+
+  <tr>
+    <th> Prepared By
+    </th>
+    <td> e
+    </td>
+  </tr>
+
+  <tr>
+    <th> Attendees
+    </th>
+    <td> e
+    </td>
+  </tr>
+
+  <tr>
+    <th colspan="2"> Sprint Goal & User Stories
+    </th>
+  </tr>
+
+  <tr>
+    <th> Sprint 1 Goal
+    </th>
+    <td> e
+    </td>
+  </tr>
+
+  <tr>
+    <th> Sprint 1 Velocity
+    </th>
+    <td> e
+    </td>
+  </tr>
+
+  <tr>
+    <th> Sum of Story Points
+    </th>
+    <td> e
+    </td>
+  </tr>
+</table>
+</div>
+
 #### 5.2.1.2. Aspect Leaders and Collaborators. 
+
+A continuación se presenta la Leadership And Collaboration Matrix elaborada para el desarrollo de este Sprint.
+
+Los aspectos que se tomarán en cuenta son:
+
+- Aspect 1:
+- Aspect 2:
+- ...
+
+|Team Member |GitHub Username|Aspect 1:  | Aspect 2:  |  ... |
+|:-----------|:--------------|----|----|----|
 
 #### 5.2.1.3. Sprint Backlog 1. 
 
+El principal objetivo de este sprint fue el desarrollo de la Landing Page (...)
+
+Enlace al tablero publico en Trello: 
+
+<div align="center">
+<table border="1">
+  <tr>
+    <th>Sprint #</th>
+    <th colspan="7">Sprint 1</th>
+  </tr>
+  <tr>
+    <th colspan="2">User Story</th>
+    <th colspan="6">Work Item / Task</th>
+  </tr>
+  <tr>
+    <th>Story ID</th>
+    <th>Story Title</th>
+    <th>Task ID</th>
+    <th>Task Title</th>
+    <th>Task Description</th>
+    <th>Estimation (hours)</th>
+    <th>Assigned To</th>
+    <th>Status</th>
+  </tr>
+
+  <tr>
+    <td rowspan="2"></td>
+    <td rowspan="2"></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+
+  <tr>
+    <td rowspan="2"></td>
+    <td rowspan="2"></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+</div>
+
 #### 5.2.1.4. Development Evidence for Sprint Review. 
+
+Los principales avances en la implementación durante este sprint fueron (...)
+
+|Repository|Branch|Commit Id|Commit Message|Commit Message Body|Commited on|
+|:---------|:-----|:--------|:-------------|:------------------|:----------|
+|||||||
 
 #### 5.2.1.5. Execution Evidence for Sprint Review. 
 
+Los avances realizados durante este Sprint fueron (...)
+
+**Capturas de pantalla de los avances realizados**
+
+
+
+**Enlace al video de visualización y navegación:**
+
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review. 
+
+
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review. 
 
+
+
 #### 5.2.1.8. Team Collaboration Insights during Sprint. 
 
+A continuación se presentan los aportes realizados por todos los integrantes del grupo.
 
 # Conclusiones 
 
