@@ -882,40 +882,45 @@ Yo creo que pagaría entre 80 y 100 dólares mensuales si de verdad me soluciona
 </table>
 
 **Resumen:**
-**¿Cuál es tu nombre, edad y qué cargo ocupas en la planta?**
+
+Mijtail Landa, de 29 años, ocupa el cargo de gestión de proyecto. Él pertenece al sector de telecomunicaciones y opera cientos de equipos distribuidos a nivel nacional, donde los tiempos muertos no son comunes pero son graves. En su trabajo se notifican los reportes mediante llamadas y correos electrónicos. Él considera que su mayor frustración es la desorganización y saturación en el trabajo. Además, nos cuenta que un sistema generaría más confianza si es fácil de usar y si permite automatizar alertas. Actualmente, estima que un costo adecuado para ese sistema sería de 50 a 100 soles mensuales, pero que necesita primero realizar un estudio del mercado antes de dar un mejor rango.
+
+**Respuestas:**
+
+**¿Cuál es tu nombre, edad y qué cargo ocupas en la planta?**  
 Mitjail Landa, de 29 años, ocupa el cargo de gestión de proyectos.
 
-**¿A qué sector industrial pertenece la empresa y, aproximadamente, cuántas máquinas principales operan?**
+**¿A qué sector industrial pertenece la empresa y, aproximadamente, cuántas máquinas principales operan?**  
 La empresa pertenece al sector de telecomunicaciones y opera cientos de equipos distribuidos a nivel nacional.
 
-**¿Cómo gestionan actualmente el reporte de fallas de maquinaria y las órdenes de trabajo (ej. Excel, papel, grupos de WhatsApp, pizarras)?**
+**¿Cómo gestionan actualmente el reporte de fallas de maquinaria y las órdenes de trabajo (ej. Excel, papel, grupos de WhatsApp, pizarras)?**  
 Los reportes son notificados por los usuarios mediante llamadas telefónicas y correos electrónicos.
 
-**¿Qué dispositivos utilizan más los operarios y técnicos durante su turno en planta (smartphones, tablets, radios)?**
+**¿Qué dispositivos utilizan más los operarios y técnicos durante su turno en planta (smartphones, tablets, radios)?**  
 Los operarios utilizan mayormente celulares.
 
-**¿Qué tan frecuente es que una máquina sufra tiempos muertos debido a una mala comunicación o lentitud al reportar la falla?** 
+**¿Qué tan frecuente es que una máquina sufra tiempos muertos debido a una mala comunicación o lentitud al reportar la falla?**  
 No es muy común, pero los tiempos muertos son altos.
 
-**¿Cuáles son las mayores frustraciones que enfrentas al intentar consolidar la información de mantenimiento a fin de mes?**
+**¿Cuáles son las mayores frustraciones que enfrentas al intentar consolidar la información de mantenimiento a fin de mes?**  
 La desorganización y saturación generada por el trabajo de varias personas de diferentes áreas.
 
-**¿Has intentado implementar algún software de mantenimiento anteriormente? Si es así, ¿cuál fue el resultado o la principal barrera de adopción por parte de los técnicos?**
+**¿Has intentado implementar algún software de mantenimiento anteriormente? Si es así, ¿cuál fue el resultado o la principal barrera de adopción por parte de los técnicos?**  
 Se ha intentado y se está planeando su implementación para proyectos recientes que requieren mantenimiento preventivo.
 
-**¿Qué elemento te generaría más confianza para adoptar un nuevo sistema: la facilidad de uso para el operario, la automatización de alertas, o el costo de implementación?**
+**¿Qué elemento te generaría más confianza para adoptar un nuevo sistema: la facilidad de uso para el operario, la automatización de alertas, o el costo de implementación?**  
 Lo más importante es la facilidad de uso para el operario debido a que les ayudará a adaptarse al sistema. La automatización de alertas también es importante para tomar precauciones.
 
-**¿Cómo crees que impactaría en la productividad si los técnicos pudieran reportar una falla en menos de 3 clics desde su celular?**
+**¿Cómo crees que impactaría en la productividad si los técnicos pudieran reportar una falla en menos de 3 clics desde su celular?**  
 Sería muy bueno para brindar atención rápida
 
-**¿Qué tan útil te resultaría recibir notificaciones automáticas de fallas críticas directamente en tu WhatsApp?**
+**¿Qué tan útil te resultaría recibir notificaciones automáticas de fallas críticas directamente en tu WhatsApp?**  
 Le resulta muy útil y plantea integraciones mediante mensajes de texto o audios pregrabados. 
 
-**Si existiera una versión básica gratuita (modelo freemium) para probar el sistema con algunas máquinas, ¿te animarías a implementarlo en tu planta?**
+**Si existiera una versión básica gratuita (modelo freemium) para probar el sistema con algunas máquinas, ¿te animarías a implementarlo en tu planta?**  
 Se animaría a probarlo para averiguar como se desarrolla o adapta en su contexto laboral.
 
-**Una vez comprobado el valor del sistema, ¿cuánto estarías dispuesto a pagar mensualmente por módulos avanzados y analítica de datos (rango en dólares o soles)?**
+**Una vez comprobado el valor del sistema, ¿cuánto estarías dispuesto a pagar mensualmente por módulos avanzados y analítica de datos (rango en dólares o soles)?**  
 Dependerá de los módulos y analíticas integradas, basándose en que tan útiles sean. Estima que, si es un buen sistema, un rango de precios que estaría dispuesto a pagar es de 50 a 100 soles mensuales, pero plantea realizar un estudio de mercado primero antes de dar un rango definitivo.
 
 ### Segmento 2: Firmas Consultoras y Contratistas de Ingeniería Industrial
