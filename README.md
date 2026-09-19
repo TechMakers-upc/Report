@@ -1181,15 +1181,15 @@ Sí, siempre que sea sencillo, estable y no requiera demasiado tiempo de capacit
         <img src="" alt="" width="160">
       </td>
       <td><strong>Nombre y apellido</strong></td>
-      <td>José Ramírez</td>
+      <td>George Cunya</td>
     </tr>
     <tr>
       <td><strong>Edad</strong></td>
-      <td>29 años</td>
+      <td>25 años</td>
     </tr>
     <tr>
       <td><strong>Ubicación</strong></td>
-      <td>Ate</td>
+      <td>Ventanilla</td>
     </tr>
     <tr>
       <td><strong>Inicio de la entrevista</strong></td>
@@ -1209,7 +1209,7 @@ Sí, siempre que sea sencillo, estable y no requiera demasiado tiempo de capacit
 **Resumen:**
 
 **¿Cuál es tu nombre, edad y qué función desempeñas actualmente dentro del área de mantenimiento?**  
-Hola, me llamo José Ramírez, tengo 29 años y trabajo como técnico de mantenimiento mecánico. Principalmente me encargo de revisar las máquinas, realizar mantenimientos preventivos y atender fallas cuando algún equipo deja de funcionar correctamente.
+Hola, me llamo Geroge Cunya, tengo 25 años y trabajo como técnico de mantenimiento mecánico. Principalmente me encargo de revisar las máquinas, realizar mantenimientos preventivos y atender fallas cuando algún equipo deja de funcionar correctamente.
 
 **¿Cuánto tiempo llevas trabajando en mantenimiento industrial y qué tipo de máquinas o equipos atiendes con mayor frecuencia?**  
 Llevo aproximadamente cinco años trabajando en mantenimiento industrial. Normalmente atiendo motores, bombas, fajas transportadoras y algunas máquinas utilizadas directamente en producción.
@@ -3200,6 +3200,7 @@ Este diagrama presenta los componentes encargados de la gestión de identidad y 
   <img src="report/assets/images/ComponentesIdentidadAcceso-dark.png" width="700"><br>
   <em>Fuente: Elaboración propia.</em>
 </div>
+
 
 * **4.Diagrama de Componentes – Recursos y Activos**
 
