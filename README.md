@@ -3784,9 +3784,49 @@ El desarrollo del primer avance de **FixCore** permitió definir con mayor clari
 * **Base para las siguientes etapas del proyecto:** Los artefactos desarrollados, como User Personas, User Stories, Product Backlog, EventStorming, diagramas de arquitectura y diseños de interfaz, establecen una base para continuar con la implementación y validación progresiva de FixCore en los próximos avances.
 
 
-
 # Bibliografía
 
+Adzic, G. (2012). *Impact mapping: Making a big impact with software products and projects*. Provoking Thoughts. https://www.impactmapping.org/book.html
+
+Angular. (s. f.). *Angular coding style guide*. https://angular.dev/style-guide
+
+Atlassian. (s. f.). *Flujo de trabajo de Gitflow*. https://www.atlassian.com/es/git/tutorials/comparing-workflows/gitflow-workflow
+
+Bradbury, S., Carpizo, B., Gentzel, M., Horah, D., & Thibert, J. (2018, 4 de octubre). *Digitally enabled reliability: Beyond predictive maintenance*. McKinsey & Company. https://www.mckinsey.com/capabilities/operations/our-insights/digitally-enabled-reliability-beyond-predictive-maintenance
+
+Brandolini, A. (2021). *Introducing EventStorming: An act of deliberate collective learning*. Leanpub. https://leanpub.com/introducing_eventstorming
+
+Brown, S. (s. f.). *The C4 model for visualising software architecture*. C4 Model. https://c4model.com/
+
+Cucumber. (s. f.). *Gherkin reference*. https://cucumber.io/docs/gherkin/reference/
+
+Fracttal. (s. f.). *Gestión de órdenes de trabajo - Fracttal One*. https://www.fracttal.com/es-es/gestion-de-ots
+
+GitHub. (s. f.). *What is GitHub Pages?* GitHub Docs. https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages
+
+Google. (s. f.). *Google HTML/CSS style guide*. https://google.github.io/styleguide/htmlcssguide
+
+Google. (s. f.). *Google Java style guide*. https://google.github.io/styleguide/javaguide.html
+
+Google. (s. f.). *Google JavaScript style guide*. https://google.github.io/styleguide/jsguide.html
+
+Google. (s. f.). *Google TypeScript style guide*. https://google.github.io/styleguide/tsguide.html
+
+Gothelf, J., & Seiden, J. (2021). *Lean UX: Designing great products with agile teams* (3rd ed.). O'Reilly Media.
+
+IBM. (s. f.). *Maximo Application Suite*. https://www.ibm.com/products/maximo
+
+Material Design. (s. f.). *Accessibility*. Google. https://m1.material.io/usability/accessibility.html
+
+Ministerio de la Producción. (2024). *Anuario estadístico 2023: Industrial, Mipyme y comercio interno*. Observatorio PRODUCEmpresarial. https://www.producempresarial.pe/anuario-estadistico-industrial-mipyme-y-comercio-interno-2023/
+
+Spring. (s. f.). *Spring Boot reference documentation*. https://docs.spring.io/spring-boot/reference/
+
+UpKeep. (s. f.). *CMMS software*. https://upkeep.com/product/cmms-software/
+
+World Wide Web Consortium. (2023). *Web Content Accessibility Guidelines (WCAG) 2.2*. https://www.w3.org/TR/WCAG22/
+
+W3Schools. (s. f.). *HTML style guide and coding conventions*. https://www.w3schools.com/HTML/html5_syntax.asp
 
 # Anexos
 
