@@ -181,54 +181,43 @@ Diego Rances Rojas Huaranga
 <div align="center">
 <table border="1">
   <tr>
-  <th>Criterio Especifico</th>
-  <th>Acciones Realizadas</th>
-  <th>Conclusiones</th>
+    <th>Criterio Especifico</th>
+    <th>Acciones Realizadas</th>
+    <th>Conclusiones</th>
   </tr>
 
   <tr>
-  <th>Comunica oralmente con efectividad a diferentes rangos de audiencia</th>
-
-  <td>
-  Alvar Lucas Córdova	<br> AV1: <br>
-
-  <br> Sunio Danilo Landa Sánchez <br> AV1: <br>
-
-  <br> Giuseppe Adrián Villanueva Rodríguez <br> AV1: <br>
-
-  <br> Diego Rances Rojas Huaranga <br> AV1: <br>
-
-  <br> Pierre Alessandro Mendoza Boluarte <br> AV1: <br>
-  </td>
-
-  <td>
-  AV1: <br>
-
-  </td>
+    <th>Comunica oralmente con efectividad a diferentes rangos de audiencia</th>
+    <td>
+    Alvar Lucas Córdova <br> AV1: Participé en las reuniones y coordinaciones del equipo explicando los avances realizados en el proyecto, principalmente en los artefactos de Requirements Elicitation & Analysis y Requirements Specification, como User Personas, User Task Matrix, User Journey Mapping, Empathy Mapping, User Stories, Impact Mapping y Product Backlog. También comuniqué decisiones y avances relacionados con el diseño y desarrollo del producto.<br><br>
+    Sunio Danilo Landa Sánchez <br> AV1: Participé en la coordinación del equipo para el desarrollo del proyecto siguiendo las convenciones descritas en el enunciado. Además, participé en la exposición de los avances realizados.<br><br>
+    Giuseppe Adrián Villanueva Rodríguez <br> AV1: Colaboré en el desarrollo de los capítulos II, III y IV, así como en algunas partes del desarrollo y despliegue de la Landing Page. También comuniqué al equipo los avances realizados en estas actividades.<br><br>
+    Diego Rances Rojas Huaranga <br> AV1: Apoyé en la elaboración del primer avance del proyecto y en la realización de entrevistas correspondientes a los tres segmentos definidos. También participé en las coordinaciones del equipo para integrar estos aportes al informe.<br><br>
+    Pierre Alessandro Mendoza Boluarte <br> AV1: Participé activamente en la elaboración del primer avance, aportando contenido para el Capítulo I relacionado con la definición del negocio y los segmentos objetivo. Asimismo, realicé dos entrevistas y comuniqué al equipo los resultados obtenidos.
+    </td>
+    <td>
+    AV1: La comunicación oral permitió coordinar las actividades entre los integrantes, presentar los avances realizados y compartir las decisiones tomadas durante el desarrollo del proyecto. Asimismo, facilitó la explicación de la problemática, los requerimientos y la propuesta de FixCore durante las reuniones y exposiciones del equipo.
+    </td>
   </tr>
 
   <tr>
-  <th>Comunica por escrito con efectividad a diferentes rangos de audiencia </th>
-
-  <td>
-  Alvar Lucas Córdova	<br> AV1: <br>
-
-  <br> Sunio Danilo Landa Sánchez <br> AV1: <br>
-
-  <br> Giuseppe Adrián Villanueva Rodríguez <br> AV1: <br>
-
-  <br> Diego Rances Rojas Huaranga <br> AV1: <br>
-
-  <br> Pierre Alessandro Mendoza Boluarte <br> AV1: <br>
-  </td>
-
-  <td>
-  AV1: <br>
-  
-  </td>
+    <th>Comunica por escrito con efectividad a diferentes rangos de audiencia</th>
+    <td>
+    Alvar Lucas Córdova <br> AV1: Elaboré y redacté diferentes secciones del informe, incluyendo User Personas, User Task Matrix, User Journey Mapping, Empathy Mapping, User Stories, Impact Mapping y Product Backlog. Además, participé en la documentación de secciones relacionadas con el diseño del producto y el avance de la implementación.<br><br>
+    Sunio Danilo Landa Sánchez <br> AV1: Apoyé en la aplicación de convenciones durante el control de versiones del proyecto y en la nomenclatura de los mensajes de cambio realizados en el repositorio.<br><br>
+    Giuseppe Adrián Villanueva Rodríguez <br> AV1: Redacté diferentes secciones comprendidas desde Style Guidelines hasta Landing Page Mock-up. Además, participé en la elaboración de dos entrevistas y en la redacción de sus respectivos resúmenes.<br><br>
+    Diego Rances Rojas Huaranga <br> AV1: Participé en el desarrollo de la propuesta visual y de interacción de la plataforma orientada al mantenimiento industrial, elaborando wireframes de baja fidelidad en Figma. También integré los wireframes con los flujos de interacción y cambios de estado según los objetivos de cada rol, y participé en el desarrollo de los mock-ups de alta fidelidad aplicando el Design System de FixCore.<br><br>
+    Pierre Alessandro Mendoza Boluarte <br> AV1: Participé en la planificación del EventStorming, colaboré en la elaboración de diagramas y apoyé en la redacción de diferentes apartados correspondientes al Capítulo V.
+    </td>
+    <td>
+    AV1: La documentación elaborada permitió comunicar de forma organizada la problemática, los segmentos objetivo, los requerimientos, el diseño y los avances de implementación de FixCore. La utilización de una estructura común, artefactos visuales y convenciones de documentación permitió mantener coherencia entre los diferentes capítulos del informe y facilitar su comprensión.
+    </td>
   </tr>
 </table>
 </div>
+
+
+
 
 # Capítulo I: Introduction 
 
