@@ -265,7 +265,7 @@ A continuación, se presentan los integrantes de TechMakers y las principales ca
 
   <tr>
     <th rowspan="2">Alvar Lucas Córdova</th>
-    <td colspan="2">(img)</td>
+    <td colspan="2"><img src="report/assets/images/foto-alvar.jpg"></td>
   </tr>
   <tr>
     <td colspan="2">
@@ -277,7 +277,7 @@ A continuación, se presentan los integrantes de TechMakers y las principales ca
 
   <tr>
     <th rowspan="2">Sunio Danilo Landa Sánchez</th>
-    <td colspan="2">(img)</td>
+    <td colspan="2"><img src="report/assets/images/foto-sunio.jpg"></td>
   </tr>
   <tr>
     <td colspan="2">
@@ -289,7 +289,7 @@ A continuación, se presentan los integrantes de TechMakers y las principales ca
 
   <tr>
     <th rowspan="2">Giuseppe Adrián Villanueva Rodríguez</th>
-    <td colspan="2">(img)</td>
+    <td colspan="2"><img src="report/assets/images/foto-giuseppe.jpg"></td>
   </tr>
   <tr>
     <td colspan="2">
@@ -301,7 +301,7 @@ A continuación, se presentan los integrantes de TechMakers y las principales ca
 
   <tr>
     <th rowspan="2">Diego Rances Rojas Huaranga</th>
-    <td colspan="2">(img)</td>
+    <td colspan="2"><img src="report/assets/images/foto-diego.jpg"</td>
   </tr>
   <tr>
     <td colspan="2">
@@ -313,7 +313,7 @@ A continuación, se presentan los integrantes de TechMakers y las principales ca
 
   <tr>
     <th rowspan="2">Pierre Alessandro Mendoza Boluarte</th>
-    <td colspan="2">(img)</td>
+    <td colspan="2"><img src="report/assets/images/foto-pierre.jpg"></td>
   </tr>
   <tr>
     <td colspan="2">
