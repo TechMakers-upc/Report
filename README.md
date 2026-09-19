@@ -1968,7 +1968,7 @@ Es el lenguaje común compartido entre desarrolladores y expertos del negocio qu
 | **US60** | Conocer funcionalidades de FixCore | Como Visitante, deseo conocer las principales funcionalidades de FixCore para saber cómo puede ayudar a organizar el mantenimiento de una empresa. | **Escenario 1:** Dado que el Visitante consulta las características del producto, cuando revisa la información disponible, entonces puede identificar sus principales funcionalidades.<br><br>**Escenario 2:** Dado que consulta una funcionalidad, cuando revisa su descripción, entonces puede conocer el beneficio que ofrece. | EP08 |
 | **US61** | Conocer beneficios según el segmento | Como Visitante, deseo conocer cómo FixCore puede ayudar a mi tipo de empresa para determinar si la solución responde a mis necesidades. | **Escenario 1:** Dado que el Visitante pertenece a una pyme manufacturera, cuando consulta la información dirigida a su segmento, entonces encuentra beneficios relacionados con el control de sus máquinas y mantenimientos.<br><br>**Escenario 2:** Dado que pertenece a una firma contratista, cuando consulta la información dirigida a su segmento, entonces encuentra beneficios relacionados con la gestión de técnicos y servicios para diferentes clientes. | EP08 |
 | **US62** | Consultar planes de FixCore | Como Visitante, deseo conocer los planes disponibles para evaluar qué alternativa se adapta mejor a mi empresa. | **Escenario 1:** Dado que existen diferentes planes, cuando el Visitante consulta sus características, entonces puede identificar las diferencias principales entre ellos.<br><br>**Escenario 2:** Dado que existe un Plan Freemium, cuando consulta sus condiciones, entonces puede conocer las funcionalidades y límites incluidos. | EP08 |
-| **US63** | Comenzar a utilizar FixCore | Como Visitante, deseo acceder desde el Landing Page a la experiencia de FixCore para comenzar a probar la solución. | **Escenario 1:** Dado que el Visitante decide utilizar el producto, cuando selecciona la opción correspondiente, entonces es dirigido a la Web Application.<br><br>**Escenario 2:** Dado que existen llamados a la acción dirigidos a los segmentos objetivo, cuando el Visitante selecciona el correspondiente a su segmento, entonces es dirigido a la experiencia relacionada. | EP08 |
+| **US63** | Consultas adicionales sobre FixCore | Como Visitante, quiero que haya un espacio en la Landing Page donde pueda obtener información adicional sobre FixCore para así poder resolver mis dudas. | **Escenario 1:** Dado que el Visitante se encuentra en la Landing Page, cuando accede a la sección de preguntas frecuentes e interactúa con una pregunta, entonces visualiza una respuesta que aclara sus dudas.<br><br>**Escenario 2:** Dado que el Visitante se encuentra en la Landing Page, cuando accede a la sección del footer y presiona el botón de términos y condiciones, entonces es redirigido a una pestaña con los términos y condiciones asociados a FixCore. | EP08 |
 | **US64** | Servicio de autenticación | Como Developer, deseo disponer de servicios RESTful de autenticación para controlar el acceso a los recursos protegidos de FixCore. | **Escenario 1:** Dado un request con credenciales válidas, cuando el API procesa la solicitud, entonces devuelve una respuesta exitosa con la información necesaria para identificar la sesión.<br><br>**Escenario 2:** Dado un request con credenciales incorrectas, cuando el API procesa la solicitud, entonces responde indicando que el acceso no está autorizado. | EP09 |
 | **US65** | Servicio de plantas y máquinas | Como Developer, deseo disponer de endpoints para administrar plantas y máquinas para que la Web Application pueda gestionar los activos de FixCore. | **Escenario 1:** Dado un request válido para registrar un recurso, cuando el API procesa la solicitud, entonces el recurso queda creado y devuelve una respuesta exitosa.<br><br>**Escenario 2:** Dado un request para consultar un recurso existente, cuando el API procesa la solicitud, entonces devuelve la información correspondiente. | EP09 |
 | **US66** | Servicio de mantenimiento preventivo | Como Developer, deseo disponer de endpoints para gestionar mantenimientos preventivos para permitir su programación y seguimiento desde la Web Application. | **Escenario 1:** Dado un request válido para crear un mantenimiento, cuando el API procesa la solicitud, entonces registra la actividad y devuelve una respuesta exitosa.<br><br>**Escenario 2:** Dado un request para consultar mantenimientos, cuando el API procesa la solicitud, entonces devuelve los registros que corresponden a los parámetros indicados. | EP09 |
@@ -2007,12 +2007,22 @@ Es el lenguaje común compartido entre desarrolladores y expertos del negocio qu
 
 El Product Backlog de FixCore reúne las User Stories identificadas para el desarrollo de la solución. Las historias fueron priorizadas considerando principalmente el valor que aportan a los segmentos objetivo y a las funciones principales del producto. Para la estimación se utilizaron Story Points siguiendo la escala 1, 2, 3, 5 y 8.
 
+Enlace del Product Backlog elaborado en Trello: [https://trello.com/b/yJyuiOSO](https://trello.com/b/yJyuiOSO)
+
+<div align="center">
+  <strong>Tablero del Product Backlog en Trello</strong><br><br>
+  <img src="report/assets/images/trello-product-backlog.jpg" width="700"><br>
+  <em>Fuente: Elaboración propia.</em>
+</div>
+
+A continuación se presenta la tabla con mayor detalle:
+
 | # Orden | User Story ID | Título | Descripción | Story Points |
 | :---: | :---: | :--- | :--- | :---: |
 | 01 | **US59** | Conocer FixCore | Como Visitante, deseo conocer qué es FixCore para entender qué problema de mantenimiento industrial busca resolver. | 2 |
-| 02 | **US60** | Conocer funcionalidades de FixCore | Como Visitante, deseo conocer las principales funcionalidades de FixCore para saber cómo puede ayudar a organizar el mantenimiento de una empresa. | 2 |
-| 03 | **US61** | Conocer beneficios según el segmento | Como Visitante, deseo conocer cómo FixCore puede ayudar a mi tipo de empresa para determinar si la solución responde a mis necesidades. | 3 |
-| 04 | **US63** | Comenzar a utilizar FixCore | Como Visitante, deseo acceder desde el Landing Page a la experiencia de FixCore para comenzar a probar la solución. | 2 |
+| 02 | **US60** | Conocer funcionalidades de FixCore | Como Visitante, deseo conocer las principales funcionalidades de FixCore para saber cómo puede ayudar a organizar el mantenimiento de una empresa. | 1 |
+| 03 | **US61** | Conocer beneficios según el segmento | Como Visitante, deseo conocer cómo FixCore puede ayudar a mi tipo de empresa para determinar si la solución responde a mis necesidades. | 1 |
+| 04 | **US63** | Consultas adicionales sobre FixCore | Como Visitante, quiero que haya un espacio en la Landing Page donde pueda obtener información adicional sobre FixCore para así poder resolver mis dudas. | 1 |
 | 05 | **US62** | Consultar planes de FixCore | Como Visitante, deseo conocer los planes disponibles para evaluar qué alternativa se adapta mejor a mi empresa. | 2 |
 | 06 | **US03** | Registrar máquina | Como Jefe de Planta, deseo registrar una máquina para llevar un control de los activos que requieren mantenimiento. | 5 |
 | 07 | **US05** | Consultar ficha técnica de una máquina | Como Técnico, deseo consultar la ficha técnica de una máquina para conocer sus características antes de realizar un mantenimiento. | 3 |
@@ -3343,8 +3353,11 @@ Esta sección corresponde a los productos usados para la administración de proy
 
 |Producto|Proposito de uso|Ruta de referencia|
 |:-------|:---------------|:-----------------|
-|Trello| Organización de las actividades del proyecto, seguimiento de tareas y gestión del Product Backlog|https://trello.com/b/yJyuiOSO
+|Trello| Organización de las actividades del proyecto, seguimiento de tareas y gestión del Product Backlog|https://trello.com/b/yJyuiOSO|
 |GitHub|Alojamiento de repos, control de versiones y revision de código mediante Pull Requests|https://github.com/TechMakers-upc/Report|
+|Google Drive|Almacenamiento de entrevistas realizadas|https://drive.google.com|
+|Whatsapp|Comunicacion rapida para resolver dudas y compartir informacion|https://wa.me/|
+|Discord|Coordinacion entre los integrantes del equipo mediante canales de voz|https://discord.com/|
 ||||
 
 **Requirements Management** 
@@ -3354,7 +3367,7 @@ En esta sección se presentan los productos usados para la gestión de los requi
 |Producto|Proposito de uso|Ruta de referencia|
 |:-------|:---------------|:-----------------|
 |Uxpressia|Elaboración de User Personas, User Journey Maps, Empathy Maps y otras herramientas utilizadas para identificar y analizar las necesidades, problemas y características de los usuarios del proyecto| https://uxpressia.com/w/v8FzI/t/zbzV3|
-|Figjam|Elaboración colaborativa del Big Picture y Design-Level EventStorming para el modelado de dominio|https://www.figma.com/board/fFAW94zEsw4HGJnAICg41F/TechMakers-EventStorming?node-id=0-1&t=UzKfOfmFc1j0e5H7-1|
+|Figjam|Elaboración colaborativa del Big Picture y Design-Level EventStorming para el modelado de dominio|https://www.figma.com/es-la/figjam/|
 |Trello|Gestión y organización del Product Backlog, historias de usuario|https://trello.com/b/yJyuiOSO|
 ||||
 
@@ -3364,7 +3377,7 @@ A continuación se presentan los productos utilizados para el diseño de interfa
 
 |Producto|Proposito de uso|Ruta de referencia|
 |:-------|:---------------|:-----------------|
-|Figma|Diseño de wireframes,mockups,prototipos|
+|Figma|Diseño de wireframes,mockups,prototipos|https://www.figma.com|
 ||||
 
 **Software Development** 
@@ -3379,10 +3392,11 @@ En esta sección se encuentran las herramientas usadas por los integrantes del e
 
 **Software Deployment** 
 
-Aca se presentan los productos usados para el despliegue de nuestros productos de software.
+Se presentan los productos usados para el despliegue de nuestros productos de software.
 
 |Producto|Proposito de uso|Ruta de referencia|
 |:-------|:---------------|:-----------------|
+|GitHub Pages|Plataforma de despliegue para el landing page|https://docs.github.com/es/pages
 ||||
 
 **Software Documentation**
@@ -3391,6 +3405,7 @@ A continuación se presentan los productos utilizados para documentar el softwar
 
 |Producto|Proposito de uso|Ruta de referencia|
 |:-------|:---------------|:-----------------|
+|MarkDown|Formato usado para estructurar y representar la documentacion|https://www.markdownguide.org/|
 ||||
 
 ### 5.1.2. Source Code Management. 
@@ -3424,6 +3439,13 @@ A fin de asegurar la calidad, mantenibilidad y legibilidad del código a lo larg
 
 ### 5.1.4. Software Deployment Configuration. 
 
+El proceso de despliegue de la solución busca garantizar que, desde el repositorio de código fuente, se pueda realizar correctamente la publicación del producto digital correspondiente.
+
+#### Landing Page
+
+* Entorno de destino: GitHub Pages
+
+* Proceso de despliegue: Los cambios realizados y previamente validados en el Landing Page, como archivos HTML, CSS e imágenes, se integran en la rama principal del repositorio. A partir de la actualización del repositorio mediante un push o merge, GitHub realiza automáticamente el proceso de publicación de los archivos estáticos utilizando GitHub Pages. Finalmente, se verifica el despliegue ingresando al enlace público generado para comprobar que el Landing Page se encuentre disponible y funcione correctamente.
 
 
 ## 5.2. Landing Page, Services & Applications Implementation. 
@@ -3499,14 +3521,14 @@ En esta sección registramos y explicamos el avance del equipo durante el Sprint
   <tr>
     <th> Sprint 1 Velocity
     </th>
-    <td> 11
+    <td> 9
     </td>
   </tr>
 
   <tr>
     <th> Sum of Story Points
     </th>
-    <td> 11
+    <td> 9
     </td>
   </tr>
 </table>
@@ -3514,22 +3536,26 @@ En esta sección registramos y explicamos el avance del equipo durante el Sprint
 
 #### 5.2.1.2. Aspect Leaders and Collaborators. 
 
-A continuación se presenta la Leadership And Collaboration Matrix elaborada para el desarrollo de este Sprint.
+A continuación se presenta la Leadership and Collaboration Matrix elaborada para el desarrollo de este Sprint 1 con el despliegue de la Landing Page
 
-Los aspectos que se tomarán en cuenta son:
 
-- Aspect 1:
-- Aspect 2:
-- ...
+| Team Member (Last Name, First Name) | GitHub Username| Landing Page Hero & Navbar<br>Leader (L) / Collaborator (C) | Features & Usage Guide Section<br>Leader (L) / Collaborator (C) | Segmented Benefits & Testimonials<br>Leader (L) / Collaborator (C) | Monthly & Annual Pricing Views<br>Leader (L) / Collaborator (C) | FAQ Component & Support<br>Leader (L) / Collaborator (C) |
+| ----------------------------------- | ------------------------------------------------ | ------------------------------------------------------ | ----------------------------------------------------------------------- | ---------------------------------------------------------- | ----------------------------------------------------------- | --------------------------------------------------------------- |
+| Rojas Huaranga, Diego Rances | diego27-16 | L | C | C | C | C |
+| Mendoza Boluarte, Pierre Alessandro | pierreale2302 | C | L | C | C | C |
+| Córdova, Alvar Lucas | AlvarLC | C | C | L | C | C |
+| Landa Sánchez, Sunio Danilo | DanLandio | C | C | C | L | C |
+| Villanueva Rodríguez, Giuseppe Adrián | Giuseppe152004 | C | C | C | C | L |
 
-|Team Member |GitHub Username|Aspect 1:  | Aspect 2:  |  ... |
-|:-----------|:--------------|----|----|----|
+
 
 #### 5.2.1.3. Sprint Backlog 1. 
 
-El principal objetivo de este sprint fue el desarrollo de la Landing Page (...)
+El objetivo principal del Sprint 1 fue desarrollar la Landing Page de FixCore con las principales secciones e informacion dirigida a los segmentos definidos para la plataforma. 
 
 Enlace al tablero publico en Trello: 
+
+[Tablero Trello Sprint Backlog 1](https://trello.com/b/8ilypk4J/sprint-backlog-1-techmakers)
 
 <div align="center">
 <table border="1">
@@ -3537,10 +3563,12 @@ Enlace al tablero publico en Trello:
     <th>Sprint #</th>
     <th colspan="7">Sprint 1</th>
   </tr>
+
   <tr>
     <th colspan="2">User Story</th>
     <th colspan="6">Work Item / Task</th>
   </tr>
+
   <tr>
     <th>Story ID</th>
     <th>Story Title</th>
@@ -3553,42 +3581,100 @@ Enlace al tablero publico en Trello:
   </tr>
 
   <tr>
-    <td rowspan="2"></td>
-    <td rowspan="2"></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td rowspan="2">US59</td>
+    <td rowspan="2">Conocer FixCore</td>
+    <td>T001</td>
+    <td>Develop Landing Page Hero</td>
+    <td>Implementar la sección principal del Hero con la propuesta de valor y el llamado a la acción de FixCore.</td>
+    <td>2</td>
+    <td>Rojas Huaranga, Diego Rances</td>
+    <td>Done</td>
   </tr>
 
   <tr>
-    <td rowspan="2"></td>
-    <td rowspan="2"></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>T002</td>
+    <td>Add Landing Page Navbar</td>
+    <td>Implementar la barra de navegación con logo, enlaces a las secciones de FixCore y diseño responsivo.</td>
+    <td>2</td>
+    <td>Rojas Huaranga, Diego Rances</td>
+    <td>Done</td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td rowspan="2">US60</td>
+    <td rowspan="2">Conocer funcionalidades de FixCore</td>
+    <td>T003</td>
+    <td>Develop Features Section</td>
+    <td>Desarrollar la vista que detalla las funcionalidades principales y el dashboard de la plataforma FixCore.</td>
+    <td>3</td>
+    <td>Mendoza Boluarte, Pierre Alessandro</td>
+    <td>Done</td>
   </tr>
+
+  <tr>
+    <td>T004</td>
+    <td>Design User Guide Section</td>
+    <td>Diseñar e implementar los pasos explicativos (System Preview) sobre cómo funciona y se usa FixCore.</td>
+    <td>2</td>
+    <td>Mendoza Boluarte, Pierre Alessandro</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US61</td>
+    <td rowspan="2">Conocer beneficios según el segmento</td>
+    <td>T005</td>
+    <td>Write Benefits for Each Segment</td>
+    <td>Redactar e implementar la sección de beneficios de FixCore adaptada a los diferentes segmentos objetivo.</td>
+    <td>2</td>
+    <td>Córdova, Alvar Lucas</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>T006</td>
+    <td>Add User Testimonials</td>
+    <td>Diseñar e incorporar la sección de testimonios para respaldar el uso de FixCore.</td>
+    <td>2</td>
+    <td>Córdova, Alvar Lucas</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US62</td>
+    <td rowspan="2">Consultar planes de FixCore</td>
+    <td>T007</td>
+    <td>Develop Monthly Pricing Plans</td>
+    <td>Implementar la tarjeta de planes de suscripción mostrando sus características y tarifa mensual.</td>
+    <td>2</td>
+    <td>Landa Sánchez, Sunio Danilo</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T008</td>
+    <td>Develop Annual Pricing Plans</td>
+    <td>Implementar la funcionalidad para alternar visualmente a la vista de facturación con precio anual.</td>
+    <td>2</td>
+    <td>Landa Sánchez, Sunio Danilo</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US63</td>
+    <td rowspan="2">Consultas adicionales sobre FixCore</td>
+    <td>T009</td>
+    <td>Add Frequently Asked Questions</td>
+    <td>Implementar la sección de FAQ (preguntas frecuentes) y el Footer para resolver dudas adicionales de FixCore.</td>
+    <td>3</td>
+    <td>Villanueva Rodríguez, Giuseppe Adrián</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>T010</td>
+    <td>Write Terms and Conditions</td>
+    <td>Redactar e implementar la sección de términos y condiciones de uso de la plataforma FixCore.</td>
+    <td>2</td>
+    <td>Villanueva Rodríguez, Giuseppe Adrián</td>
+    <td>Done</td>
+  </tr>
+
 </table>
 </div>
 
@@ -3623,6 +3709,17 @@ Los avances realizados durante este Sprint fueron (...)
 A continuación se presentan los aportes realizados por todos los integrantes del grupo.
 
 # Conclusiones 
+
+## 5. Conclusiones
+
+El desarrollo y estructuración del proyecto **FixCore** permite establecer las siguientes conclusiones técnicas, operativas y de negocio:
+
+*   **Arquitectura Empresarial Altamente Escalable:** La adopción de **Angular 17+ con Standalone Components** bajo un enfoque de **Domain-Driven Design (DDD)** garantiza que el sistema pueda crecer de manera modular. La separación en *Bounded Contexts* (Identidad, Mantenimiento, Inventario y Equipamiento) permite un mantenimiento aislado y previene la degradación del código a medida que se añaden nuevas funcionalidades.
+*   **Gestión Multi-Tenant Nativa:** La plataforma resuelve eficientemente el desafío de las firmas contratistas B2B al implementar un sistema *Multi-Tenant* centralizado. Esto permite a usuarios externos gestionar múltiples plantas desde una sola interfaz, sin fricciones en la base de datos ni penalizaciones por agregar nuevos clientes.
+*   **Diseño Centrado en el Usuario (UX/UI) y Contexto:** La estrategia de diseño *Mobile-First* para operarios (uso de escáner QR, botones táctiles amplios de 44px, interfaces de alto contraste) y un entorno *Desktop* analítico para jefaturas (Dashboards, Kanban, DataGrids) asegura una alta tasa de adopción y reduce la curva de aprendizaje en entornos industriales.
+*   **Gestión de Estado Robusta y Reactiva:** La implementación de **RxJS (BehaviorSubjects)** como motor de estado global asegura que la información de los módulos críticos —como el movimiento de tarjetas de Órdenes de Trabajo (OTs) en el tablero Kanban mediante *Drag & Drop* o las alertas de stock crítico— se actualice en tiempo real sin recargar la página, mejorando drásticamente la experiencia del usuario.
+*   **Estrategia de Adquisición B2B Optimizada:** La Landing Page ha sido diseñada no solo como un folleto informativo, sino como un embudo de conversión estructurado. La aplicación del efecto "señuelo" en los planes de suscripción (Freemium, Planta, Contratista) y la integración de formularios hacia un flujo de autenticación seguro, agilizan el proceso de *onboarding* de nuevos clientes corporativos.
+*   **Impacto Operativo Directo:** FixCore digitaliza y centraliza la comunicación que tradicionalmente se pierde en medios informales (como chats y papel). Las notificaciones automatizadas, la gestión de inventario predictiva y la visibilidad del ciclo de vida de los activos impactan directamente en la reducción del **MTTR (Tiempo Medio de Reparación)** y aumentan la disponibilidad de la maquinaria.
 
 # Bibliografía 
 
