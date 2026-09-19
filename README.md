@@ -3740,25 +3740,23 @@ Los principales avances en la implementación durante este sprint fueron
 
 |Repository|Branch|Commit Id|Commit Message|Commit Message Body|Commited on|
 |:---------|:-----|:--------|:-------------|:------------------|:----------|
-|||||||
+|Landing-Page|feature/landing-page-presentation|0128950|feat: Enhance index.html with meta tags and header structure||Sep 19, 2026|
+|Landing-Page|feature/landing-page-presentation|18ee3c6|styles: Add base styles and CSS variables||Sep 19, 2026|
+|Landing-Page|feature/landing-page-presentation|51ba71f|Merge pull request #1 from TechMakers-upc/Feature/landing-page||Sep 19, 2026|
+|Landing-Page|feature/functions-landing|c7507e1|feat(landing): implement features section and add UI assets||Sep 19, 2026|
+|Landing-Page|feature/functions-landing|c0f0ae4|Merge pull request #3 from TechMakers-upc/feature/functions-landing||Sep 19, 2026|
+|Landing-Page|feature/benefints-landing-page|ef53f10|Update index.html||Sep 19, 2026|
+|Landing-Page|feature/benefints-landing-page|2b78517|Merge pull request #4 from TechMakers-upc/feature/Benefits-Landing-Page||Sep 19, 2026|
+|Landing-Page|main|eb0f365|feat: add subscription plans information cards||Sep 19, 2026|
+
 
 #### 5.2.1.5. Execution Evidence for Sprint Review. 
 
-Los avances realizados durante este Sprint fueron 
-
-**Capturas de pantalla de los avances realizados**
-
-
-
-**Enlace al video de visualización y navegación:**
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review. 
 
 
-
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review. 
-
-
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint. 
 
