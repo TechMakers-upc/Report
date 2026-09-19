@@ -3353,8 +3353,11 @@ Esta sección corresponde a los productos usados para la administración de proy
 
 |Producto|Proposito de uso|Ruta de referencia|
 |:-------|:---------------|:-----------------|
-|Trello| Organización de las actividades del proyecto, seguimiento de tareas y gestión del Product Backlog|https://trello.com/b/yJyuiOSO
+|Trello| Organización de las actividades del proyecto, seguimiento de tareas y gestión del Product Backlog|https://trello.com/b/yJyuiOSO|
 |GitHub|Alojamiento de repos, control de versiones y revision de código mediante Pull Requests|https://github.com/TechMakers-upc/Report|
+|Google Drive|Almacenamiento de entrevistas realizadas|https://drive.google.com|
+|Whatsapp|Comunicacion rapida para resolver dudas y compartir informacion|https://wa.me/|
+|Discord|Coordinacion entre los integrantes del equipo mediante canales de voz|https://discord.com/|
 ||||
 
 **Requirements Management** 
@@ -3364,7 +3367,7 @@ En esta sección se presentan los productos usados para la gestión de los requi
 |Producto|Proposito de uso|Ruta de referencia|
 |:-------|:---------------|:-----------------|
 |Uxpressia|Elaboración de User Personas, User Journey Maps, Empathy Maps y otras herramientas utilizadas para identificar y analizar las necesidades, problemas y características de los usuarios del proyecto| https://uxpressia.com/w/v8FzI/t/zbzV3|
-|Figjam|Elaboración colaborativa del Big Picture y Design-Level EventStorming para el modelado de dominio|https://www.figma.com/board/fFAW94zEsw4HGJnAICg41F/TechMakers-EventStorming?node-id=0-1&t=UzKfOfmFc1j0e5H7-1|
+|Figjam|Elaboración colaborativa del Big Picture y Design-Level EventStorming para el modelado de dominio|https://www.figma.com/es-la/figjam/|
 |Trello|Gestión y organización del Product Backlog, historias de usuario|https://trello.com/b/yJyuiOSO|
 ||||
 
@@ -3374,7 +3377,7 @@ A continuación se presentan los productos utilizados para el diseño de interfa
 
 |Producto|Proposito de uso|Ruta de referencia|
 |:-------|:---------------|:-----------------|
-|Figma|Diseño de wireframes,mockups,prototipos|
+|Figma|Diseño de wireframes,mockups,prototipos|https://www.figma.com|
 ||||
 
 **Software Development** 
@@ -3389,10 +3392,11 @@ En esta sección se encuentran las herramientas usadas por los integrantes del e
 
 **Software Deployment** 
 
-Aca se presentan los productos usados para el despliegue de nuestros productos de software.
+Se presentan los productos usados para el despliegue de nuestros productos de software.
 
 |Producto|Proposito de uso|Ruta de referencia|
 |:-------|:---------------|:-----------------|
+|GitHub Pages|Plataforma de despliegue para el landing page|https://docs.github.com/es/pages
 ||||
 
 **Software Documentation**
@@ -3401,6 +3405,7 @@ A continuación se presentan los productos utilizados para documentar el softwar
 
 |Producto|Proposito de uso|Ruta de referencia|
 |:-------|:---------------|:-----------------|
+|MarkDown|Formato usado para estructurar y representar la documentacion|https://www.markdownguide.org/|
 ||||
 
 ### 5.1.2. Source Code Management. 
@@ -3434,6 +3439,13 @@ A fin de asegurar la calidad, mantenibilidad y legibilidad del código a lo larg
 
 ### 5.1.4. Software Deployment Configuration. 
 
+El proceso de despliegue de la solución busca garantizar que, desde el repositorio de código fuente, se pueda realizar correctamente la publicación del producto digital correspondiente.
+
+#### Landing Page
+
+* Entorno de destino: GitHub Pages
+
+* Proceso de despliegue: Los cambios realizados y previamente validados en el Landing Page, como archivos HTML, CSS e imágenes, se integran en la rama principal del repositorio. A partir de la actualización del repositorio mediante un push o merge, GitHub realiza automáticamente el proceso de publicación de los archivos estáticos utilizando GitHub Pages. Finalmente, se verifica el despliegue ingresando al enlace público generado para comprobar que el Landing Page se encuentre disponible y funcione correctamente.
 
 
 ## 5.2. Landing Page, Services & Applications Implementation. 
@@ -3509,14 +3521,14 @@ En esta sección registramos y explicamos el avance del equipo durante el Sprint
   <tr>
     <th> Sprint 1 Velocity
     </th>
-    <td> 11
+    <td> 9
     </td>
   </tr>
 
   <tr>
     <th> Sum of Story Points
     </th>
-    <td> 11
+    <td> 9
     </td>
   </tr>
 </table>
@@ -3524,22 +3536,26 @@ En esta sección registramos y explicamos el avance del equipo durante el Sprint
 
 #### 5.2.1.2. Aspect Leaders and Collaborators. 
 
-A continuación se presenta la Leadership And Collaboration Matrix elaborada para el desarrollo de este Sprint.
+A continuación se presenta la Leadership and Collaboration Matrix elaborada para el desarrollo de este Sprint 1 con el despliegue de la Landing Page
 
-Los aspectos que se tomarán en cuenta son:
 
-- Aspect 1:
-- Aspect 2:
-- ...
+| Team Member (Last Name, First Name) | GitHub Username| Landing Page Hero & Navbar<br>Leader (L) / Collaborator (C) | Features & Usage Guide Section<br>Leader (L) / Collaborator (C) | Segmented Benefits & Testimonials<br>Leader (L) / Collaborator (C) | Monthly & Annual Pricing Views<br>Leader (L) / Collaborator (C) | FAQ Component & Support<br>Leader (L) / Collaborator (C) |
+| ----------------------------------- | ------------------------------------------------ | ------------------------------------------------------ | ----------------------------------------------------------------------- | ---------------------------------------------------------- | ----------------------------------------------------------- | --------------------------------------------------------------- |
+| Rojas Huaranga, Diego Rances | diego27-16 | L | C | C | C | C |
+| Mendoza Boluarte, Pierre Alessandro | pierreale2302 | C | L | C | C | C |
+| Córdova, Alvar Lucas | AlvarLC | C | C | L | C | C |
+| Landa Sánchez, Sunio Danilo | DanLandio | C | C | C | L | C |
+| Villanueva Rodríguez, Giuseppe Adrián | Giuseppe152004 | C | C | C | C | L |
 
-|Team Member |GitHub Username|Aspect 1:  | Aspect 2:  |  ... |
-|:-----------|:--------------|----|----|----|
+
 
 #### 5.2.1.3. Sprint Backlog 1. 
 
-El principal objetivo de este sprint fue el desarrollo de la Landing Page (...)
+El objetivo principal del Sprint 1 fue desarrollar la Landing Page de FixCore con las principales secciones e informacion dirigida a los segmentos definidos para la plataforma. 
 
 Enlace al tablero publico en Trello: 
+
+[Tablero Trello Sprint Backlog 1](https://trello.com/b/8ilypk4J/sprint-backlog-1-techmakers)
 
 <div align="center">
 <table border="1">
@@ -3547,10 +3563,12 @@ Enlace al tablero publico en Trello:
     <th>Sprint #</th>
     <th colspan="7">Sprint 1</th>
   </tr>
+
   <tr>
     <th colspan="2">User Story</th>
     <th colspan="6">Work Item / Task</th>
   </tr>
+
   <tr>
     <th>Story ID</th>
     <th>Story Title</th>
@@ -3563,42 +3581,100 @@ Enlace al tablero publico en Trello:
   </tr>
 
   <tr>
-    <td rowspan="2"></td>
-    <td rowspan="2"></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td rowspan="2">US59</td>
+    <td rowspan="2">Conocer FixCore</td>
+    <td>T001</td>
+    <td>Develop Landing Page Hero</td>
+    <td>Implementar la sección principal del Hero con la propuesta de valor y el llamado a la acción de FixCore.</td>
+    <td>2</td>
+    <td>Rojas Huaranga, Diego Rances</td>
+    <td>Done</td>
   </tr>
 
   <tr>
-    <td rowspan="2"></td>
-    <td rowspan="2"></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>T002</td>
+    <td>Add Landing Page Navbar</td>
+    <td>Implementar la barra de navegación con logo, enlaces a las secciones de FixCore y diseño responsivo.</td>
+    <td>2</td>
+    <td>Rojas Huaranga, Diego Rances</td>
+    <td>Done</td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td rowspan="2">US60</td>
+    <td rowspan="2">Conocer funcionalidades de FixCore</td>
+    <td>T003</td>
+    <td>Develop Features Section</td>
+    <td>Desarrollar la vista que detalla las funcionalidades principales y el dashboard de la plataforma FixCore.</td>
+    <td>3</td>
+    <td>Mendoza Boluarte, Pierre Alessandro</td>
+    <td>Done</td>
   </tr>
+
+  <tr>
+    <td>T004</td>
+    <td>Design User Guide Section</td>
+    <td>Diseñar e implementar los pasos explicativos (System Preview) sobre cómo funciona y se usa FixCore.</td>
+    <td>2</td>
+    <td>Mendoza Boluarte, Pierre Alessandro</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US61</td>
+    <td rowspan="2">Conocer beneficios según el segmento</td>
+    <td>T005</td>
+    <td>Write Benefits for Each Segment</td>
+    <td>Redactar e implementar la sección de beneficios de FixCore adaptada a los diferentes segmentos objetivo.</td>
+    <td>2</td>
+    <td>Córdova, Alvar Lucas</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>T006</td>
+    <td>Add User Testimonials</td>
+    <td>Diseñar e incorporar la sección de testimonios para respaldar el uso de FixCore.</td>
+    <td>2</td>
+    <td>Córdova, Alvar Lucas</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US62</td>
+    <td rowspan="2">Consultar planes de FixCore</td>
+    <td>T007</td>
+    <td>Develop Monthly Pricing Plans</td>
+    <td>Implementar la tarjeta de planes de suscripción mostrando sus características y tarifa mensual.</td>
+    <td>2</td>
+    <td>Landa Sánchez, Sunio Danilo</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T008</td>
+    <td>Develop Annual Pricing Plans</td>
+    <td>Implementar la funcionalidad para alternar visualmente a la vista de facturación con precio anual.</td>
+    <td>2</td>
+    <td>Landa Sánchez, Sunio Danilo</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US63</td>
+    <td rowspan="2">Consultas adicionales sobre FixCore</td>
+    <td>T009</td>
+    <td>Add Frequently Asked Questions</td>
+    <td>Implementar la sección de FAQ (preguntas frecuentes) y el Footer para resolver dudas adicionales de FixCore.</td>
+    <td>3</td>
+    <td>Villanueva Rodríguez, Giuseppe Adrián</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>T010</td>
+    <td>Write Terms and Conditions</td>
+    <td>Redactar e implementar la sección de términos y condiciones de uso de la plataforma FixCore.</td>
+    <td>2</td>
+    <td>Villanueva Rodríguez, Giuseppe Adrián</td>
+    <td>Done</td>
+  </tr>
+
 </table>
 </div>
 
