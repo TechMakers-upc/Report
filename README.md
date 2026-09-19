@@ -664,7 +664,7 @@ IBM Maximo
 * ¿Qué tan complejo les resulta estandarizar los reportes de mantenimiento y KPIs para entregárselos a diferentes clientes?
 * ¿Suelen utilizar herramientas de automatización de flujos de trabajo o integración de APIs en sus operaciones diarias?
 * ¿Qué funcionalidades considera indispensables en una plataforma digital para que decida utilizarla como el motor operativo de todos sus técnicos (ej. webhooks, portal multi-cliente, alertas en tiempo real)?
-* ¿Qué tan importante sería para su firma poder integrar el sistema de mantenimiento con otras herramientas de comunicación (como notificaciones automáticas vía n8n a WhatsApp)?
+* ¿Qué tan importante sería para su firma poder integrar el sistema de mantenimiento con otras herramientas de comunicación (como notificaciones automáticas vía WhatsApp)?
 * ¿Cree que ofrecer a sus clientes una herramienta ágil para que les reporten fallas mejoraría la percepción de su servicio tercerizado? ¿Por qué?
 * ¿Preferiría un modelo de precios basado en la cantidad de técnicos (usuarios) o en la cantidad de plantas/clientes gestionados?
 * ¿Estaría dispuesto a recomendar e implementar este sistema directamente en la infraestructura tecnológica de sus clientes?
@@ -716,16 +716,16 @@ IBM Maximo
       <td>San Miguel</td>
     </tr>
     <tr>
-      <td><strong>Inicio de la entrevista</strong></td>
-      <td>11:59 am</td>
+      <td><strong>Timing de la entrevista</strong></td>
+      <td>Inicia: 00:00 - Termina: 4:38</td>
     </tr>
     <tr>
       <td><strong>Duración</strong></td>
-      <td>4.56 min</td>
+      <td>4:38 min</td>
     </tr>
     <tr>
       <td><strong>Enlace</strong></td>
-      <td><a href="URL_DEL_VIDEO">aca colocamos el link del video (todas las entrevistas juntas en uno solo)</a></td>
+      <td><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423973_upc_edu_pe/IQBCKuUvc8VeT4YtxyBRxNnnAerbBFUqAE8C5H7KH6vx3GU?e=f8X1Pp">Video de las entrevistas</a></td>
     </tr>
   </tbody>
 </table>
@@ -792,8 +792,8 @@ Yo creo que entre 500 a 1000 soles. Incluso un poquito más. O sea, también ten
       <td>Magdalena del Mar</td>
     </tr>
     <tr>
-      <td><strong>Inicio de la entrevista</strong></td>
-      <td>4:38</td>
+      <td><strong>Timing de la entrevista</strong></td>
+      <td>Inicia: 4:38 - Termina: 8:57</td>
     </tr>
     <tr>
       <td><strong>Duración</strong></td>
@@ -801,7 +801,7 @@ Yo creo que entre 500 a 1000 soles. Incluso un poquito más. O sea, también ten
     </tr>
     <tr>
       <td><strong>Enlace</strong></td>
-      <td><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423973_upc_edu_pe/IQD8ECWrYrRxQaNhmjXB91vmAWdSEk3YRD64TUu5xywjVz8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=WNbf7E">Video de las entrevistas</a></td>
+      <td><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423973_upc_edu_pe/IQBCKuUvc8VeT4YtxyBRxNnnAerbBFUqAE8C5H7KH6vx3GU?e=f8X1Pp">Video de las entrevistas</a></td>
     </tr>
   </tbody>
 </table>
@@ -876,7 +876,7 @@ Yo creo que pagaría entre 80 y 100 dólares mensuales si de verdad me soluciona
     </tr>
     <tr>
       <td><strong>Enlace</strong></td>
-      <td><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423973_upc_edu_pe/IQD8ECWrYrRxQaNhmjXB91vmAWdSEk3YRD64TUu5xywjVz8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=WNbf7E">Video de las entrevistas</a></td>
+      <td><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423973_upc_edu_pe/IQBCKuUvc8VeT4YtxyBRxNnnAerbBFUqAE8C5H7KH6vx3GU?e=f8X1Pp">Video de las entrevistas</a></td>
     </tr>
   </tbody>
 </table>
@@ -958,7 +958,7 @@ Dependerá de los módulos y analíticas integradas, basándose en que tan útil
     </tr>
     <tr>
       <td><strong>Enlace</strong></td>
-      <td><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423973_upc_edu_pe/IQD8ECWrYrRxQaNhmjXB91vmAWdSEk3YRD64TUu5xywjVz8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=WNbf7E">Video de las entrevistas</a></td>
+      <td><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423973_upc_edu_pe/IQBCKuUvc8VeT4YtxyBRxNnnAerbBFUqAE8C5H7KH6vx3GU?e=f8X1Pp">Video de las entrevistas</a></td>
     </tr>
   </tbody>
 </table>
@@ -1023,7 +1023,7 @@ Hola me llamo Valeria Salazar, trabajo en el área de Operaciones en mi empresa,
     </tr>
     <tr>
       <td><strong>Enlace</strong></td>
-      <td><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423973_upc_edu_pe/IQD8ECWrYrRxQaNhmjXB91vmAWdSEk3YRD64TUu5xywjVz8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=WNbf7E">Video de las entrevistas</a></td>
+      <td><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423973_upc_edu_pe/IQBCKuUvc8VeT4YtxyBRxNnnAerbBFUqAE8C5H7KH6vx3GU?e=f8X1Pp">Video de las entrevistas</a></td>
     </tr>
   </tbody>
 </table>
@@ -1206,7 +1206,7 @@ Sí, siempre que sea sencillo, estable y no requiera demasiado tiempo de capacit
     </tr>
     <tr>
       <td><strong>Enlace</strong></td>
-      <td><a href="URL_DEL_VIDEO"></a></td>
+      <td><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423973_upc_edu_pe/IQBCKuUvc8VeT4YtxyBRxNnnAerbBFUqAE8C5H7KH6vx3GU?e=f8X1Pp"></a>Video de las entrevistas</td>
     </tr>
   </tbody>
 </table>
@@ -1290,7 +1290,7 @@ Lo que más me incomoda es tener que preguntar varias veces dónde está determi
     </tr>
     <tr>
       <td><strong>Enlace</strong></td>
-      <td><a href="URL_DEL_VIDEO"></a></td>
+      <td><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423973_upc_edu_pe/IQBCKuUvc8VeT4YtxyBRxNnnAerbBFUqAE8C5H7KH6vx3GU?e=f8X1Pp"></a>Video de las entrevistas</td>
     </tr>
   </tbody>
 </table>
@@ -1374,7 +1374,7 @@ Lo que más me molesta es registrar varias veces la misma información. Preferir
     </tr>
     <tr>
       <td><strong>Enlace</strong></td>
-      <td><a href="URL_DEL_VIDEO"></a></td>
+      <td><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423973_upc_edu_pe/IQBCKuUvc8VeT4YtxyBRxNnnAerbBFUqAE8C5H7KH6vx3GU?e=f8X1Pp"></a>Video de las entrevistas</td>
     </tr>
   </tbody>
 </table>
