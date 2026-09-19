@@ -3135,13 +3135,105 @@ El mock-up aplica los principios de diseño responsivo *Mobile-First* a través 
 
 ## 4.4. Web Applications UX/UI Design. 
 
+En esta sección se detalla el diseño visual e interactivo de la plataforma web y móvil de FixCore, un sistema open-source diseñado para optimizar y centralizar el mantenimiento industrial. La propuesta se fundamenta en las necesidades de los usuarios, criterios de usabilidad y la estructura de información planificada previamente, asegurando armonía con la identidad visual del proyecto.
+
+El desarrollo se divide en cuatro apartados principales: los Wireframes, que establecen la distribución y jerarquía visual de los elementos en cada pantalla; los Wireflow Diagrams, que muestran la secuencia de navegación según los propósitos de cada usuario; los Mock-ups, que reflejan el diseño gráfico final aplicando la paleta de estilos; y los User Flow Diagrams, que conectan las interfaces con el recorrido ideal y las posibles rutas ante errores o imprevistos.
+
+Los perfiles clave contemplados son el Jefe de Planta, quien administra los recursos y la planificación; el Técnico, enfocado en la ejecución y reporte directo desde la zona de operaciones; y el Gerente de Operaciones, que supervisa el rendimiento general a nivel ejecutivo.
+
 ### 4.4.1. Web Applications Wireframes. 
+
+Esta sección presenta los wireframes de baja fidelidad de FixCore, diseñados en Figma. La plataforma se estructuró bajo un enfoque mobile-first y responsivo, adaptándose a los tres roles principales del sistema (Jefe de Planta, Técnico y Gerente de Operaciones).
+
+<img src="./Assets/Images/Captura de pantalla 2026-09-15 035232.png" alt="wireframes">
+
+Explicación de la propuesta:
+
+* Estructura consistente: Se utilizaron tarjetas (cards), barras de navegación fijas y botones grandes para asegurar una lectura rápida y evitar errores operativos en la planta.
+
+* Jerarquía visual: Al tratarse de wireframes estructurales, la jerarquía se estableció mediante tipografías escalonadas, líneas divisorias y bloques de contenido delimitados, utilizando variaciones de tono en lugar de color para diferenciar campos y contenedores.
+
+* Diseño inclusivo: Se priorizaron áreas táctiles amplias y formularios sencillos para que los técnicos puedan reportar fallas y gestionar tareas rápidamente desde el campo.
 
 ### 4.4.2. Web Applications Wireflow Diagrams. 
 
-### 4.4.2. Web Applications Mock-ups. 
+En esta sección presentamos los Wireflows diseñados para FixCore, los cuales enlazan la estructura visual de nuestros wireframes de baja fidelidad con los recorridos interactivos que realiza cada rol para alcanzar sus objetivos principales. A diferencia de un flujo de tareas tradicional, este enfoque nos permite visualizar simultáneamente el diseño de cada pantalla y la secuencia de transiciones ante las acciones del usuario, mostrando los cambios de estado mediante la incorporación progresiva de los wireframes correspondientes.
 
-### 4.4.3. Web Applications User Flow Diagrams. 
+Para construir estos diagramas, previamente analizamos las rutas típicas de interacción de nuestros usuarios. El desarrollo se centró en los perfiles principales que definimos para el sistema: el Jefe de Planta (enfocado en la administración de activos y la planificación), el Técnico (responsable de la ejecución y el reporte directo en campo) y el Gerente de Operaciones (orientado a la supervisión macro y la revisión de métricas).
+
+#### 4.4.2.1. Wireflow 01 — Jefe de Planta registra su cuenta y maquinas. 
+
+Usuario: Jefe de planta
+Obetivo de usuario: Como Jefe de Planta, deseo registrarme con una cuenta y a la vez las máquina en el sistema indicando sus datos técnicos y ubicación para llevar un control centralizado de los activos que requieren mantenimiento preventivo y correctivo.
+
+<img src="./Assets/Images/Captura de pantalla 2026-09-15 043453.png" alt="wireframes"> 
+
+Explicación del flujo: Nuestro flujo arranca en la pantalla principal de acceso, donde ingresamos el usuario y la contraseña. Al presionar el botón de inicio de sesión, el sistema valida las credenciales y nos lleva  hacia el panel de bienvenida adaptado específicamente al perfil del usuario (ya sea el tablero del Jefe de Planta, la vista operativa del Técnico o el resumen ejecutivo del Gerente de Operaciones). Una vez en el panel principal del Jefe de Planta, desde donde accedemos al módulo de maquinaria para agregar un nuevo equipo, lo que nos dirige hacia el formulario de registro en su estado inicial. Ingresamos los datos obligatorios, como nombre, planta, categoría y nivel de criticidad. Al confirmar la acción, el sistema valida los datos y nos redirige al listado general de activos actualizado. Con esto logramos automatizar el registro y dejamos atrás los controles en papel o Excel.
+
+#### 4.4.2.2. Wireflow 02 — Técnico accede a la informacion de maquinas. 
+
+Usuario: Técnico
+Obetivo de usuario: Como Técnico de campo, deseo observar los fallos de las maquinas y dirigirme a la planta asignada, reportarme para que la incidencia quede registrada formalmente y pueda ser atendida sin retrasos.
+
+<img src="./Assets/Images/Captura de pantalla 2026-09-15 050753.png" alt="wireframes"> 
+
+Explicación del flujo: Este recorrido parte de la interfaz móvil del Técnico, donde seleccionamos la opción abrir dependiendo la maquina a trabajar y así visualizar el formulario correspondiente. Elegimos la máquina afectada y verificamos la prioridad. Al presionar el botón "ACEPTAR", la interfaz muestra un estado de confirmación y refresca de inmediato el panel de tareas asignadas con la nueva alerta visible. Diseñamos este flujo para garantizar una baja fricción y agilizar la comunicación directa desde el área de operaciones.
+
+#### 4.4.2.3. Wireflow 03 — Gerente de Operaciones revisa el resumen de operaciones
+
+Usuario: Gerente de Operaciones
+Obetivo de usuario: Como Gerente de Operaciones, deseo consultar un resumen general de las actividades y el estado de las plantas para evaluar el rendimiento general y tomar decisiones informadas.
+
+<img src="./Assets/Images/Captura de pantalla 2026-09-15 051008.png" alt="wireframes"> 
+
+Explicación del flujo: El flujo comienza en el panel ejecutivo del Gerente de Operaciones, donde visualizamos las métricas globales del estado de las plantas. Al seleccionar un indicador o una planta en particular, el wireframe transiciona hacia una vista detallada que muestra el historial de intervenciones, las órdenes de trabajo y los tiempos muertos acumulados. De esta manera, facilitamos una auditoría rápida y transparente del desempeño operativo.
+
+### 4.4.3. Web Applications Mock-ups. 
+
+En esta sección presentamos los Mock-ups de alta fidelidad, los cuales materializan visualmente los wireframes que definimos previamente para FixCore. Para su desarrollo en Figma, aplicamos de manera rigurosa los lineamientos de nuestro Design System, integrando la paleta de colores corporativa, la jerarquía tipográfica, el sistema de espaciados y los componentes de interfaz estandarizados, garantizando así total coherencia gráfica de nuestro proyecto.
+
+<img src="./Assets/Images/maqueta0.png" alt="maqueta0">
+
+Explicación de la propuesta:
+Los mock-ups reflejan fielmente el diseño visual definitivo de la plataforma. Implementamos una interfaz limpia y estructurada mediante tarjetas (cards), barras de navegación intuitivas y contenedores claramente delimitados que reducen la fatiga visual y facilitan la lectura rápida de los datos. La selección cromática prioriza contrastes óptimos para asegurar una legibilidad excelente tanto en monitores de oficina como en las pantallas móviles utilizadas por los técnicos en la fábrica.
+
+Asimismo, cuidamos la accesibilidad y el diseño inclusivo en cada componente. Los elementos interactivos —como botones de acción primaria y campos de formulario— cuentan con áreas táctiles amplias y estados visuales definidos (hover, active, disabled), permitiendo que los operarios interactúen con la aplicación sin errores accidentales. De este modo, logramos una interfaz moderna, profesional y altamente funcional para la gestión del mantenimiento industrial.
+
+### 4.4.4. Web Applications User Flow Diagrams. 
+
+Los diagramas de flujo de usuario que documentamos en esta sección representan la evolución de alta fidelidad de los Wireflows que presentamos previamente. Mientras que los wireflows operan con representaciones esquemáticas de baja fidelidad, los User Flows integran los mock-ups finales de FixCore junto con el detalle completo de las trayectorias que nuestros usuarios pueden recorrer dentro del sistema: tanto el camino ideal u esperado (happy path) como los caminos alternativos (unhappy paths) que se activan ante errores, validaciones fallidas o decisiones operativas que se apartan del flujo principal.
+
+Estos flujos de usuario mantienen una total consistencia con los wireflows que definimos en esta sección, lo que garantiza una trazabilidad de extremo a extremo en todo nuestro proceso de diseño de software. Cada uno de los diagramas detalla con precisión los puntos de decisión, las condiciones lógicas de validación y las transiciones de pantallas, todo ello complementado con anotaciones que explican con claridad el comportamiento exacto del sistema ante cada bifurcación. Diseñamos estas rutas alternativas considerando rigurosamente los escenarios reales de mantenimiento industrial que identificamos durante las entrevistas con los representantes de nuestros segmentos objetivo (Jefes de Planta, Técnicos y Gerentes de Operaciones).
+
+#### 4.4.4.1. Flujo de usuario 01 — Jefe de planta registra su cuenta y máquinas
+
+Persona de usuario: Jairo (Jefe de Planta)
+
+Objetivo del usuario: Como Jefe de Planta, deseo registrarme con una cuenta y a la vez las máquinas en el sistema indicando sus datos técnicos y ubicación para llevar un control centralizado de los activos que requieren mantenimiento preventivo y correctivo.
+
+<img src="./Assets/Images/jefe-planta.png" alt="jefe-de-planta">
+
+Explicación del flujo: El recorrido inicia en la pantalla principal de acceso (Login), donde el usuario ingresa sus credenciales (usuario y contraseña). Al presionar el botón de inicio de sesión, el sistema valida la información y lo identifica, permitiéndole seleccionar su rol correspondiente (Jefe de Planta, Técnico o Gerente de Operaciones). Una vez dentro del panel principal del Jefe de Planta, este accede a la sección para registrar una nueva planta o empresa ingresando los datos solicitados (nombre de la planta, dirección exacta, ciudad/ubicación y cantidad de máquinas iniciales). Al confirmar el registro, el sistema procesa la información y redirige al usuario hacia su panel de control principal, donde podrá supervisar el estado general de la planta, gestionar órdenes de trabajo y administrar la maquinaria.
+
+#### 4.4.4.2. Flujo de usuario 02 — Técnico accede a la información de máquinas
+
+Persona de usuario: Miguel (Técnico de campo)   
+
+Objetivo del usuario: Como Técnico de campo, deseo observar los fallos de las máquinas y dirigirme a la planta asignada, reportarme para que la incidencia quede registrada formalmente y pueda ser atendida sin retrasos.
+
+<img src="./Assets/Images/tecnico.png" alt="tecnico">
+
+Explicación del flujo: El flujo comienza en la pantalla de selección de rol, donde el usuario se identifica como "Técnico" tras el inicio de sesión. Al ingresar, el sistema muestra el panel de bienvenida de Miguel junto con un módulo de filtros avanzados por estado, prioridad, fechas y técnico asignado, además de las órdenes de trabajo pendientes o en curso. Posteriormente, al navegar al apartado de "Maquinaria", el técnico puede revisar el listado detallado de equipos y su nivel de criticidad ("No presenta fallos", "Necesita mantenimiento" o "Fallos críticos"). Finalmente, el usuario elige una máquina específica para consultar su ficha técnica y detalles del problema, disponiendo de un botón de aceptación ("Aceptar") para confirmar la intervención y comenzar con la labor operativa. 
+
+#### 4.4.4.3. Flujo de usuario 03 — Gerente de Operaciones revisa el resumen de operaciones
+
+Persona de usuario: Carlos (Gerente de Operaciones)
+
+Objetivo del usuario: Como Gerente de Operaciones, deseo consultar un resumen general de las actividades y el estado de las plantas para evaluar el rendimiento general y tomar decisiones informadas.
+
+<img src="./Assets/Images/Gerente-operaciones.png" alt="Gerente-de-operaciones">
+
+Explicación del flujo: El recorrido parte de la pantalla de autenticación, donde el usuario selecciona el rol de "Gerente de Operaciones". Al acceder al sistema, se visualiza el tablero ejecutivo que incluye un resumen general de operaciones (número de plantas activas, fallas críticas, técnicos disponibles y órdenes abiertas), así como el estado detallado por planta y el estatus de cada técnico. Desde esta vista principal, el gerente puede profundizar en la sección de órdenes programadas para analizar los datos de mantenimiento regular, con la opción de editar o registrar una nueva orden de trabajo si es necesario. Por último, el flujo permite consultar el historial completo de intervenciones y el registro detallado de fallas de los equipos, facilitando la auditoría y la supervisión gerencial.
 
 ## 4.5. Web Applications Prototyping. 
 
