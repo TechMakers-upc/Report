@@ -37,9 +37,34 @@
 
 # Registro de Versiones del Informe 
 
-|Versión|Fecha|Autor|Fecha de modificación|
-|:------|:----|:----|:--------------------|
-|||||
+<table class="c0" style="border-collapse: collapse; width: 100%;">
+<tr class="c7">
+<td class="c5" style="border: 1px solid black;">Versión</td>
+<td class="c5" style="border: 1px solid black;">Fecha</td>
+<td class="c5" style="border: 1px solid black;">Autor</td>
+<td class="c5" style="border: 1px solid black;">Descripción de modificación</td>
+</tr>
+
+<tr class="c7">
+<td class="c5" style="border: 1px solid black;">TB1</td>
+<td class="c5" style="border: 1px solid black;">29/08/2026</td>
+<td class="c5" style="border: 1px solid black;">
+Alvar Lucas Córdova  <br><br>
+Sunio Danilo Landa Sánchez<br><br>
+Giuseppe Adrián Villanueva Rodríguez <br><br>
+Pierre Alessandro Mendoza Boluarte<br><br>
+Diego Rances Rojas Huaranga 
+</td>
+<td class="c5" style="border: 1px solid black;">Se han incluído los siguientes capítulos:
+
+- Capítulo I: Introducción
+- Capítulo II: Requirements Elicitation & Analysis
+- Capítulo III: Requirements Specification
+- Capítulo IV: Product Design
+- Avance del Capítulo V: Product Implementation, - Validation & Deployment hasta el punto 5.2.1.8
+- Avance de Conclusiones, Bibliografía y Anexos</td>
+</tr>
+</table>
 
 # Project Report Collaboration Insights 
 
@@ -3306,37 +3331,296 @@ En este apartado mostramos los Database Diagrams correspondientes a cada Bounded
 
 # Capítulo V: Product Implementation, Validation & Deployment  
 
-
 ## 5.1. Software Configuration Management. 
 
 ### 5.1.1. Software Development Environment Configuration. 
 
+En esta sección se presentan las herramientas usadas por los integrantes del equipo durante el desarrollo del proyecto, considerando cada tipo de actividades realizadas.
+
+**Project Management**
+
+Esta sección corresponde a los productos usados para la administración de proyecto, así como la comunicación entre integrantes.
+
+|Producto|Proposito de uso|Ruta de referencia|
+|:-------|:---------------|:-----------------|
+|Trello| Organización de las actividades del proyecto, seguimiento de tareas y gestión del Product Backlog|https://trello.com/b/yJyuiOSO
+|GitHub|Alojamiento de repos, control de versiones y revision de código mediante Pull Requests|https://github.com/TechMakers-upc/Report|
+||||
+
+**Requirements Management** 
+
+En esta sección se presentan los productos usados para la gestión de los requisitos del proyecto.
+
+|Producto|Proposito de uso|Ruta de referencia|
+|:-------|:---------------|:-----------------|
+|Uxpressia|Elaboración de User Personas, User Journey Maps, Empathy Maps y otras herramientas utilizadas para identificar y analizar las necesidades, problemas y características de los usuarios del proyecto| https://uxpressia.com/w/v8FzI/t/zbzV3|
+|Figjam|Elaboración colaborativa del Big Picture y Design-Level EventStorming para el modelado de dominio|https://www.figma.com/board/fFAW94zEsw4HGJnAICg41F/TechMakers-EventStorming?node-id=0-1&t=UzKfOfmFc1j0e5H7-1|
+|Trello|Gestión y organización del Product Backlog, historias de usuario|https://trello.com/b/yJyuiOSO|
+||||
+
+**Product UX/UI Design** 
+
+A continuación se presentan los productos utilizados para el diseño de interfaces y de experiencia del usuario.
+
+|Producto|Proposito de uso|Ruta de referencia|
+|:-------|:---------------|:-----------------|
+|Figma|Diseño de wireframes,mockups,prototipos|
+||||
+
+**Software Development** 
+
+En esta sección se encuentran las herramientas usadas por los integrantes del equipo para el desarrollo del software relacionado al proyecto.
+
+|Producto|Proposito de uso|Ruta de referencia|
+|:-------|:---------------|:-----------------|
+|Visual Studio Code |Usado para el desarrollo de la Landing Page|https://code.visualstudio.com/
+|Git|Control de versiones|https://git-scm.com/
+||||
+
+**Software Deployment** 
+
+Aca se presentan los productos usados para el despliegue de nuestros productos de software.
+
+|Producto|Proposito de uso|Ruta de referencia|
+|:-------|:---------------|:-----------------|
+||||
+
+**Software Documentation**
+
+A continuación se presentan los productos utilizados para documentar el software del proyecto.
+
+|Producto|Proposito de uso|Ruta de referencia|
+|:-------|:---------------|:-----------------|
+||||
+
 ### 5.1.2. Source Code Management. 
+
+Para administrar los cambios realizados en los distintos ambitos de nuestro proyecto, usamos la plataforma GitHub, en la cual creamos una organización con repositorios correspondientes a cada entregable.
+
+Enlace de la organización: [https://github.com/TechMakers-upc](https://github.com/TechMakers-upc)  
+
+Enlace del repositorio del informe: [https://github.com/TechMakers-upc/Report](https://github.com/TechMakers-upc/Report)  
+
+Enlace del repositorio de la Landing Page: [https://github.com/TechMakers-upc/Landing-Page](https://github.com/TechMakers-upc/Landing-Page)
+
+Además, usamos el flujo de trabajo conocido como "GitFlow".
+
+
 
 ### 5.1.3. Source Code Style Guide & Conventions. 
 
+Para el desarrollo de la solución, el equipo ha adoptado de forma estricta el uso del idioma inglés para toda la nomenclatura del código fuente. Esta aplica a la definición de variables, interfaces, clases, métodos, nombres de archivos y comentarios técnicos dentro de los lenguajes utilizados: HTML, CSS, JavaScript, TypeScript y Java.
+A fin de asegurar la calidad, mantenibilidad y legibilidad del código a lo largo del ciclo de vida del proyecto, se han establecido las siguientes convenciones y guías de estilo para cada tecnología:
+
+* HTML y CSS: Se siguen las directrices de la "HTML Style Guide and Coding Conventions" y la "Google HTML/CSS Style Guide". Esto asegura una estructura semántica clara, el uso de selectores óptimos y un código visualmente limpio.
+
+* JavaScript: La lógica y manipulación general del DOM en el Landing Page se rige por las mejores prácticas establecidas en la "Google JavaScript Style Guide" y las convenciones estándar de MDN/W3C, garantizando consistencia y rendimiento.
+
+* Frontend Framework: Para el desarrollo de las Frontend Web Applications, se adopta la "Angular Coding Style Guide" y la "Google TypeScript Style Guide". Estas guías establecen las convenciones fundamentales para la estructuración de componentes, el tipado estricto y la inyección de dependencias.
+
+* Web Services: La construcción de la API RESTful orientada a servicios se rige bajo la "Google Java Style Guide" y las características de "Spring Boot Features". Esto estandariza el uso de PascalCase para clases e interfaces, camelCase para métodos y atributos, y define las convenciones de arquitectura para los repositorios de Spring Data JPA.
+
+* Especificaciones de Requisitos: La redacción de los escenarios y criterios de aceptación en las historias de usuario se estandariza utilizando las "Gherkin Conventions for Readable Specifications", aplicando sistemáticamente la estructura de comportamiento de negocio Given-When-Then.
+
 ### 5.1.4. Software Deployment Configuration. 
+
+
 
 ## 5.2. Landing Page, Services & Applications Implementation. 
 
 ### 5.2.1. Sprint 1 
-
+En esta sección registramos y explicamos el avance del equipo durante el Sprint 1, tanto en términos del desarrollo del producto en este caso el Landing Page,como en el trabajo colaborativo. El objetivo central de esta iteración fue la construcción y despliegue del sitio web estático que presenta el modelo de negocio de FixCore  
 #### 5.2.1.1. Sprint Planning 1. 
+
+<div align="center">
+<table border="1">
+  <tr>
+    <th> Sprint #
+    </th>
+    <th> Sprint 1
+    </td>
+  </tr>
+  <tr>
+    <th> Sprint Planning Background
+    </th>
+  </tr>
+
+  <tr>
+    <th> Date
+    </th>
+    <td> 2026-09-11
+    </td>
+  </tr>
+
+  <tr>
+    <th> Time
+    </th>
+    <td> 7:00 PM - 8:PM
+    </td>
+  </tr>
+
+  <tr>
+    <th> Location
+    </th>
+    <td> Discord
+    </td>
+  </tr>
+
+  <tr>
+    <th> Prepared By
+    </th>
+    <td> Alvar Lucas Córdova 
+    </td>
+  </tr>
+
+  <tr>
+    <th> Attendees
+    </th>
+    <td> Sunio Danilo Landa Sánchez<br>Giuseppe Adrián Villanueva Rodríguez<br>Diego Rances Rojas Huaranga<br>Pierre Alessandro Mendoza Boluarte
+    </td>
+    
+  </tr>
+
+  <tr>
+    <th colspan="2"> Sprint Goal & User Stories
+    </th>
+  </tr>
+
+  <tr>
+    <th> Sprint 1 Goal
+    </th>
+    <td> 
+    <b>Our focus is on</b> deploying a clear, responsive, and functional Landing Page that effectively presents the core benefits of the FixCore industrial maintenance platform.<br><br>
+      <b>We believe it delivers</b> a professional first impression and increases trust by providing clear value propositions to our target segments: Plant Managers, Technicians, and Industrial Consultants.<br><br>
+      <b>This will be confirmed when</b> the landing page is successfully deployed and visitors can navigate
+    </td>
+  </tr>
+
+  <tr>
+    <th> Sprint 1 Velocity
+    </th>
+    <td> 11
+    </td>
+  </tr>
+
+  <tr>
+    <th> Sum of Story Points
+    </th>
+    <td> 11
+    </td>
+  </tr>
+</table>
+</div>
 
 #### 5.2.1.2. Aspect Leaders and Collaborators. 
 
+A continuación se presenta la Leadership And Collaboration Matrix elaborada para el desarrollo de este Sprint.
+
+Los aspectos que se tomarán en cuenta son:
+
+- Aspect 1:
+- Aspect 2:
+- ...
+
+|Team Member |GitHub Username|Aspect 1:  | Aspect 2:  |  ... |
+|:-----------|:--------------|----|----|----|
+
 #### 5.2.1.3. Sprint Backlog 1. 
+
+El principal objetivo de este sprint fue el desarrollo de la Landing Page (...)
+
+Enlace al tablero publico en Trello: 
+
+<div align="center">
+<table border="1">
+  <tr>
+    <th>Sprint #</th>
+    <th colspan="7">Sprint 1</th>
+  </tr>
+  <tr>
+    <th colspan="2">User Story</th>
+    <th colspan="6">Work Item / Task</th>
+  </tr>
+  <tr>
+    <th>Story ID</th>
+    <th>Story Title</th>
+    <th>Task ID</th>
+    <th>Task Title</th>
+    <th>Task Description</th>
+    <th>Estimation (hours)</th>
+    <th>Assigned To</th>
+    <th>Status</th>
+  </tr>
+
+  <tr>
+    <td rowspan="2"></td>
+    <td rowspan="2"></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+
+  <tr>
+    <td rowspan="2"></td>
+    <td rowspan="2"></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+</div>
 
 #### 5.2.1.4. Development Evidence for Sprint Review. 
 
+Los principales avances en la implementación durante este sprint fueron (...)
+
+|Repository|Branch|Commit Id|Commit Message|Commit Message Body|Commited on|
+|:---------|:-----|:--------|:-------------|:------------------|:----------|
+|||||||
+
 #### 5.2.1.5. Execution Evidence for Sprint Review. 
+
+Los avances realizados durante este Sprint fueron (...)
+
+**Capturas de pantalla de los avances realizados**
+
+
+
+**Enlace al video de visualización y navegación:**
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review. 
 
+
+
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review. 
+
+
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint. 
 
+A continuación se presentan los aportes realizados por todos los integrantes del grupo.
 
 # Conclusiones 
 
