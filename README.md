@@ -2010,9 +2010,9 @@ El Product Backlog de FixCore reúne las User Stories identificadas para el desa
 | # Orden | User Story ID | Título | Descripción | Story Points |
 | :---: | :---: | :--- | :--- | :---: |
 | 01 | **US59** | Conocer FixCore | Como Visitante, deseo conocer qué es FixCore para entender qué problema de mantenimiento industrial busca resolver. | 2 |
-| 02 | **US60** | Conocer funcionalidades de FixCore | Como Visitante, deseo conocer las principales funcionalidades de FixCore para saber cómo puede ayudar a organizar el mantenimiento de una empresa. | 2 |
-| 03 | **US61** | Conocer beneficios según el segmento | Como Visitante, deseo conocer cómo FixCore puede ayudar a mi tipo de empresa para determinar si la solución responde a mis necesidades. | 3 |
-| 04 | **US63** | Comenzar a utilizar FixCore | Como Visitante, deseo acceder desde el Landing Page a la experiencia de FixCore para comenzar a probar la solución. | 2 |
+| 02 | **US60** | Conocer funcionalidades de FixCore | Como Visitante, deseo conocer las principales funcionalidades de FixCore para saber cómo puede ayudar a organizar el mantenimiento de una empresa. | 1 |
+| 03 | **US61** | Conocer beneficios según el segmento | Como Visitante, deseo conocer cómo FixCore puede ayudar a mi tipo de empresa para determinar si la solución responde a mis necesidades. | 1 |
+| 04 | **US63** | Consultas adicionales sobre FixCore | Como Visitante, quiero que haya un espacio en la Landing Page donde pueda obtener información adicional sobre FixCore para así poder resolver mis dudas. | 1 |
 | 05 | **US62** | Consultar planes de FixCore | Como Visitante, deseo conocer los planes disponibles para evaluar qué alternativa se adapta mejor a mi empresa. | 2 |
 | 06 | **US03** | Registrar máquina | Como Jefe de Planta, deseo registrar una máquina para llevar un control de los activos que requieren mantenimiento. | 5 |
 | 07 | **US05** | Consultar ficha técnica de una máquina | Como Técnico, deseo consultar la ficha técnica de una máquina para conocer sus características antes de realizar un mantenimiento. | 3 |
