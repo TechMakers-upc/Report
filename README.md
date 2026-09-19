@@ -3208,7 +3208,7 @@ Este diagrama muestra la descomposición del servicio encargado de administrar l
 
 <div align="center">
   <strong></strong><br><br>
-  <img src="report/assets/images/ComponentesActivos-dark.png" width="700"><br>
+  <img src="report/assets/images/ComponentesRecursosActivos-dark.png" width="700"><br>
   <em>Fuente: Elaboración propia.</em>
 </div>
 
@@ -3228,7 +3228,7 @@ Este diagrama muestra los componentes principales para la ejecucion del mantenim
 
 <div align="center">
   <strong></strong><br><br>
-  <img src="report/assets/images/ComponentesEjecucion-dark.png" width="700"><br>
+  <img src="report/assets/images/ComponentesEjecucionMonitoreo-dark.png" width="700"><br>
   <em>Fuente: Elaboración propia.</em>
 </div>
 
@@ -3238,7 +3238,7 @@ Este diagrama representa los componentes responsables de administrar el inventar
 
 <div align="center">
   <strong></strong><br><br>
-  <img src="report/assets/images/ComponentesInventario-dark.png" width="700"><br>
+  <img src="report/assets/images/ComponentesInventarioRepuestos-dark.png" width="700"><br>
   <em>Fuente: Elaboración propia.</em>
 </div>
 
@@ -3248,7 +3248,7 @@ Este diagrama muestra la estructura interna del servicio encargado de proporcion
 
 <div align="center">
   <strong></strong><br><br>
-  <img src="report/assets/images/ComponentesReportes-dark.png" width="700"><br>
+  <img src="report/assets/images/ComponentesPanelReportes-dark.png" width="700"><br>
   <em>Fuente: Elaboración propia.</em>
 </div>
 
