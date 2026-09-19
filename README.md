@@ -725,7 +725,7 @@ IBM Maximo
     </tr>
     <tr>
       <td><strong>Enlace</strong></td>
-      <td><a href="URL_DEL_VIDEO">aca colocamos el link del video (todas las entrevistas juntas en uno solo)</a></td>
+      <td><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423973_upc_edu_pe/IQD8ECWrYrRxQaNhmjXB91vmAWdSEk3YRD64TUu5xywjVz8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=WNbf7E">Video de las entrevistas</a></td>
     </tr>
   </tbody>
 </table>
@@ -1010,7 +1010,7 @@ Hola me llamo Valeria Salazar, trabajo en el área de Operaciones en mi empresa,
     </tr>
     <tr>
       <td><strong>Inicio de la entrevista</strong></td>
-      <td>Completar timing</td>
+      <td>4:45</td>
     </tr>
     <tr>
       <td><strong>Duración</strong></td>
@@ -1082,7 +1082,7 @@ Sí, estaría dispuesto, siempre que sea una herramienta estable y fácil de uti
   <tbody>
     <tr>
       <td rowspan="7" align="center" valign="middle" width="200">
-        <img src="" alt="Entrevistado pendiente" width="160">
+        <img src="" alt="" width="160">
       </td>
       <td><strong>Nombre y apellido</strong></td>
       <td>Diego Torres</td>
@@ -1099,24 +1099,11 @@ Sí, estaría dispuesto, siempre que sea una herramienta estable y fácil de uti
       <td><strong>Cargo</strong></td>
       <td>Asistente de Operaciones</td>
     </tr>
-    <tr>
-      <td><strong>Inicio de la entrevista</strong></td>
-      <td>Pendiente</td>
-    </tr>
-    <tr>
-      <td><strong>Duración</strong></td>
-      <td>Pendiente</td>
-    </tr>
-    <tr>
-      <td><strong>Enlace</strong></td>
-      <td>Pendiente de entrevista real</td>
-    </tr>
+
   </tbody>
 </table>
 
-> **Nota provisional:** Entrevista simulada utilizada únicamente para estructurar el documento. Debe ser reemplazada y validada con la entrevista real antes de la entrega final.
 
-**Resumen provisional:**
 
 **¿Podría indicarme su nombre, cargo y el tipo de servicios de ingeniería o mantenimiento que brinda su empresa?**
 
@@ -1191,18 +1178,8 @@ Sí, siempre que sea sencillo, estable y no requiera demasiado tiempo de capacit
       <td><strong>Ubicación</strong></td>
       <td>Ventanilla</td>
     </tr>
-    <tr>
-      <td><strong>Inicio de la entrevista</strong></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td><strong>Duración</strong></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td><strong>Enlace</strong></td>
-      <td><a href="URL_DEL_VIDEO"></a></td>
-    </tr>
+
+
   </tbody>
 </table>
 
@@ -1285,7 +1262,7 @@ Lo que más me incomoda es tener que preguntar varias veces dónde está determi
     </tr>
     <tr>
       <td><strong>Enlace</strong></td>
-      <td><a href="URL_DEL_VIDEO"></a></td>
+      <td><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423973_upc_edu_pe/IQD8ECWrYrRxQaNhmjXB91vmAWdSEk3YRD64TUu5xywjVz8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=WNbf7E">Video de las entrevistas</a></td>
     </tr>
   </tbody>
 </table>
@@ -1369,7 +1346,7 @@ Lo que más me molesta es registrar varias veces la misma información. Preferir
     </tr>
     <tr>
       <td><strong>Enlace</strong></td>
-      <td><a href="URL_DEL_VIDEO"></a></td>
+      <td><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423973_upc_edu_pe/IQD8ECWrYrRxQaNhmjXB91vmAWdSEk3YRD64TUu5xywjVz8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=WNbf7E">Video de las entrevistas</a></td>
     </tr>
   </tbody>
 </table>
@@ -1530,7 +1507,6 @@ La entrevistada también manifestó interés en una plataforma multi-cliente que
 
 También se identificó interés en un modelo comercial basado en la cantidad de técnicos y en la posibilidad de personalizar los reportes con la identidad de la empresa contratista.
 
-> **Nota:** Los porcentajes de este segmento corresponden a la única entrevista registrada actualmente. Por ello, estos resultados deben actualizarse cuando se incorporen las entrevistas restantes del segmento.
 
 **Relación con el User Persona**
 
@@ -1656,7 +1632,7 @@ El Árbol de Problemas fue elaborado para jerarquizar visualmente la problemáti
 
 ### Diagrama de Ishikawa
 
-Para complementar el análisis estructural, se aplicó el Diagrama de Ishikawa (Espina de Pescado) categorizando las causas raíz en seis ejes fundamentales: Proceso, Personas, Tecnología, Información, Entorno y Gestión[cite: 6]. Este desglose sistemático no solo demuestra el rigor metodológico, sino que también justifica la multidimensionalidad de la solución FixCore al validar las causas operativas (p. ej., la necesidad de Tecnología móvil para superar las limitaciones del Entorno ruidoso de planta y la agilidad de Proceso para combatir la comunicación fragmentada).
+Para complementar el análisis estructural, se aplicó el Diagrama de Ishikawa (Espina de Pescado) categorizando las causas raíz en seis ejes fundamentales: Proceso, Personas, Tecnología, Información. Este desglose sistemático no solo demuestra el rigor metodológico, sino que también justifica la multidimensionalidad de la solución FixCore al validar las causas operativas (p. ej., la necesidad de Tecnología móvil para superar las limitaciones del Entorno ruidoso de planta y la agilidad de Proceso para combatir la comunicación fragmentada).
 
 <div align="center">
   <strong>Gráfico 2: Diagrama de Ishikawa</strong><br><br>
@@ -1708,7 +1684,6 @@ Los User Personas considerados representan los siguientes segmentos:
 2. **Pymes de Manufactura y Producción**
 3. **Firmas Consultoras y Contratistas de Ingeniería Industrial**
 
-> **Nota:** Una vez definidos los User Personas, los nombres de los segmentos utilizados en la tabla serán reemplazados por el nombre correspondiente de cada User Persona.
 
 ### User Task Matrix - FixCore
 
@@ -1753,7 +1728,7 @@ En todos los casos, las tareas *"Comunicar alertas críticas"*, *"Auditar tiempo
 *   **Las Firmas Consultoras (ej. Víctor)** concentran sus tareas en la gestión a gran escala: auditar KPIs, estandarizar reportes y gestionar operaciones multi-planta para justificar el valor de su servicio tercerizado.
 
 **Coincidencias clave:**
-Todos los perfiles coinciden en la necesidad de un acceso digital unificado y sin fricción (especialmente móvil) que erradique la dependencia del papel y los grupos informales de WhatsApp. Esta convergencia valida el enfoque de FexCore como un núcleo centralizado que conecta la inmediatez del operario con la analítica del gerente.
+Todos los perfiles coinciden en la necesidad de un acceso digital unificado y sin fricción (especialmente móvil) que erradique la dependencia del papel y los grupos informales de WhatsApp. Esta convergencia valida el enfoque de FixCore como un núcleo centralizado que conecta la inmediatez del operario con la analítica del gerente.
 
 ### 2.3.3. User Journey Mapping. 
 
@@ -2278,16 +2253,16 @@ La interfaz de FixCore muta drásticamente según el contexto de uso y el dispos
 
 #### 4.1.2.1. Responsive Design Principles
 
-Los principios de diseño responsivo de FexCore garantizan que la plataforma sea una herramienta de alta precisión tanto para el gerente en su oficina como para el técnico que se desplaza por la planta industrial.
+Los principios de diseño responsivo de FixCore garantizan que la plataforma sea una herramienta de alta precisión tanto para el gerente en su oficina como para el técnico que se desplaza por la planta industrial.
 
 **Mobile-First Approach (Enfoque Técnico-Primero)**
-FexCore adopta un diseño mobile-first riguroso, asumiendo que el reporte de fallas ocurrirá en condiciones adversas (de pie, con prisa o usando guantes). Este enfoque asegura que:
+FixCore adopta un diseño mobile-first riguroso, asumiendo que el reporte de fallas ocurrirá en condiciones adversas (de pie, con prisa o usando guantes). Este enfoque asegura que:
 * El contenido esencial (botones de reporte y estado de la máquina) sea hiper-visible.
 * Las áreas táctiles tengan un tamaño industrial (mínimo 48x48px).
 * La versión móvil (app/PWA) esté centrada en la acción táctica, mientras que la versión de escritorio se expande hacia el análisis estratégico (dashboards y tablas complejas).
 
 **Breakpoints Established**
-FexCore define los siguientes puntos de quiebre para adaptar su interfaz:
+FixCore define los siguientes puntos de quiebre para adaptar su interfaz:
 * **Mobile (0-767px):** Optimizado para operarios en planta. Navegación simplificada, tarjetas apiladas verticalmente y CTAs de ancho completo.
 * **Tablet (768-1023px):** Utilizado por supervisores de área en movimiento. Permite ver columnas duales y vistas previas de órdenes de trabajo.
 * **Desktop (1024-1440px):** Vista analítica para la Gerencia. Tableros de control de 12 columnas, tablas de inventario extendidas y gráficos de mantenimiento predictivo.
@@ -2297,7 +2272,7 @@ La tipografía (Roboto y Open Sans) escala mediante *viewport units* y funciones
 
 #### 4.1.2.2. Web Component States
 
-Los componentes de FexCore comunican sus estados de forma inconfundible para evitar errores críticos en la gestión de mantenimiento:
+Los componentes de FixCore comunican sus estados de forma inconfundible para evitar errores críticos en la gestión de mantenimiento:
 
 **Estados Interactivos**
 * **Default:** Estado base. Tarjetas en *Slate 800* (modo oscuro) o *White* con bordes sutiles en *Slate 200*.
@@ -2308,7 +2283,7 @@ Los componentes de FexCore comunican sus estados de forma inconfundible para evi
 
 #### 4.1.2.3. Form Elements
 
-Los formularios en FexCore están diseñados para requerir menos de 3 clics y minimizar la fricción cognitiva del operario.
+Los formularios en FixCore están diseñados para requerir menos de 3 clics y minimizar la fricción cognitiva del operario.
 
 **Input Fields (Campos de Entrada)**
 * Altura mínima de 48px para facilitar el toque rápido.
@@ -2335,7 +2310,7 @@ Los formularios en FexCore están diseñados para requerir menos de 3 clics y mi
 
 #### 4.1.2.5. Accessibility Guidelines
 
-FexCore cumple con el estándar WCAG AA, priorizando las realidades del trabajo físico.
+FixCore cumple con el estándar WCAG AA, priorizando las realidades del trabajo físico.
 
 **Visual Accessibility (Visibilidad en Planta)**
 * Contraste ultra-alto (> 4.5:1). El sistema debe ser legible bajo la luz solar intensa o la luz fluorescente parpadeante de una fábrica.
@@ -2346,7 +2321,7 @@ FexCore cumple con el estándar WCAG AA, priorizando las realidades del trabajo 
 
 #### 4.1.2.6. Animation Guidelines
 
-En un entorno industrial, la velocidad supera a la estética. Las animaciones en FexCore son pragmáticas y utilitarias.
+En un entorno industrial, la velocidad supera a la estética. Las animaciones en FixCore son pragmáticas y utilitarias.
 
 **Purpose of Animations (Propósito)**
 * **Feedback inmediato:** Confirmar que un toque fue registrado para que el técnico no presione múltiples veces.
@@ -2363,26 +2338,26 @@ En un entorno industrial, la velocidad supera a la estética. Las animaciones en
 
 #### 4.2.1.1. Organización del Landing Page
 
-El Landing Page de FexCore sirve como el punto de entrada principal para tomadores de decisión (Jefes de Planta, Gerentes de Operaciones) que buscan modernizar su gestión de mantenimiento. Su organización está diseñada para guiar al usuario a través de un recorrido de conversión altamente profesional y enfocado en el retorno de inversión (ROI) industrial.
+El Landing Page de FixCore sirve como el punto de entrada principal para tomadores de decisión (Jefes de Planta, Gerentes de Operaciones) que buscan modernizar su gestión de mantenimiento. Su organización está diseñada para guiar al usuario a través de un recorrido de conversión altamente profesional y enfocado en el retorno de inversión (ROI) industrial.
 
 **Estructura Jerárquica en el Landing Page**
 
 La organización del Landing Page sigue una jerarquía visual clara que refleja el proceso lógico de evaluación B2B:
-* **Nivel 1 - Header de Impacto:** El *hero section* presenta el valor principal de FexCore de manera inmediata ("El núcleo de tu mantenimiento industrial"). El visitante entiende en menos de 3 segundos que la plataforma reduce tiempos muertos. Incluye el título principal, subtítulo explicativo, una previsualización de la interfaz móvil/dashboard, y botones de llamada a la acción primarios ("Probar Gratis" / "Solicitar Demo").
-* **Nivel 2 - Beneficios Clave:** Inmediatamente después, se presentan los diferenciadores principales en una cuadrícula de tarjetas (Baja Fricción, Trazabilidad, Alertas por WhatsApp). Responde a la pregunta: ¿Cómo FexCore elimina el caos de los reportes en papel?
+* **Nivel 1 - Header de Impacto:** El *hero section* presenta el valor principal de FixCore de manera inmediata ("El núcleo de tu mantenimiento industrial"). El visitante entiende en menos de 3 segundos que la plataforma reduce tiempos muertos. Incluye el título principal, subtítulo explicativo, una previsualización de la interfaz móvil/dashboard, y botones de llamada a la acción primarios ("Probar Gratis" / "Solicitar Demo").
+* **Nivel 2 - Beneficios Clave:** Inmediatamente después, se presentan los diferenciadores principales en una cuadrícula de tarjetas (Baja Fricción, Trazabilidad, Alertas por WhatsApp). Responde a la pregunta: ¿Cómo FixCore elimina el caos de los reportes en papel?
 * **Nivel 3 - Módulos y Flujo de Trabajo:** Las secciones siguientes explican la funcionalidad paso a paso (1. Escanea QR, 2. Reporta Falla, 3. Reparación Rápida) y profundizan en los módulos principales (Órdenes de Trabajo, Inventario, Dashboard).
 * **Nivel 4 - Footer y Navegación Adicional:** El *footer* proporciona navegación secundaria, enlaces a políticas de privacidad, soporte técnico y opciones de contacto organizadas por función empresarial.
 
 **Principios de Organización Aplicados**
 
-La organización del Landing Page de FexCore aplica los siguientes principios:
+La organización del Landing Page de FixCore aplica los siguientes principios:
 * **Jerarquía visual estricta:** El usuario escanea naturalmente de arriba abajo, siendo guiado desde el problema (tiempos muertos) hacia la solución (software) y la acción (demo).
 * **Progresión pragmática:** La narrativa avanza desde la promesa de valor gerencial hacia la facilidad de uso operativo, mitigando la objeción clásica de "mis técnicos no usarán un sistema complejo".
 * **Agrupación por función:** Características similares (funcionalidades de campo vs. análisis gerencial) comparten secciones visualmente delimitadas.
 
 #### 4.2.1.2. Organización de la Aplicación Web (Dashboard y Área Principal)
 
-La aplicación web de FexCore posee una estructura dual, ya que debe satisfacer a dos perfiles de usuario con necesidades diametralmente opuestas: la urgencia táctica del técnico en planta y la necesidad analítica del gerente.
+La aplicación web de FixCore posee una estructura dual, ya que debe satisfacer a dos perfiles de usuario con necesidades diametralmente opuestas: la urgencia táctica del técnico en planta y la necesidad analítica del gerente.
 
 **Sistema de Organización Principal**
 
@@ -2405,7 +2380,7 @@ La aplicación utiliza un sistema matricial que combina los siguientes enfoques:
 
 **Esquemas de Categorización para Activos (Maquinaria)**
 
-La maquinaria en FexCore se organiza para reflejar la realidad física de la planta:
+La maquinaria en FixCore se organiza para reflejar la realidad física de la planta:
 * **Por Ubicación/Línea de Producción:** (Ej. Planta Lima > Área de Empaque > Línea 2).
 * **Por Criticidad:** (Alta, Media, Baja) para determinar qué máquina recibe atención prioritaria en caso de fallas simultáneas.
 * **Por Estado Operativo:** Operativo (Verde), En Falla (Rojo), Mantenimiento Preventivo (Ámbar).
@@ -2419,7 +2394,7 @@ El almacén de repuestos se organiza utilizando:
 
 #### 4.2.1.3. Estrategia de Organización para Búsqueda y Acceso Rápido
 
-En el mantenimiento industrial, el tiempo de búsqueda es tiempo de inactividad (downtime). FexCore implementa una arquitectura orientada al acceso ultrarrápido:
+En el mantenimiento industrial, el tiempo de búsqueda es tiempo de inactividad (downtime). FixCore implementa una arquitectura orientada al acceso ultrarrápido:
 
 **Accesos Directos Basados en Contexto**
 * **Para el Técnico (Planta):** Escaneo de código QR pegado en la máquina física, que abre instantáneamente el formulario de reporte de esa máquina específica sin tener que buscarla en el sistema.
@@ -2435,7 +2410,7 @@ Aquí el equipo explica de qué maneras se representarán los datos, priorizando
 
 #### 4.2.2.1. Principios de Etiquetado
 
-FexCore sigue principios específicos para todas las etiquetas utilizadas en la plataforma, enfocándose en la jerga industrial estandarizada:
+FixCore sigue principios específicos para todas las etiquetas utilizadas en la plataforma, enfocándose en la jerga industrial estandarizada:
 
 *   **Mínimo número de palabras:** Las etiquetas son cortas, directas y accionables. Máximo 2 palabras para botones tácticos (ej. "Cerrar OT") y 3 para navegación.
 *   **Lenguaje de planta (Común):** Se utilizan los términos que los técnicos e ingenieros ya emplean en su día a día. El sistema se adapta a la fábrica, no al revés.
@@ -2495,7 +2470,7 @@ Etiquetas para los botones y flujos de interacción:
 
 #### 4.2.2.6. Reglas de Asociación entre Etiquetas
 
-Las etiquetas en FexCore se relacionan de manera predecible y jerárquica:
+Las etiquetas en FixCore se relacionan de manera predecible y jerárquica:
 
 *   **Ruta Espacial (Breadcrumbs):** La navegación refleja la ubicación física real en la fábrica. *Planta > Área > Línea de Producción > Activo* (ej. Planta Lima > Empaque > Línea 2 > Faja Transportadora).
 *   **Color a Estado:** Las etiquetas de estado siempre están vinculadas a la paleta de colores. "Operativo" (Verde), "Preventivo" (Ámbar), "En Falla" (Rojo).
@@ -2503,14 +2478,14 @@ Las etiquetas en FexCore se relacionan de manera predecible y jerárquica:
 
 ### 4.2.3. SEO Tags and Meta Tags 
 
-En esta sección se incluyen los SEO Tags y Meta Tags, junto con los valores que se asignarán en las principales páginas de FexCore, abarcando tanto el sitio web estático (Landing Page) desplegado en Vercel como la estructura de la Web Application. Se definen Title, Meta Description, Keywords, Author y esquemas de datos clave.
+En esta sección se incluyen los SEO Tags y Meta Tags, junto con los valores que se asignarán en las principales páginas de FixCore, abarcando tanto el sitio web estático (Landing Page) desplegado en Vercel como la estructura de la Web Application. Se definen Title, Meta Description, Keywords, Author y esquemas de datos clave.
 
 #### 4.2.3.1. Configuración SEO General
 
-FexCore implementa una configuración SEO robusta gestionada a través del enrutador y el archivo `app/layout.tsx` para maximizar su visibilidad en buscadores B2B.
+FixCore implementa una configuración SEO robusta gestionada a través del enrutador y el archivo `app/layout.tsx` para maximizar su visibilidad en buscadores B2B.
 
 **Nombre del Sitio**
-FexCore - El núcleo de tu mantenimiento industrial
+FixCore - El núcleo de tu mantenimiento industrial
 
 **Dominio Principal**
 https://fixcore-eta.vercel.app/
@@ -2520,7 +2495,7 @@ https://fixcore-eta.vercel.app/
 El Landing Page (`app/page.tsx`) es el punto de entrada más importante para la captación de leads y conversiones comerciales.
 
 **Title Tag**
-FexCore | El núcleo de tu mantenimiento industrial - Software CMMS
+FixCore | El núcleo de tu mantenimiento industrial - Software CMMS
 
 **Meta Description**
 Erradica el caos operativo y reduce los tiempos muertos con la plataforma líder en gestión de activos y órdenes de trabajo. ¡Moderniza tu mantenimiento industrial hoy!
@@ -2529,19 +2504,19 @@ Erradica el caos operativo y reduce los tiempos muertos con la plataforma líder
 mantenimiento industrial, gestión de activos, órdenes de trabajo, reducir tiempos muertos, software CMMS, SaaS B2B, mantenimiento predictivo, control de inventario
 
 **Meta Author**
-FexCore Team
+FixCore Team
 
 **Open Graph Tags (para redes sociales)**
-*   `og:title` = FexCore | El núcleo de tu mantenimiento industrial
+*   `og:title` = FixCore | El núcleo de tu mantenimiento industrial
 *   `og:description` = Erradica el caos operativo y reduce los tiempos muertos en tu planta. Diseñado para Gerentes, Supervisores y Técnicos.
 *   `og:image` = https://fixcore-eta.vercel.app/favicon.ico
 *   `og:url` = https://fixcore-eta.vercel.app/
 *   `og:type` = website
-*   `og:site_name` = FexCore
+*   `og:site_name` = FixCore
 
 **Twitter Card Tags**
 *   `twitter:card` = summary_large_image
-*   `twitter:title` = FexCore | El núcleo de tu mantenimiento industrial
+*   `twitter:title` = FixCore | El núcleo de tu mantenimiento industrial
 *   `twitter:description` = Erradica el caos operativo y reduce los tiempos muertos con la plataforma líder.
 *   `twitter:image` = https://fixcore-eta.vercel.app/favicon.ico
 
@@ -2550,7 +2525,7 @@ FexCore Team
 El dashboard es la página principal (escritorio gerencial) a la que accede el usuario después de iniciar sesión en la aplicación.
 
 **Title Tag**
-Dashboard Ejecutivo - FexCore
+Dashboard Ejecutivo - FixCore
 
 **Meta Description**
 Tu espacio de control industrial. Maximiza el ROI, audita tiempos muertos (MTTR) y supervisa el estado de tu planta en tiempo real.
@@ -2564,17 +2539,17 @@ Tu espacio de control industrial. Maximiza el ROI, audita tiempos muertos (MTTR)
 Corresponde a la ruta dinámica `app/detalles/[rol]/page.tsx` diseñada para explicar el valor del software según el perfil del usuario.
 
 **Title Tag**
-Soluciones para [Gerencia / Supervisión / Técnicos] - FexCore
+Soluciones para [Gerencia / Supervisión / Técnicos] - FixCore
 
 **Meta Description**
-Descubre cómo FexCore optimiza la operación para tu rol. Accede a paneles analíticos, asignación de OTs sin fricción o reportes de fallas rápidos.
+Descubre cómo FixCore optimiza la operación para tu rol. Accede a paneles analíticos, asignación de OTs sin fricción o reportes de fallas rápidos.
 
 #### 4.2.3.5. Página de Gestión de Activos / Inventario SEO Tags
 
 Sección transaccional de la aplicación enfocada en el control de almacén y la jerarquía de maquinaria.
 
 **Title Tag**
-Gestión de Activos e Inventario - FexCore
+Gestión de Activos e Inventario - FixCore
 
 **Meta Description**
 Controla el inventario de repuestos y la jerarquía física de tus activos. Mantén la trazabilidad total de tu fábrica y evita quiebres de stock.
@@ -2582,7 +2557,7 @@ Controla el inventario de repuestos y la jerarquía física de tus activos. Mant
 #### 4.2.3.6. Página de Perfil de Activo Individual SEO Tags
 
 **Title Tag**
-[Nombre o Código del Activo / Máquina] - FexCore
+[Nombre o Código del Activo / Máquina] - FixCore
 
 **Meta Description**
 [Descripción específica del estado operativo del activo, MTTR, ubicación en planta y fallas reportadas recientes de 150-160 caracteres]
@@ -2590,14 +2565,14 @@ Controla el inventario de repuestos y la jerarquía física de tus activos. Mant
 #### 4.2.3.7. Página de Reporte de Fallas (OTs) SEO Tags
 
 **Title Tag**
-Reporte de Fallas y OTs - FexCore
+Reporte de Fallas y OTs - FixCore
 
 **Meta Description**
 Practica una respuesta ágil ante paradas de máquina. Reporta fallas en 3 clics, asigna técnicos y gestiona Órdenes de Trabajo desde cualquier dispositivo móvil.
 
 ### 4.2.3.8. Estructura de Datos Schema Markup
 
-FexCore implementa `Schema.org` (en formato JSON-LD) para optimizar su presentación en motores de búsqueda como una solución de software empresarial B2B:
+FixCore implementa `Schema.org` (en formato JSON-LD) para optimizar su presentación en motores de búsqueda como una solución de software empresarial B2B:
 
 **Organization Schema**
 
@@ -2605,12 +2580,12 @@ FexCore implementa `Schema.org` (en formato JSON-LD) para optimizar su presentac
 {
   "@context": "[https://schema.org](https://schema.org)",
   "@type": "Organization",
-  "name": "FexCore",
+  "name": "FixCore",
   "url": "[https://fixcore-eta.vercel.app/](https://fixcore-eta.vercel.app/)",
   "logo": "[https://fixcore-eta.vercel.app/favicon.ico](https://fixcore-eta.vercel.app/favicon.ico)",
   "description": "Plataforma B2B para la gestión integral del mantenimiento industrial y reducción de tiempos muertos.",
   "sameAs": [
-    "[https://www.linkedin.com/company/fexcore](https://www.linkedin.com/company/fexcore)"
+    "[https://www.linkedin.com/company/FixCore](https://www.linkedin.com/company/FixCore)"
   ]
 }
 ```
@@ -2621,7 +2596,7 @@ FexCore implementa `Schema.org` (en formato JSON-LD) para optimizar su presentac
 {
   "@context": "[https://schema.org](https://schema.org)",
   "@type": "SoftwareApplication",
-  "name": "FexCore",
+  "name": "FixCore",
   "applicationCategory": "BusinessApplication",
   "operatingSystem": "Web, iOS, Android",
   "description": "Software integral de gestión de mantenimiento (CMMS) con paneles gerenciales y aplicación de baja fricción para técnicos.",
@@ -2636,13 +2611,13 @@ FexCore implementa `Schema.org` (en formato JSON-LD) para optimizar su presentac
 
 ### 4.2.3.9. Directrices SEO Generales
 
-FexCore sigue las siguientes directrices estructurales para mantener un SEO técnico optimizado en toda la plataforma:
+FixCore sigue las siguientes directrices estructurales para mantener un SEO técnico optimizado en toda la plataforma:
 
-*   **URLs descriptivas:** Se utilizan rutas semánticas dinámicas generadas por el App Router de Next.js, como `/detalles/[rol]`[cite: 1].
-*   **Un H1 por página:** Restricción estricta de un solo título principal por vista, típicamente alojado dentro del componente `HeroSection.tsx`[cite: 1].
-*   **Jerarquía de encabezados correcta:** Uso escalonado y lógico de etiquetas H1 > H2 > H3, implementado modularmente en componentes como `AudienceSection.tsx` y `SolutionsSection.tsx`[cite: 1].
-*   **Etiquetas alt significativas:** Todas las representaciones de interfaz y recursos visuales ubicados en `/components/mockups/` (como `DesktopMockup.tsx` o `MobileMockup.tsx`) cuentan con texto alternativo que describe exactamente la función que se está mostrando[cite: 1].
-*   **Links con anchor text descriptivo:** Se evita el uso de frases genéricas como "clic aquí"[cite: 1]. Los enlaces generados en `Navbar.tsx` y `BottomCTA.tsx` utilizan textos de acción claros como "Solicitar Demostración" o "Ver Funcionamiento"[cite: 1].
+*   **URLs descriptivas:** Se utilizan rutas semánticas dinámicas generadas por el App Router de Next.js, como `/detalles/[rol]`.
+*   **Un H1 por página:** Restricción estricta de un solo título principal por vista, típicamente alojado dentro del componente `HeroSection.tsx`.
+*   **Jerarquía de encabezados correcta:** Uso escalonado y lógico de etiquetas H1 > H2 > H3, implementado modularmente en componentes como `AudienceSection.tsx` y `SolutionsSection.tsx`.
+*   **Etiquetas alt significativas:** Todas las representaciones de interfaz y recursos visuales ubicados en `/components/mockups/` (como `DesktopMockup.tsx` o `MobileMockup.tsx`) cuentan con texto alternativo que describe exactamente la función que se está mostrando.
+*   **Links con anchor text descriptivo:** Se evita el uso de frases genéricas como "clic aquí". Los enlaces generados en `Navbar.tsx` y `BottomCTA.tsx` utilizan textos de acción claros como "Solicitar Demostración" o "Ver Funcionamiento".
 
 ### 4.2.4. Searching Systems. 
 
@@ -3772,7 +3747,7 @@ Enlace al tablero publico en Trello:
 
 #### 5.2.1.4. Development Evidence for Sprint Review. 
 
-Los principales avances en la implementación durante este sprint fueron (...)
+Los principales avances en la implementación durante este sprint fueron 
 
 |Repository|Branch|Commit Id|Commit Message|Commit Message Body|Commited on|
 |:---------|:-----|:--------|:-------------|:------------------|:----------|
@@ -3780,7 +3755,7 @@ Los principales avances en la implementación durante este sprint fueron (...)
 
 #### 5.2.1.5. Execution Evidence for Sprint Review. 
 
-Los avances realizados durante este Sprint fueron (...)
+Los avances realizados durante este Sprint fueron 
 
 **Capturas de pantalla de los avances realizados**
 
@@ -3804,15 +3779,26 @@ A continuación se presentan los aportes realizados por todos los integrantes de
 
 ## 5. Conclusiones
 
-El desarrollo y estructuración del proyecto **FixCore** permite establecer las siguientes conclusiones técnicas, operativas y de negocio:
 
-*   **Arquitectura Empresarial Altamente Escalable:** La adopción de **Angular 17+ con Standalone Components** bajo un enfoque de **Domain-Driven Design (DDD)** garantiza que el sistema pueda crecer de manera modular. La separación en *Bounded Contexts* (Identidad, Mantenimiento, Inventario y Equipamiento) permite un mantenimiento aislado y previene la degradación del código a medida que se añaden nuevas funcionalidades.
-*   **Gestión Multi-Tenant Nativa:** La plataforma resuelve eficientemente el desafío de las firmas contratistas B2B al implementar un sistema *Multi-Tenant* centralizado. Esto permite a usuarios externos gestionar múltiples plantas desde una sola interfaz, sin fricciones en la base de datos ni penalizaciones por agregar nuevos clientes.
-*   **Diseño Centrado en el Usuario (UX/UI) y Contexto:** La estrategia de diseño *Mobile-First* para operarios (uso de escáner QR, botones táctiles amplios de 44px, interfaces de alto contraste) y un entorno *Desktop* analítico para jefaturas (Dashboards, Kanban, DataGrids) asegura una alta tasa de adopción y reduce la curva de aprendizaje en entornos industriales.
-*   **Gestión de Estado Robusta y Reactiva:** La implementación de **RxJS (BehaviorSubjects)** como motor de estado global asegura que la información de los módulos críticos —como el movimiento de tarjetas de Órdenes de Trabajo (OTs) en el tablero Kanban mediante *Drag & Drop* o las alertas de stock crítico— se actualice en tiempo real sin recargar la página, mejorando drásticamente la experiencia del usuario.
-*   **Estrategia de Adquisición B2B Optimizada:** La Landing Page ha sido diseñada no solo como un folleto informativo, sino como un embudo de conversión estructurado. La aplicación del efecto "señuelo" en los planes de suscripción (Freemium, Planta, Contratista) y la integración de formularios hacia un flujo de autenticación seguro, agilizan el proceso de *onboarding* de nuevos clientes corporativos.
-*   **Impacto Operativo Directo:** FixCore digitaliza y centraliza la comunicación que tradicionalmente se pierde en medios informales (como chats y papel). Las notificaciones automatizadas, la gestión de inventario predictiva y la visibilidad del ciclo de vida de los activos impactan directamente en la reducción del **MTTR (Tiempo Medio de Reparación)** y aumentan la disponibilidad de la maquinaria.
+El desarrollo del primer avance de **FixCore** permitió definir con mayor claridad la problemática, los usuarios objetivo, los principales requisitos y la propuesta de diseño de la solución. A partir del trabajo realizado, se establecen las siguientes conclusiones:
 
-# Bibliografía 
+* **Definición de la arquitectura del sistema:** Se planteó una arquitectura basada en principios de **Domain-Driven Design (DDD)**, identificando los principales Bounded Contexts relacionados con la gestión de usuarios, activos, mantenimiento, órdenes de trabajo, inventario y notificaciones. Esta separación permitirá organizar las responsabilidades del sistema durante las siguientes etapas de desarrollo.
+
+* **Identificación de necesidades de los usuarios:** Las entrevistas realizadas permitieron reconocer problemas recurrentes como la información dispersa entre WhatsApp, Excel y documentos físicos, la dificultad para consultar historiales de mantenimiento y la falta de información actualizada sobre repuestos. Estos hallazgos sirvieron como base para definir las principales funcionalidades de FixCore.
+
+* **Diseño orientado a diferentes tipos de usuario:** La propuesta UX/UI considera las necesidades de jefes de planta, técnicos y empresas contratistas de mantenimiento. Para los técnicos se prioriza una interfaz sencilla y adaptable a dispositivos móviles, mientras que para los responsables de planta se consideran herramientas de supervisión, planificación y consulta de información.
+
+* **Centralización de la gestión del mantenimiento:** FixCore busca reunir en una misma plataforma la información relacionada con máquinas, mantenimientos preventivos, fallas, Órdenes de Trabajo y repuestos. Esta propuesta pretende reducir la dependencia de herramientas separadas y facilitar el seguimiento de las actividades de mantenimiento.
+
+* **Validación inicial de la propuesta de valor:** Los resultados obtenidos durante las entrevistas muestran interés en funcionalidades como el reporte rápido de fallas, las alertas automáticas, la consulta de información desde dispositivos móviles y el control centralizado de las actividades de mantenimiento. Estos resultados respaldan la continuidad del desarrollo de la propuesta.
+
+* **Desarrollo del Landing Page:** Durante el Sprint 1 se avanzó en el diseño e implementación del Landing Page de FixCore, cuyo objetivo es presentar de manera clara el problema identificado, la propuesta de valor, las principales funcionalidades y los segmentos a los que está dirigida la solución.
+
+* **Base para las siguientes etapas del proyecto:** Los artefactos desarrollados, como User Personas, User Stories, Product Backlog, EventStorming, diagramas de arquitectura y diseños de interfaz, establecen una base para continuar con la implementación y validación progresiva de FixCore en los próximos avances.
+
+
+
+# Bibliografía
+
 
 # Anexos
