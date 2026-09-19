@@ -2007,6 +2007,16 @@ Es el lenguaje común compartido entre desarrolladores y expertos del negocio qu
 
 El Product Backlog de FixCore reúne las User Stories identificadas para el desarrollo de la solución. Las historias fueron priorizadas considerando principalmente el valor que aportan a los segmentos objetivo y a las funciones principales del producto. Para la estimación se utilizaron Story Points siguiendo la escala 1, 2, 3, 5 y 8.
 
+Enlace del Product Backlog elaborado en Trello: [https://trello.com/b/yJyuiOSO](https://trello.com/b/yJyuiOSO)
+
+<div align="center">
+  <strong>Tablero del Product Backlog en Trello</strong><br><br>
+  <img src="report/assets/images/trello-product-backlog.jpg" width="700"><br>
+  <em>Fuente: Elaboración propia.</em>
+</div>
+
+A continuación se presenta la tabla con mayor detalle:
+
 | # Orden | User Story ID | Título | Descripción | Story Points |
 | :---: | :---: | :--- | :--- | :---: |
 | 01 | **US59** | Conocer FixCore | Como Visitante, deseo conocer qué es FixCore para entender qué problema de mantenimiento industrial busca resolver. | 2 |
