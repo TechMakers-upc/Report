@@ -3634,6 +3634,17 @@ A continuación se presentan los aportes realizados por todos los integrantes de
 
 # Conclusiones 
 
+## 5. Conclusiones
+
+El desarrollo y estructuración del proyecto **FixCore** permite establecer las siguientes conclusiones técnicas, operativas y de negocio:
+
+*   **Arquitectura Empresarial Altamente Escalable:** La adopción de **Angular 17+ con Standalone Components** bajo un enfoque de **Domain-Driven Design (DDD)** garantiza que el sistema pueda crecer de manera modular. La separación en *Bounded Contexts* (Identidad, Mantenimiento, Inventario y Equipamiento) permite un mantenimiento aislado y previene la degradación del código a medida que se añaden nuevas funcionalidades.
+*   **Gestión Multi-Tenant Nativa:** La plataforma resuelve eficientemente el desafío de las firmas contratistas B2B al implementar un sistema *Multi-Tenant* centralizado. Esto permite a usuarios externos gestionar múltiples plantas desde una sola interfaz, sin fricciones en la base de datos ni penalizaciones por agregar nuevos clientes.
+*   **Diseño Centrado en el Usuario (UX/UI) y Contexto:** La estrategia de diseño *Mobile-First* para operarios (uso de escáner QR, botones táctiles amplios de 44px, interfaces de alto contraste) y un entorno *Desktop* analítico para jefaturas (Dashboards, Kanban, DataGrids) asegura una alta tasa de adopción y reduce la curva de aprendizaje en entornos industriales.
+*   **Gestión de Estado Robusta y Reactiva:** La implementación de **RxJS (BehaviorSubjects)** como motor de estado global asegura que la información de los módulos críticos —como el movimiento de tarjetas de Órdenes de Trabajo (OTs) en el tablero Kanban mediante *Drag & Drop* o las alertas de stock crítico— se actualice en tiempo real sin recargar la página, mejorando drásticamente la experiencia del usuario.
+*   **Estrategia de Adquisición B2B Optimizada:** La Landing Page ha sido diseñada no solo como un folleto informativo, sino como un embudo de conversión estructurado. La aplicación del efecto "señuelo" en los planes de suscripción (Freemium, Planta, Contratista) y la integración de formularios hacia un flujo de autenticación seguro, agilizan el proceso de *onboarding* de nuevos clientes corporativos.
+*   **Impacto Operativo Directo:** FixCore digitaliza y centraliza la comunicación que tradicionalmente se pierde en medios informales (como chats y papel). Las notificaciones automatizadas, la gestión de inventario predictiva y la visibilidad del ciclo de vida de los activos impactan directamente en la reducción del **MTTR (Tiempo Medio de Reparación)** y aumentan la disponibilidad de la maquinaria.
+
 # Bibliografía 
 
 # Anexos
