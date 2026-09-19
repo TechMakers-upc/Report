@@ -3789,3 +3789,51 @@ El desarrollo del primer avance de **FixCore** permitió definir con mayor clari
 
 
 # Anexos
+
+
+
+## Anexo A. Repositorios del Proyecto
+
+- Organización de GitHub de TechMakers:
+  https://github.com/TechMakers-upc
+
+- Repositorio del informe:
+  https://github.com/TechMakers-upc/Report
+
+- Repositorio del Landing Page:
+  https://github.com/TechMakers-upc/Landing-Page
+
+
+## Anexo B. Gestión y Planificación del Proyecto
+
+- Product Backlog:
+  https://trello.com/b/yJyuiOSO
+
+- Sprint Backlog 1:
+  https://trello.com/b/8ilypk4J/sprint-backlog-1-techmakers
+
+- Artefactos de Needfinding en UXPressia:
+  https://uxpressia.com/w/v8FzI/t/zbzV3
+
+
+
+## Anexo D. Entrevistas
+
+- [Video de las entrevistas realizadas](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423973_upc_edu_pe/IQD8ECWrYrRxQaNhmjXB91vmAWdSEk3YRD64TUu5xywjVz8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=WNbf7E)
+
+
+## Anexo E. Landing Page
+
+- Código fuente:
+  https://github.com/TechMakers-upc/Landing-Page
+
+- Landing Page desplegado:
+  https://techmakers-upc.github.io/Landing-Page/
+
+
+## Anexo F. Video de Exposición AV1
+
+- [Video de exposición AV1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202324461_upc_edu_pe/IQDmty3FNqrWTLFvZG58kxPfAfv-bKwb9TGY5O8XUFahqSs?e=p3LPOL)
+
+
+ 
