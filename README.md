@@ -913,6 +913,96 @@ Se animaría a probarlo para averiguar como se desarrolla o adapta en su context
 Dependerá de los módulos y analíticas integradas, basándose en que tan útiles sean. Estima que, si es un buen sistema, un rango de precios que estaría dispuesto a pagar es de 50 a 100 soles mensuales, pero plantea realizar un estudio de mercado primero antes de dar un rango definitivo.
 
 ### Segmento 2: Firmas Consultoras y Contratistas de Ingeniería Industrial
+
+
+
+
+<table>
+  <thead>
+    <tr>
+      <th align="center">Foto</th>
+      <th align="left">Campo</th>
+      <th align="left">Detalle</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="7" align="center" valign="middle" width="200">
+        <img src="report/assets/images/foto-entrevista1-segmento2.jpg" alt="" width="160">
+      </td>
+      <td><strong>Nombre y apellido</strong></td>
+      <td>Cristofer Vilchez</td>
+    </tr>
+    <tr>
+      <td><strong>Edad</strong></td>
+      <td>20 años</td>
+    </tr>
+    <tr>
+      <td><strong>Ubicación</strong></td>
+      <td>Lima</td>
+    </tr>
+    <tr>
+      <td><strong>Timing de la entrevista</strong></td>
+      <td>Inicia: 16:47 - Termina: 24:10</td>
+    </tr>
+    <tr>
+      <td><strong>Duración</strong></td>
+      <td>7:23 minutos</td>
+    </tr>
+    <tr>
+      <td><strong>Enlace</strong></td>
+      <td><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423973_upc_edu_pe/IQBCKuUvc8VeT4YtxyBRxNnnAerbBFUqAE8C5H7KH6vx3GU?e=f8X1Pp">Video de las entrevistas</a></td>
+    </tr>
+
+  </tbody>
+</table>
+
+
+**¿Podría indicarme su nombre, cargo y el tipo de servicios de ingeniería o mantenimiento que brinda su empresa?**
+
+Mi nombre es Cristofer Vílchez, tengo 20 años y trabajo como asistente de operaciones en una empresa que brinda servicios de mantenimiento preventivo y correctivo para equipos electromecánicos utilizados en pequeñas y medianas empresas industriales.
+
+**¿A cuántas plantas industriales o clientes prestan servicio de manera simultánea?**
+
+Normalmente tenemos entre 5 y 7 clientes activos durante la semana. Dependiendo de las emergencias, podemos tener técnicos trabajando en varias plantas al mismo tiempo.
+
+**¿Cómo coordinan actualmente el despliegue de sus técnicos en campo cuando un cliente reporta una emergencia o falla en sus equipos?**
+
+La mayoría de coordinaciones se realizan por llamadas telefónicas y WhatsApp. Cuando ocurre una emergencia, el supervisor revisa quién está disponible y comienza a comunicarse con los técnicos para determinar quién puede atender al cliente más rápido.
+
+**Desde su experiencia operativa, ¿cuáles son las mayores limitaciones logísticas o tecnológicas que enfrentan para atender múltiples plantas a la vez?**
+
+Uno de los principales problemas es no tener información actualizada sobre el estado de cada técnico. También puede ocurrir que un técnico llegue a la planta y recién descubra que necesita un repuesto que no tiene disponible, lo cual genera retrasos.
+
+**¿Qué tan complejo les resulta estandarizar los reportes de mantenimiento y KPIs para entregárselos a diferentes clientes?**
+
+Resulta complicado porque cada cliente solicita información diferente. Algunas empresas piden archivos de Excel, otras documentos PDF y otras solamente un resumen. Al final se termina copiando información de mensajes, fotografías y formatos para preparar cada reporte.
+
+**¿Suelen utilizar herramientas de automatización de flujos de trabajo o integración de APIs en sus operaciones diarias?**
+
+Actualmente utilizamos principalmente WhatsApp, correo electrónico y hojas de cálculo. No tenemos automatizaciones avanzadas, aunque sería útil que ciertas notificaciones o cambios de estado se envíen automáticamente.
+
+**¿Qué funcionalidades considera indispensables en una plataforma digital para que decida utilizarla como el motor operativo de todos sus técnicos?**
+
+Me parecería importante tener un panel donde podamos visualizar las órdenes de trabajo, los técnicos asignados, el estado de cada servicio y la disponibilidad de repuestos. También serían útiles las alertas cuando ocurre una emergencia o una tarea cambia de prioridad.
+
+**¿Qué tan importante sería para su firma poder integrar el sistema de mantenimiento con otras herramientas de comunicación como WhatsApp?**
+
+Sería bastante importante porque WhatsApp es una herramienta que todos utilizamos actualmente. Si los avisos pudieran enviarse automáticamente, reduciríamos el tiempo que usamos llamando o escribiendo a cada persona.
+
+**¿Cree que ofrecer a sus clientes una herramienta ágil para que reporten fallas mejoraría la percepción de su servicio tercerizado? ¿Por qué?**
+
+Sí. Creo que permitir que el cliente reporte una falla y pueda conocer el estado de su atención daría una imagen más organizada y profesional de la empresa.
+
+**¿Preferiría un modelo de precios basado en la cantidad de técnicos o en la cantidad de plantas/clientes gestionados?**
+
+Preferiría un modelo basado en la cantidad de técnicos activos porque la cantidad de clientes puede cambiar dependiendo del mes, mientras que el equipo de trabajo suele mantenerse más estable.
+
+**¿Estaría dispuesto a recomendar e implementar este sistema directamente en la infraestructura tecnológica de sus clientes?**
+
+Sí, siempre que sea sencillo, estable y no requiera demasiado tiempo de capacitación. Si ayuda a organizar mejor las operaciones, sería una herramienta que podríamos recomendar también a nuestros clientes.
+
+
 <table>
   <thead>
     <tr>
@@ -939,7 +1029,7 @@ Dependerá de los módulos y analíticas integradas, basándose en que tan útil
     </tr>
     <tr>
       <td><strong>Inicio de la entrevista</strong></td>
-      <td>24:11</td>
+      <td>24:11 - Termina: 28:37</td>
     </tr>
     <tr>
       <td><strong>Duración</strong></td>
@@ -978,6 +1068,9 @@ Hola me llamo Valeria Salazar, trabajo en el área de Operaciones en mi empresa,
 **¿Estaría dispuesto a recomendar e implementar este sistema directamente en la infraestructura tecnológica de sus clientes?** Sí lo haría, siempre y cuando el sistema nos permita poner el logotipo de nuestra consultora en los reportes finales que se le entregan al cliente.
 
 
+
+
+
 <table>
   <thead>
     <tr>
@@ -989,7 +1082,7 @@ Hola me llamo Valeria Salazar, trabajo en el área de Operaciones en mi empresa,
   <tbody>
     <tr>
       <td rowspan="6" align="center" valign="middle" width="200">
-        <img src="../assets/images/Anderson_Cabanillas.jpeg" alt="Anderson Cabanillas" width="160">
+        <img src="report/assets/images/foto-entrevista3-segmento2.jpg" alt="Anderson Cabanillas" width="160">
       </td>
       <td><strong>Nombre y apellido</strong></td>
       <td>Anderson Cabanillas</td>
@@ -1003,12 +1096,12 @@ Hola me llamo Valeria Salazar, trabajo en el área de Operaciones en mi empresa,
       <td>Ventanilla</td>
     </tr>
     <tr>
-      <td><strong>Inicio de la entrevista</strong></td>
-      <td>4:45</td>
+      <td><strong>Timing de la entrevista</strong></td>
+      <td>Inicia: 28:37 - Termina 34:28</td>
     </tr>
     <tr>
       <td><strong>Duración</strong></td>
-      <td>5 minutos y 56 segundos</td>
+      <td>5:51 minutos</td>
     </tr>
     <tr>
       <td><strong>Enlace</strong></td>
@@ -1065,87 +1158,6 @@ Sí, estaría dispuesto, siempre que sea una herramienta estable y fácil de uti
 
 
 
-<table>
-  <thead>
-    <tr>
-      <th align="center">Foto</th>
-      <th align="left">Campo</th>
-      <th align="left">Detalle</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td rowspan="7" align="center" valign="middle" width="200">
-        <img src="" alt="" width="160">
-      </td>
-      <td><strong>Nombre y apellido</strong></td>
-      <td>Diego Torres</td>
-    </tr>
-    <tr>
-      <td><strong>Edad</strong></td>
-      <td>20 años</td>
-    </tr>
-    <tr>
-      <td><strong>Ubicación</strong></td>
-      <td>Lima</td>
-    </tr>
-    <tr>
-      <td><strong>Cargo</strong></td>
-      <td>Asistente de Operaciones</td>
-    </tr>
-
-  </tbody>
-</table>
-
-
-
-**¿Podría indicarme su nombre, cargo y el tipo de servicios de ingeniería o mantenimiento que brinda su empresa?**
-
-Mi nombre es Diego Torres, tengo 20 años y trabajo como asistente de operaciones en una empresa que brinda servicios de mantenimiento preventivo y correctivo para equipos electromecánicos utilizados en pequeñas y medianas empresas industriales.
-
-**¿A cuántas plantas industriales o clientes prestan servicio de manera simultánea?**
-
-Normalmente tenemos entre 5 y 7 clientes activos durante la semana. Dependiendo de las emergencias, podemos tener técnicos trabajando en varias plantas al mismo tiempo.
-
-**¿Cómo coordinan actualmente el despliegue de sus técnicos en campo cuando un cliente reporta una emergencia o falla en sus equipos?**
-
-La mayoría de coordinaciones se realizan por llamadas telefónicas y WhatsApp. Cuando ocurre una emergencia, el supervisor revisa quién está disponible y comienza a comunicarse con los técnicos para determinar quién puede atender al cliente más rápido.
-
-**Desde su experiencia operativa, ¿cuáles son las mayores limitaciones logísticas o tecnológicas que enfrentan para atender múltiples plantas a la vez?**
-
-Uno de los principales problemas es no tener información actualizada sobre el estado de cada técnico. También puede ocurrir que un técnico llegue a la planta y recién descubra que necesita un repuesto que no tiene disponible, lo cual genera retrasos.
-
-**¿Qué tan complejo les resulta estandarizar los reportes de mantenimiento y KPIs para entregárselos a diferentes clientes?**
-
-Resulta complicado porque cada cliente solicita información diferente. Algunas empresas piden archivos de Excel, otras documentos PDF y otras solamente un resumen. Al final se termina copiando información de mensajes, fotografías y formatos para preparar cada reporte.
-
-**¿Suelen utilizar herramientas de automatización de flujos de trabajo o integración de APIs en sus operaciones diarias?**
-
-Actualmente utilizamos principalmente WhatsApp, correo electrónico y hojas de cálculo. No tenemos automatizaciones avanzadas, aunque sería útil que ciertas notificaciones o cambios de estado se envíen automáticamente.
-
-**¿Qué funcionalidades considera indispensables en una plataforma digital para que decida utilizarla como el motor operativo de todos sus técnicos?**
-
-Me parecería importante tener un panel donde podamos visualizar las órdenes de trabajo, los técnicos asignados, el estado de cada servicio y la disponibilidad de repuestos. También serían útiles las alertas cuando ocurre una emergencia o una tarea cambia de prioridad.
-
-**¿Qué tan importante sería para su firma poder integrar el sistema de mantenimiento con otras herramientas de comunicación como WhatsApp?**
-
-Sería bastante importante porque WhatsApp es una herramienta que todos utilizamos actualmente. Si los avisos pudieran enviarse automáticamente, reduciríamos el tiempo que usamos llamando o escribiendo a cada persona.
-
-**¿Cree que ofrecer a sus clientes una herramienta ágil para que reporten fallas mejoraría la percepción de su servicio tercerizado? ¿Por qué?**
-
-Sí. Creo que permitir que el cliente reporte una falla y pueda conocer el estado de su atención daría una imagen más organizada y profesional de la empresa.
-
-**¿Preferiría un modelo de precios basado en la cantidad de técnicos o en la cantidad de plantas/clientes gestionados?**
-
-Preferiría un modelo basado en la cantidad de técnicos activos porque la cantidad de clientes puede cambiar dependiendo del mes, mientras que el equipo de trabajo suele mantenerse más estable.
-
-**¿Estaría dispuesto a recomendar e implementar este sistema directamente en la infraestructura tecnológica de sus clientes?**
-
-Sí, siempre que sea sencillo, estable y no requiera demasiado tiempo de capacitación. Si ayuda a organizar mejor las operaciones, sería una herramienta que podríamos recomendar también a nuestros clientes.
-
-
-
-
 ### Segmento 3: Técnicos y Operarios de Mantenimiento Industrial
 
 <table>
@@ -1159,7 +1171,7 @@ Sí, siempre que sea sencillo, estable y no requiera demasiado tiempo de capacit
   <tbody>
     <tr>
       <td rowspan="6" align="center" valign="middle" width="200">
-        <img src="" alt="" width="160">
+        <img src="report/assets/images/foto-entrevista1-segmento3.jpg" alt="" width="160">
       </td>
       <td><strong>Nombre y apellido</strong></td>
       <td>George Cunya</td>
@@ -1173,16 +1185,16 @@ Sí, siempre que sea sencillo, estable y no requiera demasiado tiempo de capacit
       <td>Ventanilla</td>
     </tr>
     <tr>
-      <td><strong>Inicio de la entrevista</strong></td>
-      <td></td>
+      <td><strong> Timing de la entrevista</strong></td>
+      <td>Inicio: 34:28 - Termina: 40:29</td>
     </tr>
     <tr>
       <td><strong>Duración</strong></td>
-      <td></td>
+      <td>6:01 minutos</td>
     </tr>
     <tr>
       <td><strong>Enlace</strong></td>
-      <td><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423973_upc_edu_pe/IQBCKuUvc8VeT4YtxyBRxNnnAerbBFUqAE8C5H7KH6vx3GU?e=f8X1Pp"></a>Video de las entrevistas</td>
+      <td><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423973_upc_edu_pe/IQBCKuUvc8VeT4YtxyBRxNnnAerbBFUqAE8C5H7KH6vx3GU?e=f8X1Pp">Video de las entrevistas</a></td>
     </tr>
   </tbody>
 </table>
@@ -1243,10 +1255,10 @@ Lo que más me incomoda es tener que preguntar varias veces dónde está determi
   <tbody>
     <tr>
       <td rowspan="6" align="center" valign="middle" width="200">
-        <img src="" alt="" width="160">
+        <img src="report/assets/images/foto-entrevista2-segmento3.jpg" alt="" width="160">
       </td>
       <td><strong>Nombre y apellido</strong></td>
-      <td>Luis Mendoza</td>
+      <td>Mathias Romero</td>
     </tr>
     <tr>
       <td><strong>Edad</strong></td>
@@ -1257,16 +1269,16 @@ Lo que más me incomoda es tener que preguntar varias veces dónde está determi
       <td>Callao</td>
     </tr>
     <tr>
-      <td><strong>Inicio de la entrevista</strong></td>
-      <td></td>
+      <td><strong>Iiming de la entrevista</strong></td>
+      <td>Inicia: 40:29 - Termina: 45:16</td>
     </tr>
     <tr>
       <td><strong>Duración</strong></td>
-      <td></td>
+      <td>4:47 minutos</td>
     </tr>
     <tr>
       <td><strong>Enlace</strong></td>
-      <td><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423973_upc_edu_pe/IQBCKuUvc8VeT4YtxyBRxNnnAerbBFUqAE8C5H7KH6vx3GU?e=f8X1Pp"></a>Video de las entrevistas</td>
+      <td><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423973_upc_edu_pe/IQBCKuUvc8VeT4YtxyBRxNnnAerbBFUqAE8C5H7KH6vx3GU?e=f8X1Pp">Video de las entrevistas</a></td>
     </tr>
   </tbody>
 </table>
@@ -1274,7 +1286,7 @@ Lo que más me incomoda es tener que preguntar varias veces dónde está determi
 **Resumen:**
 
 **¿Cuál es tu nombre, edad y qué función desempeñas actualmente dentro del área de mantenimiento?**  
-Me llamo Luis Mendoza, tengo 35 años y trabajo como técnico electricista industrial. Me encargo principalmente de revisar los sistemas eléctricos de las máquinas, tableros, motores y sensores.
+Me llamo Mathias Romero, tengo 35 años y trabajo como técnico electricista industrial. Me encargo principalmente de revisar los sistemas eléctricos de las máquinas, tableros, motores y sensores.
 
 **¿Cuánto tiempo llevas trabajando en mantenimiento industrial y qué tipo de máquinas o equipos atiendes con mayor frecuencia?**  
 Tengo aproximadamente nueve años de experiencia. Trabajo principalmente con motores eléctricos, tableros de control, sensores y algunas máquinas automatizadas de producción.
@@ -1327,7 +1339,7 @@ Lo que más me molesta es registrar varias veces la misma información. Preferir
   <tbody>
     <tr>
       <td rowspan="6" align="center" valign="middle" width="200">
-        <img src="" alt="" width="160">
+        <img src="report/assets/images/foto-entrevista3-segmento3.jpg" alt="" width="160">
       </td>
       <td><strong>Nombre y apellido</strong></td>
       <td>Carlos Huamán</td>
@@ -1342,15 +1354,15 @@ Lo que más me molesta es registrar varias veces la misma información. Preferir
     </tr>
     <tr>
       <td><strong>Inicio de la entrevista</strong></td>
-      <td></td>
+      <td>Inicia: 45:16 - Termina: 48:42</td>
     </tr>
     <tr>
       <td><strong>Duración</strong></td>
-      <td></td>
+      <td>3:26</td>
     </tr>
     <tr>
       <td><strong>Enlace</strong></td>
-      <td><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423973_upc_edu_pe/IQBCKuUvc8VeT4YtxyBRxNnnAerbBFUqAE8C5H7KH6vx3GU?e=f8X1Pp"></a>Video de las entrevistas</td>
+      <td><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423973_upc_edu_pe/IQBCKuUvc8VeT4YtxyBRxNnnAerbBFUqAE8C5H7KH6vx3GU?e=f8X1Pp">Video de las entrevistas</a></td>
     </tr>
   </tbody>
 </table>
@@ -3874,7 +3886,7 @@ W3Schools. (s. f.). *HTML style guide and coding conventions*. https://www.w3sch
 
 ## Anexo D. Entrevistas
 
-- [Video de las entrevistas realizadas](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423973_upc_edu_pe/IQD8ECWrYrRxQaNhmjXB91vmAWdSEk3YRD64TUu5xywjVz8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=WNbf7E)
+- [Video de las entrevistas realizadas](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423973_upc_edu_pe/IQBCKuUvc8VeT4YtxyBRxNnnAerbBFUqAE8C5H7KH6vx3GU?e=f8X1Pp)
 
 
 ## Anexo E. Landing Page
