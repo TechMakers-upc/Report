@@ -313,7 +313,7 @@ Persona de usuario: Jairo (Jefe de Planta)
 
 Objetivo del usuario: Como Jefe de Planta, deseo registrarme con una cuenta y a la vez las máquinas en el sistema indicando sus datos técnicos y ubicación para llevar un control centralizado de los activos que requieren mantenimiento preventivo y correctivo.
 
-imagen
+<img src="./Assets/Images/jefe-planta.png" alt="jefe-de-planta">
 
 Explicación del flujo: El recorrido inicia en la pantalla principal de acceso (Login), donde el usuario ingresa sus credenciales (usuario y contraseña). Al presionar el botón de inicio de sesión, el sistema valida la información y lo identifica, permitiéndole seleccionar su rol correspondiente (Jefe de Planta, Técnico o Gerente de Operaciones). Una vez dentro del panel principal del Jefe de Planta, este accede a la sección para registrar una nueva planta o empresa ingresando los datos solicitados (nombre de la planta, dirección exacta, ciudad/ubicación y cantidad de máquinas iniciales). Al confirmar el registro, el sistema procesa la información y redirige al usuario hacia su panel de control principal, donde podrá supervisar el estado general de la planta, gestionar órdenes de trabajo y administrar la maquinaria.
 
@@ -323,7 +323,7 @@ Persona de usuario: Miguel (Técnico de campo)
 
 Objetivo del usuario: Como Técnico de campo, deseo observar los fallos de las máquinas y dirigirme a la planta asignada, reportarme para que la incidencia quede registrada formalmente y pueda ser atendida sin retrasos.
 
-imagen
+<img src="./Assets/Images/tecnico.png" alt="tecnico">
 
 Explicación del flujo: El flujo comienza en la pantalla de selección de rol, donde el usuario se identifica como "Técnico" tras el inicio de sesión. Al ingresar, el sistema muestra el panel de bienvenida de Miguel junto con un módulo de filtros avanzados por estado, prioridad, fechas y técnico asignado, además de las órdenes de trabajo pendientes o en curso. Posteriormente, al navegar al apartado de "Maquinaria", el técnico puede revisar el listado detallado de equipos y su nivel de criticidad ("No presenta fallos", "Necesita mantenimiento" o "Fallos críticos"). Finalmente, el usuario elige una máquina específica para consultar su ficha técnica y detalles del problema, disponiendo de un botón de aceptación ("Aceptar") para confirmar la intervención y comenzar con la labor operativa. 
 
@@ -333,7 +333,7 @@ Persona de usuario: Carlos (Gerente de Operaciones)
 
 Objetivo del usuario: Como Gerente de Operaciones, deseo consultar un resumen general de las actividades y el estado de las plantas para evaluar el rendimiento general y tomar decisiones informadas.
 
-imagen
+<img src="./Assets/Images/Gerente-operaciones.png" alt="Gerente-de-operaciones">
 
 Explicación del flujo: El recorrido parte de la pantalla de autenticación, donde el usuario selecciona el rol de "Gerente de Operaciones". Al acceder al sistema, se visualiza el tablero ejecutivo que incluye un resumen general de operaciones (número de plantas activas, fallas críticas, técnicos disponibles y órdenes abiertas), así como el estado detallado por planta y el estatus de cada técnico. Desde esta vista principal, el gerente puede profundizar en la sección de órdenes programadas para analizar los datos de mantenimiento regular, con la opción de editar o registrar una nueva orden de trabajo si es necesario. Por último, el flujo permite consultar el historial completo de intervenciones y el registro detallado de fallas de los equipos, facilitando la auditoría y la supervisión gerencial.
 
