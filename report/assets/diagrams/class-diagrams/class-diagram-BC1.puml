@@ -1,0 +1,97 @@
+@startuml
+title FixCore - Class Diagram - Identity & Access Management
+
+skinparam classAttributeIconSize 0
+
+' roles y estados de sesion
+enum RoleType {
+    ADMINISTRADOR_PLANTA
+    TECNICO
+    CONSULTOR_INDUSTRIAL
+}
+
+enum SessionStatus {
+    ACTIVE
+    EXPIRED
+    REVOKED
+}
+
+' clases principales 
+class UserAccount {
+    - id: UUID
+    - username: String
+    - email: String
+    - passwordHash: String
+    - active: Boolean
+    - createdAt: DateTime
+    - updatedAt: DateTime
+
+    + register(): void
+    + activate(): void
+    + deactivate(): void
+    + changePassword(newPassword: String): void
+    + hasPermission(permission: Permission): Boolean
+}
+
+class Role {
+    - id: UUID
+    - name: RoleType
+    - description: String
+
+    + addPermission(permission: Permission): void
+    + removePermission(permission: Permission): void
+    + hasPermission(permission: Permission): Boolean
+}
+
+class Permission {
+    - id: UUID
+    - name: String
+    - description: String
+
+    + isGranted(): Boolean
+}
+
+class Session {
+    - id: UUID
+    - token: String
+    - createdAt: DateTime
+    - expiresAt: DateTime
+    - status: SessionStatus
+
+    + isValid(): Boolean
+    + expire(): void
+    + revoke(): void
+}
+
+' interfaces para servicios y repositorio
+interface IUserRepository {
+    + findById(id: UUID): UserAccount
+    + findByUsername(username: String): UserAccount
+    + save(user: UserAccount): void
+}
+
+interface IAuthenticationService {
+    + authenticate(username: String, password: String): Session
+    + logout(session: Session): void
+}
+
+interface IPasswordHasher {
+    + hash(password: String): String
+    + verify(password: String, hash: String): Boolean
+}
+
+' asociaciones entre clases
+UserAccount "1" --> "1..*" Role : assignedRoles
+Role "1" --> "0..*" Permission : grants
+
+UserAccount "1" *-- "0..*" Session : owns
+
+UserAccount ..> Role : uses
+Role ..> Permission : manages
+
+' dependencias con interfaces
+IUserRepository ..> UserAccount : persists
+IAuthenticationService ..> UserAccount : authenticates
+IAuthenticationService ..> Session : creates
+IAuthenticationService ..> IPasswordHasher : uses
+@enduml

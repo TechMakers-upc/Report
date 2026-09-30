@@ -1,0 +1,70 @@
+@startuml
+title Diagrama de Base de Datos - Gestion de Plantas y Activos
+
+' informacion de las sedes o plantas
+entity "planta_industrial" as planta {
+    * id : uuid <<PK>>
+    --
+    * nombre : varchar(150)
+    * direccion : varchar(255)
+    * ubicacion : varchar(150)
+    * activo : boolean
+    * fecha_creacion : timestamp
+}
+
+' maquinas y equipos registrados
+entity "activo" as activo {
+    * id : uuid <<PK>>
+    --
+    * planta_id : uuid <<FK>>
+    * codigo : varchar(100) <<UK>>
+    * nombre : varchar(150)
+    * descripcion : varchar(500)
+    * estado : varchar(50)
+    * fecha_instalacion : date
+    * fecha_creacion : timestamp
+    * fecha_actualizacion : timestamp
+}
+
+' datos tecnicos detallados de cada activo
+entity "ficha_tecnica" as ficha {
+    * id : uuid <<PK>>
+    --
+    * activo_id : uuid <<FK, UK>>
+    * fabricante : varchar(150)
+    * modelo : varchar(100)
+    * numero_serie : varchar(100)
+    * especificaciones : text
+}
+
+' manuales o documentos adjuntos
+entity "manual" as manual {
+    * id : uuid <<PK>>
+    --
+    * activo_id : uuid <<FK>>
+    * nombre : varchar(150)
+    * url_archivo : varchar(500)
+    * version : varchar(50)
+    * fecha_carga : timestamp
+}
+
+' log de cambios y eventos sobre la maquina
+entity "historial_activo" as historial {
+    * id : uuid <<PK>>
+    --
+    * activo_id : uuid <<FK>>
+    * tipo : varchar(50)
+    * descripcion : varchar(500)
+    * estado_anterior : varchar(50)
+    * estado_nuevo : varchar(50)
+    * fecha_creacion : timestamp
+}
+
+' una planta agrupa varios activos
+planta ||--o{ activo : contiene
+
+' relaciones directas del activo con su documentacion
+activo ||--|| ficha : tiene
+activo ||--o{ manual : tiene
+activo ||--o{ historial : registra
+@enduml

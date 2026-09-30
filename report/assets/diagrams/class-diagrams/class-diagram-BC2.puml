@@ -1,0 +1,102 @@
+@startuml
+title FixCore - Class Diagram - Resource & Asset Management
+
+skinparam classAttributeIconSize 0
+
+' estados y tipos de historial
+enum AssetStatus {
+    ACTIVE
+    INACTIVE
+    UNDER_MAINTENANCE
+    OUT_OF_SERVICE
+}
+
+enum HistoryType {
+    REGISTRATION
+    UPDATE
+    MAINTENANCE
+    STATUS_CHANGE
+}
+
+' entidades del modulo
+class IndustrialPlant {
+    - id: UUID
+    - name: String
+    - location: String
+    - description: String
+    - active: Boolean
+    - createdAt: DateTime
+
+    + register(): void
+    + updateInformation(name: String, location: String): void
+    + addAsset(asset: Asset): void
+    + removeAsset(asset: Asset): void
+}
+
+class Asset {
+    - id: UUID
+    - code: String
+    - name: String
+    - description: String
+    - status: AssetStatus
+    - installationDate: Date
+    - createdAt: DateTime
+
+    + register(): void
+    + updateInformation(): void
+    + changeStatus(status: AssetStatus): void
+    + isAvailable(): Boolean
+}
+
+class TechnicalSheet {
+    - id: UUID
+    - manufacturer: String
+    - model: String
+    - serialNumber: String
+    - specifications: String
+
+    + updateSpecifications(data: String): void
+    + validateInformation(): Boolean
+}
+
+class Manual {
+    - id: UUID
+    - title: String
+    - fileUrl: String
+    - version: String
+    - uploadedAt: DateTime
+
+    + upload(): void
+    + updateVersion(version: String): void
+}
+
+class AssetHistory {
+    - id: UUID
+    - date: DateTime
+    - type: HistoryType
+    - description: String
+
+    + registerEvent(): void
+}
+
+' acceso a datos
+interface IAssetRepository {
+    + findById(id: UUID): Asset
+    + findByPlant(plantId: UUID): List<Asset>
+    + save(asset: Asset): void
+    + update(asset: Asset): void
+}
+
+' composicion y relaciones de activos
+IndustrialPlant "1" *-- "0..*" Asset : contains
+
+Asset "1" *-- "1" TechnicalSheet : has
+Asset "1" *-- "0..*" Manual : has
+Asset "1" *-- "0..*" AssetHistory : records
+
+AssetHistory "0..*" --> "1" Asset : belongsTo
+
+' uso del repositorio
+IAssetRepository ..> Asset : persists
+IAssetRepository ..> IndustrialPlant : queries
+@enduml
