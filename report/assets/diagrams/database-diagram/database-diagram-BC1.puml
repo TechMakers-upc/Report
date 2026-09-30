@@ -1,0 +1,65 @@
+@startuml
+title Diagrama de Base de Datos - Gestion de Identidad y Accesos
+
+' tabla de usuarios del sistema
+entity "usuario" as usuario {
+    * id : uuid <<PK>>
+    --
+    * nombre_usuario : varchar(100) <<UK>>
+    * correo : varchar(150) <<UK>>
+    * contrasena : varchar(255)
+    * nombres : varchar(100)
+    * apellidos : varchar(100)
+    * activo : boolean
+    * fecha_creacion : timestamp
+}
+
+' roles asignables
+entity "rol" as rol {
+    * id : uuid <<PK>>
+    --
+    * nombre : varchar(50) <<UK>>
+    * descripcion : varchar(255)
+}
+
+' catalogo de permisos
+entity "permiso" as permiso {
+    * id : uuid <<PK>>
+    --
+    * nombre : varchar(100) <<UK>>
+    * descripcion : varchar(255)
+}
+
+' tabla intermedia para roles de usuario
+entity "usuario_rol" as usuario_rol {
+    * usuario_id : uuid <<PK, FK>>
+    * rol_id : uuid <<PK, FK>>
+}
+
+' tabla intermedia para permisos por rol
+entity "rol_permiso" as rol_permiso {
+    * rol_id : uuid <<PK, FK>>
+    * permiso_id : uuid <<PK, FK>>
+}
+
+' registro de sesiones activas
+entity "sesion" as sesion {
+    * id : uuid <<PK>>
+    --
+    * usuario_id : uuid <<FK>>
+    * token : varchar(500) <<UK>>
+    * estado : varchar(30)
+    * fecha_expiracion : timestamp
+    * fecha_creacion : timestamp
+}
+
+' relaciones de muchos a muchos
+usuario ||--o{ usuario_rol
+rol ||--o{ usuario_rol
+
+rol ||--o{ rol_permiso
+permiso ||--o{ rol_permiso
+
+' relacion de sesiones por usuario
+usuario ||--o{ sesion
+@enduml
