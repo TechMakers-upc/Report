@@ -1,0 +1,136 @@
+@startuml FixCore_Inventory
+
+title FixCore - Class Diagram - Inventory & Spare Parts Management
+
+skinparam classAttributeIconSize 0
+
+' tipos de movimientos y estados de stock
+enum MovementType {
+    ENTRY
+    EXIT
+    ADJUSTMENT
+}
+
+enum StockStatus {
+    AVAILABLE
+    LOW
+    OUT_OF_STOCK
+}
+
+' clases principales para repuestos e inventario
+class SparePart {
+    - id: UUID
+    - code: String
+    - name: String
+    - description: String
+    - unit: String
+    - minimumStock: Integer
+    - active: Boolean
+
+    + register(): void
+    + updateInformation(): void
+    + deactivate(): void
+}
+
+class Inventory {
+    - id: UUID
+    - name: String
+    - location: String
+    - active: Boolean
+
+    + addSparePart(part: SparePart): void
+    + removeSparePart(part: SparePart): void
+    + checkStock(): List<StockItem>
+}
+
+class StockItem {
+    - id: UUID
+    - quantity: Integer
+    - minimumQuantity: Integer
+    - status: StockStatus
+    - updatedAt: DateTime
+
+    + increase(quantity: Integer): void
+    + decrease(quantity: Integer): Boolean
+    + hasSufficientStock(quantity: Integer): Boolean
+    + updateStatus(): void
+    + isBelowMinimum(): Boolean
+}
+
+class InventoryMovement {
+    - id: UUID
+    - quantity: Integer
+    - type: MovementType
+    - date: DateTime
+    - reason: String
+
+    + register(): void
+    + validateQuantity(): Boolean
+}
+
+class InventoryAlert {
+    - id: UUID
+    - message: String
+    - createdAt: DateTime
+    - acknowledged: Boolean
+
+    + generate(): void
+    + acknowledge(): void
+}
+
+' servicios del negocio
+class InventoryService {
+    + registerSparePart(part: SparePart): void
+    + updateStock(partId: UUID quantity: Integer): void
+    + consumeSparePart(partId: UUID quantity: Integer): Boolean
+    + registerMovement(movement: InventoryMovement): void
+}
+
+class StockControlService {
+    + checkAvailability(partId: UUID quantity: Integer): Boolean
+    + detectLowStock(): List<StockItem>
+}
+
+' interfaces y repositorios
+interface ISparePartRepository {
+    + findById(id: UUID): SparePart
+    + findAll(): List<SparePart>
+    + save(part: SparePart): void
+    + update(part: SparePart): void
+}
+
+interface IInventoryRepository {
+    + findInventory(id: UUID): Inventory
+    + findStock(partId: UUID): StockItem
+    + saveStock(stock: StockItem): void
+}
+
+interface INotificationService {
+    + sendLowStockAlert(alert: InventoryAlert): void
+}
+
+' relaciones del diagrama
+Inventory "1" *-- "0..*" StockItem : contains
+
+StockItem "0..*" --> "1" SparePart : represents
+
+Inventory "1" --> "0..*" InventoryMovement : records
+
+InventoryMovement "0..*" --> "1" SparePart : concerns
+
+StockItem "1" --> "0..*" InventoryAlert : generates
+
+' uso de servicios y persistencia
+InventoryService ..> SparePart : manages
+InventoryService ..> StockItem : updates
+InventoryService ..> InventoryMovement : records
+
+StockControlService ..> StockItem : controls
+StockControlService ..> InventoryAlert : detects
+
+ISparePartRepository ..> SparePart : persists
+IInventoryRepository ..> StockItem : persists
+
+INotificationService ..> InventoryAlert : notifies
+
+@enduml
