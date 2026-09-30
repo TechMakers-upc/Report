@@ -1,0 +1,43 @@
+@startuml BD_Planificacion_Mantenimiento
+
+title Diagrama de Base de Datos - Diseño y Planificacion del Servicio
+
+' planes preventivos para cada activo
+entity "plan_mantenimiento" as plan {
+    * id : uuid <<PK>>
+    --
+    * activo_id : uuid
+    * nombre : varchar(150)
+    * descripcion : varchar(500)
+    * tipo_frecuencia : varchar(50)
+    * valor_frecuencia : int
+    * activo : boolean
+    * fecha_creacion : timestamp
+    * fecha_actualizacion : timestamp
+}
+
+' fechas y estado de ejecucion programada
+entity "programacion_mantenimiento" as programacion {
+    * id : uuid <<PK>>
+    --
+    * plan_mantenimiento_id : uuid <<FK>>
+    * fecha_programada : timestamp
+    * estado : varchar(50)
+    * fecha_original : timestamp
+    * fecha_reprogramada : timestamp
+    * motivo : varchar(500)
+    * fecha_creacion : timestamp
+    * fecha_actualizacion : timestamp
+}
+
+' un plan genera varias fechas de mantenimiento
+plan ||--o{ programacion : tiene
+
+' referencia logica externa
+note right of plan
+    activo_id corresponde a un activo
+    del contexto Gestion de Plantas
+    y Activos.
+end note
+
+@enduml

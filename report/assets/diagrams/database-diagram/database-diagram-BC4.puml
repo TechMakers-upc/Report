@@ -1,0 +1,87 @@
+@startuml BD_Ejecucion_Mantenimiento
+
+title Diagrama de Base de Datos - Ejecucion y Monitoreo del Servicio
+
+' registro de fallas detectadas
+entity "falla" as falla {
+    * id : uuid <<PK>>
+    --
+    * activo_id : uuid
+    * reportado_por : uuid
+    * descripcion : varchar(1000)
+    * prioridad : varchar(30)
+    * estado : varchar(30)
+    * fecha_reporte : timestamp
+}
+
+' ordenes generadas para atender fallas o mantenimientos
+entity "orden_trabajo" as orden {
+    * id : uuid <<PK>>
+    --
+    * falla_id : uuid <<FK>>
+    * activo_id : uuid
+    * tecnico_id : uuid
+    * titulo : varchar(200)
+    * descripcion : varchar(1000)
+    * estado : varchar(50)
+    * prioridad : varchar(30)
+    * fecha_inicio : timestamp
+    * fecha_fin : timestamp
+    * fecha_creacion : timestamp
+}
+
+' asignacion de personal a las ordenes
+entity "asignacion_tecnico" as asignacion {
+    * id : uuid <<PK>>
+    --
+    * orden_trabajo_id : uuid <<FK>>
+    * tecnico_id : uuid
+    * fecha_asignacion : timestamp
+    * fecha_desasignacion : timestamp
+}
+
+' detalle de tareas realizadas en campo
+entity "actividad_mantenimiento" as actividad {
+    * id : uuid <<PK>>
+    --
+    * orden_trabajo_id : uuid <<FK>>
+    * tecnico_id : uuid
+    * tipo_actividad : varchar(50)
+    * descripcion : varchar(1000)
+    * fecha_inicio : timestamp
+    * fecha_fin : timestamp
+    * fecha_creacion : timestamp
+}
+
+' piezas consumidas durante el trabajo
+entity "uso_repuesto" as uso {
+    * id : uuid <<PK>>
+    --
+    * orden_trabajo_id : uuid <<FK>>
+    * repuesto_id : uuid
+    * cantidad : decimal(10.2)
+    * fecha_uso : timestamp
+}
+
+' una falla puede abrir una orden de trabajo
+falla ||--o| orden : genera
+
+' detalles asociados a la orden
+orden ||--o{ asignacion : tiene
+orden ||--o{ actividad : registra
+orden ||--o{ uso : utiliza
+
+' notas de referencia hacia otros modulos
+note right of falla
+    activo_id corresponde a un activo
+    del contexto Gestion de Plantas
+    y Activos.
+end note
+
+note right of uso
+    repuesto_id corresponde a un
+    repuesto del contexto Inventario
+    y Repuestos.
+end note
+
+@enduml
