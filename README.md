@@ -3779,15 +3779,83 @@ Los principales avances en la implementación durante este sprint fueron
 
 #### 5.2.1.5. Execution Evidence for Sprint Review. 
 
+A continuacion presentaremos la evidencia de ejecucion para el Sprint 1,el cual corresponde a la seccion de Landing Page en su primera version implementadas
+
+* Navbar y Hero Section: Encabezado con menú de navegación y presentación inicial destacando la propuesta de valor para modernizar la gestión de mantenimiento industrial.
+
+<div align="center">
+  <img src="report/assets/images/nav-hero.png" width="700"><br>
+</div>
+
+* Funcionalidades y Guía de Uso : Describe las herramientas operativas de FixCore junto con un flujo paso a paso sobre cómo interactuar con el sistema.
+<div align="center">
+  <img src="report/assets/images/funcionalidades.png" width="700"><br>
+</div>
+<div align="center">
+  <img src="report/assets/images/flujo.png" width="700"><br>
+</div>
+
+* Beneficios Segmentados y Testimonios: Muestra las ventajas estratégicas como la reducción de tiempos de inactividad no programados respaldadas por opiniones y casos de uso "referenciales".
+
+<div align="center">
+  <img src="report/assets/images/soluciones.png" width="700"><br>
+</div>
+<div align="center">
+  <img src="report/assets/images/testimonios.png" width="700"><br>
+</div>
+
+ * Planes y Precios : Apartado tarifario que permite alternar entre modalidades de pago mensual y anual detallando las capacidades y límites incluidos en cada nivel de suscripción.
+
+ <div align="center">
+  <img src="report/assets/images/planes.png" width="700"><br>
+</div>
+
+* Preguntas Frecuentes y Footer: Espacio con respuestas a dudas habituales y el footer.
+
+ <div align="center">
+  <img src="report/assets/images/preguntas.png" width="700"><br>
+</div>
+
+<div align="center">
+  <img src="report/assets/images/footer.png" width="700"><br>
+</div>
+
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review. 
+
+Para este primer sprint, nos concentramos en desarrollar la Landing Page de FixCore. Nuestro objetivo fue dejar lista y totalmente responsive toda la parte informativa de la web, cubriendo las secciones del Navbar y Hero, las funcionalidades con su guía de uso, los beneficios junto a testimonios, la tabla interactiva de precios mensuales y anuales, y finalmente el apartado de preguntas frecuentes con soporte y footer.
+
+Como esta primera entrega consistió en una página web estática pensada para presentar el producto y validar nuestra propuesta de valor con los usuarios, en esta etapa no fue necesario desarrollar Web Services, endpoints en una API REST ni conectar bases de datos para guardar información.
 
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review. 
 
+Al finalizar el Sprint 1, realizamos el despliegue de la Landing Page de FixCore usando GitHub Pages. Esto nos permite compartir el avance directamente a través de un enlace web público para que cualquier persona pueda revisarlo desde su navegador sin tener que descargar el repositorio ni hacer configuraciones locales.
+
+Esta versión cuenta con todos los componentes que trabajamos en el Sprint 1 como la barra de navegación integrada al hero section, la explicación de las funcionalidades con su guía de uso, la sección de beneficios y testimonios, los planes de precios con alternador mensual/anual y el bloque de preguntas frecuentes junto al footer . Además, nos aseguramos de que toda la maquetación sea adaptable para que se visualice correctamente
+
+A continuación, presentamos las evidencias visuales del sitio ya publicado y operativo en GitHub Pages:
+
+<div align="center">
+  <img src="report/assets/images/pages.png" width="700"><br>
+</div>
+<div align="center">
+  <img src="report/assets/images/evidence.png" width="700"><br>
+</div>
+
 #### 5.2.1.8. Team Collaboration Insights during Sprint. 
 
 A continuación se presentan los aportes realizados por todos los integrantes del grupo.
+
+Durante el desarrollo del Sprint 1, organizamos la implementación de la Landing Page de FixCore asignando un responsable principal y colaboradores por cada sección funcional. Esta estructura nos ayudo a  trabajar en paralelo sin generar conflictos entre nuestro código al momento de avanzar. Coordinamos la iteración de manera virtual, estableciendo como objetivo primordial tener la web completamente operativa y desplegada a tiempo. Hicimos seguimiento a través de nuestro tablero de gestión de tareas, lo que nos ayudó a monitorear el flujo del trabajo y asegurar que las historias del Sprint Backlog pasaran a Done antes de la fecha de entrega.
+
+En la parte técnica, utilizamos GitHub gestionando el flujo con ramas individuales por funcionalidad en branches feature. Esta práctica mantuvo el repositorio ordenado y dejó un registro claro de los aportes de cada integrante para sus respectivos entregables que les tocaba.De esta entrega aprendimos que es necesario las reuniones para agilizar el avance,terminamos a tiempo pero al juntar todo en la rama principal encontramos ligeros desajustes como la traduccion , el espaciado,detalles con los colores y otros ajustes.
+
+**Metricas de Colaboracion:**
+
+<div align="center">
+  <img src="report/assets/images/insight.png" width="700"><br>
+</div>
 
 # Conclusiones 
 
