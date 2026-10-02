@@ -32,8 +32,6 @@ Proyecto
 
 **FixCore** 
 
-<br>
-
 **Integrantes**
 
 | Código      | Apellidos y nombres                     |
@@ -47,8 +45,6 @@ Proyecto
 <br>
 
 **Periodo 202620**
-
-<br>
 
 **Octubre 2026**
 </div>
@@ -266,14 +262,6 @@ Seguidamente se presenta la pestaña Contributors, donde se muestran los número
 
 # Capítulo I: Introduction 
 
-<div align="center">
-  <img src="report/assets/images/capitulo-1.png" 
-  alt="Capitulo 1" />
-</div>
-
-<br>
-<br>
-
 ## 1.1. Startup Profile
 
 ### 1.1.1. Descripción de la Startup
@@ -385,7 +373,7 @@ Como consecuencia, algunos mantenimientos pueden realizarse fuera de la fecha pr
 
 
 
-### Técnica de The 5 'W's y 2 'H's
+**Técnica de The 5 'W's y 2 'H's**
 
 | Pregunta      | Formulación                 | Respuesta |
 | :------------ | :-------------------------- | :-------- |
@@ -468,13 +456,10 @@ Nuestro enfoque inicial estará dirigido a pymes de manufactura y producción, f
 
 #### 1.2.2.4. Lean UX Canvas. 
 
-
 <div align="center">
   <p><b>Gráfico 1</b>: Lean UX Canvas FixCore</p>
   <img src="report/assets/images/lean_ux_canvas.png" alt="Lean UX Canvas FixCore">
 </div>
-
-
 
 *Fuente: Elaboración propia.*
 
@@ -531,8 +516,6 @@ Nuestro enfoque inicial estará dirigido a pymes de manufactura y producción, f
 
 **3. IBM Maximo**
 - Software líder mundial en gestión de activos empresariales (EAM). Es extremadamente potente y personalizable, ideal para corporaciones gigantes con operaciones críticas. Su principal debilidad radica en sus altísimos costos de licencia, infraestructura pesada y una curva de aprendizaje muy pronunciada.
-
----
 
 ### 2.1.1. Análisis competitivo.
 
@@ -596,14 +579,14 @@ IBM Maximo
 </tr>
 <tr>
 <th rowspan="3">Perfil de Producto</th>
-<th>Productos &amp; Servicios</th>
+<th>Productos y Servicios</th>
 <td>Gestión de activos, mantenimiento preventivo, reporte de fallas, órdenes de trabajo, inventario de repuestos, alertas, notificaciones y reportes.</td>
 <td>Gestión de activos, órdenes de trabajo, mantenimiento preventivo, dashboards, KPIs, IoT, automatización, analítica e integraciones.</td>
 <td>Órdenes de trabajo, mantenimiento preventivo, gestión de activos, inventario, repuestos, códigos QR, reportes e integraciones.</td>
 <td>Enterprise Asset Management, mantenimiento de activos, confiabilidad, planificación, inspecciones, analítica e inteligencia artificial.</td>
 </tr>
 <tr>
-<th>Precios &amp; Costos</th>
+<th>Precios y Costos</th>
 <td>Modelo freemium con funcionalidades básicas gratuitas y planes premium para acceder a capacidades y módulos avanzados.</td>
 <td>Modelo de suscripción comercial con planes definidos según las necesidades y características de cada organización.</td>
 <td>Modelo de suscripción basado en usuarios y funcionalidades contratadas.</td>
@@ -650,8 +633,6 @@ IBM Maximo
 </tr>
 </table>
 
-
-
 ### 2.1.2. Estrategias y tácticas frente a competidores.
 
 | Estrategia / Táctica | Descripción |
@@ -662,15 +643,11 @@ IBM Maximo
 | **Alianzas Estratégicas B2B** | Establecer alianzas con firmas consultoras, contratistas de mantenimiento y organizaciones relacionadas con el sector industrial para facilitar la adopción de FixCore y ampliar su presencia en el mercado. |
 | **Innovación en UX y Baja Fricción** | Diseñar una Web Application responsive, sencilla y accesible desde computadoras, tablets y smartphones, reduciendo la cantidad de pasos necesarios para tareas frecuentes como reportar fallas, consultar órdenes de trabajo o revisar repuestos. |
 
-
-
-
-
 ## 2.2. Entrevistas. 
 
 ### 2.2.1. Diseño de entrevistas. 
 
-### Guía de preguntas para Pymes de Manufactura y Producción
+**Guía de preguntas para Pymes de Manufactura y Producción**
 
 * ¿Cuál es tu nombre, edad y qué cargo ocupas en la planta?
 * ¿A qué sector industrial pertenece la empresa y, aproximadamente, cuántas máquinas principales operan?
@@ -685,7 +662,7 @@ IBM Maximo
 * Si existiera una versión básica gratuita (modelo freemium) para probar el sistema con algunas máquinas, ¿te animarías a implementarlo en tu planta?
 * Una vez comprobado el valor del sistema, ¿cuánto estarías dispuesto a pagar mensualmente por módulos avanzados y analítica de datos (rango en dólares o soles)?
 
-### Guía de preguntas para Firmas Consultoras y Contratistas de Ingeniería Industrial
+**Guía de preguntas para Firmas Consultoras y Contratistas de Ingeniería Industrial**
 
 * ¿Podría indicarme su nombre, cargo y el tipo de servicios de ingeniería o mantenimiento que brinda su empresa?
 * ¿A cuántas plantas industriales o clientes prestan servicio de manera simultánea?
@@ -699,8 +676,7 @@ IBM Maximo
 * ¿Preferiría un modelo de precios basado en la cantidad de técnicos (usuarios) o en la cantidad de plantas/clientes gestionados?
 * ¿Estaría dispuesto a recomendar e implementar este sistema directamente en la infraestructura tecnológica de sus clientes?
 
-
-### Guía de preguntas para Técnicos y Operarios de Mantenimiento Industrial
+**Guía de preguntas para Técnicos y Operarios de Mantenimiento Industrial**
 
 - ¿Cuál es tu nombre, edad y qué función desempeñas actualmente dentro del área de mantenimiento?
 - ¿Cuánto tiempo llevas trabajando en mantenimiento industrial y qué tipo de máquinas o equipos atiendes con mayor frecuencia?
@@ -955,9 +931,6 @@ Dependerá de los módulos y analíticas integradas, basándose en que tan útil
 
 ### Segmento 2: Firmas Consultoras y Contratistas de Ingeniería Industrial
 
-
-
-
 <table>
   <thead>
     <tr>
@@ -1108,10 +1081,6 @@ Hola me llamo Valeria Salazar, trabajo en el área de Operaciones en mi empresa,
 
 **¿Estaría dispuesto a recomendar e implementar este sistema directamente en la infraestructura tecnológica de sus clientes?** Sí lo haría, siempre y cuando el sistema nos permita poner el logotipo de nuestra consultora en los reportes finales que se le entregan al cliente.
 
-
-
-
-
 <table>
   <thead>
     <tr>
@@ -1196,8 +1165,6 @@ Considero que nos convendría más un modelo basado en la cantidad de técnicos 
 **¿Estaría dispuesto a recomendar e implementar este sistema directamente en la infraestructura tecnológica de sus clientes?**
 
 Sí, estaría dispuesto, siempre que sea una herramienta estable y fácil de utilizar. Considero que trabajar con tecnología moderna también mejora la imagen de la empresa frente a los clientes.
-
-
 
 ### Segmento 3: Técnicos y Operarios de Mantenimiento Industrial
 
@@ -1284,7 +1251,6 @@ Sería útil recibir alertas cuando me asignan una nueva orden de trabajo, cuand
 **¿Qué es lo que más te frustra del proceso actual de mantenimiento y qué cambiarías para hacerlo más sencillo?**  
 Lo que más me incomoda es tener que preguntar varias veces dónde está determinada información. Me gustaría tener toda la información de la máquina y mis tareas disponibles desde el celular.
 
-
 <table>
   <thead>
     <tr>
@@ -1368,7 +1334,6 @@ Me gustaría recibir alertas de órdenes nuevas, fallas críticas, mantenimiento
 **¿Qué es lo que más te frustra del proceso actual de mantenimiento y qué cambiarías para hacerlo más sencillo?**  
 Lo que más me molesta es registrar varias veces la misma información. Preferiría registrar directamente desde mi celular lo que hice y que automáticamente quede almacenado.
 
-
 <table>
   <thead>
     <tr>
@@ -1451,8 +1416,6 @@ Me sería útil recibir una alerta cuando tengo una nueva tarea, conocer cuál e
 
 **¿Qué es lo que más te frustra del proceso actual de mantenimiento y qué cambiarías para hacerlo más sencillo?**  
 A veces tenemos que esperar o preguntar para conseguir información que necesitamos. Me gustaría poder revisar desde el celular cuáles son mis tareas y registrar directamente cuando termino.
-
-
 
 ### 2.2.3. Análisis de entrevistas.
 
@@ -1659,11 +1622,7 @@ También se identificó la necesidad de contar con información actualizada sobr
 
 Finalmente, los tres segmentos muestran una valoración positiva hacia la automatización de alertas y la centralización de la información. Estos patrones respaldan la orientación de FixCore hacia una plataforma que reduzca la dependencia de procesos manuales y facilite la comunicación entre los diferentes participantes del mantenimiento industrial.
 
-
-
 ## 2.3. Needfinding. 
-
-# 2.3. Needfinding.
 
 El proceso de needfinding permitió identificar las necesidades, motivaciones, dificultades y oportunidades relacionadas con la digitalización del mantenimiento industrial en los tres segmentos objetivo de FixCore: pymes de manufactura y producción, firmas consultoras o contratistas de ingeniería industrial, y técnicos u operarios de mantenimiento industrial. Los hallazgos obtenidos mediante las entrevistas permitieron reconocer patrones relacionados con el uso de herramientas manuales, la dispersión de la información, las dificultades para coordinar actividades de mantenimiento y la necesidad de contar con herramientas digitales simples y accesibles desde distintos dispositivos.
 
@@ -1674,8 +1633,6 @@ Del mismo modo, el impacto de una gestión poco digitalizada y de una comunicaci
 Asimismo, la literatura sobre Smart Maintenance destaca que la movilidad, el uso de dispositivos móviles y las plataformas conectadas representan elementos importantes para la evolución de la gestión del mantenimiento. Estas tecnologías permiten a los técnicos consultar información y gestionar órdenes de trabajo directamente durante sus actividades, favoreciendo la usabilidad, la adopción de los sistemas y la precisión de la información registrada (Bokrantz et al., 2020). Este aspecto coincide con las entrevistas realizadas, en las que el smartphone aparece como uno de los dispositivos más utilizados por técnicos y operarios durante su jornada laboral.
 
 En conjunto, tanto los hallazgos obtenidos mediante las entrevistas como la literatura revisada evidencian la necesidad de herramientas de mantenimiento que centralicen la información, faciliten la comunicación entre responsables y técnicos, permitan consultar el estado de los repuestos y reduzcan la complejidad de las tareas de registro. Estos resultados sirven como base para la construcción de los User Personas, User Task Matrix, User Journey Maps, Empathy Maps y As-Is Scenario Maps de FixCore.
-
-
 
 ### Árbol de Problemas
 
@@ -1742,7 +1699,7 @@ Los User Personas considerados representan los siguientes segmentos:
 3. **Firmas Consultoras y Contratistas de Ingeniería Industrial**
 
 
-### User Task Matrix - FixCore
+**User Task Matrix - FixCore**
 
 | Tareas principales | Técnicos (Frc) | Técnicos (Imp) | Supervisores (Frc) | Supervisores (Imp) | Consultores (Frc) | Consultores (Imp) |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -1771,7 +1728,7 @@ Por otro lado, las **firmas consultoras y contratistas de ingeniería industrial
 
 Como coincidencia entre los tres perfiles, se identifica la necesidad de contar con información actualizada sobre las máquinas, las órdenes de trabajo y los repuestos disponibles. Sin embargo, mientras que los técnicos se enfocan principalmente en la ejecución de las actividades de mantenimiento, los supervisores se concentran en la planificación y seguimiento, y las firmas consultoras en la coordinación de operaciones entre diferentes clientes y plantas.
 
-### Análisis de resultados
+**Análisis de resultados**
 
 **Tareas más frecuentes:**
 Entre los tres segmentos, las tareas *"Acceder desde smartphones en planta"*, *"Consultar inventario de repuestos"* y *"Comunicar alertas críticas"* presentan alta frecuencia. Esto refleja la necesidad operativa del día a día por tener acceso móvil, visibilidad de stock y una comunicación rápida para evitar paradas prolongadas.
