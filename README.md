@@ -164,8 +164,8 @@ Seguidamente se presenta la pestaña Contributors, donde se muestran los número
   - [4.4. Web Applications UX/UI Design.](#44-web-applications-uxui-design)
     - [4.4.1. Web Applications Wireframes.](#441-web-applications-wireframes)
     - [4.4.2. Web Applications Wireflow Diagrams.](#442-web-applications-wireflow-diagrams)
-    - [4.4.2. Web Applications Mock-ups.](#442-web-applications-mock-ups)
-    - [4.4.3. Web Applications User Flow Diagrams.](#443-web-applications-user-flow-diagrams)
+    - [4.4.3. Web Applications Mock-ups.](#443-web-applications-mock-ups)
+    - [4.4.4. Web Applications User Flow Diagrams.](#444-web-applications-user-flow-diagrams)
   - [4.5. Web Applications Prototyping.](#45-web-applications-prototyping)
   - [4.6. Domain-Driven Software Architecture.](#46-domain-driven-software-architecture)
     - [4.6.1. Design-Level EventStorming.](#461-design-level-eventstorming)
@@ -2900,7 +2900,7 @@ Estructura General Desktop
   <em>Fuente: Elaboración propia.</em>
 </div>
 
-#### 4.3.1.3. wireframe Mobile
+#### 4.3.1.3. Wireframe Mobile
 El wireframe mobile adapta la estructura desktop a formatos verticales:
 
 <div align="center">
@@ -2988,8 +2988,6 @@ El esquema estructural de FixCore se sostiene en los siguientes fundamentos UX/U
 *   **Escalabilidad Mobile-First:** Elementos como el acordeón de FAQs y la barra de navegación se transforman en patrones nativos móviles (hamburguesa, menús desplegables) asegurando áreas táctiles de mínimo 44x44px.
 
 ### 4.3.2. Landing Page Mock-up. 
-
-### 4.3.2. Landing Page Mock-up
 
 Esta sección presenta y explica los Mock-ups (prototipos de alta fidelidad) del Landing Page de FixCore, tanto en su versión para Desktop Web Browser como Mobile Web Browser. En esta propuesta se evidencia la aplicación de los principios de diseño visual, accesibilidad y la arquitectura de información validada previamente en los wireframes, consolidando el Design System corporativo orientado al sector B2B (Mantenimiento Industrial).
 
@@ -3880,9 +3878,6 @@ En la parte técnica, utilizamos GitHub gestionando el flujo con ramas individua
 </div>
 
 # Conclusiones 
-
-## 5. Conclusiones
-
 
 El desarrollo del primer avance de **FixCore** permitió definir con mayor claridad la problemática, los usuarios objetivo, los principales requisitos y la propuesta de diseño de la solución. A partir del trabajo realizado, se establecen las siguientes conclusiones:
 
