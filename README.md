@@ -68,6 +68,28 @@ Diego Rances Rojas Huaranga
 
 # Project Report Collaboration Insights 
 
+Enlace al repositorio del Project Report: [Repositorio Report TechMakers](https://github.com/TechMakers-upc/Report)
+
+**Avance 1**
+
+Para el desarrollo de las actividades del informe, nuestro equipo subió cada avance realizado mediante commits en el repositorio del informe en GitHub. Para la gran mayoría de cambios se siguieron las convenciones dictadas por GitFlow y Conventional Commits, esto mediante la creación de ramas Feature en el repositorio que abarquen distintos aspectos del informe y mediante la redacción de mensajes de commits que especifiquen de forma breve cada cambio. En esta primera entrega varios avances se enfocaron en la elaboración del archivo Markdown principal, además de la agregación de imágenes de apoyo como fotos, diagramas, evidencias o diseños de acuerdo con lo que se abarca en cada capítulo.
+
+A continuación se presenta la pestaña Pulse elaborada por GitHub, donde se muestra el número de pull requests, commits y autores del repositorio. Esta captura abarca datos desde el 30 de agosto hasta el 30 de setiembre.
+
+![Pulse Avance 1](report/assets/images/collaboration-insight-1-av1.jpeg)
+
+Seguidamente se presenta la pestaña Contributors, donde se muestran los números de commits de cada integrante del equipo. Esta captura abarca datos desde el inicio del proyecto hasta la finalización del primer avance. 
+
+|Integrante|Nombre de usuario en GitHub|
+|:---------|:--------------------------|
+| Rojas Huaranga, Diego Rances | diego27-16 |
+| Mendoza Boluarte, Pierre Alessandro | pierreale2302 |
+| Córdova, Alvar Lucas | AlvarLC |
+| Landa Sánchez, Sunio Danilo | DanLandio |
+| Villanueva Rodríguez, Giuseppe Adrián | Giuseppe152004 |
+
+![Contributors Avance 1](report/assets/images/collaboration-insight-2-av1.jpeg)
+
 # Contenido 
 
 ## Tabla de contenidos 
@@ -142,8 +164,8 @@ Diego Rances Rojas Huaranga
   - [4.4. Web Applications UX/UI Design.](#44-web-applications-uxui-design)
     - [4.4.1. Web Applications Wireframes.](#441-web-applications-wireframes)
     - [4.4.2. Web Applications Wireflow Diagrams.](#442-web-applications-wireflow-diagrams)
-    - [4.4.2. Web Applications Mock-ups.](#442-web-applications-mock-ups)
-    - [4.4.3. Web Applications User Flow Diagrams.](#443-web-applications-user-flow-diagrams)
+    - [4.4.3. Web Applications Mock-ups.](#443-web-applications-mock-ups)
+    - [4.4.4. Web Applications User Flow Diagrams.](#444-web-applications-user-flow-diagrams)
   - [4.5. Web Applications Prototyping.](#45-web-applications-prototyping)
   - [4.6. Domain-Driven Software Architecture.](#46-domain-driven-software-architecture)
     - [4.6.1. Design-Level EventStorming.](#461-design-level-eventstorming)
@@ -2878,7 +2900,7 @@ Estructura General Desktop
   <em>Fuente: Elaboración propia.</em>
 </div>
 
-#### 4.3.1.3. wireframe Mobile
+#### 4.3.1.3. Wireframe Mobile
 El wireframe mobile adapta la estructura desktop a formatos verticales:
 
 <div align="center">
@@ -2966,8 +2988,6 @@ El esquema estructural de FixCore se sostiene en los siguientes fundamentos UX/U
 *   **Escalabilidad Mobile-First:** Elementos como el acordeón de FAQs y la barra de navegación se transforman en patrones nativos móviles (hamburguesa, menús desplegables) asegurando áreas táctiles de mínimo 44x44px.
 
 ### 4.3.2. Landing Page Mock-up. 
-
-### 4.3.2. Landing Page Mock-up
 
 Esta sección presenta y explica los Mock-ups (prototipos de alta fidelidad) del Landing Page de FixCore, tanto en su versión para Desktop Web Browser como Mobile Web Browser. En esta propuesta se evidencia la aplicación de los principios de diseño visual, accesibilidad y la arquitectura de información validada previamente en los wireframes, consolidando el Design System corporativo orientado al sector B2B (Mantenimiento Industrial).
 
@@ -3858,9 +3878,6 @@ En la parte técnica, utilizamos GitHub gestionando el flujo con ramas individua
 </div>
 
 # Conclusiones 
-
-## 5. Conclusiones
-
 
 El desarrollo del primer avance de **FixCore** permitió definir con mayor claridad la problemática, los usuarios objetivo, los principales requisitos y la propuesta de diseño de la solución. A partir del trabajo realizado, se establecen las siguientes conclusiones:
 
