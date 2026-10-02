@@ -53,6 +53,8 @@ Proyecto
 **Octubre 2026**
 </div>
 
+<div style="page-break-after: always;"></div>
+
 # Registro de Versiones del Informe 
 
 <table class="c0" style="border-collapse: collapse; width: 100%;">
@@ -84,6 +86,8 @@ Diego Rances Rojas Huaranga
 </tr>
 </table>
 
+<div style="page-break-after: always;"></div>
+
 # Project Report Collaboration Insights 
 
 Enlace al repositorio del Project Report: [Repositorio Report TechMakers](https://github.com/TechMakers-upc/Report)
@@ -107,6 +111,8 @@ Seguidamente se presenta la pestaña Contributors, donde se muestran los número
 | Villanueva Rodríguez, Giuseppe Adrián | Giuseppe152004 |
 
 ![Contributors Avance 1](report/assets/images/collaboration-insight-2-av1.jpeg)
+
+<div style="page-break-after: always;"></div>
 
 # Contenido 
 
@@ -214,7 +220,7 @@ Seguidamente se presenta la pestaña Contributors, donde se muestran los número
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
 
-
+<div style="page-break-after: always;"></div>
 
 # Student Outcome 
 
@@ -256,8 +262,7 @@ Seguidamente se presenta la pestaña Contributors, donde se muestran los número
 </table>
 </div>
 
-
-
+<div style="page-break-after: always;"></div>
 
 # Capítulo I: Introduction 
 
@@ -393,10 +398,6 @@ Como consecuencia, algunos mantenimientos pueden realizarse fuera de la fecha pr
 | **How Much?** | ¿Cuál es la magnitud?       | El problema puede generar tiempos muertos, reparaciones de emergencia, retrasos en la atención y sobrecostos que afectan directamente la productividad y rentabilidad de las empresas. |
 
 
-
-
----
-
 ### 1.2.2 Lean UX Process. 
 
 #### 1.2.2.1. Lean UX Problem Statements.
@@ -516,7 +517,7 @@ Nuestro enfoque inicial estará dirigido a pymes de manufactura y producción, f
 * **Datos de sustento:** Las entrevistas realizadas a jefes de planta evidencian que los técnicos utilizan principalmente smartphones durante sus turnos y que la facilidad de uso es uno de los factores más importantes para adoptar una nueva herramienta de mantenimiento. Además, las dificultades actuales incluyen reportes tardíos, uso de WhatsApp, formatos manuales y baja adopción de sistemas complejos.
 
 
-
+<div style="page-break-after: always;"></div>
 
 # Capítulo II: Requirements Elicitation & Analysis 
 
@@ -1931,6 +1932,10 @@ Es el lenguaje común compartido entre desarrolladores y expertos del negocio qu
 | **KPI de Mantenimiento** | Indicador clave (ej. MTTR - Tiempo Medio de Reparación) generado automáticamente para medir la eficiencia del equipo. |
 | **Plan Freemium** | Nivel de acceso básico de la plataforma que permite a la pyme gestionar un número limitado de OTs sin costo inicial. |
 
+
+
+<div style="page-break-after: always;"></div>
+
 # Capítulo III: Requirements Specification 
 
 ## 3.1. User Stories.
@@ -2120,6 +2125,10 @@ A continuación se presenta la tabla con mayor detalle:
 | 68 | **US68** | Servicio de inventario | Como Developer, deseo disponer de endpoints para gestionar repuestos y existencias para mantener actualizado el Inventario de FixCore. | 8 |
 | 69 | **US69** | Servicio de métricas y reportes | Como Developer, deseo disponer de endpoints para consultar KPIs de mantenimiento y reportes para que la Web Application pueda presentar información de seguimiento. | 8 |
 | 70 | **US70** | Servicio de notificaciones externas | Como Developer, deseo integrar el API con un servicio externo de notificaciones para enviar alertas relacionadas con eventos importantes de mantenimiento. | 8 |
+
+
+
+<div style="page-break-after: always;"></div>
 
 # Capítulo IV: Product Design 
 
@@ -3460,6 +3469,9 @@ En este apartado mostramos los Database Diagrams correspondientes a cada Bounded
 </div>
 
 
+
+<div style="page-break-after: always;"></div>
+
 # Capítulo V: Product Implementation, Validation & Deployment  
 
 ## 5.1. Software Configuration Management. 
@@ -3895,6 +3907,10 @@ En la parte técnica, utilizamos GitHub gestionando el flujo con ramas individua
   <img src="report/assets/images/insight.png" width="700"><br>
 </div>
 
+
+
+<div style="page-break-after: always;"></div>
+
 # Conclusiones 
 
 El desarrollo del primer avance de **FixCore** permitió definir con mayor claridad la problemática, los usuarios objetivo, los principales requisitos y la propuesta de diseño de la solución. A partir del trabajo realizado, se establecen las siguientes conclusiones:
@@ -3913,6 +3929,9 @@ El desarrollo del primer avance de **FixCore** permitió definir con mayor clari
 
 * **Base para las siguientes etapas del proyecto:** Los artefactos desarrollados, como User Personas, User Stories, Product Backlog, EventStorming, diagramas de arquitectura y diseños de interfaz, establecen una base para continuar con la implementación y validación progresiva de FixCore en los próximos avances.
 
+
+
+<div style="page-break-after: always;"></div>
 
 # Bibliografía
 
@@ -3958,9 +3977,13 @@ World Wide Web Consortium. (2023). *Web Content Accessibility Guidelines (WCAG) 
 
 W3Schools. (s. f.). *HTML style guide and coding conventions*. https://www.w3schools.com/HTML/html5_syntax.asp
 
+
+
+<div style="page-break-after: always;"></div>
+
 # Anexos
 
-
+<div style="page-break-after: always;"></div>
 
 ## Anexo A. Repositorios del Proyecto
 
@@ -3973,6 +3996,7 @@ W3Schools. (s. f.). *HTML style guide and coding conventions*. https://www.w3sch
 - Repositorio del Landing Page:
   https://github.com/TechMakers-upc/Landing-Page
 
+<div style="page-break-after: always;"></div>
 
 ## Anexo B. Gestión y Planificación del Proyecto
 
@@ -3985,12 +4009,13 @@ W3Schools. (s. f.). *HTML style guide and coding conventions*. https://www.w3sch
 - Artefactos de Needfinding en UXPressia:
   https://uxpressia.com/w/v8FzI/t/zbzV3
 
-
+<div style="page-break-after: always;"></div>
 
 ## Anexo D. Entrevistas
 
 - [Video de las entrevistas realizadas](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423973_upc_edu_pe/IQBCKuUvc8VeT4YtxyBRxNnnAerbBFUqAE8C5H7KH6vx3GU?e=f8X1Pp)
 
+<div style="page-break-after: always;"></div>
 
 ## Anexo E. Landing Page
 
@@ -4000,6 +4025,7 @@ W3Schools. (s. f.). *HTML style guide and coding conventions*. https://www.w3sch
 - Landing Page desplegado:
   https://techmakers-upc.github.io/Landing-Page/
 
+<div style="page-break-after: always;"></div>
 
 ## Anexo F. Video de Exposición AV1
 
