@@ -181,54 +181,43 @@ Diego Rances Rojas Huaranga
 <div align="center">
 <table border="1">
   <tr>
-  <th>Criterio Especifico</th>
-  <th>Acciones Realizadas</th>
-  <th>Conclusiones</th>
+    <th>Criterio Especifico</th>
+    <th>Acciones Realizadas</th>
+    <th>Conclusiones</th>
   </tr>
 
   <tr>
-  <th>Comunica oralmente con efectividad a diferentes rangos de audiencia</th>
-
-  <td>
-  Alvar Lucas Córdova	<br> AV1: <br>
-
-  <br> Sunio Danilo Landa Sánchez <br> AV1: <br>
-
-  <br> Giuseppe Adrián Villanueva Rodríguez <br> AV1: <br>
-
-  <br> Diego Rances Rojas Huaranga <br> AV1: <br>
-
-  <br> Pierre Alessandro Mendoza Boluarte <br> AV1: <br>
-  </td>
-
-  <td>
-  AV1: <br>
-
-  </td>
+    <th>Comunica oralmente con efectividad a diferentes rangos de audiencia</th>
+    <td>
+    Alvar Lucas Córdova <br> AV1: Participé en las reuniones y coordinaciones del equipo explicando los avances realizados en el proyecto, principalmente en los artefactos de Requirements Elicitation & Analysis y Requirements Specification, como User Personas, User Task Matrix, User Journey Mapping, Empathy Mapping, User Stories, Impact Mapping y Product Backlog. También comuniqué decisiones y avances relacionados con el diseño y desarrollo del producto.<br><br>
+    Sunio Danilo Landa Sánchez <br> AV1: Participé en la coordinación del equipo para el desarrollo del proyecto siguiendo las convenciones descritas en el enunciado. Además, participé en la exposición de los avances realizados.<br><br>
+    Giuseppe Adrián Villanueva Rodríguez <br> AV1: Colaboré en el desarrollo de los capítulos II, III y IV, así como en algunas partes del desarrollo y despliegue de la Landing Page. También comuniqué al equipo los avances realizados en estas actividades.<br><br>
+    Diego Rances Rojas Huaranga <br> AV1: Apoyé en la elaboración del primer avance del proyecto y en la realización de entrevistas correspondientes a los tres segmentos definidos. También participé en las coordinaciones del equipo para integrar estos aportes al informe.<br><br>
+    Pierre Alessandro Mendoza Boluarte <br> AV1: Participé activamente en la elaboración del primer avance, aportando contenido para el Capítulo I relacionado con la definición del negocio y los segmentos objetivo. Asimismo, realicé dos entrevistas y comuniqué al equipo los resultados obtenidos.
+    </td>
+    <td>
+    AV1: La comunicación oral permitió coordinar las actividades entre los integrantes, presentar los avances realizados y compartir las decisiones tomadas durante el desarrollo del proyecto. Asimismo, facilitó la explicación de la problemática, los requerimientos y la propuesta de FixCore durante las reuniones y exposiciones del equipo.
+    </td>
   </tr>
 
   <tr>
-  <th>Comunica por escrito con efectividad a diferentes rangos de audiencia </th>
-
-  <td>
-  Alvar Lucas Córdova	<br> AV1: <br>
-
-  <br> Sunio Danilo Landa Sánchez <br> AV1: <br>
-
-  <br> Giuseppe Adrián Villanueva Rodríguez <br> AV1: <br>
-
-  <br> Diego Rances Rojas Huaranga <br> AV1: <br>
-
-  <br> Pierre Alessandro Mendoza Boluarte <br> AV1: <br>
-  </td>
-
-  <td>
-  AV1: <br>
-  
-  </td>
+    <th>Comunica por escrito con efectividad a diferentes rangos de audiencia</th>
+    <td>
+    Alvar Lucas Córdova <br> AV1: Elaboré y redacté diferentes secciones del informe, incluyendo User Personas, User Task Matrix, User Journey Mapping, Empathy Mapping, User Stories, Impact Mapping y Product Backlog. Además, participé en la documentación de secciones relacionadas con el diseño del producto y el avance de la implementación.<br><br>
+    Sunio Danilo Landa Sánchez <br> AV1: Apoyé en la aplicación de convenciones durante el control de versiones del proyecto y en la nomenclatura de los mensajes de cambio realizados en el repositorio.<br><br>
+    Giuseppe Adrián Villanueva Rodríguez <br> AV1: Redacté diferentes secciones comprendidas desde Style Guidelines hasta Landing Page Mock-up. Además, participé en la elaboración de dos entrevistas y en la redacción de sus respectivos resúmenes.<br><br>
+    Diego Rances Rojas Huaranga <br> AV1: Participé en el desarrollo de la propuesta visual y de interacción de la plataforma orientada al mantenimiento industrial, elaborando wireframes de baja fidelidad en Figma. También integré los wireframes con los flujos de interacción y cambios de estado según los objetivos de cada rol, y participé en el desarrollo de los mock-ups de alta fidelidad aplicando el Design System de FixCore.<br><br>
+    Pierre Alessandro Mendoza Boluarte <br> AV1: Participé en la planificación del EventStorming, colaboré en la elaboración de diagramas y apoyé en la redacción de diferentes apartados correspondientes al Capítulo V.
+    </td>
+    <td>
+    AV1: La documentación elaborada permitió comunicar de forma organizada la problemática, los segmentos objetivo, los requerimientos, el diseño y los avances de implementación de FixCore. La utilización de una estructura común, artefactos visuales y convenciones de documentación permitió mantener coherencia entre los diferentes capítulos del informe y facilitar su comprensión.
+    </td>
   </tr>
 </table>
 </div>
+
+
+
 
 # Capítulo I: Introduction 
 
@@ -276,7 +265,7 @@ A continuación, se presentan los integrantes de TechMakers y las principales ca
 
   <tr>
     <th rowspan="2">Alvar Lucas Córdova</th>
-    <td colspan="2">(img)</td>
+    <td colspan="2"><img src="report/assets/images/foto-alvar.jpg"></td>
   </tr>
   <tr>
     <td colspan="2">
@@ -288,7 +277,7 @@ A continuación, se presentan los integrantes de TechMakers y las principales ca
 
   <tr>
     <th rowspan="2">Sunio Danilo Landa Sánchez</th>
-    <td colspan="2">(img)</td>
+    <td colspan="2"><img src="report/assets/images/foto-sunio.jpg"></td>
   </tr>
   <tr>
     <td colspan="2">
@@ -300,7 +289,7 @@ A continuación, se presentan los integrantes de TechMakers y las principales ca
 
   <tr>
     <th rowspan="2">Giuseppe Adrián Villanueva Rodríguez</th>
-    <td colspan="2">(img)</td>
+    <td colspan="2"><img src="report/assets/images/foto-giuseppe.jpg"></td>
   </tr>
   <tr>
     <td colspan="2">
@@ -312,7 +301,7 @@ A continuación, se presentan los integrantes de TechMakers y las principales ca
 
   <tr>
     <th rowspan="2">Diego Rances Rojas Huaranga</th>
-    <td colspan="2">(img)</td>
+    <td colspan="2"><img src="report/assets/images/foto-diego.jpg"</td>
   </tr>
   <tr>
     <td colspan="2">
@@ -324,7 +313,7 @@ A continuación, se presentan los integrantes de TechMakers y las principales ca
 
   <tr>
     <th rowspan="2">Pierre Alessandro Mendoza Boluarte</th>
-    <td colspan="2">(img)</td>
+    <td colspan="2"><img src="report/assets/images/foto-pierre.jpg"></td>
   </tr>
   <tr>
     <td colspan="2">
@@ -664,7 +653,7 @@ IBM Maximo
 * ¿Qué tan complejo les resulta estandarizar los reportes de mantenimiento y KPIs para entregárselos a diferentes clientes?
 * ¿Suelen utilizar herramientas de automatización de flujos de trabajo o integración de APIs en sus operaciones diarias?
 * ¿Qué funcionalidades considera indispensables en una plataforma digital para que decida utilizarla como el motor operativo de todos sus técnicos (ej. webhooks, portal multi-cliente, alertas en tiempo real)?
-* ¿Qué tan importante sería para su firma poder integrar el sistema de mantenimiento con otras herramientas de comunicación (como notificaciones automáticas vía n8n a WhatsApp)?
+* ¿Qué tan importante sería para su firma poder integrar el sistema de mantenimiento con otras herramientas de comunicación (como notificaciones automáticas vía WhatsApp)?
 * ¿Cree que ofrecer a sus clientes una herramienta ágil para que les reporten fallas mejoraría la percepción de su servicio tercerizado? ¿Por qué?
 * ¿Preferiría un modelo de precios basado en la cantidad de técnicos (usuarios) o en la cantidad de plantas/clientes gestionados?
 * ¿Estaría dispuesto a recomendar e implementar este sistema directamente en la infraestructura tecnológica de sus clientes?
@@ -716,16 +705,16 @@ IBM Maximo
       <td>San Miguel</td>
     </tr>
     <tr>
-      <td><strong>Inicio de la entrevista</strong></td>
-      <td>11:59 am</td>
+      <td><strong>Timing de la entrevista</strong></td>
+      <td>Inicia: 00:00 - Termina: 4:38</td>
     </tr>
     <tr>
       <td><strong>Duración</strong></td>
-      <td>4.56 min</td>
+      <td>4:38 min</td>
     </tr>
     <tr>
       <td><strong>Enlace</strong></td>
-      <td><a href="URL_DEL_VIDEO">aca colocamos el link del video (todas las entrevistas juntas en uno solo)</a></td>
+      <td><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423973_upc_edu_pe/IQBCKuUvc8VeT4YtxyBRxNnnAerbBFUqAE8C5H7KH6vx3GU?e=f8X1Pp">Video de las entrevistas</a></td>
     </tr>
   </tbody>
 </table>
@@ -792,8 +781,8 @@ Yo creo que entre 500 a 1000 soles. Incluso un poquito más. O sea, también ten
       <td>Magdalena del Mar</td>
     </tr>
     <tr>
-      <td><strong>Inicio de la entrevista</strong></td>
-      <td>4:38</td>
+      <td><strong>Timing de la entrevista</strong></td>
+      <td>Inicia: 4:38 - Termina: 8:57</td>
     </tr>
     <tr>
       <td><strong>Duración</strong></td>
@@ -801,7 +790,7 @@ Yo creo que entre 500 a 1000 soles. Incluso un poquito más. O sea, también ten
     </tr>
     <tr>
       <td><strong>Enlace</strong></td>
-      <td><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423973_upc_edu_pe/IQD8ECWrYrRxQaNhmjXB91vmAWdSEk3YRD64TUu5xywjVz8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=WNbf7E">Video de las entrevistas</a></td>
+      <td><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423973_upc_edu_pe/IQBCKuUvc8VeT4YtxyBRxNnnAerbBFUqAE8C5H7KH6vx3GU?e=f8X1Pp">Video de las entrevistas</a></td>
     </tr>
   </tbody>
 </table>
@@ -876,49 +865,144 @@ Yo creo que pagaría entre 80 y 100 dólares mensuales si de verdad me soluciona
     </tr>
     <tr>
       <td><strong>Enlace</strong></td>
-      <td><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423973_upc_edu_pe/IQD8ECWrYrRxQaNhmjXB91vmAWdSEk3YRD64TUu5xywjVz8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=WNbf7E">Video de las entrevistas</a></td>
+      <td><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423973_upc_edu_pe/IQBCKuUvc8VeT4YtxyBRxNnnAerbBFUqAE8C5H7KH6vx3GU?e=f8X1Pp">Video de las entrevistas</a></td>
     </tr>
   </tbody>
 </table>
 
 **Resumen:**
-**¿Cuál es tu nombre, edad y qué cargo ocupas en la planta?**
+
+Mijtail Landa, de 29 años, ocupa el cargo de gestión de proyecto. Él pertenece al sector de telecomunicaciones y opera cientos de equipos distribuidos a nivel nacional, donde los tiempos muertos no son comunes pero son graves. En su trabajo se notifican los reportes mediante llamadas y correos electrónicos. Él considera que su mayor frustración es la desorganización y saturación en el trabajo. Además, nos cuenta que un sistema generaría más confianza si es fácil de usar y si permite automatizar alertas. Actualmente, estima que un costo adecuado para ese sistema sería de 50 a 100 soles mensuales, pero que necesita primero realizar un estudio del mercado antes de dar un mejor rango.
+
+**Respuestas:**
+
+**¿Cuál es tu nombre, edad y qué cargo ocupas en la planta?**  
 Mitjail Landa, de 29 años, ocupa el cargo de gestión de proyectos.
 
-**¿A qué sector industrial pertenece la empresa y, aproximadamente, cuántas máquinas principales operan?**
+**¿A qué sector industrial pertenece la empresa y, aproximadamente, cuántas máquinas principales operan?**  
 La empresa pertenece al sector de telecomunicaciones y opera cientos de equipos distribuidos a nivel nacional.
 
-**¿Cómo gestionan actualmente el reporte de fallas de maquinaria y las órdenes de trabajo (ej. Excel, papel, grupos de WhatsApp, pizarras)?**
+**¿Cómo gestionan actualmente el reporte de fallas de maquinaria y las órdenes de trabajo (ej. Excel, papel, grupos de WhatsApp, pizarras)?**  
 Los reportes son notificados por los usuarios mediante llamadas telefónicas y correos electrónicos.
 
-**¿Qué dispositivos utilizan más los operarios y técnicos durante su turno en planta (smartphones, tablets, radios)?**
+**¿Qué dispositivos utilizan más los operarios y técnicos durante su turno en planta (smartphones, tablets, radios)?**  
 Los operarios utilizan mayormente celulares.
 
-**¿Qué tan frecuente es que una máquina sufra tiempos muertos debido a una mala comunicación o lentitud al reportar la falla?** 
+**¿Qué tan frecuente es que una máquina sufra tiempos muertos debido a una mala comunicación o lentitud al reportar la falla?**  
 No es muy común, pero los tiempos muertos son altos.
 
-**¿Cuáles son las mayores frustraciones que enfrentas al intentar consolidar la información de mantenimiento a fin de mes?**
+**¿Cuáles son las mayores frustraciones que enfrentas al intentar consolidar la información de mantenimiento a fin de mes?**  
 La desorganización y saturación generada por el trabajo de varias personas de diferentes áreas.
 
-**¿Has intentado implementar algún software de mantenimiento anteriormente? Si es así, ¿cuál fue el resultado o la principal barrera de adopción por parte de los técnicos?**
+**¿Has intentado implementar algún software de mantenimiento anteriormente? Si es así, ¿cuál fue el resultado o la principal barrera de adopción por parte de los técnicos?**  
 Se ha intentado y se está planeando su implementación para proyectos recientes que requieren mantenimiento preventivo.
 
-**¿Qué elemento te generaría más confianza para adoptar un nuevo sistema: la facilidad de uso para el operario, la automatización de alertas, o el costo de implementación?**
+**¿Qué elemento te generaría más confianza para adoptar un nuevo sistema: la facilidad de uso para el operario, la automatización de alertas, o el costo de implementación?**  
 Lo más importante es la facilidad de uso para el operario debido a que les ayudará a adaptarse al sistema. La automatización de alertas también es importante para tomar precauciones.
 
-**¿Cómo crees que impactaría en la productividad si los técnicos pudieran reportar una falla en menos de 3 clics desde su celular?**
+**¿Cómo crees que impactaría en la productividad si los técnicos pudieran reportar una falla en menos de 3 clics desde su celular?**  
 Sería muy bueno para brindar atención rápida
 
-**¿Qué tan útil te resultaría recibir notificaciones automáticas de fallas críticas directamente en tu WhatsApp?**
+**¿Qué tan útil te resultaría recibir notificaciones automáticas de fallas críticas directamente en tu WhatsApp?**  
 Le resulta muy útil y plantea integraciones mediante mensajes de texto o audios pregrabados. 
 
-**Si existiera una versión básica gratuita (modelo freemium) para probar el sistema con algunas máquinas, ¿te animarías a implementarlo en tu planta?**
+**Si existiera una versión básica gratuita (modelo freemium) para probar el sistema con algunas máquinas, ¿te animarías a implementarlo en tu planta?**  
 Se animaría a probarlo para averiguar como se desarrolla o adapta en su contexto laboral.
 
-**Una vez comprobado el valor del sistema, ¿cuánto estarías dispuesto a pagar mensualmente por módulos avanzados y analítica de datos (rango en dólares o soles)?**
+**Una vez comprobado el valor del sistema, ¿cuánto estarías dispuesto a pagar mensualmente por módulos avanzados y analítica de datos (rango en dólares o soles)?**  
 Dependerá de los módulos y analíticas integradas, basándose en que tan útiles sean. Estima que, si es un buen sistema, un rango de precios que estaría dispuesto a pagar es de 50 a 100 soles mensuales, pero plantea realizar un estudio de mercado primero antes de dar un rango definitivo.
 
 ### Segmento 2: Firmas Consultoras y Contratistas de Ingeniería Industrial
+
+
+
+
+<table>
+  <thead>
+    <tr>
+      <th align="center">Foto</th>
+      <th align="left">Campo</th>
+      <th align="left">Detalle</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="7" align="center" valign="middle" width="200">
+        <img src="report/assets/images/foto-entrevista1-segmento2.jpg" alt="" width="160">
+      </td>
+      <td><strong>Nombre y apellido</strong></td>
+      <td>Cristofer Vilchez</td>
+    </tr>
+    <tr>
+      <td><strong>Edad</strong></td>
+      <td>20 años</td>
+    </tr>
+    <tr>
+      <td><strong>Ubicación</strong></td>
+      <td>Lima</td>
+    </tr>
+    <tr>
+      <td><strong>Timing de la entrevista</strong></td>
+      <td>Inicia: 16:47 - Termina: 24:10</td>
+    </tr>
+    <tr>
+      <td><strong>Duración</strong></td>
+      <td>7:23 minutos</td>
+    </tr>
+    <tr>
+      <td><strong>Enlace</strong></td>
+      <td><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423973_upc_edu_pe/IQBCKuUvc8VeT4YtxyBRxNnnAerbBFUqAE8C5H7KH6vx3GU?e=f8X1Pp">Video de las entrevistas</a></td>
+    </tr>
+
+  </tbody>
+</table>
+
+
+**¿Podría indicarme su nombre, cargo y el tipo de servicios de ingeniería o mantenimiento que brinda su empresa?**
+
+Mi nombre es Cristofer Vílchez, tengo 20 años y trabajo como asistente de operaciones en una empresa que brinda servicios de mantenimiento preventivo y correctivo para equipos electromecánicos utilizados en pequeñas y medianas empresas industriales.
+
+**¿A cuántas plantas industriales o clientes prestan servicio de manera simultánea?**
+
+Normalmente tenemos entre 5 y 7 clientes activos durante la semana. Dependiendo de las emergencias, podemos tener técnicos trabajando en varias plantas al mismo tiempo.
+
+**¿Cómo coordinan actualmente el despliegue de sus técnicos en campo cuando un cliente reporta una emergencia o falla en sus equipos?**
+
+La mayoría de coordinaciones se realizan por llamadas telefónicas y WhatsApp. Cuando ocurre una emergencia, el supervisor revisa quién está disponible y comienza a comunicarse con los técnicos para determinar quién puede atender al cliente más rápido.
+
+**Desde su experiencia operativa, ¿cuáles son las mayores limitaciones logísticas o tecnológicas que enfrentan para atender múltiples plantas a la vez?**
+
+Uno de los principales problemas es no tener información actualizada sobre el estado de cada técnico. También puede ocurrir que un técnico llegue a la planta y recién descubra que necesita un repuesto que no tiene disponible, lo cual genera retrasos.
+
+**¿Qué tan complejo les resulta estandarizar los reportes de mantenimiento y KPIs para entregárselos a diferentes clientes?**
+
+Resulta complicado porque cada cliente solicita información diferente. Algunas empresas piden archivos de Excel, otras documentos PDF y otras solamente un resumen. Al final se termina copiando información de mensajes, fotografías y formatos para preparar cada reporte.
+
+**¿Suelen utilizar herramientas de automatización de flujos de trabajo o integración de APIs en sus operaciones diarias?**
+
+Actualmente utilizamos principalmente WhatsApp, correo electrónico y hojas de cálculo. No tenemos automatizaciones avanzadas, aunque sería útil que ciertas notificaciones o cambios de estado se envíen automáticamente.
+
+**¿Qué funcionalidades considera indispensables en una plataforma digital para que decida utilizarla como el motor operativo de todos sus técnicos?**
+
+Me parecería importante tener un panel donde podamos visualizar las órdenes de trabajo, los técnicos asignados, el estado de cada servicio y la disponibilidad de repuestos. También serían útiles las alertas cuando ocurre una emergencia o una tarea cambia de prioridad.
+
+**¿Qué tan importante sería para su firma poder integrar el sistema de mantenimiento con otras herramientas de comunicación como WhatsApp?**
+
+Sería bastante importante porque WhatsApp es una herramienta que todos utilizamos actualmente. Si los avisos pudieran enviarse automáticamente, reduciríamos el tiempo que usamos llamando o escribiendo a cada persona.
+
+**¿Cree que ofrecer a sus clientes una herramienta ágil para que reporten fallas mejoraría la percepción de su servicio tercerizado? ¿Por qué?**
+
+Sí. Creo que permitir que el cliente reporte una falla y pueda conocer el estado de su atención daría una imagen más organizada y profesional de la empresa.
+
+**¿Preferiría un modelo de precios basado en la cantidad de técnicos o en la cantidad de plantas/clientes gestionados?**
+
+Preferiría un modelo basado en la cantidad de técnicos activos porque la cantidad de clientes puede cambiar dependiendo del mes, mientras que el equipo de trabajo suele mantenerse más estable.
+
+**¿Estaría dispuesto a recomendar e implementar este sistema directamente en la infraestructura tecnológica de sus clientes?**
+
+Sí, siempre que sea sencillo, estable y no requiera demasiado tiempo de capacitación. Si ayuda a organizar mejor las operaciones, sería una herramienta que podríamos recomendar también a nuestros clientes.
+
+
 <table>
   <thead>
     <tr>
@@ -945,7 +1029,7 @@ Dependerá de los módulos y analíticas integradas, basándose en que tan útil
     </tr>
     <tr>
       <td><strong>Inicio de la entrevista</strong></td>
-      <td>24:11</td>
+      <td>24:11 - Termina: 28:37</td>
     </tr>
     <tr>
       <td><strong>Duración</strong></td>
@@ -953,7 +1037,7 @@ Dependerá de los módulos y analíticas integradas, basándose en que tan útil
     </tr>
     <tr>
       <td><strong>Enlace</strong></td>
-      <td><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423973_upc_edu_pe/IQD8ECWrYrRxQaNhmjXB91vmAWdSEk3YRD64TUu5xywjVz8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=WNbf7E">Video de las entrevistas</a></td>
+      <td><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423973_upc_edu_pe/IQBCKuUvc8VeT4YtxyBRxNnnAerbBFUqAE8C5H7KH6vx3GU?e=f8X1Pp">Video de las entrevistas</a></td>
     </tr>
   </tbody>
 </table>
@@ -984,6 +1068,9 @@ Hola me llamo Valeria Salazar, trabajo en el área de Operaciones en mi empresa,
 **¿Estaría dispuesto a recomendar e implementar este sistema directamente en la infraestructura tecnológica de sus clientes?** Sí lo haría, siempre y cuando el sistema nos permita poner el logotipo de nuestra consultora en los reportes finales que se le entregan al cliente.
 
 
+
+
+
 <table>
   <thead>
     <tr>
@@ -995,7 +1082,7 @@ Hola me llamo Valeria Salazar, trabajo en el área de Operaciones en mi empresa,
   <tbody>
     <tr>
       <td rowspan="6" align="center" valign="middle" width="200">
-        <img src="../assets/images/Anderson_Cabanillas.jpeg" alt="Anderson Cabanillas" width="160">
+        <img src="report/assets/images/foto-entrevista3-segmento2.jpg" alt="Anderson Cabanillas" width="160">
       </td>
       <td><strong>Nombre y apellido</strong></td>
       <td>Anderson Cabanillas</td>
@@ -1009,16 +1096,16 @@ Hola me llamo Valeria Salazar, trabajo en el área de Operaciones en mi empresa,
       <td>Ventanilla</td>
     </tr>
     <tr>
-      <td><strong>Inicio de la entrevista</strong></td>
-      <td>Completar timing</td>
+      <td><strong>Timing de la entrevista</strong></td>
+      <td>Inicia: 28:37 - Termina 34:28</td>
     </tr>
     <tr>
       <td><strong>Duración</strong></td>
-      <td>5 minutos y 56 segundos</td>
+      <td>5:51 minutos</td>
     </tr>
     <tr>
       <td><strong>Enlace</strong></td>
-      <td><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423973_upc_edu_pe/IQD8ECWrYrRxQaNhmjXB91vmAWdSEk3YRD64TUu5xywjVz8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=WNbf7E">Video de las entrevistas</a></td>
+      <td><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423973_upc_edu_pe/IQBCKuUvc8VeT4YtxyBRxNnnAerbBFUqAE8C5H7KH6vx3GU?e=f8X1Pp">Video de las entrevistas</a></td>
     </tr>
   </tbody>
 </table>
@@ -1071,100 +1158,6 @@ Sí, estaría dispuesto, siempre que sea una herramienta estable y fácil de uti
 
 
 
-<table>
-  <thead>
-    <tr>
-      <th align="center">Foto</th>
-      <th align="left">Campo</th>
-      <th align="left">Detalle</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td rowspan="7" align="center" valign="middle" width="200">
-        <img src="" alt="Entrevistado pendiente" width="160">
-      </td>
-      <td><strong>Nombre y apellido</strong></td>
-      <td>Diego Torres</td>
-    </tr>
-    <tr>
-      <td><strong>Edad</strong></td>
-      <td>20 años</td>
-    </tr>
-    <tr>
-      <td><strong>Ubicación</strong></td>
-      <td>Lima</td>
-    </tr>
-    <tr>
-      <td><strong>Cargo</strong></td>
-      <td>Asistente de Operaciones</td>
-    </tr>
-    <tr>
-      <td><strong>Inicio de la entrevista</strong></td>
-      <td>Pendiente</td>
-    </tr>
-    <tr>
-      <td><strong>Duración</strong></td>
-      <td>Pendiente</td>
-    </tr>
-    <tr>
-      <td><strong>Enlace</strong></td>
-      <td>Pendiente de entrevista real</td>
-    </tr>
-  </tbody>
-</table>
-
-> **Nota provisional:** Entrevista simulada utilizada únicamente para estructurar el documento. Debe ser reemplazada y validada con la entrevista real antes de la entrega final.
-
-**Resumen provisional:**
-
-**¿Podría indicarme su nombre, cargo y el tipo de servicios de ingeniería o mantenimiento que brinda su empresa?**
-
-Mi nombre es Diego Torres, tengo 20 años y trabajo como asistente de operaciones en una empresa que brinda servicios de mantenimiento preventivo y correctivo para equipos electromecánicos utilizados en pequeñas y medianas empresas industriales.
-
-**¿A cuántas plantas industriales o clientes prestan servicio de manera simultánea?**
-
-Normalmente tenemos entre 5 y 7 clientes activos durante la semana. Dependiendo de las emergencias, podemos tener técnicos trabajando en varias plantas al mismo tiempo.
-
-**¿Cómo coordinan actualmente el despliegue de sus técnicos en campo cuando un cliente reporta una emergencia o falla en sus equipos?**
-
-La mayoría de coordinaciones se realizan por llamadas telefónicas y WhatsApp. Cuando ocurre una emergencia, el supervisor revisa quién está disponible y comienza a comunicarse con los técnicos para determinar quién puede atender al cliente más rápido.
-
-**Desde su experiencia operativa, ¿cuáles son las mayores limitaciones logísticas o tecnológicas que enfrentan para atender múltiples plantas a la vez?**
-
-Uno de los principales problemas es no tener información actualizada sobre el estado de cada técnico. También puede ocurrir que un técnico llegue a la planta y recién descubra que necesita un repuesto que no tiene disponible, lo cual genera retrasos.
-
-**¿Qué tan complejo les resulta estandarizar los reportes de mantenimiento y KPIs para entregárselos a diferentes clientes?**
-
-Resulta complicado porque cada cliente solicita información diferente. Algunas empresas piden archivos de Excel, otras documentos PDF y otras solamente un resumen. Al final se termina copiando información de mensajes, fotografías y formatos para preparar cada reporte.
-
-**¿Suelen utilizar herramientas de automatización de flujos de trabajo o integración de APIs en sus operaciones diarias?**
-
-Actualmente utilizamos principalmente WhatsApp, correo electrónico y hojas de cálculo. No tenemos automatizaciones avanzadas, aunque sería útil que ciertas notificaciones o cambios de estado se envíen automáticamente.
-
-**¿Qué funcionalidades considera indispensables en una plataforma digital para que decida utilizarla como el motor operativo de todos sus técnicos?**
-
-Me parecería importante tener un panel donde podamos visualizar las órdenes de trabajo, los técnicos asignados, el estado de cada servicio y la disponibilidad de repuestos. También serían útiles las alertas cuando ocurre una emergencia o una tarea cambia de prioridad.
-
-**¿Qué tan importante sería para su firma poder integrar el sistema de mantenimiento con otras herramientas de comunicación como WhatsApp?**
-
-Sería bastante importante porque WhatsApp es una herramienta que todos utilizamos actualmente. Si los avisos pudieran enviarse automáticamente, reduciríamos el tiempo que usamos llamando o escribiendo a cada persona.
-
-**¿Cree que ofrecer a sus clientes una herramienta ágil para que reporten fallas mejoraría la percepción de su servicio tercerizado? ¿Por qué?**
-
-Sí. Creo que permitir que el cliente reporte una falla y pueda conocer el estado de su atención daría una imagen más organizada y profesional de la empresa.
-
-**¿Preferiría un modelo de precios basado en la cantidad de técnicos o en la cantidad de plantas/clientes gestionados?**
-
-Preferiría un modelo basado en la cantidad de técnicos activos porque la cantidad de clientes puede cambiar dependiendo del mes, mientras que el equipo de trabajo suele mantenerse más estable.
-
-**¿Estaría dispuesto a recomendar e implementar este sistema directamente en la infraestructura tecnológica de sus clientes?**
-
-Sí, siempre que sea sencillo, estable y no requiera demasiado tiempo de capacitación. Si ayuda a organizar mejor las operaciones, sería una herramienta que podríamos recomendar también a nuestros clientes.
-
-
-
-
 ### Segmento 3: Técnicos y Operarios de Mantenimiento Industrial
 
 <table>
@@ -1178,7 +1171,7 @@ Sí, siempre que sea sencillo, estable y no requiera demasiado tiempo de capacit
   <tbody>
     <tr>
       <td rowspan="6" align="center" valign="middle" width="200">
-        <img src="" alt="" width="160">
+        <img src="report/assets/images/foto-entrevista1-segmento3.jpg" alt="" width="160">
       </td>
       <td><strong>Nombre y apellido</strong></td>
       <td>George Cunya</td>
@@ -1192,16 +1185,16 @@ Sí, siempre que sea sencillo, estable y no requiera demasiado tiempo de capacit
       <td>Ventanilla</td>
     </tr>
     <tr>
-      <td><strong>Inicio de la entrevista</strong></td>
-      <td></td>
+      <td><strong> Timing de la entrevista</strong></td>
+      <td>Inicio: 34:28 - Termina: 40:29</td>
     </tr>
     <tr>
       <td><strong>Duración</strong></td>
-      <td></td>
+      <td>6:01 minutos</td>
     </tr>
     <tr>
       <td><strong>Enlace</strong></td>
-      <td><a href="URL_DEL_VIDEO"></a></td>
+      <td><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423973_upc_edu_pe/IQBCKuUvc8VeT4YtxyBRxNnnAerbBFUqAE8C5H7KH6vx3GU?e=f8X1Pp">Video de las entrevistas</a></td>
     </tr>
   </tbody>
 </table>
@@ -1262,10 +1255,10 @@ Lo que más me incomoda es tener que preguntar varias veces dónde está determi
   <tbody>
     <tr>
       <td rowspan="6" align="center" valign="middle" width="200">
-        <img src="" alt="" width="160">
+        <img src="report/assets/images/foto-entrevista2-segmento3.jpg" alt="" width="160">
       </td>
       <td><strong>Nombre y apellido</strong></td>
-      <td>Luis Mendoza</td>
+      <td>Mathias Romero</td>
     </tr>
     <tr>
       <td><strong>Edad</strong></td>
@@ -1276,16 +1269,16 @@ Lo que más me incomoda es tener que preguntar varias veces dónde está determi
       <td>Callao</td>
     </tr>
     <tr>
-      <td><strong>Inicio de la entrevista</strong></td>
-      <td></td>
+      <td><strong>Iiming de la entrevista</strong></td>
+      <td>Inicia: 40:29 - Termina: 45:16</td>
     </tr>
     <tr>
       <td><strong>Duración</strong></td>
-      <td></td>
+      <td>4:47 minutos</td>
     </tr>
     <tr>
       <td><strong>Enlace</strong></td>
-      <td><a href="URL_DEL_VIDEO"></a></td>
+      <td><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423973_upc_edu_pe/IQBCKuUvc8VeT4YtxyBRxNnnAerbBFUqAE8C5H7KH6vx3GU?e=f8X1Pp">Video de las entrevistas</a></td>
     </tr>
   </tbody>
 </table>
@@ -1293,7 +1286,7 @@ Lo que más me incomoda es tener que preguntar varias veces dónde está determi
 **Resumen:**
 
 **¿Cuál es tu nombre, edad y qué función desempeñas actualmente dentro del área de mantenimiento?**  
-Me llamo Luis Mendoza, tengo 35 años y trabajo como técnico electricista industrial. Me encargo principalmente de revisar los sistemas eléctricos de las máquinas, tableros, motores y sensores.
+Me llamo Mathias Romero, tengo 35 años y trabajo como técnico electricista industrial. Me encargo principalmente de revisar los sistemas eléctricos de las máquinas, tableros, motores y sensores.
 
 **¿Cuánto tiempo llevas trabajando en mantenimiento industrial y qué tipo de máquinas o equipos atiendes con mayor frecuencia?**  
 Tengo aproximadamente nueve años de experiencia. Trabajo principalmente con motores eléctricos, tableros de control, sensores y algunas máquinas automatizadas de producción.
@@ -1346,7 +1339,7 @@ Lo que más me molesta es registrar varias veces la misma información. Preferir
   <tbody>
     <tr>
       <td rowspan="6" align="center" valign="middle" width="200">
-        <img src="" alt="" width="160">
+        <img src="report/assets/images/foto-entrevista3-segmento3.jpg" alt="" width="160">
       </td>
       <td><strong>Nombre y apellido</strong></td>
       <td>Carlos Huamán</td>
@@ -1361,15 +1354,15 @@ Lo que más me molesta es registrar varias veces la misma información. Preferir
     </tr>
     <tr>
       <td><strong>Inicio de la entrevista</strong></td>
-      <td></td>
+      <td>Inicia: 45:16 - Termina: 48:42</td>
     </tr>
     <tr>
       <td><strong>Duración</strong></td>
-      <td></td>
+      <td>3:26</td>
     </tr>
     <tr>
       <td><strong>Enlace</strong></td>
-      <td><a href="URL_DEL_VIDEO"></a></td>
+      <td><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423973_upc_edu_pe/IQBCKuUvc8VeT4YtxyBRxNnnAerbBFUqAE8C5H7KH6vx3GU?e=f8X1Pp">Video de las entrevistas</a></td>
     </tr>
   </tbody>
 </table>
@@ -1530,7 +1523,6 @@ La entrevistada también manifestó interés en una plataforma multi-cliente que
 
 También se identificó interés en un modelo comercial basado en la cantidad de técnicos y en la posibilidad de personalizar los reportes con la identidad de la empresa contratista.
 
-> **Nota:** Los porcentajes de este segmento corresponden a la única entrevista registrada actualmente. Por ello, estos resultados deben actualizarse cuando se incorporen las entrevistas restantes del segmento.
 
 **Relación con el User Persona**
 
@@ -1656,7 +1648,7 @@ El Árbol de Problemas fue elaborado para jerarquizar visualmente la problemáti
 
 ### Diagrama de Ishikawa
 
-Para complementar el análisis estructural, se aplicó el Diagrama de Ishikawa (Espina de Pescado) categorizando las causas raíz en seis ejes fundamentales: Proceso, Personas, Tecnología, Información, Entorno y Gestión[cite: 6]. Este desglose sistemático no solo demuestra el rigor metodológico, sino que también justifica la multidimensionalidad de la solución FixCore al validar las causas operativas (p. ej., la necesidad de Tecnología móvil para superar las limitaciones del Entorno ruidoso de planta y la agilidad de Proceso para combatir la comunicación fragmentada).
+Para complementar el análisis estructural, se aplicó el Diagrama de Ishikawa (Espina de Pescado) categorizando las causas raíz en seis ejes fundamentales: Proceso, Personas, Tecnología, Información, Entorno y Gestión. Este desglose sistemático no solo demuestra el rigor metodológico, sino que también justifica la multidimensionalidad de la solución FixCore al validar las causas operativas (p. ej., la necesidad de Tecnología móvil para superar las limitaciones del Entorno ruidoso de planta y la agilidad de Proceso para combatir la comunicación fragmentada).
 
 <div align="center">
   <strong>Gráfico 2: Diagrama de Ishikawa</strong><br><br>
@@ -1708,7 +1700,6 @@ Los User Personas considerados representan los siguientes segmentos:
 2. **Pymes de Manufactura y Producción**
 3. **Firmas Consultoras y Contratistas de Ingeniería Industrial**
 
-> **Nota:** Una vez definidos los User Personas, los nombres de los segmentos utilizados en la tabla serán reemplazados por el nombre correspondiente de cada User Persona.
 
 ### User Task Matrix - FixCore
 
@@ -1753,7 +1744,7 @@ En todos los casos, las tareas *"Comunicar alertas críticas"*, *"Auditar tiempo
 *   **Las Firmas Consultoras (ej. Víctor)** concentran sus tareas en la gestión a gran escala: auditar KPIs, estandarizar reportes y gestionar operaciones multi-planta para justificar el valor de su servicio tercerizado.
 
 **Coincidencias clave:**
-Todos los perfiles coinciden en la necesidad de un acceso digital unificado y sin fricción (especialmente móvil) que erradique la dependencia del papel y los grupos informales de WhatsApp. Esta convergencia valida el enfoque de FexCore como un núcleo centralizado que conecta la inmediatez del operario con la analítica del gerente.
+Todos los perfiles coinciden en la necesidad de un acceso digital unificado y sin fricción (especialmente móvil) que erradique la dependencia del papel y los grupos informales de WhatsApp. Esta convergencia valida el enfoque de FixCore como un núcleo centralizado que conecta la inmediatez del operario con la analítica del gerente.
 
 ### 2.3.3. User Journey Mapping. 
 
@@ -2278,16 +2269,16 @@ La interfaz de FixCore muta drásticamente según el contexto de uso y el dispos
 
 #### 4.1.2.1. Responsive Design Principles
 
-Los principios de diseño responsivo de FexCore garantizan que la plataforma sea una herramienta de alta precisión tanto para el gerente en su oficina como para el técnico que se desplaza por la planta industrial.
+Los principios de diseño responsivo de FixCore garantizan que la plataforma sea una herramienta de alta precisión tanto para el gerente en su oficina como para el técnico que se desplaza por la planta industrial.
 
 **Mobile-First Approach (Enfoque Técnico-Primero)**
-FexCore adopta un diseño mobile-first riguroso, asumiendo que el reporte de fallas ocurrirá en condiciones adversas (de pie, con prisa o usando guantes). Este enfoque asegura que:
+FixCore adopta un diseño mobile-first riguroso, asumiendo que el reporte de fallas ocurrirá en condiciones adversas (de pie, con prisa o usando guantes). Este enfoque asegura que:
 * El contenido esencial (botones de reporte y estado de la máquina) sea hiper-visible.
 * Las áreas táctiles tengan un tamaño industrial (mínimo 48x48px).
 * La versión móvil (app/PWA) esté centrada en la acción táctica, mientras que la versión de escritorio se expande hacia el análisis estratégico (dashboards y tablas complejas).
 
 **Breakpoints Established**
-FexCore define los siguientes puntos de quiebre para adaptar su interfaz:
+FixCore define los siguientes puntos de quiebre para adaptar su interfaz:
 * **Mobile (0-767px):** Optimizado para operarios en planta. Navegación simplificada, tarjetas apiladas verticalmente y CTAs de ancho completo.
 * **Tablet (768-1023px):** Utilizado por supervisores de área en movimiento. Permite ver columnas duales y vistas previas de órdenes de trabajo.
 * **Desktop (1024-1440px):** Vista analítica para la Gerencia. Tableros de control de 12 columnas, tablas de inventario extendidas y gráficos de mantenimiento predictivo.
@@ -2297,7 +2288,7 @@ La tipografía (Roboto y Open Sans) escala mediante *viewport units* y funciones
 
 #### 4.1.2.2. Web Component States
 
-Los componentes de FexCore comunican sus estados de forma inconfundible para evitar errores críticos en la gestión de mantenimiento:
+Los componentes de FixCore comunican sus estados de forma inconfundible para evitar errores críticos en la gestión de mantenimiento:
 
 **Estados Interactivos**
 * **Default:** Estado base. Tarjetas en *Slate 800* (modo oscuro) o *White* con bordes sutiles en *Slate 200*.
@@ -2308,7 +2299,7 @@ Los componentes de FexCore comunican sus estados de forma inconfundible para evi
 
 #### 4.1.2.3. Form Elements
 
-Los formularios en FexCore están diseñados para requerir menos de 3 clics y minimizar la fricción cognitiva del operario.
+Los formularios en FixCore están diseñados para requerir menos de 3 clics y minimizar la fricción cognitiva del operario.
 
 **Input Fields (Campos de Entrada)**
 * Altura mínima de 48px para facilitar el toque rápido.
@@ -2335,7 +2326,7 @@ Los formularios en FexCore están diseñados para requerir menos de 3 clics y mi
 
 #### 4.1.2.5. Accessibility Guidelines
 
-FexCore cumple con el estándar WCAG AA, priorizando las realidades del trabajo físico.
+FixCore cumple con el estándar WCAG AA, priorizando las realidades del trabajo físico.
 
 **Visual Accessibility (Visibilidad en Planta)**
 * Contraste ultra-alto (> 4.5:1). El sistema debe ser legible bajo la luz solar intensa o la luz fluorescente parpadeante de una fábrica.
@@ -2346,7 +2337,7 @@ FexCore cumple con el estándar WCAG AA, priorizando las realidades del trabajo 
 
 #### 4.1.2.6. Animation Guidelines
 
-En un entorno industrial, la velocidad supera a la estética. Las animaciones en FexCore son pragmáticas y utilitarias.
+En un entorno industrial, la velocidad supera a la estética. Las animaciones en FixCore son pragmáticas y utilitarias.
 
 **Purpose of Animations (Propósito)**
 * **Feedback inmediato:** Confirmar que un toque fue registrado para que el técnico no presione múltiples veces.
@@ -2363,26 +2354,26 @@ En un entorno industrial, la velocidad supera a la estética. Las animaciones en
 
 #### 4.2.1.1. Organización del Landing Page
 
-El Landing Page de FexCore sirve como el punto de entrada principal para tomadores de decisión (Jefes de Planta, Gerentes de Operaciones) que buscan modernizar su gestión de mantenimiento. Su organización está diseñada para guiar al usuario a través de un recorrido de conversión altamente profesional y enfocado en el retorno de inversión (ROI) industrial.
+El Landing Page de FixCore sirve como el punto de entrada principal para tomadores de decisión (Jefes de Planta, Gerentes de Operaciones) que buscan modernizar su gestión de mantenimiento. Su organización está diseñada para guiar al usuario a través de un recorrido de conversión altamente profesional y enfocado en el retorno de inversión (ROI) industrial.
 
 **Estructura Jerárquica en el Landing Page**
 
 La organización del Landing Page sigue una jerarquía visual clara que refleja el proceso lógico de evaluación B2B:
-* **Nivel 1 - Header de Impacto:** El *hero section* presenta el valor principal de FexCore de manera inmediata ("El núcleo de tu mantenimiento industrial"). El visitante entiende en menos de 3 segundos que la plataforma reduce tiempos muertos. Incluye el título principal, subtítulo explicativo, una previsualización de la interfaz móvil/dashboard, y botones de llamada a la acción primarios ("Probar Gratis" / "Solicitar Demo").
-* **Nivel 2 - Beneficios Clave:** Inmediatamente después, se presentan los diferenciadores principales en una cuadrícula de tarjetas (Baja Fricción, Trazabilidad, Alertas por WhatsApp). Responde a la pregunta: ¿Cómo FexCore elimina el caos de los reportes en papel?
+* **Nivel 1 - Header de Impacto:** El *hero section* presenta el valor principal de FixCore de manera inmediata ("El núcleo de tu mantenimiento industrial"). El visitante entiende en menos de 3 segundos que la plataforma reduce tiempos muertos. Incluye el título principal, subtítulo explicativo, una previsualización de la interfaz móvil/dashboard, y botones de llamada a la acción primarios ("Probar Gratis" / "Solicitar Demo").
+* **Nivel 2 - Beneficios Clave:** Inmediatamente después, se presentan los diferenciadores principales en una cuadrícula de tarjetas (Baja Fricción, Trazabilidad, Alertas por WhatsApp). Responde a la pregunta: ¿Cómo FixCore elimina el caos de los reportes en papel?
 * **Nivel 3 - Módulos y Flujo de Trabajo:** Las secciones siguientes explican la funcionalidad paso a paso (1. Escanea QR, 2. Reporta Falla, 3. Reparación Rápida) y profundizan en los módulos principales (Órdenes de Trabajo, Inventario, Dashboard).
 * **Nivel 4 - Footer y Navegación Adicional:** El *footer* proporciona navegación secundaria, enlaces a políticas de privacidad, soporte técnico y opciones de contacto organizadas por función empresarial.
 
 **Principios de Organización Aplicados**
 
-La organización del Landing Page de FexCore aplica los siguientes principios:
+La organización del Landing Page de FixCore aplica los siguientes principios:
 * **Jerarquía visual estricta:** El usuario escanea naturalmente de arriba abajo, siendo guiado desde el problema (tiempos muertos) hacia la solución (software) y la acción (demo).
 * **Progresión pragmática:** La narrativa avanza desde la promesa de valor gerencial hacia la facilidad de uso operativo, mitigando la objeción clásica de "mis técnicos no usarán un sistema complejo".
 * **Agrupación por función:** Características similares (funcionalidades de campo vs. análisis gerencial) comparten secciones visualmente delimitadas.
 
 #### 4.2.1.2. Organización de la Aplicación Web (Dashboard y Área Principal)
 
-La aplicación web de FexCore posee una estructura dual, ya que debe satisfacer a dos perfiles de usuario con necesidades diametralmente opuestas: la urgencia táctica del técnico en planta y la necesidad analítica del gerente.
+La aplicación web de FixCore posee una estructura dual, ya que debe satisfacer a dos perfiles de usuario con necesidades diametralmente opuestas: la urgencia táctica del técnico en planta y la necesidad analítica del gerente.
 
 **Sistema de Organización Principal**
 
@@ -2405,7 +2396,7 @@ La aplicación utiliza un sistema matricial que combina los siguientes enfoques:
 
 **Esquemas de Categorización para Activos (Maquinaria)**
 
-La maquinaria en FexCore se organiza para reflejar la realidad física de la planta:
+La maquinaria en FixCore se organiza para reflejar la realidad física de la planta:
 * **Por Ubicación/Línea de Producción:** (Ej. Planta Lima > Área de Empaque > Línea 2).
 * **Por Criticidad:** (Alta, Media, Baja) para determinar qué máquina recibe atención prioritaria en caso de fallas simultáneas.
 * **Por Estado Operativo:** Operativo (Verde), En Falla (Rojo), Mantenimiento Preventivo (Ámbar).
@@ -2419,7 +2410,7 @@ El almacén de repuestos se organiza utilizando:
 
 #### 4.2.1.3. Estrategia de Organización para Búsqueda y Acceso Rápido
 
-En el mantenimiento industrial, el tiempo de búsqueda es tiempo de inactividad (downtime). FexCore implementa una arquitectura orientada al acceso ultrarrápido:
+En el mantenimiento industrial, el tiempo de búsqueda es tiempo de inactividad (downtime). FixCore implementa una arquitectura orientada al acceso ultrarrápido:
 
 **Accesos Directos Basados en Contexto**
 * **Para el Técnico (Planta):** Escaneo de código QR pegado en la máquina física, que abre instantáneamente el formulario de reporte de esa máquina específica sin tener que buscarla en el sistema.
@@ -2435,7 +2426,7 @@ Aquí el equipo explica de qué maneras se representarán los datos, priorizando
 
 #### 4.2.2.1. Principios de Etiquetado
 
-FexCore sigue principios específicos para todas las etiquetas utilizadas en la plataforma, enfocándose en la jerga industrial estandarizada:
+FixCore sigue principios específicos para todas las etiquetas utilizadas en la plataforma, enfocándose en la jerga industrial estandarizada:
 
 *   **Mínimo número de palabras:** Las etiquetas son cortas, directas y accionables. Máximo 2 palabras para botones tácticos (ej. "Cerrar OT") y 3 para navegación.
 *   **Lenguaje de planta (Común):** Se utilizan los términos que los técnicos e ingenieros ya emplean en su día a día. El sistema se adapta a la fábrica, no al revés.
@@ -2495,7 +2486,7 @@ Etiquetas para los botones y flujos de interacción:
 
 #### 4.2.2.6. Reglas de Asociación entre Etiquetas
 
-Las etiquetas en FexCore se relacionan de manera predecible y jerárquica:
+Las etiquetas en FixCore se relacionan de manera predecible y jerárquica:
 
 *   **Ruta Espacial (Breadcrumbs):** La navegación refleja la ubicación física real en la fábrica. *Planta > Área > Línea de Producción > Activo* (ej. Planta Lima > Empaque > Línea 2 > Faja Transportadora).
 *   **Color a Estado:** Las etiquetas de estado siempre están vinculadas a la paleta de colores. "Operativo" (Verde), "Preventivo" (Ámbar), "En Falla" (Rojo).
@@ -2503,14 +2494,14 @@ Las etiquetas en FexCore se relacionan de manera predecible y jerárquica:
 
 ### 4.2.3. SEO Tags and Meta Tags 
 
-En esta sección se incluyen los SEO Tags y Meta Tags, junto con los valores que se asignarán en las principales páginas de FexCore, abarcando tanto el sitio web estático (Landing Page) desplegado en Vercel como la estructura de la Web Application. Se definen Title, Meta Description, Keywords, Author y esquemas de datos clave.
+En esta sección se incluyen los SEO Tags y Meta Tags, junto con los valores que se asignarán en las principales páginas de FixCore, abarcando tanto el sitio web estático (Landing Page) desplegado en Vercel como la estructura de la Web Application. Se definen Title, Meta Description, Keywords, Author y esquemas de datos clave.
 
 #### 4.2.3.1. Configuración SEO General
 
-FexCore implementa una configuración SEO robusta gestionada a través del enrutador y el archivo `app/layout.tsx` para maximizar su visibilidad en buscadores B2B.
+FixCore implementa una configuración SEO robusta gestionada a través del enrutador y el archivo `app/layout.tsx` para maximizar su visibilidad en buscadores B2B.
 
 **Nombre del Sitio**
-FexCore - El núcleo de tu mantenimiento industrial
+FixCore - El núcleo de tu mantenimiento industrial
 
 **Dominio Principal**
 https://fixcore-eta.vercel.app/
@@ -2520,7 +2511,7 @@ https://fixcore-eta.vercel.app/
 El Landing Page (`app/page.tsx`) es el punto de entrada más importante para la captación de leads y conversiones comerciales.
 
 **Title Tag**
-FexCore | El núcleo de tu mantenimiento industrial - Software CMMS
+FixCore | El núcleo de tu mantenimiento industrial - Software CMMS
 
 **Meta Description**
 Erradica el caos operativo y reduce los tiempos muertos con la plataforma líder en gestión de activos y órdenes de trabajo. ¡Moderniza tu mantenimiento industrial hoy!
@@ -2529,19 +2520,19 @@ Erradica el caos operativo y reduce los tiempos muertos con la plataforma líder
 mantenimiento industrial, gestión de activos, órdenes de trabajo, reducir tiempos muertos, software CMMS, SaaS B2B, mantenimiento predictivo, control de inventario
 
 **Meta Author**
-FexCore Team
+FixCore Team
 
 **Open Graph Tags (para redes sociales)**
-*   `og:title` = FexCore | El núcleo de tu mantenimiento industrial
+*   `og:title` = FixCore | El núcleo de tu mantenimiento industrial
 *   `og:description` = Erradica el caos operativo y reduce los tiempos muertos en tu planta. Diseñado para Gerentes, Supervisores y Técnicos.
 *   `og:image` = https://fixcore-eta.vercel.app/favicon.ico
 *   `og:url` = https://fixcore-eta.vercel.app/
 *   `og:type` = website
-*   `og:site_name` = FexCore
+*   `og:site_name` = FixCore
 
 **Twitter Card Tags**
 *   `twitter:card` = summary_large_image
-*   `twitter:title` = FexCore | El núcleo de tu mantenimiento industrial
+*   `twitter:title` = FixCore | El núcleo de tu mantenimiento industrial
 *   `twitter:description` = Erradica el caos operativo y reduce los tiempos muertos con la plataforma líder.
 *   `twitter:image` = https://fixcore-eta.vercel.app/favicon.ico
 
@@ -2550,7 +2541,7 @@ FexCore Team
 El dashboard es la página principal (escritorio gerencial) a la que accede el usuario después de iniciar sesión en la aplicación.
 
 **Title Tag**
-Dashboard Ejecutivo - FexCore
+Dashboard Ejecutivo - FixCore
 
 **Meta Description**
 Tu espacio de control industrial. Maximiza el ROI, audita tiempos muertos (MTTR) y supervisa el estado de tu planta en tiempo real.
@@ -2564,17 +2555,17 @@ Tu espacio de control industrial. Maximiza el ROI, audita tiempos muertos (MTTR)
 Corresponde a la ruta dinámica `app/detalles/[rol]/page.tsx` diseñada para explicar el valor del software según el perfil del usuario.
 
 **Title Tag**
-Soluciones para [Gerencia / Supervisión / Técnicos] - FexCore
+Soluciones para [Gerencia / Supervisión / Técnicos] - FixCore
 
 **Meta Description**
-Descubre cómo FexCore optimiza la operación para tu rol. Accede a paneles analíticos, asignación de OTs sin fricción o reportes de fallas rápidos.
+Descubre cómo FixCore optimiza la operación para tu rol. Accede a paneles analíticos, asignación de OTs sin fricción o reportes de fallas rápidos.
 
 #### 4.2.3.5. Página de Gestión de Activos / Inventario SEO Tags
 
 Sección transaccional de la aplicación enfocada en el control de almacén y la jerarquía de maquinaria.
 
 **Title Tag**
-Gestión de Activos e Inventario - FexCore
+Gestión de Activos e Inventario - FixCore
 
 **Meta Description**
 Controla el inventario de repuestos y la jerarquía física de tus activos. Mantén la trazabilidad total de tu fábrica y evita quiebres de stock.
@@ -2582,7 +2573,7 @@ Controla el inventario de repuestos y la jerarquía física de tus activos. Mant
 #### 4.2.3.6. Página de Perfil de Activo Individual SEO Tags
 
 **Title Tag**
-[Nombre o Código del Activo / Máquina] - FexCore
+[Nombre o Código del Activo / Máquina] - FixCore
 
 **Meta Description**
 [Descripción específica del estado operativo del activo, MTTR, ubicación en planta y fallas reportadas recientes de 150-160 caracteres]
@@ -2590,14 +2581,14 @@ Controla el inventario de repuestos y la jerarquía física de tus activos. Mant
 #### 4.2.3.7. Página de Reporte de Fallas (OTs) SEO Tags
 
 **Title Tag**
-Reporte de Fallas y OTs - FexCore
+Reporte de Fallas y OTs - FixCore
 
 **Meta Description**
 Practica una respuesta ágil ante paradas de máquina. Reporta fallas en 3 clics, asigna técnicos y gestiona Órdenes de Trabajo desde cualquier dispositivo móvil.
 
 ### 4.2.3.8. Estructura de Datos Schema Markup
 
-FexCore implementa `Schema.org` (en formato JSON-LD) para optimizar su presentación en motores de búsqueda como una solución de software empresarial B2B:
+FixCore implementa `Schema.org` (en formato JSON-LD) para optimizar su presentación en motores de búsqueda como una solución de software empresarial B2B:
 
 **Organization Schema**
 
@@ -2605,12 +2596,12 @@ FexCore implementa `Schema.org` (en formato JSON-LD) para optimizar su presentac
 {
   "@context": "[https://schema.org](https://schema.org)",
   "@type": "Organization",
-  "name": "FexCore",
+  "name": "FixCore",
   "url": "[https://fixcore-eta.vercel.app/](https://fixcore-eta.vercel.app/)",
   "logo": "[https://fixcore-eta.vercel.app/favicon.ico](https://fixcore-eta.vercel.app/favicon.ico)",
   "description": "Plataforma B2B para la gestión integral del mantenimiento industrial y reducción de tiempos muertos.",
   "sameAs": [
-    "[https://www.linkedin.com/company/fexcore](https://www.linkedin.com/company/fexcore)"
+    "[https://www.linkedin.com/company/FixCore](https://www.linkedin.com/company/FixCore)"
   ]
 }
 ```
@@ -2621,7 +2612,7 @@ FexCore implementa `Schema.org` (en formato JSON-LD) para optimizar su presentac
 {
   "@context": "[https://schema.org](https://schema.org)",
   "@type": "SoftwareApplication",
-  "name": "FexCore",
+  "name": "FixCore",
   "applicationCategory": "BusinessApplication",
   "operatingSystem": "Web, iOS, Android",
   "description": "Software integral de gestión de mantenimiento (CMMS) con paneles gerenciales y aplicación de baja fricción para técnicos.",
@@ -2636,13 +2627,13 @@ FexCore implementa `Schema.org` (en formato JSON-LD) para optimizar su presentac
 
 ### 4.2.3.9. Directrices SEO Generales
 
-FexCore sigue las siguientes directrices estructurales para mantener un SEO técnico optimizado en toda la plataforma:
+FixCore sigue las siguientes directrices estructurales para mantener un SEO técnico optimizado en toda la plataforma:
 
-*   **URLs descriptivas:** Se utilizan rutas semánticas dinámicas generadas por el App Router de Next.js, como `/detalles/[rol]`[cite: 1].
-*   **Un H1 por página:** Restricción estricta de un solo título principal por vista, típicamente alojado dentro del componente `HeroSection.tsx`[cite: 1].
-*   **Jerarquía de encabezados correcta:** Uso escalonado y lógico de etiquetas H1 > H2 > H3, implementado modularmente en componentes como `AudienceSection.tsx` y `SolutionsSection.tsx`[cite: 1].
-*   **Etiquetas alt significativas:** Todas las representaciones de interfaz y recursos visuales ubicados en `/components/mockups/` (como `DesktopMockup.tsx` o `MobileMockup.tsx`) cuentan con texto alternativo que describe exactamente la función que se está mostrando[cite: 1].
-*   **Links con anchor text descriptivo:** Se evita el uso de frases genéricas como "clic aquí"[cite: 1]. Los enlaces generados en `Navbar.tsx` y `BottomCTA.tsx` utilizan textos de acción claros como "Solicitar Demostración" o "Ver Funcionamiento"[cite: 1].
+*   **URLs descriptivas:** Se utilizan rutas semánticas dinámicas generadas por el App Router de Next.js, como `/detalles/[rol]`.
+*   **Un H1 por página:** Restricción estricta de un solo título principal por vista, típicamente alojado dentro del componente `HeroSection.tsx`.
+*   **Jerarquía de encabezados correcta:** Uso escalonado y lógico de etiquetas H1 > H2 > H3, implementado modularmente en componentes como `AudienceSection.tsx` y `SolutionsSection.tsx`.
+*   **Etiquetas alt significativas:** Todas las representaciones de interfaz y recursos visuales ubicados en `/components/mockups/` (como `DesktopMockup.tsx` o `MobileMockup.tsx`) cuentan con texto alternativo que describe exactamente la función que se está mostrando.
+*   **Links con anchor text descriptivo:** Se evita el uso de frases genéricas como "clic aquí". Los enlaces generados en `Navbar.tsx` y `BottomCTA.tsx` utilizan textos de acción claros como "Solicitar Demostración" o "Ver Funcionamiento".
 
 ### 4.2.4. Searching Systems. 
 
@@ -3135,13 +3126,105 @@ El mock-up aplica los principios de diseño responsivo *Mobile-First* a través 
 
 ## 4.4. Web Applications UX/UI Design. 
 
+En esta sección se detalla el diseño visual e interactivo de la plataforma web y móvil de FixCore, un sistema open-source diseñado para optimizar y centralizar el mantenimiento industrial. La propuesta se fundamenta en las necesidades de los usuarios, criterios de usabilidad y la estructura de información planificada previamente, asegurando armonía con la identidad visual del proyecto.
+
+El desarrollo se divide en cuatro apartados principales: los Wireframes, que establecen la distribución y jerarquía visual de los elementos en cada pantalla; los Wireflow Diagrams, que muestran la secuencia de navegación según los propósitos de cada usuario; los Mock-ups, que reflejan el diseño gráfico final aplicando la paleta de estilos; y los User Flow Diagrams, que conectan las interfaces con el recorrido ideal y las posibles rutas ante errores o imprevistos.
+
+Los perfiles clave contemplados son el Jefe de Planta, quien administra los recursos y la planificación; el Técnico, enfocado en la ejecución y reporte directo desde la zona de operaciones; y el Gerente de Operaciones, que supervisa el rendimiento general a nivel ejecutivo.
+
 ### 4.4.1. Web Applications Wireframes. 
+
+Esta sección presenta los wireframes de baja fidelidad de FixCore, diseñados en Figma. La plataforma se estructuró bajo un enfoque mobile-first y responsivo, adaptándose a los tres roles principales del sistema (Jefe de Planta, Técnico y Gerente de Operaciones).
+
+<img src="./Assets/Images/Captura de pantalla 2026-09-15 035232.png" alt="wireframes">
+
+Explicación de la propuesta:
+
+* Estructura consistente: Se utilizaron tarjetas (cards), barras de navegación fijas y botones grandes para asegurar una lectura rápida y evitar errores operativos en la planta.
+
+* Jerarquía visual: Al tratarse de wireframes estructurales, la jerarquía se estableció mediante tipografías escalonadas, líneas divisorias y bloques de contenido delimitados, utilizando variaciones de tono en lugar de color para diferenciar campos y contenedores.
+
+* Diseño inclusivo: Se priorizaron áreas táctiles amplias y formularios sencillos para que los técnicos puedan reportar fallas y gestionar tareas rápidamente desde el campo.
 
 ### 4.4.2. Web Applications Wireflow Diagrams. 
 
-### 4.4.2. Web Applications Mock-ups. 
+En esta sección presentamos los Wireflows diseñados para FixCore, los cuales enlazan la estructura visual de nuestros wireframes de baja fidelidad con los recorridos interactivos que realiza cada rol para alcanzar sus objetivos principales. A diferencia de un flujo de tareas tradicional, este enfoque nos permite visualizar simultáneamente el diseño de cada pantalla y la secuencia de transiciones ante las acciones del usuario, mostrando los cambios de estado mediante la incorporación progresiva de los wireframes correspondientes.
 
-### 4.4.3. Web Applications User Flow Diagrams. 
+Para construir estos diagramas, previamente analizamos las rutas típicas de interacción de nuestros usuarios. El desarrollo se centró en los perfiles principales que definimos para el sistema: el Jefe de Planta (enfocado en la administración de activos y la planificación), el Técnico (responsable de la ejecución y el reporte directo en campo) y el Gerente de Operaciones (orientado a la supervisión macro y la revisión de métricas).
+
+#### 4.4.2.1. Wireflow 01 — Jefe de Planta registra su cuenta y maquinas. 
+
+Usuario: Jefe de planta
+Obetivo de usuario: Como Jefe de Planta, deseo registrarme con una cuenta y a la vez las máquina en el sistema indicando sus datos técnicos y ubicación para llevar un control centralizado de los activos que requieren mantenimiento preventivo y correctivo.
+
+<img src="./Assets/Images/Captura de pantalla 2026-09-15 043453.png" alt="wireframes"> 
+
+Explicación del flujo: Nuestro flujo arranca en la pantalla principal de acceso, donde ingresamos el usuario y la contraseña. Al presionar el botón de inicio de sesión, el sistema valida las credenciales y nos lleva  hacia el panel de bienvenida adaptado específicamente al perfil del usuario (ya sea el tablero del Jefe de Planta, la vista operativa del Técnico o el resumen ejecutivo del Gerente de Operaciones). Una vez en el panel principal del Jefe de Planta, desde donde accedemos al módulo de maquinaria para agregar un nuevo equipo, lo que nos dirige hacia el formulario de registro en su estado inicial. Ingresamos los datos obligatorios, como nombre, planta, categoría y nivel de criticidad. Al confirmar la acción, el sistema valida los datos y nos redirige al listado general de activos actualizado. Con esto logramos automatizar el registro y dejamos atrás los controles en papel o Excel.
+
+#### 4.4.2.2. Wireflow 02 — Técnico accede a la informacion de maquinas. 
+
+Usuario: Técnico
+Obetivo de usuario: Como Técnico de campo, deseo observar los fallos de las maquinas y dirigirme a la planta asignada, reportarme para que la incidencia quede registrada formalmente y pueda ser atendida sin retrasos.
+
+<img src="./Assets/Images/Captura de pantalla 2026-09-15 050753.png" alt="wireframes"> 
+
+Explicación del flujo: Este recorrido parte de la interfaz móvil del Técnico, donde seleccionamos la opción abrir dependiendo la maquina a trabajar y así visualizar el formulario correspondiente. Elegimos la máquina afectada y verificamos la prioridad. Al presionar el botón "ACEPTAR", la interfaz muestra un estado de confirmación y refresca de inmediato el panel de tareas asignadas con la nueva alerta visible. Diseñamos este flujo para garantizar una baja fricción y agilizar la comunicación directa desde el área de operaciones.
+
+#### 4.4.2.3. Wireflow 03 — Gerente de Operaciones revisa el resumen de operaciones
+
+Usuario: Gerente de Operaciones
+Obetivo de usuario: Como Gerente de Operaciones, deseo consultar un resumen general de las actividades y el estado de las plantas para evaluar el rendimiento general y tomar decisiones informadas.
+
+<img src="./Assets/Images/Captura de pantalla 2026-09-15 051008.png" alt="wireframes"> 
+
+Explicación del flujo: El flujo comienza en el panel ejecutivo del Gerente de Operaciones, donde visualizamos las métricas globales del estado de las plantas. Al seleccionar un indicador o una planta en particular, el wireframe transiciona hacia una vista detallada que muestra el historial de intervenciones, las órdenes de trabajo y los tiempos muertos acumulados. De esta manera, facilitamos una auditoría rápida y transparente del desempeño operativo.
+
+### 4.4.3. Web Applications Mock-ups. 
+
+En esta sección presentamos los Mock-ups de alta fidelidad, los cuales materializan visualmente los wireframes que definimos previamente para FixCore. Para su desarrollo en Figma, aplicamos de manera rigurosa los lineamientos de nuestro Design System, integrando la paleta de colores corporativa, la jerarquía tipográfica, el sistema de espaciados y los componentes de interfaz estandarizados, garantizando así total coherencia gráfica de nuestro proyecto.
+
+<img src="./Assets/Images/maqueta0.png" alt="maqueta0">
+
+Explicación de la propuesta:
+Los mock-ups reflejan fielmente el diseño visual definitivo de la plataforma. Implementamos una interfaz limpia y estructurada mediante tarjetas (cards), barras de navegación intuitivas y contenedores claramente delimitados que reducen la fatiga visual y facilitan la lectura rápida de los datos. La selección cromática prioriza contrastes óptimos para asegurar una legibilidad excelente tanto en monitores de oficina como en las pantallas móviles utilizadas por los técnicos en la fábrica.
+
+Asimismo, cuidamos la accesibilidad y el diseño inclusivo en cada componente. Los elementos interactivos —como botones de acción primaria y campos de formulario— cuentan con áreas táctiles amplias y estados visuales definidos (hover, active, disabled), permitiendo que los operarios interactúen con la aplicación sin errores accidentales. De este modo, logramos una interfaz moderna, profesional y altamente funcional para la gestión del mantenimiento industrial.
+
+### 4.4.4. Web Applications User Flow Diagrams. 
+
+Los diagramas de flujo de usuario que documentamos en esta sección representan la evolución de alta fidelidad de los Wireflows que presentamos previamente. Mientras que los wireflows operan con representaciones esquemáticas de baja fidelidad, los User Flows integran los mock-ups finales de FixCore junto con el detalle completo de las trayectorias que nuestros usuarios pueden recorrer dentro del sistema: tanto el camino ideal u esperado (happy path) como los caminos alternativos (unhappy paths) que se activan ante errores, validaciones fallidas o decisiones operativas que se apartan del flujo principal.
+
+Estos flujos de usuario mantienen una total consistencia con los wireflows que definimos en esta sección, lo que garantiza una trazabilidad de extremo a extremo en todo nuestro proceso de diseño de software. Cada uno de los diagramas detalla con precisión los puntos de decisión, las condiciones lógicas de validación y las transiciones de pantallas, todo ello complementado con anotaciones que explican con claridad el comportamiento exacto del sistema ante cada bifurcación. Diseñamos estas rutas alternativas considerando rigurosamente los escenarios reales de mantenimiento industrial que identificamos durante las entrevistas con los representantes de nuestros segmentos objetivo (Jefes de Planta, Técnicos y Gerentes de Operaciones).
+
+#### 4.4.4.1. Flujo de usuario 01 — Jefe de planta registra su cuenta y máquinas
+
+Persona de usuario: Jairo (Jefe de Planta)
+
+Objetivo del usuario: Como Jefe de Planta, deseo registrarme con una cuenta y a la vez las máquinas en el sistema indicando sus datos técnicos y ubicación para llevar un control centralizado de los activos que requieren mantenimiento preventivo y correctivo.
+
+<img src="./Assets/Images/jefe-planta.png" alt="jefe-de-planta">
+
+Explicación del flujo: El recorrido inicia en la pantalla principal de acceso (Login), donde el usuario ingresa sus credenciales (usuario y contraseña). Al presionar el botón de inicio de sesión, el sistema valida la información y lo identifica, permitiéndole seleccionar su rol correspondiente (Jefe de Planta, Técnico o Gerente de Operaciones). Una vez dentro del panel principal del Jefe de Planta, este accede a la sección para registrar una nueva planta o empresa ingresando los datos solicitados (nombre de la planta, dirección exacta, ciudad/ubicación y cantidad de máquinas iniciales). Al confirmar el registro, el sistema procesa la información y redirige al usuario hacia su panel de control principal, donde podrá supervisar el estado general de la planta, gestionar órdenes de trabajo y administrar la maquinaria.
+
+#### 4.4.4.2. Flujo de usuario 02 — Técnico accede a la información de máquinas
+
+Persona de usuario: Miguel (Técnico de campo)   
+
+Objetivo del usuario: Como Técnico de campo, deseo observar los fallos de las máquinas y dirigirme a la planta asignada, reportarme para que la incidencia quede registrada formalmente y pueda ser atendida sin retrasos.
+
+<img src="./Assets/Images/tecnico.png" alt="tecnico">
+
+Explicación del flujo: El flujo comienza en la pantalla de selección de rol, donde el usuario se identifica como "Técnico" tras el inicio de sesión. Al ingresar, el sistema muestra el panel de bienvenida de Miguel junto con un módulo de filtros avanzados por estado, prioridad, fechas y técnico asignado, además de las órdenes de trabajo pendientes o en curso. Posteriormente, al navegar al apartado de "Maquinaria", el técnico puede revisar el listado detallado de equipos y su nivel de criticidad ("No presenta fallos", "Necesita mantenimiento" o "Fallos críticos"). Finalmente, el usuario elige una máquina específica para consultar su ficha técnica y detalles del problema, disponiendo de un botón de aceptación ("Aceptar") para confirmar la intervención y comenzar con la labor operativa. 
+
+#### 4.4.4.3. Flujo de usuario 03 — Gerente de Operaciones revisa el resumen de operaciones
+
+Persona de usuario: Carlos (Gerente de Operaciones)
+
+Objetivo del usuario: Como Gerente de Operaciones, deseo consultar un resumen general de las actividades y el estado de las plantas para evaluar el rendimiento general y tomar decisiones informadas.
+
+<img src="./Assets/Images/Gerente-operaciones.png" alt="Gerente-de-operaciones">
+
+Explicación del flujo: El recorrido parte de la pantalla de autenticación, donde el usuario selecciona el rol de "Gerente de Operaciones". Al acceder al sistema, se visualiza el tablero ejecutivo que incluye un resumen general de operaciones (número de plantas activas, fallas críticas, técnicos disponibles y órdenes abiertas), así como el estado detallado por planta y el estatus de cada técnico. Desde esta vista principal, el gerente puede profundizar en la sección de órdenes programadas para analizar los datos de mantenimiento regular, con la opción de editar o registrar una nueva orden de trabajo si es necesario. Por último, el flujo permite consultar el historial completo de intervenciones y el registro detallado de fallas de los equipos, facilitando la auditoría y la supervisión gerencial.
 
 ## 4.5. Web Applications Prototyping. 
 
@@ -3353,8 +3436,11 @@ Esta sección corresponde a los productos usados para la administración de proy
 
 |Producto|Proposito de uso|Ruta de referencia|
 |:-------|:---------------|:-----------------|
-|Trello| Organización de las actividades del proyecto, seguimiento de tareas y gestión del Product Backlog|https://trello.com/b/yJyuiOSO
+|Trello| Organización de las actividades del proyecto, seguimiento de tareas y gestión del Product Backlog|https://trello.com/b/yJyuiOSO|
 |GitHub|Alojamiento de repos, control de versiones y revision de código mediante Pull Requests|https://github.com/TechMakers-upc/Report|
+|Google Drive|Almacenamiento de entrevistas realizadas|https://drive.google.com|
+|Whatsapp|Comunicacion rapida para resolver dudas y compartir informacion|https://wa.me/|
+|Discord|Coordinacion entre los integrantes del equipo mediante canales de voz|https://discord.com/|
 ||||
 
 **Requirements Management** 
@@ -3364,7 +3450,7 @@ En esta sección se presentan los productos usados para la gestión de los requi
 |Producto|Proposito de uso|Ruta de referencia|
 |:-------|:---------------|:-----------------|
 |Uxpressia|Elaboración de User Personas, User Journey Maps, Empathy Maps y otras herramientas utilizadas para identificar y analizar las necesidades, problemas y características de los usuarios del proyecto| https://uxpressia.com/w/v8FzI/t/zbzV3|
-|Figjam|Elaboración colaborativa del Big Picture y Design-Level EventStorming para el modelado de dominio|https://www.figma.com/board/fFAW94zEsw4HGJnAICg41F/TechMakers-EventStorming?node-id=0-1&t=UzKfOfmFc1j0e5H7-1|
+|Figjam|Elaboración colaborativa del Big Picture y Design-Level EventStorming para el modelado de dominio|https://www.figma.com/es-la/figjam/|
 |Trello|Gestión y organización del Product Backlog, historias de usuario|https://trello.com/b/yJyuiOSO|
 ||||
 
@@ -3374,7 +3460,7 @@ A continuación se presentan los productos utilizados para el diseño de interfa
 
 |Producto|Proposito de uso|Ruta de referencia|
 |:-------|:---------------|:-----------------|
-|Figma|Diseño de wireframes,mockups,prototipos|
+|Figma|Diseño de wireframes,mockups,prototipos|https://www.figma.com|
 ||||
 
 **Software Development** 
@@ -3389,10 +3475,11 @@ En esta sección se encuentran las herramientas usadas por los integrantes del e
 
 **Software Deployment** 
 
-Aca se presentan los productos usados para el despliegue de nuestros productos de software.
+Se presentan los productos usados para el despliegue de nuestros productos de software.
 
 |Producto|Proposito de uso|Ruta de referencia|
 |:-------|:---------------|:-----------------|
+|GitHub Pages|Plataforma de despliegue para el landing page|https://docs.github.com/es/pages
 ||||
 
 **Software Documentation**
@@ -3401,6 +3488,7 @@ A continuación se presentan los productos utilizados para documentar el softwar
 
 |Producto|Proposito de uso|Ruta de referencia|
 |:-------|:---------------|:-----------------|
+|MarkDown|Formato usado para estructurar y representar la documentacion|https://www.markdownguide.org/|
 ||||
 
 ### 5.1.2. Source Code Management. 
@@ -3434,6 +3522,13 @@ A fin de asegurar la calidad, mantenibilidad y legibilidad del código a lo larg
 
 ### 5.1.4. Software Deployment Configuration. 
 
+El proceso de despliegue de la solución busca garantizar que, desde el repositorio de código fuente, se pueda realizar correctamente la publicación del producto digital correspondiente.
+
+#### Landing Page
+
+* Entorno de destino: GitHub Pages
+
+* Proceso de despliegue: Los cambios realizados y previamente validados en el Landing Page, como archivos HTML, CSS e imágenes, se integran en la rama principal del repositorio. A partir de la actualización del repositorio mediante un push o merge, GitHub realiza automáticamente el proceso de publicación de los archivos estáticos utilizando GitHub Pages. Finalmente, se verifica el despliegue ingresando al enlace público generado para comprobar que el Landing Page se encuentre disponible y funcione correctamente.
 
 
 ## 5.2. Landing Page, Services & Applications Implementation. 
@@ -3509,14 +3604,14 @@ En esta sección registramos y explicamos el avance del equipo durante el Sprint
   <tr>
     <th> Sprint 1 Velocity
     </th>
-    <td> 11
+    <td> 9
     </td>
   </tr>
 
   <tr>
     <th> Sum of Story Points
     </th>
-    <td> 11
+    <td> 9
     </td>
   </tr>
 </table>
@@ -3524,22 +3619,26 @@ En esta sección registramos y explicamos el avance del equipo durante el Sprint
 
 #### 5.2.1.2. Aspect Leaders and Collaborators. 
 
-A continuación se presenta la Leadership And Collaboration Matrix elaborada para el desarrollo de este Sprint.
+A continuación se presenta la Leadership and Collaboration Matrix elaborada para el desarrollo de este Sprint 1 con el despliegue de la Landing Page
 
-Los aspectos que se tomarán en cuenta son:
 
-- Aspect 1:
-- Aspect 2:
-- ...
+| Team Member (Last Name, First Name) | GitHub Username| Landing Page Hero & Navbar<br>Leader (L) / Collaborator (C) | Features & Usage Guide Section<br>Leader (L) / Collaborator (C) | Segmented Benefits & Testimonials<br>Leader (L) / Collaborator (C) | Monthly & Annual Pricing Views<br>Leader (L) / Collaborator (C) | FAQ Component & Support<br>Leader (L) / Collaborator (C) |
+| ----------------------------------- | ------------------------------------------------ | ------------------------------------------------------ | ----------------------------------------------------------------------- | ---------------------------------------------------------- | ----------------------------------------------------------- | --------------------------------------------------------------- |
+| Rojas Huaranga, Diego Rances | diego27-16 | L | C | C | C | C |
+| Mendoza Boluarte, Pierre Alessandro | pierreale2302 | C | L | C | C | C |
+| Córdova, Alvar Lucas | AlvarLC | C | C | L | C | C |
+| Landa Sánchez, Sunio Danilo | DanLandio | C | C | C | L | C |
+| Villanueva Rodríguez, Giuseppe Adrián | Giuseppe152004 | C | C | C | C | L |
 
-|Team Member |GitHub Username|Aspect 1:  | Aspect 2:  |  ... |
-|:-----------|:--------------|----|----|----|
+
 
 #### 5.2.1.3. Sprint Backlog 1. 
 
-El principal objetivo de este sprint fue el desarrollo de la Landing Page (...)
+El objetivo principal del Sprint 1 fue desarrollar la Landing Page de FixCore con las principales secciones e informacion dirigida a los segmentos definidos para la plataforma. 
 
 Enlace al tablero publico en Trello: 
+
+[Tablero Trello Sprint Backlog 1](https://trello.com/b/8ilypk4J/sprint-backlog-1-techmakers)
 
 <div align="center">
 <table border="1">
@@ -3547,10 +3646,12 @@ Enlace al tablero publico en Trello:
     <th>Sprint #</th>
     <th colspan="7">Sprint 1</th>
   </tr>
+
   <tr>
     <th colspan="2">User Story</th>
     <th colspan="6">Work Item / Task</th>
   </tr>
+
   <tr>
     <th>Story ID</th>
     <th>Story Title</th>
@@ -3563,88 +3664,303 @@ Enlace al tablero publico en Trello:
   </tr>
 
   <tr>
-    <td rowspan="2"></td>
-    <td rowspan="2"></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td rowspan="2">US59</td>
+    <td rowspan="2">Conocer FixCore</td>
+    <td>T001</td>
+    <td>Develop Landing Page Hero</td>
+    <td>Implementar la sección principal del Hero con la propuesta de valor y el llamado a la acción de FixCore.</td>
+    <td>2</td>
+    <td>Rojas Huaranga, Diego Rances</td>
+    <td>Done</td>
   </tr>
 
   <tr>
-    <td rowspan="2"></td>
-    <td rowspan="2"></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>T002</td>
+    <td>Add Landing Page Navbar</td>
+    <td>Implementar la barra de navegación con logo, enlaces a las secciones de FixCore y diseño responsivo.</td>
+    <td>2</td>
+    <td>Rojas Huaranga, Diego Rances</td>
+    <td>Done</td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td rowspan="2">US60</td>
+    <td rowspan="2">Conocer funcionalidades de FixCore</td>
+    <td>T003</td>
+    <td>Develop Features Section</td>
+    <td>Desarrollar la vista que detalla las funcionalidades principales y el dashboard de la plataforma FixCore.</td>
+    <td>3</td>
+    <td>Mendoza Boluarte, Pierre Alessandro</td>
+    <td>Done</td>
   </tr>
+
+  <tr>
+    <td>T004</td>
+    <td>Design User Guide Section</td>
+    <td>Diseñar e implementar los pasos explicativos (System Preview) sobre cómo funciona y se usa FixCore.</td>
+    <td>2</td>
+    <td>Mendoza Boluarte, Pierre Alessandro</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US61</td>
+    <td rowspan="2">Conocer beneficios según el segmento</td>
+    <td>T005</td>
+    <td>Write Benefits for Each Segment</td>
+    <td>Redactar e implementar la sección de beneficios de FixCore adaptada a los diferentes segmentos objetivo.</td>
+    <td>2</td>
+    <td>Córdova, Alvar Lucas</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>T006</td>
+    <td>Add User Testimonials</td>
+    <td>Diseñar e incorporar la sección de testimonios para respaldar el uso de FixCore.</td>
+    <td>2</td>
+    <td>Córdova, Alvar Lucas</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US62</td>
+    <td rowspan="2">Consultar planes de FixCore</td>
+    <td>T007</td>
+    <td>Develop Monthly Pricing Plans</td>
+    <td>Implementar la tarjeta de planes de suscripción mostrando sus características y tarifa mensual.</td>
+    <td>2</td>
+    <td>Landa Sánchez, Sunio Danilo</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T008</td>
+    <td>Develop Annual Pricing Plans</td>
+    <td>Implementar la funcionalidad para alternar visualmente a la vista de facturación con precio anual.</td>
+    <td>2</td>
+    <td>Landa Sánchez, Sunio Danilo</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US63</td>
+    <td rowspan="2">Consultas adicionales sobre FixCore</td>
+    <td>T009</td>
+    <td>Add Frequently Asked Questions</td>
+    <td>Implementar la sección de FAQ (preguntas frecuentes) y el Footer para resolver dudas adicionales de FixCore.</td>
+    <td>3</td>
+    <td>Villanueva Rodríguez, Giuseppe Adrián</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>T010</td>
+    <td>Write Terms and Conditions</td>
+    <td>Redactar e implementar la sección de términos y condiciones de uso de la plataforma FixCore.</td>
+    <td>2</td>
+    <td>Villanueva Rodríguez, Giuseppe Adrián</td>
+    <td>Done</td>
+  </tr>
+
 </table>
 </div>
 
 #### 5.2.1.4. Development Evidence for Sprint Review. 
 
-Los principales avances en la implementación durante este sprint fueron (...)
+Los principales avances en la implementación durante este sprint fueron 
 
 |Repository|Branch|Commit Id|Commit Message|Commit Message Body|Commited on|
 |:---------|:-----|:--------|:-------------|:------------------|:----------|
-|||||||
+|Landing-Page|feature/landing-page-presentation|0128950|feat: Enhance index.html with meta tags and header structure||Sep 19, 2026|
+|Landing-Page|feature/landing-page-presentation|18ee3c6|styles: Add base styles and CSS variables||Sep 19, 2026|
+|Landing-Page|feature/landing-page-presentation|51ba71f|Merge pull request #1 from TechMakers-upc/Feature/landing-page||Sep 19, 2026|
+|Landing-Page|feature/functions-landing|c7507e1|feat(landing): implement features section and add UI assets||Sep 19, 2026|
+|Landing-Page|feature/functions-landing|c0f0ae4|Merge pull request #3 from TechMakers-upc/feature/functions-landing||Sep 19, 2026|
+|Landing-Page|feature/benefints-landing-page|ef53f10|Update index.html||Sep 19, 2026|
+|Landing-Page|feature/benefints-landing-page|2b78517|Merge pull request #4 from TechMakers-upc/feature/Benefits-Landing-Page||Sep 19, 2026|
+|Landing-Page|main|eb0f365|feat: add subscription plans information cards||Sep 19, 2026|
+
+
+
 
 #### 5.2.1.5. Execution Evidence for Sprint Review. 
 
-Los avances realizados durante este Sprint fueron (...)
 
-**Capturas de pantalla de los avances realizados**
+A continuacion presentaremos la evidencia de ejecucion para el Sprint 1,el cual corresponde a la seccion de Landing Page en su primera version implementadas
 
+* Navbar y Hero Section: Encabezado con menú de navegación y presentación inicial destacando la propuesta de valor para modernizar la gestión de mantenimiento industrial.
 
+<div align="center">
+  <img src="report/assets/images/nav-hero.png" width="700"><br>
+</div>
 
-**Enlace al video de visualización y navegación:**
+* Funcionalidades y Guía de Uso : Describe las herramientas operativas de FixCore junto con un flujo paso a paso sobre cómo interactuar con el sistema.
+<div align="center">
+  <img src="report/assets/images/funcionalidades.png" width="700"><br>
+</div>
+<div align="center">
+  <img src="report/assets/images/flujo.png" width="700"><br>
+</div>
+
+* Beneficios Segmentados y Testimonios: Muestra las ventajas estratégicas como la reducción de tiempos de inactividad no programados respaldadas por opiniones y casos de uso "referenciales".
+
+<div align="center">
+  <img src="report/assets/images/soluciones.png" width="700"><br>
+</div>
+<div align="center">
+  <img src="report/assets/images/testimonios.png" width="700"><br>
+</div>
+
+ * Planes y Precios : Apartado tarifario que permite alternar entre modalidades de pago mensual y anual detallando las capacidades y límites incluidos en cada nivel de suscripción.
+
+ <div align="center">
+  <img src="report/assets/images/planes.png" width="700"><br>
+</div>
+
+* Preguntas Frecuentes y Footer: Espacio con respuestas a dudas habituales y el footer.
+
+ <div align="center">
+  <img src="report/assets/images/preguntas.png" width="700"><br>
+</div>
+
+<div align="center">
+  <img src="report/assets/images/footer.png" width="700"><br>
+</div>
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review. 
 
+Para este primer sprint, nos concentramos en desarrollar la Landing Page de FixCore. Nuestro objetivo fue dejar lista y totalmente responsive toda la parte informativa de la web, cubriendo las secciones del Navbar y Hero, las funcionalidades con su guía de uso, los beneficios junto a testimonios, la tabla interactiva de precios mensuales y anuales, y finalmente el apartado de preguntas frecuentes con soporte y footer.
 
+Como esta primera entrega consistió en una página web estática pensada para presentar el producto y validar nuestra propuesta de valor con los usuarios, en esta etapa no fue necesario desarrollar Web Services, endpoints en una API REST ni conectar bases de datos para guardar información.
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review. 
 
+Al finalizar el Sprint 1, realizamos el despliegue de la Landing Page de FixCore usando GitHub Pages. Esto nos permite compartir el avance directamente a través de un enlace web público para que cualquier persona pueda revisarlo desde su navegador sin tener que descargar el repositorio ni hacer configuraciones locales.
 
+Esta versión cuenta con todos los componentes que trabajamos en el Sprint 1 como la barra de navegación integrada al hero section, la explicación de las funcionalidades con su guía de uso, la sección de beneficios y testimonios, los planes de precios con alternador mensual/anual y el bloque de preguntas frecuentes junto al footer . Además, nos aseguramos de que toda la maquetación sea adaptable para que se visualice correctamente
+
+A continuación, presentamos las evidencias visuales del sitio ya publicado y operativo en GitHub Pages:
+
+<div align="center">
+  <img src="report/assets/images/evidence.png" width="700"><br>
+</div>
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint. 
 
-A continuación se presentan los aportes realizados por todos los integrantes del grupo.
+Durante el desarrollo del Sprint 1, organizamos la implementación de la Landing Page de FixCore asignando un responsable principal y colaboradores por cada sección funcional. Esta estructura nos ayudo a  trabajar en paralelo sin generar conflictos entre nuestro código al momento de avanzar. Coordinamos la iteración de manera virtual, estableciendo como objetivo primordial tener la web completamente operativa y desplegada a tiempo. Hicimos seguimiento a través de nuestro tablero de gestión de tareas, lo que nos ayudó a monitorear el flujo del trabajo y asegurar que las historias del Sprint Backlog pasaran a Done antes de la fecha de entrega.
+
+En la parte técnica, utilizamos GitHub gestionando el flujo con ramas individuales por funcionalidad en branches feature. Esta práctica mantuvo el repositorio ordenado y dejó un registro claro de los aportes de cada integrante para sus respectivos entregables que les tocaba.De esta entrega aprendimos que es necesario las reuniones para agilizar el avance,terminamos a tiempo pero al juntar todo en la rama principal encontramos ligeros desajustes como la traduccion , el espaciado,detalles con los colores y otros ajustes.
+
+
 
 # Conclusiones 
 
 ## 5. Conclusiones
 
-El desarrollo y estructuración del proyecto **FixCore** permite establecer las siguientes conclusiones técnicas, operativas y de negocio:
 
-*   **Arquitectura Empresarial Altamente Escalable:** La adopción de **Angular 17+ con Standalone Components** bajo un enfoque de **Domain-Driven Design (DDD)** garantiza que el sistema pueda crecer de manera modular. La separación en *Bounded Contexts* (Identidad, Mantenimiento, Inventario y Equipamiento) permite un mantenimiento aislado y previene la degradación del código a medida que se añaden nuevas funcionalidades.
-*   **Gestión Multi-Tenant Nativa:** La plataforma resuelve eficientemente el desafío de las firmas contratistas B2B al implementar un sistema *Multi-Tenant* centralizado. Esto permite a usuarios externos gestionar múltiples plantas desde una sola interfaz, sin fricciones en la base de datos ni penalizaciones por agregar nuevos clientes.
-*   **Diseño Centrado en el Usuario (UX/UI) y Contexto:** La estrategia de diseño *Mobile-First* para operarios (uso de escáner QR, botones táctiles amplios de 44px, interfaces de alto contraste) y un entorno *Desktop* analítico para jefaturas (Dashboards, Kanban, DataGrids) asegura una alta tasa de adopción y reduce la curva de aprendizaje en entornos industriales.
-*   **Gestión de Estado Robusta y Reactiva:** La implementación de **RxJS (BehaviorSubjects)** como motor de estado global asegura que la información de los módulos críticos —como el movimiento de tarjetas de Órdenes de Trabajo (OTs) en el tablero Kanban mediante *Drag & Drop* o las alertas de stock crítico— se actualice en tiempo real sin recargar la página, mejorando drásticamente la experiencia del usuario.
-*   **Estrategia de Adquisición B2B Optimizada:** La Landing Page ha sido diseñada no solo como un folleto informativo, sino como un embudo de conversión estructurado. La aplicación del efecto "señuelo" en los planes de suscripción (Freemium, Planta, Contratista) y la integración de formularios hacia un flujo de autenticación seguro, agilizan el proceso de *onboarding* de nuevos clientes corporativos.
-*   **Impacto Operativo Directo:** FixCore digitaliza y centraliza la comunicación que tradicionalmente se pierde en medios informales (como chats y papel). Las notificaciones automatizadas, la gestión de inventario predictiva y la visibilidad del ciclo de vida de los activos impactan directamente en la reducción del **MTTR (Tiempo Medio de Reparación)** y aumentan la disponibilidad de la maquinaria.
+El desarrollo del primer avance de **FixCore** permitió definir con mayor claridad la problemática, los usuarios objetivo, los principales requisitos y la propuesta de diseño de la solución. A partir del trabajo realizado, se establecen las siguientes conclusiones:
 
-# Bibliografía 
+* **Definición de la arquitectura del sistema:** Se planteó una arquitectura basada en principios de **Domain-Driven Design (DDD)**, identificando los principales Bounded Contexts relacionados con la gestión de usuarios, activos, mantenimiento, órdenes de trabajo, inventario y notificaciones. Esta separación permitirá organizar las responsabilidades del sistema durante las siguientes etapas de desarrollo.
+
+* **Identificación de necesidades de los usuarios:** Las entrevistas realizadas permitieron reconocer problemas recurrentes como la información dispersa entre WhatsApp, Excel y documentos físicos, la dificultad para consultar historiales de mantenimiento y la falta de información actualizada sobre repuestos. Estos hallazgos sirvieron como base para definir las principales funcionalidades de FixCore.
+
+* **Diseño orientado a diferentes tipos de usuario:** La propuesta UX/UI considera las necesidades de jefes de planta, técnicos y empresas contratistas de mantenimiento. Para los técnicos se prioriza una interfaz sencilla y adaptable a dispositivos móviles, mientras que para los responsables de planta se consideran herramientas de supervisión, planificación y consulta de información.
+
+* **Centralización de la gestión del mantenimiento:** FixCore busca reunir en una misma plataforma la información relacionada con máquinas, mantenimientos preventivos, fallas, Órdenes de Trabajo y repuestos. Esta propuesta pretende reducir la dependencia de herramientas separadas y facilitar el seguimiento de las actividades de mantenimiento.
+
+* **Validación inicial de la propuesta de valor:** Los resultados obtenidos durante las entrevistas muestran interés en funcionalidades como el reporte rápido de fallas, las alertas automáticas, la consulta de información desde dispositivos móviles y el control centralizado de las actividades de mantenimiento. Estos resultados respaldan la continuidad del desarrollo de la propuesta.
+
+* **Desarrollo del Landing Page:** Durante el Sprint 1 se avanzó en el diseño e implementación del Landing Page de FixCore, cuyo objetivo es presentar de manera clara el problema identificado, la propuesta de valor, las principales funcionalidades y los segmentos a los que está dirigida la solución.
+
+* **Base para las siguientes etapas del proyecto:** Los artefactos desarrollados, como User Personas, User Stories, Product Backlog, EventStorming, diagramas de arquitectura y diseños de interfaz, establecen una base para continuar con la implementación y validación progresiva de FixCore en los próximos avances.
+
+
+# Bibliografía
+
+Adzic, G. (2012). *Impact mapping: Making a big impact with software products and projects*. Provoking Thoughts. https://www.impactmapping.org/book.html
+
+Angular. (s. f.). *Angular coding style guide*. https://angular.dev/style-guide
+
+Atlassian. (s. f.). *Flujo de trabajo de Gitflow*. https://www.atlassian.com/es/git/tutorials/comparing-workflows/gitflow-workflow
+
+Bradbury, S., Carpizo, B., Gentzel, M., Horah, D., & Thibert, J. (2018, 4 de octubre). *Digitally enabled reliability: Beyond predictive maintenance*. McKinsey & Company. https://www.mckinsey.com/capabilities/operations/our-insights/digitally-enabled-reliability-beyond-predictive-maintenance
+
+Brandolini, A. (2021). *Introducing EventStorming: An act of deliberate collective learning*. Leanpub. https://leanpub.com/introducing_eventstorming
+
+Brown, S. (s. f.). *The C4 model for visualising software architecture*. C4 Model. https://c4model.com/
+
+Cucumber. (s. f.). *Gherkin reference*. https://cucumber.io/docs/gherkin/reference/
+
+Fracttal. (s. f.). *Gestión de órdenes de trabajo - Fracttal One*. https://www.fracttal.com/es-es/gestion-de-ots
+
+GitHub. (s. f.). *What is GitHub Pages?* GitHub Docs. https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages
+
+Google. (s. f.). *Google HTML/CSS style guide*. https://google.github.io/styleguide/htmlcssguide
+
+Google. (s. f.). *Google Java style guide*. https://google.github.io/styleguide/javaguide.html
+
+Google. (s. f.). *Google JavaScript style guide*. https://google.github.io/styleguide/jsguide.html
+
+Google. (s. f.). *Google TypeScript style guide*. https://google.github.io/styleguide/tsguide.html
+
+Gothelf, J., & Seiden, J. (2021). *Lean UX: Designing great products with agile teams* (3rd ed.). O'Reilly Media.
+
+IBM. (s. f.). *Maximo Application Suite*. https://www.ibm.com/products/maximo
+
+Material Design. (s. f.). *Accessibility*. Google. https://m1.material.io/usability/accessibility.html
+
+Ministerio de la Producción. (2024). *Anuario estadístico 2023: Industrial, Mipyme y comercio interno*. Observatorio PRODUCEmpresarial. https://www.producempresarial.pe/anuario-estadistico-industrial-mipyme-y-comercio-interno-2023/
+
+Spring. (s. f.). *Spring Boot reference documentation*. https://docs.spring.io/spring-boot/reference/
+
+UpKeep. (s. f.). *CMMS software*. https://upkeep.com/product/cmms-software/
+
+World Wide Web Consortium. (2023). *Web Content Accessibility Guidelines (WCAG) 2.2*. https://www.w3.org/TR/WCAG22/
+
+W3Schools. (s. f.). *HTML style guide and coding conventions*. https://www.w3schools.com/HTML/html5_syntax.asp
 
 # Anexos
+
+
+
+## Anexo A. Repositorios del Proyecto
+
+- Organización de GitHub de TechMakers:
+  https://github.com/TechMakers-upc
+
+- Repositorio del informe:
+  https://github.com/TechMakers-upc/Report
+
+- Repositorio del Landing Page:
+  https://github.com/TechMakers-upc/Landing-Page
+
+
+## Anexo B. Gestión y Planificación del Proyecto
+
+- Product Backlog:
+  https://trello.com/b/yJyuiOSO
+
+- Sprint Backlog 1:
+  https://trello.com/b/8ilypk4J/sprint-backlog-1-techmakers
+
+- Artefactos de Needfinding en UXPressia:
+  https://uxpressia.com/w/v8FzI/t/zbzV3
+
+
+
+## Anexo D. Entrevistas
+
+- [Video de las entrevistas realizadas](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423973_upc_edu_pe/IQBCKuUvc8VeT4YtxyBRxNnnAerbBFUqAE8C5H7KH6vx3GU?e=f8X1Pp)
+
+
+## Anexo E. Landing Page
+
+- Código fuente:
+  https://github.com/TechMakers-upc/Landing-Page
+
+- Landing Page desplegado:
+  https://techmakers-upc.github.io/Landing-Page/
+
+
+## Anexo F. Video de Exposición AV1
+
+- [Video de exposición AV1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202324461_upc_edu_pe/IQDmty3FNqrWTLFvZG58kxPfAfv-bKwb9TGY5O8XUFahqSs?e=p3LPOL)
+
+
+ 
