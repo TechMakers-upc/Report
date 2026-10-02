@@ -2,37 +2,55 @@
 
 <img src="report/assets/images/UPC_logo_transparente.png" alt="Logo de la Universidad" style="width:20%; height: auto;">
 
-## Universidad Peruana de Ciencias Aplicadas
+Universidad Peruana de Ciencias Aplicadas
 
-**Facultad:** Ingeniería
+Carrera de Ingenieria de Software
 
-**Carrera:** Ingeniería de Software 
+<br>
 
-**Ciclo:** 2026-20
+**1ASI0729**
 
-**Curso:** 1ASI0729 - Desarrollo de Aplicaciones Open Source
+**Desarrollo de Aplicaciones Open Source**
 
-**NRC:** 16692
+NRC
 
-**Profesor:** Ángel Augusto Velásquez Núñez
+**16692** 
 
-**"Informe de Trabajo Final"**
+**Informe de Trabajo Final**
 
-**Startup:** TechMakers
+Docente
 
-**Producto:** FixCore
+**Ángel Augusto Velásquez Núñez** 
 
-**Relación de integrantes:**
+<br>
 
-| Integrante                              | Código      |
-|-----------------------------------------|-------------|
-|Alvar Lucas Córdova                      |u202324461   |
-|Sunio Danilo Landa Sánchez               |u202423973   |
-|Giuseppe Adrián Villanueva Rodríguez     |u20221c554   |
-|Diego Rances Rojas Huaranga              |u20241E096   |
-|Pierre Alessandro Mendoza Boluarte       |u202320973   |
+Equipo
 
-**Setiembre, 2026**
+**TechMakers** 
+
+Proyecto
+
+**FixCore** 
+
+<br>
+
+**Integrantes**
+
+| Código      | Apellidos y nombres                     |
+|:------------|:----------------------------------------|
+|u202324461   |Alvar Lucas Córdova                      |
+|u202423973   |Sunio Danilo Landa Sánchez               |
+|u20221c554   |Giuseppe Adrián Villanueva Rodríguez     |
+|u20241E096   |Diego Rances Rojas Huaranga              |
+|u202320973   |Pierre Alessandro Mendoza Boluarte       |
+
+<br>
+
+**Periodo 202620**
+
+<br>
+
+**Octubre 2026**
 </div>
 
 # Registro de Versiones del Informe 
