@@ -68,6 +68,14 @@ Diego Rances Rojas Huaranga
 
 # Project Report Collaboration Insights 
 
+Enlace al repositorio del Project Report: [Repositorio Report TechMakers](https://github.com/TechMakers-upc/Report)
+
+**Avance 1**
+
+![Pulse Avance 1](report/assets/images/collaboration-insight-1-av1.jpeg)
+
+![Contributors Avance 1](report/assets/images/collaboration-insight-2-av1.jpeg)
+
 # Contenido 
 
 ## Tabla de contenidos 
