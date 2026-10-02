@@ -72,7 +72,21 @@ Enlace al repositorio del Project Report: [Repositorio Report TechMakers](https:
 
 **Avance 1**
 
+Para el desarrollo de las actividades del informe, nuestro equipo subió cada avance realizado mediante commits en el repositorio del informe en GitHub. Para la gran mayoría de cambios se siguieron las convenciones dictadas por GitFlow y Conventional Commits, esto mediante la creación de ramas Feature en el repositorio que abarquen distintos aspectos del informe y mediante la redacción de mensajes de commits que especifiquen de forma breve cada cambio. En esta primera entrega varios avances se enfocaron en la elaboración del archivo Markdown principal, además de la agregación de imágenes de apoyo como fotos, diagramas, evidencias o diseños de acuerdo con lo que se abarca en cada capítulo.
+
+A continuación se presenta la pestaña Pulse elaborada por GitHub, donde se muestra el número de pull requests, commits y autores del repositorio. Esta captura abarca datos desde el 30 de agosto hasta el 30 de setiembre.
+
 ![Pulse Avance 1](report/assets/images/collaboration-insight-1-av1.jpeg)
+
+Seguidamente se presenta la pestaña Contributors, donde se muestran los números de commits de cada integrante del equipo. Esta captura abarca datos desde el inicio del proyecto hasta la finalización del primer avance. 
+
+|Integrante|Nombre de usuario en GitHub|
+|:---------|:--------------------------|
+| Rojas Huaranga, Diego Rances | diego27-16 |
+| Mendoza Boluarte, Pierre Alessandro | pierreale2302 |
+| Córdova, Alvar Lucas | AlvarLC |
+| Landa Sánchez, Sunio Danilo | DanLandio |
+| Villanueva Rodríguez, Giuseppe Adrián | Giuseppe152004 |
 
 ![Contributors Avance 1](report/assets/images/collaboration-insight-2-av1.jpeg)
 
