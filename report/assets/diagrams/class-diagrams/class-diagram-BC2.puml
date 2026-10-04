@@ -4,14 +4,14 @@ title FixCore - Class Diagram - Resource & Asset Management
 skinparam classAttributeIconSize 0
 
 ' estados y tipos de historial
-enum AssetStatus {
+enum AssetStatuses {
     ACTIVE
     INACTIVE
     UNDER_MAINTENANCE
     OUT_OF_SERVICE
 }
 
-enum HistoryType {
+enum HistoryTypes {
     REGISTRATION
     UPDATE
     MAINTENANCE
@@ -19,7 +19,7 @@ enum HistoryType {
 }
 
 ' entidades del modulo
-class IndustrialPlant {
+class IndustrialPlants {
     - id: UUID
     - name: String
     - location: String
@@ -29,26 +29,26 @@ class IndustrialPlant {
 
     + register(): void
     + updateInformation(name: String, location: String): void
-    + addAsset(asset: Asset): void
-    + removeAsset(asset: Asset): void
+    + addAsset(asset: Assets): void
+    + removeAsset(asset: Assets): void
 }
 
-class Asset {
+class Assets {
     - id: UUID
     - code: String
     - name: String
     - description: String
-    - status: AssetStatus
+    - status: AssetStatuses
     - installationDate: Date
     - createdAt: DateTime
 
     + register(): void
     + updateInformation(): void
-    + changeStatus(status: AssetStatus): void
+    + changeStatus(status: AssetStatuses): void
     + isAvailable(): Boolean
 }
 
-class TechnicalSheet {
+class TechnicalSheets {
     - id: UUID
     - manufacturer: String
     - model: String
@@ -59,7 +59,7 @@ class TechnicalSheet {
     + validateInformation(): Boolean
 }
 
-class Manual {
+class Manuals {
     - id: UUID
     - title: String
     - fileUrl: String
@@ -70,10 +70,10 @@ class Manual {
     + updateVersion(version: String): void
 }
 
-class AssetHistory {
+class AssetHistories {
     - id: UUID
     - date: DateTime
-    - type: HistoryType
+    - type: HistoryTypes
     - description: String
 
     + registerEvent(): void
@@ -81,22 +81,22 @@ class AssetHistory {
 
 ' acceso a datos
 interface IAssetRepository {
-    + findById(id: UUID): Asset
-    + findByPlant(plantId: UUID): List<Asset>
-    + save(asset: Asset): void
-    + update(asset: Asset): void
+    + findById(id: UUID): Assets
+    + findByPlant(plantId: UUID): List<Assets>
+    + save(asset: Assets): void
+    + update(asset: Assets): void
 }
 
 ' composicion y relaciones de activos
-IndustrialPlant "1" *-- "0..*" Asset : contains
+IndustrialPlants "1" *-- "0..*" Assets : contains
 
-Asset "1" *-- "1" TechnicalSheet : has
-Asset "1" *-- "0..*" Manual : has
-Asset "1" *-- "0..*" AssetHistory : records
+Assets "1" *-- "1" TechnicalSheets : has
+Assets "1" *-- "0..*" Manuals : has
+Assets "1" *-- "0..*" AssetHistories : records
 
-AssetHistory "0..*" --> "1" Asset : belongsTo
+AssetHistories "0..*" --> "1" Assets : belongsTo
 
 ' uso del repositorio
-IAssetRepository ..> Asset : persists
-IAssetRepository ..> IndustrialPlant : queries
+IAssetRepository ..> Assets : persists
+IAssetRepository ..> IndustrialPlants : queries
 @enduml

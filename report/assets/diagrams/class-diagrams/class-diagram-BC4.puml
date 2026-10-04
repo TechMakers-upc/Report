@@ -4,14 +4,14 @@ title FixCore - Class Diagram - Service Execution & Monitoring
 skinparam classAttributeIconSize 0
 
 ' prioridades estados y tipos de tareas
-enum FailurePriority {
+enum FailurePriorities {
     LOW
     MEDIUM
     HIGH
     CRITICAL
 }
 
-enum WorkOrderStatus {
+enum WorkOrderStatuses {
     CREATED
     ASSIGNED
     IN_PROGRESS
@@ -19,7 +19,7 @@ enum WorkOrderStatus {
     CLOSED
 }
 
-enum ActivityType {
+enum ActivityTypes {
     INSPECTION
     REPAIR
     REPLACEMENT
@@ -28,24 +28,24 @@ enum ActivityType {
 }
 
 ' clases del flujo de fallas y ordenes
-class Failure {
+class Failures {
     - id: UUID
     - description: String
-    - priority: FailurePriority
+    - priority: FailurePriorities
     - reportedAt: DateTime
     - resolvedAt: DateTime
 
     + report(): void
-    + prioritize(priority: FailurePriority): void
+    + prioritize(priority: FailurePriorities): void
     + markResolved(): void
     + isCritical(): Boolean
 }
 
-class WorkOrder {
+class WorkOrders {
     - id: UUID
     - code: String
     - description: String
-    - status: WorkOrderStatus
+    - status: WorkOrderStatuses
     - createdAt: DateTime
     - startedAt: DateTime
     - finishedAt: DateTime
@@ -59,10 +59,10 @@ class WorkOrder {
     + canFinish(): Boolean
 }
 
-class MaintenanceActivity {
+class MaintenanceActivities {
     - id: UUID
     - description: String
-    - activityType: ActivityType
+    - activityType: ActivityTypes
     - performedAt: DateTime
     - durationMinutes: Integer
 
@@ -70,7 +70,7 @@ class MaintenanceActivity {
     + updateDescription(description: String): void
 }
 
-class SparePartUsage {
+class SparePartUsages {
     - id: UUID
     - sparePartId: UUID
     - quantity: Integer
@@ -80,7 +80,7 @@ class SparePartUsage {
     + validateQuantity(): Boolean
 }
 
-class TechnicianAssignment {
+class TechnicianAssignments {
     - id: UUID
     - technicianId: UUID
     - assignedAt: DateTime
@@ -91,57 +91,57 @@ class TechnicianAssignment {
 }
 
 ' logica de negocio y servicios
-class FailureService {
-    + reportFailure(description: String priority: FailurePriority): Failure
-    + prioritizeFailure(failure: Failure priority: FailurePriority): void
+class FailureServices {
+    + reportFailure(description: String, priority: FailurePriorities): Failures
+    + prioritizeFailure(failure: Failures, priority: FailurePriorities): void
 }
 
-class WorkOrderService {
-    + createWorkOrder(failure: Failure): WorkOrder
-    + assignTechnician(order: WorkOrder technicianId: UUID): void
-    + startWorkOrder(order: WorkOrder): void
-    + finishWorkOrder(order: WorkOrder): void
-    + closeWorkOrder(order: WorkOrder): void
+class WorkOrderServices {
+    + createWorkOrder(failure: Failures): WorkOrders
+    + assignTechnician(order: WorkOrders, technicianId: UUID): void
+    + startWorkOrder(order: WorkOrders): void
+    + finishWorkOrder(order: WorkOrders): void
+    + closeWorkOrder(order: WorkOrders): void
 }
 
-class MonitoringService {
-    + calculateDowntime(order: WorkOrder): Duration
+class MonitoringServices {
+    + calculateDowntime(order: WorkOrders): Duration
     + calculateMTTR(): Duration
-    + getWorkOrderHistory(): List<WorkOrder>
+    + getWorkOrderHistory(): List<WorkOrders>
 }
 
 ' persistencia e integraciones externas
 interface IWorkOrderRepository {
-    + findById(id: UUID): WorkOrder
-    + findByTechnician(technicianId: UUID): List<WorkOrder>
-    + save(order: WorkOrder): void
-    + update(order: WorkOrder): void
+    + findById(id: UUID): WorkOrders
+    + findByTechnician(technicianId: UUID): List<WorkOrders>
+    + save(order: WorkOrders): void
+    + update(order: WorkOrders): void
 }
 
 interface IFailureRepository {
-    + findById(id: UUID): Failure
-    + findPending(): List<Failure>
-    + save(failure: Failure): void
+    + findById(id: UUID): Failures
+    + findPending(): List<Failures>
+    + save(failure: Failures): void
 }
 
 interface IInventoryService {
-    + consumeSparePart(sparePartId: UUID quantity: Integer): Boolean
+    + consumeSparePart(sparePartId: UUID, quantity: Integer): Boolean
 }
 
 interface IAssetService {
-    + getAsset(assetId: UUID): AssetReference
+    + getAsset(assetId: UUID): AssetReferences
 }
 
 interface INotificationService {
-    + sendCriticalFailureAlert(failure: Failure): void
+    + sendCriticalFailureAlert(failure: Failures): void
 }
 
-class AssetReference {
+class AssetReferences {
     + id: UUID
     + name: String
 }
 
-class Technician {
+class Technicians {
     - id: UUID
     - name: String
     - available: Boolean
@@ -151,28 +151,28 @@ class Technician {
 }
 
 ' estructura y relaciones entre clases
-Failure "1" --> "0..1" WorkOrder : generates
+Failures "1" --> "0..1" WorkOrders : generates
 
-WorkOrder "1" *-- "0..*" MaintenanceActivity : contains
+WorkOrders "1" *-- "0..*" MaintenanceActivities : contains
 
-WorkOrder "1" *-- "0..*" SparePartUsage : records
+WorkOrders "1" *-- "0..*" SparePartUsages : records
 
-WorkOrder "1" *-- "0..*" TechnicianAssignment : has
+WorkOrders "1" *-- "0..*" TechnicianAssignments : has
 
-TechnicianAssignment "0..*" --> "1" Technician : assignedTechnician
+TechnicianAssignments "0..*" --> "1" Technicians : assignedTechnician
 
-WorkOrder "0..*" --> "1" AssetReference : concerns
+WorkOrders "0..*" --> "1" AssetReferences : concerns
 
 ' dependencias operativas
-FailureService ..> Failure : manages
-WorkOrderService ..> WorkOrder : manages
-MonitoringService ..> WorkOrder : monitors
+FailureServices ..> Failures : manages
+WorkOrderServices ..> WorkOrders : manages
+MonitoringServices ..> WorkOrders : monitors
 
-IFailureRepository ..> Failure : persists
-IWorkOrderRepository ..> WorkOrder : persists
-Technician "1" <-- "0..*" TechnicianAssignment : assignedTechnician
-IInventoryService ..> SparePartUsage : validates consumption
-IAssetService ..> AssetReference : queries asset
+IFailureRepository ..> Failures : persists
+IWorkOrderRepository ..> WorkOrders : persists
+Technicians "1" <-- "0..*" TechnicianAssignments : assignedTechnician
+IInventoryService ..> SparePartUsages : validates consumption
+IAssetService ..> AssetReferences : queries asset
 
-INotificationService ..> Failure : sends alert
+INotificationService ..> Failures : sends alert
 @enduml

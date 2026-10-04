@@ -1,24 +1,23 @@
-@startuml FixCore_Inventory
-
+@startuml
 title FixCore - Class Diagram - Inventory & Spare Parts Management
 
 skinparam classAttributeIconSize 0
 
 ' tipos de movimientos y estados de stock
-enum MovementType {
+enum MovementTypes {
     ENTRY
     EXIT
     ADJUSTMENT
 }
 
-enum StockStatus {
+enum StockStatuses {
     AVAILABLE
     LOW
     OUT_OF_STOCK
 }
 
 ' clases principales para repuestos e inventario
-class SparePart {
+class SpareParts {
     - id: UUID
     - code: String
     - name: String
@@ -32,22 +31,22 @@ class SparePart {
     + deactivate(): void
 }
 
-class Inventory {
+class Inventories {
     - id: UUID
     - name: String
     - location: String
     - active: Boolean
 
-    + addSparePart(part: SparePart): void
-    + removeSparePart(part: SparePart): void
-    + checkStock(): List<StockItem>
+    + addSparePart(part: SpareParts): void
+    + removeSparePart(part: SpareParts): void
+    + checkStock(): List<StockItems>
 }
 
-class StockItem {
+class StockItems {
     - id: UUID
     - quantity: Integer
     - minimumQuantity: Integer
-    - status: StockStatus
+    - status: StockStatuses
     - updatedAt: DateTime
 
     + increase(quantity: Integer): void
@@ -57,10 +56,10 @@ class StockItem {
     + isBelowMinimum(): Boolean
 }
 
-class InventoryMovement {
+class InventoryMovements {
     - id: UUID
     - quantity: Integer
-    - type: MovementType
+    - type: MovementTypes
     - date: DateTime
     - reason: String
 
@@ -68,7 +67,7 @@ class InventoryMovement {
     + validateQuantity(): Boolean
 }
 
-class InventoryAlert {
+class InventoryAlerts {
     - id: UUID
     - message: String
     - createdAt: DateTime
@@ -79,58 +78,57 @@ class InventoryAlert {
 }
 
 ' servicios del negocio
-class InventoryService {
-    + registerSparePart(part: SparePart): void
-    + updateStock(partId: UUID quantity: Integer): void
-    + consumeSparePart(partId: UUID quantity: Integer): Boolean
-    + registerMovement(movement: InventoryMovement): void
+class InventoryServices {
+    + registerSparePart(part: SpareParts): void
+    + updateStock(partId: UUID, quantity: Integer): void
+    + consumeSparePart(partId: UUID, quantity: Integer): Boolean
+    + registerMovement(movement: InventoryMovements): void
 }
 
-class StockControlService {
-    + checkAvailability(partId: UUID quantity: Integer): Boolean
-    + detectLowStock(): List<StockItem>
+class StockControlServices {
+    + checkAvailability(partId: UUID, quantity: Integer): Boolean
+    + detectLowStock(): List<StockItems>
 }
 
 ' interfaces y repositorios
 interface ISparePartRepository {
-    + findById(id: UUID): SparePart
-    + findAll(): List<SparePart>
-    + save(part: SparePart): void
-    + update(part: SparePart): void
+    + findById(id: UUID): SpareParts
+    + findAll(): List<SpareParts>
+    + save(part: SpareParts): void
+    + update(part: SpareParts): void
 }
 
 interface IInventoryRepository {
-    + findInventory(id: UUID): Inventory
-    + findStock(partId: UUID): StockItem
-    + saveStock(stock: StockItem): void
+    + findInventory(id: UUID): Inventories
+    + findStock(partId: UUID): StockItems
+    + saveStock(stock: StockItems): void
 }
 
 interface INotificationService {
-    + sendLowStockAlert(alert: InventoryAlert): void
+    + sendLowStockAlert(alert: InventoryAlerts): void
 }
 
 ' relaciones del diagrama
-Inventory "1" *-- "0..*" StockItem : contains
+Inventories "1" *-- "0..*" StockItems : contains
 
-StockItem "0..*" --> "1" SparePart : represents
+StockItems "0..*" --> "1" SpareParts : represents
 
-Inventory "1" --> "0..*" InventoryMovement : records
+Inventories "1" --> "0..*" InventoryMovements : records
 
-InventoryMovement "0..*" --> "1" SparePart : concerns
+InventoryMovements "0..*" --> "1" SpareParts : concerns
 
-StockItem "1" --> "0..*" InventoryAlert : generates
+StockItems "1" --> "0..*" InventoryAlerts : generates
 
 ' uso de servicios y persistencia
-InventoryService ..> SparePart : manages
-InventoryService ..> StockItem : updates
-InventoryService ..> InventoryMovement : records
+InventoryServices ..> SpareParts : manages
+InventoryServices ..> StockItems : updates
+InventoryServices ..> InventoryMovements : records
 
-StockControlService ..> StockItem : controls
-StockControlService ..> InventoryAlert : detects
+StockControlServices ..> StockItems : controls
+StockControlServices ..> InventoryAlerts : detects
 
-ISparePartRepository ..> SparePart : persists
-IInventoryRepository ..> StockItem : persists
+ISparePartRepository ..> SpareParts : persists
+IInventoryRepository ..> StockItems : persists
 
-INotificationService ..> InventoryAlert : notifies
-
+INotificationService ..> InventoryAlerts : notifies
 @enduml

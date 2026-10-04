@@ -415,9 +415,10 @@ Nuestro enfoque inicial estará dirigido a pymes de manufactura y producción, f
 * Resolveremos esto aplicando un diseño web adaptable usando botones grandes y contrastes claros para que cargue perfecto en cualquier navegador móvil o de escritorio.
 
 **Business Outcome Assumptions**
-* Creemos que el gasto en repuestos de emergencia bajará un 15% porque el sistema web avisará con tiempo qué piezas se están agotando.
-* Creemos que los técnicos completarán sus reportes un 20% más rápido al no tener que transcribir documentos de papel al final del día.
-* Creemos que el 85% de los clientes renovará su suscripción mensual tras ver el orden operativo en sus talleres.
+* Creemos que lograremos convertir al menos al 40 % de las pymes que participen en las pruebas piloto gratuitas en clientes de suscripción de pago (SaaS) al finalizar su primer mes.
+* Creemos que alcanzaremos una tasa de retención mensual de clientes superior al 95 %, demostrando que FixCore se vuelve una herramienta indispensable en su operación diaria.
+* Creemos que adquiriremos nuestros primeros 50 clientes B2B (empresas manufactureras y contratistas) durante los primeros 6 meses de lanzamiento oficial en el mercado.
+* Creemos que el Costo de Adquisición de Clientes (CAC) se mantendrá bajo al ofrecer demostraciones directas y tangibles del software operando en las líneas de producción de los prospectos.
 
 **User Assumptions**
 
@@ -429,18 +430,25 @@ Nuestro enfoque inicial estará dirigido a pymes de manufactura y producción, f
 * Creemos que los usuarios necesitan una interfaz web limpia, sencilla y fácil de utilizar durante sus actividades diarias.
 
 **User Outcome and Benefit Assumptions**
-* Creemos que los jefes quieren organizar mejor las tareas para evitar el pago excesivo de horas extras por emergencias.
-* Creemos que los técnicos quieren saber si hay un repuesto disponible en el almacén sin tener que caminar largas distancias para preguntar.
-* Creemos que los dueños quieren reportes web automáticos para conocer el estado de sus equipos sin revisar cuadernos físicos.
-* Creemos que todos los involucrados quieren eliminar los errores causados por documentos extraviados o ilegibles.
+* Creemos que los jefes de mantenimiento lograrán reducir el tiempo de planificación semanal en un 40 % al centralizar la asignación de tareas en la plataforma en lugar de usar hojas de Excel o pizarras.
+
+* Creemos que los técnicos operarios registrarán el 100 % de las fallas e intervenciones en tiempo real desde la planta, eliminando por completo el trabajo de transcribir notas de papel al final de su turno.
+
+* Creemos que los gerentes o dueños tomarán decisiones de compra de manera proactiva, disminuyendo los quiebres de stock de repuestos críticos al tener visibilidad del inventario en tiempo real.
+
+* Creemos que los equipos de trabajo reducirán los errores de comunicación y las órdenes de trabajo perdidas a casi cero al contar con un historial digital estandarizado.
 
 **Feature Assumptions**
 
-* Creemos que un calendario interactivo permitirá visualizar y reasignar los mantenimientos diarios de manera más organizada.
-* Creemos que los perfiles digitales de maquinaria permitirán centralizar manuales, marcas, modelos e información importante de cada equipo.
-* Creemos que un módulo de inventario permitirá mantener actualizado el stock de repuestos utilizados en las órdenes de trabajo.
-* Creemos que un sistema de notificaciones permitirá avisar con anticipación sobre mantenimientos próximos y situaciones importantes.
-* Creemos que un panel principal permitirá a los responsables consultar métricas y resúmenes sobre el estado de las operaciones.
+* Creemos que la integración de lectura de códigos QR en las máquinas permitirá a los técnicos acceder instantáneamente a la ficha técnica y manuales desde sus celulares, superando la lentitud y el desorden de buscar documentos físicos en la planta.
+
+* Creemos que un creador de ordenes de trabajo con una interfaz web garantizará la adopción inmediata por parte de los operarios, a diferencia de los ERPs tradicionales que resultan pesados y complejos de usar.
+
+* Creemos que un modulo de inventario vinculado automáticamente a las ordenes de trabajo descontará los repuestos en tiempo real evitando que los técnicos caminen al almacén en vano un problema común cuando se usa herramientas como Excel desactualizado.
+
+* Creemos que un sistema automatizado de alertas preventivas asegurará que los supervisores no omitan las revisiones programadas, eliminando la dependencia de la memoria o de calendarios de papel.
+
+* Creemos que un dashboard de indicadores entregará a los jefes reportes listos para analizar, diferenciándonos de las hojas de cálculo que requieren horas de procesamiento manual.
 
 #### 1.2.2.3. Lean UX Hypothesis Statements.
 
@@ -3261,7 +3269,7 @@ En esta sección se presenta el Container Diagram de FixCore, elaborado bajo el 
 
 <div align="center">
   <strong></strong><br><br>
-  <img src="report/assets/images/DiagramaContainersFixCore-dark.png" width="700"><br>
+  <img src="report/assets/images/Containers-dark.png" width="700"><br>
   <em>Fuente: Elaboración propia.</em>
 </div>
 
@@ -3271,83 +3279,65 @@ Ahora presentamos los Diagramas de Componentes de FixCore, desarrollados a parti
 
 * **1.Diagrama de Componentes – Aplicación Web**
 
-Este diagrama muestra la descomposición de la Aplicación Web de FixCore. Se presentan los componentes responsables de la navegación, autenticación, gestión de activos, mantenimiento preventivo, fallas y ordenes de trabajo, inventario, reportes y notificaciones. Los componentes utilizan un Cliente API para comunicarse con la API REST.
+Este diagrama muestra la estructura visual de la plataforma. Contiene los componentes responsables de la autenticación, gestión de plantas, activos, mantenimiento, inventario, reportes y notificaciones, los cuales envían las peticiones al backend.
+
 <div align="center">
   <strong></strong><br><br>
-  <img src="report/assets/images/ComponentesAplicacionWeb-dark.png" width="700"><br>
+  <img src="report/assets/images/Componentes_WebApp-dark.png" width="700"><br>
   <em>Fuente: Elaboración propia.</em>
 </div>
 
 
 * **2.Diagrama de Componentes – API REST**
 
-Este diagrama representa la estructura interna de la API REST de FixCore. Se muestran los controladores encargados de recibir y gestionar las solicitudes relacionadas con autenticación, usuarios, activos, mantenimiento, fallas, órdenes de trabajo, inventario y reportes, funcionando como punto de comunicación entre la Aplicación Web y los servicios del sistema.
+Este diagrama representa la capa principal de entrada del backend. Se muestran los controladores encargados de recibir las peticiones de la web, apoyados por el componente de seguridad y el manejador de errores.
 <div align="center">
   <strong></strong><br><br>
-  <img src="report/assets/images/ComponentesApiRest-dark.png" width="700"><br>
+  <img src="report/assets/images/Componentes_API_REST-dark.png" width="700"><br>
   <em>Fuente: Elaboración propia.</em>
 </div>
 
 * **3.Diagrama de Componentes – Identidad y Acceso**
 
-Este diagrama presenta los componentes encargados de la gestión de identidad y acceso en FixCore.Incluimos la autenticacion,gestión de usuarios, roles, permisos y recuperación de acceso, además del parte responsable de la persistencia de esta información en la Base de Datos de Identidad.
+Este diagrama detalla los componentes internos encargados de la seguridad. Muestra cómo se gestionan las cuentas de usuarios, roles, sesiones activas y la validación de credenciales directamente con la base de datos.
 
 <div align="center">
   <strong></strong><br><br>
-  <img src="report/assets/images/ComponentesIdentidadAcceso-dark.png" width="700"><br>
+  <img src="report/assets/images/Componentes_Identidad-dark.png" width="700"><br>
   <em>Fuente: Elaboración propia.</em>
 </div>
 
 
 * **4.Diagrama de Componentes – Recursos y Activos**
 
-Este diagrama muestra la descomposición del servicio encargado de administrar los recursos y activos industriales. Sus componentes permiten gestionar plantas, activos, fichas técnicas, manuales e historial de los activos, utilizando un repositorio para almacenar y consultar la información correspondiente.
+Este diagrama presenta la lógica interna para la administración de las instalaciones. Incluye los componentes que gestionan las plantas industriales, las máquinas, las fichas técnicas y el historial de mantenimiento.
 
 <div align="center">
   <strong></strong><br><br>
-  <img src="report/assets/images/ComponentesRecursosActivos-dark.png" width="700"><br>
+  <img src="report/assets/images/Componentes_Activos-dark.png" width="700"><br>
   <em>Fuente: Elaboración propia.</em>
 </div>
 
-* **5.Diagrama de Componentes – Diseño y planificacion**
+* **5.Diagrama de Componentes – Ejecución y Monitoreo**
 
-Este diagrama representa los componentes relacionados con el diseño y planificación del mantenimiento preventivo. Incluye la gestion de planes, programacion, reprogramacion, calendario y control de vencimientos. El repositorio de planificacion permite almacenar y consultar la informacion necesaria para gestionar las actividades programadas.
+Este diagrama describe el flujo de trabajo operativo diario. Presenta los componentes para el registro de fallas, creación de órdenes de trabajo, asignación de técnicos, registro de tareas y el envío de alertas por WhatsApp.
 
 <div align="center">
   <strong></strong><br><br>
-  <img src="report/assets/images/ComponentesPlanificacion-dark.png" width="700"><br>
+  <img src="report/assets/images/Componentes_Ejecucion-dark.png" width="700"><br>
   <em>Fuente: Elaboración propia.</em>
 </div>
 
-* **6.Diagrama de Componentes – Ejecución y Monitoreo**
+* **6.Diagrama de Componentes – Inventario y Repuestos**
 
-Este diagrama muestra los componentes principales para la ejecucion del mantenimiento en FixCore. Incluye la gestion de fallas,ordenes de trabajo, cuando se asigna un tecnico, la ejecucion, registro de actividades, cierre y gestión de alertas. Tambien se incorpora el cliente de notificaciones WhatsApp y el repositorio encargado de persistir la información de ejecucion.
+Este diagrama muestra los componentes enfocados en el control del almacén. Incluye la administración del inventario, catálogo de repuestos, control de cantidades disponibles (stock), registro de movimientos y las alertas de escasez.
 
 <div align="center">
   <strong></strong><br><br>
-  <img src="report/assets/images/ComponentesEjecucionMonitoreo-dark.png" width="700"><br>
+  <img src="report/assets/images/Componentes_Inventario-dark.png" width="700"><br>
   <em>Fuente: Elaboración propia.</em>
 </div>
 
-* **7.Diagrama de Componentes – Inventario y Repuestos**
-
-Este diagrama representa los componentes responsables de administrar el inventario y los repuestos que se usaron en las actividades de mantenimiento. Incluye la gestion de inventario,control de stock, consumo, movimientos y alertas de stock, ademas de la persistencia de datos.
-
-<div align="center">
-  <strong></strong><br><br>
-  <img src="report/assets/images/ComponentesInventarioRepuestos-dark.png" width="700"><br>
-  <em>Fuente: Elaboración propia.</em>
-</div>
-
-* **8.Diagrama de Componentes – Panel y Reportes**
-
-Este diagrama muestra la estructura interna del servicio encargado de proporcionar información para el analisis,sus componentes permiten consultar KPIs, metricas de mantenimiento y operativas, desempeño de técnicos, generar reportes y preparar la informacion para el panel de control.
-
-<div align="center">
-  <strong></strong><br><br>
-  <img src="report/assets/images/ComponentesPanelReportes-dark.png" width="700"><br>
-  <em>Fuente: Elaboración propia.</em>
-</div>
 
 ## 4.7. Software Object-Oriented Design. 
 
@@ -3359,22 +3349,22 @@ Se presentan los diagramas de clases UML de cada bounded context, mostrando sus 
 
 #### 4.7.1.1. Class Diagram – Identity & Access Management
 
-![](report/assets/images/class_diagram-BC1.png)
+![](report/assets/images/ClassD-BC1.png)
 
 #### 4.7.1.2. Class Diagram – Resource & Asset Management
 
-![](report/assets/images/class_diagram-BC2.png)
+![](report/assets/images/ClassD-BC2.png)
 #### 4.7.1.3. Class Diagram – Service Design & Planning
 
-![](report/assets/images/class_diagram-BC3.png)
+![](report/assets/images/ClassD-BC3.png)
 
 #### 4.7.1.4. Class Diagram – Service Execution & Monitoring
 
-![](report/assets/images/class_diagram-BC4.png)
+![](report/assets/images/ClassD-BC4.png)
 
 #### 4.7.1.5. Class Diagram – Inventory & Spare Parts Management
 
-![](report/assets/images/class_diagram-BC5.png)
+![](report/assets/images/ClassD-BC5.png)
 
 
 ## 4.8. Database Design. 
@@ -3389,7 +3379,7 @@ En este apartado mostramos los Database Diagrams correspondientes a cada Bounded
 
 <div align="center">
   <strong></strong><br><br>
-  <img src="report/assets/images/diagrama_db_BC1.png" width="700"><br>
+  <img src="report/assets/images/DB-diagram-BC1.png/" width="700"><br>
   <em>Fuente: Elaboración propia.</em>
 </div>
 
@@ -3397,7 +3387,7 @@ En este apartado mostramos los Database Diagrams correspondientes a cada Bounded
 
 <div align="center">
   <strong></strong><br><br>
-  <img src="report/assets/images/diagrama_db_BC2.png" width="700"><br>
+  <img src="report/assets/images/DB-diagram-BC2.png" width="700"><br>
   <em>Fuente: Elaboración propia.</em>
 </div>
 
@@ -3405,7 +3395,7 @@ En este apartado mostramos los Database Diagrams correspondientes a cada Bounded
 
 <div align="center">
   <strong></strong><br><br>
-  <img src="report/assets/images/diagrama_db_BC3.png" width="700"><br>
+  <img src="report/assets/images/DB-diagram-BC3.png" width="700"><br>
   <em>Fuente: Elaboración propia.</em>
 </div>
 
@@ -3413,7 +3403,7 @@ En este apartado mostramos los Database Diagrams correspondientes a cada Bounded
 
 <div align="center">
   <strong></strong><br><br>
-  <img src="report/assets/images/diagrama_db_BC4.png" width="700"><br>
+  <img src="report/assets/images/DB-diagram-BC4.png" width="700"><br>
   <em>Fuente: Elaboración propia.</em>
 </div>
 
@@ -3421,7 +3411,7 @@ En este apartado mostramos los Database Diagrams correspondientes a cada Bounded
 
 <div align="center">
   <strong></strong><br><br>
-  <img src="report/assets/images/diagrama_db_BC5.png" width="700"><br>
+  <img src="report/assets/images/DB-diagram-BC5.png" width="700"><br>
   <em>Fuente: Elaboración propia.</em>
 </div>
 

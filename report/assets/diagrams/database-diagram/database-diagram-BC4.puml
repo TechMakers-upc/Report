@@ -1,87 +1,72 @@
-@startuml BD_Ejecucion_Mantenimiento
-
+@startuml
 title Diagrama de Base de Datos - Ejecucion y Monitoreo del Servicio
 
 ' registro de fallas detectadas
-entity "falla" as falla {
+entity "failures" as failures {
     * id : uuid <<PK>>
     --
-    * activo_id : uuid
-    * reportado_por : uuid
-    * descripcion : varchar(1000)
-    * prioridad : varchar(30)
-    * estado : varchar(30)
-    * fecha_reporte : timestamp
+    * asset_id : uuid
+    * reported_by : uuid
+    * description : varchar(1000)
+    * priority : varchar(30)
+    * status : varchar(30)
+    * reported_at : timestamp
 }
 
 ' ordenes generadas para atender fallas o mantenimientos
-entity "orden_trabajo" as orden {
+entity "work_orders" as work_orders {
     * id : uuid <<PK>>
     --
-    * falla_id : uuid <<FK>>
-    * activo_id : uuid
-    * tecnico_id : uuid
-    * titulo : varchar(200)
-    * descripcion : varchar(1000)
-    * estado : varchar(50)
-    * prioridad : varchar(30)
-    * fecha_inicio : timestamp
-    * fecha_fin : timestamp
-    * fecha_creacion : timestamp
+    * failure_id : uuid <<FK>>
+    * asset_id : uuid
+    * technician_id : uuid
+    * title : varchar(200)
+    * description : varchar(1000)
+    * status : varchar(50)
+    * priority : varchar(30)
+    * started_at : timestamp
+    * completed_at : timestamp
+    * created_at : timestamp
 }
 
 ' asignacion de personal a las ordenes
-entity "asignacion_tecnico" as asignacion {
+entity "technician_assignments" as technician_assignments {
     * id : uuid <<PK>>
     --
-    * orden_trabajo_id : uuid <<FK>>
-    * tecnico_id : uuid
-    * fecha_asignacion : timestamp
-    * fecha_desasignacion : timestamp
+    * work_order_id : uuid <<FK>>
+    * technician_id : uuid
+    * assigned_at : timestamp
+    * unassigned_at : timestamp
 }
 
 ' detalle de tareas realizadas en campo
-entity "actividad_mantenimiento" as actividad {
+entity "maintenance_activities" as maintenance_activities {
     * id : uuid <<PK>>
     --
-    * orden_trabajo_id : uuid <<FK>>
-    * tecnico_id : uuid
-    * tipo_actividad : varchar(50)
-    * descripcion : varchar(1000)
-    * fecha_inicio : timestamp
-    * fecha_fin : timestamp
-    * fecha_creacion : timestamp
+    * work_order_id : uuid <<FK>>
+    * technician_id : uuid
+    * activity_type : varchar(50)
+    * description : varchar(1000)
+    * started_at : timestamp
+    * completed_at : timestamp
+    * created_at : timestamp
 }
 
 ' piezas consumidas durante el trabajo
-entity "uso_repuesto" as uso {
+entity "spare_part_usages" as spare_part_usages {
     * id : uuid <<PK>>
     --
-    * orden_trabajo_id : uuid <<FK>>
-    * repuesto_id : uuid
-    * cantidad : decimal(10.2)
-    * fecha_uso : timestamp
+    * work_order_id : uuid <<FK>>
+    * spare_part_id : uuid
+    * quantity : decimal(10,2)
+    * used_at : timestamp
 }
 
 ' una falla puede abrir una orden de trabajo
-falla ||--o| orden : genera
+failures ||--o| work_orders : genera
 
 ' detalles asociados a la orden
-orden ||--o{ asignacion : tiene
-orden ||--o{ actividad : registra
-orden ||--o{ uso : utiliza
-
-' notas de referencia hacia otros modulos
-note right of falla
-    activo_id corresponde a un activo
-    del contexto Gestion de Plantas
-    y Activos.
-end note
-
-note right of uso
-    repuesto_id corresponde a un
-    repuesto del contexto Inventario
-    y Repuestos.
-end note
-
+work_orders ||--o{ technician_assignments : tiene
+work_orders ||--o{ maintenance_activities : registra
+work_orders ||--o{ spare_part_usages : utiliza
 @enduml
