@@ -633,12 +633,16 @@ IBM Maximo
 
 * ¿Cuál es tu nombre, edad y qué cargo ocupas en la planta?
 * ¿A qué sector industrial pertenece la empresa y, aproximadamente, cuántas máquinas principales operan?
+* Para coordinar el día a día y gestionar el mantenimiento, ¿qué herramientas o software utilizas habitualmente en tu computadora (ej. Excel, sistemas de gestión) y qué dispositivos móviles manejas (smartphones, tablets) para mantenerte comunicada con tu equipo?
+* ¿Qué marca y modelo de smartphone y computadora sueles utilizar para tus labores, y qué navegador web (ej. Chrome, Safari, Edge) prefieres para abrir tus plataformas de trabajo?
 * ¿Cómo gestionan actualmente el reporte de fallas de maquinaria y las órdenes de trabajo (ej. Excel, papel, grupos de WhatsApp, pizarras)?
+* ¿Cuáles son tus canales de comunicación principales (llamadas, WhatsApp, reuniones presenciales o correo) cuando ocurre una emergencia en planta, y cómo lidias con que la información esté dispersa entre ellos?
 * ¿Qué dispositivos utilizan más los operarios y técnicos durante su turno en planta (smartphones personales, tablets de la empresa, radios)?
 * ¿Qué tan frecuente es que una máquina sufra tiempos muertos (downtime) debido a una mala comunicación o lentitud al reportar la falla?
 * ¿Cuáles son las mayores frustraciones que enfrentas al intentar consolidar la información de mantenimiento a fin de mes?
 * ¿Has intentado implementar algún software de mantenimiento anteriormente? Si es así, ¿cuál fue el resultado o la principal barrera de adopción por parte de los técnicos?
 * ¿Qué elemento te generaría más confianza para adoptar un nuevo sistema: la facilidad de uso para el operario, la automatización de alertas, o el costo de implementación?
+* A nivel profesional o tecnológico, ¿qué marcas, empresas referentes o fuentes de contenido industrial e innovación sigues o consideras un modelo a imitar en tu gestión?
 * ¿Cómo crees que impactaría en la productividad si los técnicos pudieran reportar una falla en menos de 3 clics desde su celular?
 * ¿Qué tan útil te resultaría recibir notificaciones automáticas de fallas críticas directamente en tu WhatsApp?
 * Si existiera una versión básica gratuita (modelo freemium) para probar el sistema con algunas máquinas, ¿te animarías a implementarlo en tu planta?
@@ -648,12 +652,16 @@ IBM Maximo
 
 * ¿Podría indicarme su nombre, cargo y el tipo de servicios de ingeniería o mantenimiento que brinda su empresa?
 * ¿A cuántas plantas industriales o clientes prestan servicio de manera simultánea?
+* Para coordinar las operaciones desde la oficina o campo, ¿qué dispositivos utilizas habitualmente y qué herramientas o software manejas para gestionar el día a día?
+* ¿Qué marca y modelo de computadora/laptop y smartphone utilizas para tus labores de coordinación, y qué navegador web (ej. Chrome, Safari, Edge) prefieres utilizar en tu día a día?
 * ¿Cómo coordinan actualmente el despliegue de sus técnicos en campo cuando un cliente reporta una emergencia o falla en sus equipos?
+* ¿Cuáles son tus canales de comunicación principales (llamadas telefónicas, WhatsApp o correos) para contactar a los técnicos y clientes, y cómo manejas la dispersión de información entre ellos?
 * Desde su experiencia operativa, ¿cuáles son las mayores limitaciones logísticas o tecnológicas que enfrentan para atender múltiples plantas a la vez?
 * ¿Qué tan complejo les resulta estandarizar los reportes de mantenimiento y KPIs para entregárselos a diferentes clientes?
 * ¿Suelen utilizar herramientas de automatización de flujos de trabajo o integración de APIs en sus operaciones diarias?
 * ¿Qué funcionalidades considera indispensables en una plataforma digital para que decida utilizarla como el motor operativo de todos sus técnicos (ej. webhooks, portal multi-cliente, alertas en tiempo real)?
 * ¿Qué tan importante sería para su firma poder integrar el sistema de mantenimiento con otras herramientas de comunicación (como notificaciones automáticas vía WhatsApp)?
+* A nivel tecnológico o de gestión de operaciones, ¿qué marcas, empresas referentes o plataformas digitales sigues o tomas como inspiración para tu trabajo?
 * ¿Cree que ofrecer a sus clientes una herramienta ágil para que les reporten fallas mejoraría la percepción de su servicio tercerizado? ¿Por qué?
 * ¿Preferiría un modelo de precios basado en la cantidad de técnicos (usuarios) o en la cantidad de plantas/clientes gestionados?
 * ¿Estaría dispuesto a recomendar e implementar este sistema directamente en la infraestructura tecnológica de sus clientes?
@@ -663,17 +671,19 @@ IBM Maximo
 
 - ¿Cuál es tu nombre, edad y qué función desempeñas actualmente dentro del área de mantenimiento?
 - ¿Cuánto tiempo llevas trabajando en mantenimiento industrial y qué tipo de máquinas o equipos atiendes con mayor frecuencia?
+- ¿Qué dispositivo utilizas con mayor frecuencia durante tu jornada de trabajo y para qué tareas lo utilizas?
+- ¿Qué marca y modelo de smartphone utilizas principalmente en campo, y qué navegador web (ej. Chrome, Safari) sueles emplear si necesitas consultar algo desde el celular o una computadora?
 - ¿Cómo recibes actualmente las tareas u órdenes de mantenimiento que debes realizar durante tu turno?
 - Cuando detectas una falla en una máquina, ¿cómo la reportas y a quién se la comunicas?
 - ¿Qué información necesitas consultar antes de comenzar un mantenimiento o una reparación?
 - ¿Cómo consultas actualmente los manuales, historiales de mantenimiento o información técnica de una máquina?
 - ¿Cómo verificas si existe un repuesto disponible antes o durante una reparación?
 - ¿Qué problemas o dificultades encuentras al utilizar papel, Excel, WhatsApp u otras herramientas durante tus actividades de mantenimiento?
-- ¿Qué dispositivo utilizas con mayor frecuencia durante tu jornada de trabajo y para qué tareas lo utilizas?
 - ¿Qué características debería tener una herramienta digital para que puedas utilizarla fácilmente mientras trabajas en planta?
 - ¿Qué situaciones suelen hacer que una orden de trabajo se retrase o sea difícil de completar?
 - ¿Cómo registras actualmente el trabajo realizado después de terminar un mantenimiento?
 - ¿Qué tipo de alertas o información te sería más útil recibir durante tu turno?
+- A nivel de herramientas tecnológicas, aplicaciones o plataformas del día a día, ¿qué marcas, apps móviles o referentes sigues o te parecen más intuitivos para trabajar?
 - ¿Qué es lo que más te frustra del proceso actual de mantenimiento y qué cambiarías para hacerlo más sencillo?
 
 ### 2.2.2. Registro de entrevistas.
