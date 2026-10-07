@@ -304,8 +304,8 @@ A continuación, se presentan los integrantes de TechMakers y las principales ca
   <tr>
     <td colspan="2">
     <b>Codigo:</b> u202423973 <br>
-    <b>Carrera:</b> <br>
-    <b>Conocimientos técnicos y habilidades:</b>
+    <b>Carrera:</b> Ingenieria de Software <br>
+    <b>Conocimientos técnicos y habilidades: </b> Soy Sunio Landa, estudiante de la carrera de Ingenieria de Software. Tengo conocimientos sobre programación en lenguajes como  C++ y sobre marcos de trabajo como Scrum. Además tengo habilidades para aprender cosas rapido y trabajar en equipo.
     </td>
   </tr>
 
