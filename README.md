@@ -3252,11 +3252,55 @@ Explicación del flujo: El recorrido parte de la pantalla de autenticación, don
 
 ### 4.6.1. Design-Level EventStorming. 
 
-Realizamos una sesión de Design-Level EventStorming tomando como punto de partida los resultados obtenidos en el Big Picture EventStorming. En esta etapa profundizamos en los principales procesos identificados del dominio de FixCore, detallamos los eventos, actores, comandos, politicas y otros aspectos involucrados en cada flujo. Esto nos ayudo a mejorar el modelo inicial, delimitar las responsabilidades del sistema y establecer una primera definición de los Bounded Contexts, buscando que cada uno mantenga una responsabilidad clara dentro de la arquitectura de la plataforma.
+Realizamos una sesión de Design-Level EventStorming tomando como punto de partida los resultados obtenidos en el Big Picture EventStorming. En esta etapa profundizamos en los principales procesos identificados del dominio de FixCore, detallamos los eventos, actores, comandos, politicas y otros aspectos involucrados en cada flujo. Esto nos ayudo a mejorar el modelo inicial, delimitar las responsabilidades del sistema y establecer una primera definición de los Bounded Contexts, buscando que cada uno mantenga una responsabilidad clara dentro de la arquitectura de la plataforma. Para la elaboración del tablero, se siguieron siete pasos.
+
+
 
 <div align="center">
-  <strong>Gráfico 20:Design-Level EventStorming </strong><br><br>
-  <img src="report/assets/images/tm-dl-eventstorming-7.png" width="700"><br>
+  <strong>1. Agregar eventos del dominio</strong><br><br>
+  <img src="report/assets/images/tm-dl-eventstorming-1.png" width="700" alt="Design level Eventstorming 1"><br>
+</div>
+
+
+
+<div align="center">
+  <strong>2. Agregar comandos</strong><br><br>
+  <img src="report/assets/images/tm-dl-eventstorming-2.png" width="700" alt="Design level Eventstorming 2"><br>
+</div>
+
+
+
+<div align="center">
+  <strong>3. Agregar actores y politicas</strong><br><br>
+  <img src="report/assets/images/tm-dl-eventstorming-3.png" width="700" alt="Design level Eventstorming 3"><br>
+</div>
+
+
+
+<div align="center">
+  <strong>4. Agregar Read Models</strong><br><br>
+  <img src="report/assets/images/tm-dl-eventstorming-4.png" width="700" alt="Design level Eventstorming 4"><br>
+</div>
+
+
+
+<div align="center">
+  <strong>5. Agregar sistemas externos</strong><br><br>
+  <img src="report/assets/images/tm-dl-eventstorming-5.png" width="700" alt="Design level Eventstorming 5"><br>
+</div>
+
+
+
+<div align="center">
+  <strong>6. Agregar reglas de negocio</strong><br><br>
+  <img src="report/assets/images/tm-dl-eventstorming-6.png" width="700" alt="Design level Eventstorming 6"><br>
+</div>
+
+
+
+<div align="center">
+<strong>7. Agrupar reglas de negocio</strong><br><br>
+  <img src="report/assets/images/tm-dl-eventstorming-7.png" width="700" alt="Design level Eventstorming 7"><br>
   <em>Fuente: Elaboración propia.</em>
 </div>
 
