@@ -3252,11 +3252,11 @@ Explicación del flujo: El recorrido parte de la pantalla de autenticación, don
 
 ### 4.6.1. Design-Level EventStorming. 
 
-Realizamos una sesión de Design-Level EventStorming tomando como punto de partida los resultados obtenidos en el Big Picture EventStorming. En esta etapa profundizamos en los principales procesos identificados del dominio de FixCore, detallamos los actores, comandos, aggregates, eventos de dominio, reglas de negocio y consultas involucrados en cada flujo. Esto nos ayudo a mejorar el modelo inicial, delimitar las responsabilidades del sistema y establecer una primera definición de los Bounded Contexts, buscando que cada uno mantenga una responsabilidad clara dentro de la arquitectura de la plataforma.
+Realizamos una sesión de Design-Level EventStorming tomando como punto de partida los resultados obtenidos en el Big Picture EventStorming. En esta etapa profundizamos en los principales procesos identificados del dominio de FixCore, detallamos los eventos, actores, comandos, politicas y otros aspectos involucrados en cada flujo. Esto nos ayudo a mejorar el modelo inicial, delimitar las responsabilidades del sistema y establecer una primera definición de los Bounded Contexts, buscando que cada uno mantenga una responsabilidad clara dentro de la arquitectura de la plataforma.
 
 <div align="center">
   <strong>Gráfico 20:Design-Level EventStorming </strong><br><br>
-  <img src="report/assets/images/Design-Level-Storming.png" width="700"><br>
+  <img src="report/assets/images/tm-dl-eventstorming-7.png" width="700"><br>
   <em>Fuente: Elaboración propia.</em>
 </div>
 
