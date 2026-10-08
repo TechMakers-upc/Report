@@ -110,9 +110,12 @@ Seguidamente se presenta la pestaña Contributors, donde se muestran los número
 
 <div style="page-break-after: always;"></div>
 
-# Contenido 
 
-## Tabla de contenidos 
+
+# Contenido
+
+## Tabla de contenidos
+
 - [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
 - [Project Report Collaboration Insights](#project-report-collaboration-insights)
 - [Contenido](#contenido)
@@ -143,6 +146,7 @@ Seguidamente se presenta la pestaña Contributors, donde se muestran los número
     - [2.3.2. User Task Matrix.](#232-user-task-matrix)
     - [2.3.3. User Journey Mapping.](#233-user-journey-mapping)
     - [2.3.4. Empathy Mapping.](#234-empathy-mapping)
+    - [2.3.5. As-Is Scenario Mapping.](#235-as-is-scenario-mapping)
   - [2.4. Big Picture EventStorming.](#24-big-picture-eventstorming)
   - [2.5. Ubiquitous Language.](#25-ubiquitous-language)
 - [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
@@ -212,9 +216,20 @@ Seguidamente se presenta la pestaña Contributors, donde se muestran los número
       - [5.2.1.6. Services Documentation Evidence for Sprint Review.](#5216-services-documentation-evidence-for-sprint-review)
       - [5.2.1.7. Software Deployment Evidence for Sprint Review.](#5217-software-deployment-evidence-for-sprint-review)
       - [5.2.1.8. Team Collaboration Insights during Sprint.](#5218-team-collaboration-insights-during-sprint)
+    - [5.2.2. Sprint 2.](#522-sprint-2)
+      - [5.2.2.1. Sprint Planning 2.](#5221-sprint-planning-2)
+      - [5.2.2.2. Aspect Leaders and Collaborators.](#5222-aspect-leaders-and-collaborators)
+      - [5.2.2.3. Sprint Backlog 2.](#5223-sprint-backlog-2)
+      - [5.2.2.4. Development Evidence for Sprint Review.](#5224-development-evidence-for-sprint-review)
+      - [5.2.2.5. Execution Evidence for Sprint Review.](#5225-execution-evidence-for-sprint-review)
+      - [5.2.2.6. Services Documentation Evidence for Sprint Review.](#5226-services-documentation-evidence-for-sprint-review)
+      - [5.2.2.7. Software Deployment Evidence for Sprint Review.](#5227-software-deployment-evidence-for-sprint-review)
+      - [5.2.2.8. Team Collaboration Insights during Sprint.](#5228-team-collaboration-insights-during-sprint)
 - [Conclusiones](#conclusiones)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
+
+
 
 <div style="page-break-after: always;"></div>
 
@@ -4017,6 +4032,195 @@ El trabajo realizado permitió completar la estructura principal de la Landing P
 
 <div style="page-break-after: always;"></div>
 
+
+
+
+### 5.2.2. Sprint 2.
+
+Durante el Sprint 2, el equipo TechMakers se enfocará en desarrollar las interfaces principales de la Web Application de FixCore, tomando como referencia las User Stories definidas en el Product Backlog.
+
+A diferencia del Sprint 1, que estuvo dedicado a la Landing Page, esta iteración estará orientada al frontend de la plataforma de mantenimiento industrial. Se propone trabajar las interfaces relacionadas con la gestión de plantas y máquinas, mantenimiento preventivo, fallas, órdenes de trabajo, inventario de repuestos, dashboard y acceso desde la Landing Page.
+
+Se han identificado 27 User Stories relacionadas con estas funcionalidades, que suman 88 Story Points según las estimaciones originales del Product Backlog. Estas historias representan la cobertura funcional que el equipo desea abordar a nivel de frontend y no implican que todas puedan considerarse completadas durante esta iteración.
+
+Para las demostraciones se utilizarán datos simulados y validaciones del lado del cliente. El backend, los servicios RESTful, la base de datos y las funcionalidades de Identity and Access Management (IAM) quedan fuera del alcance del Sprint 2.
+
+#### 5.2.2.1. Sprint Planning 2.
+
+La planificación del Sprint 2 considera los resultados obtenidos durante el Sprint 1 y las funcionalidades principales de FixCore. Para esta iteración se plantea distribuir el desarrollo del frontend por módulos, de modo que los cinco integrantes puedan trabajar en diferentes interfaces y posteriormente integrar sus avances en una misma aplicación web.
+
+| Campo | Información |
+|---|---|
+| Sprint # | Sprint 2 |
+| **Sprint Planning Background** | |
+| Date | 2026-10-08 |
+| Time | 2:00 AM - 2:45 AM |
+| Location | Meeting |
+| Prepared By | Alvar Lucas Córdova |
+| Attendees | Alvar Lucas Córdova, Sunio Danilo Landa Sánchez, Giuseppe Adrián Villanueva Rodríguez, Diego Rances Rojas Huaranga y Pierre Alessandro Mendoza Boluarte (participación prevista) |
+| Sprint 1 Review Summary | Durante el Sprint 1 se implementó la estructura principal de la Landing Page de FixCore, incluyendo sus secciones informativas, navegación, beneficios, planes y preguntas frecuentes. Posteriormente se realizaron correcciones relacionadas con las traducciones, enlaces y páginas informativas. |
+| Sprint 1 Retrospective Summary | Se identificó la importancia de mantener convenciones comunes de desarrollo, mejorar la coordinación entre integrantes y realizar revisiones antes de integrar los cambios. Para el Sprint 2 se propone organizar las responsabilidades por módulos y realizar pruebas de integración durante el desarrollo. |
+| **Sprint Goal & User Stories** | |
+| Sprint 2 Goal | **Our focus is on** developing the main frontend interfaces of the FixCore Web Application, covering asset management, preventive maintenance, failure reporting, work orders, spare parts inventory, operational dashboards, and navigation from the Landing Page. **We believe it delivers** an integrated and navigable frontend prototype that allows users to explore the main modules and interact with representative maintenance workflows using simulated data. **This will be confirmed when** the planned interfaces are integrated, their navigation and validations are tested, and the frontend is accessible through a deployed application. |
+| Sprint 1 Velocity Reference | 6 Story Points completados |
+| Sprint 2 Velocity | Por determinar al finalizar el sprint |
+| User Stories Considered for Frontend Coverage | 27 |
+| Associated Product Backlog Story Points | 88 Story Points |
+| Sum of Story Points | Por definir según las User Stories comprometidas para el Sprint 2 |
+
+**User Stories consideradas para la cobertura del frontend**
+
+| Módulo | User Stories | Cantidad | Story Points |
+|---|---|---:|---:|
+| Gestión de plantas y máquinas | US01, US02, US03, US04, US05, US08, US09 | 7 | 24 |
+| Mantenimiento preventivo | US10, US14, US16, US17 | 4 | 16 |
+| Gestión de fallas | US19, US20, US21, US22 | 4 | 10 |
+| Órdenes de trabajo | US23, US25, US27, US28, US29, US30 | 6 | 21 |
+| Inventario de repuestos | US31, US33, US35 | 3 | 7 |
+| Dashboard y seguimiento | US41, US45 | 2 | 8 |
+| Acceso desde Landing Page | US64 | 1 | 2 |
+| **Total** | | **27** | **88** |
+
+Las User Stories seleccionadas se encuentran relacionadas con las principales interfaces que se busca desarrollar durante el Sprint 2. Estas se han organizado por módulos para facilitar la distribución de responsabilidades y permitir que los integrantes avancen en diferentes partes de la aplicación.
+
+Las 27 historias consideradas suman 88 Story Points según las estimaciones originales del Product Backlog. Sin embargo, estos puntos corresponden al desarrollo completo de las funcionalidades, mientras que el alcance previsto para este sprint se concentra en la implementación del frontend con datos simulados y validaciones del lado del cliente.
+
+Por este motivo, las interfaces desarrolladas no implicarán necesariamente que todas las User Stories se encuentren completadas. El equipo deberá revisar sus criterios de aceptación y determinar cuáles podrán finalizarse dentro del tiempo disponible, considerando también las dependencias con los servicios de backend que se implementarán en iteraciones posteriores.
+
+
+
+#### 5.2.2.2. Aspect Leaders and Collaborators.
+
+Para organizar el desarrollo del Sprint 2, se propone una Leadership and Collaboration Matrix en la que cada integrante asumirá el liderazgo de un módulo principal y colaborará en la integración de las demás interfaces.
+
+En la siguiente matriz, **L** representa al líder del área de trabajo y **C** a los colaboradores.
+
+| Team Member (Last Name, First Name) | GitHub Username | Plants & Machines | Preventive Maintenance | Failures & Dashboard | Work Orders & Access | Inventory & Testing |
+|---|---|:---:|:---:|:---:|:---:|:---:|:---:|
+| Córdova, Alvar Lucas | AlvarLC | L | C | C | C | C |
+| Landa Sánchez, Sunio Danilo | DanLandio | C | L | C | C | C |
+| Villanueva Rodríguez, Giuseppe Adrián | Giuseppe152004 | C | C | L | C | C |
+| Rojas Huaranga, Diego Rances | diego27-16 | C | C | C | L | C |
+| Mendoza Boluarte, Pierre Alessandro | pierreale2302 | C | C | C | C | L |
+
+La distribución propuesta establece las siguientes responsabilidades:
+
+- **Alvar Lucas Córdova:** configuración inicial del frontend y desarrollo de las interfaces para registrar, editar y consultar información de plantas y máquinas.
+- **Sunio Danilo Landa Sánchez:** desarrollo de las interfaces de mantenimiento preventivo, incluyendo programación, calendario y consultas de actividades pendientes o vencidas.
+- **Giuseppe Adrián Villanueva Rodríguez:** implementación de las interfaces para reportar y consultar fallas, así como del dashboard con indicadores demostrativos.
+- **Diego Rances Rojas Huaranga:** desarrollo del módulo de órdenes de trabajo y conexión entre la Landing Page y la Web Application.
+- **Pierre Alessandro Mendoza Boluarte:** desarrollo de las interfaces de inventario de repuestos y apoyo en las pruebas de integración y adaptación responsive.
+
+Estas responsabilidades son una propuesta inicial y podrán modificarse de acuerdo con las decisiones y la disponibilidad de los integrantes.
+
+#### 5.2.2.3. Sprint Backlog 2.
+
+El Sprint Backlog 2 organiza las actividades propuestas para implementar las interfaces principales de FixCore. Las tareas se relacionan con las User Stories consideradas para la cobertura del frontend y mantienen la numeración consecutiva del Sprint Backlog 1.
+
+La implementación se realizará utilizando componentes reutilizables, validaciones del lado del cliente y datos simulados. Se utilizará el tablero de Trello del Sprint 2 para gestionar las actividades y registrar sus estados.
+
+**Tablero de Sprint Backlog 2:**
+
+https://trello.com/b/8djFNRhg/sprint-backlog-2-techmakers
+
+**Sprint Backlog 2 — Tareas propuestas**
+
+| Story ID | Task ID | Task Title | Task Description | Estimation (hours) | Assigned To | Status |
+|---|---|---|---|---:|---|---|
+| Transversal | T011 | Setup Frontend Structure | Configurar la estructura inicial de la aplicación, las carpetas, los componentes base y las rutas principales. | 3 | Córdova, Alvar Lucas | To Do |
+| US01, US02 | T012 | Develop Plant Management Forms | Implementar los formularios demostrativos para registrar y editar información de plantas. | 4 | Córdova, Alvar Lucas | To Do |
+| US03, US04 | T013 | Develop Machine Management Forms | Implementar los formularios para registrar y actualizar la información de las máquinas. | 5 | Córdova, Alvar Lucas | To Do |
+| US05, US08 | T014 | Develop Machine Detail View | Implementar la vista de información técnica y estado de una máquina. | 4 | Córdova, Alvar Lucas | To Do |
+| US09 | T015 | Develop Machine History View | Implementar una vista del historial de fallas y mantenimientos con datos simulados. | 3 | Córdova, Alvar Lucas | To Do |
+| US10 | T016 | Develop Maintenance Scheduling Form | Implementar el formulario para programar mantenimientos preventivos. | 4 | Landa Sánchez, Sunio Danilo | To Do |
+| US14 | T017 | Develop Maintenance Calendar | Implementar el calendario para consultar los mantenimientos programados. | 4 | Landa Sánchez, Sunio Danilo | To Do |
+| US16 | T018 | Develop Upcoming Maintenance View | Implementar una lista de mantenimientos próximos con fechas y estados. | 3 | Landa Sánchez, Sunio Danilo | To Do |
+| US17 | T019 | Identify Overdue Maintenance | Incorporar indicadores visuales para identificar mantenimientos vencidos. | 3 | Landa Sánchez, Sunio Danilo | To Do |
+| Transversal | T020 | Integrate Maintenance Navigation | Integrar las pantallas del módulo de mantenimiento preventivo y comprobar su navegación. | 3 | Landa Sánchez, Sunio Danilo | To Do |
+| US19 | T021 | Develop Failure Reporting Form | Implementar el formulario para reportar fallas de máquinas. | 4 | Villanueva Rodríguez, Giuseppe Adrián | To Do |
+| US20, US22 | T022 | Develop Failure Priority and Details | Implementar la visualización del detalle de una falla y el control de prioridad. | 4 | Villanueva Rodríguez, Giuseppe Adrián | To Do |
+| US21 | T023 | Develop Pending Failures View | Implementar una lista de fallas pendientes con filtros y estados. | 3 | Villanueva Rodríguez, Giuseppe Adrián | To Do |
+| US41 | T024 | Develop Operations Dashboard | Implementar el dashboard con información demostrativa sobre las operaciones de mantenimiento. | 4 | Villanueva Rodríguez, Giuseppe Adrián | To Do |
+| US45 | T025 | Develop Work Order Status Indicators | Incorporar indicadores visuales de órdenes pendientes, en progreso y completadas. | 3 | Villanueva Rodríguez, Giuseppe Adrián | To Do |
+| US23 | T026 | Develop Corrective Work Order Form | Implementar la interfaz para generar una orden correctiva desde una falla. | 5 | Rojas Huaranga, Diego Rances | To Do |
+| US25 | T027 | Develop Technician Assignment Interface | Implementar el selector demostrativo para asignar técnicos a órdenes de trabajo. | 3 | Rojas Huaranga, Diego Rances | To Do |
+| US27 | T028 | Develop Assigned Work Orders View | Implementar la consulta de órdenes de trabajo asignadas. | 3 | Rojas Huaranga, Diego Rances | To Do |
+| US28, US29 | T029 | Develop Work Order Execution Interface | Implementar las acciones para iniciar una orden y registrar el trabajo realizado. | 5 | Rojas Huaranga, Diego Rances | To Do |
+| US30 | T030 | Develop Work Order Closing Interface | Implementar el formulario y las acciones demostrativas para cerrar una orden de trabajo. | 4 | Rojas Huaranga, Diego Rances | To Do |
+| US64 | T031 | Connect Landing Page to Web Application | Incorporar un enlace funcional desde la Landing Page hacia el frontend de FixCore. | 3 | Rojas Huaranga, Diego Rances | To Do |
+| US31 | T032 | Develop Spare Parts Registration Form | Implementar el formulario para registrar repuestos. | 4 | Mendoza Boluarte, Pierre Alessandro | To Do |
+| US33 | T033 | Develop Spare Parts Stock View | Implementar una lista para consultar las existencias de repuestos. | 3 | Mendoza Boluarte, Pierre Alessandro | To Do |
+| US35 | T034 | Develop Minimum Stock Configuration | Implementar los controles para establecer y visualizar el stock mínimo de un repuesto. | 3 | Mendoza Boluarte, Pierre Alessandro | To Do |
+| Transversal | T035 | Develop Inventory Reusable Components | Preparar componentes y validaciones compartidas para el módulo de inventario. | 3 | Mendoza Boluarte, Pierre Alessandro | To Do |
+| Transversal | T036 | Test Frontend Integration and Responsiveness | Comprobar navegación, formularios, visualización responsive e integración de las interfaces. | 5 | Mendoza Boluarte, Pierre Alessandro | To Do |
+
+**Resumen de actividades por integrante**
+
+| Team Member | Tasks Assigned | Total Estimated Hours |
+|---|---|---:|
+| Córdova, Alvar Lucas | T011 - T015 | 19 |
+| Landa Sánchez, Sunio Danilo | T016 - T020 | 17 |
+| Villanueva Rodríguez, Giuseppe Adrián | T021 - T025 | 18 |
+| Rojas Huaranga, Diego Rances | T026 - T031 | 23 |
+| Mendoza Boluarte, Pierre Alessandro | T032 - T036 | 18 |
+| **Total** | **26 tareas** | **95 horas** |
+
+Las 95 horas representan estimaciones preliminares de esfuerzo y no horas trabajadas. Debido a la amplitud de la cobertura propuesta, el equipo deberá revisar si todas las actividades pueden abordarse dentro del tiempo disponible y reducir o trasladar tareas cuando corresponda.
+
+Para el seguimiento se utilizarán los estados **To Do**, **In Progress** y **Done**. El estado de cada tarea deberá actualizarse según el avance real registrado en Trello y GitHub.
+
+**Criterios para la revisión del frontend**
+
+La revisión del Sprint 2 considerará los siguientes aspectos:
+
+- Que las interfaces implementadas puedan abrirse y navegarse desde la aplicación.
+- Que los formularios dispongan de campos adecuados y validaciones básicas.
+- Que las tablas y vistas permitan presentar información de demostración.
+- Que las acciones simuladas muestren resultados consistentes dentro de la interfaz.
+- Que los componentes mantengan una presentación visual uniforme.
+- Que las pantallas se adapten a diferentes tamaños de dispositivos.
+- Que las funcionalidades desarrolladas cuenten con evidencia de pruebas y commits.
+
+El cumplimiento de estos criterios permitirá evaluar el avance del frontend. Las User Stories completas se considerarán terminadas únicamente cuando se satisfagan sus criterios de aceptación establecidos en el Product Backlog.
+
+#### 5.2.2.4. Development Evidence for Sprint Review.
+
+Pendiente de completar con los commits reales del Sprint 2.
+
+En esta sección se documentarán los cambios registrados en GitHub durante el desarrollo, identificando las ramas utilizadas, los responsables, los mensajes de commit y las fechas correspondientes.
+
+#### 5.2.2.5. Execution Evidence for Sprint Review.
+
+Pendiente de completar conforme se implementen las interfaces.
+
+Se incorporarán capturas de las funcionalidades desarrolladas para los módulos de plantas y máquinas, mantenimiento preventivo, fallas, órdenes de trabajo, inventario y dashboard.
+
+Las capturas deberán mostrar el funcionamiento real de los componentes y no únicamente diseños estáticos que todavía no hayan sido implementados.
+
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review.
+
+Durante el Sprint 2, el alcance de desarrollo se limitará al frontend de FixCore. Por este motivo, no se contempla implementar endpoints RESTful, servicios de backend ni conexiones con una base de datos.
+
+Para demostrar las principales interacciones se utilizarán datos simulados y estados locales de la aplicación. La documentación de servicios reales se incorporará en las iteraciones que incluyan su desarrollo.
+
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review.
+
+Pendiente de completar después del despliegue del frontend.
+
+Esta sección incluirá el repositorio utilizado, la dirección de acceso a la Web Application y las capturas que demuestren la ejecución de las interfaces en el entorno publicado.
+
+#### 5.2.2.8. Team Collaboration Insights during Sprint.
+
+Pendiente de completar al finalizar el Sprint 2.
+
+Se documentarán las actividades de coordinación realizadas por los cinco integrantes, las contribuciones registradas, las dificultades surgidas durante el desarrollo y las decisiones tomadas para integrar los módulos.
+
+También se incorporarán las métricas de colaboración de GitHub y las evidencias relacionadas con el seguimiento del Sprint Backlog en Trello.
+
+
+
+<div style="page-break-after: always;"></div>
+
 # Conclusiones 
 
 El desarrollo del primer avance de **FixCore** permitió definir con mayor claridad la problemática, los usuarios objetivo, los principales requisitos y la propuesta de diseño de la solución. A partir del trabajo realizado, se establecen las siguientes conclusiones:
@@ -4117,10 +4321,11 @@ W3Schools. (s. f.). *HTML style guide and coding conventions*. https://www.w3sch
 - Sprint Backlog 1:
   https://trello.com/b/8ilypk4J/sprint-backlog-1-techmakers
 
+- Sprint Backlog 2:
+  https://trello.com/b/8djFNRhg/sprint-backlog-2-techmakers
+
 - Artefactos de Needfinding en UXPressia:
   https://uxpressia.com/w/v8FzI/t/zbzV3
-
-<div style="page-break-after: always;"></div>
 
 ## Anexo D. Entrevistas
 
