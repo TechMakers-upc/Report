@@ -62,7 +62,7 @@ Proyecto
 </tr>
 
 <tr class="c7">
-<td class="c5" style="border: 1px solid black;">TB1</td>
+<td class="c5" style="border: 1px solid black;">V.1.0</td>
 <td class="c5" style="border: 1px solid black;">29/08/2026</td>
 <td class="c5" style="border: 1px solid black;">
 Alvar Lucas Córdova  <br><br>
@@ -71,6 +71,8 @@ Giuseppe Adrián Villanueva Rodríguez <br><br>
 Pierre Alessandro Mendoza Boluarte<br><br>
 Diego Rances Rojas Huaranga 
 </td>
+
+
 <td class="c5" style="border: 1px solid black;">Se han incluído los siguientes capítulos:
 
 - Capítulo I: Introducción
@@ -79,6 +81,36 @@ Diego Rances Rojas Huaranga
 - Capítulo IV: Product Design
 - Avance del Capítulo V: Product Implementation, - Validation & Deployment hasta el punto 5.2.1.8
 - Avance de Conclusiones, Bibliografía y Anexos</td>
+</tr>
+
+<tr class="c7">
+<td class="c5" style="border: 1px solid black;">V.2.0</td>
+<td class="c5" style="border: 1px solid black;">27/09/2026</td>
+<td class="c5" style="border: 1px solid black;">
+Alvar Lucas Córdova  <br><br>
+Sunio Danilo Landa Sánchez<br><br>
+Giuseppe Adrián Villanueva Rodríguez <br><br>
+Pierre Alessandro Mendoza Boluarte<br><br>
+Diego Rances Rojas Huaranga 
+</td>
+
+<td class="c5" style="border: 1px solid black;">
+
+- Correcion de capitulos anteriores I, II, IV.
+- Capítulo V: Product Implementation, Validation & Deployment.
+- 5.2.2. Sprint 2
+- 5.2.2.1. Sprint Planning 2.
+- 5.2.2.2. Aspect Leaders and Collaborators.
+- 5.2.2.3. Sprint Backlog 2.
+- 5.2.2.4. Development Evidence for Sprint Review.
+- 5.2.2.5. Execution Evidence for Sprint Review.
+- 5.2.2.6. Services Documentation Evidence for Sprint Review.
+- 5.2.2.7. Software Deployment Evidence for Sprint Review.
+- 5.2.2.8. Team Collaboration Insights during Sprint.
+- Conclusiones
+- Anexos
+- Actualizacion de Student Outcome
+- Project Report Collaboration Insights</td>
 </tr>
 
 </table>
