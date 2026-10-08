@@ -367,7 +367,7 @@ A continuación, se presentan los integrantes de TechMakers y las principales ca
     <td colspan="2">
       <b>Código:</b> u202320973 <br>
       <b>Carrera:</b> Ingeniería de Software <br>
-      <b>Conocimientos técnicos y habilidades:</b> Cuenta con conocimientos en HTML, CSS, JavaScript y TypeScript, además de conocimientos básicos de Angular y Node.js. También utiliza GitHub para el trabajo colaborativo y tiene nociones de diseño de interfaces y prototipado. Se caracteriza por su creatividad, comunicación y capacidad para trabajar de manera colaborativa.
+      <b>Conocimientos técnicos y habilidades:</b> Considero que tengo conocimientos en HTML, CSS,C++ y un poco de JavaScript . Ademas uso GitHub para el trabajo colaborativo y tengo nociones de diseño de interfaces y prototipado. Creo que soy creativo y apoyare en lo que pueda para tener una comunicación y capacidad para trabajar de manera colaborativa.
     </td>
   </tr>
 </table>
@@ -4095,8 +4095,8 @@ Para organizar el desarrollo del Sprint 2, se propone una Leadership and Collabo
 
 En la siguiente matriz, **L** representa al líder del área de trabajo y **C** a los colaboradores.
 
-| Team Member (Last Name, First Name) | GitHub Username | Plants & Machines | Preventive Maintenance | Failures & Dashboard | Work Orders & Access | Inventory & Testing |
-|---|---|:---:|:---:|:---:|:---:|:---:|:---:|
+| Team Member  | GitHub Username | Plants & Machines | Preventive Maintenance | Failures & Dashboard | Work Orders & Access | Inventory & Testing |
+|---|---|:---:|:---:|:---:|:---:|:---:|
 | Córdova, Alvar Lucas | AlvarLC | L | C | C | C | C |
 | Landa Sánchez, Sunio Danilo | DanLandio | C | L | C | C | C |
 | Villanueva Rodríguez, Giuseppe Adrián | Giuseppe152004 | C | C | L | C | C |
