@@ -3411,9 +3411,56 @@ Los perfiles clave contemplados son el Jefe de Planta, quien administra los recu
 
 ### 4.4.1. Web Applications Wireframes. 
 
-Esta sección presenta los wireframes de baja fidelidad de FixCore, diseñados en Figma. La plataforma se estructuró bajo un enfoque mobile-first y responsivo, adaptándose a los tres roles principales del sistema (Jefe de Planta, Técnico y Gerente de Operaciones).
+Esta sección presenta los wireframes de baja fidelidad de FixCore, diseñados en Figma. La plataforma se estructuró bajo un enfoque responsivo, adaptándose a los tres roles principales del sistema (Jefe de Planta, Técnico y Gerente de Operaciones).
 
-<img src="./Assets/Images/Captura de pantalla 2026-09-15 035232.png" alt="wireframes">
+**Wireframes Mobile**
+
+<div align="center">
+  <img src="./Assets/Images/wireframe-movil.png" width="700" alt="Wireframes Mobile"><br>
+</div>
+
+**Wireframes Desktop**
+
+<div align="center">
+  <img src="report/assets/images/tm-wireframe-1.jpg" width="700" alt="Wireframe Desktop 1"><br>
+</div>
+
+<div align="center">
+  <img src="report/assets/images/tm-wireframe-2.jpg" width="700" alt="Wireframe Desktop 2"><br>
+</div>
+
+<div align="center">
+  <img src="report/assets/images/tm-wireframe-3.jpg" width="700" alt="Wireframe Desktop 3"><br>
+</div>
+
+<div align="center">
+  <img src="report/assets/images/tm-wireframe-4.jpg" width="700" alt="Wireframe Desktop 4"><br>
+</div>
+
+<div align="center">
+  <img src="report/assets/images/tm-wireframe-5.jpg" width="700" alt="Wireframe Desktop 5"><br>
+</div>
+
+<div align="center">
+  <img src="report/assets/images/tm-wireframe-6.jpg" width="700" alt="Wireframe Desktop 6"><br>
+</div>
+
+<div align="center">
+  <img src="report/assets/images/tm-wireframe-7.jpg" width="700" alt="Wireframe Desktop 7"><br>
+</div>
+
+<div align="center">
+  <img src="report/assets/images/tm-wireframe-8.jpg" width="700" alt="Wireframe Desktop 8"><br>
+</div>
+
+<div align="center">
+  <img src="report/assets/images/tm-wireframe-9.jpg" width="700" alt="Wireframe Desktop 9"><br>
+</div>
+
+<div align="center">
+  <img src="report/assets/images/tm-wireframe-10.jpg" width="700" alt="Wireframe Desktop 10"><br>
+</div>
+
 
 Explicación de la propuesta:
 
@@ -3434,7 +3481,9 @@ Para construir estos diagramas, previamente analizamos las rutas típicas de int
 Usuario: Jefe de planta
 Obetivo de usuario: Como Jefe de Planta, deseo registrarme con una cuenta y a la vez las máquina en el sistema indicando sus datos técnicos y ubicación para llevar un control centralizado de los activos que requieren mantenimiento preventivo y correctivo.
 
-<img src="./Assets/Images/Captura de pantalla 2026-09-15 043453.png" alt="wireframes"> 
+<div align="center">
+  <img src="report/assets//images/tm-wireflow-1.png" width="700" alt="Wireflow 1"><br>
+</div>
 
 Explicación del flujo: Nuestro flujo arranca en la pantalla principal de acceso, donde ingresamos el usuario y la contraseña. Al presionar el botón de inicio de sesión, el sistema valida las credenciales y nos lleva  hacia el panel de bienvenida adaptado específicamente al perfil del usuario (ya sea el tablero del Jefe de Planta, la vista operativa del Técnico o el resumen ejecutivo del Gerente de Operaciones). Una vez en el panel principal del Jefe de Planta, desde donde accedemos al módulo de maquinaria para agregar un nuevo equipo, lo que nos dirige hacia el formulario de registro en su estado inicial. Ingresamos los datos obligatorios, como nombre, planta, categoría y nivel de criticidad. Al confirmar la acción, el sistema valida los datos y nos redirige al listado general de activos actualizado. Con esto logramos automatizar el registro y dejamos atrás los controles en papel o Excel.
 
@@ -3443,24 +3492,85 @@ Explicación del flujo: Nuestro flujo arranca en la pantalla principal de acceso
 Usuario: Técnico
 Obetivo de usuario: Como Técnico de campo, deseo observar los fallos de las maquinas y dirigirme a la planta asignada, reportarme para que la incidencia quede registrada formalmente y pueda ser atendida sin retrasos.
 
-<img src="./Assets/Images/Captura de pantalla 2026-09-15 050753.png" alt="wireframes"> 
+<div align="center">
+  <img src="report/assets/images/tm-wireflow-2.png" width="700" alt="Wireflow 1"><br>
+</div>
 
-Explicación del flujo: Este recorrido parte de la interfaz móvil del Técnico, donde seleccionamos la opción abrir dependiendo la maquina a trabajar y así visualizar el formulario correspondiente. Elegimos la máquina afectada y verificamos la prioridad. Al presionar el botón "ACEPTAR", la interfaz muestra un estado de confirmación y refresca de inmediato el panel de tareas asignadas con la nueva alerta visible. Diseñamos este flujo para garantizar una baja fricción y agilizar la comunicación directa desde el área de operaciones.
+Explicación del flujo: En este recorrido, luego de haber iniciado sesión y estar en una planta industrial, se accede a la sección de maquinas donde se verá un listado de todas las maquinas pertenecientes a la planta actual. El técnico luego puede buscar la información de una maquina en especifico por su nombre. En caso se introduzca un nombre que no pertenezca a alguna maquina, no se mostrarán resultados.
 
-#### 4.4.2.3. Wireflow 03 — Gerente de Operaciones revisa el resumen de operaciones
+#### 4.4.2.3. Wireflow 03 — Gerente de Operaciones crea una orden de trabajo
 
 Usuario: Gerente de Operaciones
-Obetivo de usuario: Como Gerente de Operaciones, deseo consultar un resumen general de las actividades y el estado de las plantas para evaluar el rendimiento general y tomar decisiones informadas.
+Obetivo de usuario: Como Gerente de Operaciones, deseo ser capaz de generar ordenes de trabajo dentro de la plataforma FixCore para así facilitar la asignación de tareas a los tecnicos de una planta industrial.
 
-<img src="./Assets/Images/Captura de pantalla 2026-09-15 051008.png" alt="wireframes"> 
+<div align="center">
+  <img src="report/assets/images/tm-wireflow-3.png" width="700" alt="Wireflow 1"><br>
+</div>
 
-Explicación del flujo: El flujo comienza en el panel ejecutivo del Gerente de Operaciones, donde visualizamos las métricas globales del estado de las plantas. Al seleccionar un indicador o una planta en particular, el wireframe transiciona hacia una vista detallada que muestra el historial de intervenciones, las órdenes de trabajo y los tiempos muertos acumulados. De esta manera, facilitamos una auditoría rápida y transparente del desempeño operativo.
+Explicación del flujo: El flujo comienza en el panel de inicio, donde luego se ingresa a la sección de ordenes de trabajo. Dentro de alli se presiona el botón de crear una nueva orden de trabajo para abrir un formulario donde se deberá colocar información como la maquina que se va a atender, el tipo de trabajo que se va a realizar o el técnico encargado. En caso algunos datos no sean colocados, tales como la maquina o el titulo de la orden de trabajo, no se continuará con la creación. Una vez los datos estén validados, e usuario regresará al listado de ordenes de trabajo.
+
+#### 4.4.2.4. Wireflow 04 — Integrante de una planta reporta una falla
+
+Usuario: Integrante en general de una planta industrial
+Obetivo de usuario: Como miembro de una planta industrial, deseo ser capaz de reportar fallos presentes en las maquinas de la planta industrial a la que pertenezco para así facilitar su identificación y atención oportuna por parte de los otros técnicos dentro de la planta.
+
+<div align="center">
+  <img src="report/assets/images/tm-wireflow-4.png" width="700" alt="Wireflow 1"><br>
+</div>
+
+Explicación del flujo: El flujo comienza en el panel de inicio, donde luego se ingresa a la sección de fallas. Una vez alli, se presiona el botón de reportar una falla. Durante el reporte primero se pedirá elegir la maquina que está fallando, intentar buscar el nombre de una maquina que no existe dentro de la planta no dará resultados. Siguiente, se pedirán datos sobre la falla, tales como su tipo, si ha detenido la linea de producción, así como otros detalles opcionales. Una vez completado el proceso se mostrará una tarjeta de confirmación antes del envío del reporte.
 
 ### 4.4.3. Web Applications Mock-ups. 
 
 En esta sección presentamos los Mock-ups de alta fidelidad, los cuales materializan visualmente los wireframes que definimos previamente para FixCore. Para su desarrollo en Figma, aplicamos de manera rigurosa los lineamientos de nuestro Design System, integrando la paleta de colores corporativa, la jerarquía tipográfica, el sistema de espaciados y los componentes de interfaz estandarizados, garantizando así total coherencia gráfica de nuestro proyecto.
 
-<img src="./Assets/Images/maqueta0.png" alt="maqueta0">
+**Mockups Mobile**
+
+<div align="center">
+  <img src="./Assets/Images/maqueta0.png" width="700" alt="mockups Mobile"><br>
+</div>
+
+**Mockups Desktop**
+
+<div align="center">
+  <img src="report/assets/images/tm-mockup-1.jpg" width="700" alt="Wireframe Mockup 1"><br>
+</div>
+
+<div align="center">
+  <img src="report/assets/images/tm-mockup-2.jpg" width="700" alt="Wireframe Mockup 2"><br>
+</div>
+
+<div align="center">
+  <img src="report/assets/images/tm-mockup-3.jpg" width="700" alt="Wireframe Mockup 3"><br>
+</div>
+
+<div align="center">
+  <img src="report/assets/images/tm-mockup-4.jpg" width="700" alt="Wireframe Mockup 4"><br>
+</div>
+
+<div align="center">
+  <img src="report/assets/images/tm-mockup-5.jpg" width="700" alt="Wireframe Mockup 5"><br>
+</div>
+
+<div align="center">
+  <img src="report/assets/images/tm-mockup-6.jpg" width="700" alt="Wireframe Mockup 6"><br>
+</div>
+
+<div align="center">
+  <img src="report/assets/images/tm-mockup-7.jpg" width="700" alt="Wireframe Mockup 7"><br>
+</div>
+
+<div align="center">
+  <img src="report/assets/images/tm-mockup-8.jpg" width="700" alt="Wireframe Mockup 8"><br>
+</div>
+
+<div align="center">
+  <img src="report/assets/images/tm-mockup-9.jpg" width="700" alt="Wireframe Mockup 9"><br>
+</div>
+
+<div align="center">
+  <img src="report/assets/images/tm-mockup-10.jpg" width="700" alt="Wireframe Mockup 10"><br>
+</div>
 
 Explicación de la propuesta:
 Los mock-ups reflejan fielmente el diseño visual definitivo de la plataforma. Implementamos una interfaz limpia y estructurada mediante tarjetas (cards), barras de navegación intuitivas y contenedores claramente delimitados que reducen la fatiga visual y facilitan la lectura rápida de los datos. La selección cromática prioriza contrastes óptimos para asegurar una legibilidad excelente tanto en monitores de oficina como en las pantallas móviles utilizadas por los técnicos en la fábrica.
@@ -3473,37 +3583,60 @@ Los diagramas de flujo de usuario que documentamos en esta sección representan 
 
 Estos flujos de usuario mantienen una total consistencia con los wireflows que definimos en esta sección, lo que garantiza una trazabilidad de extremo a extremo en todo nuestro proceso de diseño de software. Cada uno de los diagramas detalla con precisión los puntos de decisión, las condiciones lógicas de validación y las transiciones de pantallas, todo ello complementado con anotaciones que explican con claridad el comportamiento exacto del sistema ante cada bifurcación. Diseñamos estas rutas alternativas considerando rigurosamente los escenarios reales de mantenimiento industrial que identificamos durante las entrevistas con los representantes de nuestros segmentos objetivo (Jefes de Planta, Técnicos y Gerentes de Operaciones).
 
-#### 4.4.4.1. Flujo de usuario 01 — Jefe de planta registra su cuenta y máquinas
 
-Persona de usuario: Jairo (Jefe de Planta)
+#### 4.4.4.1. Userflow 01 — Jefe de Planta registra su cuenta y maquinas. 
 
-Objetivo del usuario: Como Jefe de Planta, deseo registrarme con una cuenta y a la vez las máquinas en el sistema indicando sus datos técnicos y ubicación para llevar un control centralizado de los activos que requieren mantenimiento preventivo y correctivo.
+Usuario: Jefe de planta
+Obetivo de usuario: Como Jefe de Planta, deseo registrarme con una cuenta y a la vez las máquina en el sistema indicando sus datos técnicos y ubicación para llevar un control centralizado de los activos que requieren mantenimiento preventivo y correctivo.
 
-<img src="./Assets/Images/jefe-planta.png" alt="jefe-de-planta">
+<div align="center">
+  <img src="report/assets//images/tm-userflow-1.png" width="700" alt="WUserflow 1"><br>
+</div>
 
-Explicación del flujo: El recorrido inicia en la pantalla principal de acceso (Login), donde el usuario ingresa sus credenciales (usuario y contraseña). Al presionar el botón de inicio de sesión, el sistema valida la información y lo identifica, permitiéndole seleccionar su rol correspondiente (Jefe de Planta, Técnico o Gerente de Operaciones). Una vez dentro del panel principal del Jefe de Planta, este accede a la sección para registrar una nueva planta o empresa ingresando los datos solicitados (nombre de la planta, dirección exacta, ciudad/ubicación y cantidad de máquinas iniciales). Al confirmar el registro, el sistema procesa la información y redirige al usuario hacia su panel de control principal, donde podrá supervisar el estado general de la planta, gestionar órdenes de trabajo y administrar la maquinaria.
+Explicación del flujo: Nuestro flujo arranca en la pantalla principal de acceso, donde ingresamos el usuario y la contraseña. Al presionar el botón de inicio de sesión, el sistema valida las credenciales y nos lleva  hacia el panel de bienvenida adaptado específicamente al perfil del usuario (ya sea el tablero del Jefe de Planta, la vista operativa del Técnico o el resumen ejecutivo del Gerente de Operaciones). Una vez en el panel principal del Jefe de Planta, desde donde accedemos al módulo de maquinaria para agregar un nuevo equipo, lo que nos dirige hacia el formulario de registro en su estado inicial. Ingresamos los datos obligatorios, como nombre, planta, categoría y nivel de criticidad. Al confirmar la acción, el sistema valida los datos y nos redirige al listado general de activos actualizado. Con esto logramos automatizar el registro y dejamos atrás los controles en papel o Excel.
 
-#### 4.4.4.2. Flujo de usuario 02 — Técnico accede a la información de máquinas
+#### 4.4.4.2. Userflow 02 — Técnico accede a la informacion de maquinas. 
 
-Persona de usuario: Miguel (Técnico de campo)   
+Usuario: Técnico
+Obetivo de usuario: Como Técnico de campo, deseo observar los fallos de las maquinas y dirigirme a la planta asignada, reportarme para que la incidencia quede registrada formalmente y pueda ser atendida sin retrasos.
 
-Objetivo del usuario: Como Técnico de campo, deseo observar los fallos de las máquinas y dirigirme a la planta asignada, reportarme para que la incidencia quede registrada formalmente y pueda ser atendida sin retrasos.
+<div align="center">
+  <img src="report/assets/images/tm-userflow-2.png" width="700" alt="Userflow 1"><br>
+</div>
 
-<img src="./Assets/Images/tecnico.png" alt="tecnico">
+Explicación del flujo: En este recorrido, luego de haber iniciado sesión y estar en una planta industrial, se accede a la sección de maquinas donde se verá un listado de todas las maquinas pertenecientes a la planta actual. El técnico luego puede buscar la información de una maquina en especifico por su nombre. En caso se introduzca un nombre que no pertenezca a alguna maquina, no se mostrarán resultados.
 
-Explicación del flujo: El flujo comienza en la pantalla de selección de rol, donde el usuario se identifica como "Técnico" tras el inicio de sesión. Al ingresar, el sistema muestra el panel de bienvenida de Miguel junto con un módulo de filtros avanzados por estado, prioridad, fechas y técnico asignado, además de las órdenes de trabajo pendientes o en curso. Posteriormente, al navegar al apartado de "Maquinaria", el técnico puede revisar el listado detallado de equipos y su nivel de criticidad ("No presenta fallos", "Necesita mantenimiento" o "Fallos críticos"). Finalmente, el usuario elige una máquina específica para consultar su ficha técnica y detalles del problema, disponiendo de un botón de aceptación ("Aceptar") para confirmar la intervención y comenzar con la labor operativa. 
+#### 4.4.4.3. Userflow 03 — Gerente de Operaciones crea una orden de trabajo
 
-#### 4.4.4.3. Flujo de usuario 03 — Gerente de Operaciones revisa el resumen de operaciones
+Usuario: Gerente de Operaciones
+Obetivo de usuario: Como Gerente de Operaciones, deseo ser capaz de generar ordenes de trabajo dentro de la plataforma FixCore para así facilitar la asignación de tareas a los tecnicos de una planta industrial.
 
-Persona de usuario: Carlos (Gerente de Operaciones)
+<div align="center">
+  <img src="report/assets/images/tm-userflow-3.png" width="700" alt="Userflow 1"><br>
+</div>
 
-Objetivo del usuario: Como Gerente de Operaciones, deseo consultar un resumen general de las actividades y el estado de las plantas para evaluar el rendimiento general y tomar decisiones informadas.
+Explicación del flujo: El flujo comienza en el panel de inicio, donde luego se ingresa a la sección de ordenes de trabajo. Dentro de alli se presiona el botón de crear una nueva orden de trabajo para abrir un formulario donde se deberá colocar información como la maquina que se va a atender, el tipo de trabajo que se va a realizar o el técnico encargado. En caso algunos datos no sean colocados, tales como la maquina o el titulo de la orden de trabajo, no se continuará con la creación. Una vez los datos estén validados, e usuario regresará al listado de ordenes de trabajo.
 
-<img src="./Assets/Images/Gerente-operaciones.png" alt="Gerente-de-operaciones">
+#### 4.4.4.4. Userflow 04 — Integrante de una planta reporta una falla
 
-Explicación del flujo: El recorrido parte de la pantalla de autenticación, donde el usuario selecciona el rol de "Gerente de Operaciones". Al acceder al sistema, se visualiza el tablero ejecutivo que incluye un resumen general de operaciones (número de plantas activas, fallas críticas, técnicos disponibles y órdenes abiertas), así como el estado detallado por planta y el estatus de cada técnico. Desde esta vista principal, el gerente puede profundizar en la sección de órdenes programadas para analizar los datos de mantenimiento regular, con la opción de editar o registrar una nueva orden de trabajo si es necesario. Por último, el flujo permite consultar el historial completo de intervenciones y el registro detallado de fallas de los equipos, facilitando la auditoría y la supervisión gerencial.
+Usuario: Integrante en general de una planta industrial
+Obetivo de usuario: Como miembro de una planta industrial, deseo ser capaz de reportar fallos presentes en las maquinas de la planta industrial a la que pertenezco para así facilitar su identificación y atención oportuna por parte de los otros técnicos dentro de la planta.
+
+<div align="center">
+  <img src="report/assets/images/tm-userflow-4.png" width="700" alt="Userflow 1"><br>
+</div>
 
 ## 4.5. Web Applications Prototyping. 
+
+Con los Mockups realizados hemos elaborado un prototipo en Figma que muestre una versión preliminar de nuestra aplicación web. En este prototipo se consideraron procesos presentes en los Userflows, además de otras vistas generales de las secciones que puede ofrecer la plataforma.
+
+Enlace al prototipo realizado en Figma: [https://www.figma.com/proto/VbkpyP5gwR4Orgl1eNsB7a/Figma-basics?node-id=2449-1168&t=Va1SHaV7XPbK0ZlF-1&scaling=scale-down&content-scaling=fixed&page-id=2439%3A2&starting-point-node-id=2449%3A1168](https://www.figma.com/proto/VbkpyP5gwR4Orgl1eNsB7a/Figma-basics?node-id=2449-1168&t=Va1SHaV7XPbK0ZlF-1&scaling=scale-down&content-scaling=fixed&page-id=2439%3A2&starting-point-node-id=2449%3A1168)
+
+Enlace al video de presentación del prototipo: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423973_upc_edu_pe/IQDYMFuJ7lLVR70eP-ZT_VL8AQQDJFn8kAVoKRjQeePpziU?e=0tnbiI&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423973_upc_edu_pe/IQDYMFuJ7lLVR70eP-ZT_VL8AQQDJFn8kAVoKRjQeePpziU?e=0tnbiI&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+<div align="center">
+  <img src="report/assets/images/tm-prototype-thumbnail.jpg" width="700" alt="Video de presentación de prototipo"><br>
+</div>
 
 ## 4.6. Domain-Driven Software Architecture. 
 
