@@ -4408,6 +4408,9 @@ Para publicar la mock API se ha utilizado Render, una plataforma que permite el 
 </div>
 
 
+Dirección del Mock API: [https://fixcore-json-api.onrender.com/](https://fixcore-json-api.onrender.com/)
+
+
 **Publicación del Frontend web application**
 
 Para el despliegue de la aplicación web de FixCore se usó Vercel, el cual es una plataforma de despliegue y alojamiento en la nube para sitios y aplicaciones web.
@@ -4466,6 +4469,10 @@ Para el despliegue de la aplicación web de FixCore se usó Vercel, el cual es u
   En la sección de Deployments del proyecto se observa el estado de compilación del frontend<br><br>
   <img src="report/assets/images/sprint-2-frontend-deploy-11.jpeg" width="700"><br>
 </div>
+
+
+Enlace al frontend web application desplegado: (https://fixcore-frontend-eight.vercel.app/demo)[https://fixcore-frontend-eight.vercel.app/demo]
+
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint.
 
