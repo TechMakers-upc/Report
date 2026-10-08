@@ -4408,7 +4408,64 @@ Para publicar la mock API se ha utilizado Render, una plataforma que permite el 
 </div>
 
 
+**Publicación del Frontend web application**
 
+Para el despliegue de la aplicación web de FixCore se usó Vercel, el cual es una plataforma de despliegue y alojamiento en la nube para sitios y aplicaciones web.
+
+<div align="center">
+  Se accede al sitio de Vercel con una cuenta y se selecciona la opción de GitHub como Git Provider<br><br>
+  <img src="report/assets/images/sprint-2-frontend-deploy-1.jpeg" width="700"><br>
+</div>
+
+<div align="center">
+  Se instala Vercel en el repositorio Frontend de FixCore.<br><br>
+  <img src="report/assets/images/sprint-2-frontend-deploy-2.jpeg" width="700"><br>
+</div>
+
+<div align="center">
+  Una vez instalado y vinculado, se puede importar el repositorio Frontend<br><br>
+  <img src="report/assets/images/sprint-2-frontend-deploy-3.jpeg" width="700"><br>
+</div>
+
+<div align="center">
+  Al importarlo se redirige a la pestaña de creación de proyecto<br><br>
+  <img src="report/assets/images/sprint-2-frontend-deploy-4.jpeg" width="700"><br>
+</div>
+
+<div align="center">
+  Se desglosan los menús Build and Output Settings y Environment Variables<br><br>
+  <img src="report/assets/images/sprint-2-frontend-deploy-5.jpeg" width="700"><br>
+</div>
+
+<div align="center">
+  Se realiza la configuración necesaria en Build and Output Settings, con los comandos de compilacion e instalación, asi como el directorio de salida<br><br>
+  <img src="report/assets/images/sprint-2-frontend-deploy-6.jpeg" width="700"><br>
+</div>
+
+<div align="center">
+  Al seleccionar la opción Deploy se despliega el proyecto y se continua presionando el botón Continue to Project<br><br>
+  <img src="report/assets/images/sprint-2-frontend-deploy-7.jpeg" width="700"><br>
+</div>
+
+<div align="center">
+  Dentro de la pagina del proyecto se accede a la sección Environments y se selecciona el entorno de producción<br><br>
+  <img src="report/assets/images/sprint-2-frontend-deploy-8.jpeg" width="700"><br>
+</div>
+
+<div align="center">
+  Una vez en el entorno de configuración se configura el Branch tracking<br><br>
+  <img src="report/assets/images/sprint-2-frontend-deploy-9.jpeg" width="700"><br>
+</div>
+
+<div align="center">
+  Allí se puede configurar la rama que se va a usar para el despliegue, se usa una rama fix para pruebas<br><br>
+  <img src="report/assets/images/sprint-2-frontend-deploy-10.jpeg" width="700"><br>
+</div>
+
+<div align="center">
+  En la sección de Deployments del proyecto se observa el estado de compilación del frontend<br><br>
+  <img src="report/assets/images/sprint-2-frontend-deploy-11.jpeg" width="700"><br>
+</div>
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint.
 
