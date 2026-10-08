@@ -4353,7 +4353,20 @@ Las capturas deberán mostrar el funcionamiento real de los componentes y no ún
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review.
 
+Durante esta entrega se implementó una versión preliminar de un web service mediante un mock API usando JSON server. Esta versión permite que los usuarios puedan consultar, crear y actualizar datos de la plataforma.
 
+A continuación se presentan los endpoints implementados.
+
+|Acción|Endpoint|Verbos HTTP|URL|
+|:-----|:-------|:---------|:---------|
+|Consultar y validar información de usuarios|/users|GET|https://fixcore-json-api.onrender.com/users|
+|Consultar y actualizar información de plantas|/plants|GET, PUT|https://fixcore-json-api.onrender.com/plants|
+|Consultar, actualizar y añadir maquinas|/assets/|GET, POST, PUT|https://fixcore-json-api.onrender.com/assets|
+|Consultar, editar y agregar mantenimientos|/maintenance-plans|GET, POST ,PUT|https://fixcore-json-api.onrender.com/maintenance-plans|
+|Consultar, editar y reportar fallos en maquinas|/failures|GET, POST, PUT|https://fixcore-json-api.onrender.com/failures|
+|Consultar, actualizar y añadir ordenes de trabajo|/work-orders|GET, POST, PUT| https://fixcore-json-api.onrender.com/work-orders|
+|Consultar, actualizar y agregar inventario de repuestos|/spare-parts|GET, POST, PUT|https://fixcore-json-api.onrender.com/spare-parts|
+|Consultar y agregar movimientos de inventario |/stock-movements|GET, POST|https://fixcore-json-api.onrender.com/stock-movements|
 
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review.
 
