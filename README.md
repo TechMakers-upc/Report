@@ -53,66 +53,185 @@ Proyecto
 
 # Registro de Versiones del Informe 
 
-<table class="c0" style="border-collapse: collapse; width: 100%;">
-<tr class="c7">
-<td class="c5" style="border: 1px solid black;">Versión</td>
-<td class="c5" style="border: 1px solid black;">Fecha</td>
-<td class="c5" style="border: 1px solid black;">Autor</td>
-<td class="c5" style="border: 1px solid black;">Descripción de modificación</td>
-</tr>
-
-<tr class="c7">
-<td class="c5" style="border: 1px solid black;">V.1.0</td>
-<td class="c5" style="border: 1px solid black;">29/08/2026</td>
-<td class="c5" style="border: 1px solid black;">
-Alvar Lucas Córdova  <br><br>
-Sunio Danilo Landa Sánchez<br><br>
-Giuseppe Adrián Villanueva Rodríguez <br><br>
-Pierre Alessandro Mendoza Boluarte<br><br>
-Diego Rances Rojas Huaranga 
-</td>
-
-
-<td class="c5" style="border: 1px solid black;">Se han incluído los siguientes capítulos:
-
-- Capítulo I: Introducción
-- Capítulo II: Requirements Elicitation & Analysis
-- Capítulo III: Requirements Specification
-- Capítulo IV: Product Design
-- Avance del Capítulo V: Product Implementation, - Validation & Deployment hasta el punto 5.2.1.8
-- Avance de Conclusiones, Bibliografía y Anexos</td>
-</tr>
-
-<tr class="c7">
-<td class="c5" style="border: 1px solid black;">V.2.0</td>
-<td class="c5" style="border: 1px solid black;">27/09/2026</td>
-<td class="c5" style="border: 1px solid black;">
-Alvar Lucas Córdova  <br><br>
-Sunio Danilo Landa Sánchez<br><br>
-Giuseppe Adrián Villanueva Rodríguez <br><br>
-Pierre Alessandro Mendoza Boluarte<br><br>
-Diego Rances Rojas Huaranga 
-</td>
-
-<td class="c5" style="border: 1px solid black;">
-
-- Correcion de capitulos anteriores I, II, IV.
-- Capítulo V: Product Implementation, Validation & Deployment.
-- 5.2.2. Sprint 2
-- 5.2.2.1. Sprint Planning 2.
-- 5.2.2.2. Aspect Leaders and Collaborators.
-- 5.2.2.3. Sprint Backlog 2.
-- 5.2.2.4. Development Evidence for Sprint Review.
-- 5.2.2.5. Execution Evidence for Sprint Review.
-- 5.2.2.6. Services Documentation Evidence for Sprint Review.
-- 5.2.2.7. Software Deployment Evidence for Sprint Review.
-- 5.2.2.8. Team Collaboration Insights during Sprint.
-- Conclusiones
-- Anexos
-- Actualizacion de Student Outcome
-- Project Report Collaboration Insights</td>
-</tr>
-
+<table style="width: 100%; border-collapse: collapse;">
+  <thead>
+    <tr>
+      <th style="border: 1px solid black; padding: 6px; text-align: center;">Versión</th>
+      <th style="border: 1px solid black; padding: 6px; text-align: center;">Fecha</th>
+      <th style="border: 1px solid black; padding: 6px;">Autor</th>
+      <th style="border: 1px solid black; padding: 6px;">Descripción de modificación</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; text-align: center;">1</td>
+      <td style="border: 1px solid black; text-align: center;">06/09/2026</td>
+      <td style="border: 1px solid black;">Pierre Alessandro Mendoza Boluarte</td>
+      <td style="border: 1px solid black;">Primera versión del informe: Redacción e incorporación del Capítulo I (Introducción, Antecedentes y Perfiles de Usuario).</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; text-align: center;">2</td>
+      <td style="border: 1px solid black; text-align: center;">06/09/2026</td>
+      <td style="border: 1px solid black;">Giuseppe Adrián Villanueva Rodríguez</td>
+      <td style="border: 1px solid black;">Adición del análisis de competidores directos e indirectos, tácticas competitivas y definición del lenguaje ubicuo.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; text-align: center;">3</td>
+      <td style="border: 1px solid black; text-align: center;">09/09/2026</td>
+      <td style="border: 1px solid black;">Pierre Alessandro Mendoza Boluarte</td>
+      <td style="border: 1px solid black;">Registro y documentación de las entrevistas estructuradas correspondientes a cada segmento objetivo en el Capítulo II.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; text-align: center;">4</td>
+      <td style="border: 1px solid black; text-align: center;">09/09/2026</td>
+      <td style="border: 1px solid black;">Giuseppe Adrián Villanueva Rodríguez</td>
+      <td style="border: 1px solid black;">Inclusión de especificaciones de diseño: estados de componentes web y catálogo de elementos de formulario.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; text-align: center;">5</td>
+      <td style="border: 1px solid black; text-align: center;">12/09/2026</td>
+      <td style="border: 1px solid black;">Giuseppe Adrián Villanueva Rodríguez</td>
+      <td style="border: 1px solid black;">Definición de la arquitectura de información del sitio web y especificación de etiquetas SEO y meta tags.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; text-align: center;">6</td>
+      <td style="border: 1px solid black; text-align: center;">15/09/2026</td>
+      <td style="border: 1px solid black;">Diego Rances Rojas Huaranga</td>
+      <td style="border: 1px solid black;">Diseño y documentación de los wireframes iniciales de baja fidelidad para la aplicación web.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; text-align: center;">7</td>
+      <td style="border: 1px solid black; text-align: center;">16/09/2026</td>
+      <td style="border: 1px solid black;">Sunio Danilo Landa Sánchez</td>
+      <td style="border: 1px solid black;">Incorporación de tablas descriptivas de los miembros del equipo y estructura de la matriz de Student Outcomes.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; text-align: center;">8</td>
+      <td style="border: 1px solid black; text-align: center;">16/09/2026</td>
+      <td style="border: 1px solid black;">Alvar Lucas Córdova</td>
+      <td style="border: 1px solid black;">Desarrollo del Impact Mapping y definición detallada de User Personas para los segmentos definidos.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; text-align: center;">9</td>
+      <td style="border: 1px solid black; text-align: center;">16/09/2026</td>
+      <td style="border: 1px solid black;">Sunio Danilo Landa Sánchez</td>
+      <td style="border: 1px solid black;">Documentación de procesos clave del dominio mediante la técnica de Big Picture EventStorming.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; text-align: center;">10</td>
+      <td style="border: 1px solid black; text-align: center;">16/09/2026</td>
+      <td style="border: 1px solid black;">Giuseppe Adrián Villanueva Rodríguez</td>
+      <td style="border: 1px solid black;">Diseño y documentación de wireframes y mockups de alta fidelidad para la Landing Page.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; text-align: center;">11</td>
+      <td style="border: 1px solid black; text-align: center;">17/09/2026</td>
+      <td style="border: 1px solid black;">Pierre Alessandro Mendoza Boluarte</td>
+      <td style="border: 1px solid black;">Elaboración e inclusión de diagramas de arquitectura de software:C4 Model , clases y modelo de base de datos.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; text-align: center;">12</td>
+      <td style="border: 1px solid black; text-align: center;">18/09/2026</td>
+      <td style="border: 1px solid black;">Sunio Danilo Landa Sánchez</td>
+      <td style="border: 1px solid black;">Refinamiento de historias de usuario con criterios de aceptación y actualización del tablero de Product Backlog en Trello.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; text-align: center;">13</td>
+      <td style="border: 1px solid black; text-align: center;">18/09/2026</td>
+      <td style="border: 1px solid black;">Giuseppe Adrián Villanueva Rodríguez</td>
+      <td style="border: 1px solid black;">Redacción de conclusiones y recomendaciones correspondientes a la primera entrega del proyecto.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; text-align: center;">14</td>
+      <td style="border: 1px solid black; text-align: center;">19/09/2026</td>
+      <td style="border: 1px solid black;">Pierre Alessandro Mendoza Boluarte</td>
+      <td style="border: 1px solid black;">Documentación de artefactos de desarrollo del Capítulo V correspondientes al Sprint 1.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; text-align: center;">15</td>
+      <td style="border: 1px solid black; text-align: center;">19/09/2026</td>
+      <td style="border: 1px solid black;">Diego Rances Rojas Huaranga</td>
+      <td style="border: 1px solid black;">Versión inicial de flujos de usuario  detallando las rutas de navegación por cada rol dentro de la aplicación.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; text-align: center;">16</td>
+      <td style="border: 1px solid black; text-align: center;">19/09/2026</td>
+      <td style="border: 1px solid black;">Alvar Lucas Córdova</td>
+      <td style="border: 1px solid black;">Consolidación de anexos, enlaces de grabación de entrevistas y corrección general de consistencia para el cierre del Sprint 1.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; text-align: center;">17</td>
+      <td style="border: 1px solid black; text-align: center;">30/09/2026</td>
+      <td style="border: 1px solid black;">Pierre Alessandro Mendoza Boluarte</td>
+      <td style="border: 1px solid black;">Actualización del código fuente en PlantUML de los diagramas de clases, base de datos y modelo C4 para mejorar su trazabilidad.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; text-align: center;">18</td>
+      <td style="border: 1px solid black; text-align: center;">01/10/2026</td>
+      <td style="border: 1px solid black;">Pierre Alessandro Mendoza Boluarte</td>
+      <td style="border: 1px solid black;">Incorporación de evidencias de despliegue y desarrollo correspondientes a la Landing Page en el Capítulo V.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; text-align: center;">19</td>
+      <td style="border: 1px solid black; text-align: center;">02/10/2026</td>
+      <td style="border: 1px solid black;">Sunio Danilo Landa Sánchez</td>
+      <td style="border: 1px solid black;">Inclusión de evidencias de trabajo en equipo y redacción de la sección Project Report Collaboration Insights.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; text-align: center;">20</td>
+      <td style="border: 1px solid black; text-align: center;">03/10/2026</td>
+      <td style="border: 1px solid black;">Pierre Alessandro Mendoza Boluarte</td>
+      <td style="border: 1px solid black;">Ajuste de convenciones de nombrado y relaciones en los diagramas .</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; text-align: center;">21</td>
+      <td style="border: 1px solid black; text-align: center;">05/10/2026</td>
+      <td style="border: 1px solid black;">Diego Rances Rojas Huaranga</td>
+      <td style="border: 1px solid black;">Mejora de la guia de entrevistas incorporando preguntas  orientadas a la adopción de herramientas digitales.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; text-align: center;">22</td>
+      <td style="border: 1px solid black; text-align: center;">06/10/2026</td>
+      <td style="border: 1px solid black;">Sunio Danilo Landa Sánchez</td>
+      <td style="border: 1px solid black;">Actualización de diagramas y documentación del Design-Level EventStorming alineado a los alcances del profesor.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; text-align: center;">23</td>
+      <td style="border: 1px solid black; text-align: center;">07/10/2026</td>
+      <td style="border: 1px solid black;">Alvar Lucas Córdova</td>
+      <td style="border: 1px solid black;">Corrección de observaciones del docente en la sección de Needfinding y reordenamiento de la numeración de figuras del Capítulo II.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; text-align: center;">24</td>
+      <td style="border: 1px solid black; text-align: center;">07/10/2026</td>
+      <td style="border: 1px solid black;">Alvar Lucas Córdova</td>
+      <td style="border: 1px solid black;">Revisión y corrección de la documentación de evidencias de ejecución y servicios del Sprint 1.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; text-align: center;">25</td>
+      <td style="border: 1px solid black; text-align: center;">08/10/2026</td>
+      <td style="border: 1px solid black;">Alvar Lucas Córdova</td>
+      <td style="border: 1px solid black;">Planificación del Sprint 2 y redacción del backlog técnico de componentes para el frontend.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; text-align: center;">26</td>
+      <td style="border: 1px solid black; text-align: center;">08/10/2026</td>
+      <td style="border: 1px solid black;">Sunio Danilo Landa Sánchez</td>
+      <td style="border: 1px solid black;">Inclusión de wireframes de escritorio y nueva sección de prototipado para la aplicación web.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; text-align: center;">27</td>
+      <td style="border: 1px solid black; text-align: center;">08/10/2026</td>
+      <td style="border: 1px solid black;">Sunio Danilo Landa Sánchez</td>
+      <td style="border: 1px solid black;">Refactorización y reemplazo de los wireflows y flujos de usuario  por una nueva versión ajustada a la retroalimentación de diseño.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; text-align: center;">28</td>
+      <td style="border: 1px solid black; text-align: center;">08/10/2026</td>
+      <td style="border: 1px solid black;">Pierre Alessandro Mendoza Boluarte</td>
+      <td style="border: 1px solid black;">Refinamiento de redacción en el Sprint 2 Backlog y actualización del registro de versiones del informe.</td>
+    </tr>
+  </tbody>
 </table>
 
 <div style="page-break-after: always;"></div>
