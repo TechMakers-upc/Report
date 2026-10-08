@@ -4496,11 +4496,94 @@ Durante el Sprint 2 utilizamos Git y GitHub, con la extensión GitFlowHelper de 
 
 #### 5.2.2.5. Execution Evidence for Sprint Review.
 
-Pendiente de completar conforme se implementen las interfaces.
+Durante el Sprint 2 se implementó la primera versión de la Web Application de FixCore, desarrollada con Angular 22, TypeScript, Angular Material, RxJS y Angular Router. La aplicación está organizada por módulos orientados a la gestión del mantenimiento industrial, incluyendo Asset Management, Service Execution, Maintenance Planning, Inventory y Analytics, además de componentes y servicios compartidos para funcionalidades transversales.
 
-Se incorporarán capturas de las funcionalidades desarrolladas para los módulos de plantas y máquinas, mantenimiento preventivo, fallas, órdenes de trabajo, inventario y dashboard.
+La aplicación consume información desde una Fake API desplegada en Render, utilizando HttpClient para realizar las operaciones de consulta, registro, actualización y eliminación de datos. También se implementó un layout compartido mediante el componente Workspace Shell, encargado de la navegación principal, selección de planta, notificaciones y acceso a las diferentes funcionalidades según el rol del usuario.
 
-Las capturas deberán mostrar el funcionamiento real de los componentes y no únicamente diseños estáticos que todavía no hayan sido implementados.
+* Selección de perfil: Pantalla inicial de FixCore donde el usuario puede seleccionar entre los perfiles Jefe de Planta, Gerente de Operaciones y Técnico de Mantenimiento, cada uno con funcionalidades específicas.
+
+![alt text](report/assets/Evidence-Sprint2/image.png)
+
+* Panel del Jefe de Planta: Dashboard con el estado general de la planta, máquinas detenidas, fallas críticas, órdenes de trabajo, mantenimientos e indicadores como tiempo muerto, MTTR y cumplimiento preventivo.
+
+![alt text](report/assets/Evidence-Sprint2/image-1.png)
+
+* Módulo de Máquinas - Jefe de Planta: Gestión de las máquinas y activos registrados en la planta, permitiendo consultar su estado e información relacionada con el mantenimiento y registrando maquinas.
+
+![alt text](report/assets/Evidence-Sprint2/image-2.png)
+![alt text](report/assets/Evidence-Sprint2/image-3.png)
+
+* Módulo de Fallas - Jefe de Planta: Gestión y seguimiento de las fallas reportadas en las máquinas de la planta.
+
+![alt text](report/assets/Evidence-Sprint2/image-4.png)
+*FILTRO DE FALLAS RESUELTAS*
+![alt text](report/assets/Evidence-Sprint2/image-5.png)
+*REPORTAR FALLAS*
+![alt text](report/assets/Evidence-Sprint2/image-6.png)
+*REPORTAR FALLAS 2DO PASO*
+![alt text](report/assets/Evidence-Sprint2/image-7.png)
+*REPORTAR FALLAS 3ER PASO*
+![alt text](report/assets/Evidence-Sprint2/image-8.png)
+
+* Módulo de Órdenes de Trabajo - Jefe de Planta: Consulta,gestión y creacion de las órdenes de trabajo asociadas a las actividades de mantenimiento.
+
+![alt text](report/assets/Evidence-Sprint2/image-9.png)
+![alt text](report/assets/Evidence-Sprint2/image-10.png)
+
+* Módulo Preventido - Jefe de Planta: Gestión de calendariocon diferentes filtros como vencidos o suspendidos para visitar tecnicas preventivas con diferentes acciones como reprogramar,suspender,o crear una nueva fecha de mantenimiento preventivo.
+
+![alt text](report/assets/Evidence-Sprint2/image-11.png)
+*PREVENTIVOS VENCIDOS*
+![alt text](report/assets/Evidence-Sprint2/image-12.png)
+*PREVENTIVOS SUSPENDIDOS*
+![alt text](report/assets/Evidence-Sprint2/image-13.png)
+
+* Módulo de Inventario - Jefe de Planta: Gestión de repuestos disponibles y seguimiento del stock utilizado en las actividades de mantenimiento.
+
+![alt text](report/assets/Evidence-Sprint2/image-14.png)
+
+* Módulo de Reportes - Jefe de Planta:Un resumen sobre los modulos anteriores con opcion de descarga
+
+![alt text](report/assets/Evidence-Sprint2/image-15.png)
+
+
+* Módulo de Mi Planta - Jefe de Planta:Para almacenas los datos de la Planta
+
+![alt text](report/assets/Evidence-Sprint2/image-16.png)
+
+* Resumen de Operaciones - Gerente de Operaciones: Vista general de todas las plantas con indicadores de disponibilidad, órdenes de trabajo abiertas, paradas, cumplimiento preventivo y MTTR.
+
+![alt text]report/assets/Evidence-Sprint2/(image-17.png)
+
+* Módulo de Plantas - Gerente de Operaciones: Consulta y seguimiento del estado de las diferentes plantas gestionadas por la organización.
+
+![alt text](report/assets/Evidence-Sprint2/image-18.png)
+
+* Módulo de Técnicos - Gerente de Operaciones: Visualización de los técnicos disponibles, su planta asignada y las órdenes de trabajo pendientes.
+
+![alt text](report/assets/Evidence-Sprint2/image-19.png)
+
+* Inicio del Técnico de Mantenimiento: Dashboard personalizado para el técnico con sus órdenes de trabajo pendientes, máquinas detenidas y próximos mantenimientos.
+
+![alt text](report/assets/Evidence-Sprint2/image-20.png)
+
+* Mis Órdenes de Trabajo - Técnico: Listado de las órdenes asignadas al técnico, mostrando su estado, prioridad, tipo de mantenimiento y fechas.
+
+![alt text](report/assets/Evidence-Sprint2/image-21.png)
+
+* Módulo de Repuestos - Técnico: Consulta de los repuestos disponibles necesarios para la ejecución de las actividades de mantenimiento.
+
+![alt text](report/assets/Evidence-Sprint2/image-22.png)
+
+* Módulo de Repuestos - Técnico: Consulta de los repuestos disponibles necesarios para la ejecución de las actividades de mantenimiento.
+
+![alt text](report/assets/Evidence-Sprint2/image-23.png)
+
+* Reporte de Fallas - Técnico: Funcionalidad para que el técnico pueda reportar una nueva falla desde su panel de trabajo.
+
+![alt text](report/assets/Evidence-Sprint2/image-24.png)
+
+
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review.
 
@@ -4652,98 +4735,7 @@ Para el despliegue de la aplicación web de FixCore se usó Vercel, el cual es u
 
 
 Enlace al frontend web application desplegado: (https://fixcore-frontend-eight.vercel.app/demo)[https://fixcore-frontend-eight.vercel.app/demo]
-Durante el Sprint 2 se implementó la primera versión de la Web Application de FixCore, desarrollada con Angular 22, TypeScript, Angular Material, RxJS y Angular Router. La aplicación está organizada por módulos orientados a la gestión del mantenimiento industrial, incluyendo Asset Management, Service Execution, Maintenance Planning, Inventory y Analytics, además de componentes y servicios compartidos para funcionalidades transversales.
 
-La aplicación consume información desde una Fake API desplegada en Render, utilizando HttpClient para realizar las operaciones de consulta, registro, actualización y eliminación de datos. También se implementó un layout compartido mediante el componente Workspace Shell, encargado de la navegación principal, selección de planta, notificaciones y acceso a las diferentes funcionalidades según el rol del usuario.
-
-* Selección de perfil: Pantalla inicial de FixCore donde el usuario puede seleccionar entre los perfiles Jefe de Planta, Gerente de Operaciones y Técnico de Mantenimiento, cada uno con funcionalidades específicas.
-
-![alt text](report/assets/Evidence-Sprint2/image.png)
-
-* Panel del Jefe de Planta: Dashboard con el estado general de la planta, máquinas detenidas, fallas críticas, órdenes de trabajo, mantenimientos e indicadores como tiempo muerto, MTTR y cumplimiento preventivo.
-
-![alt text](report/assets/Evidence-Sprint2/image-1.png)
-
-* Módulo de Máquinas - Jefe de Planta: Gestión de las máquinas y activos registrados en la planta, permitiendo consultar su estado e información relacionada con el mantenimiento y registrando maquinas.
-
-![alt text](report/assets/Evidence-Sprint2/image-2.png)
-![alt text](report/assets/Evidence-Sprint2/image-3.png)
-
-* Módulo de Fallas - Jefe de Planta: Gestión y seguimiento de las fallas reportadas en las máquinas de la planta.
-
-![alt text](report/assets/Evidence-Sprint2/image-4.png)
-*FILTRO DE FALLAS RESUELTAS*
-![alt text](report/assets/Evidence-Sprint2/image-5.png)
-*REPORTAR FALLAS*
-![alt text](report/assets/Evidence-Sprint2/image-6.png)
-*REPORTAR FALLAS 2DO PASO*
-![alt text](report/assets/Evidence-Sprint2/image-7.png)
-*REPORTAR FALLAS 3ER PASO*
-![alt text](report/assets/Evidence-Sprint2/image-8.png)
-
-* Módulo de Órdenes de Trabajo - Jefe de Planta: Consulta,gestión y creacion de las órdenes de trabajo asociadas a las actividades de mantenimiento.
-
-![alt text](report/assets/Evidence-Sprint2/image-9.png)
-![alt text](report/assets/Evidence-Sprint2/image-10.png)
-
-* Módulo Preventido - Jefe de Planta: Gestión de calendariocon diferentes filtros como vencidos o suspendidos para visitar tecnicas preventivas con diferentes acciones como reprogramar,suspender,o crear una nueva fecha de mantenimiento preventivo.
-
-![alt text](report/assets/Evidence-Sprint2/image-11.png)
-*PREVENTIVOS VENCIDOS*
-![alt text](report/assets/Evidence-Sprint2/image-12.png)
-*PREVENTIVOS SUSPENDIDOS*
-![alt text](report/assets/Evidence-Sprint2/image-13.png)
-
-* Módulo de Inventario - Jefe de Planta: Gestión de repuestos disponibles y seguimiento del stock utilizado en las actividades de mantenimiento.
-
-![alt text](report/assets/Evidence-Sprint2/image-14.png)
-
-* Módulo de Reportes - Jefe de Planta:Un resumen sobre los modulos anteriores con opcion de descarga
-
-![alt text](report/assets/Evidence-Sprint2/image-15.png)
-
-
-* Módulo de Mi Planta - Jefe de Planta:Para almacenas los datos de la Planta
-
-![alt text](report/assets/Evidence-Sprint2/image-16.png)
-
-* Resumen de Operaciones - Gerente de Operaciones: Vista general de todas las plantas con indicadores de disponibilidad, órdenes de trabajo abiertas, paradas, cumplimiento preventivo y MTTR.
-
-![alt text]report/assets/Evidence-Sprint2/(image-17.png)
-
-* Módulo de Plantas - Gerente de Operaciones: Consulta y seguimiento del estado de las diferentes plantas gestionadas por la organización.
-
-![alt text](report/assets/Evidence-Sprint2/image-18.png)
-
-* Módulo de Técnicos - Gerente de Operaciones: Visualización de los técnicos disponibles, su planta asignada y las órdenes de trabajo pendientes.
-
-![alt text](report/assets/Evidence-Sprint2/image-19.png)
-
-* Inicio del Técnico de Mantenimiento: Dashboard personalizado para el técnico con sus órdenes de trabajo pendientes, máquinas detenidas y próximos mantenimientos.
-
-![alt text](report/assets/Evidence-Sprint2/image-20.png)
-
-* Mis Órdenes de Trabajo - Técnico: Listado de las órdenes asignadas al técnico, mostrando su estado, prioridad, tipo de mantenimiento y fechas.
-
-![alt text](report/assets/Evidence-Sprint2/image-21.png)
-
-* Módulo de Repuestos - Técnico: Consulta de los repuestos disponibles necesarios para la ejecución de las actividades de mantenimiento.
-
-![alt text](report/assets/Evidence-Sprint2/image-22.png)
-
-* Módulo de Repuestos - Técnico: Consulta de los repuestos disponibles necesarios para la ejecución de las actividades de mantenimiento.
-
-![alt text](report/assets/Evidence-Sprint2/image-23.png)
-
-* Reporte de Fallas - Técnico: Funcionalidad para que el técnico pueda reportar una nueva falla desde su panel de trabajo.
-
-![alt text](report/assets/Evidence-Sprint2/image-24.png)
-
-
-#### 5.2.2.7. Software Deployment Evidence for Sprint Review.
-
-
-Pendiente de completar después del despliegue del frontend.
 
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint.
