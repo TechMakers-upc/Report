@@ -3911,6 +3911,7 @@ En esta sección se encuentran las herramientas usadas por los integrantes del e
 |:-------|:---------------|:-----------------|
 |Visual Studio Code |Usado para el desarrollo de la Landing Page|https://code.visualstudio.com/
 |Git|Control de versiones|https://git-scm.com/
+|JetBrains Webstorm|Usado para el desarrollo del frontend web application|https://www.jetbrains.com/es-es/|
 ||||
 
 **Software Deployment** 
@@ -3920,6 +3921,8 @@ Se presentan los productos usados para el despliegue de nuestros productos de so
 |Producto|Proposito de uso|Ruta de referencia|
 |:-------|:---------------|:-----------------|
 |GitHub Pages|Plataforma de despliegue para el landing page|https://docs.github.com/es/pages
+|Vercel|Despliegue de paginas frontend|https://vercel.com/|
+|Render|Despliegue de servicios web|https://render.com/|
 ||||
 
 **Software Documentation**
