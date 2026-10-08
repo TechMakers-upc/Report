@@ -4326,7 +4326,21 @@ Durante el Sprint 2 utilizamos Git y GitHub, con la extensión GitFlowHelper de 
 
 | Repository | Branch | Commit ID | Commit Message | Commit Message Body | Committed on |
 |---|---|---|---|---|---|
-| Frontend |  |  |  | | Sep 19, 2026 |
+| Frontend | feature/frontend-setup-assets | b94f329 | chore(shared): integrate frontend services and reusable components | | Oct 8, 2026 |
+| Frontend | feature/frontend-setup-assets | ad2c0d9 | feat(assets): add plant and machine management forms | | Oct 8, 2026 | 
+| Frontend | feature/frontend-setup-assets | 376e60f | feat(assets): add machine details and maintenance history | | Oct 8, 2026 | 
+| Frontend | feature/failures-dashboard | 3854c5a | feat(failures): implement failure reporting interface | | Oct 8, 2026 | 
+| Frontend | feature/failures-dashboard | 7f04637 | feat(failures): add failure details and pending reports | | Oct 8, 2026 | 
+| Frontend | feature/failures-dashboard | 93c4ca2 | feat(analytics): add operations dashboard and status indicators | | Oct 8, 2026 | 
+| Frontend | feature/preventive-maintenance | 4995d52 | feat(maintenance): implement preventive scheduling forms | | Oct 8, 2026 | 
+| Frontend | feature/preventive-maintenance | 2fe7221 | feat(maintenance): add calendar and maintenance status views| | Oct 8, 2026 | 
+| Frontend | feature/preventive-maintenance | 9796005 | feat(maintenance): integrate module navigation and routes| | Oct 8, 2026 | 
+| Frontend | feature/work-orders | fc52f8c | feat(work-orders): add work order creation and assignment | | Oct 8, 2026 | 
+| Frontend | feature/work-orders | 0867eb7 | feat(work-orders): implement execution and closing workflows | | Oct 8, 2026 | 
+| Frontend | feature/inventory-integration | 52d6549 | feat(inventory): add spare parts forms and shared validations| | Oct 8, 2026 | 
+| Frontend | feature/inventory-integration | d0224b4 | feat(inventory): implement stock views and minimum levels| | Oct 8, 2026 | 
+| Frontend | fix/frontend-integration-deployment | 5bab08c | feat: integrate FixCore Sprint 2 frontend and responsive Figma design | | Oct 8, 2026 | 
+| Frontend | fix/frontend-integration-deployment | 05375b4 | fix: apply Sprint 2 frontend audit corrections | | Oct 8, 2026 | 
 
 
 #### 5.2.2.5. Execution Evidence for Sprint Review.
@@ -4338,7 +4352,6 @@ Se incorporarán capturas de las funcionalidades desarrolladas para los módulos
 Las capturas deberán mostrar el funcionamiento real de los componentes y no únicamente diseños estáticos que todavía no hayan sido implementados.
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review.
-
 
 
 
