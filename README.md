@@ -181,19 +181,19 @@ Proyecto
       <td style="border: 1px solid black; text-align: center;">20</td>
       <td style="border: 1px solid black; text-align: center;">03/10/2026</td>
       <td style="border: 1px solid black;">Pierre Alessandro Mendoza Boluarte</td>
-      <td style="border: 1px solid black;">Ajuste de convenciones de nombrado y relaciones en los diagramas .</td>
+      <td style="border: 1px solid black;">Ajuste de convenciones de nombrado y relaciones en los diagramas de arquitectura de software.</td>
     </tr>
     <tr>
       <td style="border: 1px solid black; text-align: center;">21</td>
       <td style="border: 1px solid black; text-align: center;">05/10/2026</td>
       <td style="border: 1px solid black;">Diego Rances Rojas Huaranga</td>
-      <td style="border: 1px solid black;">Mejora de la guia de entrevistas incorporando preguntas  orientadas a la adopción de herramientas digitales.</td>
+      <td style="border: 1px solid black;">Mejora de la guía de entrevistas incorporando preguntas técnicas orientadas a la adopción de herramientas digitales.</td>
     </tr>
     <tr>
       <td style="border: 1px solid black; text-align: center;">22</td>
       <td style="border: 1px solid black; text-align: center;">06/10/2026</td>
       <td style="border: 1px solid black;">Sunio Danilo Landa Sánchez</td>
-      <td style="border: 1px solid black;">Actualización de diagramas y documentación del Design-Level EventStorming alineado a los alcances del profesor.</td>
+      <td style="border: 1px solid black;">Actualización de diagramas y documentación del Design-Level EventStorming alineado a los alcanzes del profesor.</td>
     </tr>
     <tr>
       <td style="border: 1px solid black; text-align: center;">23</td>
@@ -4484,11 +4484,96 @@ Las capturas deberán mostrar el funcionamiento real de los componentes y no ún
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review.
 
-Durante el Sprint 2, el alcance de desarrollo se limitará al frontend de FixCore. Por este motivo, no se contempla implementar endpoints RESTful, servicios de backend ni conexiones con una base de datos.
+Durante el Sprint 2 se implementó la primera versión de la Web Application de FixCore, desarrollada con Angular 22, TypeScript, Angular Material, RxJS y Angular Router. La aplicación está organizada por módulos orientados a la gestión del mantenimiento industrial, incluyendo Asset Management, Service Execution, Maintenance Planning, Inventory y Analytics, además de componentes y servicios compartidos para funcionalidades transversales.
 
-Para demostrar las principales interacciones se utilizarán datos simulados y estados locales de la aplicación. La documentación de servicios reales se incorporará en las iteraciones que incluyan su desarrollo.
+La aplicación consume información desde una Fake API desplegada en Render, utilizando HttpClient para realizar las operaciones de consulta, registro, actualización y eliminación de datos. También se implementó un layout compartido mediante el componente Workspace Shell, encargado de la navegación principal, selección de planta, notificaciones y acceso a las diferentes funcionalidades según el rol del usuario.
+
+* Selección de perfil: Pantalla inicial de FixCore donde el usuario puede seleccionar entre los perfiles Jefe de Planta, Gerente de Operaciones y Técnico de Mantenimiento, cada uno con funcionalidades específicas.
+
+![alt text](report/assets/Evidence-Sprint2/image.png)
+
+* Panel del Jefe de Planta: Dashboard con el estado general de la planta, máquinas detenidas, fallas críticas, órdenes de trabajo, mantenimientos e indicadores como tiempo muerto, MTTR y cumplimiento preventivo.
+
+![alt text](report/assets/Evidence-Sprint2/image-1.png)
+
+* Módulo de Máquinas - Jefe de Planta: Gestión de las máquinas y activos registrados en la planta, permitiendo consultar su estado e información relacionada con el mantenimiento y registrando maquinas.
+
+![alt text](report/assets/Evidence-Sprint2/image-2.png)
+![alt text](report/assets/Evidence-Sprint2/image-3.png)
+
+* Módulo de Fallas - Jefe de Planta: Gestión y seguimiento de las fallas reportadas en las máquinas de la planta.
+
+![alt text](report/assets/Evidence-Sprint2/image-4.png)
+*FILTRO DE FALLAS RESUELTAS*
+![alt text](report/assets/Evidence-Sprint2/image-5.png)
+*REPORTAR FALLAS*
+![alt text](report/assets/Evidence-Sprint2/image-6.png)
+*REPORTAR FALLAS 2DO PASO*
+![alt text](report/assets/Evidence-Sprint2/image-7.png)
+*REPORTAR FALLAS 3ER PASO*
+![alt text](report/assets/Evidence-Sprint2/image-8.png)
+
+* Módulo de Órdenes de Trabajo - Jefe de Planta: Consulta,gestión y creacion de las órdenes de trabajo asociadas a las actividades de mantenimiento.
+
+![alt text](report/assets/Evidence-Sprint2/image-9.png)
+![alt text](report/assets/Evidence-Sprint2/image-10.png)
+
+* Módulo Preventido - Jefe de Planta: Gestión de calendariocon diferentes filtros como vencidos o suspendidos para visitar tecnicas preventivas con diferentes acciones como reprogramar,suspender,o crear una nueva fecha de mantenimiento preventivo.
+
+![alt text](report/assets/Evidence-Sprint2/image-11.png)
+*PREVENTIVOS VENCIDOS*
+![alt text](report/assets/Evidence-Sprint2/image-12.png)
+*PREVENTIVOS SUSPENDIDOS*
+![alt text](report/assets/Evidence-Sprint2/image-13.png)
+
+* Módulo de Inventario - Jefe de Planta: Gestión de repuestos disponibles y seguimiento del stock utilizado en las actividades de mantenimiento.
+
+![alt text](report/assets/Evidence-Sprint2/image-14.png)
+
+* Módulo de Reportes - Jefe de Planta:Un resumen sobre los modulos anteriores con opcion de descarga
+
+![alt text](report/assets/Evidence-Sprint2/image-15.png)
+
+
+* Módulo de Mi Planta - Jefe de Planta:Para almacenas los datos de la Planta
+
+![alt text](report/assets/Evidence-Sprint2/image-16.png)
+
+* Resumen de Operaciones - Gerente de Operaciones: Vista general de todas las plantas con indicadores de disponibilidad, órdenes de trabajo abiertas, paradas, cumplimiento preventivo y MTTR.
+
+![alt text]report/assets/Evidence-Sprint2/(image-17.png)
+
+* Módulo de Plantas - Gerente de Operaciones: Consulta y seguimiento del estado de las diferentes plantas gestionadas por la organización.
+
+![alt text](report/assets/Evidence-Sprint2/image-18.png)
+
+* Módulo de Técnicos - Gerente de Operaciones: Visualización de los técnicos disponibles, su planta asignada y las órdenes de trabajo pendientes.
+
+![alt text](report/assets/Evidence-Sprint2/image-19.png)
+
+* Inicio del Técnico de Mantenimiento: Dashboard personalizado para el técnico con sus órdenes de trabajo pendientes, máquinas detenidas y próximos mantenimientos.
+
+![alt text](report/assets/Evidence-Sprint2/image-20.png)
+
+* Mis Órdenes de Trabajo - Técnico: Listado de las órdenes asignadas al técnico, mostrando su estado, prioridad, tipo de mantenimiento y fechas.
+
+![alt text](report/assets/Evidence-Sprint2/image-21.png)
+
+* Módulo de Repuestos - Técnico: Consulta de los repuestos disponibles necesarios para la ejecución de las actividades de mantenimiento.
+
+![alt text](report/assets/Evidence-Sprint2/image-22.png)
+
+* Módulo de Repuestos - Técnico: Consulta de los repuestos disponibles necesarios para la ejecución de las actividades de mantenimiento.
+
+![alt text](report/assets/Evidence-Sprint2/image-23.png)
+
+* Reporte de Fallas - Técnico: Funcionalidad para que el técnico pueda reportar una nueva falla desde su panel de trabajo.
+
+![alt text](report/assets/Evidence-Sprint2/image-24.png)
+
 
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review.
+
 
 Pendiente de completar después del despliegue del frontend.
 
@@ -4496,12 +4581,16 @@ Esta sección incluirá el repositorio utilizado, la dirección de acceso a la W
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint.
 
-Pendiente de completar al finalizar el Sprint 2.
+Durante el Sprint 2 desarrollamos la primera versión de la Web Application de FixCore, distribuyendo las responsabilidades entre los cinco integrantes de TechMakers según los módulos y funcionalidades del sistema. Cada miembro asumió tareas específicas de implementación y colaboró con el equipo durante las revisiones, pruebas e integración de los cambios.
 
-Se documentarán las actividades de coordinación realizadas por los cinco integrantes, las contribuciones registradas, las dificultades surgidas durante el desarrollo y las decisiones tomadas para integrar los módulos.
+Para coordinar el trabajo utilizamos reuniones virtuales, Trello y GitHub. El tablero del Sprint Backlog permitió organizar las tareas, realizar un seguimiento de su progreso y asignar responsabilidades, mientras que el repositorio facilitó el control de versiones y el registro de los commits realizados por los integrantes.
+El desarrollo se realizó utilizando Angular, TypeScript y Angular Material, organizando la aplicación en módulos relacionados con la gestión de activos, mantenimiento, órdenes de trabajo, inventario y analítica. Asimismo, se implementaron interfaces diferenciadas para los perfiles de Jefe de Planta, Gerente de Operaciones y Técnico de Mantenimiento, con funcionalidades adaptadas a las responsabilidades de cada usuario. Durante la integración fue necesario revisar la navegación, la presentación de los componentes y el funcionamiento de las distintas vistas para mantener una experiencia de usuario coherente.
 
-También se incorporarán las métricas de colaboración de GitHub y las evidencias relacionadas con el seguimiento del Sprint Backlog en Trello.
+El trabajo realizado permitió establecer la estructura principal de la Web Application de FixCore e implementar las funcionalidades iniciales de sus principales módulos. Además, se incorporaron elementos compartidos de navegación, acceso según el perfil del usuario y una interfaz adaptable a diferentes dispositivos. De esta manera, las actividades del Sprint 2 contribuyeron a fortalecer la coordinación del equipo y sentar las bases para continuar con la integración, validación y mejora de las funcionalidades del sistema en los siguientes sprints.
 
+Métricas de colaboración:
+
+![alt text](report/assets/Evidence-Sprint2/evidence-sprint2.png)
 
 
 <div style="page-break-after: always;"></div>
