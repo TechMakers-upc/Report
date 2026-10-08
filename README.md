@@ -4280,6 +4280,8 @@ Los commits muestran parte del proceso de implementación de las distintas secci
 
 #### 5.2.1.5. Execution Evidence for Sprint Review.
 
+**Video de presentación del Sprint 1:** [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423973_upc_edu_pe/IQD6WLEWUP5oQLbSvCXtwgcqAZEWm3YKXW1kVty23sprr_g?e=01QNKW)
+
 En esta sección presentamos las evidencias visuales de las funcionalidades implementadas durante el Sprint 1. Las capturas corresponden a la primera versión de la Landing Page y muestran las principales secciones desarrolladas.
 
 **1. Navbar y Hero Section**
@@ -4556,6 +4558,8 @@ Durante el Sprint 2 utilizamos Git y GitHub, con la extensión GitFlowHelper de 
 
 
 #### 5.2.2.5. Execution Evidence for Sprint Review.
+
+**Video de presentación del Sprint 2:** [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c554_upc_edu_pe/IQAUYlQa0B7NQrXxJbTrLBoyAcmdZetyTMORm1Pi7hRGtfM?e=pniRwM)
 
 Durante el Sprint 2 se implementó la primera versión de la Web Application de FixCore, desarrollada con Angular 22, TypeScript, Angular Material, RxJS y Angular Router. La aplicación está organizada por módulos orientados a la gestión del mantenimiento industrial, incluyendo Asset Management, Service Execution, Maintenance Planning, Inventory y Analytics, además de componentes y servicios compartidos para funcionalidades transversales.
 
@@ -4947,6 +4951,9 @@ W3Schools. (s. f.). *HTML style guide and coding conventions*. https://www.w3sch
 <div style="page-break-after: always;"></div>
 
 ## Anexo F. Videos de exposiciones
+
+- [Video de presentación del Sprint 1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423973_upc_edu_pe/IQD6WLEWUP5oQLbSvCXtwgcqAZEWm3YKXW1kVty23sprr_g?e=01QNKW)
+- [Video de presentación del Sprint 2](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c554_upc_edu_pe/IQAUYlQa0B7NQrXxJbTrLBoyAcmdZetyTMORm1Pi7hRGtfM?e=pniRwM)
 
 - [Video de exposición AV1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202324461_upc_edu_pe/IQDmty3FNqrWTLFvZG58kxPfAfv-bKwb9TGY5O8XUFahqSs?e=p3LPOL)
 
