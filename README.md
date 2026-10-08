@@ -4062,6 +4062,7 @@ En esta sección se encuentran las herramientas usadas por los integrantes del e
 |:-------|:---------------|:-----------------|
 |Visual Studio Code |Usado para el desarrollo de la Landing Page|https://code.visualstudio.com/
 |Git|Control de versiones|https://git-scm.com/
+|JetBrains Webstorm|Usado para el desarrollo del frontend web application|https://www.jetbrains.com/es-es/|
 ||||
 
 **Software Deployment** 
@@ -4071,6 +4072,8 @@ Se presentan los productos usados para el despliegue de nuestros productos de so
 |Producto|Proposito de uso|Ruta de referencia|
 |:-------|:---------------|:-----------------|
 |GitHub Pages|Plataforma de despliegue para el landing page|https://docs.github.com/es/pages
+|Vercel|Despliegue de paginas frontend|https://vercel.com/|
+|Render|Despliegue de servicios web|https://render.com/|
 ||||
 
 **Software Documentation**
@@ -4470,9 +4473,26 @@ El cumplimiento de estos criterios permitirá evaluar el avance del frontend. La
 
 #### 5.2.2.4. Development Evidence for Sprint Review.
 
-Pendiente de completar con los commits reales del Sprint 2.
+Durante el Sprint 2 utilizamos Git y GitHub, con la extensión GitFlowHelper de Jetbrains Webstorm para gestionar los cambios realizados en el código fuente de la frontend web application. La siguiente tabla presenta los cambios de la aplicación web registrados en GitHub durante el desarrollo, identificando las ramas utilizadas, los responsables, los mensajes de commit y las fechas correspondientes.
 
-En esta sección se documentarán los cambios registrados en GitHub durante el desarrollo, identificando las ramas utilizadas, los responsables, los mensajes de commit y las fechas correspondientes.
+| Repository | Branch | Commit ID | Commit Message | Commit Message Body | Committed on |
+|---|---|---|---|---|---|
+| Frontend | feature/frontend-setup-assets | b94f329 | chore(shared): integrate frontend services and reusable components | | Oct 8, 2026 |
+| Frontend | feature/frontend-setup-assets | ad2c0d9 | feat(assets): add plant and machine management forms | | Oct 8, 2026 | 
+| Frontend | feature/frontend-setup-assets | 376e60f | feat(assets): add machine details and maintenance history | | Oct 8, 2026 | 
+| Frontend | feature/failures-dashboard | 3854c5a | feat(failures): implement failure reporting interface | | Oct 8, 2026 | 
+| Frontend | feature/failures-dashboard | 7f04637 | feat(failures): add failure details and pending reports | | Oct 8, 2026 | 
+| Frontend | feature/failures-dashboard | 93c4ca2 | feat(analytics): add operations dashboard and status indicators | | Oct 8, 2026 | 
+| Frontend | feature/preventive-maintenance | 4995d52 | feat(maintenance): implement preventive scheduling forms | | Oct 8, 2026 | 
+| Frontend | feature/preventive-maintenance | 2fe7221 | feat(maintenance): add calendar and maintenance status views| | Oct 8, 2026 | 
+| Frontend | feature/preventive-maintenance | 9796005 | feat(maintenance): integrate module navigation and routes| | Oct 8, 2026 | 
+| Frontend | feature/work-orders | fc52f8c | feat(work-orders): add work order creation and assignment | | Oct 8, 2026 | 
+| Frontend | feature/work-orders | 0867eb7 | feat(work-orders): implement execution and closing workflows | | Oct 8, 2026 | 
+| Frontend | feature/inventory-integration | 52d6549 | feat(inventory): add spare parts forms and shared validations| | Oct 8, 2026 | 
+| Frontend | feature/inventory-integration | d0224b4 | feat(inventory): implement stock views and minimum levels| | Oct 8, 2026 | 
+| Frontend | fix/frontend-integration-deployment | 5bab08c | feat: integrate FixCore Sprint 2 frontend and responsive Figma design | | Oct 8, 2026 | 
+| Frontend | fix/frontend-integration-deployment | 05375b4 | fix: apply Sprint 2 frontend audit corrections | | Oct 8, 2026 | 
+
 
 #### 5.2.2.5. Execution Evidence for Sprint Review.
 
@@ -4484,6 +4504,154 @@ Las capturas deberán mostrar el funcionamiento real de los componentes y no ún
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review.
 
+Durante esta entrega se implementó una versión preliminar de un web service mediante un mock API usando JSON server. Esta versión permite que los usuarios puedan consultar, crear y actualizar datos de la plataforma.
+
+A continuación se presentan los endpoints implementados.
+
+|Acción|Endpoint|Verbos HTTP|URL|
+|:-----|:-------|:---------|:---------|
+|Consultar y validar información de usuarios|/users|GET|https://fixcore-json-api.onrender.com/users|
+|Consultar y actualizar información de plantas|/plants|GET, PUT|https://fixcore-json-api.onrender.com/plants|
+|Consultar, actualizar y añadir maquinas|/assets/|GET, POST, PUT|https://fixcore-json-api.onrender.com/assets|
+|Consultar, editar y agregar mantenimientos|/maintenance-plans|GET, POST ,PUT|https://fixcore-json-api.onrender.com/maintenance-plans|
+|Consultar, editar y reportar fallos en maquinas|/failures|GET, POST, PUT|https://fixcore-json-api.onrender.com/failures|
+|Consultar, actualizar y añadir ordenes de trabajo|/work-orders|GET, POST, PUT| https://fixcore-json-api.onrender.com/work-orders|
+|Consultar, actualizar y agregar inventario de repuestos|/spare-parts|GET, POST, PUT|https://fixcore-json-api.onrender.com/spare-parts|
+|Consultar y agregar movimientos de inventario |/stock-movements|GET, POST|https://fixcore-json-api.onrender.com/stock-movements|
+
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review.
+
+Durante el Sprint 2, el alcance de desarrollo se limitará al frontend de FixCore y la publicación de una mock API que permita la obtención y publicación de recursos dentro de la plataforma.
+
+**Publicación del Mock API**
+
+Para publicar la mock API se ha utilizado Render, una plataforma que permite el despliegue de aplicaciones web, APIs, bases de datos, entre otros.
+
+<div align="center">
+  Se accede al sitio de Render con una cuenta creada, se hace click al botón New y se selecciona la opción Web Service<br><br>
+  <img src="report/assets/images/sprint-2-api-deploy-1.jpeg" width="700"><br>
+</div>
+
+<div align="center">
+  Dentro de la pestaña de New Web Service se vincula la cuenta de render con la de GitHub y se instala Render en el repositorio del Frontend de la organización<br><br>
+  <img src="report/assets/images/sprint-2-api-deploy-2.jpeg" width="700"><br>
+</div>
+
+
+<div align="center">
+  <img src="report/assets/images/sprint-2-api-deploy-3.jpeg" width="700"><br>
+</div>
+
+<div align="center">
+  Al seleccionar Only select repositories se puede seleccionar solo el repositorio con la mock API<br><br>
+  <img src="report/assets/images/sprint-2-api-deploy-4.jpeg" width="700"><br>
+</div>
+
+<div align="center">
+  Una vez instalado, se selecciona el repositorio con la mock API, en nuestro caso se encuentra en TechMakers / Frontend<br><br>
+  <img src="report/assets/images/sprint-2-api-deploy-5.jpeg" width="700"><br>
+</div>
+
+<div align="center">
+  Se configura el nombre del servicio, la rama de la cual se desplegará, el lenguaje del servicio y otras configuraciones como la región <br><br>
+  <img src="report/assets/images/sprint-2-api-deploy-6.jpeg" width="700"><br>
+</div>
+
+<div align="center">
+  Para nuestro caso se llamará fixcore-json-api y se ejecutará el comando de build: npm install --no-save json-servera1.0.0-beta.15 , junto con el comando start: npx json-server public/mock/db.json --host 0.0.0.0 --port $PORT<br><br>
+  <img src="report/assets/images/sprint-2-api-deploy-9.jpeg" width="700"><br>
+</div>
+
+<div align="center">
+  Es posible asignarle más recursos al servidor o solo usar el plan gratis <br><br>
+  <img src="report/assets/images/sprint-2-api-deploy-7.jpeg" width="700"><br>
+</div>
+
+<div align="center">
+  Para nuestro caso se usará el plan gratis <br><br>
+  <img src="report/assets/images/sprint-2-api-deploy-10.jpeg" width="700"><br>
+</div>
+
+<div align="center">
+  Una vez configurado, se presiona el botón Deploy Web Service <br><br>
+  <img src="report/assets/images/sprint-2-api-deploy-8.jpeg" width="700"><br>
+</div>
+
+<div align="center">
+  Al desplegarse, primero se ejecuta el build command definido previamente <br><br>
+  <img src="report/assets/images/sprint-2-api-deploy-11.jpeg" width="700"><br>
+</div>
+
+<div align="center">
+  Al desplegarse, primero se ejecuta el build command definido previamente <br><br>
+  <img src="report/assets/images/sprint-2-api-deploy-12.jpeg" width="700"><br>
+</div>
+
+
+Dirección del Mock API: [https://fixcore-json-api.onrender.com/](https://fixcore-json-api.onrender.com/)
+
+
+**Publicación del Frontend web application**
+
+Para el despliegue de la aplicación web de FixCore se usó Vercel, el cual es una plataforma de despliegue y alojamiento en la nube para sitios y aplicaciones web.
+
+<div align="center">
+  Se accede al sitio de Vercel con una cuenta y se selecciona la opción de GitHub como Git Provider<br><br>
+  <img src="report/assets/images/sprint-2-frontend-deploy-1.jpeg" width="700"><br>
+</div>
+
+<div align="center">
+  Se instala Vercel en el repositorio Frontend de FixCore.<br><br>
+  <img src="report/assets/images/sprint-2-frontend-deploy-2.jpeg" width="700"><br>
+</div>
+
+<div align="center">
+  Una vez instalado y vinculado, se puede importar el repositorio Frontend<br><br>
+  <img src="report/assets/images/sprint-2-frontend-deploy-3.jpeg" width="700"><br>
+</div>
+
+<div align="center">
+  Al importarlo se redirige a la pestaña de creación de proyecto<br><br>
+  <img src="report/assets/images/sprint-2-frontend-deploy-4.jpeg" width="700"><br>
+</div>
+
+<div align="center">
+  Se desglosan los menús Build and Output Settings y Environment Variables<br><br>
+  <img src="report/assets/images/sprint-2-frontend-deploy-5.jpeg" width="700"><br>
+</div>
+
+<div align="center">
+  Se realiza la configuración necesaria en Build and Output Settings, con los comandos de compilacion e instalación, asi como el directorio de salida<br><br>
+  <img src="report/assets/images/sprint-2-frontend-deploy-6.jpeg" width="700"><br>
+</div>
+
+<div align="center">
+  Al seleccionar la opción Deploy se despliega el proyecto y se continua presionando el botón Continue to Project<br><br>
+  <img src="report/assets/images/sprint-2-frontend-deploy-7.jpeg" width="700"><br>
+</div>
+
+<div align="center">
+  Dentro de la pagina del proyecto se accede a la sección Environments y se selecciona el entorno de producción<br><br>
+  <img src="report/assets/images/sprint-2-frontend-deploy-8.jpeg" width="700"><br>
+</div>
+
+<div align="center">
+  Una vez en el entorno de configuración se configura el Branch tracking<br><br>
+  <img src="report/assets/images/sprint-2-frontend-deploy-9.jpeg" width="700"><br>
+</div>
+
+<div align="center">
+  Allí se puede configurar la rama que se va a usar para el despliegue, se usa una rama fix para pruebas<br><br>
+  <img src="report/assets/images/sprint-2-frontend-deploy-10.jpeg" width="700"><br>
+</div>
+
+<div align="center">
+  En la sección de Deployments del proyecto se observa el estado de compilación del frontend<br><br>
+  <img src="report/assets/images/sprint-2-frontend-deploy-11.jpeg" width="700"><br>
+</div>
+
+
+Enlace al frontend web application desplegado: (https://fixcore-frontend-eight.vercel.app/demo)[https://fixcore-frontend-eight.vercel.app/demo]
 Durante el Sprint 2 se implementó la primera versión de la Web Application de FixCore, desarrollada con Angular 22, TypeScript, Angular Material, RxJS y Angular Router. La aplicación está organizada por módulos orientados a la gestión del mantenimiento industrial, incluyendo Asset Management, Service Execution, Maintenance Planning, Inventory y Analytics, además de componentes y servicios compartidos para funcionalidades transversales.
 
 La aplicación consume información desde una Fake API desplegada en Render, utilizando HttpClient para realizar las operaciones de consulta, registro, actualización y eliminación de datos. También se implementó un layout compartido mediante el componente Workspace Shell, encargado de la navegación principal, selección de planta, notificaciones y acceso a las diferentes funcionalidades según el rol del usuario.
@@ -4577,7 +4745,6 @@ La aplicación consume información desde una Fake API desplegada en Render, uti
 
 Pendiente de completar después del despliegue del frontend.
 
-Esta sección incluirá el repositorio utilizado, la dirección de acceso a la Web Application y las capturas que demuestren la ejecución de las interfaces en el entorno publicado.
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint.
 
