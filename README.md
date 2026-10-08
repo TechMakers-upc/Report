@@ -3411,9 +3411,56 @@ Los perfiles clave contemplados son el Jefe de Planta, quien administra los recu
 
 ### 4.4.1. Web Applications Wireframes. 
 
-Esta sección presenta los wireframes de baja fidelidad de FixCore, diseñados en Figma. La plataforma se estructuró bajo un enfoque mobile-first y responsivo, adaptándose a los tres roles principales del sistema (Jefe de Planta, Técnico y Gerente de Operaciones).
+Esta sección presenta los wireframes de baja fidelidad de FixCore, diseñados en Figma. La plataforma se estructuró bajo un enfoque responsivo, adaptándose a los tres roles principales del sistema (Jefe de Planta, Técnico y Gerente de Operaciones).
 
-<img src="./Assets/Images/Captura de pantalla 2026-09-15 035232.png" alt="wireframes">
+**Wireframes Mobile**
+
+<div align="center">
+  <img src="./Assets/Images/Captura de pantalla 2026-09-15 035232.png" width="700" alt="Wireframes Mobile"><br>
+</div>
+
+**Wireframes Desktop**
+
+<div align="center">
+  <img src="report/assets/images/tm-wireframe-1.jpg" width="700" alt="Wireframe Desktop 1"><br>
+</div>
+
+<div align="center">
+  <img src="report/assets/images/tm-wireframe-2.jpg" width="700" alt="Wireframe Desktop 2"><br>
+</div>
+
+<div align="center">
+  <img src="report/assets/images/tm-wireframe-3.jpg" width="700" alt="Wireframe Desktop 3"><br>
+</div>
+
+<div align="center">
+  <img src="report/assets/images/tm-wireframe-4.jpg" width="700" alt="Wireframe Desktop 4"><br>
+</div>
+
+<div align="center">
+  <img src="report/assets/images/tm-wireframe-5.jpg" width="700" alt="Wireframe Desktop 5"><br>
+</div>
+
+<div align="center">
+  <img src="report/assets/images/tm-wireframe-6.jpg" width="700" alt="Wireframe Desktop 6"><br>
+</div>
+
+<div align="center">
+  <img src="report/assets/images/tm-wireframe-7.jpg" width="700" alt="Wireframe Desktop 7"><br>
+</div>
+
+<div align="center">
+  <img src="report/assets/images/tm-wireframe-8.jpg" width="700" alt="Wireframe Desktop 8"><br>
+</div>
+
+<div align="center">
+  <img src="report/assets/images/tm-wireframe-9.jpg" width="700" alt="Wireframe Desktop 9"><br>
+</div>
+
+<div align="center">
+  <img src="report/assets/images/tm-wireframe-10.jpg" width="700" alt="Wireframe Desktop 10"><br>
+</div>
+
 
 Explicación de la propuesta:
 
@@ -3460,7 +3507,53 @@ Explicación del flujo: El flujo comienza en el panel ejecutivo del Gerente de O
 
 En esta sección presentamos los Mock-ups de alta fidelidad, los cuales materializan visualmente los wireframes que definimos previamente para FixCore. Para su desarrollo en Figma, aplicamos de manera rigurosa los lineamientos de nuestro Design System, integrando la paleta de colores corporativa, la jerarquía tipográfica, el sistema de espaciados y los componentes de interfaz estandarizados, garantizando así total coherencia gráfica de nuestro proyecto.
 
-<img src="./Assets/Images/maqueta0.png" alt="maqueta0">
+**Mockups Mobile**
+
+<div align="center">
+  <img src="./Assets/Images/maqueta0.png" width="700" alt="mockups Mobile"><br>
+</div>
+
+**Mockups Desktop**
+
+<div align="center">
+  <img src="report/assets/images/tm-mockup-1.jpg" width="700" alt="Wireframe Mockup 1"><br>
+</div>
+
+<div align="center">
+  <img src="report/assets/images/tm-mockup-2.jpg" width="700" alt="Wireframe Mockup 2"><br>
+</div>
+
+<div align="center">
+  <img src="report/assets/images/tm-mockup-3.jpg" width="700" alt="Wireframe Mockup 3"><br>
+</div>
+
+<div align="center">
+  <img src="report/assets/images/tm-mockup-4.jpg" width="700" alt="Wireframe Mockup 4"><br>
+</div>
+
+<div align="center">
+  <img src="report/assets/images/tm-mockup-5.jpg" width="700" alt="Wireframe Mockup 5"><br>
+</div>
+
+<div align="center">
+  <img src="report/assets/images/tm-mockup-6.jpg" width="700" alt="Wireframe Mockup 6"><br>
+</div>
+
+<div align="center">
+  <img src="report/assets/images/tm-mockup-7.jpg" width="700" alt="Wireframe Mockup 7"><br>
+</div>
+
+<div align="center">
+  <img src="report/assets/images/tm-mockup-8.jpg" width="700" alt="Wireframe Mockup 8"><br>
+</div>
+
+<div align="center">
+  <img src="report/assets/images/tm-mockup-9.jpg" width="700" alt="Wireframe Mockup 9"><br>
+</div>
+
+<div align="center">
+  <img src="report/assets/images/tm-mockup-10.jpg" width="700" alt="Wireframe Mockup 10"><br>
+</div>
 
 Explicación de la propuesta:
 Los mock-ups reflejan fielmente el diseño visual definitivo de la plataforma. Implementamos una interfaz limpia y estructurada mediante tarjetas (cards), barras de navegación intuitivas y contenedores claramente delimitados que reducen la fatiga visual y facilitan la lectura rápida de los datos. La selección cromática prioriza contrastes óptimos para asegurar una legibilidad excelente tanto en monitores de oficina como en las pantallas móviles utilizadas por los técnicos en la fábrica.
