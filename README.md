@@ -4414,10 +4414,10 @@ La planificación del Sprint 2 considera los resultados obtenidos durante el Spr
 | **Sprint Goal & User Stories** | |
 | Sprint 2 Goal | **Our focus is on** developing the main frontend interfaces of the FixCore Web Application, covering asset management, preventive maintenance, failure reporting, work orders, spare parts inventory, operational dashboards, and navigation from the Landing Page. **We believe it delivers** an integrated and navigable frontend prototype that allows users to explore the main modules and interact with representative maintenance workflows using simulated data. **This will be confirmed when** the planned interfaces are integrated, their navigation and validations are tested, and the frontend is accessible through a deployed application. |
 | Sprint 1 Velocity Reference | 6 Story Points completados |
-| Sprint 2 Velocity | Por determinar al finalizar el sprint |
+| Sprint 2 Velocity | No calculada: las User Stories completas están pendientes de validación |
 | User Stories Considered for Frontend Coverage | 27 |
 | Associated Product Backlog Story Points | 88 Story Points |
-| Sum of Story Points | Por definir según las User Stories comprometidas para el Sprint 2 |
+| Sum of Story Points | No se estableció un compromiso formal de SP; las 27 historias consideradas suman 88 SP |
 
 **User Stories consideradas para la cobertura del frontend**
 
