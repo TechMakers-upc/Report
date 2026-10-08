@@ -4614,7 +4614,7 @@ La aplicación consume información desde una Fake API desplegada en Render, uti
 
 * Resumen de Operaciones - Gerente de Operaciones: Vista general de todas las plantas con indicadores de disponibilidad, órdenes de trabajo abiertas, paradas, cumplimiento preventivo y MTTR.
 
-![alt text]report/assets/Evidence-Sprint2/(image-17.png)
+![Resumen de operaciones](report/assets/Evidence-Sprint2/image-17.png)
 
 * Módulo de Plantas - Gerente de Operaciones: Consulta y seguimiento del estado de las diferentes plantas gestionadas por la organización.
 
