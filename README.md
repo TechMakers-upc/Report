@@ -3828,326 +3828,191 @@ El proceso de despliegue de la solución busca garantizar que, desde el reposito
 
 ## 5.2. Landing Page, Services & Applications Implementation. 
 
-### 5.2.1. Sprint 1 
-En esta sección registramos y explicamos el avance del equipo durante el Sprint 1, tanto en términos del desarrollo del producto en este caso el Landing Page,como en el trabajo colaborativo. El objetivo central de esta iteración fue la construcción y despliegue del sitio web estático que presenta el modelo de negocio de FixCore  
-#### 5.2.1.1. Sprint Planning 1. 
+### 5.2.1. Sprint 1
 
-<div align="center">
-<table border="1">
-  <tr>
-    <th> Sprint #
-    </th>
-    <th> Sprint 1
-    </td>
-  </tr>
-  <tr>
-    <th> Sprint Planning Background
-    </th>
-  </tr>
+Durante el Sprint 1, el equipo TechMakers trabajó en el desarrollo y despliegue de la Landing Page de FixCore, con el objetivo de presentar la propuesta de valor del producto y dar a conocer sus principales funcionalidades a los segmentos definidos. En esta etapa nos enfocamos en implementar un sitio web informativo, responsivo y accesible desde distintos dispositivos.
 
-  <tr>
-    <th> Date
-    </th>
-    <td> 2026-09-11
-    </td>
-  </tr>
+A continuación, se presentan la planificación del sprint, las responsabilidades de cada integrante, el Sprint Backlog, las evidencias de desarrollo y despliegue, y los resultados del trabajo colaborativo.
 
-  <tr>
-    <th> Time
-    </th>
-    <td> 7:00 PM - 8:PM
-    </td>
-  </tr>
+#### 5.2.1.1. Sprint Planning 1.
 
-  <tr>
-    <th> Location
-    </th>
-    <td> Discord
-    </td>
-  </tr>
+La planificación del Sprint 1 se realizó mediante una reunión virtual en Discord. Durante esta sesión, definimos el objetivo del sprint, seleccionamos las User Stories relacionadas con la Landing Page y distribuimos las responsabilidades de implementación entre los integrantes del equipo.
 
-  <tr>
-    <th> Prepared By
-    </th>
-    <td> Alvar Lucas Córdova 
-    </td>
-  </tr>
+| Campo | Información |
+|---|---|
+| Sprint # | Sprint 1 |
+| **Sprint Planning Background** | |
+| Date | 2026-09-11 |
+| Time | 7:00 PM - 8:00 PM |
+| Location | Discord |
+| Prepared By | Alvar Lucas Córdova |
+| Attendees | Sunio Danilo Landa Sánchez, Giuseppe Adrián Villanueva Rodríguez, Diego Rances Rojas Huaranga y Pierre Alessandro Mendoza Boluarte |
+| **Sprint Goal & User Stories** | |
+| Sprint 1 Goal | **Our focus is on** developing and deploying a responsive Landing Page that clearly presents FixCore and its value proposition. **We believe it delivers** accessible information about the product, its main features, benefits, subscription plans and frequently asked questions for the defined target segments. **This will be confirmed when** the Landing Page is published on GitHub Pages and visitors can navigate its main sections from desktop and mobile devices. |
+| Sprint 1 Velocity | 6 Story Points completados |
+| Sum of Story Points | 7 Story Points planificados |
 
-  <tr>
-    <th> Attendees
-    </th>
-    <td> Sunio Danilo Landa Sánchez<br>Giuseppe Adrián Villanueva Rodríguez<br>Diego Rances Rojas Huaranga<br>Pierre Alessandro Mendoza Boluarte
-    </td>
-    
-  </tr>
+Para este sprint se seleccionaron cinco User Stories relacionadas con la presentación de FixCore: US59, US60, US61, US62 y US63. Estas historias suman 7 Story Points en el Product Backlog.
 
-  <tr>
-    <th colspan="2"> Sprint Goal & User Stories
-    </th>
-  </tr>
+Se completaron las funcionalidades informativas principales, correspondientes a 6 Story Points. La US63 requiere terminar de habilitar el acceso a los términos y condiciones desde el Footer para considerarse completamente finalizada.
 
-  <tr>
-    <th> Sprint 1 Goal
-    </th>
-    <td> 
-    <b>Our focus is on</b> deploying a clear, responsive, and functional Landing Page that effectively presents the core benefits of the FixCore industrial maintenance platform.<br><br>
-      <b>We believe it delivers</b> a professional first impression and increases trust by providing clear value propositions to our target segments: Plant Managers, Technicians, and Industrial Consultants.<br><br>
-      <b>This will be confirmed when</b> the landing page is successfully deployed and visitors can navigate
-    </td>
-  </tr>
+#### 5.2.1.2. Aspect Leaders and Collaborators.
 
-  <tr>
-    <th> Sprint 1 Velocity
-    </th>
-    <td> 9
-    </td>
-  </tr>
+Para organizar el trabajo del Sprint 1, elaboramos una Leadership and Collaboration Matrix en la que se asignó un responsable principal para cada sección de la Landing Page. Los demás integrantes participaron como colaboradores, apoyando en la revisión de las interfaces, integración de cambios y correcciones necesarias.
 
-  <tr>
-    <th> Sum of Story Points
-    </th>
-    <td> 9
-    </td>
-  </tr>
-</table>
-</div>
+En la siguiente matriz, **L** representa al líder de la actividad y **C** a los colaboradores.
 
-#### 5.2.1.2. Aspect Leaders and Collaborators. 
-
-A continuación se presenta la Leadership and Collaboration Matrix elaborada para el desarrollo de este Sprint 1 con el despliegue de la Landing Page
-
-
-| Team Member (Last Name, First Name) | GitHub Username| Landing Page Hero & Navbar<br>Leader (L) / Collaborator (C) | Features & Usage Guide Section<br>Leader (L) / Collaborator (C) | Segmented Benefits & Testimonials<br>Leader (L) / Collaborator (C) | Monthly & Annual Pricing Views<br>Leader (L) / Collaborator (C) | FAQ Component & Support<br>Leader (L) / Collaborator (C) |
-| ----------------------------------- | ------------------------------------------------ | ------------------------------------------------------ | ----------------------------------------------------------------------- | ---------------------------------------------------------- | ----------------------------------------------------------- | --------------------------------------------------------------- |
+| Team Member (Last Name, First Name) | GitHub Username | Landing Page Hero & Navbar | Features & Usage Guide Section | Segmented Benefits & Testimonials | Monthly & Annual Pricing Views | FAQ Component & Support |
+|---|---|---|---|---|---|---|
 | Rojas Huaranga, Diego Rances | diego27-16 | L | C | C | C | C |
 | Mendoza Boluarte, Pierre Alessandro | pierreale2302 | C | L | C | C | C |
 | Córdova, Alvar Lucas | AlvarLC | C | C | L | C | C |
 | Landa Sánchez, Sunio Danilo | DanLandio | C | C | C | L | C |
 | Villanueva Rodríguez, Giuseppe Adrián | Giuseppe152004 | C | C | C | C | L |
 
+Esta distribución permitió que cada integrante se concentrara en una sección específica del sitio, mientras el resto del equipo brindaba apoyo cuando era necesario. De esta manera, pudimos desarrollar las diferentes partes de la Landing Page en paralelo y posteriormente integrarlas en una misma versión.
 
+#### 5.2.1.3. Sprint Backlog 1.
 
-#### 5.2.1.3. Sprint Backlog 1. 
+El Sprint Backlog 1 reúne las tareas que definimos para implementar las secciones principales de la Landing Page de FixCore. Estas actividades están relacionadas con cinco User Stories del Product Backlog y fueron distribuidas entre los integrantes del equipo según las responsabilidades establecidas durante la planificación.
 
-El objetivo principal del Sprint 1 fue desarrollar la Landing Page de FixCore con las principales secciones e informacion dirigida a los segmentos definidos para la plataforma. 
+Para hacer seguimiento a las actividades utilizamos Trello, donde registramos las tareas asignadas, sus responsables y sus estados durante el desarrollo del sprint.
 
-Enlace al tablero publico en Trello: 
+**Enlace al Sprint Backlog 1:**
 
 [Tablero Trello Sprint Backlog 1](https://trello.com/b/8ilypk4J/sprint-backlog-1-techmakers)
 
-<div align="center">
-<table border="1">
-  <tr>
-    <th>Sprint #</th>
-    <th colspan="7">Sprint 1</th>
-  </tr>
+| Story ID | Story Title | Task ID | Task Title | Task Description | Estimation (hours) | Assigned To | Status |
+|---|---|---|---|---|---|---|---|
+| US59 | Conocer FixCore | T001 | Develop Landing Page Hero | Implementar la sección principal del Hero con la propuesta de valor y el llamado a la acción de FixCore. | 2 | Rojas Huaranga, Diego Rances | Done |
+| US59 | Conocer FixCore | T002 | Add Landing Page Navbar | Implementar la barra de navegación con el logo, enlaces a las secciones de FixCore y diseño responsivo. | 2 | Rojas Huaranga, Diego Rances | Done |
+| US60 | Conocer funcionalidades de FixCore | T003 | Develop Features Section | Desarrollar la sección que presenta las funcionalidades principales de FixCore y la vista referencial del dashboard. | 3 | Mendoza Boluarte, Pierre Alessandro | Done |
+| US60 | Conocer funcionalidades de FixCore | T004 | Design User Guide Section | Diseñar e implementar los pasos explicativos sobre el funcionamiento general de FixCore. | 2 | Mendoza Boluarte, Pierre Alessandro | Done |
+| US61 | Conocer beneficios según el segmento | T005 | Write Benefits for Each Segment | Redactar e implementar la sección de beneficios de FixCore adaptada a los diferentes segmentos objetivo. | 2 | Córdova, Alvar Lucas | Done |
+| US61 | Conocer beneficios según el segmento | T006 | Add User Testimonials | Diseñar e incorporar una sección de testimonios ilustrativos para presentar situaciones de uso y beneficios esperados de FixCore. | 2 | Córdova, Alvar Lucas | Done |
+| US62 | Consultar planes de FixCore | T007 | Develop Monthly Pricing Plans | Implementar las tarjetas de planes de suscripción, mostrando sus características y tarifas mensuales. | 2 | Landa Sánchez, Sunio Danilo | Done |
+| US62 | Consultar planes de FixCore | T008 | Develop Annual Pricing Plans | Implementar la funcionalidad para alternar entre los precios mensuales y anuales. | 2 | Landa Sánchez, Sunio Danilo | Done |
+| US63 | Consultar información adicional de FixCore | T009 | Add Frequently Asked Questions | Implementar la sección de preguntas frecuentes y el Footer para resolver dudas adicionales de los visitantes. | 3 | Villanueva Rodríguez, Giuseppe Adrián | Done |
+| US63 | Consultar información adicional de FixCore | T010 | Write Terms and Conditions | Redactar los términos y condiciones de FixCore y habilitar su consulta desde el enlace correspondiente del Footer. | 2 | Villanueva Rodríguez, Giuseppe Adrián | In Progress |
 
-  <tr>
-    <th colspan="2">User Story</th>
-    <th colspan="6">Work Item / Task</th>
-  </tr>
+Durante el desarrollo del Sprint 1 se implementaron las secciones principales del sitio, incluyendo el Hero, Navbar, funcionalidades, guía de uso, beneficios por segmento, testimonios ilustrativos, planes de suscripción, preguntas frecuentes y Footer.
 
-  <tr>
-    <th>Story ID</th>
-    <th>Story Title</th>
-    <th>Task ID</th>
-    <th>Task Title</th>
-    <th>Task Description</th>
-    <th>Estimation (hours)</th>
-    <th>Assigned To</th>
-    <th>Status</th>
-  </tr>
+La sección de preguntas frecuentes y el Footer se encuentran implementados. Sin embargo, todavía se debe completar el acceso a los términos y condiciones, debido a que el enlace correspondiente no dirige a una página con esa información.
 
-  <tr>
-    <td rowspan="2">US59</td>
-    <td rowspan="2">Conocer FixCore</td>
-    <td>T001</td>
-    <td>Develop Landing Page Hero</td>
-    <td>Implementar la sección principal del Hero con la propuesta de valor y el llamado a la acción de FixCore.</td>
-    <td>2</td>
-    <td>Rojas Huaranga, Diego Rances</td>
-    <td>Done</td>
-  </tr>
+#### 5.2.1.4. Development Evidence for Sprint Review.
 
-  <tr>
-    <td>T002</td>
-    <td>Add Landing Page Navbar</td>
-    <td>Implementar la barra de navegación con logo, enlaces a las secciones de FixCore y diseño responsivo.</td>
-    <td>2</td>
-    <td>Rojas Huaranga, Diego Rances</td>
-    <td>Done</td>
-  </tr>
-  <tr>
-    <td rowspan="2">US60</td>
-    <td rowspan="2">Conocer funcionalidades de FixCore</td>
-    <td>T003</td>
-    <td>Develop Features Section</td>
-    <td>Desarrollar la vista que detalla las funcionalidades principales y el dashboard de la plataforma FixCore.</td>
-    <td>3</td>
-    <td>Mendoza Boluarte, Pierre Alessandro</td>
-    <td>Done</td>
-  </tr>
+Durante el Sprint 1 utilizamos Git y GitHub para gestionar los cambios realizados en el código fuente de la Landing Page. Cada integrante trabajó en las funcionalidades asignadas y registró sus avances mediante commits.
 
-  <tr>
-    <td>T004</td>
-    <td>Design User Guide Section</td>
-    <td>Diseñar e implementar los pasos explicativos (System Preview) sobre cómo funciona y se usa FixCore.</td>
-    <td>2</td>
-    <td>Mendoza Boluarte, Pierre Alessandro</td>
-    <td>Done</td>
-  </tr>
-  <tr>
-    <td rowspan="2">US61</td>
-    <td rowspan="2">Conocer beneficios según el segmento</td>
-    <td>T005</td>
-    <td>Write Benefits for Each Segment</td>
-    <td>Redactar e implementar la sección de beneficios de FixCore adaptada a los diferentes segmentos objetivo.</td>
-    <td>2</td>
-    <td>Córdova, Alvar Lucas</td>
-    <td>Done</td>
-  </tr>
+La siguiente tabla presenta algunos de los commits realizados durante el desarrollo del sitio. Estos registros permiten identificar los cambios incorporados, las ramas utilizadas y las fechas en las que se realizaron.
 
-  <tr>
-    <td>T006</td>
-    <td>Add User Testimonials</td>
-    <td>Diseñar e incorporar la sección de testimonios para respaldar el uso de FixCore.</td>
-    <td>2</td>
-    <td>Córdova, Alvar Lucas</td>
-    <td>Done</td>
-  </tr>
-  <tr>
-    <td rowspan="2">US62</td>
-    <td rowspan="2">Consultar planes de FixCore</td>
-    <td>T007</td>
-    <td>Develop Monthly Pricing Plans</td>
-    <td>Implementar la tarjeta de planes de suscripción mostrando sus características y tarifa mensual.</td>
-    <td>2</td>
-    <td>Landa Sánchez, Sunio Danilo</td>
-    <td>Done</td>
-  </tr>
-  <tr>
-    <td>T008</td>
-    <td>Develop Annual Pricing Plans</td>
-    <td>Implementar la funcionalidad para alternar visualmente a la vista de facturación con precio anual.</td>
-    <td>2</td>
-    <td>Landa Sánchez, Sunio Danilo</td>
-    <td>Done</td>
-  </tr>
-  <tr>
-    <td rowspan="2">US63</td>
-    <td rowspan="2">Consultas adicionales sobre FixCore</td>
-    <td>T009</td>
-    <td>Add Frequently Asked Questions</td>
-    <td>Implementar la sección de FAQ (preguntas frecuentes) y el Footer para resolver dudas adicionales de FixCore.</td>
-    <td>3</td>
-    <td>Villanueva Rodríguez, Giuseppe Adrián</td>
-    <td>Done</td>
-  </tr>
+| Repository | Branch | Commit ID | Commit Message | Commit Message Body | Committed on |
+|---|---|---|---|---|---|
+| Landing-Page | feature/landing-page-presentation | 0128950 | feat: Enhance index.html with meta tags and header structure | | Sep 19, 2026 |
+| Landing-Page | feature/landing-page-presentation | 18ee3c6 | styles: Add base styles and CSS variables | | Sep 19, 2026 |
+| Landing-Page | feature/landing-page-presentation | 51ba71f | Merge pull request #1 from TechMakers-upc/Feature/landing-page | | Sep 19, 2026 |
+| Landing-Page | feature/functions-landing | c7507e1 | feat(landing): implement features section and add UI assets | | Sep 19, 2026 |
+| Landing-Page | feature/functions-landing | c0f0ae4 | Merge pull request #3 from TechMakers-upc/feature/functions-landing | | Sep 19, 2026 |
+| Landing-Page | feature/benefints-landing-page | ef53f10 | Update index.html | | Sep 19, 2026 |
+| Landing-Page | feature/benefints-landing-page | 2b78517 | Merge pull request #4 from TechMakers-upc/feature/Benefits-Landing-Page | | Sep 19, 2026 |
+| Landing-Page | main | eb0f365 | feat: add subscription plans information cards | | Sep 19, 2026 |
 
-  <tr>
-    <td>T010</td>
-    <td>Write Terms and Conditions</td>
-    <td>Redactar e implementar la sección de términos y condiciones de uso de la plataforma FixCore.</td>
-    <td>2</td>
-    <td>Villanueva Rodríguez, Giuseppe Adrián</td>
-    <td>Done</td>
-  </tr>
+Los commits muestran parte del proceso de implementación de las distintas secciones de la Landing Page. La integración de estos cambios permitió reunir las funcionalidades desarrolladas por el equipo en una versión compartida del sitio web.
 
-</table>
-</div>
+#### 5.2.1.5. Execution Evidence for Sprint Review.
 
-#### 5.2.1.4. Development Evidence for Sprint Review. 
+En esta sección presentamos las evidencias visuales de las funcionalidades implementadas durante el Sprint 1. Las capturas corresponden a la primera versión de la Landing Page y muestran las principales secciones desarrolladas.
 
-Los principales avances en la implementación durante este sprint fueron 
+**1. Navbar y Hero Section**
 
-|Repository|Branch|Commit Id|Commit Message|Commit Message Body|Commited on|
-|:---------|:-----|:--------|:-------------|:------------------|:----------|
-|Landing-Page|feature/landing-page-presentation|0128950|feat: Enhance index.html with meta tags and header structure||Sep 19, 2026|
-|Landing-Page|feature/landing-page-presentation|18ee3c6|styles: Add base styles and CSS variables||Sep 19, 2026|
-|Landing-Page|feature/landing-page-presentation|51ba71f|Merge pull request #1 from TechMakers-upc/Feature/landing-page||Sep 19, 2026|
-|Landing-Page|feature/functions-landing|c7507e1|feat(landing): implement features section and add UI assets||Sep 19, 2026|
-|Landing-Page|feature/functions-landing|c0f0ae4|Merge pull request #3 from TechMakers-upc/feature/functions-landing||Sep 19, 2026|
-|Landing-Page|feature/benefints-landing-page|ef53f10|Update index.html||Sep 19, 2026|
-|Landing-Page|feature/benefints-landing-page|2b78517|Merge pull request #4 from TechMakers-upc/feature/Benefits-Landing-Page||Sep 19, 2026|
-|Landing-Page|main|eb0f365|feat: add subscription plans information cards||Sep 19, 2026|
+Implementamos el encabezado principal de la Landing Page, compuesto por el logo de FixCore, el menú de navegación y la sección Hero. Esta última presenta la propuesta de valor del producto y permite que los visitantes conozcan su propósito desde el inicio.
 
+![Navbar y Hero Section](report/assets/images/nav-hero.png)
 
-#### 5.2.1.5. Execution Evidence for Sprint Review. 
+**2. Funcionalidades y guía de uso**
 
-A continuacion presentaremos la evidencia de ejecucion para el Sprint 1,el cual corresponde a la seccion de Landing Page en su primera version implementadas
+Desarrollamos una sección informativa que presenta las principales funcionalidades propuestas para FixCore. También incorporamos una guía visual que explica cómo se utilizaría la plataforma para organizar actividades de mantenimiento industrial.
 
-* Navbar y Hero Section: Encabezado con menú de navegación y presentación inicial destacando la propuesta de valor para modernizar la gestión de mantenimiento industrial.
+La finalidad de estas secciones es que los visitantes comprendan las capacidades de la solución antes de acceder a la aplicación.
 
-<div align="center">
-  <img src="report/assets/images/nav-hero.png" width="700"><br>
-</div>
+![Funcionalidades de FixCore](report/assets/images/funcionalidades.png)
 
-* Funcionalidades y Guía de Uso : Describe las herramientas operativas de FixCore junto con un flujo paso a paso sobre cómo interactuar con el sistema.
-<div align="center">
-  <img src="report/assets/images/funcionalidades.png" width="700"><br>
-</div>
-<div align="center">
-  <img src="report/assets/images/flujo.png" width="700"><br>
-</div>
+![Guía de uso de FixCore](report/assets/images/flujo.png)
 
-* Beneficios Segmentados y Testimonios: Muestra las ventajas estratégicas como la reducción de tiempos de inactividad no programados respaldadas por opiniones y casos de uso "referenciales".
+**3. Beneficios por segmento y testimonios**
 
-<div align="center">
-  <img src="report/assets/images/soluciones.png" width="700"><br>
-</div>
-<div align="center">
-  <img src="report/assets/images/testimonios.png" width="700"><br>
-</div>
+Implementamos una sección de beneficios orientada a los segmentos objetivo de FixCore. En ella se presentan las ventajas esperadas de la plataforma para pymes manufactureras, firmas contratistas y personal técnico de mantenimiento.
 
- * Planes y Precios : Apartado tarifario que permite alternar entre modalidades de pago mensual y anual detallando las capacidades y límites incluidos en cada nivel de suscripción.
+También incorporamos testimonios ilustrativos que muestran situaciones relacionadas con los problemas que FixCore busca resolver. Estos ejemplos forman parte de la presentación de la propuesta y no constituyen resultados comprobados de clientes que ya utilizan el producto.
 
- <div align="center">
-  <img src="report/assets/images/planes.png" width="700"><br>
-</div>
+![Beneficios de FixCore](report/assets/images/soluciones.png)
 
-* Preguntas Frecuentes y Footer: Espacio con respuestas a dudas habituales y el footer.
+![Testimonios ilustrativos](report/assets/images/testimonios.png)
 
- <div align="center">
-  <img src="report/assets/images/preguntas.png" width="700"><br>
-</div>
+**4. Planes y precios**
 
-<div align="center">
-  <img src="report/assets/images/footer.png" width="700"><br>
-</div>
+Desarrollamos la sección de suscripciones, donde los visitantes pueden revisar los planes propuestos para FixCore y comparar sus características principales.
 
+Además, implementamos un selector que permite alternar entre la visualización de precios mensuales y anuales sin necesidad de cambiar de página.
 
-#### 5.2.1.6. Services Documentation Evidence for Sprint Review. 
+![Planes y precios de FixCore](report/assets/images/planes.png)
 
-Para este primer sprint, nos concentramos en desarrollar la Landing Page de FixCore. Nuestro objetivo fue dejar lista y totalmente responsive toda la parte informativa de la web, cubriendo las secciones del Navbar y Hero, las funcionalidades con su guía de uso, los beneficios junto a testimonios, la tabla interactiva de precios mensuales y anuales, y finalmente el apartado de preguntas frecuentes con soporte y footer.
+**5. Preguntas frecuentes y Footer**
 
-Como esta primera entrega consistió en una página web estática pensada para presentar el producto y validar nuestra propuesta de valor con los usuarios, en esta etapa no fue necesario desarrollar Web Services, endpoints en una API REST ni conectar bases de datos para guardar información.
+Implementamos la sección de preguntas frecuentes para ofrecer respuestas a dudas habituales relacionadas con FixCore, sus funcionalidades y sus planes.
 
+Asimismo, desarrollamos el Footer con enlaces de navegación e información adicional del producto. El acceso al contenido de términos y condiciones permanece pendiente de completarse.
 
-#### 5.2.1.7. Software Deployment Evidence for Sprint Review. 
+![Preguntas frecuentes](report/assets/images/preguntas.png)
 
-Al finalizar el Sprint 1, realizamos el despliegue de la Landing Page de FixCore usando GitHub Pages. Esto nos permite compartir el avance directamente a través de un enlace web público para que cualquier persona pueda revisarlo desde su navegador sin tener que descargar el repositorio ni hacer configuraciones locales.
+![Footer de FixCore](report/assets/images/footer.png)
 
-Esta versión cuenta con todos los componentes que trabajamos en el Sprint 1 como la barra de navegación integrada al hero section, la explicación de las funcionalidades con su guía de uso, la sección de beneficios y testimonios, los planes de precios con alternador mensual/anual y el bloque de preguntas frecuentes junto al footer . Además, nos aseguramos de que toda la maquetación sea adaptable para que se visualice correctamente
+#### 5.2.1.6. Services Documentation Evidence for Sprint Review.
 
-A continuación, presentamos las evidencias visuales del sitio ya publicado y operativo en GitHub Pages:
+Durante el Sprint 1 nos concentramos en desarrollar la Landing Page de FixCore como un sitio web informativo. Las actividades realizadas abarcaron la implementación de sus secciones visuales, la navegación entre contenidos, la presentación de planes y la interacción con las preguntas frecuentes.
 
-<div align="center">
-  <img src="report/assets/images/pages.png" width="700"><br>
-</div>
-<div align="center">
-  <img src="report/assets/images/evidence.png" width="700"><br>
-</div>
+La Landing Page fue desarrollada utilizando tecnologías web como HTML, CSS y JavaScript. Su funcionamiento no requiere una base de datos ni una API REST para presentar la información al visitante.
 
-#### 5.2.1.8. Team Collaboration Insights during Sprint. 
+Por este motivo, durante este sprint no se implementaron Web Services, endpoints o servicios de backend relacionados con la gestión del mantenimiento industrial. Estas funcionalidades corresponden a etapas posteriores del desarrollo de FixCore.
 
-A continuación se presentan los aportes realizados por todos los integrantes del grupo.
+En consecuencia, no se presentan endpoints ni documentación de servicios REST en esta entrega, debido a que no formaron parte del alcance del Sprint 1.
 
-Durante el desarrollo del Sprint 1, organizamos la implementación de la Landing Page de FixCore asignando un responsable principal y colaboradores por cada sección funcional. Esta estructura nos ayudo a  trabajar en paralelo sin generar conflictos entre nuestro código al momento de avanzar. Coordinamos la iteración de manera virtual, estableciendo como objetivo primordial tener la web completamente operativa y desplegada a tiempo. Hicimos seguimiento a través de nuestro tablero de gestión de tareas, lo que nos ayudó a monitorear el flujo del trabajo y asegurar que las historias del Sprint Backlog pasaran a Done antes de la fecha de entrega.
+#### 5.2.1.7. Software Deployment Evidence for Sprint Review.
 
-En la parte técnica, utilizamos GitHub gestionando el flujo con ramas individuales por funcionalidad en branches feature. Esta práctica mantuvo el repositorio ordenado y dejó un registro claro de los aportes de cada integrante para sus respectivos entregables que les tocaba.De esta entrega aprendimos que es necesario las reuniones para agilizar el avance,terminamos a tiempo pero al juntar todo en la rama principal encontramos ligeros desajustes como la traduccion , el espaciado,detalles con los colores y otros ajustes.
+Al finalizar el desarrollo de la Landing Page, realizamos su publicación mediante GitHub Pages. De esta manera, el sitio quedó disponible a través de un enlace público y puede consultarse desde un navegador sin necesidad de descargar o ejecutar el proyecto localmente.
 
-**Metricas de Colaboracion:**
+El repositorio de la Landing Page contiene el código fuente, los estilos y los recursos utilizados para presentar FixCore. También incluye versiones del sitio en español e inglés.
 
+La versión publicada presenta las secciones desarrolladas durante el sprint: Navbar, Hero, funcionalidades, guía de uso, beneficios, testimonios ilustrativos, planes de precios, preguntas frecuentes y Footer.
+
+**Repositorio de código fuente:**
+
+https://github.com/TechMakers-upc/Landing-Page
+
+**Landing Page desplegada:**
+
+https://techmakers-upc.github.io/Landing-Page/
+
+A continuación, se presentan las capturas utilizadas para registrar el despliegue de la Landing Page en GitHub Pages.
+
+![Despliegue de Landing Page en GitHub Pages](report/assets/images/pages.png)
+
+![Evidencia de despliegue](report/assets/images/evidence.png)
+
+#### 5.2.1.8. Team Collaboration Insights during Sprint.
+
+Durante el Sprint 1 organizamos las actividades de desarrollo mediante la distribución de responsabilidades entre los cinco integrantes de TechMakers. Cada miembro asumió el liderazgo de una sección de la Landing Page y colaboró con el resto del equipo durante las revisiones e integración de los cambios.
+
+Para coordinar el trabajo utilizamos reuniones virtuales, Trello y GitHub. El tablero del Sprint Backlog nos permitió mantener un seguimiento de las tareas, mientras que el repositorio registró los commits y las contribuciones realizadas por los integrantes.
+
+Trabajar con ramas independientes facilitó el desarrollo paralelo de las secciones. Sin embargo, durante la integración encontramos algunos problemas relacionados con traducciones, espaciados, colores y diferencias entre componentes. Estos detalles requirieron ajustes adicionales para mantener una presentación uniforme.
+
+A partir de esta experiencia identificamos la importancia de mantener convenciones comunes de diseño y desarrollo, revisar los cambios antes de integrarlos y comunicar oportunamente las dificultades encontradas.
+
+El trabajo realizado permitió completar la estructura principal de la Landing Page y publicarla mediante GitHub Pages. Asimismo, las actividades del sprint nos ayudaron a mejorar la organización del equipo y establecer una base para las siguientes etapas del proyecto.
+
+**Métricas de colaboración:**
+
+![Métricas de colaboración del Sprint 1](report/assets/images/insight.png)
 <div align="center">
   <img src="report/assets/images/insight.png" width="700"><br>
 </div>
