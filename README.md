@@ -1780,39 +1780,53 @@ En conjunto, los resultados muestran la necesidad de centralizar la información
 
 Estos hallazgos sirven como base para la elaboración de los User Personas, User Task Matrix, User Journey Maps y Empathy Maps de FixCore.
 
+## 2.3. Needfinding.
 
-## 2.3. Needfinding. 
+El proceso de needfinding permitió identificar las necesidades, motivaciones, dificultades y oportunidades relacionadas con la digitalización del mantenimiento industrial en los tres segmentos objetivo de FixCore: pymes de manufactura y producción, firmas consultoras o contratistas de ingeniería industrial, y técnicos u operarios de mantenimiento industrial.
 
-El proceso de needfinding permitió identificar las necesidades, motivaciones, dificultades y oportunidades relacionadas con la digitalización del mantenimiento industrial en los tres segmentos objetivo de FixCore: pymes de manufactura y producción, firmas consultoras o contratistas de ingeniería industrial, y técnicos u operarios de mantenimiento industrial. Los hallazgos obtenidos mediante las entrevistas permitieron reconocer patrones relacionados con el uso de herramientas manuales, la dispersión de la información, las dificultades para coordinar actividades de mantenimiento y la necesidad de contar con herramientas digitales simples y accesibles desde distintos dispositivos.
+A partir de las entrevistas realizadas, se identificaron problemas recurrentes relacionados con el uso de herramientas manuales, la dispersión de información, las dificultades para coordinar actividades de mantenimiento y la necesidad de contar con herramientas digitales sencillas y accesibles desde diferentes dispositivos.
 
-Estudios contemporáneos demuestran que, si bien las pymes reconocen el valor de avanzar hacia la digitalización y la Industria 4.0, la adopción de sistemas de gestión todavía presenta importantes barreras de entrada. Una investigación sobre la integración tecnológica en pymes evidenció una brecha entre el conocimiento de estas tecnologías y su implementación efectiva, debido principalmente a los costos iniciales, la complejidad de los sistemas y la resistencia al cambio hacia nuevas herramientas digitales (Narula et al., 2023).
+La digitalización de los procesos industriales representa una oportunidad para mejorar la organización y el acceso a la información. Sin embargo, su implementación también supone dificultades para las pequeñas y medianas empresas. Tamvada et al. (2022) analizaron los riesgos asociados con la adopción de tecnologías de la Industria 4.0 en pymes de economías emergentes e identificaron que los factores financieros y tecnológicos constituyen algunas de las principales barreras. Estos resultados permiten comprender la importancia de considerar los recursos y las capacidades tecnológicas de las organizaciones al diseñar soluciones digitales dirigidas a este segmento.
 
-Del mismo modo, el impacto de una gestión poco digitalizada y de una comunicación ineficiente puede afectar directamente la productividad. El reporte global *The True Cost of Downtime*, publicado por Senseye, compañía de Siemens, analizó el impacto de las paradas de maquinaria no planificadas y estimó que las pérdidas globales asociadas a la inactividad en la industria manufacturera alcanzan aproximadamente 1.5 billones de dólares anuales. Asimismo, el estudio destaca la importancia de mejorar la visibilidad de la información y reducir la dependencia de procesos manuales para disminuir los tiempos de respuesta frente a fallas (Senseye, 2022). Estos resultados se relacionan con los hallazgos obtenidos en las entrevistas, donde se identificó el uso frecuente de WhatsApp, Excel y formatos físicos para comunicar y registrar incidencias.
+Por otra parte, las interrupciones no planificadas de maquinaria pueden generar pérdidas económicas significativas. En el informe *The True Cost of Downtime 2022*, Senseye Predictive Maintenance (2023) estimó que las pérdidas anuales por tiempos de inactividad no planificados alcanzaban aproximadamente 1,5 billones de dólares entre las organizaciones industriales pertenecientes a Fortune Global 500. El estudio también destaca la importancia de utilizar información sobre el estado de los equipos y estrategias de mantenimiento para reducir las interrupciones. Estos resultados permiten comprender la relevancia del problema que busca abordar FixCore, aunque las cifras corresponden a grandes organizaciones industriales y no representan directamente la situación económica de las pymes entrevistadas.
 
-Asimismo, la literatura sobre Smart Maintenance destaca que la movilidad, el uso de dispositivos móviles y las plataformas conectadas representan elementos importantes para la evolución de la gestión del mantenimiento. Estas tecnologías permiten a los técnicos consultar información y gestionar órdenes de trabajo directamente durante sus actividades, favoreciendo la usabilidad, la adopción de los sistemas y la precisión de la información registrada (Bokrantz et al., 2020). Este aspecto coincide con las entrevistas realizadas, en las que el smartphone aparece como uno de los dispositivos más utilizados por técnicos y operarios durante su jornada laboral.
+Asimismo, Bokrantz et al. (2020) estudiaron el concepto de Smart Maintenance e identificaron cuatro dimensiones relacionadas con la modernización del mantenimiento industrial: toma de decisiones basada en datos, recursos humanos, integración interna e integración externa. Su investigación destaca la importancia de compartir información y coordinar las actividades de mantenimiento entre diferentes áreas y participantes. Estos planteamientos se relacionan con los resultados de nuestras entrevistas, donde identificamos dificultades para acceder a información actualizada y coordinar las intervenciones. Además, el uso frecuente de smartphones entre los técnicos entrevistados respalda la decisión de diseñar FixCore como una aplicación web responsiva que pueda utilizarse desde dispositivos móviles.
 
-En conjunto, tanto los hallazgos obtenidos mediante las entrevistas como la literatura revisada evidencian la necesidad de herramientas de mantenimiento que centralicen la información, faciliten la comunicación entre responsables y técnicos, permitan consultar el estado de los repuestos y reduzcan la complejidad de las tareas de registro. Estos resultados sirven como base para la construcción de los User Personas, User Task Matrix, User Journey Maps, Empathy Maps y As-Is Scenario Maps de FixCore.
+En conjunto, los hallazgos obtenidos mediante las entrevistas y la literatura revisada permiten reconocer la necesidad de herramientas de mantenimiento que centralicen la información, faciliten la comunicación entre responsables y técnicos, permitan consultar la disponibilidad de repuestos y reduzcan la complejidad de las tareas de registro.
+
+Estos resultados sirven como base para la elaboración de los User Personas, User Task Matrix, User Journey Maps, Empathy Maps y As-Is Scenario Maps de FixCore.
 
 ### Árbol de Problemas
 
-El Árbol de Problemas fue elaborado para jerarquizar visualmente la problemática, estableciendo una relación de causalidad entre el problema central —la ineficiencia y altos costos por tiempos muertos (downtime) en la gestión de mantenimiento industrial de pymes y sus efectos. Las Causas (raíces) y los Efectos (impactos) identificados fueron validados mediante la triangulación de los hallazgos de las entrevistas de campo y la literatura sectorial reciente, la cual subraya que la dependencia de procesos manuales y la barrera de adopción de software complejo extienden drásticamente los tiempos de recuperación frente a fallas (Senseye, 2022; Narula et al., 2023).
+El Árbol de Problemas fue elaborado para representar las principales causas y consecuencias relacionadas con las dificultades en la gestión del mantenimiento industrial de las pymes. Se estableció como problema central la ineficiencia y los costos asociados a los tiempos muertos de maquinaria.
+
+Para identificar sus causas y efectos, se consideraron los hallazgos obtenidos durante las entrevistas y la literatura revisada. Tamvada et al. (2022) identificaron barreras financieras y tecnológicas para la adopción de nuevas herramientas digitales en pymes, mientras que Senseye Predictive Maintenance (2023) presentó evidencia sobre el impacto económico de las interrupciones no planificadas en grandes organizaciones industriales.
+
+Estas investigaciones permiten contextualizar los problemas relacionados con la digitalización y la continuidad operativa que se representan en el diagrama. Asimismo, los resultados de las entrevistas permitieron identificar dificultades relacionadas con el registro manual de información, la comunicación entre responsables y técnicos, y el seguimiento de las actividades de mantenimiento.
 
 <div align="center">
-  <strong>Gráfico 1: Árbol de problemas</strong><br><br>
+  <strong>Gráfico 2: Árbol de Problemas</strong><br><br>
   <img src="report/assets/images/arbol_problemas.png" width="400"><br>
   <em>Fuente: Elaboración propia.</em>
 </div>
 
 ### Diagrama de Ishikawa
 
-Para complementar el análisis estructural, se aplicó el Diagrama de Ishikawa (Espina de Pescado) categorizando las causas raíz en seis ejes fundamentales: Proceso, Personas, Tecnología, Información, Entorno y Gestión. Este desglose sistemático no solo demuestra el rigor metodológico, sino que también justifica la multidimensionalidad de la solución FixCore al validar las causas operativas (p. ej., la necesidad de Tecnología móvil para superar las limitaciones del Entorno ruidoso de planta y la agilidad de Proceso para combatir la comunicación fragmentada).
+Para complementar el análisis de la problemática, se elaboró un Diagrama de Ishikawa con el propósito de organizar las posibles causas que contribuyen a las dificultades en la gestión del mantenimiento industrial.
+
+Las causas identificadas se agruparon en seis categorías: Proceso, Personas, Tecnología, Información, Entorno y Gestión. Esta clasificación permitió analizar la problemática desde diferentes aspectos de las operaciones industriales y establecer relaciones entre las dificultades observadas durante las entrevistas.
+
+Entre las principales causas consideradas se encuentran la dependencia de registros manuales, la información distribuida entre diferentes herramientas, las dificultades de comunicación, la falta de seguimiento de las actividades y las limitaciones para consultar información técnica durante las intervenciones.
+
+El diagrama permite reconocer que los problemas de mantenimiento no dependen únicamente de las herramientas tecnológicas utilizadas, sino también de la organización de los procesos, la coordinación del personal y la disponibilidad de información actualizada.
+
+Este análisis contribuye a identificar las necesidades que FixCore busca atender mediante la centralización de información, la gestión de Órdenes de Trabajo, la programación de mantenimientos, el control de repuestos y la comunicación entre los participantes.
 
 <div align="center">
-  <strong>Gráfico 2: Diagrama de Ishikawa</strong><br><br>
+  <strong>Gráfico 3: Diagrama de Ishikawa</strong><br><br>
   <img src="report/assets/images/diagrama_ishikawa.png" width="400"><br>
   <em>Fuente: Elaboración propia.</em>
 </div>
-
 
 ### 2.3.1. User Personas.
 
@@ -1821,7 +1835,7 @@ A partir del análisis de las entrevistas realizadas a los tres segmentos objeti
 Los dispositivos, tecnologías y canales de comunicación incluidos en los User Personas fueron definidos a partir de los patrones identificados durante las entrevistas. Debido a que un User Persona representa las características recurrentes de un segmento y no a una única persona entrevistada, estos atributos reúnen comportamientos observados entre diferentes participantes del mismo grupo.
 
 <div align="center">
-  <strong>Gráfico 3: User Persona - Carla García, Jefa de Planta</strong><br><br>
+  <strong>Gráfico 4: User Persona - Carla García, Jefa de Planta</strong><br><br>
   <img src="report/assets/images/Carla García — Jefa de Planta.png" width="700"><br>
   <em>Fuente: Elaboración propia.</em>
 </div>
@@ -1829,7 +1843,7 @@ Los dispositivos, tecnologías y canales de comunicación incluidos en los User 
 <br>
 
 <div align="center">
-  <strong>Gráfico 4: User Persona - Víctor Salazar, Coordinador de Operaciones</strong><br><br>
+  <strong>Gráfico 5: User Persona - Víctor Salazar, Coordinador de Operaciones</strong><br><br>
   <img src="report/assets/images/Víctor Salazar — Coordinador de Operaciones.png" width="700"><br>
   <em>Fuente: Elaboración propia.</em>
 </div>
@@ -1837,39 +1851,23 @@ Los dispositivos, tecnologías y canales de comunicación incluidos en los User 
 <br>
 
 <div align="center">
-  <strong>Gráfico 5: User Persona - José Ramírez, Técnico de Mantenimiento Industrial</strong><br><br>
+  <strong>Gráfico 6: User Persona - José Ramírez, Técnico de Mantenimiento Industrial</strong><br><br>
   <img src="report/assets/images/José Ramírez — Técnico de Mantenimiento Industrial.png" width="700"><br>
   <em>Fuente: Elaboración propia.</em>
 </div>
 
 ### 2.3.2. User Task Matrix.
-El presente User Task Matrix reúne las principales tareas que realizan los User Personas representativos de los tres segmentos objetivo de FixCore para alcanzar sus objetivos relacionados con la gestión del mantenimiento industrial.
 
-Las tareas consideradas corresponden a actividades que los usuarios realizan actualmente dentro de sus procesos de mantenimiento, independientemente de la existencia de FixCore. Para cada tarea se consideran dos criterios:
+El User Task Matrix de FixCore presenta las principales tareas que realizan los User Personas de los tres segmentos objetivo durante sus actividades de mantenimiento industrial. Estas tareas se identificaron a partir de las entrevistas realizadas y corresponden a los procesos actuales de los usuarios, independientemente de la implementación de FixCore.
 
-- **Frecuencia (Frc):** indica qué tan seguido el User Persona realiza la tarea.
-- **Importancia (Imp):** indica qué tan relevante resulta la tarea para alcanzar sus objetivos.
+Para analizar cada tarea, se consideran dos criterios:
 
-Para ambos criterios se emplean los niveles **Alta, Media y Baja**.
+- **Frecuencia (Frc):** indica qué tan seguido el User Persona realiza la tarea durante sus actividades habituales.
+- **Importancia (Imp):** indica qué tan relevante es la tarea para el cumplimiento de sus responsabilidades y objetivos.
 
-Los User Personas considerados representan los siguientes segmentos:
+Ambos criterios se evalúan utilizando los niveles **Alta, Media y Baja**. Las valoraciones permiten comparar las actividades de los tres perfiles e identificar aquellas que tienen mayor relevancia dentro de sus procesos de trabajo.
 
-1. **Técnicos y Operarios de Mantenimiento Industrial:** José Ramírez, Técnico.
-2. **Pymes de Manufactura y Producción:** Carla García, Jefe de Planta.
-3. **Firmas Consultoras y Contratistas de Ingeniería Industrial:** Víctor Salazar, Coordinador de Operaciones.
-
-### 2.3.2. User Task Matrix.
-
-El presente User Task Matrix reúne las principales tareas realizadas por los User Personas representativos de los tres segmentos objetivo de FixCore dentro de sus procesos actuales de mantenimiento industrial.
-
-Las tareas consideradas corresponden a actividades identificadas durante las entrevistas y se plantean independientemente de la existencia de FixCore. Para cada una se consideran dos criterios:
-
-- **Frecuencia (Frc):** indica qué tan seguido el User Persona realiza la tarea dentro de sus actividades habituales.
-- **Importancia (Imp):** indica qué tan relevante resulta la tarea para el cumplimiento de sus responsabilidades y objetivos.
-
-Para ambos criterios se utilizan los niveles **Alta, Media y Baja**. Los valores asignados representan patrones observados durante las entrevistas y permiten comparar las responsabilidades de los tres perfiles.
-
-Los User Personas considerados representan los siguientes segmentos:
+Los User Personas considerados son los siguientes:
 
 1. **Técnicos y Operarios de Mantenimiento Industrial:** José Ramírez, Técnico de Mantenimiento Industrial.
 2. **Pymes de Manufactura y Producción:** Carla García, Jefa de Planta.
@@ -1894,35 +1892,32 @@ Los User Personas considerados representan los siguientes segmentos:
 
 #### Análisis del User Task Matrix
 
-La matriz permite observar diferencias claras entre las actividades realizadas por cada User Persona de acuerdo con sus responsabilidades dentro del proceso de mantenimiento.
+La matriz permite identificar diferencias en la frecuencia e importancia de las tareas realizadas por cada User Persona, de acuerdo con sus responsabilidades dentro de los procesos de mantenimiento industrial.
 
-En el caso de **José Ramírez, Técnico de Mantenimiento Industrial**, las tareas de mayor frecuencia e importancia se encuentran relacionadas con la ejecución directa del mantenimiento. Entre ellas destacan el reporte de fallas, la ejecución de Órdenes de Trabajo, el registro de las actividades realizadas, la consulta de información técnica y la verificación de repuestos antes o durante una intervención.
+En el caso de **José Ramírez, Técnico de Mantenimiento Industrial**, las actividades más frecuentes e importantes se relacionan con la ejecución directa del mantenimiento. Entre ellas destacan el reporte de fallas, la ejecución de Órdenes de Trabajo, el registro de las actividades realizadas, la consulta de información técnica de las máquinas y la verificación de repuestos.
 
-Estas actividades reflejan un perfil principalmente operativo. El técnico necesita contar con información suficiente sobre la máquina, conocer las tareas que debe realizar y confirmar la disponibilidad de los recursos necesarios antes de comenzar un mantenimiento. Asimismo, debe mantener una comunicación constante con los responsables cuando se presenta una falla o una situación que requiere atención inmediata.
+Estas tareas reflejan un perfil principalmente operativo, que necesita acceder a información actualizada para realizar sus actividades correctamente. Antes de comenzar una intervención, el técnico debe conocer las características de la máquina, las tareas asignadas y los recursos disponibles. Asimismo, necesita mantener una comunicación constante con los responsables del mantenimiento para informar sobre fallas o situaciones que requieren atención inmediata.
 
-En el caso de **Carla García, Jefa de Planta**, las tareas más importantes están relacionadas con la planificación, supervisión y control de las actividades de mantenimiento. Entre ellas se encuentran la asignación de técnicos, la planificación de mantenimientos preventivos, la verificación de repuestos, el seguimiento de las Órdenes de Trabajo y la revisión de los tiempos muertos de las máquinas.
+En el caso de **Carla García, Jefa de Planta**, las actividades de mayor importancia están relacionadas con la planificación, supervisión y control del mantenimiento. Sus principales responsabilidades incluyen asignar técnicos, programar mantenimientos preventivos, verificar la disponibilidad de repuestos, supervisar las Órdenes de Trabajo y revisar los tiempos muertos de las máquinas.
 
-A diferencia del Técnico, la Jefa de Planta no participa habitualmente en la ejecución directa de las Órdenes de Trabajo ni en el registro técnico de las intervenciones. Su responsabilidad se concentra en mantener la continuidad de las operaciones, coordinar los recursos necesarios y disponer de información actualizada que le permita tomar decisiones sobre las actividades de mantenimiento.
+A diferencia del Técnico, la Jefa de Planta no participa habitualmente en la ejecución directa de los mantenimientos. Su trabajo se concentra en coordinar los recursos, supervisar las actividades y mantener la continuidad de las operaciones. Por ello, necesita disponer de información actualizada que le permita identificar problemas, establecer prioridades y tomar decisiones oportunas.
 
-Por su parte, **Víctor Salazar, Coordinador de Operaciones**, concentra sus actividades en la gestión simultánea de técnicos, servicios, clientes y plantas. Entre sus tareas más frecuentes e importantes se encuentran la asignación y coordinación de técnicos, el seguimiento de Órdenes de Trabajo y la elaboración de reportes y KPIs para diferentes clientes.
+Por su parte, **Víctor Salazar, Coordinador de Operaciones**, desarrolla principalmente actividades relacionadas con la gestión de técnicos, servicios, clientes y plantas industriales. Las tareas de mayor frecuencia e importancia para este perfil incluyen la asignación y coordinación de técnicos, el seguimiento de Órdenes de Trabajo y la elaboración de reportes e indicadores de mantenimiento para diferentes clientes.
 
-También necesita conocer la disponibilidad de repuestos y recursos antes de enviar a un técnico a una planta, ya que la falta de estos elementos puede generar retrasos durante una intervención. Sin embargo, no participa directamente en la ejecución de los mantenimientos, debido a que su función está principalmente relacionada con la coordinación y supervisión de los servicios.
+El Coordinador de Operaciones también necesita verificar la disponibilidad de repuestos y recursos antes de organizar una intervención, ya que la falta de materiales o personal puede ocasionar retrasos en la atención de los servicios. Sin embargo, su participación se concentra en la coordinación y supervisión, en lugar de la ejecución directa de las actividades técnicas.
 
-La matriz también permite identificar algunas actividades cuya importancia es compartida entre los tres perfiles. La disponibilidad de repuestos resulta relevante porque afecta directamente la posibilidad de realizar una intervención sin retrasos. De manera similar, la comunicación de fallas críticas permite que los responsables conozcan rápidamente una situación que requiere atención, mientras que el seguimiento de las Órdenes de Trabajo facilita conocer el avance de las actividades realizadas.
+Al comparar los tres perfiles, se observa que algunas tareas son importantes para todos, aunque se realizan con diferente frecuencia. Por ejemplo, verificar la disponibilidad de repuestos es relevante porque permite conocer si existen los materiales necesarios para realizar un mantenimiento. Del mismo modo, comunicar fallas críticas resulta importante para coordinar una atención oportuna, mientras que el seguimiento de las Órdenes de Trabajo permite conocer el avance de las actividades pendientes y realizadas.
 
-No obstante, cada User Persona utiliza esta información de manera diferente. El Técnico la necesita para ejecutar correctamente su trabajo, la Jefa de Planta para supervisar y mantener la continuidad de la producción, y el Coordinador de Operaciones para organizar los servicios realizados en diferentes clientes y plantas.
+No obstante, cada perfil utiliza esta información de acuerdo con sus responsabilidades. El Técnico la necesita para ejecutar correctamente sus tareas; la Jefa de Planta, para supervisar el mantenimiento y mantener la continuidad de la producción; y el Coordinador de Operaciones, para organizar los servicios realizados en diferentes plantas y clientes.
 
-En conjunto, el User Task Matrix evidencia la necesidad de que la información relacionada con máquinas, fallas, Órdenes de Trabajo, mantenimientos y repuestos pueda ser consultada por diferentes perfiles de acuerdo con sus responsabilidades. Asimismo, permite identificar qué actividades requieren mayor rapidez y accesibilidad para cada segmento, sirviendo como base para la definición de los flujos y funcionalidades de FixCore.
+En conjunto, el User Task Matrix permite reconocer las actividades que requieren mayor frecuencia de interacción y aquellas que tienen mayor importancia para los usuarios. Estos resultados sirven como referencia para definir las funcionalidades, los flujos de interacción y las prioridades de diseño de FixCore, considerando las necesidades específicas de cada segmento objetivo.
 
-
-
-
-### 2.3.3. User Journey Mapping. 
+### 2.3.3. User Journey Mapping.
 
 A partir de los User Personas definidos, se elaboraron tres User Journey Maps con el propósito de representar el recorrido actual de cada perfil durante las actividades relacionadas con el mantenimiento industrial. En cada mapa se muestran sus objetivos, procesos, principales problemas, experiencia emocional y oportunidades de mejora identificadas durante las entrevistas.
 
 <div align="center">
-  <strong>Gráfico 6: User Journey Map - Carla García, Jefa de Planta</strong><br><br>
+  <strong>Gráfico 7: User Journey Map - Carla García, Jefa de Planta</strong><br><br>
   <img src="report/assets/images/User Journey Map - Carla García — Jefa de Planta.png" width="700"><br>
   <em>Fuente: Elaboración propia.</em>
 </div>
@@ -1930,7 +1925,7 @@ A partir de los User Personas definidos, se elaboraron tres User Journey Maps co
 <br>
 
 <div align="center">
-  <strong>Gráfico 7: User Journey Map - Víctor Salazar, Coordinador de Operaciones</strong><br><br>
+  <strong>Gráfico 8: User Journey Map - Víctor Salazar, Coordinador de Operaciones</strong><br><br>
   <img src="report/assets/images/User Journey Map - Víctor Salazar — Coordinador de Operaciones.png" width="700"><br>
   <em>Fuente: Elaboración propia.</em>
 </div>
@@ -1938,17 +1933,16 @@ A partir de los User Personas definidos, se elaboraron tres User Journey Maps co
 <br>
 
 <div align="center">
-  <strong>Gráfico 8: User Journey Map - José Ramírez, Técnico de Mantenimiento Industrial</strong><br><br>
+  <strong>Gráfico 9: User Journey Map - José Ramírez, Técnico de Mantenimiento Industrial</strong><br><br>
   <img src="report/assets/images/User Journey Map - José Ramírez — Técnico de Mantenimiento Industrial.png" width="700"><br>
   <em>Fuente: Elaboración propia.</em>
 </div>
-
-### 2.3.4. Empathy Mapping. 
+### 2.3.4. Empathy Mapping.
 
 A partir de los User Personas definidos y de los hallazgos obtenidos en las entrevistas, se elaboraron tres Empathy Maps para profundizar en las necesidades, comportamientos, pensamientos, frustraciones y expectativas de cada perfil representativo de los segmentos objetivo de FixCore.
 
 <div align="center">
-  <strong>Gráfico 9: Empathy Map - Carla García, Jefa de Planta</strong><br><br>
+  <strong>Gráfico 10: Empathy Map - Carla García, Jefa de Planta</strong><br><br>
   <img src="report/assets/images/Empathy Map - Carla García — Jefa de Planta.png" width="700"><br>
   <em>Fuente: Elaboración propia.</em>
 </div>
@@ -1956,7 +1950,7 @@ A partir de los User Personas definidos y de los hallazgos obtenidos en las entr
 <br>
 
 <div align="center">
-  <strong>Gráfico 10: Empathy Map - Víctor Salazar, Coordinador de Operaciones</strong><br><br>
+  <strong>Gráfico 11: Empathy Map - Víctor Salazar, Coordinador de Operaciones</strong><br><br>
   <img src="report/assets/images/Empathy Map - Víctor Salazar — Coordinador de Operaciones.png" width="700"><br>
   <em>Fuente: Elaboración propia.</em>
 </div>
@@ -1964,15 +1958,18 @@ A partir de los User Personas definidos y de los hallazgos obtenidos en las entr
 <br>
 
 <div align="center">
-  <strong>Gráfico 11: Empathy Map - José Ramírez, Técnico de Mantenimiento Industrial</strong><br><br>
+  <strong>Gráfico 12: Empathy Map - José Ramírez, Técnico de Mantenimiento Industrial</strong><br><br>
   <img src="report/assets/images/Empathy Map - José Ramírez — Técnico de Mantenimiento Industrial.png" width="700"><br>
   <em>Fuente: Elaboración propia.</em>
 </div>
-
 ### 2.3.5. As-Is Scenario Mapping.
 
+A partir de las necesidades y dificultades identificadas durante las entrevistas, se elaboraron tres As-Is Scenario Maps para representar cómo los usuarios realizan actualmente sus actividades de mantenimiento industrial, antes de la implementación de FixCore.
+
+Estos mapas permiten visualizar los principales pasos de cada proceso, las herramientas utilizadas, los problemas encontrados y las oportunidades de mejora correspondientes a los tres segmentos objetivo.
+
 <div align="center">
-  <strong>Gráfico 9: As-Is Scenario Mapping - Pymes de Manufactura y Producción</strong><br><br>
+  <strong>Gráfico 13: As-Is Scenario Mapping - Pymes de Manufactura y Producción</strong><br><br>
   <img src="report/assets/images/As Is Segmento 1.png" width="700"><br>
   <em>Fuente: Elaboración propia.</em>
 </div>
@@ -1980,7 +1977,7 @@ A partir de los User Personas definidos y de los hallazgos obtenidos en las entr
 <br>
 
 <div align="center">
-  <strong>Gráfico 10: As-Is Scenario Mapping - Firmas Consultoras y Contratistas de Ingeniería Industrial</strong><br><br>
+  <strong>Gráfico 14: As-Is Scenario Mapping - Firmas Consultoras y Contratistas de Ingeniería Industrial</strong><br><br>
   <img src="report/assets/images/As Is Segmento 2.png" width="700"><br>
   <em>Fuente: Elaboración propia.</em>
 </div>
@@ -1988,13 +1985,11 @@ A partir de los User Personas definidos y de los hallazgos obtenidos en las entr
 <br>
 
 <div align="center">
-  <strong>Gráfico 11: As-Is Scenario Mapping - Técnicos y Operarios de Mantenimiento Industrial</strong><br><br>
+  <strong>Gráfico 15: As-Is Scenario Mapping - Técnicos y Operarios de Mantenimiento Industrial</strong><br><br>
   <img src="report/assets/images/As Is Segmento 3.png" width="700"><br>
   <em>Fuente: Elaboración propia.</em>
 </div>
-
-## 2.4. Big Picture EventStorming. 
-
+## 2.4. Big Picture EventStorming.
 
 El Big Picture EventStorming permite representar de manera visual los principales procesos del dominio de mantenimiento industrial. Para su elaboración se siguieron las ocho etapas del proceso de EventStorming, comenzando con la identificación de eventos del dominio y finalizando con la incorporación de los sistemas externos involucrados.
 
@@ -2003,9 +1998,9 @@ El Big Picture EventStorming permite representar de manera visual los principale
 En esta primera etapa se realizó una exploración inicial de los eventos relevantes que ocurren actualmente dentro del dominio. Los Domain Events fueron expresados en tiempo pasado y representan situaciones relacionadas con el mantenimiento correctivo, mantenimiento preventivo, inventario y atención de servicios.
 
 <div align="center">
-    <strong>Gráfico 12: Step 1 - Unstructured Exploration</strong><br><br>
-    <img src="report/assets/images/Big Picture 1.png" width="900"><br>
-    <em>Fuente: Elaboración propia.</em>
+  <strong>Gráfico 16: Step 1 - Unstructured Exploration</strong><br><br>
+  <img src="report/assets/images/Big Picture 1.png" width="900"><br>
+  <em>Fuente: Elaboración propia.</em>
 </div>
 
 <br>
@@ -2015,9 +2010,9 @@ En esta primera etapa se realizó una exploración inicial de los eventos releva
 En esta etapa los Domain Events identificados fueron organizados cronológicamente para representar la secuencia en la que ocurren los diferentes procesos del negocio. Se consideraron los principales flujos correspondientes al mantenimiento correctivo, mantenimiento preventivo, gestión de inventario y atención de servicios.
 
 <div align="center">
-    <strong>Gráfico 13: Step 2 - Timelines</strong><br><br>
-    <img src="report/assets/images/Big Picture 2.png" width="900"><br>
-    <em>Fuente: Elaboración propia.</em>
+  <strong>Gráfico 17: Step 2 - Timelines</strong><br><br>
+  <img src="report/assets/images/Big Picture 2.png" width="900"><br>
+  <em>Fuente: Elaboración propia.</em>
 </div>
 
 <br>
@@ -2027,9 +2022,9 @@ En esta etapa los Domain Events identificados fueron organizados cronológicamen
 Luego de establecer las líneas de tiempo, se identificaron los principales Pain Points presentes en los procesos actuales. Entre ellos se encuentran la información distribuida entre diferentes medios, la dificultad para conocer la disponibilidad de los técnicos, la dispersión de los manuales e historiales y los problemas relacionados con el control de repuestos.
 
 <div align="center">
-    <strong>Gráfico 14: Step 3 - Pain Points</strong><br><br>
-    <img src="report/assets/images/Big Picture 3.png" width="900"><br>
-    <em>Fuente: Elaboración propia.</em>
+  <strong>Gráfico 18: Step 3 - Pain Points</strong><br><br>
+  <img src="report/assets/images/Big Picture 3.png" width="900"><br>
+  <em>Fuente: Elaboración propia.</em>
 </div>
 
 <br>
@@ -2039,9 +2034,9 @@ Luego de establecer las líneas de tiempo, se identificaron los principales Pain
 En esta etapa se identificaron los Pivotal Points, los cuales representan momentos relevantes en los que se produce un cambio importante dentro del flujo del negocio. Estos puntos permiten reconocer transiciones entre distintas fases del proceso de mantenimiento.
 
 <div align="center">
-    <strong>Gráfico 15: Step 4 - Pivotal Points</strong><br><br>
-    <img src="report/assets/images/Big Picture 4.png" width="900"><br>
-    <em>Fuente: Elaboración propia.</em>
+  <strong>Gráfico 19: Step 4 - Pivotal Points</strong><br><br>
+  <img src="report/assets/images/Big Picture 4.png" width="900"><br>
+  <em>Fuente: Elaboración propia.</em>
 </div>
 
 <br>
@@ -2051,9 +2046,9 @@ En esta etapa se identificaron los Pivotal Points, los cuales representan moment
 Posteriormente se incorporaron los Commands que representan las acciones realizadas por los actores del dominio y que generan determinados Domain Events. Entre los principales actores involucrados se encuentran el Plant Manager, Technician y Operations Coordinator.
 
 <div align="center">
-    <strong>Gráfico 16: Step 5 - Commands</strong><br><br>
-    <img src="report/assets/images/Big Picture 5.png" width="900"><br>
-    <em>Fuente: Elaboración propia.</em>
+  <strong>Gráfico 20: Step 5 - Commands</strong><br><br>
+  <img src="report/assets/images/Big Picture 5.png" width="900"><br>
+  <em>Fuente: Elaboración propia.</em>
 </div>
 
 <br>
@@ -2063,9 +2058,9 @@ Posteriormente se incorporaron los Commands que representan las acciones realiza
 En esta etapa se agregaron las Policies que representan reglas del negocio mediante las cuales la ocurrencia de determinados eventos puede provocar la ejecución de nuevas acciones dentro del proceso.
 
 <div align="center">
-    <strong>Gráfico 17: Step 6 - Policies</strong><br><br>
-    <img src="report/assets/images/Big Picture 6.png" width="900"><br>
-    <em>Fuente: Elaboración propia.</em>
+  <strong>Gráfico 21: Step 6 - Policies</strong><br><br>
+  <img src="report/assets/images/Big Picture 6.png" width="900"><br>
+  <em>Fuente: Elaboración propia.</em>
 </div>
 
 <br>
@@ -2075,9 +2070,9 @@ En esta etapa se agregaron las Policies que representan reglas del negocio media
 A continuación, se identificaron los Read Models que contienen la información necesaria para que los actores puedan tomar decisiones durante la ejecución de los procesos. Entre ellos se encuentran la lista de fallas pendientes, disponibilidad de técnicos, historial de máquinas, inventario de repuestos, calendario de mantenimiento y reportes por cliente.
 
 <div align="center">
-    <strong>Gráfico 18: Step 7 - Read Models</strong><br><br>
-    <img src="report/assets/images/Big Picture 7.png" width="900"><br>
-    <em>Fuente: Elaboración propia.</em>
+  <strong>Gráfico 22: Step 7 - Read Models</strong><br><br>
+  <img src="report/assets/images/Big Picture 7.png" width="900"><br>
+  <em>Fuente: Elaboración propia.</em>
 </div>
 
 <br>
@@ -2087,9 +2082,9 @@ A continuación, se identificaron los Read Models que contienen la información 
 Finalmente, se incorporaron los External Systems que actualmente intervienen en los procesos del negocio. Estos sistemas representan herramientas externas utilizadas para comunicar información, registrar datos o intercambiar documentación durante las actividades de mantenimiento.
 
 <div align="center">
-    <strong>Gráfico 19: Step 8 - External Systems</strong><br><br>
-    <img src="report/assets/images/Big Picture 8.png" width="900"><br>
-    <em>Fuente: Elaboración propia.</em>
+  <strong>Gráfico 23: Step 8 - External Systems</strong><br><br>
+  <img src="report/assets/images/Big Picture 8.png" width="900"><br>
+  <em>Fuente: Elaboración propia.</em>
 </div>
 
 <br>
@@ -2105,6 +2100,7 @@ Luego de elaborar el Big Picture EventStorming se identificaron los siguientes p
 - Coordinación de técnicos.
 - Registro y consulta de información técnica.
 - Seguimiento de servicios y elaboración de reportes para clientes.
+
 
 ## 2.5. Ubiquitous Language.
 
@@ -4043,6 +4039,7 @@ El desarrollo del primer avance de **FixCore** permitió definir con mayor clari
 
 <div style="page-break-after: always;"></div>
 
+
 # Bibliografía
 
 Adzic, G. (2012). *Impact mapping: Making a big impact with software products and projects*. Provoking Thoughts. https://www.impactmapping.org/book.html
@@ -4050,6 +4047,8 @@ Adzic, G. (2012). *Impact mapping: Making a big impact with software products an
 Angular. (s. f.). *Angular coding style guide*. https://angular.dev/style-guide
 
 Atlassian. (s. f.). *Flujo de trabajo de Gitflow*. https://www.atlassian.com/es/git/tutorials/comparing-workflows/gitflow-workflow
+
+Bokrantz, J., Skoogh, A., Berlin, C., Wuest, T., & Stahre, J. (2020). Smart Maintenance: An empirically grounded conceptualization. *International Journal of Production Economics, 223*, 107534. https://doi.org/10.1016/j.ijpe.2019.107534
 
 Bradbury, S., Carpizo, B., Gentzel, M., Horah, D., & Thibert, J. (2018, 4 de octubre). *Digitally enabled reliability: Beyond predictive maintenance*. McKinsey & Company. https://www.mckinsey.com/capabilities/operations/our-insights/digitally-enabled-reliability-beyond-predictive-maintenance
 
@@ -4079,15 +4078,17 @@ Material Design. (s. f.). *Accessibility*. Google. https://m1.material.io/usabil
 
 Ministerio de la Producción. (2024). *Anuario estadístico 2023: Industrial, Mipyme y comercio interno*. Observatorio PRODUCEmpresarial. https://www.producempresarial.pe/anuario-estadistico-industrial-mipyme-y-comercio-interno-2023/
 
+Senseye Predictive Maintenance. (2023). *The true cost of downtime 2022*. Siemens. https://assets.new.siemens.com/siemens/assets/api/uuid:3d606495-dbe0-43e4-80b1-d04e27ada920/dics-b10153-00-7600truecostofdowntime2022-144.pdf
+
 Spring. (s. f.). *Spring Boot reference documentation*. https://docs.spring.io/spring-boot/reference/
+
+Tamvada, J. P., Narula, S., Audretsch, D., Puppala, H., & Kumar, A. (2022). Adopting new technology is a distant dream? The risks of implementing Industry 4.0 in emerging economy SMEs. *Technological Forecasting and Social Change, 185*, 122088. https://doi.org/10.1016/j.techfore.2022.122088
 
 UpKeep. (s. f.). *CMMS software*. https://upkeep.com/product/cmms-software/
 
 World Wide Web Consortium. (2023). *Web Content Accessibility Guidelines (WCAG) 2.2*. https://www.w3.org/TR/WCAG22/
 
 W3Schools. (s. f.). *HTML style guide and coding conventions*. https://www.w3schools.com/HTML/html5_syntax.asp
-
-
 
 <div style="page-break-after: always;"></div>
 
@@ -4140,6 +4141,5 @@ W3Schools. (s. f.). *HTML style guide and coding conventions*. https://www.w3sch
 ## Anexo F. Video de Exposición AV1
 
 - [Video de exposición AV1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202324461_upc_edu_pe/IQDmty3FNqrWTLFvZG58kxPfAfv-bKwb9TGY5O8XUFahqSs?e=p3LPOL)
-
 
  
