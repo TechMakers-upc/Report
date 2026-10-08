@@ -3628,6 +3628,16 @@ Obetivo de usuario: Como miembro de una planta industrial, deseo ser capaz de re
 
 ## 4.5. Web Applications Prototyping. 
 
+Con los Mockups realizados hemos elaborado un prototipo en Figma que muestre una versión preliminar de nuestra aplicación web. En este prototipo se consideraron procesos presentes en los Userflows, además de otras vistas generales de las secciones que puede ofrecer la plataforma.
+
+Enlace al prototipo realizado en Figma: [https://www.figma.com/proto/VbkpyP5gwR4Orgl1eNsB7a/Figma-basics?node-id=2449-1168&t=Va1SHaV7XPbK0ZlF-1&scaling=scale-down&content-scaling=fixed&page-id=2439%3A2&starting-point-node-id=2449%3A1168](https://www.figma.com/proto/VbkpyP5gwR4Orgl1eNsB7a/Figma-basics?node-id=2449-1168&t=Va1SHaV7XPbK0ZlF-1&scaling=scale-down&content-scaling=fixed&page-id=2439%3A2&starting-point-node-id=2449%3A1168)
+
+Enlace al video de presentación del prototipo: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423973_upc_edu_pe/IQDYMFuJ7lLVR70eP-ZT_VL8AQQDJFn8kAVoKRjQeePpziU?e=0tnbiI&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423973_upc_edu_pe/IQDYMFuJ7lLVR70eP-ZT_VL8AQQDJFn8kAVoKRjQeePpziU?e=0tnbiI&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+<div align="center">
+  <img src="report/assets/images/tm-prototype-thumbnail.jpg" width="700" alt="Video de presentación de prototipo"><br>
+</div>
+
 ## 4.6. Domain-Driven Software Architecture. 
 
 ### 4.6.1. Design-Level EventStorming. 
