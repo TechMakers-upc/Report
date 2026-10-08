@@ -4319,9 +4319,12 @@ El cumplimiento de estos criterios permitirá evaluar el avance del frontend. La
 
 #### 5.2.2.4. Development Evidence for Sprint Review.
 
-Pendiente de completar con los commits reales del Sprint 2.
+Durante el Sprint 2 utilizamos Git y GitHub, con la extensión GitFlowHelper de Jetbrains Webstorm para gestionar los cambios realizados en el código fuente de la frontend web application. La siguiente tabla presenta los cambios de la aplicación web registrados en GitHub durante el desarrollo, identificando las ramas utilizadas, los responsables, los mensajes de commit y las fechas correspondientes.
 
-En esta sección se documentarán los cambios registrados en GitHub durante el desarrollo, identificando las ramas utilizadas, los responsables, los mensajes de commit y las fechas correspondientes.
+| Repository | Branch | Commit ID | Commit Message | Commit Message Body | Committed on |
+|---|---|---|---|---|---|
+| Frontend |  |  |  | | Sep 19, 2026 |
+
 
 #### 5.2.2.5. Execution Evidence for Sprint Review.
 
@@ -4333,15 +4336,79 @@ Las capturas deberán mostrar el funcionamiento real de los componentes y no ún
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review.
 
-Durante el Sprint 2, el alcance de desarrollo se limitará al frontend de FixCore. Por este motivo, no se contempla implementar endpoints RESTful, servicios de backend ni conexiones con una base de datos.
 
-Para demostrar las principales interacciones se utilizarán datos simulados y estados locales de la aplicación. La documentación de servicios reales se incorporará en las iteraciones que incluyan su desarrollo.
+
 
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review.
 
-Pendiente de completar después del despliegue del frontend.
+Durante el Sprint 2, el alcance de desarrollo se limitará al frontend de FixCore y la publicación de una mock API que permita la obtención y publicación de recursos dentro de la plataforma.
 
-Esta sección incluirá el repositorio utilizado, la dirección de acceso a la Web Application y las capturas que demuestren la ejecución de las interfaces en el entorno publicado.
+**Publicación del Mock API**
+
+Para publicar la mock API se ha utilizado Render, una plataforma que permite el despliegue de aplicaciones web, APIs, bases de datos, entre otros.
+
+<div align="center">
+  Se accede al sitio de Render con una cuenta creada, se hace click al botón New y se selecciona la opción Web Service<br><br>
+  <img src="report/assets/images/sprint-2-api-deploy-1.jpeg" width="700"><br>
+</div>
+
+<div align="center">
+  Dentro de la pestaña de New Web Service se vincula la cuenta de render con la de GitHub y se instala Render en el repositorio del Frontend de la organización<br><br>
+  <img src="report/assets/images/sprint-2-api-deploy-2.jpeg" width="700"><br>
+</div>
+
+
+<div align="center">
+  <img src="report/assets/images/sprint-2-api-deploy-3.jpeg" width="700"><br>
+</div>
+
+<div align="center">
+  Al seleccionar Only select repositories se puede seleccionar solo el repositorio con la mock API<br><br>
+  <img src="report/assets/images/sprint-2-api-deploy-4.jpeg" width="700"><br>
+</div>
+
+<div align="center">
+  Una vez instalado, se selecciona el repositorio con la mock API, en nuestro caso se encuentra en TechMakers / Frontend<br><br>
+  <img src="report/assets/images/sprint-2-api-deploy-5.jpeg" width="700"><br>
+</div>
+
+<div align="center">
+  Se configura el nombre del servicio, la rama de la cual se desplegará, el lenguaje del servicio y otras configuraciones como la región <br><br>
+  <img src="report/assets/images/sprint-2-api-deploy-6.jpeg" width="700"><br>
+</div>
+
+<div align="center">
+  Para nuestro caso se llamará fixcore-json-api y se ejecutará el comando de build: npm install --no-save json-servera1.0.0-beta.15 , junto con el comando start: npx json-server public/mock/db.json --host 0.0.0.0 --port $PORT<br><br>
+  <img src="report/assets/images/sprint-2-api-deploy-9.jpeg" width="700"><br>
+</div>
+
+<div align="center">
+  Es posible asignarle más recursos al servidor o solo usar el plan gratis <br><br>
+  <img src="report/assets/images/sprint-2-api-deploy-7.jpeg" width="700"><br>
+</div>
+
+<div align="center">
+  Para nuestro caso se usará el plan gratis <br><br>
+  <img src="report/assets/images/sprint-2-api-deploy-10.jpeg" width="700"><br>
+</div>
+
+<div align="center">
+  Una vez configurado, se presiona el botón Deploy Web Service <br><br>
+  <img src="report/assets/images/sprint-2-api-deploy-8.jpeg" width="700"><br>
+</div>
+
+<div align="center">
+  Al desplegarse, primero se ejecuta el build command definido previamente <br><br>
+  <img src="report/assets/images/sprint-2-api-deploy-11.jpeg" width="700"><br>
+</div>
+
+<div align="center">
+  Al desplegarse, primero se ejecuta el build command definido previamente <br><br>
+  <img src="report/assets/images/sprint-2-api-deploy-12.jpeg" width="700"><br>
+</div>
+
+
+
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint.
 
