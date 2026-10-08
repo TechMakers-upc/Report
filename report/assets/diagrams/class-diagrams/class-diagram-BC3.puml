@@ -1,11 +1,10 @@
-@startuml FixCore_Service_Planning
-
+@startuml
 title FixCore - Class Diagram - Service Design & Planning
 
 skinparam classAttributeIconSize 0
 
 ' frecuencias y estados de la programacion
-enum FrequencyType {
+enum FrequencyTypes {
     DAILY
     WEEKLY
     MONTHLY
@@ -14,7 +13,7 @@ enum FrequencyType {
     ANNUAL
 }
 
-enum ScheduleStatus {
+enum ScheduleStatuses {
     SCHEDULED
     RESCHEDULED
     COMPLETED
@@ -23,11 +22,11 @@ enum ScheduleStatus {
 }
 
 ' clases para armar los planes
-class MaintenancePlan {
+class MaintenancePlans {
     - id: UUID
     - name: String
     - description: String
-    - frequency: FrequencyType
+    - frequency: FrequencyTypes
     - active: Boolean
     - createdAt: DateTime
     - updatedAt: DateTime
@@ -36,14 +35,14 @@ class MaintenancePlan {
     + update(): void
     + activate(): void
     + deactivate(): void
-    + generateSchedule(): MaintenanceSchedule
+    + generateSchedule(): MaintenanceSchedules
 }
 
-class MaintenanceSchedule {
+class MaintenanceSchedules {
     - id: UUID
     - scheduledDate: DateTime
     - nextDate: DateTime
-    - status: ScheduleStatus
+    - status: ScheduleStatuses
     - createdAt: DateTime
 
     + schedule(date: DateTime): void
@@ -53,50 +52,49 @@ class MaintenanceSchedule {
     + isOverdue(): Boolean
 }
 
-class MaintenancePlanner {
+class MaintenancePlanners {
     - id: UUID
 
-    + createPlan(): MaintenancePlan
-    + scheduleMaintenance(plan: MaintenancePlan date: DateTime): MaintenanceSchedule
-    + rescheduleMaintenance(schedule: MaintenanceSchedule date: DateTime): void
-    + checkDueMaintenance(): List<MaintenanceSchedule>
+    + createPlan(): MaintenancePlans
+    + scheduleMaintenance(plan: MaintenancePlans, date: DateTime): MaintenanceSchedules
+    + rescheduleMaintenance(schedule: MaintenanceSchedules, date: DateTime): void
+    + checkDueMaintenance(): List<MaintenanceSchedules>
 }
 
 ' interfaces y consultas
 interface IMaintenancePlanRepository {
-    + findById(id: UUID): MaintenancePlan
-    + save(plan: MaintenancePlan): void
-    + update(plan: MaintenancePlan): void
+    + findById(id: UUID): MaintenancePlans
+    + save(plan: MaintenancePlans): void
+    + update(plan: MaintenancePlans): void
 }
 
 interface IMaintenanceScheduleRepository {
-    + findById(id: UUID): MaintenanceSchedule
-    + findUpcoming(): List<MaintenanceSchedule>
-    + findOverdue(): List<MaintenanceSchedule>
-    + save(schedule: MaintenanceSchedule): void
+    + findById(id: UUID): MaintenanceSchedules
+    + findUpcoming(): List<MaintenanceSchedules>
+    + findOverdue(): List<MaintenanceSchedules>
+    + save(schedule: MaintenanceSchedules): void
 }
 
 interface IAssetQueryService {
-    + getAsset(assetId: UUID): AssetReference
+    + getAsset(assetId: UUID): AssetReferences
 }
 
-class AssetReference {
+class AssetReferences {
     + id: UUID
     + name: String
     + plantId: UUID
 }
 
 ' relaciones y dependencias
-MaintenancePlan "1" *-- "0..*" MaintenanceSchedule : generates
+MaintenancePlans "1" *-- "0..*" MaintenanceSchedules : generates
 
-MaintenanceSchedule "0..*" --> "1" AssetReference : scheduledFor
+MaintenanceSchedules "0..*" --> "1" AssetReferences : scheduledFor
 
-MaintenancePlanner ..> MaintenancePlan : manages
-MaintenancePlanner ..> MaintenanceSchedule : schedules
+MaintenancePlanners ..> MaintenancePlans : manages
+MaintenancePlanners ..> MaintenanceSchedules : schedules
 
-IMaintenancePlanRepository ..> MaintenancePlan : persists
-IMaintenanceScheduleRepository ..> MaintenanceSchedule : persists
+IMaintenancePlanRepository ..> MaintenancePlans : persists
+IMaintenanceScheduleRepository ..> MaintenanceSchedules : persists
 
-IAssetQueryService ..> AssetReference : returns
-
+IAssetQueryService ..> AssetReferences : returns
 @enduml

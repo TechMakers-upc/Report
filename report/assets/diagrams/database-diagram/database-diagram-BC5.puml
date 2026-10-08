@@ -1,76 +1,74 @@
-@startuml BD_Inventario_Repuestos
-
+@startuml
 title Diagrama de Base de Datos - Inventario y Repuestos
 
 ' almacenes o bodegas registradas
-entity "inventario" as inventario {
+entity "inventories" as inventories {
     * id : uuid <<PK>>
     --
-    * planta_id : uuid
-    * nombre : varchar(150)
-    * ubicacion : varchar(255)
-    * fecha_creacion : timestamp
+    * plant_id : uuid
+    * name : varchar(150)
+    * location : varchar(255)
+    * created_at : timestamp
 }
 
 ' catalogo general de piezas
-entity "repuesto" as repuesto {
+entity "spare_parts" as spare_parts {
     * id : uuid <<PK>>
     --
-    * codigo : varchar(100) <<UK>>
-    * nombre : varchar(150)
-    * descripcion : varchar(500)
-    * unidad : varchar(30)
-    * stock_minimo : decimal(10.2)
-    * activo : boolean
-    * fecha_creacion : timestamp
+    * code : varchar(100) <<UK>>
+    * name : varchar(150)
+    * description : varchar(500)
+    * unit : varchar(30)
+    * minimum_stock : decimal(10,2)
+    * is_active : boolean
+    * created_at : timestamp
 }
 
 ' cantidades disponibles en cada almacen
-entity "stock" as stock {
+entity "stocks" as stocks {
     * id : uuid <<PK>>
     --
-    * inventario_id : uuid <<FK>>
-    * repuesto_id : uuid <<FK>>
-    * cantidad : decimal(10.2)
-    * cantidad_reservada : decimal(10.2)
-    * estado : varchar(30)
-    * fecha_actualizacion : timestamp
+    * inventory_id : uuid <<FK>>
+    * spare_part_id : uuid <<FK>>
+    * quantity : decimal(10,2)
+    * reserved_quantity : decimal(10,2)
+    * status : varchar(30)
+    * updated_at : timestamp
 }
 
 ' historial de entradas salidas y traslados
-entity "movimiento_inventario" as movimiento {
+entity "inventory_movements" as inventory_movements {
     * id : uuid <<PK>>
     --
-    * inventario_id : uuid <<FK>>
-    * repuesto_id : uuid <<FK>>
-    * tipo_movimiento : varchar(30)
-    * cantidad : decimal(10.2)
-    * referencia_id : uuid
-    * descripcion : varchar(500)
-    * fecha_creacion : timestamp
+    * inventory_id : uuid <<FK>>
+    * spare_part_id : uuid <<FK>>
+    * movement_type : varchar(30)
+    * quantity : decimal(10,2)
+    * reference_id : uuid
+    * description : varchar(500)
+    * created_at : timestamp
 }
 
 ' avisos automaticos de stock bajo
-entity "alerta_inventario" as alerta {
+entity "inventory_alerts" as inventory_alerts {
     * id : uuid <<PK>>
     --
     * stock_id : uuid <<FK>>
-    * tipo_alerta : varchar(50)
-    * mensaje : varchar(500)
-    * estado : varchar(30)
-    * fecha_creacion : timestamp
-    * fecha_resolucion : timestamp
+    * alert_type : varchar(50)
+    * message : varchar(500)
+    * status : varchar(30)
+    * created_at : timestamp
+    * resolved_at : timestamp
 }
 
 ' control de existencias
-inventario ||--o{ stock : contiene
-repuesto ||--o{ stock : tiene
+inventories ||--o{ stocks : contiene
+spare_parts ||--o{ stocks : tiene
 
 ' registro de transacciones
-inventario ||--o{ movimiento : registra
-repuesto ||--o{ movimiento : participa
+inventories ||--o{ inventory_movements : registra
+spare_parts ||--o{ inventory_movements : participa
 
 ' alertas generadas por niveles de stock
-stock ||--o{ alerta : genera
-
+stocks ||--o{ inventory_alerts : genera
 @enduml
