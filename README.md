@@ -280,19 +280,20 @@ Seguidamente se presenta la pestaña Contributors, donde se muestran los número
   - [1.2. Solution Profile](#12-solution-profile)
     - [1.2.1 Antecedentes y problemática](#121-antecedentes-y-problemática)
     - [1.2.2 Lean UX Process.](#122-lean-ux-process)
-      - [1.2.2.1. Lean UX Problem Statements.](#1221-lean-ux-problem-statements)
-      - [1.2.2.2. Lean UX Assumptions.](#1222-lean-ux-assumptions)
-      - [1.2.2.3. Lean UX Hypothesis Statements.](#1223-lean-ux-hypothesis-statements)
-      - [1.2.2.4. Lean UX Canvas.](#1224-lean-ux-canvas)
-  - [1.3. Segmentos objetivo.](#13-segmentos-objetivo)
+      - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
+      - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
+      - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+      - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
+  - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
 - [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis)
   - [2.1. Competidores.](#21-competidores)
     - [2.1.1. Análisis competitivo.](#211-análisis-competitivo)
     - [2.1.2. Estrategias y tácticas frente a competidores.](#212-estrategias-y-tácticas-frente-a-competidores)
   - [2.2. Entrevistas.](#22-entrevistas)
     - [2.2.1. Diseño de entrevistas.](#221-diseño-de-entrevistas)
-    - [2.2.2. Registro de entrevistas.](#222-registro-de-entrevistas)
-    - [2.2.3. Análisis de entrevistas.](#223-análisis-de-entrevistas)
+    - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
+    - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
+      - [Principales hallazgos generales](#principales-hallazgos-generales)
   - [2.3. Needfinding.](#23-needfinding)
     - [2.3.1. User Personas.](#231-user-personas)
     - [2.3.2. User Task Matrix.](#232-user-task-matrix)
@@ -332,16 +333,59 @@ Seguidamente se presenta la pestaña Contributors, donde se muestran los número
       - [4.2.2.5. Etiquetas de Acciones de Usuario](#4225-etiquetas-de-acciones-de-usuario)
       - [4.2.2.6. Reglas de Asociación entre Etiquetas](#4226-reglas-de-asociación-entre-etiquetas)
     - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
+      - [4.2.3.1. Configuración SEO General](#4231-configuración-seo-general)
+      - [4.2.3.2. Landing Page SEO Tags](#4232-landing-page-seo-tags)
+      - [4.2.3.3. Web Application - Dashboard SEO Tags](#4233-web-application---dashboard-seo-tags)
+      - [4.2.3.4. Página de Detalles por Rol SEO Tags](#4234-página-de-detalles-por-rol-seo-tags)
+      - [4.2.3.5. Página de Gestión de Activos / Inventario SEO Tags](#4235-página-de-gestión-de-activos--inventario-seo-tags)
+      - [4.2.3.6. Página de Perfil de Activo Individual SEO Tags](#4236-página-de-perfil-de-activo-individual-seo-tags)
+      - [4.2.3.7. Página de Reporte de Fallas (OTs) SEO Tags](#4237-página-de-reporte-de-fallas-ots-seo-tags)
+    - [4.2.3.8. Estructura de Datos Schema Markup](#4238-estructura-de-datos-schema-markup)
+    - [4.2.3.9. Directrices SEO Generales](#4239-directrices-seo-generales)
     - [4.2.4. Searching Systems.](#424-searching-systems)
+      - [4.2.4.1. Sistema de Búsqueda General](#4241-sistema-de-búsqueda-general)
+      - [4.2.4.2. Sistema de Búsqueda de Órdenes de Trabajo (OTs) y Fallas](#4242-sistema-de-búsqueda-de-órdenes-de-trabajo-ots-y-fallas)
+      - [4.2.4.3. Sistema de Búsqueda en Inventario y Gestión de Activos](#4243-sistema-de-búsqueda-en-inventario-y-gestión-de-activos)
+      - [4.2.4.4. Sistema de Búsqueda en Historial y Auditoría](#4244-sistema-de-búsqueda-en-historial-y-auditoría)
     - [4.2.5. Navigation Systems.](#425-navigation-systems)
+      - [4.2.5.1. Sistema de Navegación Global](#4251-sistema-de-navegación-global)
+      - [4.2.5.2. Navegación del Landing Page](#4252-navegación-del-landing-page)
+      - [4.2.5.3. Navegación de la Aplicación Web](#4253-navegación-de-la-aplicación-web)
+      - [4.2.5.4. Sistema de Breadcrumbs](#4254-sistema-de-breadcrumbs)
+      - [4.2.5.5. Navegación Mobile](#4255-navegación-mobile)
+      - [4.2.5.6. Navegación Operativa (Flujo de Trabajo)](#4256-navegación-operativa-flujo-de-trabajo)
+      - [4.2.5.7. Accesibilidad en Navegación](#4257-accesibilidad-en-navegación)
+      - [4.2.5.8. Feedback de Navegación](#4258-feedback-de-navegación)
   - [4.3. Landing Page UI Design.](#43-landing-page-ui-design)
     - [4.3.1. Landing Page Wireframe.](#431-landing-page-wireframe)
+      - [4.3.1.1. Introducción al Wireframe del Landing Page](#4311-introducción-al-wireframe-del-landing-page)
+      - [4.3.1.2. Wireframe Desktop](#4312-wireframe-desktop)
+      - [4.3.1.3. Wireframe Mobile](#4313-wireframe-mobile)
+      - [4.3.1.1. Introducción al Wireframe del Landing Page](#4311-introducción-al-wireframe-del-landing-page-1)
+      - [4.3.1.4. Regiones del wireframe y su Función](#4314-regiones-del-wireframe-y-su-función)
+      - [4.3.1.5. Principios de Diseño Aplicados en los Wireframes](#4315-principios-de-diseño-aplicados-en-los-wireframes)
     - [4.3.2. Landing Page Mock-up.](#432-landing-page-mock-up)
+      - [4.3.2.1. Introducción al Mock-up](#4321-introducción-al-mock-up)
+      - [4.3.2.2. Mock-up Desktop](#4322-mock-up-desktop)
+      - [4.3.2.3. Mock-up Mobile](#4323-mock-up-mobile)
+      - [4.3.2.4. Vistas Detalladas por Sección](#4324-vistas-detalladas-por-sección)
+      - [4.3.2.5. Aplicación del Design System y Accesibilidad](#4325-aplicación-del-design-system-y-accesibilidad)
+      - [4.3.2.6. Referencias Visuales](#4326-referencias-visuales)
+      - [4.3.2.7. Estados Interactivos en el Mock-up](#4327-estados-interactivos-en-el-mock-up)
+      - [4.3.2.8. Diseño Responsivo General](#4328-diseño-responsivo-general)
   - [4.4. Web Applications UX/UI Design.](#44-web-applications-uxui-design)
     - [4.4.1. Web Applications Wireframes.](#441-web-applications-wireframes)
     - [4.4.2. Web Applications Wireflow Diagrams.](#442-web-applications-wireflow-diagrams)
+      - [4.4.2.1. Wireflow 01 — Jefe de Planta registra su cuenta y maquinas.](#4421-wireflow-01--jefe-de-planta-registra-su-cuenta-y-maquinas)
+      - [4.4.2.2. Wireflow 02 — Técnico accede a la informacion de maquinas.](#4422-wireflow-02--técnico-accede-a-la-informacion-de-maquinas)
+      - [4.4.2.3. Wireflow 03 — Gerente de Operaciones crea una orden de trabajo](#4423-wireflow-03--gerente-de-operaciones-crea-una-orden-de-trabajo)
+      - [4.4.2.4. Wireflow 04 — Integrante de una planta reporta una falla](#4424-wireflow-04--integrante-de-una-planta-reporta-una-falla)
     - [4.4.3. Web Applications Mock-ups.](#443-web-applications-mock-ups)
     - [4.4.4. Web Applications User Flow Diagrams.](#444-web-applications-user-flow-diagrams)
+      - [4.4.4.1. Userflow 01 — Jefe de Planta registra su cuenta y maquinas.](#4441-userflow-01--jefe-de-planta-registra-su-cuenta-y-maquinas)
+      - [4.4.4.2. Userflow 02 — Técnico accede a la informacion de maquinas.](#4442-userflow-02--técnico-accede-a-la-informacion-de-maquinas)
+      - [4.4.4.3. Userflow 03 — Gerente de Operaciones crea una orden de trabajo](#4443-userflow-03--gerente-de-operaciones-crea-una-orden-de-trabajo)
+      - [4.4.4.4. Userflow 04 — Integrante de una planta reporta una falla](#4444-userflow-04--integrante-de-una-planta-reporta-una-falla)
   - [4.5. Web Applications Prototyping.](#45-web-applications-prototyping)
   - [4.6. Domain-Driven Software Architecture.](#46-domain-driven-software-architecture)
     - [4.6.1. Design-Level EventStorming.](#461-design-level-eventstorming)
@@ -350,8 +394,18 @@ Seguidamente se presenta la pestaña Contributors, donde se muestran los número
     - [4.6.4. Software Architecture Components Diagrams.](#464-software-architecture-components-diagrams)
   - [4.7. Software Object-Oriented Design.](#47-software-object-oriented-design)
     - [4.7.1. Class Diagrams.](#471-class-diagrams)
+      - [4.7.1.1. Class Diagram – Identity \& Access Management](#4711-class-diagram--identity--access-management)
+      - [4.7.1.2. Class Diagram – Resource \& Asset Management](#4712-class-diagram--resource--asset-management)
+      - [4.7.1.3. Class Diagram – Service Design \& Planning](#4713-class-diagram--service-design--planning)
+      - [4.7.1.4. Class Diagram – Service Execution \& Monitoring](#4714-class-diagram--service-execution--monitoring)
+      - [4.7.1.5. Class Diagram – Inventory \& Spare Parts Management](#4715-class-diagram--inventory--spare-parts-management)
   - [4.8. Database Design.](#48-database-design)
     - [4.8.1. Database Diagrams.](#481-database-diagrams)
+      - [4.8.1.1. Database Diagram – Identity \& Access Management](#4811-database-diagram--identity--access-management)
+      - [4.8.1.2. Database Diagram – Resource \& Asset Management](#4812-database-diagram--resource--asset-management)
+      - [4.8.1.3. Database Diagram – Service Design \& Planning](#4813-database-diagram--service-design--planning)
+      - [4.8.1.4. Database Diagram – Service Execution \& Monitoring](#4814-database-diagram--service-execution--monitoring)
+      - [4.8.1.5. Database Diagram – Inventory \& Spare Parts Management](#4815-database-diagram--inventory--spare-parts-management)
 - [Capítulo V: Product Implementation, Validation \& Deployment](#capítulo-v-product-implementation-validation--deployment)
   - [5.1. Software Configuration Management.](#51-software-configuration-management)
     - [5.1.1. Software Development Environment Configuration.](#511-software-development-environment-configuration)
@@ -380,6 +434,11 @@ Seguidamente se presenta la pestaña Contributors, donde se muestran los número
 - [Conclusiones](#conclusiones)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
+  - [Anexo A. Repositorios del Proyecto](#anexo-a-repositorios-del-proyecto)
+  - [Anexo B. Gestión y Planificación del Proyecto](#anexo-b-gestión-y-planificación-del-proyecto)
+  - [Anexo D. Entrevistas](#anexo-d-entrevistas)
+  - [Anexo E. Despliegues](#anexo-e-despliegues)
+  - [Anexo F. Videos de exposiciones](#anexo-f-videos-de-exposiciones)
 
 
 
@@ -445,11 +504,11 @@ Frente a esta problemática surge **FixCore**, una plataforma orientada a centra
 
 De esta manera, TechMakers busca ofrecer una solución accesible y fácil de utilizar que permita a las empresas mejorar la organización de sus actividades de mantenimiento y reducir los problemas generados por procesos manuales o información dispersa.
 
-### Misión
+**Misión**
 
 La misión de TechMakers es ofrecer a empresas manufactureras y contratistas de mantenimiento industrial una solución tecnológica que facilite la organización y gestión de sus actividades de mantenimiento. Mediante FixCore buscamos centralizar la información de las máquinas, mejorar la programación de los mantenimientos y facilitar el control de los repuestos, contribuyendo a reducir las interrupciones ocasionadas por fallas o una planificación inadecuada.
 
-### Visión
+**Visión**
 
 La visión de TechMakers es lograr que FixCore se convierta progresivamente en una alternativa reconocida en el Perú para la gestión del mantenimiento industrial. Buscamos desarrollar una plataforma que pueda adaptarse al crecimiento de las empresas y contribuir a la digitalización de procesos que actualmente se realizan de manera manual o mediante herramientas desconectadas.
 
@@ -881,7 +940,7 @@ IBM Maximo
 
 ### 2.2.2. Registro de entrevistas
 
-### Segmento 1: Pymes de Manufactura y Producción
+**Segmento 1: Pymes de Manufactura y Producción**
 
 <table>
   <thead>
@@ -1155,7 +1214,7 @@ Sí. La probaría inicialmente para evaluar cómo se adapta al contexto de traba
 El monto dependería de los módulos y funcionalidades disponibles. Como referencia inicial consideraría un rango de 50 a 100 soles mensuales, aunque sería necesario evaluar previamente las características del producto.
 
 
-### Segmento 2: Firmas Consultoras y Contratistas de Ingeniería Industrial
+**Segmento 2: Firmas Consultoras y Contratistas de Ingeniería Industrial**
 
 <table>
   <thead>
@@ -1428,7 +1487,7 @@ Sí, siempre que sea una herramienta estable y fácil de utilizar. Considero que
 
 
 
-### Segmento 3: Técnicos y Operarios de Mantenimiento Industrial
+**Segmento 3: Técnicos y Operarios de Mantenimiento Industrial**
 
 <table>
   <thead>
@@ -1688,7 +1747,7 @@ Los resultados presentados a continuación corresponden exclusivamente a los par
 Estos hallazgos sirven posteriormente como base para la construcción de los User Personas y los demás artefactos de Needfinding de FixCore.
 
 
-#### Segmento 1: Pymes de Manufactura y Producción
+**Segmento 1: Pymes de Manufactura y Producción**
 
 **Variables analizadas**
 
@@ -1759,7 +1818,7 @@ Entre las principales características identificadas se encuentran:
 Las marcas y tecnologías incluidas posteriormente en el User Persona representan patrones identificados entre los participantes del segmento y no necesariamente las características exactas de una sola persona entrevistada.
 
 
-#### Segmento 2: Firmas Consultoras y Contratistas de Ingeniería Industrial
+**Segmento 2: Firmas Consultoras y Contratistas de Ingeniería Industrial**
 
 **Variables analizadas**
 
@@ -1840,7 +1899,7 @@ Entre las principales características identificadas se encuentran:
 Los atributos tecnológicos del User Persona se construyen a partir de estos patrones comunes y no representan necesariamente las herramientas utilizadas por un único entrevistado.
 
 
-#### Segmento 3: Técnicos y Operarios de Mantenimiento Industrial
+**Segmento 3: Técnicos y Operarios de Mantenimiento Industrial**
 
 **Variables analizadas**
 
@@ -1965,7 +2024,7 @@ En conjunto, los hallazgos obtenidos mediante las entrevistas y la literatura re
 
 Estos resultados sirven como base para la elaboración de los User Personas, User Task Matrix, User Journey Maps, Empathy Maps y As-Is Scenario Maps de FixCore.
 
-### Árbol de Problemas
+**Árbol de Problemas**
 
 El Árbol de Problemas fue elaborado para representar las principales causas y consecuencias relacionadas con las dificultades en la gestión del mantenimiento industrial de las pymes. Se estableció como problema central la ineficiencia y los costos asociados a los tiempos muertos de maquinaria.
 
@@ -1979,7 +2038,7 @@ Estas investigaciones permiten contextualizar los problemas relacionados con la 
   <em>Fuente: Elaboración propia.</em>
 </div>
 
-### Diagrama de Ishikawa
+**Diagrama de Ishikawa**
 
 Para complementar el análisis de la problemática, se elaboró un Diagrama de Ishikawa con el propósito de organizar las posibles causas que contribuyen a las dificultades en la gestión del mantenimiento industrial.
 
@@ -2042,7 +2101,7 @@ Los User Personas considerados son los siguientes:
 2. **Pymes de Manufactura y Producción:** Carla García, Jefa de Planta.
 3. **Firmas Consultoras y Contratistas de Ingeniería Industrial:** Víctor Salazar, Coordinador de Operaciones.
 
-#### User Task Matrix - FixCore
+**User Task Matrix - FixCore**
 
 | Tareas principales | Técnico (Frc) | Técnico (Imp) | Jefa de Planta (Frc) | Jefa de Planta (Imp) | Coordinador de Operaciones (Frc) | Coordinador de Operaciones (Imp) |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -2059,7 +2118,7 @@ Los User Personas considerados son los siguientes:
 | **Dar seguimiento al estado y cumplimiento de las órdenes de trabajo** | Media | Alta | Alta | Alta | Alta | Alta |
 | **Coordinar técnicos entre diferentes plantas o clientes** | Baja | Baja | Baja | Media | Alta | Alta |
 
-#### Análisis del User Task Matrix
+**Análisis del User Task Matrix**
 
 La matriz permite identificar diferencias en la frecuencia e importancia de las tareas realizadas por cada User Persona, de acuerdo con sus responsabilidades dentro de los procesos de mantenimiento industrial.
 
@@ -2162,7 +2221,7 @@ Estos mapas permiten visualizar los principales pasos de cada proceso, las herra
 
 El Big Picture EventStorming permite representar de manera visual los principales procesos del dominio de mantenimiento industrial. Para su elaboración se siguieron las ocho etapas del proceso de EventStorming, comenzando con la identificación de eventos del dominio y finalizando con la incorporación de los sistemas externos involucrados.
 
-### 1- Unstructured Exploration
+**1- Unstructured Exploration**
 
 En esta primera etapa se realizó una exploración inicial de los eventos relevantes que ocurren actualmente dentro del dominio. Los Domain Events fueron expresados en tiempo pasado y representan situaciones relacionadas con el mantenimiento correctivo, mantenimiento preventivo, inventario y atención de servicios.
 
@@ -2174,7 +2233,7 @@ En esta primera etapa se realizó una exploración inicial de los eventos releva
 
 <br>
 
-### 2- Timelines
+**2- Timelines**
 
 En esta etapa los Domain Events identificados fueron organizados cronológicamente para representar la secuencia en la que ocurren los diferentes procesos del negocio. Se consideraron los principales flujos correspondientes al mantenimiento correctivo, mantenimiento preventivo, gestión de inventario y atención de servicios.
 
@@ -2186,7 +2245,7 @@ En esta etapa los Domain Events identificados fueron organizados cronológicamen
 
 <br>
 
-### 3- Pain Points
+**3- Pain Points**
 
 Luego de establecer las líneas de tiempo, se identificaron los principales Pain Points presentes en los procesos actuales. Entre ellos se encuentran la información distribuida entre diferentes medios, la dificultad para conocer la disponibilidad de los técnicos, la dispersión de los manuales e historiales y los problemas relacionados con el control de repuestos.
 
@@ -2198,7 +2257,7 @@ Luego de establecer las líneas de tiempo, se identificaron los principales Pain
 
 <br>
 
-### 4- Pivotal Points
+**4- Pivotal Points**
 
 En esta etapa se identificaron los Pivotal Points, los cuales representan momentos relevantes en los que se produce un cambio importante dentro del flujo del negocio. Estos puntos permiten reconocer transiciones entre distintas fases del proceso de mantenimiento.
 
@@ -2210,7 +2269,7 @@ En esta etapa se identificaron los Pivotal Points, los cuales representan moment
 
 <br>
 
-### 5- Commands
+**5- Commands**
 
 Posteriormente se incorporaron los Commands que representan las acciones realizadas por los actores del dominio y que generan determinados Domain Events. Entre los principales actores involucrados se encuentran el Plant Manager, Technician y Operations Coordinator.
 
@@ -2222,7 +2281,7 @@ Posteriormente se incorporaron los Commands que representan las acciones realiza
 
 <br>
 
-### 6- Policies
+**6- Policies**
 
 En esta etapa se agregaron las Policies que representan reglas del negocio mediante las cuales la ocurrencia de determinados eventos puede provocar la ejecución de nuevas acciones dentro del proceso.
 
@@ -2234,7 +2293,7 @@ En esta etapa se agregaron las Policies que representan reglas del negocio media
 
 <br>
 
-### 7- Read Models
+**7- Read Models**
 
 A continuación, se identificaron los Read Models que contienen la información necesaria para que los actores puedan tomar decisiones durante la ejecución de los procesos. Entre ellos se encuentran la lista de fallas pendientes, disponibilidad de técnicos, historial de máquinas, inventario de repuestos, calendario de mantenimiento y reportes por cliente.
 
@@ -2246,7 +2305,7 @@ A continuación, se identificaron los Read Models que contienen la información 
 
 <br>
 
-### 8- External Systems
+**8- External Systems**
 
 Finalmente, se incorporaron los External Systems que actualmente intervienen en los procesos del negocio. Estos sistemas representan herramientas externas utilizadas para comunicar información, registrar datos o intercambiar documentación durante las actividades de mantenimiento.
 
@@ -2258,7 +2317,7 @@ Finalmente, se incorporaron los External Systems que actualmente intervienen en 
 
 <br>
 
-### Procesos clave
+**Procesos clave**
 
 Luego de elaborar el Big Picture EventStorming se identificaron los siguientes procesos principales dentro del dominio:
 
@@ -2383,7 +2442,7 @@ Las siguientes User Stories representan las principales funcionalidades de FixCo
 | **US63** | Consultar información adicional de FixCore | Como Visitante, deseo consultar información adicional sobre FixCore para resolver dudas y conocer las condiciones relacionadas con el servicio. | **Escenario 1: Consulta de preguntas frecuentes.** Dado que el Visitante se encuentra en la Landing Page, cuando accede a la sección de preguntas frecuentes y selecciona una pregunta, entonces visualiza la respuesta correspondiente.<br><br>**Escenario 2: Consulta de términos y condiciones.** Dado que el Visitante se encuentra en la Landing Page, cuando selecciona el enlace de términos y condiciones, entonces puede acceder a la información legal correspondiente. | EP08 |
 | **US64** | Acceder a la Web Application | Como Visitante, deseo acceder a la Web Application desde la Landing Page para comenzar a utilizar FixCore después de conocer la propuesta y sus planes. | **Escenario 1: Acceso mediante el llamado a la acción.** Dado que el Visitante se encuentra en la Landing Page, cuando selecciona el botón principal para comenzar a utilizar FixCore, entonces es dirigido a la Web Application.<br><br>**Escenario 2: Acceso desde un plan.** Dado que el Visitante está revisando los planes disponibles, cuando selecciona la opción para comenzar con uno de ellos, entonces es dirigido al punto de acceso o registro correspondiente de la Web Application. | EP08 |
 
-### Technical Stories
+**Technical Stories**
 
 Las siguientes Technical Stories representan capacidades técnicas necesarias para soportar las funcionalidades de la Web Application mediante la RESTful API de FixCore.
 
@@ -2398,7 +2457,7 @@ Las siguientes Technical Stories representan capacidades técnicas necesarias pa
 | **TS07** | Servicio de notificaciones externas | Como Developer, deseo integrar la API con un servicio externo de notificaciones para enviar alertas relacionadas con eventos importantes de mantenimiento. | **Escenario 1: Envío correcto de una notificación.** Dado que ocurre un evento configurado para generar una alerta externa, cuando la API solicita el envío al servicio de notificaciones, entonces el envío queda registrado correctamente.<br><br>**Escenario 2: Error del servicio externo.** Dado que el servicio externo devuelve un error o no se encuentra disponible, cuando la API intenta enviar la notificación, entonces el fallo queda registrado sin perder el evento que originó la alerta.<br><br>**Escenario 3: Evento sin notificación externa configurada.** Dado que ocurre un evento que no tiene un envío externo configurado, cuando es procesado por la API, entonces no se solicita el envío de una notificación externa. | EP09 |
 
 
-### Epics
+**Epics**
 
 | Epic ID | Título | Descripción |
 | :--- | :--- | :--- |
@@ -4120,7 +4179,7 @@ A fin de asegurar la calidad, mantenibilidad y legibilidad del código a lo larg
 
 El proceso de despliegue de la solución busca garantizar que, desde el repositorio de código fuente, se pueda realizar correctamente la publicación del producto digital correspondiente.
 
-#### Landing Page
+**Landing Page**
 
 * Entorno de destino: GitHub Pages
 
@@ -4498,11 +4557,94 @@ Durante el Sprint 2 utilizamos Git y GitHub, con la extensión GitFlowHelper de 
 
 #### 5.2.2.5. Execution Evidence for Sprint Review.
 
-Pendiente de completar conforme se implementen las interfaces.
+Durante el Sprint 2 se implementó la primera versión de la Web Application de FixCore, desarrollada con Angular 22, TypeScript, Angular Material, RxJS y Angular Router. La aplicación está organizada por módulos orientados a la gestión del mantenimiento industrial, incluyendo Asset Management, Service Execution, Maintenance Planning, Inventory y Analytics, además de componentes y servicios compartidos para funcionalidades transversales.
 
-Se incorporarán capturas de las funcionalidades desarrolladas para los módulos de plantas y máquinas, mantenimiento preventivo, fallas, órdenes de trabajo, inventario y dashboard.
+La aplicación consume información desde una Fake API desplegada en Render, utilizando HttpClient para realizar las operaciones de consulta, registro, actualización y eliminación de datos. También se implementó un layout compartido mediante el componente Workspace Shell, encargado de la navegación principal, selección de planta, notificaciones y acceso a las diferentes funcionalidades según el rol del usuario.
 
-Las capturas deberán mostrar el funcionamiento real de los componentes y no únicamente diseños estáticos que todavía no hayan sido implementados.
+* Selección de perfil: Pantalla inicial de FixCore donde el usuario puede seleccionar entre los perfiles Jefe de Planta, Gerente de Operaciones y Técnico de Mantenimiento, cada uno con funcionalidades específicas.
+
+![alt text](report/assets/Evidence-Sprint2/image.png)
+
+* Panel del Jefe de Planta: Dashboard con el estado general de la planta, máquinas detenidas, fallas críticas, órdenes de trabajo, mantenimientos e indicadores como tiempo muerto, MTTR y cumplimiento preventivo.
+
+![alt text](report/assets/Evidence-Sprint2/image-1.png)
+
+* Módulo de Máquinas - Jefe de Planta: Gestión de las máquinas y activos registrados en la planta, permitiendo consultar su estado e información relacionada con el mantenimiento y registrando maquinas.
+
+![alt text](report/assets/Evidence-Sprint2/image-2.png)
+![alt text](report/assets/Evidence-Sprint2/image-3.png)
+
+* Módulo de Fallas - Jefe de Planta: Gestión y seguimiento de las fallas reportadas en las máquinas de la planta.
+
+![alt text](report/assets/Evidence-Sprint2/image-4.png)
+*FILTRO DE FALLAS RESUELTAS*
+![alt text](report/assets/Evidence-Sprint2/image-5.png)
+*REPORTAR FALLAS*
+![alt text](report/assets/Evidence-Sprint2/image-6.png)
+*REPORTAR FALLAS 2DO PASO*
+![alt text](report/assets/Evidence-Sprint2/image-7.png)
+*REPORTAR FALLAS 3ER PASO*
+![alt text](report/assets/Evidence-Sprint2/image-8.png)
+
+* Módulo de Órdenes de Trabajo - Jefe de Planta: Consulta,gestión y creacion de las órdenes de trabajo asociadas a las actividades de mantenimiento.
+
+![alt text](report/assets/Evidence-Sprint2/image-9.png)
+![alt text](report/assets/Evidence-Sprint2/image-10.png)
+
+* Módulo Preventido - Jefe de Planta: Gestión de calendariocon diferentes filtros como vencidos o suspendidos para visitar tecnicas preventivas con diferentes acciones como reprogramar,suspender,o crear una nueva fecha de mantenimiento preventivo.
+
+![alt text](report/assets/Evidence-Sprint2/image-11.png)
+*PREVENTIVOS VENCIDOS*
+![alt text](report/assets/Evidence-Sprint2/image-12.png)
+*PREVENTIVOS SUSPENDIDOS*
+![alt text](report/assets/Evidence-Sprint2/image-13.png)
+
+* Módulo de Inventario - Jefe de Planta: Gestión de repuestos disponibles y seguimiento del stock utilizado en las actividades de mantenimiento.
+
+![alt text](report/assets/Evidence-Sprint2/image-14.png)
+
+* Módulo de Reportes - Jefe de Planta:Un resumen sobre los modulos anteriores con opcion de descarga
+
+![alt text](report/assets/Evidence-Sprint2/image-15.png)
+
+
+* Módulo de Mi Planta - Jefe de Planta:Para almacenas los datos de la Planta
+
+![alt text](report/assets/Evidence-Sprint2/image-16.png)
+
+* Resumen de Operaciones - Gerente de Operaciones: Vista general de todas las plantas con indicadores de disponibilidad, órdenes de trabajo abiertas, paradas, cumplimiento preventivo y MTTR.
+
+![alt text]report/assets/Evidence-Sprint2/(image-17.png)
+
+* Módulo de Plantas - Gerente de Operaciones: Consulta y seguimiento del estado de las diferentes plantas gestionadas por la organización.
+
+![alt text](report/assets/Evidence-Sprint2/image-18.png)
+
+* Módulo de Técnicos - Gerente de Operaciones: Visualización de los técnicos disponibles, su planta asignada y las órdenes de trabajo pendientes.
+
+![alt text](report/assets/Evidence-Sprint2/image-19.png)
+
+* Inicio del Técnico de Mantenimiento: Dashboard personalizado para el técnico con sus órdenes de trabajo pendientes, máquinas detenidas y próximos mantenimientos.
+
+![alt text](report/assets/Evidence-Sprint2/image-20.png)
+
+* Mis Órdenes de Trabajo - Técnico: Listado de las órdenes asignadas al técnico, mostrando su estado, prioridad, tipo de mantenimiento y fechas.
+
+![alt text](report/assets/Evidence-Sprint2/image-21.png)
+
+* Módulo de Repuestos - Técnico: Consulta de los repuestos disponibles necesarios para la ejecución de las actividades de mantenimiento.
+
+![alt text](report/assets/Evidence-Sprint2/image-22.png)
+
+* Módulo de Repuestos - Técnico: Consulta de los repuestos disponibles necesarios para la ejecución de las actividades de mantenimiento.
+
+![alt text](report/assets/Evidence-Sprint2/image-23.png)
+
+* Reporte de Fallas - Técnico: Funcionalidad para que el técnico pueda reportar una nueva falla desde su panel de trabajo.
+
+![alt text](report/assets/Evidence-Sprint2/image-24.png)
+
+
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review.
 
@@ -4654,98 +4796,7 @@ Para el despliegue de la aplicación web de FixCore se usó Vercel, el cual es u
 
 
 Enlace al frontend web application desplegado: (https://fixcore-frontend-eight.vercel.app/demo)[https://fixcore-frontend-eight.vercel.app/demo]
-Durante el Sprint 2 se implementó la primera versión de la Web Application de FixCore, desarrollada con Angular 22, TypeScript, Angular Material, RxJS y Angular Router. La aplicación está organizada por módulos orientados a la gestión del mantenimiento industrial, incluyendo Asset Management, Service Execution, Maintenance Planning, Inventory y Analytics, además de componentes y servicios compartidos para funcionalidades transversales.
 
-La aplicación consume información desde una Fake API desplegada en Render, utilizando HttpClient para realizar las operaciones de consulta, registro, actualización y eliminación de datos. También se implementó un layout compartido mediante el componente Workspace Shell, encargado de la navegación principal, selección de planta, notificaciones y acceso a las diferentes funcionalidades según el rol del usuario.
-
-* Selección de perfil: Pantalla inicial de FixCore donde el usuario puede seleccionar entre los perfiles Jefe de Planta, Gerente de Operaciones y Técnico de Mantenimiento, cada uno con funcionalidades específicas.
-
-![alt text](report/assets/Evidence-Sprint2/image.png)
-
-* Panel del Jefe de Planta: Dashboard con el estado general de la planta, máquinas detenidas, fallas críticas, órdenes de trabajo, mantenimientos e indicadores como tiempo muerto, MTTR y cumplimiento preventivo.
-
-![alt text](report/assets/Evidence-Sprint2/image-1.png)
-
-* Módulo de Máquinas - Jefe de Planta: Gestión de las máquinas y activos registrados en la planta, permitiendo consultar su estado e información relacionada con el mantenimiento y registrando maquinas.
-
-![alt text](report/assets/Evidence-Sprint2/image-2.png)
-![alt text](report/assets/Evidence-Sprint2/image-3.png)
-
-* Módulo de Fallas - Jefe de Planta: Gestión y seguimiento de las fallas reportadas en las máquinas de la planta.
-
-![alt text](report/assets/Evidence-Sprint2/image-4.png)
-*FILTRO DE FALLAS RESUELTAS*
-![alt text](report/assets/Evidence-Sprint2/image-5.png)
-*REPORTAR FALLAS*
-![alt text](report/assets/Evidence-Sprint2/image-6.png)
-*REPORTAR FALLAS 2DO PASO*
-![alt text](report/assets/Evidence-Sprint2/image-7.png)
-*REPORTAR FALLAS 3ER PASO*
-![alt text](report/assets/Evidence-Sprint2/image-8.png)
-
-* Módulo de Órdenes de Trabajo - Jefe de Planta: Consulta,gestión y creacion de las órdenes de trabajo asociadas a las actividades de mantenimiento.
-
-![alt text](report/assets/Evidence-Sprint2/image-9.png)
-![alt text](report/assets/Evidence-Sprint2/image-10.png)
-
-* Módulo Preventido - Jefe de Planta: Gestión de calendariocon diferentes filtros como vencidos o suspendidos para visitar tecnicas preventivas con diferentes acciones como reprogramar,suspender,o crear una nueva fecha de mantenimiento preventivo.
-
-![alt text](report/assets/Evidence-Sprint2/image-11.png)
-*PREVENTIVOS VENCIDOS*
-![alt text](report/assets/Evidence-Sprint2/image-12.png)
-*PREVENTIVOS SUSPENDIDOS*
-![alt text](report/assets/Evidence-Sprint2/image-13.png)
-
-* Módulo de Inventario - Jefe de Planta: Gestión de repuestos disponibles y seguimiento del stock utilizado en las actividades de mantenimiento.
-
-![alt text](report/assets/Evidence-Sprint2/image-14.png)
-
-* Módulo de Reportes - Jefe de Planta:Un resumen sobre los modulos anteriores con opcion de descarga
-
-![alt text](report/assets/Evidence-Sprint2/image-15.png)
-
-
-* Módulo de Mi Planta - Jefe de Planta:Para almacenas los datos de la Planta
-
-![alt text](report/assets/Evidence-Sprint2/image-16.png)
-
-* Resumen de Operaciones - Gerente de Operaciones: Vista general de todas las plantas con indicadores de disponibilidad, órdenes de trabajo abiertas, paradas, cumplimiento preventivo y MTTR.
-
-![alt text]report/assets/Evidence-Sprint2/(image-17.png)
-
-* Módulo de Plantas - Gerente de Operaciones: Consulta y seguimiento del estado de las diferentes plantas gestionadas por la organización.
-
-![alt text](report/assets/Evidence-Sprint2/image-18.png)
-
-* Módulo de Técnicos - Gerente de Operaciones: Visualización de los técnicos disponibles, su planta asignada y las órdenes de trabajo pendientes.
-
-![alt text](report/assets/Evidence-Sprint2/image-19.png)
-
-* Inicio del Técnico de Mantenimiento: Dashboard personalizado para el técnico con sus órdenes de trabajo pendientes, máquinas detenidas y próximos mantenimientos.
-
-![alt text](report/assets/Evidence-Sprint2/image-20.png)
-
-* Mis Órdenes de Trabajo - Técnico: Listado de las órdenes asignadas al técnico, mostrando su estado, prioridad, tipo de mantenimiento y fechas.
-
-![alt text](report/assets/Evidence-Sprint2/image-21.png)
-
-* Módulo de Repuestos - Técnico: Consulta de los repuestos disponibles necesarios para la ejecución de las actividades de mantenimiento.
-
-![alt text](report/assets/Evidence-Sprint2/image-22.png)
-
-* Módulo de Repuestos - Técnico: Consulta de los repuestos disponibles necesarios para la ejecución de las actividades de mantenimiento.
-
-![alt text](report/assets/Evidence-Sprint2/image-23.png)
-
-* Reporte de Fallas - Técnico: Funcionalidad para que el técnico pueda reportar una nueva falla desde su panel de trabajo.
-
-![alt text](report/assets/Evidence-Sprint2/image-24.png)
-
-
-#### 5.2.2.7. Software Deployment Evidence for Sprint Review.
-
-
-Pendiente de completar después del despliegue del frontend.
 
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint.
@@ -4854,6 +4905,9 @@ W3Schools. (s. f.). *HTML style guide and coding conventions*. https://www.w3sch
 - Repositorio del Landing Page:
   https://github.com/TechMakers-upc/Landing-Page
 
+- Repositorio del Frontend Web Application
+  https://github.com/TechMakers-upc/Frontend
+
 <div style="page-break-after: always;"></div>
 
 ## Anexo B. Gestión y Planificación del Proyecto
@@ -4870,23 +4924,29 @@ W3Schools. (s. f.). *HTML style guide and coding conventions*. https://www.w3sch
 - Artefactos de Needfinding en UXPressia:
   https://uxpressia.com/w/v8FzI/t/zbzV3
 
+- Prototipo de la aplicación:
+  https://www.figma.com/proto/VbkpyP5gwR4Orgl1eNsB7a/Figma-basics?node-id=2449-1168&t=Va1SHaV7XPbK0ZlF-1&scaling=scale-down&content-scaling=fixed&page-id=2439%3A2&starting-point-node-id=2449%3A1168
+
 ## Anexo D. Entrevistas
 
 - [Video de las entrevistas realizadas](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423973_upc_edu_pe/IQBCKuUvc8VeT4YtxyBRxNnnAerbBFUqAE8C5H7KH6vx3GU?e=f8X1Pp)
 
 <div style="page-break-after: always;"></div>
 
-## Anexo E. Landing Page
-
-- Código fuente:
-  https://github.com/TechMakers-upc/Landing-Page
+## Anexo E. Despliegues
 
 - Landing Page desplegado:
   https://techmakers-upc.github.io/Landing-Page/
 
+- Frontend Web Application desplegado:
+  https://fixcore-frontend-eight.vercel.app/demo
+
+- URL del Mockup API:
+  https://fixcore-json-api.onrender.com/
+
 <div style="page-break-after: always;"></div>
 
-## Anexo F. Video de Exposición AV1
+## Anexo F. Videos de exposiciones
 
 - [Video de exposición AV1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202324461_upc_edu_pe/IQDmty3FNqrWTLFvZG58kxPfAfv-bKwb9TGY5O8XUFahqSs?e=p3LPOL)
 
