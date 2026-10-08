@@ -3395,7 +3395,7 @@ En este apartado mostramos los Database Diagrams correspondientes a cada Bounded
 
 <div align="center">
   <strong></strong><br><br>
-  <img src="report/assets/images/diagrama_db_BC1.png" width="700"><br>
+  <img src="report/assets/images/bc1.png" width="700"><br>
   <em>Fuente: Elaboración propia.</em>
 </div>
 
@@ -3403,7 +3403,7 @@ En este apartado mostramos los Database Diagrams correspondientes a cada Bounded
 
 <div align="center">
   <strong></strong><br><br>
-  <img src="report/assets/images/diagrama_db_BC2.png" width="700"><br>
+  <img src="report/assets/images/bc2.png" width="700"><br>
   <em>Fuente: Elaboración propia.</em>
 </div>
 
@@ -3411,7 +3411,7 @@ En este apartado mostramos los Database Diagrams correspondientes a cada Bounded
 
 <div align="center">
   <strong></strong><br><br>
-  <img src="report/assets/images/diagrama_db_BC3.png" width="700"><br>
+  <img src="report/assets/images/bc3.png" width="700"><br>
   <em>Fuente: Elaboración propia.</em>
 </div>
 
@@ -3419,7 +3419,7 @@ En este apartado mostramos los Database Diagrams correspondientes a cada Bounded
 
 <div align="center">
   <strong></strong><br><br>
-  <img src="report/assets/images/diagrama_db_BC4.png" width="700"><br>
+  <img src="report/assets/images/bc4.png" width="700"><br>
   <em>Fuente: Elaboración propia.</em>
 </div>
 
@@ -3427,7 +3427,7 @@ En este apartado mostramos los Database Diagrams correspondientes a cada Bounded
 
 <div align="center">
   <strong></strong><br><br>
-  <img src="report/assets/images/diagrama_db_BC5.png" width="700"><br>
+  <img src="report/assets/images/bc5.png" width="700"><br>
   <em>Fuente: Elaboración propia.</em>
 </div>
 
