@@ -4819,7 +4819,14 @@ Métricas de colaboración:
 
 <div style="page-break-after: always;"></div>
 
-# Conclusiones 
+# Conclusiones
+
+### Resultados del TB1
+
+Durante el Sprint 2 desarrollamos las primeras interfaces de la aplicación web de FixCore con Angular. El trabajo se dividió entre los cinco integrantes por módulos: plantas y máquinas, mantenimiento preventivo, fallas, órdenes de trabajo e inventario.
+
+También integramos las pantallas, corregimos problemas de navegación y publicamos el frontend en Vercel junto con una API de prueba en Render. Esta entrega nos permitió comprobar el funcionamiento inicial de los principales flujos del sistema e identificar mejoras para los siguientes sprints.
+
 
 El desarrollo del primer avance de **FixCore** permitió definir con mayor claridad la problemática, los usuarios objetivo, los principales requisitos y la propuesta de diseño de la solución. A partir del trabajo realizado, se establecen las siguientes conclusiones:
 
@@ -4957,4 +4964,4 @@ W3Schools. (s. f.). *HTML style guide and coding conventions*. https://www.w3sch
 
 - [Video de exposición AV1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202324461_upc_edu_pe/IQDmty3FNqrWTLFvZG58kxPfAfv-bKwb9TGY5O8XUFahqSs?e=p3LPOL)
 
- 
+
