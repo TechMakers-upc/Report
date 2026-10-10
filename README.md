@@ -2,75 +2,272 @@
 
 <img src="report/assets/images/UPC_logo_transparente.png" alt="Logo de la Universidad" style="width:20%; height: auto;">
 
-## Universidad Peruana de Ciencias Aplicadas
+Universidad Peruana de Ciencias Aplicadas
 
-**Facultad:** Ingeniería
+Carrera de Ingenieria de Software
 
-**Carrera:** Ingeniería de Software 
+<br>
 
-**Ciclo:** 2026-20
+**1ASI0729**
 
-**Curso:** 1ASI0729 - Desarrollo de Aplicaciones Open Source
+**Desarrollo de Aplicaciones Open Source**
 
-**NRC:** 16692
+NRC
 
-**Profesor:** Ángel Augusto Velásquez Núñez
+**16692** 
 
-**"Informe de Trabajo Final"**
+**Informe de Trabajo Final**
 
-**Startup:** TechMakers
+Docente
 
-**Producto:** FixCore
+**Ángel Augusto Velásquez Núñez** 
 
-**Relación de integrantes:**
+<br>
 
-| Integrante                              | Código      |
-|-----------------------------------------|-------------|
-|Alvar Lucas Córdova                      |u202324461   |
-|Sunio Danilo Landa Sánchez               |u202423973   |
-|Giuseppe Adrián Villanueva Rodríguez     |u20221c554   |
-|Diego Rances Rojas Huaranga              |u20241E096   |
-|Pierre Alessandro Mendoza Boluarte       |u202320973   |
+Equipo
 
-**Setiembre, 2026**
+**TechMakers** 
+
+Proyecto
+
+**FixCore** 
+
+**Integrantes**
+
+| Código      | Apellidos y nombres                     |
+|:------------|:----------------------------------------|
+|u202324461   |Alvar Lucas Córdova                      |
+|u202423973   |Sunio Danilo Landa Sánchez               |
+|u20221c554   |Giuseppe Adrián Villanueva Rodríguez     |
+|u20241E096   |Diego Rances Rojas Huaranga              |
+|u202320973   |Pierre Alessandro Mendoza Boluarte       |
+
+<br>
+
+**Periodo 202620**
+
+**Octubre 2026**
 </div>
+
+<div style="page-break-after: always;"></div>
 
 # Registro de Versiones del Informe 
 
-<table class="c0" style="border-collapse: collapse; width: 100%;">
-<tr class="c7">
-<td class="c5" style="border: 1px solid black;">Versión</td>
-<td class="c5" style="border: 1px solid black;">Fecha</td>
-<td class="c5" style="border: 1px solid black;">Autor</td>
-<td class="c5" style="border: 1px solid black;">Descripción de modificación</td>
-</tr>
-
-<tr class="c7">
-<td class="c5" style="border: 1px solid black;">TB1</td>
-<td class="c5" style="border: 1px solid black;">29/08/2026</td>
-<td class="c5" style="border: 1px solid black;">
-Alvar Lucas Córdova  <br><br>
-Sunio Danilo Landa Sánchez<br><br>
-Giuseppe Adrián Villanueva Rodríguez <br><br>
-Pierre Alessandro Mendoza Boluarte<br><br>
-Diego Rances Rojas Huaranga 
-</td>
-<td class="c5" style="border: 1px solid black;">Se han incluído los siguientes capítulos:
-
-- Capítulo I: Introducción
-- Capítulo II: Requirements Elicitation & Analysis
-- Capítulo III: Requirements Specification
-- Capítulo IV: Product Design
-- Avance del Capítulo V: Product Implementation, - Validation & Deployment hasta el punto 5.2.1.8
-- Avance de Conclusiones, Bibliografía y Anexos</td>
-</tr>
+<table style="width: 100%; border-collapse: collapse;">
+  <thead>
+    <tr>
+      <th style="border: 1px solid black; padding: 6px; text-align: center;">Versión</th>
+      <th style="border: 1px solid black; padding: 6px; text-align: center;">Fecha</th>
+      <th style="border: 1px solid black; padding: 6px;">Autor</th>
+      <th style="border: 1px solid black; padding: 6px;">Descripción de modificación</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; text-align: center;">1</td>
+      <td style="border: 1px solid black; text-align: center;">06/09/2026</td>
+      <td style="border: 1px solid black;">Pierre Alessandro Mendoza Boluarte</td>
+      <td style="border: 1px solid black;">Primera versión del informe: Redacción e incorporación del Capítulo I (Introducción, Antecedentes y Perfiles de Usuario).</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; text-align: center;">2</td>
+      <td style="border: 1px solid black; text-align: center;">06/09/2026</td>
+      <td style="border: 1px solid black;">Giuseppe Adrián Villanueva Rodríguez</td>
+      <td style="border: 1px solid black;">Adición del análisis de competidores directos e indirectos, tácticas competitivas y definición del lenguaje ubicuo.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; text-align: center;">3</td>
+      <td style="border: 1px solid black; text-align: center;">09/09/2026</td>
+      <td style="border: 1px solid black;">Pierre Alessandro Mendoza Boluarte</td>
+      <td style="border: 1px solid black;">Registro y documentación de las entrevistas estructuradas correspondientes a cada segmento objetivo en el Capítulo II.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; text-align: center;">4</td>
+      <td style="border: 1px solid black; text-align: center;">09/09/2026</td>
+      <td style="border: 1px solid black;">Giuseppe Adrián Villanueva Rodríguez</td>
+      <td style="border: 1px solid black;">Inclusión de especificaciones de diseño: estados de componentes web y catálogo de elementos de formulario.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; text-align: center;">5</td>
+      <td style="border: 1px solid black; text-align: center;">12/09/2026</td>
+      <td style="border: 1px solid black;">Giuseppe Adrián Villanueva Rodríguez</td>
+      <td style="border: 1px solid black;">Definición de la arquitectura de información del sitio web y especificación de etiquetas SEO y meta tags.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; text-align: center;">6</td>
+      <td style="border: 1px solid black; text-align: center;">15/09/2026</td>
+      <td style="border: 1px solid black;">Diego Rances Rojas Huaranga</td>
+      <td style="border: 1px solid black;">Diseño y documentación de los wireframes iniciales de baja fidelidad para la aplicación web.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; text-align: center;">7</td>
+      <td style="border: 1px solid black; text-align: center;">16/09/2026</td>
+      <td style="border: 1px solid black;">Sunio Danilo Landa Sánchez</td>
+      <td style="border: 1px solid black;">Incorporación de tablas descriptivas de los miembros del equipo y estructura de la matriz de Student Outcomes.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; text-align: center;">8</td>
+      <td style="border: 1px solid black; text-align: center;">16/09/2026</td>
+      <td style="border: 1px solid black;">Alvar Lucas Córdova</td>
+      <td style="border: 1px solid black;">Desarrollo del Impact Mapping y definición detallada de User Personas para los segmentos definidos.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; text-align: center;">9</td>
+      <td style="border: 1px solid black; text-align: center;">16/09/2026</td>
+      <td style="border: 1px solid black;">Sunio Danilo Landa Sánchez</td>
+      <td style="border: 1px solid black;">Documentación de procesos clave del dominio mediante la técnica de Big Picture EventStorming.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; text-align: center;">10</td>
+      <td style="border: 1px solid black; text-align: center;">16/09/2026</td>
+      <td style="border: 1px solid black;">Giuseppe Adrián Villanueva Rodríguez</td>
+      <td style="border: 1px solid black;">Diseño y documentación de wireframes y mockups de alta fidelidad para la Landing Page.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; text-align: center;">11</td>
+      <td style="border: 1px solid black; text-align: center;">17/09/2026</td>
+      <td style="border: 1px solid black;">Pierre Alessandro Mendoza Boluarte</td>
+      <td style="border: 1px solid black;">Elaboración e inclusión de diagramas de arquitectura de software:C4 Model , clases y modelo de base de datos.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; text-align: center;">12</td>
+      <td style="border: 1px solid black; text-align: center;">18/09/2026</td>
+      <td style="border: 1px solid black;">Sunio Danilo Landa Sánchez</td>
+      <td style="border: 1px solid black;">Refinamiento de historias de usuario con criterios de aceptación y actualización del tablero de Product Backlog en Trello.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; text-align: center;">13</td>
+      <td style="border: 1px solid black; text-align: center;">18/09/2026</td>
+      <td style="border: 1px solid black;">Giuseppe Adrián Villanueva Rodríguez</td>
+      <td style="border: 1px solid black;">Redacción de conclusiones y recomendaciones correspondientes a la primera entrega del proyecto.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; text-align: center;">14</td>
+      <td style="border: 1px solid black; text-align: center;">19/09/2026</td>
+      <td style="border: 1px solid black;">Pierre Alessandro Mendoza Boluarte</td>
+      <td style="border: 1px solid black;">Documentación de artefactos de desarrollo del Capítulo V correspondientes al Sprint 1.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; text-align: center;">15</td>
+      <td style="border: 1px solid black; text-align: center;">19/09/2026</td>
+      <td style="border: 1px solid black;">Diego Rances Rojas Huaranga</td>
+      <td style="border: 1px solid black;">Versión inicial de flujos de usuario  detallando las rutas de navegación por cada rol dentro de la aplicación.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; text-align: center;">16</td>
+      <td style="border: 1px solid black; text-align: center;">19/09/2026</td>
+      <td style="border: 1px solid black;">Alvar Lucas Córdova</td>
+      <td style="border: 1px solid black;">Consolidación de anexos, enlaces de grabación de entrevistas y corrección general de consistencia para el cierre del Sprint 1.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; text-align: center;">17</td>
+      <td style="border: 1px solid black; text-align: center;">30/09/2026</td>
+      <td style="border: 1px solid black;">Pierre Alessandro Mendoza Boluarte</td>
+      <td style="border: 1px solid black;">Actualización del código fuente en PlantUML de los diagramas de clases, base de datos y modelo C4 para mejorar su trazabilidad.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; text-align: center;">18</td>
+      <td style="border: 1px solid black; text-align: center;">01/10/2026</td>
+      <td style="border: 1px solid black;">Pierre Alessandro Mendoza Boluarte</td>
+      <td style="border: 1px solid black;">Incorporación de evidencias de despliegue y desarrollo correspondientes a la Landing Page en el Capítulo V.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; text-align: center;">19</td>
+      <td style="border: 1px solid black; text-align: center;">02/10/2026</td>
+      <td style="border: 1px solid black;">Sunio Danilo Landa Sánchez</td>
+      <td style="border: 1px solid black;">Inclusión de evidencias de trabajo en equipo y redacción de la sección Project Report Collaboration Insights.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; text-align: center;">20</td>
+      <td style="border: 1px solid black; text-align: center;">03/10/2026</td>
+      <td style="border: 1px solid black;">Pierre Alessandro Mendoza Boluarte</td>
+      <td style="border: 1px solid black;">Ajuste de convenciones de nombrado y relaciones en los diagramas de arquitectura de software.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; text-align: center;">21</td>
+      <td style="border: 1px solid black; text-align: center;">05/10/2026</td>
+      <td style="border: 1px solid black;">Diego Rances Rojas Huaranga</td>
+      <td style="border: 1px solid black;">Mejora de la guía de entrevistas incorporando preguntas técnicas orientadas a la adopción de herramientas digitales.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; text-align: center;">22</td>
+      <td style="border: 1px solid black; text-align: center;">06/10/2026</td>
+      <td style="border: 1px solid black;">Sunio Danilo Landa Sánchez</td>
+      <td style="border: 1px solid black;">Actualización de diagramas y documentación del Design-Level EventStorming alineado a los alcanzes del profesor.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; text-align: center;">23</td>
+      <td style="border: 1px solid black; text-align: center;">07/10/2026</td>
+      <td style="border: 1px solid black;">Alvar Lucas Córdova</td>
+      <td style="border: 1px solid black;">Corrección de observaciones del docente en la sección de Needfinding y reordenamiento de la numeración de figuras del Capítulo II.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; text-align: center;">24</td>
+      <td style="border: 1px solid black; text-align: center;">07/10/2026</td>
+      <td style="border: 1px solid black;">Alvar Lucas Córdova</td>
+      <td style="border: 1px solid black;">Revisión y corrección de la documentación de evidencias de ejecución y servicios del Sprint 1.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; text-align: center;">25</td>
+      <td style="border: 1px solid black; text-align: center;">08/10/2026</td>
+      <td style="border: 1px solid black;">Alvar Lucas Córdova</td>
+      <td style="border: 1px solid black;">Planificación del Sprint 2 y redacción del backlog técnico de componentes para el frontend.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; text-align: center;">26</td>
+      <td style="border: 1px solid black; text-align: center;">08/10/2026</td>
+      <td style="border: 1px solid black;">Sunio Danilo Landa Sánchez</td>
+      <td style="border: 1px solid black;">Inclusión de wireframes de escritorio y nueva sección de prototipado para la aplicación web.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; text-align: center;">27</td>
+      <td style="border: 1px solid black; text-align: center;">08/10/2026</td>
+      <td style="border: 1px solid black;">Sunio Danilo Landa Sánchez</td>
+      <td style="border: 1px solid black;">Refactorización y reemplazo de los wireflows y flujos de usuario  por una nueva versión ajustada a la retroalimentación de diseño.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; text-align: center;">28</td>
+      <td style="border: 1px solid black; text-align: center;">08/10/2026</td>
+      <td style="border: 1px solid black;">Pierre Alessandro Mendoza Boluarte</td>
+      <td style="border: 1px solid black;">Refinamiento de redacción en el Sprint 2 Backlog y actualización del registro de versiones del informe.</td>
+    </tr>
+  </tbody>
 </table>
+
+<div style="page-break-after: always;"></div>
 
 # Project Report Collaboration Insights 
 
-# Contenido 
+Enlace al repositorio del Project Report: [Repositorio Report TechMakers](https://github.com/TechMakers-upc/Report)
 
-## Tabla de contenidos 
+**Avance 1**
+
+Para el desarrollo de las actividades del informe, nuestro equipo subió cada avance realizado mediante commits en el repositorio del informe en GitHub. Para la gran mayoría de cambios se siguieron las convenciones dictadas por GitFlow y Conventional Commits, esto mediante la creación de ramas Feature en el repositorio que abarquen distintos aspectos del informe y mediante la redacción de mensajes de commits que especifiquen de forma breve cada cambio. En esta primera entrega varios avances se enfocaron en la elaboración del archivo Markdown principal, además de la agregación de imágenes de apoyo como fotos, diagramas, evidencias o diseños de acuerdo con lo que se abarca en cada capítulo.
+
+A continuación se presenta la pestaña Pulse elaborada por GitHub, donde se muestra el número de pull requests, commits y autores del repositorio. Esta captura abarca datos desde el 30 de agosto hasta el 30 de setiembre.
+
+![Pulse Avance 1](report/assets/images/collaboration-insight-1-av1.jpeg)
+
+Seguidamente se presenta la pestaña Contributors, donde se muestran los números de commits de cada integrante del equipo. Esta captura abarca datos desde el inicio del proyecto hasta la finalización del primer avance. 
+
+|Integrante|Nombre de usuario en GitHub|
+|:---------|:--------------------------|
+| Rojas Huaranga, Diego Rances | diego27-16 |
+| Mendoza Boluarte, Pierre Alessandro | pierreale2302 |
+| Córdova, Alvar Lucas | AlvarLC |
+| Landa Sánchez, Sunio Danilo | DanLandio |
+| Villanueva Rodríguez, Giuseppe Adrián | Giuseppe152004 |
+
+![Contributors Avance 1](report/assets/images/collaboration-insight-2-av1.jpeg)
+
+<div style="page-break-after: always;"></div>
+
+
+
+# Contenido
+
+## Tabla de contenidos
+
 - [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
 - [Project Report Collaboration Insights](#project-report-collaboration-insights)
 - [Contenido](#contenido)
@@ -83,24 +280,26 @@ Diego Rances Rojas Huaranga
   - [1.2. Solution Profile](#12-solution-profile)
     - [1.2.1 Antecedentes y problemática](#121-antecedentes-y-problemática)
     - [1.2.2 Lean UX Process.](#122-lean-ux-process)
-      - [1.2.2.1. Lean UX Problem Statements.](#1221-lean-ux-problem-statements)
-      - [1.2.2.2. Lean UX Assumptions.](#1222-lean-ux-assumptions)
-      - [1.2.2.3. Lean UX Hypothesis Statements.](#1223-lean-ux-hypothesis-statements)
-      - [1.2.2.4. Lean UX Canvas.](#1224-lean-ux-canvas)
-  - [1.3. Segmentos objetivo.](#13-segmentos-objetivo)
+      - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
+      - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
+      - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+      - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
+  - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
 - [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis)
   - [2.1. Competidores.](#21-competidores)
     - [2.1.1. Análisis competitivo.](#211-análisis-competitivo)
     - [2.1.2. Estrategias y tácticas frente a competidores.](#212-estrategias-y-tácticas-frente-a-competidores)
   - [2.2. Entrevistas.](#22-entrevistas)
     - [2.2.1. Diseño de entrevistas.](#221-diseño-de-entrevistas)
-    - [2.2.2. Registro de entrevistas.](#222-registro-de-entrevistas)
-    - [2.2.3. Análisis de entrevistas.](#223-análisis-de-entrevistas)
+    - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
+    - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
+      - [Principales hallazgos generales](#principales-hallazgos-generales)
   - [2.3. Needfinding.](#23-needfinding)
     - [2.3.1. User Personas.](#231-user-personas)
     - [2.3.2. User Task Matrix.](#232-user-task-matrix)
     - [2.3.3. User Journey Mapping.](#233-user-journey-mapping)
     - [2.3.4. Empathy Mapping.](#234-empathy-mapping)
+    - [2.3.5. As-Is Scenario Mapping.](#235-as-is-scenario-mapping)
   - [2.4. Big Picture EventStorming.](#24-big-picture-eventstorming)
   - [2.5. Ubiquitous Language.](#25-ubiquitous-language)
 - [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
@@ -134,16 +333,59 @@ Diego Rances Rojas Huaranga
       - [4.2.2.5. Etiquetas de Acciones de Usuario](#4225-etiquetas-de-acciones-de-usuario)
       - [4.2.2.6. Reglas de Asociación entre Etiquetas](#4226-reglas-de-asociación-entre-etiquetas)
     - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
+      - [4.2.3.1. Configuración SEO General](#4231-configuración-seo-general)
+      - [4.2.3.2. Landing Page SEO Tags](#4232-landing-page-seo-tags)
+      - [4.2.3.3. Web Application - Dashboard SEO Tags](#4233-web-application---dashboard-seo-tags)
+      - [4.2.3.4. Página de Detalles por Rol SEO Tags](#4234-página-de-detalles-por-rol-seo-tags)
+      - [4.2.3.5. Página de Gestión de Activos / Inventario SEO Tags](#4235-página-de-gestión-de-activos--inventario-seo-tags)
+      - [4.2.3.6. Página de Perfil de Activo Individual SEO Tags](#4236-página-de-perfil-de-activo-individual-seo-tags)
+      - [4.2.3.7. Página de Reporte de Fallas (OTs) SEO Tags](#4237-página-de-reporte-de-fallas-ots-seo-tags)
+    - [4.2.3.8. Estructura de Datos Schema Markup](#4238-estructura-de-datos-schema-markup)
+    - [4.2.3.9. Directrices SEO Generales](#4239-directrices-seo-generales)
     - [4.2.4. Searching Systems.](#424-searching-systems)
+      - [4.2.4.1. Sistema de Búsqueda General](#4241-sistema-de-búsqueda-general)
+      - [4.2.4.2. Sistema de Búsqueda de Órdenes de Trabajo (OTs) y Fallas](#4242-sistema-de-búsqueda-de-órdenes-de-trabajo-ots-y-fallas)
+      - [4.2.4.3. Sistema de Búsqueda en Inventario y Gestión de Activos](#4243-sistema-de-búsqueda-en-inventario-y-gestión-de-activos)
+      - [4.2.4.4. Sistema de Búsqueda en Historial y Auditoría](#4244-sistema-de-búsqueda-en-historial-y-auditoría)
     - [4.2.5. Navigation Systems.](#425-navigation-systems)
+      - [4.2.5.1. Sistema de Navegación Global](#4251-sistema-de-navegación-global)
+      - [4.2.5.2. Navegación del Landing Page](#4252-navegación-del-landing-page)
+      - [4.2.5.3. Navegación de la Aplicación Web](#4253-navegación-de-la-aplicación-web)
+      - [4.2.5.4. Sistema de Breadcrumbs](#4254-sistema-de-breadcrumbs)
+      - [4.2.5.5. Navegación Mobile](#4255-navegación-mobile)
+      - [4.2.5.6. Navegación Operativa (Flujo de Trabajo)](#4256-navegación-operativa-flujo-de-trabajo)
+      - [4.2.5.7. Accesibilidad en Navegación](#4257-accesibilidad-en-navegación)
+      - [4.2.5.8. Feedback de Navegación](#4258-feedback-de-navegación)
   - [4.3. Landing Page UI Design.](#43-landing-page-ui-design)
     - [4.3.1. Landing Page Wireframe.](#431-landing-page-wireframe)
+      - [4.3.1.1. Introducción al Wireframe del Landing Page](#4311-introducción-al-wireframe-del-landing-page)
+      - [4.3.1.2. Wireframe Desktop](#4312-wireframe-desktop)
+      - [4.3.1.3. Wireframe Mobile](#4313-wireframe-mobile)
+      - [4.3.1.1. Introducción al Wireframe del Landing Page](#4311-introducción-al-wireframe-del-landing-page-1)
+      - [4.3.1.4. Regiones del wireframe y su Función](#4314-regiones-del-wireframe-y-su-función)
+      - [4.3.1.5. Principios de Diseño Aplicados en los Wireframes](#4315-principios-de-diseño-aplicados-en-los-wireframes)
     - [4.3.2. Landing Page Mock-up.](#432-landing-page-mock-up)
+      - [4.3.2.1. Introducción al Mock-up](#4321-introducción-al-mock-up)
+      - [4.3.2.2. Mock-up Desktop](#4322-mock-up-desktop)
+      - [4.3.2.3. Mock-up Mobile](#4323-mock-up-mobile)
+      - [4.3.2.4. Vistas Detalladas por Sección](#4324-vistas-detalladas-por-sección)
+      - [4.3.2.5. Aplicación del Design System y Accesibilidad](#4325-aplicación-del-design-system-y-accesibilidad)
+      - [4.3.2.6. Referencias Visuales](#4326-referencias-visuales)
+      - [4.3.2.7. Estados Interactivos en el Mock-up](#4327-estados-interactivos-en-el-mock-up)
+      - [4.3.2.8. Diseño Responsivo General](#4328-diseño-responsivo-general)
   - [4.4. Web Applications UX/UI Design.](#44-web-applications-uxui-design)
     - [4.4.1. Web Applications Wireframes.](#441-web-applications-wireframes)
     - [4.4.2. Web Applications Wireflow Diagrams.](#442-web-applications-wireflow-diagrams)
-    - [4.4.2. Web Applications Mock-ups.](#442-web-applications-mock-ups)
-    - [4.4.3. Web Applications User Flow Diagrams.](#443-web-applications-user-flow-diagrams)
+      - [4.4.2.1. Wireflow 01 — Jefe de Planta registra su cuenta y maquinas.](#4421-wireflow-01--jefe-de-planta-registra-su-cuenta-y-maquinas)
+      - [4.4.2.2. Wireflow 02 — Técnico accede a la informacion de maquinas.](#4422-wireflow-02--técnico-accede-a-la-informacion-de-maquinas)
+      - [4.4.2.3. Wireflow 03 — Gerente de Operaciones crea una orden de trabajo](#4423-wireflow-03--gerente-de-operaciones-crea-una-orden-de-trabajo)
+      - [4.4.2.4. Wireflow 04 — Integrante de una planta reporta una falla](#4424-wireflow-04--integrante-de-una-planta-reporta-una-falla)
+    - [4.4.3. Web Applications Mock-ups.](#443-web-applications-mock-ups)
+    - [4.4.4. Web Applications User Flow Diagrams.](#444-web-applications-user-flow-diagrams)
+      - [4.4.4.1. Userflow 01 — Jefe de Planta registra su cuenta y maquinas.](#4441-userflow-01--jefe-de-planta-registra-su-cuenta-y-maquinas)
+      - [4.4.4.2. Userflow 02 — Técnico accede a la informacion de maquinas.](#4442-userflow-02--técnico-accede-a-la-informacion-de-maquinas)
+      - [4.4.4.3. Userflow 03 — Gerente de Operaciones crea una orden de trabajo](#4443-userflow-03--gerente-de-operaciones-crea-una-orden-de-trabajo)
+      - [4.4.4.4. Userflow 04 — Integrante de una planta reporta una falla](#4444-userflow-04--integrante-de-una-planta-reporta-una-falla)
   - [4.5. Web Applications Prototyping.](#45-web-applications-prototyping)
   - [4.6. Domain-Driven Software Architecture.](#46-domain-driven-software-architecture)
     - [4.6.1. Design-Level EventStorming.](#461-design-level-eventstorming)
@@ -152,8 +394,18 @@ Diego Rances Rojas Huaranga
     - [4.6.4. Software Architecture Components Diagrams.](#464-software-architecture-components-diagrams)
   - [4.7. Software Object-Oriented Design.](#47-software-object-oriented-design)
     - [4.7.1. Class Diagrams.](#471-class-diagrams)
+      - [4.7.1.1. Class Diagram – Identity \& Access Management](#4711-class-diagram--identity--access-management)
+      - [4.7.1.2. Class Diagram – Resource \& Asset Management](#4712-class-diagram--resource--asset-management)
+      - [4.7.1.3. Class Diagram – Service Design \& Planning](#4713-class-diagram--service-design--planning)
+      - [4.7.1.4. Class Diagram – Service Execution \& Monitoring](#4714-class-diagram--service-execution--monitoring)
+      - [4.7.1.5. Class Diagram – Inventory \& Spare Parts Management](#4715-class-diagram--inventory--spare-parts-management)
   - [4.8. Database Design.](#48-database-design)
     - [4.8.1. Database Diagrams.](#481-database-diagrams)
+      - [4.8.1.1. Database Diagram – Identity \& Access Management](#4811-database-diagram--identity--access-management)
+      - [4.8.1.2. Database Diagram – Resource \& Asset Management](#4812-database-diagram--resource--asset-management)
+      - [4.8.1.3. Database Diagram – Service Design \& Planning](#4813-database-diagram--service-design--planning)
+      - [4.8.1.4. Database Diagram – Service Execution \& Monitoring](#4814-database-diagram--service-execution--monitoring)
+      - [4.8.1.5. Database Diagram – Inventory \& Spare Parts Management](#4815-database-diagram--inventory--spare-parts-management)
 - [Capítulo V: Product Implementation, Validation \& Deployment](#capítulo-v-product-implementation-validation--deployment)
   - [5.1. Software Configuration Management.](#51-software-configuration-management)
     - [5.1.1. Software Development Environment Configuration.](#511-software-development-environment-configuration)
@@ -170,11 +422,27 @@ Diego Rances Rojas Huaranga
       - [5.2.1.6. Services Documentation Evidence for Sprint Review.](#5216-services-documentation-evidence-for-sprint-review)
       - [5.2.1.7. Software Deployment Evidence for Sprint Review.](#5217-software-deployment-evidence-for-sprint-review)
       - [5.2.1.8. Team Collaboration Insights during Sprint.](#5218-team-collaboration-insights-during-sprint)
+    - [5.2.2. Sprint 2.](#522-sprint-2)
+      - [5.2.2.1. Sprint Planning 2.](#5221-sprint-planning-2)
+      - [5.2.2.2. Aspect Leaders and Collaborators.](#5222-aspect-leaders-and-collaborators)
+      - [5.2.2.3. Sprint Backlog 2.](#5223-sprint-backlog-2)
+      - [5.2.2.4. Development Evidence for Sprint Review.](#5224-development-evidence-for-sprint-review)
+      - [5.2.2.5. Execution Evidence for Sprint Review.](#5225-execution-evidence-for-sprint-review)
+      - [5.2.2.6. Services Documentation Evidence for Sprint Review.](#5226-services-documentation-evidence-for-sprint-review)
+      - [5.2.2.7. Software Deployment Evidence for Sprint Review.](#5227-software-deployment-evidence-for-sprint-review)
+      - [5.2.2.8. Team Collaboration Insights during Sprint.](#5228-team-collaboration-insights-during-sprint)
 - [Conclusiones](#conclusiones)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
+  - [Anexo A. Repositorios del Proyecto](#anexo-a-repositorios-del-proyecto)
+  - [Anexo B. Gestión y Planificación del Proyecto](#anexo-b-gestión-y-planificación-del-proyecto)
+  - [Anexo D. Entrevistas](#anexo-d-entrevistas)
+  - [Anexo E. Despliegues](#anexo-e-despliegues)
+  - [Anexo F. Videos de exposiciones](#anexo-f-videos-de-exposiciones)
 
 
+
+<div style="page-break-after: always;"></div>
 
 # Student Outcome 
 
@@ -189,45 +457,38 @@ Diego Rances Rojas Huaranga
   <tr>
     <th>Comunica oralmente con efectividad a diferentes rangos de audiencia</th>
     <td>
-    Alvar Lucas Córdova <br> AV1: Participé en las reuniones y coordinaciones del equipo explicando los avances realizados en el proyecto, principalmente en los artefactos de Requirements Elicitation & Analysis y Requirements Specification, como User Personas, User Task Matrix, User Journey Mapping, Empathy Mapping, User Stories, Impact Mapping y Product Backlog. También comuniqué decisiones y avances relacionados con el diseño y desarrollo del producto.<br><br>
-    Sunio Danilo Landa Sánchez <br> AV1: Participé en la coordinación del equipo para el desarrollo del proyecto siguiendo las convenciones descritas en el enunciado. Además, participé en la exposición de los avances realizados.<br><br>
-    Giuseppe Adrián Villanueva Rodríguez <br> AV1: Colaboré en el desarrollo de los capítulos II, III y IV, así como en algunas partes del desarrollo y despliegue de la Landing Page. También comuniqué al equipo los avances realizados en estas actividades.<br><br>
-    Diego Rances Rojas Huaranga <br> AV1: Apoyé en la elaboración del primer avance del proyecto y en la realización de entrevistas correspondientes a los tres segmentos definidos. También participé en las coordinaciones del equipo para integrar estos aportes al informe.<br><br>
-    Pierre Alessandro Mendoza Boluarte <br> AV1: Participé activamente en la elaboración del primer avance, aportando contenido para el Capítulo I relacionado con la definición del negocio y los segmentos objetivo. Asimismo, realicé dos entrevistas y comuniqué al equipo los resultados obtenidos.
+    Alvar Lucas Córdova <br> AV1: Participé en las reuniones y coordinaciones del equipo explicando los avances realizados en el proyecto, principalmente en los artefactos de Requirements Elicitation & Analysis y Requirements Specification, como User Personas, User Task Matrix, User Journey Mapping, Empathy Mapping, User Stories, Impact Mapping y Product Backlog. También comuniqué decisiones y avances relacionados con el diseño y desarrollo del producto.<br> TB1: Coordiné con el equipo los avances y las correcciones de la integración del frontend durante el Sprint 2.<br><br>
+    Sunio Danilo Landa Sánchez <br> AV1: Participé en la coordinación del equipo para el desarrollo del proyecto siguiendo las convenciones descritas en el enunciado. Además, participé en la exposición de los avances realizados.<br> TB1: Comuniqué los avances del módulo de mantenimiento preventivo, incluyendo programación, calendario y navegación.<br><br>
+    Giuseppe Adrián Villanueva Rodríguez <br> AV1: Colaboré en el desarrollo de los capítulos II, III y IV, así como en algunas partes del desarrollo y despliegue de la Landing Page. También comuniqué al equipo los avances realizados en estas actividades.<br> TB1: Expliqué los avances del reporte de fallas y de los indicadores del dashboard.<br><br>
+    Diego Rances Rojas Huaranga <br> AV1: Apoyé en la elaboración del primer avance del proyecto y en la realización de entrevistas correspondientes a los tres segmentos definidos. También participé en las coordinaciones del equipo para integrar estos aportes al informe.<br> TB1: Comuniqué los avances del flujo de órdenes de trabajo y la conexión desde la Landing Page.<br><br>
+    Pierre Alessandro Mendoza Boluarte <br> AV1: Participé activamente en la elaboración del primer avance, aportando contenido para el Capítulo I relacionado con la definición del negocio y los segmentos objetivo. Asimismo, realicé dos entrevistas y comuniqué al equipo los resultados obtenidos.<br> TB1: Presenté los avances del inventario, los repuestos y la integración de módulos mediante pull requests.
     </td>
     <td>
     AV1: La comunicación oral permitió coordinar las actividades entre los integrantes, presentar los avances realizados y compartir las decisiones tomadas durante el desarrollo del proyecto. Asimismo, facilitó la explicación de la problemática, los requerimientos y la propuesta de FixCore durante las reuniones y exposiciones del equipo.
+    <br><br>    TB1: La comunicación oral facilitó la coordinación del Sprint 2, la explicación de avances de cada módulo y la identificación de correcciones para integrar FixCore.
     </td>
   </tr>
 
   <tr>
     <th>Comunica por escrito con efectividad a diferentes rangos de audiencia</th>
     <td>
-    Alvar Lucas Córdova <br> AV1: Elaboré y redacté diferentes secciones del informe, incluyendo User Personas, User Task Matrix, User Journey Mapping, Empathy Mapping, User Stories, Impact Mapping y Product Backlog. Además, participé en la documentación de secciones relacionadas con el diseño del producto y el avance de la implementación.<br><br>
-    Sunio Danilo Landa Sánchez <br> AV1: Apoyé en la aplicación de convenciones durante el control de versiones del proyecto y en la nomenclatura de los mensajes de cambio realizados en el repositorio.<br><br>
-    Giuseppe Adrián Villanueva Rodríguez <br> AV1: Redacté diferentes secciones comprendidas desde Style Guidelines hasta Landing Page Mock-up. Además, participé en la elaboración de dos entrevistas y en la redacción de sus respectivos resúmenes.<br><br>
-    Diego Rances Rojas Huaranga <br> AV1: Participé en el desarrollo de la propuesta visual y de interacción de la plataforma orientada al mantenimiento industrial, elaborando wireframes de baja fidelidad en Figma. También integré los wireframes con los flujos de interacción y cambios de estado según los objetivos de cada rol, y participé en el desarrollo de los mock-ups de alta fidelidad aplicando el Design System de FixCore.<br><br>
-    Pierre Alessandro Mendoza Boluarte <br> AV1: Participé en la planificación del EventStorming, colaboré en la elaboración de diagramas y apoyé en la redacción de diferentes apartados correspondientes al Capítulo V.
+    Alvar Lucas Córdova <br> AV1: Elaboré y redacté diferentes secciones del informe, incluyendo User Personas, User Task Matrix, User Journey Mapping, Empathy Mapping, User Stories, Impact Mapping y Product Backlog. Además, participé en la documentación de secciones relacionadas con el diseño del producto y el avance de la implementación.<br> TB1: Actualicé Needfinding y el Sprint Planning 2; implementé la gestión de plantas y máquinas, integré el frontend y corregí problemas detectados en la auditoría.<br><br>
+    Sunio Danilo Landa Sánchez <br> AV1: Apoyé en la aplicación de convenciones durante el control de versiones del proyecto y en la nomenclatura de los mensajes de cambio realizados en el repositorio.<br> TB1: Registré mediante commits los formularios de mantenimiento preventivo, el calendario, los estados y las rutas del módulo.<br><br>
+    Giuseppe Adrián Villanueva Rodríguez <br> AV1: Redacté diferentes secciones comprendidas desde Style Guidelines hasta Landing Page Mock-up. Además, participé en la elaboración de dos entrevistas y en la redacción de sus respectivos resúmenes.<br> TB1: Registré mediante commits el desarrollo del registro de fallas, el dashboard y los ajustes de diagramas de base de datos del informe.<br><br>
+    Diego Rances Rojas Huaranga <br> AV1: Participé en el desarrollo de la propuesta visual y de interacción de la plataforma orientada al mantenimiento industrial, elaborando wireframes de baja fidelidad en Figma. También integré los wireframes con los flujos de interacción y cambios de estado según los objetivos de cada rol, y participé en el desarrollo de los mock-ups de alta fidelidad aplicando el Design System de FixCore.<br> TB1: Documenté mediante commits la creación, asignación, ejecución y cierre de órdenes de trabajo, además de la conexión con la Landing Page.<br><br>
+    Pierre Alessandro Mendoza Boluarte <br> AV1: Participé en la planificación del EventStorming, colaboré en la elaboración de diagramas y apoyé en la redacción de diferentes apartados correspondientes al Capítulo V.<br> TB1: Registré commits y pull requests de gestión de inventario, repuestos, validaciones, niveles mínimos de stock e integración de módulos.
     </td>
     <td>
     AV1: La documentación elaborada permitió comunicar de forma organizada la problemática, los segmentos objetivo, los requerimientos, el diseño y los avances de implementación de FixCore. La utilización de una estructura común, artefactos visuales y convenciones de documentación permitió mantener coherencia entre los diferentes capítulos del informe y facilitar su comprensión.
+    <br><br>    TB1: La documentación del Sprint 2 y el registro de commits permitieron explicar las responsabilidades del equipo, mantener trazabilidad y comunicar las mejoras del frontend.
     </td>
   </tr>
 </table>
 </div>
 
-
-
+<div style="page-break-after: always;"></div>
 
 # Capítulo I: Introduction 
-
-<div align="center">
-  <img src="report/assets/images/capitulo-1.png" 
-  alt="Capitulo 1" />
-</div>
-
-<br>
-<br>
 
 ## 1.1. Startup Profile
 
@@ -243,11 +504,11 @@ Frente a esta problemática surge **FixCore**, una plataforma orientada a centra
 
 De esta manera, TechMakers busca ofrecer una solución accesible y fácil de utilizar que permita a las empresas mejorar la organización de sus actividades de mantenimiento y reducir los problemas generados por procesos manuales o información dispersa.
 
-### Misión
+**Misión**
 
 La misión de TechMakers es ofrecer a empresas manufactureras y contratistas de mantenimiento industrial una solución tecnológica que facilite la organización y gestión de sus actividades de mantenimiento. Mediante FixCore buscamos centralizar la información de las máquinas, mejorar la programación de los mantenimientos y facilitar el control de los repuestos, contribuyendo a reducir las interrupciones ocasionadas por fallas o una planificación inadecuada.
 
-### Visión
+**Visión**
 
 La visión de TechMakers es lograr que FixCore se convierta progresivamente en una alternativa reconocida en el Perú para la gestión del mantenimiento industrial. Buscamos desarrollar una plataforma que pueda adaptarse al crecimiento de las empresas y contribuir a la digitalización de procesos que actualmente se realizan de manera manual o mediante herramientas desconectadas.
 
@@ -269,9 +530,9 @@ A continuación, se presentan los integrantes de TechMakers y las principales ca
   </tr>
   <tr>
     <td colspan="2">
-    <b>Codigo:</b> u202324461 <br>
-    <b>Carrera:</b> <br>
-    <b>Conocimientos técnicos y habilidades:</b>
+      <b>Código:</b> u202324461 <br>
+      <b>Carrera:</b> Ingeniería de Software <br>
+      <b>Conocimientos técnicos y habilidades:</b> Cuenta con conocimientos en desarrollo web utilizando HTML, CSS y JavaScript, así como conocimientos básicos de Vue.js y C# con .NET. También posee experiencia utilizando Git y GitHub para el control de versiones y trabajo colaborativo. Destaca por su organización, responsabilidad y capacidad para coordinar actividades dentro del equipo.
     </td>
   </tr>
 
@@ -281,9 +542,9 @@ A continuación, se presentan los integrantes de TechMakers y las principales ca
   </tr>
   <tr>
     <td colspan="2">
-    <b>Codigo:</b> u202423973 <br>
-    <b>Carrera:</b> <br>
-    <b>Conocimientos técnicos y habilidades:</b>
+      <b>Código:</b> u202423973 <br>
+      <b>Carrera:</b> Ingeniería de Software <br>
+      <b>Conocimientos técnicos y habilidades:</b> Posee conocimientos en programación con C++ y JavaScript, además de fundamentos de HTML y CSS para el desarrollo de interfaces web. También conoce el uso básico de Git, GitHub y el marco de trabajo Scrum. Destaca por su capacidad de aprendizaje, responsabilidad y disposición para trabajar en equipo.
     </td>
   </tr>
 
@@ -293,21 +554,21 @@ A continuación, se presentan los integrantes de TechMakers y las principales ca
   </tr>
   <tr>
     <td colspan="2">
-    <b>Codigo:</b> u20221c554 <br>
-    <b>Carrera:</b> <br>
-    <b>Conocimientos técnicos y habilidades:</b>
+      <b>Código:</b> u20221c554 <br>
+      <b>Carrera:</b> Ingeniería de Software <br>
+      <b>Conocimientos técnicos y habilidades:</b> Cuenta con conocimientos básicos de Java, SQL y desarrollo de aplicaciones web. Tiene experiencia introductoria con Angular y TypeScript, además del uso de Git y GitHub para gestionar cambios en proyectos. Se caracteriza por su capacidad para resolver problemas, adaptarse a nuevas tecnologías y colaborar con otros integrantes.
     </td>
   </tr>
 
   <tr>
     <th rowspan="2">Diego Rances Rojas Huaranga</th>
-    <td colspan="2"><img src="report/assets/images/foto-diego.jpg"</td>
+    <td colspan="2"><img src="report/assets/images/foto-diego.jpg"></td>
   </tr>
   <tr>
     <td colspan="2">
-    <b>Codigo:</b> u20241E096 <br>
-    <b>Carrera:</b> <br>
-    <b>Conocimientos técnicos y habilidades:</b>
+      <b>Código:</b> u20241E096 <br>
+      <b>Carrera:</b> Ingeniería de Software <br>
+      <b>Conocimientos técnicos y habilidades:</b> Posee conocimientos básicos de C#, .NET y SQL, así como fundamentos para el desarrollo y consumo de servicios REST. También cuenta con conocimientos de Vue.js, HTML y CSS para la creación de interfaces web. Destaca por su pensamiento lógico, capacidad de análisis y disposición para aprender nuevas herramientas.
     </td>
   </tr>
 
@@ -317,9 +578,9 @@ A continuación, se presentan los integrantes de TechMakers y las principales ca
   </tr>
   <tr>
     <td colspan="2">
-    <b>Codigo:</b> u202320973 <br>
-    <b>Carrera:</b> <br>
-    <b>Conocimientos técnicos y habilidades:</b>
+      <b>Código:</b> u202320973 <br>
+      <b>Carrera:</b> Ingeniería de Software <br>
+      <b>Conocimientos técnicos y habilidades:</b> Considero que tengo conocimientos en HTML, CSS,C++ y un poco de JavaScript . Ademas uso GitHub para el trabajo colaborativo y tengo nociones de diseño de interfaces y prototipado. Creo que soy creativo y apoyare en lo que pueda para tener una comunicación y capacidad para trabajar de manera colaborativa.
     </td>
   </tr>
 </table>
@@ -330,153 +591,152 @@ A continuación, se presentan los integrantes de TechMakers y las principales ca
 
 ### 1.2.1 Antecedentes y problemática
 
-Para entender el contexto de FixCore, analizamos la situación del sector manufacturero en el Perú, el cual representa una parte importante de la economía nacional y requiere una mejora constante de sus procesos. Según datos del Instituto Nacional de Estadística e Informática (INEI), en 2023 el sector manufactura contribuyó con un 12,2 % al Producto Bruto Interno (PBI) nacional. Sin embargo, durante ese mismo año presentó una disminución del 6,6 % en su producción, lo que genera la necesidad de buscar una mayor eficiencia y reducir los sobrecostos operativos.
+El sector manufacturero depende en gran medida de la disponibilidad y correcto funcionamiento de sus máquinas y equipos. Por ello, una adecuada gestión del mantenimiento resulta importante para reducir interrupciones en la producción, organizar las intervenciones técnicas y mantener un mayor control sobre los activos de una empresa.
 
-Una de las formas de lograrlo es mediante una mejor gestión de los activos y del mantenimiento de la maquinaria. Investigaciones de McKinsey & Company señalan que pasar de un modelo de mantenimiento reactivo a enfoques preventivos y predictivos puede reducir los costos generales de mantenimiento entre un 18 % y un 25 %. Además, este tipo de mejoras puede contribuir a disminuir el tiempo de inactividad no planificado.
+En este contexto, una de las principales dificultades identificadas se encuentra en la forma en que algunas pymes manufactureras, empresas contratistas y equipos técnicos gestionan sus actividades de mantenimiento. Procesos como la programación de mantenimientos preventivos, el registro de fallas, la asignación de órdenes de trabajo y el control de repuestos todavía pueden realizarse mediante cuadernos, pizarras, hojas de cálculo, llamadas telefónicas o mensajes de WhatsApp.
 
-A pesar de los beneficios de la digitalización, los contratistas de servicios técnicos y los administradores de pymes industriales todavía presentan dificultades en sus actividades diarias. Uno de los principales problemas es la gestión de las fechas de mantenimiento y el control del inventario de repuestos. Muchas empresas continúan utilizando cuadernos, pizarras y hojas de Excel para registrar esta información, lo que dificulta mantenerla organizada y actualizada.
+El uso de diferentes medios para registrar y compartir información puede ocasionar que los datos se encuentren dispersos o desactualizados. Como consecuencia, los responsables de mantenimiento pueden tener dificultades para conocer qué equipos necesitan atención, qué actividades se encuentran pendientes, qué técnico está encargado de una intervención o qué repuestos se encuentran disponibles.
 
-Como consecuencia, algunos mantenimientos pueden realizarse fuera de la fecha prevista, pueden faltar repuestos necesarios para una reparación o una falla puede tardar más tiempo en ser atendida. Estas situaciones pueden generar paradas no planificadas en las líneas de producción, mayores costos de reparación y pérdidas para las empresas involucradas.
+Estas dificultades también afectan a los técnicos y operarios que trabajan directamente en planta, quienes necesitan consultar información de las máquinas, registrar fallas, revisar órdenes de trabajo y reportar las actividades realizadas durante una intervención.
 
+Frente a esta problemática surge la oportunidad de centralizar estas actividades mediante una plataforma web que permita organizar la información relacionada con los activos, los mantenimientos, las fallas, las órdenes de trabajo y los repuestos.
 
-
-### Técnica de The 5 'W's y 2 'H's
-
-| Pregunta      | Formulación                 | Respuesta |
-| :------------ | :-------------------------- | :-------- |
-| **Who?**      | ¿Quiénes son los afectados? | Firmas contratistas de servicio técnico industrial, dueños o administradores de pymes del sector manufacturero, y técnicos u operarios encargados de ejecutar actividades de mantenimiento. |
-| **What?**     | ¿Cuál es el problema?       | Dificultades para planificar los mantenimientos, reportar y atender fallas, controlar el inventario de repuestos y mantener centralizada la información debido al uso de registros manuales y sistemas desconectados. |
-| **Where?**    | ¿Dónde ocurre?              | En plantas de producción, fábricas, talleres industriales y empresas contratistas que realizan actividades de mantenimiento en el Perú. |
-| **When?**     | ¿Cuándo ocurre el problema? | Durante la operación diaria, especialmente cuando se aproxima o vence una fecha de mantenimiento, ocurre una falla imprevista, se asigna una orden de trabajo o se necesita un repuesto que no se encuentra disponible. |
-| **Why?**      | ¿Por qué ocurre?            | Porque muchas empresas todavía dependen de cuadernos, pizarras, hojas de Excel, llamadas y mensajes de WhatsApp, lo que dificulta generar alertas, coordinar a los técnicos, consultar el historial técnico y mantener actualizado el inventario. |
-| **How?**      | ¿Cómo se manifiesta?        | Mediante paradas no planificadas, fallas atendidas con demora, información dispersa, falta de repuestos, dificultades para coordinar técnicos y poca trazabilidad de las actividades de mantenimiento. |
-| **How Much?** | ¿Cuál es la magnitud?       | El problema puede generar tiempos muertos, reparaciones de emergencia, retrasos en la atención y sobrecostos que afectan directamente la productividad y rentabilidad de las empresas. |
+FixCore busca responder a esta necesidad mediante una solución orientada a pymes manufactureras, empresas contratistas de mantenimiento industrial y técnicos u operarios que participan directamente en los procesos de mantenimiento.
 
 
+**Técnica de The 5 'W's y 2 'H's**
 
-
----
+| Pregunta | Formulación | Respuesta |
+| :--- | :--- | :--- |
+| **Who?** | ¿Quiénes son los afectados? | Dueños, administradores, jefes de mantenimiento y responsables de pymes manufactureras; empresas contratistas de mantenimiento industrial; y técnicos u operarios encargados de ejecutar actividades de mantenimiento. |
+| **What?** | ¿Cuál es el problema? | Existen dificultades para programar mantenimientos, registrar y atender fallas, gestionar órdenes de trabajo, controlar repuestos y consultar información histórica debido al uso de registros manuales o herramientas desconectadas. |
+| **Where?** | ¿Dónde ocurre? | En plantas de producción, fábricas, talleres industriales y empresas contratistas que realizan actividades de mantenimiento. |
+| **When?** | ¿Cuándo ocurre el problema? | Durante las actividades diarias de mantenimiento, especialmente cuando se aproxima una fecha de mantenimiento, ocurre una falla, se asigna una intervención o se necesita consultar la disponibilidad de un repuesto. |
+| **Why?** | ¿Por qué ocurre? | Porque la información puede encontrarse distribuida entre cuadernos, hojas de cálculo, llamadas, mensajes y otros medios que no mantienen un registro centralizado de las actividades. |
+| **How?** | ¿Cómo se manifiesta? | Mediante información desactualizada, dificultades para coordinar técnicos, mantenimientos realizados fuera de la fecha prevista, falta de trazabilidad de las intervenciones y problemas para conocer la disponibilidad de repuestos. |
+| **How Much?** | ¿Cuál es la magnitud? | Su impacto varía según el tamaño y operación de cada empresa, pero puede traducirse en tiempo adicional dedicado a buscar información, retrasos en la atención de fallas, interrupciones operativas y mayores costos asociados al mantenimiento. |
 
 ### 1.2.2 Lean UX Process. 
 
-#### 1.2.2.1. Lean UX Problem Statements.
+#### 1.2.2.1. Lean UX Problem Statements
 
-El estado actual del mantenimiento industrial presenta dificultades principalmente en pymes manufactureras, firmas contratistas de mantenimiento y técnicos u operarios que todavía dependen de cuadernos, pizarras, hojas de Excel, llamadas telefónicas o mensajes de WhatsApp para programar mantenimientos, reportar fallas, coordinar órdenes de trabajo y controlar los repuestos utilizados. Esta forma de trabajo provoca que la información se encuentre dispersa, dificulta el seguimiento de las actividades y aumenta el riesgo de retrasos, errores y paradas no planificadas.
+El mantenimiento de maquinaria y equipos en pymes manufactureras y empresas contratistas puede presentar dificultades cuando la información relacionada con activos, mantenimientos, fallas, órdenes de trabajo y repuestos se administra mediante herramientas separadas o registros manuales.
 
-Los productos y servicios actuales no siempre logran resolver estas necesidades de manera accesible para pequeñas y medianas empresas, debido a que muchas soluciones existentes pueden resultar costosas, complejas de implementar o poco prácticas para los técnicos que trabajan directamente en planta.
+Los principales usuarios afectados son los responsables de mantenimiento, administradores, técnicos y operarios, quienes necesitan consultar y registrar información durante sus actividades diarias. Cuando estos procesos dependen de cuadernos, hojas de cálculo, llamadas o mensajes, puede resultar más difícil mantener la información actualizada y conocer el estado de las actividades de mantenimiento.
 
-Nuestro producto abordará esta brecha mediante FixCore, una aplicación web SaaS intuitiva y adaptable que permitirá centralizar la información de las máquinas, programar mantenimientos preventivos, registrar fallas, gestionar Órdenes de Trabajo, controlar el inventario de repuestos y consultar información relevante desde computadoras, tablets o smartphones.
+Las soluciones existentes no siempre se adaptan a las necesidades y recursos de pequeñas y medianas organizaciones, especialmente cuando requieren procesos de implementación complejos o interfaces poco prácticas para el personal que trabaja directamente en planta.
 
-Nuestro enfoque inicial estará dirigido a pymes de manufactura y producción, firmas consultoras y contratistas de ingeniería industrial, y técnicos u operarios de mantenimiento que participan directamente en las actividades operativas. Sabremos que estamos teniendo éxito cuando al menos el 75 % de los operarios utilice la aplicación web durante su turno, los clientes reduzcan las paradas de máquina no planificadas en al menos un 30 % y los quiebres de stock de repuestos críticos disminuyan en un 25 %.
+Existe, por lo tanto, una oportunidad para desarrollar una solución que centralice la información y permita realizar las principales actividades de mantenimiento desde una interfaz sencilla y adaptable a diferentes dispositivos.
 
+FixCore abordará esta oportunidad mediante una aplicación web SaaS que permitirá registrar activos, programar mantenimientos preventivos, reportar fallas, gestionar órdenes de trabajo, controlar repuestos y consultar información relacionada con las actividades realizadas.
 
-#### 1.2.2.2. Lean UX Assumptions. 
+El producto estará orientado inicialmente a pymes manufactureras, empresas contratistas de mantenimiento industrial y técnicos u operarios. El éxito de la solución será evaluado mediante la validación con usuarios, considerando aspectos como facilidad de uso, organización de la información, reducción de tareas manuales y utilidad de las principales funcionalidades propuestas.
+
+#### 1.2.2.2. Lean UX Assumptions
 
 **Business Assumptions**
-* Creemos que nuestros clientes necesitan dejar de usar cuadernos y hojas de cálculo porque la información se pierde o desactualiza, y requieren un historial centralizado de sus máquinas.
-* Estas necesidades se pueden resolver con una aplicación web moderna donde cada máquina tenga su propia ficha técnica digital accesible de forma rápida.
-* Nuestros clientes iniciales son los jefes de mantenimiento de fábricas y los dueños de empresas que prestan servicios técnicos.
-* El valor principal que un cliente busca es evitar paradas imprevistas en la línea de producción y tener control total sobre sus activos físicos.
-* El cliente también se beneficiará al poder ver de forma ágil el rendimiento de sus técnicos y los costos de reparación asociados.
-* Conseguiremos clientes ofreciendo pruebas piloto directas en una línea de producción de sus instalaciones para demostrar el valor de la plataforma.
-* Ganaremos dinero cobrando una suscripción mensual (SaaS) escalonada según la cantidad de equipos o sucursales registradas en el sistema.
-* Nuestra competencia principal son los programas tipo ERP (que son muy costosos y complejos de implementar) y los registros manuales tradicionales en papel o Excel. 
-* Los venceremos ofreciendo una interfaz web especializada en flujos de servicio técnico, rápida de desplegar y muy fácil de usar en el día a día.
-* Nuestro mayor riesgo de producto es que los técnicos tengan pantallas de celular pequeñas y la plataforma web se vuelva incómoda de leer o usar en la planta. 
-* Resolveremos esto aplicando un diseño web adaptable usando botones grandes y contrastes claros para que cargue perfecto en cualquier navegador móvil o de escritorio.
+
+* Creemos que las pymes manufactureras y empresas contratistas necesitan una forma más organizada de gestionar la información relacionada con sus máquinas y actividades de mantenimiento.
+* Creemos que centralizar la información de los activos puede facilitar el seguimiento de mantenimientos, fallas e intervenciones realizadas.
+* Creemos que nuestros clientes iniciales pueden ser responsables de mantenimiento, administradores de pymes manufactureras y responsables de empresas que prestan servicios de mantenimiento industrial.
+* Creemos que uno de los principales valores de FixCore será facilitar la organización de las actividades de mantenimiento y reducir la dependencia de registros manuales o herramientas desconectadas.
+* Creemos que los responsables de las empresas valorarán poder consultar información sobre máquinas, órdenes de trabajo, técnicos y repuestos desde una misma plataforma.
+* Creemos que las demostraciones y pruebas con empresas pueden ayudarnos a validar si FixCore responde adecuadamente a sus necesidades.
+* Creemos que un modelo de suscripción SaaS puede ser una alternativa adecuada para ofrecer la plataforma a empresas de diferentes tamaños.
+* Creemos que algunas soluciones empresariales existentes pueden resultar complejas para pequeñas organizaciones que únicamente necesitan gestionar sus actividades de mantenimiento.
+* Creemos que una interfaz especializada en mantenimiento industrial puede facilitar la adopción del producto.
+* Creemos que uno de los principales riesgos es que la plataforma resulte difícil de utilizar desde dispositivos móviles durante las actividades realizadas en planta.
+* Creemos que un diseño web adaptable puede facilitar el uso de FixCore desde computadoras, tablets y smartphones.
 
 **Business Outcome Assumptions**
-* Creemos que el gasto en repuestos de emergencia bajará un 15% porque el sistema web avisará con tiempo qué piezas se están agotando.
-* Creemos que los técnicos completarán sus reportes un 20% más rápido al no tener que transcribir documentos de papel al final del día.
-* Creemos que el 85% de los clientes renovará su suscripción mensual tras ver el orden operativo en sus talleres.
+
+* Creemos que algunas empresas que prueben FixCore podrían considerar utilizar la plataforma de manera continua si perciben mejoras en la organización de sus actividades de mantenimiento.
+* Creemos que una experiencia sencilla y útil puede favorecer la permanencia de los clientes que utilicen la plataforma.
+* Creemos que las pymes manufactureras y empresas contratistas representan un mercado inicial en el que podemos validar el modelo de negocio de FixCore.
+* Creemos que realizar demostraciones y pruebas piloto puede ayudarnos a conocer el interés de potenciales clientes antes de realizar una expansión del producto.
 
 **User Assumptions**
 
-* Creemos que nuestros principales usuarios serán los supervisores o jefes de mantenimiento que organizan las actividades y los técnicos operarios que ejecutan tareas y reportan desde la planta.
-* Creemos que FixCore será utilizado como una herramienta central para organizar las actividades diarias de mantenimiento dentro de talleres y plantas de producción.
-* Creemos que los usuarios tienen dificultades debido a la falta de alertas de mantenimiento y al desconocimiento del stock disponible de repuestos.
-* Creemos que los usuarios utilizarán la plataforma durante sus turnos de trabajo desde computadoras, tablets o smartphones.
-* Creemos que los usuarios necesitan principalmente un calendario de mantenimiento, perfiles digitales de las máquinas, control de repuestos y notificaciones automáticas.
-* Creemos que los usuarios necesitan una interfaz web limpia, sencilla y fácil de utilizar durante sus actividades diarias.
+* Creemos que los principales usuarios de FixCore serán los responsables de mantenimiento y los técnicos u operarios que participan en las actividades de mantenimiento.
+* Creemos que FixCore puede utilizarse como una herramienta para organizar las actividades diarias realizadas en plantas, talleres y empresas contratistas.
+* Creemos que los usuarios presentan dificultades para conocer los mantenimientos próximos, consultar información de las máquinas y verificar la disponibilidad de repuestos.
+* Creemos que algunos usuarios necesitarán utilizar la plataforma desde dispositivos móviles mientras se encuentran realizando actividades en planta.
+* Creemos que funciones como el calendario de mantenimiento, las fichas de los activos, las órdenes de trabajo, el control de repuestos y las notificaciones pueden resultar útiles para los usuarios.
+* Creemos que los usuarios valorarán una interfaz sencilla que les permita registrar y consultar información rápidamente.
 
 **User Outcome and Benefit Assumptions**
-* Creemos que los jefes quieren organizar mejor las tareas para evitar el pago excesivo de horas extras por emergencias.
-* Creemos que los técnicos quieren saber si hay un repuesto disponible en el almacén sin tener que caminar largas distancias para preguntar.
-* Creemos que los dueños quieren reportes web automáticos para conocer el estado de sus equipos sin revisar cuadernos físicos.
-* Creemos que todos los involucrados quieren eliminar los errores causados por documentos extraviados o ilegibles.
+
+* Creemos que los responsables de mantenimiento podrán organizar mejor las actividades semanales al centralizar la programación y seguimiento de los mantenimientos.
+* Creemos que los técnicos podrán registrar fallas e intervenciones de manera más ordenada desde la plataforma.
+* Creemos que disponer de información actualizada sobre el inventario permitirá a los responsables conocer con mayor facilidad la disponibilidad de repuestos.
+* Creemos que mantener un historial digital de las actividades puede reducir la pérdida de información y facilitar la comunicación entre responsables y técnicos.
+* Creemos que los usuarios podrán consultar con mayor rapidez la información relacionada con una máquina o una intervención.
 
 **Feature Assumptions**
 
-* Creemos que un calendario interactivo permitirá visualizar y reasignar los mantenimientos diarios de manera más organizada.
-* Creemos que los perfiles digitales de maquinaria permitirán centralizar manuales, marcas, modelos e información importante de cada equipo.
-* Creemos que un módulo de inventario permitirá mantener actualizado el stock de repuestos utilizados en las órdenes de trabajo.
-* Creemos que un sistema de notificaciones permitirá avisar con anticipación sobre mantenimientos próximos y situaciones importantes.
-* Creemos que un panel principal permitirá a los responsables consultar métricas y resúmenes sobre el estado de las operaciones.
+* Creemos que el uso de códigos QR asociados a las máquinas puede facilitar a los técnicos el acceso a sus fichas e información técnica.
+* Creemos que las Órdenes de Trabajo digitales pueden facilitar la asignación, seguimiento y registro de las actividades realizadas por los técnicos.
+* Creemos que un módulo de inventario relacionado con las Órdenes de Trabajo puede mejorar el control de los repuestos utilizados durante una intervención.
+* Creemos que las alertas y notificaciones pueden ayudar a los responsables a recordar mantenimientos próximos o identificar eventos que requieren atención.
+* Creemos que un dashboard con indicadores puede facilitar a los responsables la consulta del estado general de las actividades de mantenimiento.
 
-#### 1.2.2.3. Lean UX Hypothesis Statements.
+#### 1.2.2.3. Lean UX Hypothesis Statements
 
-* **Hipótesis 1:** Creemos que reduciremos las paradas de máquina no planificadas si los jefes de mantenimiento pueden organizar mejor las revisiones de los equipos mediante un calendario interactivo de mantenimientos.
+A partir de los Business Outcome Assumptions, User Assumptions, User Outcome and Benefit Assumptions y Feature Assumptions previamente definidos, se plantean las siguientes hipótesis. Estas hipótesis permitirán validar si las principales funcionalidades propuestas generan valor para los segmentos objetivo de FixCore.
 
-* **Hipótesis 2:** Creemos que los técnicos podrán realizar sus actividades de manera más rápida si pueden consultar la información y los manuales de las máquinas mediante perfiles digitales centralizados.
+* **Hipótesis 1:** Creemos que lograremos incrementar el interés de las empresas en utilizar FixCore si los técnicos de mantenimiento pueden consultar rápidamente la información de una máquina mediante fichas digitales accesibles a través de códigos QR desde sus dispositivos.
 
-* **Hipótesis 3:** Creemos que reduciremos las compras de repuestos de emergencia en un 15 % si los jefes de mantenimiento pueden conocer el stock disponible mediante un módulo de inventario actualizado.
+* **Hipótesis 2:** Creemos que aumentará la utilidad percibida de FixCore si los responsables de mantenimiento y técnicos pueden reducir la pérdida de información y mejorar la coordinación de sus actividades mediante Órdenes de Trabajo digitales.
 
-* **Hipótesis 4:** Creemos que reduciremos las paradas no planificadas si los responsables de mantenimiento reciben avisos con anticipación mediante un sistema de notificaciones automáticas.
+* **Hipótesis 3:** Creemos que las empresas encontrarán mayor valor en FixCore si los responsables de mantenimiento pueden consultar y actualizar la disponibilidad de repuestos mediante un módulo de inventario relacionado con las Órdenes de Trabajo.
 
-* **Hipótesis 5:** Creemos que aumentaremos la permanencia de los clientes en la plataforma si los dueños y gerentes pueden conocer de forma clara el estado de sus máquinas mediante un panel de métricas y reportes.
+* **Hipótesis 4:** Creemos que los responsables de mantenimiento utilizarán FixCore con mayor frecuencia si pueden conocer los mantenimientos próximos y los eventos que requieren atención mediante un sistema de alertas y notificaciones.
 
-#### 1.2.2.4. Lean UX Canvas. 
+* **Hipótesis 5:** Creemos que los jefes de mantenimiento y responsables de las empresas podrán comprender con mayor facilidad el estado de sus operaciones si cuentan con un dashboard que consolide información relevante sobre mantenimientos, órdenes de trabajo e incidencias.
 
+#### 1.2.2.4. Lean UX Canvas
+
+El Lean UX Canvas de FixCore resume los principales problemas identificados, los segmentos involucrados, los resultados esperados para el negocio y los usuarios, así como las funcionalidades e hipótesis que deberán ser validadas durante el desarrollo del producto.
 
 <div align="center">
   <p><b>Gráfico 1</b>: Lean UX Canvas FixCore</p>
   <img src="report/assets/images/lean_ux_canvas.png" alt="Lean UX Canvas FixCore">
 </div>
 
-
-
 *Fuente: Elaboración propia.*
 
-## 1.3. Segmentos objetivo. 
+## 1.3. Segmentos objetivo
+
+A partir del problema identificado y del contexto en el que se desarrollará FixCore, se definieron tres segmentos principales. Estos segmentos representan tanto a las organizaciones responsables de gestionar el mantenimiento como a los usuarios que participan directamente en las actividades operativas.
 
 > **Segmento 1: Pymes de Manufactura y Producción**
 
-* **Segmento objetivos:** Jefes de planta, coordinadores de producción y gerentes de mantenimiento interno en pequeñas y medianas empresas del sector manufacturero.
-* **Descripción:** Unidades productivas que dependen de la disponibilidad continua de su maquinaria (como envasadoras, tornos o fajas transportadoras). Su necesidad principal es reducir los tiempos de inactividad, solicitar asistencia técnica de forma inmediata y llevar un control sobre sus equipos para evitar paradas de emergencia en su línea de producción.
-* **Edad:** 30 a 55 años.
-* **Sexo:** Hombres y mujeres.
-* **Ubicación:** Sectores de actividad industrial y fábricas a nivel nacional, abarcando cualquier planta que cuente con conectividad a internet para plataformas web.
-* **Formación educativa:** Estudios técnicos industriales, Ingeniería Industrial o profesionales con formación basada en la experiencia para la supervisión de líneas de producción.
-* **Poder adquisitivo:** Medio y Medio-alto.
-* **Clase social:** B y C.
-* **Datos de sustento:** Durante el último año, el sector manufacturero peruano experimentó una contracción del 6,65 % en su producción; sin embargo, la inversión en bienes de capital (compra de nueva maquinaria) aumentó cerca de un 8 % (INEI, 2024). Este escenario obliga a las fábricas a proteger su nueva inversión, maximizando la vida útil de sus máquinas y reduciendo al mínimo los gastos por fallas imprevistas mediante plataformas de gestión centralizada.
+* **Usuarios principales:** Jefes de planta, responsables de mantenimiento, coordinadores de producción y administradores de pequeñas y medianas empresas manufactureras.
+* **Descripción:** Organizaciones que dependen del funcionamiento continuo de sus máquinas y equipos para desarrollar sus actividades productivas. Necesitan mantener organizada la información de sus activos, programar mantenimientos y conocer el estado de las actividades realizadas sobre cada máquina.
+* **Contexto de uso:** Plantas de producción, fábricas y talleres donde se realizan actividades de mantenimiento preventivo y correctivo.
+* **Principales necesidades:** Programar mantenimientos, consultar el historial de los equipos, conocer las fallas reportadas, supervisar las Órdenes de Trabajo y verificar la disponibilidad de repuestos.
+* **Problemas identificados:** Información distribuida en diferentes medios, dificultad para realizar seguimiento a los mantenimientos, falta de trazabilidad de las intervenciones y problemas para conocer el estado actualizado de los equipos.
+* **Relación con FixCore:** Este segmento utilizará FixCore principalmente para administrar los activos de la empresa, organizar los mantenimientos, supervisar las actividades técnicas y consultar información relacionada con el estado de las máquinas.
 
 > **Segmento 2: Firmas Consultoras y Contratistas de Ingeniería Industrial**
 
-* **Segmento objetivos:** Dueños, gerentes de operaciones o supervisores de planificación en empresas proveedoras de servicios de consultoría, mantenimiento industrial y reparación de maquinaria.
-* **Descripción:** Organizaciones B2B dedicadas a ejecutar planes de mantenimiento preventivo y correctivo para terceros. Requieren centralizar la asignación de técnicos en campo, gestionar inventarios de repuestos y asegurar el cumplimiento de sus tiempos de atención mediante herramientas digitales que eliminen el uso de papel.
-* **Edad:** 35 a 60 años.
-* **Sexo:** Hombres y mujeres.
-* **Ubicación:** Zonas industriales, parques empresariales y polos de desarrollo a nivel nacional, con operaciones tanto en oficinas como en campo.
-* **Formación educativa:** Titulados técnicos o profesionales en Ingeniería Industrial, Ingeniería Mecánica o Administración, generalmente con experiencia en gestión de activos.
-* **Poder adquisitivo:** Medio-alto y Alto.
-* **Clase social:** A y B.
-* **Datos de sustento:** Según un estudio de McKinsey Global Institute (2015), la transición hacia modelos de mantenimiento preventivo soportados por herramientas digitales permite a las firmas consultoras y contratistas reducir los costos de reparación entre un 18 % y un 25 %. Además, la digitalización incrementa la productividad de los técnicos en campo, lo que genera una demanda directa de software especializado (SaaS) que reemplace las hojas de cálculo tradicionales para poder atender a más fábricas a la vez.
+* **Usuarios principales:** Dueños, gerentes de operaciones, supervisores de mantenimiento y responsables de planificación de empresas que brindan servicios de mantenimiento industrial.
+* **Descripción:** Organizaciones que realizan actividades de mantenimiento preventivo y correctivo para diferentes clientes y necesitan coordinar técnicos, equipos, Órdenes de Trabajo y repuestos durante la prestación de sus servicios.
+* **Contexto de uso:** Oficinas, talleres y plantas de clientes donde los técnicos realizan intervenciones de mantenimiento.
+* **Principales necesidades:** Organizar las Órdenes de Trabajo, asignar técnicos, consultar información de las máquinas atendidas, registrar intervenciones y controlar los repuestos utilizados.
+* **Problemas identificados:** Dificultades para mantener centralizada la información de diferentes servicios, coordinación mediante llamadas o mensajes, seguimiento limitado del trabajo realizado y registros distribuidos entre diferentes herramientas.
+* **Relación con FixCore:** Este segmento utilizará FixCore para organizar los servicios realizados a sus clientes, coordinar las actividades de los técnicos y mantener un registro de las intervenciones y recursos utilizados.
 
 > **Segmento 3: Técnicos y Operarios de Mantenimiento Industrial**
 
-* **Segmento objetivo:** Técnicos, operarios y personal de mantenimiento que ejecutan tareas preventivas y correctivas dentro de plantas industriales o empresas contratistas.
-* **Descripción:** Usuarios operativos encargados de inspeccionar equipos, reportar fallas, ejecutar órdenes de trabajo, consultar manuales y repuestos, y registrar las actividades realizadas durante el mantenimiento. Necesitan una herramienta sencilla, rápida y adaptable a dispositivos móviles para trabajar directamente desde planta sin depender de papel, llamadas o mensajes dispersos.
-* **Edad:** 20 a 50 años.
-* **Sexo:** Hombres y mujeres.
-* **Ubicación:** Plantas industriales, fábricas, talleres y zonas de mantenimiento en el Perú.
-* **Formación educativa:** Técnicos industriales, técnicos mecánicos, técnicos eléctricos, electromecánicos u operarios con experiencia práctica en mantenimiento.
-* **Poder adquisitivo:** Medio.
-* **Clase social:** B y C.
-* **Datos de sustento:** Las entrevistas realizadas a jefes de planta evidencian que los técnicos utilizan principalmente smartphones durante sus turnos y que la facilidad de uso es uno de los factores más importantes para adoptar una nueva herramienta de mantenimiento. Además, las dificultades actuales incluyen reportes tardíos, uso de WhatsApp, formatos manuales y baja adopción de sistemas complejos.
+* **Usuarios principales:** Técnicos, operarios y personal encargado de ejecutar actividades de mantenimiento preventivo y correctivo.
+* **Descripción:** Usuarios operativos que trabajan directamente con máquinas y equipos y que necesitan consultar información, reportar fallas, ejecutar Órdenes de Trabajo y registrar las actividades realizadas durante una intervención.
+* **Contexto de uso:** Plantas industriales, fábricas, talleres y otras áreas en las que se realizan actividades de mantenimiento.
+* **Principales necesidades:** Consultar información de las máquinas, conocer las tareas asignadas, registrar fallas, actualizar el estado de una Orden de Trabajo y verificar los repuestos necesarios para una intervención.
+* **Problemas identificados:** Dependencia de registros manuales, comunicación mediante llamadas o mensajes, dificultad para acceder rápidamente a información técnica y necesidad de utilizar herramientas sencillas desde dispositivos móviles.
+* **Relación con FixCore:** Este segmento utilizará principalmente las funciones operativas de la plataforma para consultar activos, revisar Órdenes de Trabajo, registrar intervenciones y actualizar información directamente desde el lugar donde realiza el mantenimiento.
 
-
-
+<div style="page-break-after: always;"></div>
 
 # Capítulo II: Requirements Elicitation & Analysis 
 
@@ -490,8 +750,6 @@ Nuestro enfoque inicial estará dirigido a pymes de manufactura y producción, f
 
 **3. IBM Maximo**
 - Software líder mundial en gestión de activos empresariales (EAM). Es extremadamente potente y personalizable, ideal para corporaciones gigantes con operaciones críticas. Su principal debilidad radica en sus altísimos costos de licencia, infraestructura pesada y una curva de aprendizaje muy pronunciada.
-
----
 
 ### 2.1.1. Análisis competitivo.
 
@@ -555,14 +813,14 @@ IBM Maximo
 </tr>
 <tr>
 <th rowspan="3">Perfil de Producto</th>
-<th>Productos &amp; Servicios</th>
+<th>Productos y Servicios</th>
 <td>Gestión de activos, mantenimiento preventivo, reporte de fallas, órdenes de trabajo, inventario de repuestos, alertas, notificaciones y reportes.</td>
 <td>Gestión de activos, órdenes de trabajo, mantenimiento preventivo, dashboards, KPIs, IoT, automatización, analítica e integraciones.</td>
 <td>Órdenes de trabajo, mantenimiento preventivo, gestión de activos, inventario, repuestos, códigos QR, reportes e integraciones.</td>
 <td>Enterprise Asset Management, mantenimiento de activos, confiabilidad, planificación, inspecciones, analítica e inteligencia artificial.</td>
 </tr>
 <tr>
-<th>Precios &amp; Costos</th>
+<th>Precios y Costos</th>
 <td>Modelo freemium con funcionalidades básicas gratuitas y planes premium para acceder a capacidades y módulos avanzados.</td>
 <td>Modelo de suscripción comercial con planes definidos según las necesidades y características de cada organización.</td>
 <td>Modelo de suscripción basado en usuarios y funcionalidades contratadas.</td>
@@ -609,8 +867,6 @@ IBM Maximo
 </tr>
 </table>
 
-
-
 ### 2.1.2. Estrategias y tácticas frente a competidores.
 
 | Estrategia / Táctica | Descripción |
@@ -621,15 +877,11 @@ IBM Maximo
 | **Alianzas Estratégicas B2B** | Establecer alianzas con firmas consultoras, contratistas de mantenimiento y organizaciones relacionadas con el sector industrial para facilitar la adopción de FixCore y ampliar su presencia en el mercado. |
 | **Innovación en UX y Baja Fricción** | Diseñar una Web Application responsive, sencilla y accesible desde computadoras, tablets y smartphones, reduciendo la cantidad de pasos necesarios para tareas frecuentes como reportar fallas, consultar órdenes de trabajo o revisar repuestos. |
 
-
-
-
-
 ## 2.2. Entrevistas. 
 
 ### 2.2.1. Diseño de entrevistas. 
 
-### Guía de preguntas para Pymes de Manufactura y Producción
+**Guía de preguntas para Pymes de Manufactura y Producción**
 
 * ¿Cuál es tu nombre, edad y qué cargo ocupas en la planta?
 * ¿A qué sector industrial pertenece la empresa y, aproximadamente, cuántas máquinas principales operan?
@@ -648,7 +900,7 @@ IBM Maximo
 * Si existiera una versión básica gratuita (modelo freemium) para probar el sistema con algunas máquinas, ¿te animarías a implementarlo en tu planta?
 * Una vez comprobado el valor del sistema, ¿cuánto estarías dispuesto a pagar mensualmente por módulos avanzados y analítica de datos (rango en dólares o soles)?
 
-### Guía de preguntas para Firmas Consultoras y Contratistas de Ingeniería Industrial
+**Guía de preguntas para Firmas Consultoras y Contratistas de Ingeniería Industrial**
 
 * ¿Podría indicarme su nombre, cargo y el tipo de servicios de ingeniería o mantenimiento que brinda su empresa?
 * ¿A cuántas plantas industriales o clientes prestan servicio de manera simultánea?
@@ -666,8 +918,7 @@ IBM Maximo
 * ¿Preferiría un modelo de precios basado en la cantidad de técnicos (usuarios) o en la cantidad de plantas/clientes gestionados?
 * ¿Estaría dispuesto a recomendar e implementar este sistema directamente en la infraestructura tecnológica de sus clientes?
 
-
-### Guía de preguntas para Técnicos y Operarios de Mantenimiento Industrial
+**Guía de preguntas para Técnicos y Operarios de Mantenimiento Industrial**
 
 - ¿Cuál es tu nombre, edad y qué función desempeñas actualmente dentro del área de mantenimiento?
 - ¿Cuánto tiempo llevas trabajando en mantenimiento industrial y qué tipo de máquinas o equipos atiendes con mayor frecuencia?
@@ -686,9 +937,10 @@ IBM Maximo
 - A nivel de herramientas tecnológicas, aplicaciones o plataformas del día a día, ¿qué marcas, apps móviles o referentes sigues o te parecen más intuitivos para trabajar?
 - ¿Qué es lo que más te frustra del proceso actual de mantenimiento y qué cambiarías para hacerlo más sencillo?
 
-### 2.2.2. Registro de entrevistas.
 
-### Segmento 1: Pymes de Manufactura y Producción 
+### 2.2.2. Registro de entrevistas
+
+**Segmento 1: Pymes de Manufactura y Producción**
 
 <table>
   <thead>
@@ -716,11 +968,11 @@ IBM Maximo
     </tr>
     <tr>
       <td><strong>Timing de la entrevista</strong></td>
-      <td>Inicia: 00:00 - Termina: 4:38</td>
+      <td>Inicia: 00:00 - Termina: 04:38</td>
     </tr>
     <tr>
       <td><strong>Duración</strong></td>
-      <td>4:38 min</td>
+      <td>4 minutos y 38 segundos</td>
     </tr>
     <tr>
       <td><strong>Enlace</strong></td>
@@ -730,41 +982,55 @@ IBM Maximo
 </table>
 
 **Resumen:**
+
 **¿Cuál es tu nombre, edad y qué cargo ocupas en la planta?**
-Mi nombre es Caterina, tengo 35 años y soy coordinadora de producción. Principalmente superviso que la producción se desarrolle con normalidad y coordino con el área de mantenimiento cuando ocurre algún problema con las máquinas.
+
+Mi nombre es Caterina Villanueva, tengo 35 años y soy coordinadora de producción. Principalmente superviso que la producción se desarrolle con normalidad y coordino con el área de mantenimiento cuando ocurre algún problema con las máquinas.
 
 **¿A qué sector industrial pertenece la empresa y, aproximadamente, cuántas máquinas principales operan?**
-La empresa pertenece al sector manufacturero y tenemos alrededor de 18 máquinas.
 
-**¿Cómo gestionan actualmente el reporte de fallas de maquinaria y las órdenes de trabajo (ej. Excel, papel, grupos de WhatsApp, pizarras)?**
-La mayoría de problemas en sí se reportan por WhatsApp, que es lo más rápido. Tenemos un grupo de producción y mantenimiento, entonces por ahí se reportan las fallas, pero también utilizamos Excel y otros formatos físicos.
+La empresa pertenece al sector manufacturero y tenemos alrededor de 18 máquinas principales en operación.
 
-**¿Qué dispositivos utilizan más los operarios y técnicos durante su turno en planta (smartphones, tablets, radios)?**
-Bueno, principalmente celulares, ya que es lo más fácil con el aparato del día. También tenemos algunas radios para algunas coordinaciones fáciles, o también mediante reportes.
+**¿Cómo gestionan actualmente el reporte de fallas de maquinaria y las órdenes de trabajo?**
+
+La mayoría de los problemas se reportan mediante WhatsApp porque es el medio más rápido. Tenemos un grupo de producción y mantenimiento donde se comunican las fallas. También utilizamos Microsoft Excel y algunos formatos físicos para registrar información.
+
+**¿Qué dispositivos, marcas y herramientas digitales utilizan con mayor frecuencia durante el trabajo?**
+
+Durante el trabajo utilizamos principalmente celulares. En mi caso utilizo un iPhone para comunicarme y revisar información cuando estoy fuera de la oficina. También trabajo desde una laptop con Windows. Para las coordinaciones utilizamos WhatsApp y, cuando necesitamos revisar o compartir información, usamos Microsoft Excel, Google Drive, Gmail y Google Chrome. Algunos trabajadores también utilizan radios para coordinaciones rápidas dentro de la planta.
 
 **¿Qué tan frecuente es que una máquina sufra tiempos muertos debido a una mala comunicación o lentitud al reportar la falla?**
-Bueno, si bien no sucede todos los días, sí ocurre varias veces al mes. Y a veces estas fallas se reportan rápido, pero el mensaje se pierde por el tema de que como tenemos el grupo, se envía mediante WhatsApp y hay bastantes coordinaciones que se dan. Y bueno, todo esto puede afectar la producción.
+
+No sucede todos los días, pero sí puede ocurrir varias veces al mes. Algunas fallas se comunican rápidamente, pero el mensaje puede perderse entre todas las conversaciones del grupo de WhatsApp. Esto puede retrasar la atención y terminar afectando la producción.
 
 **¿Cuáles son las mayores frustraciones que enfrentas al intentar consolidar la información de mantenimiento a fin de mes?**
-Para mí lo más complicado es que se encuentra en varios lados, en WhatsApp, en Excel. Tengo que revisar formatos y eso se hace bastante tedioso.
+
+Lo más complicado es que la información se encuentra distribuida en diferentes medios. Tengo que revisar WhatsApp, archivos de Excel y formatos físicos, por lo que consolidar todo termina siendo un proceso tedioso.
 
 **¿Has intentado implementar algún software de mantenimiento anteriormente? Si es así, ¿cuál fue el resultado o la principal barrera de adopción por parte de los técnicos?**
-Sí se intentó, pero como no muchos lo entendieron, al final ya se dejó de usar. Como hay gente mayor también, tienes que llenar formatos, tienes que saber manejar varias cosas, entonces no, se dejó de utilizar.
 
-**¿Qué elemento te generaría más confianza para adoptar un nuevo sistema: la facilidad de uso para el operario, la automatización de alertas, o el costo de implementación?**
-Para mí, como te digo, sería la facilidad de uso, ya que tenemos bastante personal que es mayor y a veces se les hace más difícil el comprender la forma en que se usa. Luego sería la automatización para agilizar los procesos y por último el costo, porque sobre todo tenemos esa falla de la organización.
+Sí, anteriormente se intentó utilizar un sistema, pero varios trabajadores tuvieron dificultades para entenderlo y finalmente se dejó de usar. Algunos integrantes del personal no estaban acostumbrados a llenar formularios o utilizar herramientas con muchas opciones.
 
-**¿Cómo crees que impactaría en la productividad si los técnicos pudieran reportar una falla en menos de 3 clics desde su celular?**
-Creo que sería más fácil que llenar los formularios. Tener que estar revisándolo todo sería mucho más práctico y facilitaría el seguimiento para lo que sigue.
+**¿Qué elemento te generaría más confianza para adoptar un nuevo sistema: la facilidad de uso para el operario, la automatización de alertas o el costo de implementación?**
 
-**¿Qué tan útil te resultaría recibir notificaciones automáticas de fallas críticas directamente en tu WhatsApp?**
-Me parecería bastante útil. Sobre todo para las más urgentes, porque a veces hay algunas fallas que son más fáciles de resolver que podrían pasar a segundo plano. Entonces mejor sería como que por prioridad.
+Considero que lo más importante sería la facilidad de uso. Tenemos trabajadores con diferentes niveles de experiencia utilizando herramientas digitales, por lo que el sistema debería ser sencillo de entender. Después consideraría la automatización de alertas y, finalmente, el costo.
 
-**Si existiera una versión básica gratuita (modelo freemium) para probar el sistema con algunas máquinas, ¿te animarías a implementarlo en tu planta?**
-Sí, yo creo que primero iniciaría con dos o tres máquinas y ya luego para toda la empresa.
+**¿Cómo crees que impactaría en la productividad si los técnicos pudieran reportar una falla en pocos pasos desde su celular?**
 
-**Una vez comprobado el valor del sistema, ¿cuánto estarías dispuesta a pagar mensualmente por módulos avanzados y analítica de datos (rango en dólares o soles)?**
-Yo creo que entre 500 a 1000 soles. Incluso un poquito más. O sea, también tendría que ver qué es lo que me va a beneficiar y qué cosas van a comprender el paquete que me van a ofrecer. Pero no tendría ningún problema con pagarlo para poder optimizar los procesos.
+Sería mucho más práctico que llenar formularios extensos. Permitiría comunicar las fallas más rápido y facilitaría el seguimiento de las actividades posteriores.
+
+**¿Qué tan útil te resultaría recibir notificaciones automáticas de fallas críticas directamente en WhatsApp?**
+
+Me resultaría bastante útil, especialmente para las fallas de mayor prioridad. De esta manera sería posible distinguir rápidamente cuáles requieren atención inmediata y cuáles pueden esperar.
+
+**Si existiera una versión básica gratuita para probar el sistema con algunas máquinas, ¿te animarías a implementarlo en tu planta?**
+
+Sí. Empezaría probándolo con dos o tres máquinas y, dependiendo de los resultados, evaluaría implementarlo progresivamente en el resto de la empresa.
+
+**Una vez comprobado el valor del sistema, ¿cuánto estarías dispuesta a pagar mensualmente por módulos avanzados y analítica de datos?**
+
+Consideraría un rango aproximado de 500 a 1000 soles mensuales, dependiendo de las funcionalidades incluidas y del beneficio que pueda generar para las operaciones de la empresa.
+
 
 <table>
   <thead>
@@ -777,7 +1043,7 @@ Yo creo que entre 500 a 1000 soles. Incluso un poquito más. O sea, también ten
   <tbody>
     <tr>
       <td rowspan="6" align="center" valign="middle" width="200">
-        <img src="report/assets/images/Carla_Aguilar.jpeg" alt="" width="160">
+        <img src="report/assets/images/Carla_Aguilar.jpeg" alt="Carla Aguilar" width="160">
       </td>
       <td><strong>Nombre y apellido</strong></td>
       <td>Carla Aguilar</td>
@@ -792,11 +1058,11 @@ Yo creo que entre 500 a 1000 soles. Incluso un poquito más. O sea, también ten
     </tr>
     <tr>
       <td><strong>Timing de la entrevista</strong></td>
-      <td>Inicia: 4:38 - Termina: 8:57</td>
+      <td>Inicia: 04:38 - Termina: 08:57</td>
     </tr>
     <tr>
       <td><strong>Duración</strong></td>
-      <td>4:19</td>
+      <td>4 minutos y 19 segundos</td>
     </tr>
     <tr>
       <td><strong>Enlace</strong></td>
@@ -806,40 +1072,55 @@ Yo creo que entre 500 a 1000 soles. Incluso un poquito más. O sea, también ten
 </table>
 
 **Resumen:**
+
 **¿Cuál es tu nombre, edad y qué cargo ocupas en la planta?**
-Hola mi Nombre es Carla Aguilar , tengo 26 años y soy jefa de planta
+
+Mi nombre es Carla Aguilar, tengo 26 años y soy jefa de planta.
 
 **¿A qué sector industrial pertenece la empresa y, aproximadamente, cuántas máquinas principales operan?**
-La empresa es una fábrica de envases de plástico, ahorita tenemos 15 máquinas principales operando entre inyectores y sopladoras
 
-**¿Cómo gestionan actualmente el reporte de fallas de maquinaria y las órdenes de trabajo (ej. Excel, papel, grupos de WhatsApp, pizarras)?**
-Todo lo manejamos por grupos de WhatsApp y tenemos una pizarra que también usamos para las órdenes de trabajo, cuando es fin de mes me siento a pasar todo a un Excel para el reporte de gerencia.
+La empresa es una fábrica de envases de plástico. Actualmente tenemos aproximadamente 15 máquinas principales operando, entre inyectoras y sopladoras.
 
-**¿Qué dispositivos utilizan más los operarios y técnicos durante su turno en planta (smartphones, tablets, radios)?**
-Casi todos los técnicos usan sus celulares personales, la gran mayoría cuenta con sistema Android, ya que es lo más común creo para este sector.
+**¿Cómo gestionan actualmente el reporte de fallas de maquinaria y las órdenes de trabajo?**
 
-**¿Qué tan frecuente es que una máquina sufra tiempos muertos debido a una mala comunicación o lentitud al reportar la falla?** Nos pasa unas dos hasta tres veces en el mes. A veces la máquina empieza a fallar, el operario no me aviso a tiempo y terminamos con la línea parada por horas debido a esta falta de comunicación y errores que se comenten
+La mayor parte de las coordinaciones se realiza mediante grupos de WhatsApp. También utilizamos una pizarra para organizar algunas órdenes de trabajo y, al finalizar el mes, consolido la información en Microsoft Excel para elaborar los reportes de gerencia.
+
+**¿Qué dispositivos, marcas y herramientas digitales utilizan con mayor frecuencia durante el trabajo?**
+
+Casi todos los técnicos utilizan sus celulares personales durante el turno. La mayoría cuenta con dispositivos Android, principalmente de marcas como Samsung y Xiaomi. Yo también utilizo una laptop con Windows para preparar los reportes. Para coordinarnos usamos WhatsApp y para organizar información utilizamos Microsoft Excel y Google Sheets. También usamos Google Drive y Google Chrome cuando necesitamos consultar o compartir documentos.
+
+**¿Qué tan frecuente es que una máquina sufra tiempos muertos debido a una mala comunicación o lentitud al reportar la falla?**
+
+Puede ocurrir aproximadamente dos o tres veces al mes. Algunas veces una máquina comienza a presentar problemas y la información no llega a tiempo al responsable de mantenimiento, lo que puede provocar que la línea permanezca detenida durante varias horas.
 
 **¿Cuáles son las mayores frustraciones que enfrentas al intentar consolidar la información de mantenimiento a fin de mes?**
-Mi mayor dolor de cabeza es tener que buscar en las conversaciones de WhatsApp para acordarme cuando se cambió una pieza o sobre las fallas que hubo quien lo soluciono y eso más que nada.
+
+Lo más complicado es revisar las conversaciones de WhatsApp para recordar cuándo se cambió una pieza, qué falla ocurrió o quién realizó una determinada intervención. La información se encuentra demasiado dispersa.
 
 **¿Has intentado implementar algún software de mantenimiento anteriormente? Si es así, ¿cuál fue el resultado o la principal barrera de adopción por parte de los técnicos?**
-Una vez intentamos usar el Excel de Google, pero los muchachos no querían llenarlo porque las celdas se veían muy pequeñas en sus celulares y les quitaba tiempo, además que algunos no entendían.
 
-**¿Qué elemento te generaría más confianza para adoptar un nuevo sistema: la facilidad de uso para el operario, la automatización de alertas, o el costo de implementación?**
-Definitivamente la facilidad de uso para el operario. Si les pongo a teclear mucho texto, simplemente no lo van a usar.
+En una oportunidad intentamos trabajar con hojas de cálculo de Google, pero a varios técnicos les resultaba incómodo completar la información desde sus celulares porque las celdas eran pequeñas y el proceso les tomaba tiempo. Algunos tampoco estaban acostumbrados a utilizar este tipo de herramientas, por lo que finalmente dejamos de usarlas.
 
-**¿Cómo crees que impactaría en la productividad si los técnicos pudieran reportar una falla en menos de 3 clics desde su celular?**
-Ayudaría muchísimo. Si pueden reportar una falla en tres clics, ya no tendrían la típica excusa de que estaban ocupados y no tuvieron tiempo de avisar.
+**¿Qué elemento te generaría más confianza para adoptar un nuevo sistema: la facilidad de uso para el operario, la automatización de alertas o el costo de implementación?**
 
-**¿Qué tan útil te resultaría recibir notificaciones automáticas de fallas críticas directamente en tu WhatsApp?**
-Para mí sería genial, yo paro metida en WhatsApp todo el día, así que recibir la alerta por ahí me ahorraría estar caminando por toda la planta para ver si algo falló o esperar que me avisen si es que no se olvidaron y así poder actuar rápidamente.
+Principalmente la facilidad de uso. Si el sistema requiere escribir demasiado o completar formularios extensos, probablemente los técnicos no lo utilizarían de manera constante.
 
-**Si existiera una versión básica gratuita (modelo freemium) para probar el sistema con algunas máquinas, ¿te animarías a implementarlo en tu planta?**
-Sí me animaría totalmente. Empezaría probando con las tres máquinas inyectoras que son las más críticas para la producción.
+**¿Cómo crees que impactaría en la productividad si los técnicos pudieran reportar una falla en pocos pasos desde su celular?**
 
-**Una vez comprobado el valor del sistema, ¿cuánto estarías dispuesta a pagar mensualmente por módulos avanzados y analítica de datos (rango en dólares o soles)?**
-Yo creo que pagaría entre 80 y 100 dólares mensuales si de verdad me soluciona todo el desorden que tenemos ahora.
+Ayudaría bastante porque permitiría comunicar una falla rápidamente sin interrumpir demasiado el trabajo del técnico.
+
+**¿Qué tan útil te resultaría recibir notificaciones automáticas de fallas críticas directamente en WhatsApp?**
+
+Sería bastante útil porque utilizo WhatsApp constantemente durante la jornada. Recibir una alerta permitiría conocer un problema sin tener que recorrer toda la planta o esperar a que alguien lo comunique personalmente.
+
+**Si existiera una versión básica gratuita para probar el sistema con algunas máquinas, ¿te animarías a implementarlo en tu planta?**
+
+Sí. Empezaría utilizando el sistema con las tres máquinas inyectoras que son más importantes para la producción y evaluaría los resultados antes de ampliarlo.
+
+**Una vez comprobado el valor del sistema, ¿cuánto estarías dispuesta a pagar mensualmente por módulos avanzados y analítica de datos?**
+
+Consideraría pagar entre 80 y 100 dólares mensuales si la plataforma realmente permite organizar mejor las actividades y reducir los problemas actuales.
+
 
 <table>
   <thead>
@@ -867,7 +1148,7 @@ Yo creo que pagaría entre 80 y 100 dólares mensuales si de verdad me soluciona
     </tr>
     <tr>
       <td><strong>Timing de la entrevista</strong></td>
-      <td>Inicia: 8:58 - Termina: 16:47</td>
+      <td>Inicia: 08:58 - Termina: 16:47</td>
     </tr>
     <tr>
       <td><strong>Duración</strong></td>
@@ -882,50 +1163,58 @@ Yo creo que pagaría entre 80 y 100 dólares mensuales si de verdad me soluciona
 
 **Resumen:**
 
-Mijtail Landa, de 29 años, ocupa el cargo de gestión de proyecto. Él pertenece al sector de telecomunicaciones y opera cientos de equipos distribuidos a nivel nacional, donde los tiempos muertos no son comunes pero son graves. En su trabajo se notifican los reportes mediante llamadas y correos electrónicos. Él considera que su mayor frustración es la desorganización y saturación en el trabajo. Además, nos cuenta que un sistema generaría más confianza si es fácil de usar y si permite automatizar alertas. Actualmente, estima que un costo adecuado para ese sistema sería de 50 a 100 soles mensuales, pero que necesita primero realizar un estudio del mercado antes de dar un mejor rango.
+Mitjail Landa, de 29 años, trabaja en el área de gestión de proyectos dentro del sector de telecomunicaciones. La empresa administra cientos de equipos distribuidos a nivel nacional y coordina los reportes mediante llamadas telefónicas y correos electrónicos. Entre las principales dificultades identifica la desorganización de la información y la coordinación entre diferentes áreas. Considera que una nueva solución debe ser fácil de utilizar y permitir la automatización de alertas.
 
-**Respuestas:**
+**¿Cuál es tu nombre, edad y qué cargo ocupas?**
 
-**¿Cuál es tu nombre, edad y qué cargo ocupas en la planta?**  
-Mitjail Landa, de 29 años, ocupa el cargo de gestión de proyectos.
+Mi nombre es Mitjail Landa, tengo 29 años y trabajo en gestión de proyectos.
 
-**¿A qué sector industrial pertenece la empresa y, aproximadamente, cuántas máquinas principales operan?**  
+**¿A qué sector pertenece la empresa y, aproximadamente, cuántos equipos gestionan?**
+
 La empresa pertenece al sector de telecomunicaciones y opera cientos de equipos distribuidos a nivel nacional.
 
-**¿Cómo gestionan actualmente el reporte de fallas de maquinaria y las órdenes de trabajo (ej. Excel, papel, grupos de WhatsApp, pizarras)?**  
-Los reportes son notificados por los usuarios mediante llamadas telefónicas y correos electrónicos.
+**¿Cómo gestionan actualmente el reporte de fallas y las actividades de mantenimiento?**
 
-**¿Qué dispositivos utilizan más los operarios y técnicos durante su turno en planta (smartphones, tablets, radios)?**  
-Los operarios utilizan mayormente celulares.
+Los reportes son comunicados principalmente mediante llamadas telefónicas y correos electrónicos.
 
-**¿Qué tan frecuente es que una máquina sufra tiempos muertos debido a una mala comunicación o lentitud al reportar la falla?**  
-No es muy común, pero los tiempos muertos son altos.
+**¿Qué dispositivos, marcas y herramientas digitales utilizan con mayor frecuencia durante sus actividades?**
 
-**¿Cuáles son las mayores frustraciones que enfrentas al intentar consolidar la información de mantenimiento a fin de mes?**  
-La desorganización y saturación generada por el trabajo de varias personas de diferentes áreas.
+Los operarios utilizan principalmente celulares Android, mientras que para las actividades administrativas trabajamos desde computadoras y laptops con Windows. En mi caso utilizo un smartphone Android y una laptop. Para las comunicaciones usamos llamadas telefónicas, WhatsApp y correo electrónico, principalmente Gmail y Outlook. También utilizamos Microsoft Excel, Google Drive y Google Chrome para organizar, compartir y consultar información.
 
-**¿Has intentado implementar algún software de mantenimiento anteriormente? Si es así, ¿cuál fue el resultado o la principal barrera de adopción por parte de los técnicos?**  
-Se ha intentado y se está planeando su implementación para proyectos recientes que requieren mantenimiento preventivo.
+**¿Qué tan frecuente es que un equipo presente tiempos muertos debido a una mala comunicación o lentitud al reportar la falla?**
 
-**¿Qué elemento te generaría más confianza para adoptar un nuevo sistema: la facilidad de uso para el operario, la automatización de alertas, o el costo de implementación?**  
-Lo más importante es la facilidad de uso para el operario debido a que les ayudará a adaptarse al sistema. La automatización de alertas también es importante para tomar precauciones.
+No ocurre con mucha frecuencia, pero cuando sucede los tiempos de inactividad pueden ser elevados.
 
-**¿Cómo crees que impactaría en la productividad si los técnicos pudieran reportar una falla en menos de 3 clics desde su celular?**  
-Sería muy bueno para brindar atención rápida
+**¿Cuáles son las mayores frustraciones que enfrentas al intentar consolidar la información de mantenimiento?**
 
-**¿Qué tan útil te resultaría recibir notificaciones automáticas de fallas críticas directamente en tu WhatsApp?**  
-Le resulta muy útil y plantea integraciones mediante mensajes de texto o audios pregrabados. 
+La principal dificultad es la desorganización y la saturación de información generada por el trabajo de personas pertenecientes a diferentes áreas.
 
-**Si existiera una versión básica gratuita (modelo freemium) para probar el sistema con algunas máquinas, ¿te animarías a implementarlo en tu planta?**  
-Se animaría a probarlo para averiguar como se desarrolla o adapta en su contexto laboral.
+**¿Has intentado implementar algún software de mantenimiento anteriormente?**
 
-**Una vez comprobado el valor del sistema, ¿cuánto estarías dispuesto a pagar mensualmente por módulos avanzados y analítica de datos (rango en dólares o soles)?**  
-Dependerá de los módulos y analíticas integradas, basándose en que tan útiles sean. Estima que, si es un buen sistema, un rango de precios que estaría dispuesto a pagar es de 50 a 100 soles mensuales, pero plantea realizar un estudio de mercado primero antes de dar un rango definitivo.
+Se ha evaluado la implementación de este tipo de software y actualmente se considera su uso para proyectos que requieren mantenimiento preventivo.
 
-### Segmento 2: Firmas Consultoras y Contratistas de Ingeniería Industrial
+**¿Qué elemento te generaría más confianza para adoptar un nuevo sistema?**
+
+Considero que lo más importante sería la facilidad de uso para los operarios, ya que esto facilitaría su adaptación. También resultaría importante contar con alertas automáticas para anticiparse a determinados problemas.
+
+**¿Cómo crees que impactaría en la productividad si los técnicos pudieran reportar una falla en pocos pasos desde su celular?**
+
+Sería beneficioso porque permitiría reportar una incidencia con mayor rapidez y reduciría el tiempo necesario para comunicar una falla al personal responsable.
+
+**¿Qué tan útil te resultaría recibir notificaciones automáticas de fallas críticas?**
+
+Sería bastante útil, especialmente si el sistema pudiera integrarse con mensajes de texto, WhatsApp u otros medios de comunicación que permitan informar rápidamente una incidencia.
+
+**Si existiera una versión básica gratuita para probar el sistema, ¿te animarías a utilizarla?**
+
+Sí. La probaría inicialmente para evaluar cómo se adapta al contexto de trabajo y qué beneficios proporciona.
+
+**Una vez comprobado el valor del sistema, ¿cuánto estarías dispuesto a pagar mensualmente?**
+
+El monto dependería de los módulos y funcionalidades disponibles. Como referencia inicial consideraría un rango de 50 a 100 soles mensuales, aunque sería necesario evaluar previamente las características del producto.
 
 
-
+**Segmento 2: Firmas Consultoras y Contratistas de Ingeniería Industrial**
 
 <table>
   <thead>
@@ -937,8 +1226,8 @@ Dependerá de los módulos y analíticas integradas, basándose en que tan útil
   </thead>
   <tbody>
     <tr>
-      <td rowspan="7" align="center" valign="middle" width="200">
-        <img src="report/assets/images/foto-entrevista1-segmento2.jpg" alt="" width="160">
+      <td rowspan="6" align="center" valign="middle" width="200">
+        <img src="report/assets/images/foto-entrevista1-segmento2.jpg" alt="Cristofer Vilchez" width="160">
       </td>
       <td><strong>Nombre y apellido</strong></td>
       <td>Cristofer Vilchez</td>
@@ -957,60 +1246,64 @@ Dependerá de los módulos y analíticas integradas, basándose en que tan útil
     </tr>
     <tr>
       <td><strong>Duración</strong></td>
-      <td>7:23 minutos</td>
+      <td>7 minutos y 23 segundos</td>
     </tr>
     <tr>
       <td><strong>Enlace</strong></td>
       <td><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423973_upc_edu_pe/IQBCKuUvc8VeT4YtxyBRxNnnAerbBFUqAE8C5H7KH6vx3GU?e=f8X1Pp">Video de las entrevistas</a></td>
     </tr>
-
   </tbody>
 </table>
 
+**Resumen:**
 
 **¿Podría indicarme su nombre, cargo y el tipo de servicios de ingeniería o mantenimiento que brinda su empresa?**
 
-Mi nombre es Cristofer Vílchez, tengo 20 años y trabajo como asistente de operaciones en una empresa que brinda servicios de mantenimiento preventivo y correctivo para equipos electromecánicos utilizados en pequeñas y medianas empresas industriales.
+Mi nombre es Cristofer Vilchez, tengo 20 años y trabajo como asistente de operaciones en una empresa que brinda servicios de mantenimiento preventivo y correctivo para equipos electromecánicos utilizados en pequeñas y medianas empresas industriales.
 
 **¿A cuántas plantas industriales o clientes prestan servicio de manera simultánea?**
 
-Normalmente tenemos entre 5 y 7 clientes activos durante la semana. Dependiendo de las emergencias, podemos tener técnicos trabajando en varias plantas al mismo tiempo.
+Normalmente tenemos entre cinco y siete clientes activos durante la semana. Dependiendo de las emergencias, podemos tener técnicos trabajando en varias plantas al mismo tiempo.
 
-**¿Cómo coordinan actualmente el despliegue de sus técnicos en campo cuando un cliente reporta una emergencia o falla en sus equipos?**
+**¿Cómo coordinan actualmente el despliegue de sus técnicos cuando un cliente reporta una emergencia o falla?**
 
-La mayoría de coordinaciones se realizan por llamadas telefónicas y WhatsApp. Cuando ocurre una emergencia, el supervisor revisa quién está disponible y comienza a comunicarse con los técnicos para determinar quién puede atender al cliente más rápido.
+La mayoría de las coordinaciones se realiza mediante llamadas telefónicas y WhatsApp. Cuando ocurre una emergencia, el supervisor revisa quién se encuentra disponible y se comunica con los técnicos para determinar quién puede atender al cliente con mayor rapidez.
+
+**¿Qué dispositivos, marcas y herramientas digitales utiliza normalmente para coordinar sus actividades y las de los técnicos?**
+
+Utilizo principalmente un smartphone Samsung con Android y una laptop con Windows. Durante el trabajo usamos WhatsApp y llamadas telefónicas para comunicarnos con los técnicos. Para las coordinaciones por correo utilizo Gmail y, cuando tenemos que organizar información, usamos Microsoft Excel y Google Sheets. También utilizamos Google Drive para compartir documentos, Google Calendar para algunas programaciones y Google Chrome para acceder a servicios web.
 
 **Desde su experiencia operativa, ¿cuáles son las mayores limitaciones logísticas o tecnológicas que enfrentan para atender múltiples plantas a la vez?**
 
-Uno de los principales problemas es no tener información actualizada sobre el estado de cada técnico. También puede ocurrir que un técnico llegue a la planta y recién descubra que necesita un repuesto que no tiene disponible, lo cual genera retrasos.
+Uno de los principales problemas es no disponer de información actualizada sobre el estado de cada técnico. También puede ocurrir que un técnico llegue a la planta y recién descubra que necesita un repuesto que no se encuentra disponible, lo cual genera retrasos.
 
-**¿Qué tan complejo les resulta estandarizar los reportes de mantenimiento y KPIs para entregárselos a diferentes clientes?**
+**¿Qué tan complejo les resulta estandarizar los reportes de mantenimiento y KPIs para entregarlos a diferentes clientes?**
 
-Resulta complicado porque cada cliente solicita información diferente. Algunas empresas piden archivos de Excel, otras documentos PDF y otras solamente un resumen. Al final se termina copiando información de mensajes, fotografías y formatos para preparar cada reporte.
+Resulta complicado porque cada cliente solicita información diferente. Algunas empresas requieren archivos de Excel, otras documentos PDF y otras únicamente un resumen. Finalmente terminamos recopilando información de mensajes, fotografías y diferentes formatos para preparar cada reporte.
 
-**¿Suelen utilizar herramientas de automatización de flujos de trabajo o integración de APIs en sus operaciones diarias?**
+**¿Suelen utilizar herramientas de automatización de flujos de trabajo o integración de APIs?**
 
-Actualmente utilizamos principalmente WhatsApp, correo electrónico y hojas de cálculo. No tenemos automatizaciones avanzadas, aunque sería útil que ciertas notificaciones o cambios de estado se envíen automáticamente.
+Actualmente utilizamos principalmente WhatsApp, correo electrónico y hojas de cálculo. No contamos con automatizaciones avanzadas, aunque sería útil que determinadas notificaciones o cambios de estado pudieran enviarse automáticamente.
 
-**¿Qué funcionalidades considera indispensables en una plataforma digital para que decida utilizarla como el motor operativo de todos sus técnicos?**
+**¿Qué funcionalidades considera indispensables en una plataforma digital?**
 
-Me parecería importante tener un panel donde podamos visualizar las órdenes de trabajo, los técnicos asignados, el estado de cada servicio y la disponibilidad de repuestos. También serían útiles las alertas cuando ocurre una emergencia o una tarea cambia de prioridad.
+Me parecería importante contar con un panel donde podamos visualizar las órdenes de trabajo, los técnicos asignados, el estado de cada servicio y la disponibilidad de repuestos. También serían útiles las alertas cuando ocurre una emergencia o cambia la prioridad de una tarea.
 
-**¿Qué tan importante sería para su firma poder integrar el sistema de mantenimiento con otras herramientas de comunicación como WhatsApp?**
+**¿Qué tan importante sería integrar el sistema con herramientas de comunicación como WhatsApp?**
 
-Sería bastante importante porque WhatsApp es una herramienta que todos utilizamos actualmente. Si los avisos pudieran enviarse automáticamente, reduciríamos el tiempo que usamos llamando o escribiendo a cada persona.
+Sería bastante importante porque WhatsApp es una herramienta utilizada diariamente. Si los avisos pudieran enviarse automáticamente, reduciríamos el tiempo empleado en llamar o escribir individualmente a cada persona.
 
-**¿Cree que ofrecer a sus clientes una herramienta ágil para que reporten fallas mejoraría la percepción de su servicio tercerizado? ¿Por qué?**
+**¿Cree que permitir a los clientes reportar fallas mediante una plataforma mejoraría la percepción del servicio?**
 
-Sí. Creo que permitir que el cliente reporte una falla y pueda conocer el estado de su atención daría una imagen más organizada y profesional de la empresa.
+Sí. Permitir que un cliente reporte una falla y consulte el estado de su atención proyectaría una imagen más organizada y profesional.
 
-**¿Preferiría un modelo de precios basado en la cantidad de técnicos o en la cantidad de plantas/clientes gestionados?**
+**¿Preferiría un modelo de precios basado en la cantidad de técnicos o en la cantidad de plantas gestionadas?**
 
 Preferiría un modelo basado en la cantidad de técnicos activos porque la cantidad de clientes puede cambiar dependiendo del mes, mientras que el equipo de trabajo suele mantenerse más estable.
 
-**¿Estaría dispuesto a recomendar e implementar este sistema directamente en la infraestructura tecnológica de sus clientes?**
+**¿Estaría dispuesto a recomendar e implementar este sistema con sus clientes?**
 
-Sí, siempre que sea sencillo, estable y no requiera demasiado tiempo de capacitación. Si ayuda a organizar mejor las operaciones, sería una herramienta que podríamos recomendar también a nuestros clientes.
+Sí, siempre que sea sencillo, estable y no requiera demasiado tiempo de capacitación. Si permite organizar mejor las operaciones, sería una herramienta que podríamos recomendar.
 
 
 <table>
@@ -1024,7 +1317,7 @@ Sí, siempre que sea sencillo, estable y no requiera demasiado tiempo de capacit
   <tbody>
     <tr>
       <td rowspan="6" align="center" valign="middle" width="200">
-        <img src="report/assets/images/Valeria_Salazar.jpeg" alt="" width="160">
+        <img src="report/assets/images/Valeria_Salazar.jpeg" alt="Valeria Salazar" width="160">
       </td>
       <td><strong>Nombre y apellido</strong></td>
       <td>Valeria Salazar</td>
@@ -1038,12 +1331,12 @@ Sí, siempre que sea sencillo, estable y no requiera demasiado tiempo de capacit
       <td>San Miguel</td>
     </tr>
     <tr>
-      <td><strong>Inicio de la entrevista</strong></td>
-      <td>24:11 - Termina: 28:37</td>
+      <td><strong>Timing de la entrevista</strong></td>
+      <td>Inicia: 24:11 - Termina: 28:37</td>
     </tr>
     <tr>
       <td><strong>Duración</strong></td>
-      <td>4:26</td>
+      <td>4 minutos y 26 segundos</td>
     </tr>
     <tr>
       <td><strong>Enlace</strong></td>
@@ -1052,33 +1345,55 @@ Sí, siempre que sea sencillo, estable y no requiera demasiado tiempo de capacit
   </tbody>
 </table>
 
-
 **Resumen:**
+
 **¿Podría indicarme su nombre, cargo y el tipo de servicios de ingeniería o mantenimiento que brinda su empresa?**
-Hola me llamo Valeria Salazar, trabajo en el área de Operaciones en mi empresa, nosotros nos dedicamos a brindar mantenimiento industrial preventivo y correctivo
 
-**¿A cuántas plantas industriales o clientes prestan servicio de manera simultánea?** Actualmente atendemos a ocho plantas fijas con las que tenemos contratos anuales
+Mi nombre es Valeria Salazar y trabajo en el área de Operaciones de una empresa dedicada a brindar servicios de mantenimiento industrial preventivo y correctivo.
 
-**¿Cómo coordinan actualmente el despliegue de sus técnicos en campo cuando un cliente reporta una emergencia o falla en sus equipos?** Todo es a base de llamadas telefónicas y correos. Cuando un cliente reporta una emergencia, tengo que empezar a llamar uno por uno a mis técnicos para ver quién está más cerca de esa fábrica
+**¿A cuántas plantas industriales o clientes prestan servicio de manera simultánea?**
 
-**Desde su experiencia operativa, ¿cuáles son las mayores limitaciones logísticas o tecnológicas que enfrentan para atender múltiples plantas a la vez?** Lo más limitante es el cruce de horarios y el hecho de no saber si es que tienen el repuesto exacto hasta que llega a la planta del cliente.
+Actualmente atendemos ocho plantas con las que mantenemos contratos anuales.
 
-**¿Qué tan complejo les resulta estandarizar los reportes de mantenimiento y KPIs para entregárselos a diferentes clientes?** Es un trabajo agotador, cada cliente nos pide un formato distinto para su reporte, algunos quieren PDF, otros Excel, y perdemos horas valiosas transcribiendo todo.
+**¿Cómo coordinan actualmente el despliegue de sus técnicos cuando un cliente reporta una emergencia o falla?**
 
-**¿Suelen utilizar herramientas de automatización de flujos de trabajo o integración de APIs en sus operaciones diarias?** No, por ahora todo nuestro flujo operativo es completamente manual y dependemos de la memoria de los coordinadores.
+La coordinación se realiza principalmente mediante llamadas telefónicas y correos electrónicos. Cuando un cliente reporta una emergencia, tengo que comunicarme con los técnicos para conocer quién se encuentra disponible o quién está más cerca de la planta.
 
-**¿Qué funcionalidades considera indispensables en una plataforma digital para que decida utilizarla como el motor operativo de todos sus técnicos (ej. webhooks, portal multi-cliente, alertas en tiempo real)?** Yo creo que lo indispensable sería un portal unificado donde yo pueda ver a todos mis clientes en una sola pantalla y saber exactamente en qué estado está cada orden de trabajo.
+**¿Qué dispositivos, marcas y herramientas digitales utiliza normalmente para coordinar sus actividades y las de los técnicos?**
 
-**¿Qué tan importante sería para su firma poder integrar el sistema de mantenimiento con otras herramientas de comunicación (como notificaciones automáticas vía n8n a WhatsApp)?** Sería un valor agregado gigante, el cliente sentiría que estamos monitoreando sus máquinas todo el tiempo sin que nosotros tengamos que hacer el trabajo manual de avisarles.
+Utilizo principalmente un iPhone y una laptop con Windows. Durante el día utilizo WhatsApp y llamadas telefónicas para las coordinaciones rápidas, mientras que para comunicaciones más formales utilizo Gmail y Outlook. También trabajo con Microsoft Excel para los reportes, Google Drive para compartir archivos, documentos PDF y Google Chrome para acceder a diferentes servicios y sistemas web.
 
-**¿Cree que ofrecer a sus clientes una herramienta ágil para que les reporten fallas mejoraría la percepción de su servicio tercerizado? ¿Por qué?** Claro que sí, porque proyecta una imagen de empresa moderna y tecnológica, lo cual nos ayuda a justificar nuestras tarifas frente a la competencia.
+**Desde su experiencia operativa, ¿cuáles son las mayores limitaciones logísticas o tecnológicas que enfrentan para atender múltiples plantas a la vez?**
 
-**¿Preferiría un modelo de precios basado en la cantidad de técnicos (usuarios) o en la cantidad de plantas/clientes gestionados?** Prefiero un modelo basado en la cantidad de técnicos. De esa manera, si logro conseguir más clientes y fábricas, el sistema no me penaliza cobrándome más por cada nueva planta.
+Una de las principales limitaciones es el cruce de horarios y no saber con anticipación si el técnico cuenta con el repuesto necesario antes de llegar a la planta del cliente.
 
-**¿Estaría dispuesto a recomendar e implementar este sistema directamente en la infraestructura tecnológica de sus clientes?** Sí lo haría, siempre y cuando el sistema nos permita poner el logotipo de nuestra consultora en los reportes finales que se le entregan al cliente.
+**¿Qué tan complejo les resulta estandarizar los reportes de mantenimiento y KPIs para entregarlos a diferentes clientes?**
 
+Es un proceso bastante demandante porque cada cliente solicita formatos diferentes. Algunos requieren documentos PDF, otros archivos de Excel y, en varios casos, tenemos que dedicar bastante tiempo a consolidar y transcribir la información antes de entregar el reporte.
 
+**¿Suelen utilizar herramientas de automatización de flujos de trabajo o integración de APIs?**
 
+Actualmente no utilizamos automatizaciones avanzadas. Gran parte del flujo operativo sigue siendo manual y depende de la coordinación realizada por los responsables de operaciones.
+
+**¿Qué funcionalidades considera indispensables en una plataforma digital?**
+
+Considero indispensable contar con un portal centralizado desde el cual pueda visualizar a los clientes, las órdenes de trabajo, los técnicos asignados y el estado de cada servicio.
+
+**¿Qué tan importante sería integrar el sistema con herramientas de comunicación como WhatsApp?**
+
+Sería muy útil porque permitiría automatizar parte de la comunicación con los clientes y técnicos. De esta manera podrían recibir avisos sobre cambios importantes sin que el coordinador tenga que comunicarlos manualmente uno por uno.
+
+**¿Cree que ofrecer a sus clientes una herramienta para reportar fallas mejoraría la percepción del servicio?**
+
+Sí. Una plataforma de este tipo permitiría proyectar una imagen más organizada y tecnológica, además de ofrecer mayor visibilidad sobre el estado de los servicios.
+
+**¿Preferiría un modelo de precios basado en la cantidad de técnicos o en la cantidad de plantas gestionadas?**
+
+Preferiría un modelo basado en la cantidad de técnicos, porque permitiría incorporar nuevos clientes sin incrementar directamente el costo por cada planta registrada.
+
+**¿Estaría dispuesta a recomendar e implementar este sistema con sus clientes?**
+
+Sí, siempre que permita adaptar los reportes a las necesidades de la empresa y facilite la gestión de los servicios realizados.
 
 
 <table>
@@ -1107,11 +1422,11 @@ Hola me llamo Valeria Salazar, trabajo en el área de Operaciones en mi empresa,
     </tr>
     <tr>
       <td><strong>Timing de la entrevista</strong></td>
-      <td>Inicia: 28:37 - Termina 34:28</td>
+      <td>Inicia: 28:37 - Termina: 34:28</td>
     </tr>
     <tr>
       <td><strong>Duración</strong></td>
-      <td>5:51 minutos</td>
+      <td>5 minutos y 51 segundos</td>
     </tr>
     <tr>
       <td><strong>Enlace</strong></td>
@@ -1124,51 +1439,55 @@ Hola me llamo Valeria Salazar, trabajo en el área de Operaciones en mi empresa,
 
 **¿Podría indicarme su nombre, cargo y el tipo de servicios de ingeniería o mantenimiento que brinda su empresa?**
 
-Hola, soy Anderson, tengo 20 años y trabajo como asistente de operaciones y soporte en una empresa que brinda servicios de mantenimiento preventivo y correctivo para sistemas electromecánicos y equipos en pequeñas plantas industriales.
+Mi nombre es Anderson Cabanillas, tengo 20 años y trabajo como asistente de operaciones y soporte en una empresa que brinda servicios de mantenimiento preventivo y correctivo para sistemas electromecánicos y equipos utilizados en pequeñas plantas industriales.
 
 **¿A cuántas plantas industriales o clientes prestan servicio de manera simultánea?**
 
-Normalmente atendemos entre 4 y 6 clientes activos durante la semana. Sin embargo, algunas veces se presentan emergencias al mismo tiempo y tenemos que reorganizar rápidamente a los técnicos para atender diferentes plantas.
+Normalmente atendemos entre cuatro y seis clientes activos durante la semana. Algunas veces se presentan emergencias de manera simultánea y tenemos que reorganizar rápidamente a los técnicos.
 
-**¿Cómo coordinan actualmente el despliegue de sus técnicos en campo cuando un cliente reporta una emergencia o falla en sus equipos?**
+**¿Cómo coordinan actualmente el despliegue de sus técnicos cuando un cliente reporta una emergencia o falla?**
 
-La coordinación puede volverse un poco caótica. Actualmente manejamos las asignaciones mediante llamadas, mensajes directos y el grupo de WhatsApp de la empresa. El jefe de operaciones indica qué técnico se encuentra más cerca, pero algunas veces no sabemos con exactitud si ya terminó el servicio anterior o si cuenta con los repuestos necesarios.
+Las asignaciones se coordinan mediante llamadas, mensajes directos y el grupo de WhatsApp de la empresa. El jefe de operaciones determina qué técnico se encuentra disponible o más cerca de la planta, aunque algunas veces no sabemos con exactitud si terminó su servicio anterior o si cuenta con los repuestos necesarios.
 
-**Desde su experiencia operativa, ¿cuáles son las mayores limitaciones logísticas o tecnológicas que enfrentan para atender múltiples plantas a la vez?**
+**¿Qué dispositivos, marcas y herramientas digitales utiliza normalmente durante sus actividades?**
 
-Lo que más tiempo nos quita es la falta de comunicación en tiempo real. Como los técnicos están trabajando en las plantas de los clientes, algunas veces no reportan una falla inmediatamente y nos enteramos cuando el propio cliente vuelve a comunicarse porque la máquina continúa detenida. Además, no tenemos un inventario totalmente organizado de los repuestos disponibles en el taller o que llevan los técnicos.
+Utilizo principalmente un smartphone Android, normalmente de marcas como Samsung o Xiaomi, y una computadora con Windows cuando realizo actividades administrativas. Para las coordinaciones utilizamos WhatsApp y llamadas telefónicas. También utilizo Gmail para el correo, Google Chrome para acceder a páginas y sistemas web, Google Drive para compartir archivos y Microsoft Excel para organizar información y preparar algunos reportes.
 
-**¿Qué tan complejo les resulta estandarizar los reportes de mantenimiento y KPIs para entregárselos a diferentes clientes?**
+**Desde su experiencia operativa, ¿cuáles son las mayores limitaciones logísticas o tecnológicas que enfrentan para atender múltiples plantas?**
 
-Es bastante complejo porque cada cliente solicita el reporte de una manera diferente. Al final tenemos que pasar información de notas o conversaciones a documentos de Word o Excel. Además, preparar los indicadores a fin de mes puede tomar varias horas que podrían utilizarse en otras actividades.
+Una de las principales dificultades es la falta de comunicación en tiempo real. Los técnicos se encuentran trabajando en distintas plantas y algunas veces no reportan una falla inmediatamente. Además, no tenemos un inventario completamente actualizado de los repuestos disponibles en el taller o transportados por cada técnico.
 
-**¿Suelen utilizar herramientas de automatización de flujos de trabajo o integración de APIs en sus operaciones diarias?**
+**¿Qué tan complejo les resulta estandarizar los reportes de mantenimiento y KPIs?**
 
-Actualmente no utilizamos automatizaciones complejas ni desarrollamos integraciones directamente. Dependemos principalmente de herramientas básicas como WhatsApp, aunque sería útil contar con algún sistema que envíe avisos automáticamente.
+Es bastante complejo porque cada cliente solicita sus reportes de una manera diferente. Tenemos que trasladar información de notas y conversaciones hacia documentos de Word o Excel. Asimismo, preparar los indicadores de fin de mes puede tomar varias horas.
 
-**¿Qué funcionalidades considera indispensables en una plataforma digital para que decida utilizarla como el motor operativo de todos sus técnicos?**
+**¿Suelen utilizar herramientas de automatización de flujos de trabajo o integración de APIs?**
 
-Lo principal serían las alertas en tiempo real para conocer rápidamente cuándo ocurre una falla y un panel donde podamos visualizar el estado de cada orden de trabajo sin tener que llamar constantemente a cada técnico.
+Actualmente no utilizamos automatizaciones complejas. Dependemos principalmente de herramientas básicas como WhatsApp, aunque sería útil contar con un sistema que envíe determinados avisos de manera automática.
 
-**¿Qué tan importante sería para su firma poder integrar el sistema de mantenimiento con otras herramientas de comunicación, como notificaciones automáticas vía WhatsApp?**
+**¿Qué funcionalidades considera indispensables en una plataforma digital?**
 
-Sería muy útil y nos ahorraría varios problemas de coordinación. Si al cliente o al jefe le llegara automáticamente un mensaje cuando el técnico termina una tarea o cuando ocurre una emergencia, podríamos responder mucho más rápido.
+Las principales serían las alertas en tiempo real y un panel donde podamos visualizar el estado de cada orden de trabajo sin tener que comunicarnos constantemente con cada técnico.
 
-**¿Cree que ofrecer a sus clientes una herramienta ágil para que reporten fallas mejoraría la percepción de su servicio tercerizado? ¿Por qué?**
+**¿Qué tan importante sería integrar el sistema con herramientas de comunicación como WhatsApp?**
 
-Sí. Si el cliente observa que tenemos un sistema organizado donde puede reportar una falla rápidamente y consultar el avance de la atención, tendría mayor confianza en nuestro servicio y podría percibir a la empresa como más moderna frente a otras que todavía utilizan procesos manuales.
+Sería muy útil. Si el cliente o el responsable pudiera recibir automáticamente un mensaje cuando el técnico termina una tarea o cuando ocurre una emergencia, sería posible responder con mayor rapidez.
 
-**¿Preferiría un modelo de precios basado en la cantidad de técnicos o en la cantidad de plantas/clientes gestionados?**
+**¿Cree que ofrecer a sus clientes una herramienta para reportar fallas mejoraría la percepción del servicio?**
 
-Considero que nos convendría más un modelo basado en la cantidad de técnicos activos, porque la cantidad de clientes puede variar, mientras que normalmente trabajamos con el mismo equipo de técnicos.
+Sí. Si el cliente dispone de un sistema organizado donde pueda reportar una falla rápidamente y consultar el avance de la atención, tendría mayor confianza en el servicio.
 
-**¿Estaría dispuesto a recomendar e implementar este sistema directamente en la infraestructura tecnológica de sus clientes?**
+**¿Preferiría un modelo de precios basado en la cantidad de técnicos o en la cantidad de plantas gestionadas?**
 
-Sí, estaría dispuesto, siempre que sea una herramienta estable y fácil de utilizar. Considero que trabajar con tecnología moderna también mejora la imagen de la empresa frente a los clientes.
+Considero que sería más conveniente un modelo basado en la cantidad de técnicos activos, porque la cantidad de clientes puede variar mientras que normalmente se trabaja con un equipo relativamente estable.
+
+**¿Estaría dispuesto a recomendar e implementar este sistema con sus clientes?**
+
+Sí, siempre que sea una herramienta estable y fácil de utilizar. Considero que trabajar con una plataforma digital organizada también podría mejorar la imagen de la empresa frente a los clientes.
 
 
 
-### Segmento 3: Técnicos y Operarios de Mantenimiento Industrial
+**Segmento 3: Técnicos y Operarios de Mantenimiento Industrial**
 
 <table>
   <thead>
@@ -1253,7 +1572,6 @@ Sería útil recibir alertas cuando me asignan una nueva orden de trabajo, cuand
 **¿Qué es lo que más te frustra del proceso actual de mantenimiento y qué cambiarías para hacerlo más sencillo?**  
 Lo que más me incomoda es tener que preguntar varias veces dónde está determinada información. Me gustaría tener toda la información de la máquina y mis tareas disponibles desde el celular.
 
-
 <table>
   <thead>
     <tr>
@@ -1336,7 +1654,6 @@ Me gustaría recibir alertas de órdenes nuevas, fallas críticas, mantenimiento
 
 **¿Qué es lo que más te frustra del proceso actual de mantenimiento y qué cambiarías para hacerlo más sencillo?**  
 Lo que más me molesta es registrar varias veces la misma información. Preferiría registrar directamente desde mi celular lo que hice y que automáticamente quede almacenado.
-
 
 <table>
   <thead>
@@ -1421,258 +1738,332 @@ Me sería útil recibir una alerta cuando tengo una nueva tarea, conocer cuál e
 **¿Qué es lo que más te frustra del proceso actual de mantenimiento y qué cambiarías para hacerlo más sencillo?**  
 A veces tenemos que esperar o preguntar para conseguir información que necesitamos. Me gustaría poder revisar desde el celular cuáles son mis tareas y registrar directamente cuando termino.
 
+### 2.2.3. Análisis de entrevistas
+
+El análisis de las entrevistas permitió identificar patrones comunes y diferencias entre los tres segmentos objetivo de FixCore. Para realizarlo se revisaron las respuestas de los participantes y se agruparon los principales hallazgos relacionados con la forma en que actualmente se desarrollan las actividades de mantenimiento, los medios utilizados para coordinar el trabajo, el acceso a la información, la disponibilidad de repuestos, el uso de herramientas digitales y las principales dificultades presentes durante estos procesos.
+
+Los resultados presentados a continuación corresponden exclusivamente a los participantes entrevistados en esta etapa de investigación. Por ello, los porcentajes se utilizan de manera descriptiva para representar coincidencias dentro de la muestra y no pretenden generalizar los resultados a la totalidad del mercado.
+
+Estos hallazgos sirven posteriormente como base para la construcción de los User Personas y los demás artefactos de Needfinding de FixCore.
 
 
-### 2.2.3. Análisis de entrevistas.
-
-El análisis de las entrevistas permitió identificar características objetivas y subjetivas comunes entre los representantes de los tres segmentos objetivo de FixCore. Para ello, se revisaron las respuestas registradas en cada entrevista y se agruparon los principales patrones relacionados con las actividades de mantenimiento, herramientas utilizadas, dispositivos de preferencia, dificultades actuales, necesidades y expectativas frente a una posible solución digital.
-
-Los porcentajes presentados en esta sección se calculan tomando como base las entrevistas actualmente registradas para cada segmento. Estos resultados permiten establecer patrones preliminares que posteriormente sirven como base para la construcción de los User Personas y los demás artefactos de Needfinding.
-
-#### Segmento 1: Pymes de Manufactura y Producción
+**Segmento 1: Pymes de Manufactura y Producción**
 
 **Variables analizadas**
 
-Para el análisis del segmento de Pymes de Manufactura y Producción se consideraron las siguientes variables:
+Para este segmento se consideraron las siguientes variables:
 
-1. Perfil y responsabilidad dentro de la organización.
+1. Responsabilidad dentro de la organización.
 2. Dispositivos utilizados durante las actividades de mantenimiento.
-3. Herramientas y canales utilizados para reportar fallas.
-4. Organización y centralización de la información.
-5. Barreras para adoptar herramientas digitales.
-6. Importancia de la facilidad de uso.
-7. Utilidad de las alertas automáticas.
-8. Impacto esperado de un reporte de fallas más rápido.
-9. Disposición para probar una solución digital.
+3. Marcas y ecosistemas tecnológicos utilizados.
+4. Herramientas digitales utilizadas durante el trabajo.
+5. Medios empleados para comunicar y registrar fallas.
+6. Organización de la información de mantenimiento.
+7. Dificultades en la adopción de herramientas digitales.
+8. Importancia de la facilidad de uso.
+9. Utilidad de las alertas automáticas.
+10. Impacto de un reporte de fallas más rápido.
+11. Disposición para probar una nueva herramienta.
 
-Estas variables permitieron identificar patrones relacionados con la supervisión del mantenimiento, la coordinación con los técnicos y las principales dificultades que enfrentan actualmente las organizaciones.
+Estas variables permiten conocer cómo se gestionan actualmente las actividades de mantenimiento y qué aspectos pueden facilitar o dificultar la adopción de una solución digital dentro de una organización.
 
 **Tabla de resultados**
 
 | Variable analizada | Resultado |
 | :--- | :---: |
-| Entrevistados que desempeñan funciones relacionadas con coordinación, supervisión o gestión | **100% (3 de 3)** |
-| Entrevistados que indican que los técnicos utilizan principalmente celulares durante sus actividades | **100% (3 de 3)** |
-| Entrevistados que utilizan múltiples herramientas o canales para comunicar y registrar actividades de mantenimiento | **100% (3 de 3)** |
-| Entrevistados que identifican problemas de desorganización, dispersión o dificultad para recuperar información | **100% (3 de 3)** |
-| Entrevistados que consideran la facilidad de uso como un factor principal para adoptar una nueva herramienta | **100% (3 de 3)** |
-| Entrevistados que consideran útiles las notificaciones automáticas para atender situaciones importantes | **100% (3 de 3)** |
-| Entrevistados que consideran que un reporte de fallas rápido desde el celular mejoraría la atención o productividad | **100% (3 de 3)** |
-| Entrevistados dispuestos a probar inicialmente una solución digital antes de extender su uso | **100% (3 de 3)** |
-| Entrevistados que evidencian dificultades previas de adopción relacionadas con complejidad o usabilidad | **67% (2 de 3)** |
+| Entrevistados que desempeñan funciones relacionadas con coordinación, supervisión o gestión | **100 % (3 de 3)** |
+| Entrevistados que indican que los técnicos u operarios utilizan principalmente celulares durante sus actividades | **100 % (3 de 3)** |
+| Entrevistados que utilizan herramientas digitales de comunicación durante sus actividades | **100 % (3 de 3)** |
+| Entrevistados que utilizan más de un medio para comunicar o registrar actividades | **100 % (3 de 3)** |
+| Entrevistados que mencionan problemas de desorganización, dispersión o dificultad para recuperar información | **100 % (3 de 3)** |
+| Entrevistados que consideran la facilidad de uso como un factor importante para adoptar una nueva herramienta | **100 % (3 de 3)** |
+| Entrevistados que consideran útiles las alertas automáticas | **100 % (3 de 3)** |
+| Entrevistados que consideran que reportar una falla rápidamente desde el celular mejoraría la atención | **100 % (3 de 3)** |
+| Entrevistados dispuestos a probar inicialmente una solución digital antes de extender su uso | **100 % (3 de 3)** |
+| Entrevistados que mencionaron dificultades anteriores relacionadas con la complejidad o usabilidad de una herramienta | **67 % (2 de 3)** |
 
 **Interpretación de resultados**
 
-A partir de las entrevistas realizadas se identificó que uno de los principales problemas del segmento es la dispersión de la información. Los tres entrevistados utilizan diferentes medios para coordinar o registrar las actividades de mantenimiento, entre ellos WhatsApp, llamadas, correos electrónicos, Excel, pizarras y formatos físicos. Esta situación dificulta mantener un historial organizado y obliga a los responsables a buscar información en diferentes fuentes.
+Uno de los principales problemas identificados es que la información relacionada con el mantenimiento se encuentra distribuida entre diferentes medios. Los entrevistados mencionaron herramientas como WhatsApp, llamadas telefónicas, correos electrónicos, Microsoft Excel, Google Sheets, pizarras y formatos físicos. Esta fragmentación hace que posteriormente resulte más complicado encontrar información relacionada con una falla, un mantenimiento realizado, una pieza reemplazada o una coordinación anterior.
 
-Otro patrón importante es el uso frecuente del celular por parte de los técnicos y operarios. Los tres entrevistados señalaron que este dispositivo se utiliza durante las actividades diarias, principalmente por su disponibilidad y facilidad para comunicarse rápidamente.
+El smartphone tiene una presencia importante dentro de las actividades diarias. Los entrevistados señalaron que los técnicos y operarios utilizan principalmente sus celulares para comunicarse, reportar incidencias y compartir información. También se identificó el uso de dispositivos Android y iOS, incluyendo equipos de marcas como Samsung, Xiaomi y Apple.
 
-También se identificó que la facilidad de uso representa un elemento fundamental para la adopción de una nueva herramienta. Todos los entrevistados consideran importante que los técnicos puedan realizar acciones rápidamente y sin completar formularios complejos. En dos de las tres entrevistas se mencionaron directamente dificultades anteriores relacionadas con sistemas o herramientas que resultaban difíciles de utilizar.
+Para actividades de supervisión y gestión se combina el uso del smartphone con laptops o computadoras con Windows. Entre las herramientas digitales mencionadas se encuentran WhatsApp, Microsoft Excel, Google Sheets, Google Drive, Gmail, Microsoft Outlook y Google Chrome.
 
-Asimismo, los entrevistados mostraron una valoración positiva hacia las notificaciones automáticas y hacia la posibilidad de reportar fallas rápidamente desde un dispositivo móvil. Estas funciones permitirían mejorar los tiempos de respuesta y evitar que una incidencia importante quede perdida entre otros mensajes.
+Este comportamiento evidencia que los usuarios ya poseen experiencia utilizando diferentes herramientas digitales. Sin embargo, el problema no se encuentra necesariamente en la ausencia de tecnología, sino en que cada actividad se desarrolla mediante una herramienta diferente y la información termina distribuida entre múltiples canales.
 
-Finalmente, los tres entrevistados mostraron disposición para probar una solución digital antes de implementarla completamente, lo cual evidencia una oportunidad para introducir FixCore mediante pruebas controladas en algunas máquinas o procesos antes de extender su utilización.
+La facilidad de uso fue otro aspecto importante. Algunos entrevistados mencionaron experiencias anteriores en las que determinadas herramientas dejaron de utilizarse porque resultaban complicadas para los operarios o requerían demasiado tiempo para registrar información. Por este motivo, una solución destinada al personal de planta debe permitir realizar las principales acciones rápidamente y reducir la cantidad de pasos y campos necesarios.
+
+Las alertas automáticas también fueron valoradas positivamente. Los entrevistados consideran útil recibir avisos cuando ocurre una falla importante o una situación requiere atención inmediata, especialmente cuando estos avisos pueden consultarse desde dispositivos que utilizan constantemente durante su jornada.
+
+Finalmente, los tres entrevistados mostraron disposición para probar inicialmente una solución digital antes de implementarla completamente. Esto permite considerar una estrategia de adopción progresiva, comenzando con determinadas máquinas o procesos y ampliando posteriormente el uso de la plataforma según los resultados obtenidos.
 
 **Relación con el User Persona**
 
-Los patrones identificados permiten construir un User Persona representativo de responsables de planta que necesitan supervisar las actividades de mantenimiento, reducir los tiempos muertos y mantener información centralizada sobre fallas, máquinas, técnicos y repuestos.
+Los resultados de este segmento permiten construir un User Persona relacionado principalmente con la supervisión y coordinación de las actividades de mantenimiento dentro de una organización.
 
-Las principales características identificadas para este arquetipo son:
+Entre las principales características identificadas se encuentran:
 
 1. Responsabilidad sobre la continuidad de las operaciones.
-2. Uso frecuente de herramientas digitales de comunicación.
-3. Necesidad de centralizar la información.
-4. Preocupación por los tiempos muertos.
-5. Interés en alertas automáticas.
-6. Necesidad de una herramienta sencilla para los técnicos.
-7. Interés en consultar información desde diferentes dispositivos.
+2. Necesidad de supervisar máquinas y actividades de mantenimiento.
+3. Uso frecuente de smartphones y computadoras.
+4. Familiaridad con dispositivos Android, iOS y Windows.
+5. Uso de herramientas como WhatsApp, Excel, Google Sheets, Google Drive, Gmail y Google Chrome.
+6. Necesidad de centralizar la información.
+7. Preocupación por los tiempos muertos y retrasos.
+8. Interés en recibir alertas sobre situaciones importantes.
+9. Necesidad de que la herramienta sea sencilla para los técnicos y operarios.
+10. Interés en consultar información desde diferentes dispositivos.
 
----
+Las marcas y tecnologías incluidas posteriormente en el User Persona representan patrones identificados entre los participantes del segmento y no necesariamente las características exactas de una sola persona entrevistada.
 
-#### Segmento 2: Firmas Consultoras y Contratistas de Ingeniería Industrial
+
+**Segmento 2: Firmas Consultoras y Contratistas de Ingeniería Industrial**
 
 **Variables analizadas**
 
-Para el análisis del segmento de Firmas Consultoras y Contratistas de Ingeniería Industrial se consideraron las siguientes variables:
+Para este segmento se analizaron las siguientes variables:
 
-1. Gestión simultánea de clientes y plantas.
-2. Coordinación de técnicos en campo.
-3. Disponibilidad de repuestos.
-4. Elaboración y estandarización de reportes.
-5. Uso de procesos manuales.
-6. Necesidad de una visión multi-cliente.
-7. Interés en automatizaciones e integraciones.
-8. Modelo de precios esperado.
-9. Personalización de reportes para clientes.
+1. Gestión simultánea de diferentes clientes y plantas.
+2. Forma de coordinación de los técnicos en campo.
+3. Dispositivos utilizados para realizar las coordinaciones.
+4. Marcas y ecosistemas tecnológicos utilizados.
+5. Herramientas digitales utilizadas durante las operaciones.
+6. Visibilidad sobre la disponibilidad y situación de los técnicos.
+7. Disponibilidad de repuestos antes de realizar un servicio.
+8. Elaboración y estandarización de reportes.
+9. Uso de procesos manuales y herramientas separadas.
+10. Necesidad de visualizar las operaciones desde un mismo lugar.
+11. Interés en automatizaciones y notificaciones.
+12. Preferencia sobre el modelo de precios.
+13. Necesidad de adaptar los reportes a diferentes clientes.
 
-Estas variables permiten identificar las principales necesidades relacionadas con la gestión de operaciones de mantenimiento realizadas para diferentes empresas.
+Estas variables permiten conocer las principales dificultades que aparecen cuando una empresa contratista debe coordinar simultáneamente técnicos, servicios y clientes ubicados en diferentes plantas.
 
 **Tabla de resultados**
 
 | Variable analizada | Resultado |
 | :--- | :---: |
-| Entrevistados que gestionan varias plantas o clientes simultáneamente | **100% (1 de 1)** |
-| Entrevistados que coordinan actualmente a sus técnicos mediante llamadas o correos | **100% (1 de 1)** |
-| Entrevistados que identifican problemas relacionados con horarios y disponibilidad de repuestos | **100% (1 de 1)** |
-| Entrevistados que presentan dificultades para estandarizar reportes y KPIs entre diferentes clientes | **100% (1 de 1)** |
-| Entrevistados cuyo flujo operativo actual depende principalmente de procesos manuales | **100% (1 de 1)** |
-| Entrevistados interesados en contar con una vista unificada de múltiples clientes | **100% (1 de 1)** |
-| Entrevistados que consideran valiosas las integraciones y notificaciones automáticas | **100% (1 de 1)** |
-| Entrevistados que prefieren un modelo de precios relacionado con la cantidad de técnicos | **100% (1 de 1)** |
-| Entrevistados interesados en personalizar los reportes entregados a sus clientes | **100% (1 de 1)** |
+| Entrevistados que atienden varios clientes o plantas de manera simultánea | **100 % (3 de 3)** |
+| Entrevistados que coordinan a los técnicos mediante llamadas, mensajes, correos o WhatsApp | **100 % (3 de 3)** |
+| Entrevistados que utilizan smartphones y computadoras durante sus actividades | **100 % (3 de 3)** |
+| Entrevistados que utilizan herramientas digitales para organizar o compartir información | **100 % (3 de 3)** |
+| Entrevistados que presentan dificultades para conocer rápidamente la disponibilidad o situación de los técnicos | **100 % (3 de 3)** |
+| Entrevistados que identifican la disponibilidad de repuestos como un problema que puede retrasar la atención | **100 % (3 de 3)** |
+| Entrevistados que presentan dificultades para preparar o estandarizar reportes para diferentes clientes | **100 % (3 de 3)** |
+| Entrevistados que utilizan principalmente procesos manuales o herramientas separadas para coordinar sus operaciones | **100 % (3 de 3)** |
+| Entrevistados interesados en contar con un panel centralizado para consultar Órdenes de Trabajo, técnicos o servicios | **100 % (3 de 3)** |
+| Entrevistados que consideran útiles las alertas automáticas o la integración con canales como WhatsApp | **100 % (3 de 3)** |
+| Entrevistados que prefieren un modelo de precios relacionado con la cantidad de técnicos activos | **100 % (3 de 3)** |
+| Entrevistados que necesitan adaptar la información o los reportes según los requerimientos de cada cliente | **100 % (3 de 3)** |
 
 **Interpretación de resultados**
 
-La entrevista actualmente registrada para este segmento permitió identificar que las firmas contratistas necesitan administrar operaciones que se desarrollan simultáneamente en diferentes clientes y plantas. La coordinación de técnicos todavía depende principalmente de llamadas telefónicas y correos electrónicos, lo que obliga a los responsables a contactar individualmente al personal para determinar su disponibilidad.
+Las entrevistas muestran que una de las principales dificultades de las firmas consultoras y contratistas es coordinar varias operaciones al mismo tiempo. Los tres entrevistados trabajan con diferentes clientes o plantas y señalaron que la coordinación de los técnicos depende actualmente de llamadas telefónicas, mensajes, WhatsApp o correos electrónicos.
 
-Otro problema identificado está relacionado con la disponibilidad de repuestos y los cruces de horarios. La falta de información centralizada dificulta conocer anticipadamente si los recursos necesarios estarán disponibles antes de que el técnico llegue a las instalaciones del cliente.
+Los smartphones son utilizados constantemente para las coordinaciones rápidas, mientras que las laptops y computadoras se emplean para actividades que requieren administrar una mayor cantidad de información. Entre los dispositivos mencionados aparecen smartphones Android y iPhone, además de computadoras con Windows.
 
-La generación de reportes también representa una actividad que consume una cantidad importante de tiempo debido a que cada cliente puede solicitar formatos diferentes. Actualmente este proceso requiere transcribir y organizar información manualmente.
+Entre las herramientas digitales utilizadas se encuentran WhatsApp, Gmail, Microsoft Outlook, Microsoft Excel, Google Sheets, Google Drive, Google Calendar y Google Chrome. Estas herramientas permiten realizar diferentes actividades, pero no ofrecen una visión conjunta de las operaciones de mantenimiento.
 
-La entrevistada también manifestó interés en una plataforma multi-cliente que permita consultar desde un mismo lugar el estado de las Órdenes de Trabajo de diferentes empresas. Además, considera que la integración con canales de comunicación y las notificaciones automáticas aportarían valor tanto a la empresa contratista como a sus clientes.
+La dependencia de múltiples canales dificulta conocer inmediatamente la situación de cada técnico. Cuando aparece una emergencia, los responsables deben comunicarse con ellos para saber quién se encuentra disponible, dónde está trabajando o si terminó una atención anterior. Esto puede generar demoras cuando existen varios servicios simultáneos.
 
-También se identificó interés en un modelo comercial basado en la cantidad de técnicos y en la posibilidad de personalizar los reportes con la identidad de la empresa contratista.
+La disponibilidad de repuestos también aparece como un problema común. Los entrevistados mencionaron situaciones en las que un técnico puede llegar a una planta sin saber previamente si dispone del repuesto requerido. La ausencia de información actualizada sobre estos recursos puede retrasar la atención y generar coordinaciones adicionales.
 
+Otro problema importante se encuentra en la elaboración de reportes. Los clientes pueden solicitar diferentes formatos y tipos de información. Como consecuencia, los responsables deben recopilar datos desde mensajes, fotografías, archivos de Excel, documentos PDF y otros registros antes de preparar el reporte correspondiente.
+
+Las operaciones actuales todavía dependen de herramientas separadas y procesos manuales. Los entrevistados no utilizan automatizaciones avanzadas como parte habitual de la coordinación de mantenimiento. Por este motivo, valoraron la posibilidad de contar con alertas automáticas y con un panel donde puedan consultar el estado de las Órdenes de Trabajo, los técnicos y los servicios sin tener que comunicarse constantemente con cada persona.
+
+Respecto al modelo comercial, los participantes mostraron preferencia por un precio relacionado con la cantidad de técnicos activos. La razón principal es que la cantidad de clientes atendidos puede variar con el tiempo, mientras que el equipo técnico suele mantenerse relativamente estable.
+
+También se identificó la necesidad de adaptar los reportes a los requerimientos de los diferentes clientes. En una de las entrevistas se mencionó además el interés por incorporar la identidad visual de la empresa contratista en los documentos entregados. Debido a que esta característica fue mencionada directamente por un solo participante, se considera una necesidad específica que deberá validarse posteriormente antes de incorporarla como requerimiento general.
 
 **Relación con el User Persona**
 
-Los hallazgos permiten definir preliminarmente un User Persona relacionado con la gestión de operaciones de una firma contratista que necesita coordinar técnicos, administrar diferentes clientes y mantener visibilidad sobre el estado de los servicios realizados.
+Los resultados permiten construir un User Persona relacionado con la coordinación de operaciones dentro de una firma consultora o contratista de mantenimiento.
 
-Las características principales consideradas para este arquetipo son:
+Entre las principales características identificadas se encuentran:
 
-1. Gestión simultánea de múltiples clientes.
-2. Coordinación de técnicos en campo.
-3. Necesidad de información centralizada.
-4. Seguimiento de Órdenes de Trabajo.
-5. Generación de reportes y KPIs.
-6. Interés en automatizaciones e integraciones.
-7. Necesidad de escalar operaciones sin aumentar excesivamente el trabajo administrativo.
+1. Gestión simultánea de diferentes clientes y plantas.
+2. Coordinación constante de técnicos en campo.
+3. Uso frecuente de smartphones y laptops.
+4. Familiaridad con Android, iOS y Windows.
+5. Uso de WhatsApp, Gmail, Outlook, Excel, Google Sheets, Google Drive, Google Calendar y Google Chrome.
+6. Necesidad de conocer la disponibilidad y estado de los técnicos.
+7. Seguimiento de Órdenes de Trabajo y servicios en ejecución.
+8. Necesidad de conocer previamente la disponibilidad de repuestos.
+9. Elaboración frecuente de reportes para diferentes clientes.
+10. Interés en automatizar avisos y reducir coordinaciones manuales.
+11. Necesidad de consultar las operaciones desde un mismo lugar.
+12. Interés en utilizar una herramienta que pueda crecer junto con la cantidad de servicios atendidos.
 
----
+Los atributos tecnológicos del User Persona se construyen a partir de estos patrones comunes y no representan necesariamente las herramientas utilizadas por un único entrevistado.
 
-#### Segmento 3: Técnicos y Operarios de Mantenimiento Industrial
+
+**Segmento 3: Técnicos y Operarios de Mantenimiento Industrial**
 
 **Variables analizadas**
 
-Para el análisis del segmento de Técnicos y Operarios de Mantenimiento Industrial se consideraron las siguientes variables:
+Para este segmento se consideraron las siguientes variables:
 
 1. Experiencia y funciones dentro del mantenimiento.
 2. Forma de recepción de tareas.
 3. Forma de reporte de fallas.
-4. Acceso a manuales e historial de máquinas.
+4. Acceso a manuales, historiales e información técnica.
 5. Consulta de disponibilidad de repuestos.
-6. Herramientas utilizadas durante el trabajo.
+6. Herramientas digitales utilizadas durante el trabajo.
 7. Dispositivo utilizado con mayor frecuencia.
-8. Principales causas de retraso de las Órdenes de Trabajo.
-9. Preferencias de usabilidad.
-10. Necesidades de alertas e información durante el turno.
+8. Marcas y ecosistemas tecnológicos utilizados.
+9. Principales causas de retraso de una Orden de Trabajo.
+10. Preferencias relacionadas con la facilidad de uso.
+11. Necesidades de alertas e información durante el turno.
 
-Estas variables permiten comprender las condiciones reales en las que los técnicos realizan las actividades de mantenimiento y las dificultades que enfrentan directamente durante su jornada.
+Estas variables permiten conocer las condiciones en las que los técnicos y operarios desarrollan actualmente sus actividades y los problemas que aparecen directamente durante el trabajo en planta.
 
 **Tabla de resultados**
 
 | Variable analizada | Resultado |
 | :--- | :---: |
-| Entrevistados que desempeñan directamente funciones técnicas u operativas de mantenimiento | **100% (3 de 3)** |
-| Entrevistados con experiencia previa en mantenimiento industrial | **100% (3 de 3)** |
-| Entrevistados que reciben tareas directamente del supervisor y utilizan WhatsApp como canal complementario | **100% (3 de 3)** |
-| Entrevistados que reportan fallas directamente al supervisor y utilizan fotografías o WhatsApp como apoyo | **100% (3 de 3)** |
-| Entrevistados que encuentran la información técnica distribuida entre documentos, personas, Excel u otras fuentes | **100% (3 de 3)** |
-| Entrevistados que deben consultar al almacén o desplazarse físicamente para confirmar la disponibilidad de repuestos | **100% (3 de 3)** |
-| Entrevistados que utilizan principalmente el smartphone durante su jornada | **100% (3 de 3)** |
-| Entrevistados que identifican la falta de repuestos como una causa de retraso en los mantenimientos | **100% (3 de 3)** |
-| Entrevistados que prefieren una herramienta sencilla, rápida y con pocas acciones o formularios | **100% (3 de 3)** |
-| Entrevistados interesados en recibir alertas relacionadas con tareas, prioridades, fallas o repuestos | **100% (3 de 3)** |
-| Entrevistados que desean acceder a tareas e información relacionada con el mantenimiento desde el celular | **100% (3 de 3)** |
+| Entrevistados que realizan directamente actividades técnicas u operativas de mantenimiento | **100 % (3 de 3)** |
+| Entrevistados con experiencia previa en mantenimiento industrial | **100 % (3 de 3)** |
+| Entrevistados que reciben sus tareas directamente del supervisor y utilizan WhatsApp como medio complementario | **100 % (3 de 3)** |
+| Entrevistados que reportan las fallas al supervisor y utilizan fotografías, videos o WhatsApp como apoyo | **100 % (3 de 3)** |
+| Entrevistados que encuentran la información técnica distribuida entre diferentes medios o personas | **100 % (3 de 3)** |
+| Entrevistados que necesitan consultar al almacén o verificar físicamente la disponibilidad de repuestos | **100 % (3 de 3)** |
+| Entrevistados que utilizan principalmente el celular o smartphone durante su jornada | **100 % (3 de 3)** |
+| Entrevistados que identifican la falta de repuestos como una causa de retraso en los mantenimientos | **100 % (3 de 3)** |
+| Entrevistados que prefieren una herramienta sencilla, rápida y con pocas acciones por realizar | **100 % (3 de 3)** |
+| Entrevistados interesados en recibir alertas relacionadas con tareas, prioridades, fallas o repuestos | **100 % (3 de 3)** |
+| Entrevistados que desean consultar o registrar información relacionada con el mantenimiento desde el celular | **100 % (3 de 3)** |
 
 **Interpretación de resultados**
 
-Las entrevistas realizadas a técnicos y operarios evidencian que el smartphone constituye la principal herramienta digital utilizada durante su jornada. Los tres entrevistados lo utilizan para comunicarse, tomar fotografías, enviar evidencias y consultar información relacionada con sus actividades.
+Las entrevistas muestran que el smartphone es la principal herramienta digital utilizada por los técnicos y operarios durante su jornada. Los participantes lo utilizan para comunicarse con sus supervisores, tomar fotografías o videos, enviar evidencias, revisar documentos y consultar información relacionada con las máquinas.
 
-Sin embargo, la información necesaria para realizar un mantenimiento se encuentra distribuida entre diferentes medios. Los entrevistados indicaron que los manuales pueden encontrarse en formato físico o digital, los historiales pueden estar registrados en Excel y otra información debe obtenerse preguntando directamente a supervisores o técnicos con mayor experiencia.
+Dentro de este segmento predominan los dispositivos móviles Android, incluyendo marcas como Samsung y Xiaomi. El uso de una computadora es menos frecuente durante la ejecución directa del mantenimiento y suele reservarse para actividades que requieren revisar documentos o información más extensa.
 
-La disponibilidad de repuestos representa otra dificultad importante. Los tres entrevistados indicaron que normalmente deben consultar al encargado del almacén o desplazarse físicamente para verificar las existencias. Además, todos señalaron que la falta de un repuesto puede retrasar una Orden de Trabajo.
+Entre las herramientas utilizadas aparecen WhatsApp, Google Chrome, Google Drive, búsquedas en Google, documentos PDF y la cámara del smartphone. Estas herramientas permiten resolver necesidades puntuales durante el trabajo, pero nuevamente la información se encuentra distribuida entre diferentes aplicaciones.
 
-Respecto a la comunicación, las tareas suelen ser asignadas directamente por el supervisor y WhatsApp se utiliza como un canal complementario para transmitir información, fotografías o reportes de fallas. Aunque esta herramienta permite una comunicación rápida, los entrevistados también manifestaron dificultades para encontrar posteriormente información importante entre numerosos mensajes.
+Los manuales pueden estar impresos o almacenados digitalmente, los historiales pueden encontrarse en archivos de Excel y, en determinados casos, es necesario consultar directamente a un supervisor o a un técnico con mayor experiencia para obtener información de una máquina.
 
-En cuanto a sus preferencias, los tres entrevistados coinciden en la necesidad de una herramienta sencilla y rápida que pueda utilizarse desde el celular. Se valoran especialmente los botones claros, formularios cortos, acceso inmediato a las tareas y posibilidad de consultar información importante sin tener que desplazarse o preguntar constantemente.
+La disponibilidad de repuestos constituye otra dificultad común. Los entrevistados señalaron que normalmente deben consultar al encargado del almacén o revisar físicamente si un repuesto se encuentra disponible. En uno de los casos también se mencionó que la información registrada digitalmente puede no coincidir con las existencias reales cuando los registros no se actualizan oportunamente.
 
-También existe interés en recibir alertas relacionadas con nuevas tareas, prioridades, fallas críticas, mantenimientos próximos o disponibilidad de repuestos. Estos hallazgos indican que la experiencia del técnico debe priorizar la rapidez, la simplicidad y el acceso móvil a la información.
+La comunicación de tareas y fallas depende principalmente de los supervisores. Las actividades pueden comunicarse personalmente, mediante llamadas o a través de grupos de WhatsApp. Cuando aparece una falla, los técnicos utilizan fotografías o videos para explicar el problema. Aunque estos mecanismos permiten una comunicación rápida, posteriormente puede resultar complicado recuperar la información entre numerosos mensajes.
+
+Los entrevistados también coincidieron en que una herramienta utilizada directamente en planta debe ser sencilla y rápida. Entre las características valoradas aparecen botones claros, pocas opciones por pantalla, formularios cortos y la posibilidad de registrar información directamente desde el celular.
+
+Las alertas representan otra necesidad importante. Los técnicos consideran útil recibir avisos cuando aparece una nueva tarea, cambia la prioridad de una Orden de Trabajo, ocurre una falla crítica, se aproxima un mantenimiento o existe alguna novedad relacionada con la disponibilidad de un repuesto.
 
 **Relación con el User Persona**
 
-Los resultados permiten construir un User Persona representativo del técnico u operario que realiza directamente actividades de mantenimiento dentro de planta y necesita acceder rápidamente a información mientras trabaja.
+Los resultados permiten construir un User Persona representativo del técnico u operario que realiza directamente actividades de mantenimiento dentro de una planta.
 
-Las principales características identificadas para este arquetipo son:
+Entre las principales características identificadas se encuentran:
 
-1. Trabajo operativo dentro de planta.
-2. Uso frecuente del smartphone.
-3. Comunicación constante con supervisores.
-4. Necesidad de consultar manuales e historial de máquinas.
-5. Necesidad de conocer la disponibilidad de repuestos.
-6. Frustración frente a información dispersa o desactualizada.
-7. Preferencia por interfaces simples y rápidas.
-8. Necesidad de recibir alertas y prioridades durante su turno.
+1. Trabajo principalmente operativo dentro de planta.
+2. Uso frecuente del smartphone durante la jornada.
+3. Predominio de dispositivos Android.
+4. Familiaridad con marcas como Samsung y Xiaomi.
+5. Uso frecuente de WhatsApp, Google Chrome, Google Drive, documentos PDF y búsquedas web.
+6. Comunicación constante con supervisores.
+7. Necesidad de acceder rápidamente a información sobre las máquinas.
+8. Necesidad de consultar manuales e historiales de mantenimiento.
+9. Necesidad de conocer la disponibilidad de repuestos antes de realizar una actividad.
+10. Frustración frente a información dispersa o desactualizada.
+11. Preferencia por interfaces simples y rápidas.
+12. Necesidad de recibir información sobre tareas y prioridades.
+13. Interés en registrar directamente desde el celular el trabajo realizado.
 
----
+Estas características justifican que el User Persona correspondiente a este segmento tenga un perfil tecnológico principalmente móvil y que FixCore deba ofrecer una experiencia adecuada para smartphones.
+
 
 #### Principales hallazgos generales
 
-El análisis de los tres segmentos permitió identificar necesidades comunes y diferencias relacionadas con las responsabilidades de cada perfil.
+Luego de analizar las entrevistas de los tres segmentos, se identificaron diferentes problemas que aparecen de manera recurrente en la gestión del mantenimiento, aunque cada grupo los enfrenta desde responsabilidades y contextos distintos.
 
-En los tres segmentos aparece como problema recurrente la dispersión de la información entre distintos medios, como WhatsApp, llamadas, correos electrónicos, Excel, documentos físicos y comunicación verbal. Esta situación dificulta mantener trazabilidad sobre las actividades realizadas y aumenta el tiempo necesario para encontrar información.
+Uno de los principales hallazgos es la dispersión de la información. Los entrevistados mencionaron el uso de WhatsApp, llamadas telefónicas, correos electrónicos, Microsoft Excel, Google Sheets, Google Drive, pizarras, documentos físicos y comunicación directa para coordinar o registrar actividades. Al encontrarse la información distribuida entre diferentes medios, resulta más difícil consultar antecedentes, comprobar qué actividad se realizó o realizar seguimiento a una incidencia.
 
-Asimismo, el acceso desde dispositivos móviles presenta una importancia significativa, especialmente para los técnicos que trabajan directamente en planta. Esto evidencia la necesidad de que FixCore mantenga una experiencia responsive, sencilla y rápida.
+También se identificó una alta dependencia de la comunicación entre personas. Los técnicos reciben indicaciones de sus supervisores y reportan fallas mediante mensajes, llamadas, fotografías o videos. Los responsables de planta necesitan comunicarse con diferentes áreas para conocer el estado de las máquinas, mientras que las firmas contratistas deben coordinar constantemente con técnicos que trabajan en diferentes clientes.
 
-También se identificó la necesidad de contar con información actualizada sobre las máquinas, las Órdenes de Trabajo y los repuestos. Mientras los técnicos requieren esta información para ejecutar correctamente sus actividades, los jefes de planta necesitan utilizarla para supervisar las operaciones y las firmas contratistas para coordinar múltiples técnicos y clientes.
+Otro hallazgo importante es el uso frecuente de smartphones. En las entrevistas aparecen dispositivos Android y iOS de marcas como Samsung, Xiaomi y Apple. Dependiendo del tipo de usuario, estos dispositivos se complementan con laptops o computadoras con Windows.
 
-Finalmente, los tres segmentos muestran una valoración positiva hacia la automatización de alertas y la centralización de la información. Estos patrones respaldan la orientación de FixCore hacia una plataforma que reduzca la dependencia de procesos manuales y facilite la comunicación entre los diferentes participantes del mantenimiento industrial.
+Las herramientas digitales más utilizadas incluyen WhatsApp para la comunicación inmediata; Microsoft Excel y Google Sheets para organizar información; Google Drive para compartir documentos; Gmail y Microsoft Outlook para correo electrónico; Google Chrome para acceder a servicios web; además de documentos PDF, búsquedas web y fotografías tomadas desde los smartphones.
 
+La presencia de estas herramientas demuestra que los usuarios no son ajenos al uso de tecnología. Sin embargo, utilizan diferentes aplicaciones para resolver partes aisladas del proceso. Como consecuencia, la información relacionada con el mantenimiento continúa fragmentada.
 
+El smartphone presenta una importancia especialmente alta entre los técnicos y operarios, quienes lo utilizan mientras realizan sus actividades directamente en planta. Por este motivo, una herramienta destinada a este perfil debe poder utilizarse correctamente desde una pantalla móvil y permitir realizar las principales acciones con pocos pasos.
 
-## 2.3. Needfinding. 
+Los responsables de planta y coordinadores de operaciones combinan el smartphone con computadoras para realizar actividades de planificación, supervisión y elaboración de reportes. Esto evidencia la necesidad de que FixCore mantenga una experiencia consistente tanto desde computadoras como desde smartphones.
 
-# 2.3. Needfinding.
+El acceso a información actualizada también representa una necesidad común. Los técnicos necesitan conocer información de las máquinas, actividades asignadas, mantenimientos anteriores y repuestos disponibles. Los responsables de planta requieren estos datos para supervisar las operaciones, mientras que las firmas contratistas necesitan mantener visibilidad sobre diferentes técnicos, servicios y clientes simultáneamente.
 
-El proceso de needfinding permitió identificar las necesidades, motivaciones, dificultades y oportunidades relacionadas con la digitalización del mantenimiento industrial en los tres segmentos objetivo de FixCore: pymes de manufactura y producción, firmas consultoras o contratistas de ingeniería industrial, y técnicos u operarios de mantenimiento industrial. Los hallazgos obtenidos mediante las entrevistas permitieron reconocer patrones relacionados con el uso de herramientas manuales, la dispersión de la información, las dificultades para coordinar actividades de mantenimiento y la necesidad de contar con herramientas digitales simples y accesibles desde distintos dispositivos.
+La disponibilidad de repuestos aparece en los tres segmentos como un aspecto que puede afectar directamente el tiempo de atención. Cuando la información del inventario no se encuentra actualizada, puede ser necesario consultar personalmente al almacén o descubrir durante la intervención que determinado repuesto no está disponible.
 
-Estudios contemporáneos demuestran que, si bien las pymes reconocen el valor de avanzar hacia la digitalización y la Industria 4.0, la adopción de sistemas de gestión todavía presenta importantes barreras de entrada. Una investigación sobre la integración tecnológica en pymes evidenció una brecha entre el conocimiento de estas tecnologías y su implementación efectiva, debido principalmente a los costos iniciales, la complejidad de los sistemas y la resistencia al cambio hacia nuevas herramientas digitales (Narula et al., 2023).
+Asimismo, los entrevistados mostraron interés en reducir parte de las coordinaciones manuales mediante alertas y notificaciones. Dependiendo del perfil, estas alertas pueden estar relacionadas con fallas importantes, nuevas Órdenes de Trabajo, cambios de prioridad, mantenimientos próximos o disponibilidad de repuestos.
 
-Del mismo modo, el impacto de una gestión poco digitalizada y de una comunicación ineficiente puede afectar directamente la productividad. El reporte global *The True Cost of Downtime*, publicado por Senseye, compañía de Siemens, analizó el impacto de las paradas de maquinaria no planificadas y estimó que las pérdidas globales asociadas a la inactividad en la industria manufacturera alcanzan aproximadamente 1.5 billones de dólares anuales. Asimismo, el estudio destaca la importancia de mejorar la visibilidad de la información y reducir la dependencia de procesos manuales para disminuir los tiempos de respuesta frente a fallas (Senseye, 2022). Estos resultados se relacionan con los hallazgos obtenidos en las entrevistas, donde se identificó el uso frecuente de WhatsApp, Excel y formatos físicos para comunicar y registrar incidencias.
+A pesar de compartir varios problemas, las prioridades de cada segmento son diferentes. Los responsables de planta necesitan principalmente supervisar las operaciones, planificar mantenimientos y reducir los tiempos muertos. Las firmas consultoras y contratistas requieren coordinar técnicos y servicios para diferentes clientes, además de preparar reportes y mantener una visión general de sus operaciones. Los técnicos y operarios necesitan acceder rápidamente a la información necesaria para realizar su trabajo y registrar las actividades directamente desde el lugar donde se encuentran.
 
-Asimismo, la literatura sobre Smart Maintenance destaca que la movilidad, el uso de dispositivos móviles y las plataformas conectadas representan elementos importantes para la evolución de la gestión del mantenimiento. Estas tecnologías permiten a los técnicos consultar información y gestionar órdenes de trabajo directamente durante sus actividades, favoreciendo la usabilidad, la adopción de los sistemas y la precisión de la información registrada (Bokrantz et al., 2020). Este aspecto coincide con las entrevistas realizadas, en las que el smartphone aparece como uno de los dispositivos más utilizados por técnicos y operarios durante su jornada laboral.
+Los dispositivos, marcas y tecnologías identificados durante las entrevistas también sirven como referencia para definir los atributos tecnológicos de los User Personas. Debido a que un User Persona representa los patrones de un segmento y no a un participante específico, estos atributos reúnen características observadas entre diferentes entrevistados.
 
-En conjunto, tanto los hallazgos obtenidos mediante las entrevistas como la literatura revisada evidencian la necesidad de herramientas de mantenimiento que centralicen la información, faciliten la comunicación entre responsables y técnicos, permitan consultar el estado de los repuestos y reduzcan la complejidad de las tareas de registro. Estos resultados sirven como base para la construcción de los User Personas, User Task Matrix, User Journey Maps, Empathy Maps y As-Is Scenario Maps de FixCore.
+En conjunto, los resultados muestran la necesidad de centralizar la información relacionada con el mantenimiento y reducir la dependencia de procesos manuales o canales separados. Asimismo, respaldan que FixCore sea planteado como una aplicación web responsive que pueda utilizarse desde diferentes dispositivos sin depender de una marca o sistema operativo específico.
 
+Estos hallazgos sirven como base para la elaboración de los User Personas, User Task Matrix, User Journey Maps y Empathy Maps de FixCore.
 
+## 2.3. Needfinding.
 
-### Árbol de Problemas
+El proceso de needfinding permitió identificar las necesidades, motivaciones, dificultades y oportunidades relacionadas con la digitalización del mantenimiento industrial en los tres segmentos objetivo de FixCore: pymes de manufactura y producción, firmas consultoras o contratistas de ingeniería industrial, y técnicos u operarios de mantenimiento industrial.
 
-El Árbol de Problemas fue elaborado para jerarquizar visualmente la problemática, estableciendo una relación de causalidad entre el problema central —la ineficiencia y altos costos por tiempos muertos (downtime) en la gestión de mantenimiento industrial de pymes y sus efectos. Las Causas (raíces) y los Efectos (impactos) identificados fueron validados mediante la triangulación de los hallazgos de las entrevistas de campo y la literatura sectorial reciente, la cual subraya que la dependencia de procesos manuales y la barrera de adopción de software complejo extienden drásticamente los tiempos de recuperación frente a fallas (Senseye, 2022; Narula et al., 2023).
+A partir de las entrevistas realizadas, se identificaron problemas recurrentes relacionados con el uso de herramientas manuales, la dispersión de información, las dificultades para coordinar actividades de mantenimiento y la necesidad de contar con herramientas digitales sencillas y accesibles desde diferentes dispositivos.
+
+La digitalización de los procesos industriales representa una oportunidad para mejorar la organización y el acceso a la información. Sin embargo, su implementación también supone dificultades para las pequeñas y medianas empresas. Tamvada et al. (2022) analizaron los riesgos asociados con la adopción de tecnologías de la Industria 4.0 en pymes de economías emergentes e identificaron que los factores financieros y tecnológicos constituyen algunas de las principales barreras. Estos resultados permiten comprender la importancia de considerar los recursos y las capacidades tecnológicas de las organizaciones al diseñar soluciones digitales dirigidas a este segmento.
+
+Por otra parte, las interrupciones no planificadas de maquinaria pueden generar pérdidas económicas significativas. En el informe *The True Cost of Downtime 2022*, Senseye Predictive Maintenance (2023) estimó que las pérdidas anuales por tiempos de inactividad no planificados alcanzaban aproximadamente 1,5 billones de dólares entre las organizaciones industriales pertenecientes a Fortune Global 500. El estudio también destaca la importancia de utilizar información sobre el estado de los equipos y estrategias de mantenimiento para reducir las interrupciones. Estos resultados permiten comprender la relevancia del problema que busca abordar FixCore, aunque las cifras corresponden a grandes organizaciones industriales y no representan directamente la situación económica de las pymes entrevistadas.
+
+Asimismo, Bokrantz et al. (2020) estudiaron el concepto de Smart Maintenance e identificaron cuatro dimensiones relacionadas con la modernización del mantenimiento industrial: toma de decisiones basada en datos, recursos humanos, integración interna e integración externa. Su investigación destaca la importancia de compartir información y coordinar las actividades de mantenimiento entre diferentes áreas y participantes. Estos planteamientos se relacionan con los resultados de nuestras entrevistas, donde identificamos dificultades para acceder a información actualizada y coordinar las intervenciones. Además, el uso frecuente de smartphones entre los técnicos entrevistados respalda la decisión de diseñar FixCore como una aplicación web responsiva que pueda utilizarse desde dispositivos móviles.
+
+En conjunto, los hallazgos obtenidos mediante las entrevistas y la literatura revisada permiten reconocer la necesidad de herramientas de mantenimiento que centralicen la información, faciliten la comunicación entre responsables y técnicos, permitan consultar la disponibilidad de repuestos y reduzcan la complejidad de las tareas de registro.
+
+Estos resultados sirven como base para la elaboración de los User Personas, User Task Matrix, User Journey Maps, Empathy Maps y As-Is Scenario Maps de FixCore.
+
+**Árbol de Problemas**
+
+El Árbol de Problemas fue elaborado para representar las principales causas y consecuencias relacionadas con las dificultades en la gestión del mantenimiento industrial de las pymes. Se estableció como problema central la ineficiencia y los costos asociados a los tiempos muertos de maquinaria.
+
+Para identificar sus causas y efectos, se consideraron los hallazgos obtenidos durante las entrevistas y la literatura revisada. Tamvada et al. (2022) identificaron barreras financieras y tecnológicas para la adopción de nuevas herramientas digitales en pymes, mientras que Senseye Predictive Maintenance (2023) presentó evidencia sobre el impacto económico de las interrupciones no planificadas en grandes organizaciones industriales.
+
+Estas investigaciones permiten contextualizar los problemas relacionados con la digitalización y la continuidad operativa que se representan en el diagrama. Asimismo, los resultados de las entrevistas permitieron identificar dificultades relacionadas con el registro manual de información, la comunicación entre responsables y técnicos, y el seguimiento de las actividades de mantenimiento.
 
 <div align="center">
-  <strong>Gráfico 1: Árbol de problemas</strong><br><br>
+  <strong>Gráfico 2: Árbol de Problemas</strong><br><br>
   <img src="report/assets/images/arbol_problemas.png" width="400"><br>
   <em>Fuente: Elaboración propia.</em>
 </div>
 
-### Diagrama de Ishikawa
+**Diagrama de Ishikawa**
 
-Para complementar el análisis estructural, se aplicó el Diagrama de Ishikawa (Espina de Pescado) categorizando las causas raíz en seis ejes fundamentales: Proceso, Personas, Tecnología, Información, Entorno y Gestión. Este desglose sistemático no solo demuestra el rigor metodológico, sino que también justifica la multidimensionalidad de la solución FixCore al validar las causas operativas (p. ej., la necesidad de Tecnología móvil para superar las limitaciones del Entorno ruidoso de planta y la agilidad de Proceso para combatir la comunicación fragmentada).
+Para complementar el análisis de la problemática, se elaboró un Diagrama de Ishikawa con el propósito de organizar las posibles causas que contribuyen a las dificultades en la gestión del mantenimiento industrial.
+
+Las causas identificadas se agruparon en seis categorías: Proceso, Personas, Tecnología, Información, Entorno y Gestión. Esta clasificación permitió analizar la problemática desde diferentes aspectos de las operaciones industriales y establecer relaciones entre las dificultades observadas durante las entrevistas.
+
+Entre las principales causas consideradas se encuentran la dependencia de registros manuales, la información distribuida entre diferentes herramientas, las dificultades de comunicación, la falta de seguimiento de las actividades y las limitaciones para consultar información técnica durante las intervenciones.
+
+El diagrama permite reconocer que los problemas de mantenimiento no dependen únicamente de las herramientas tecnológicas utilizadas, sino también de la organización de los procesos, la coordinación del personal y la disponibilidad de información actualizada.
+
+Este análisis contribuye a identificar las necesidades que FixCore busca atender mediante la centralización de información, la gestión de Órdenes de Trabajo, la programación de mantenimientos, el control de repuestos y la comunicación entre los participantes.
 
 <div align="center">
-  <strong>Gráfico 2: Diagrama de Ishikawa</strong><br><br>
+  <strong>Gráfico 3: Diagrama de Ishikawa</strong><br><br>
   <img src="report/assets/images/diagrama_ishikawa.png" width="400"><br>
   <em>Fuente: Elaboración propia.</em>
 </div>
 
-
 ### 2.3.1. User Personas.
 
-A partir del análisis de las entrevistas realizadas a los tres segmentos objetivo de FixCore, se desarrollaron tres User Personas representativos. Cada uno resume los principales objetivos, motivaciones, frustraciones, habilidades y comportamientos identificados en los usuarios entrevistados.
+A partir del análisis de las entrevistas realizadas a los tres segmentos objetivo de FixCore, se desarrollaron tres User Personas representativos. Cada uno reúne los principales objetivos, motivaciones, frustraciones, habilidades, comportamientos y características tecnológicas identificadas entre los participantes de cada segmento.
+
+Los dispositivos, tecnologías y canales de comunicación incluidos en los User Personas fueron definidos a partir de los patrones identificados durante las entrevistas. Debido a que un User Persona representa las características recurrentes de un segmento y no a una única persona entrevistada, estos atributos reúnen comportamientos observados entre diferentes participantes del mismo grupo.
 
 <div align="center">
-  <strong>Gráfico 3: User Persona - Carla García, Jefa de Planta</strong><br><br>
+  <strong>Gráfico 4: User Persona - Carla García, Jefa de Planta</strong><br><br>
   <img src="report/assets/images/Carla García — Jefa de Planta.png" width="700"><br>
   <em>Fuente: Elaboración propia.</em>
 </div>
@@ -1680,7 +2071,7 @@ A partir del análisis de las entrevistas realizadas a los tres segmentos objeti
 <br>
 
 <div align="center">
-  <strong>Gráfico 4: User Persona - Víctor Salazar, Coordinador de Operaciones</strong><br><br>
+  <strong>Gráfico 5: User Persona - Víctor Salazar, Coordinador de Operaciones</strong><br><br>
   <img src="report/assets/images/Víctor Salazar — Coordinador de Operaciones.png" width="700"><br>
   <em>Fuente: Elaboración propia.</em>
 </div>
@@ -1688,80 +2079,73 @@ A partir del análisis de las entrevistas realizadas a los tres segmentos objeti
 <br>
 
 <div align="center">
-  <strong>Gráfico 5: User Persona - José Ramírez, Técnico de Mantenimiento Industrial</strong><br><br>
+  <strong>Gráfico 6: User Persona - José Ramírez, Técnico de Mantenimiento Industrial</strong><br><br>
   <img src="report/assets/images/José Ramírez — Técnico de Mantenimiento Industrial.png" width="700"><br>
   <em>Fuente: Elaboración propia.</em>
 </div>
 
 ### 2.3.2. User Task Matrix.
 
-El presente User Task Matrix reúne las principales tareas que realizan los User Personas representativos de los tres segmentos objetivo de FixCore para alcanzar sus objetivos relacionados con la gestión del mantenimiento industrial.
+El User Task Matrix de FixCore presenta las principales tareas que realizan los User Personas de los tres segmentos objetivo durante sus actividades de mantenimiento industrial. Estas tareas se identificaron a partir de las entrevistas realizadas y corresponden a los procesos actuales de los usuarios, independientemente de la implementación de FixCore.
 
-Las tareas consideradas corresponden a actividades que los usuarios realizan actualmente dentro de sus procesos de mantenimiento, independientemente de la existencia de FixCore. Para cada tarea se consideran dos criterios:
+Para analizar cada tarea, se consideran dos criterios:
 
-- **Frecuencia (Frc):** indica qué tan seguido el User Persona realiza la tarea.
-- **Importancia (Imp):** indica qué tan relevante resulta la tarea para alcanzar sus objetivos.
+- **Frecuencia (Frc):** indica qué tan seguido el User Persona realiza la tarea durante sus actividades habituales.
+- **Importancia (Imp):** indica qué tan relevante es la tarea para el cumplimiento de sus responsabilidades y objetivos.
 
-Para ambos criterios se emplean los niveles **Alta, Media y Baja**.
+Ambos criterios se evalúan utilizando los niveles **Alta, Media y Baja**. Las valoraciones permiten comparar las actividades de los tres perfiles e identificar aquellas que tienen mayor relevancia dentro de sus procesos de trabajo.
 
-Los User Personas considerados representan los siguientes segmentos:
+Los User Personas considerados son los siguientes:
 
-1. **Técnicos y Operarios de Mantenimiento Industrial**
-2. **Pymes de Manufactura y Producción**
-3. **Firmas Consultoras y Contratistas de Ingeniería Industrial**
+1. **Técnicos y Operarios de Mantenimiento Industrial:** José Ramírez, Técnico de Mantenimiento Industrial.
+2. **Pymes de Manufactura y Producción:** Carla García, Jefa de Planta.
+3. **Firmas Consultoras y Contratistas de Ingeniería Industrial:** Víctor Salazar, Coordinador de Operaciones.
 
+**User Task Matrix - FixCore**
 
-### User Task Matrix - FixCore
-
-| Tareas principales | Técnicos (Frc) | Técnicos (Imp) | Supervisores (Frc) | Supervisores (Imp) | Consultores (Frc) | Consultores (Imp) |
+| Tareas principales | Técnico (Frc) | Técnico (Imp) | Jefa de Planta (Frc) | Jefa de Planta (Imp) | Coordinador de Operaciones (Frc) | Coordinador de Operaciones (Imp) |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
 | **Reportar fallas o paradas de maquinaria** | Alta | Alta | Media | Alta | Baja | Media |
-| **Ejecutar órdenes de trabajo de mantenimiento** | Alta | Alta | Media | Alta | Baja | Media |
-| **Registrar las actividades realizadas después de un mantenimiento** | Alta | Alta | Media | Alta | Media | Media |
-| **Consultar manuales, historial e información técnica de una máquina** | Alta | Alta | Alta | Alta | Media | Media |
+| **Ejecutar órdenes de trabajo de mantenimiento** | Alta | Alta | Baja | Baja | Baja | Baja |
+| **Registrar las actividades realizadas después de un mantenimiento** | Alta | Alta | Baja | Media | Baja | Media |
+| **Consultar manuales, historial e información técnica de una máquina** | Alta | Alta | Media | Alta | Baja | Media |
 | **Verificar la disponibilidad de repuestos** | Alta | Alta | Alta | Alta | Media | Alta |
-| **Comunicar fallas críticas o situaciones que requieren atención inmediata** | Media | Alta | Alta | Alta | Media | Alta |
+| **Comunicar fallas críticas o situaciones que requieren atención inmediata** | Alta | Alta | Alta | Alta | Media | Alta |
 | **Asignar técnicos para atender mantenimientos o fallas** | Baja | Baja | Alta | Alta | Alta | Alta |
-| **Planificar mantenimientos preventivos** | Baja | Media | Alta | Alta | Alta | Alta |
-| **Generar reportes de mantenimiento y KPIs** | Baja | Baja | Alta | Alta | Alta | Alta |
-| **Revisar tiempos muertos y disponibilidad de maquinaria** | Baja | Baja | Alta | Alta | Alta | Alta |
-| **Verificar el cumplimiento de las órdenes de trabajo** | Media | Alta | Alta | Alta | Alta | Alta |
+| **Planificar mantenimientos preventivos** | Baja | Media | Alta | Alta | Media | Alta |
+| **Generar reportes de mantenimiento y KPIs** | Baja | Baja | Media | Alta | Alta | Alta |
+| **Revisar tiempos muertos y disponibilidad de maquinaria** | Baja | Media | Alta | Alta | Media | Alta |
+| **Dar seguimiento al estado y cumplimiento de las órdenes de trabajo** | Media | Alta | Alta | Alta | Alta | Alta |
 | **Coordinar técnicos entre diferentes plantas o clientes** | Baja | Baja | Baja | Media | Alta | Alta |
 
-#### Análisis del User Task Matrix
+**Análisis del User Task Matrix**
 
-A partir de la matriz se observan diferencias claras entre las responsabilidades de los tres User Personas.
+La matriz permite identificar diferencias en la frecuencia e importancia de las tareas realizadas por cada User Persona, de acuerdo con sus responsabilidades dentro de los procesos de mantenimiento industrial.
 
-En el caso de los **técnicos y operarios de mantenimiento**, las tareas con mayor frecuencia e importancia se relacionan directamente con la ejecución del trabajo en planta. Entre ellas destacan el reporte de fallas, la ejecución de órdenes de trabajo, el registro de las actividades realizadas, la consulta de información técnica y la verificación de repuestos. Esto evidencia que este segmento necesita acceder rápidamente a información operativa durante su jornada de trabajo.
+En el caso de **José Ramírez, Técnico de Mantenimiento Industrial**, las actividades más frecuentes e importantes se relacionan con la ejecución directa del mantenimiento. Entre ellas destacan el reporte de fallas, la ejecución de Órdenes de Trabajo, el registro de las actividades realizadas, la consulta de información técnica de las máquinas y la verificación de repuestos.
 
-Los **jefes de planta y supervisores de producción** presentan una mayor participación en actividades de coordinación y control. Para ellos son especialmente importantes la planificación de mantenimientos preventivos, la asignación de técnicos, la supervisión del cumplimiento de las órdenes de trabajo, la revisión de los tiempos muertos y la generación de reportes. Su principal objetivo es mantener organizada la operación y reducir las interrupciones en la producción.
+Estas tareas reflejan un perfil principalmente operativo, que necesita acceder a información actualizada para realizar sus actividades correctamente. Antes de comenzar una intervención, el técnico debe conocer las características de la máquina, las tareas asignadas y los recursos disponibles. Asimismo, necesita mantener una comunicación constante con los responsables del mantenimiento para informar sobre fallas o situaciones que requieren atención inmediata.
 
-Por otro lado, las **firmas consultoras y contratistas de ingeniería industrial** presentan una mayor frecuencia e importancia en tareas relacionadas con la coordinación de múltiples técnicos, plantas y clientes. Asimismo, requieren planificar mantenimientos, asignar personal, supervisar órdenes de trabajo y generar reportes para sus clientes.
+En el caso de **Carla García, Jefa de Planta**, las actividades de mayor importancia están relacionadas con la planificación, supervisión y control del mantenimiento. Sus principales responsabilidades incluyen asignar técnicos, programar mantenimientos preventivos, verificar la disponibilidad de repuestos, supervisar las Órdenes de Trabajo y revisar los tiempos muertos de las máquinas.
 
-Como coincidencia entre los tres perfiles, se identifica la necesidad de contar con información actualizada sobre las máquinas, las órdenes de trabajo y los repuestos disponibles. Sin embargo, mientras que los técnicos se enfocan principalmente en la ejecución de las actividades de mantenimiento, los supervisores se concentran en la planificación y seguimiento, y las firmas consultoras en la coordinación de operaciones entre diferentes clientes y plantas.
+A diferencia del Técnico, la Jefa de Planta no participa habitualmente en la ejecución directa de los mantenimientos. Su trabajo se concentra en coordinar los recursos, supervisar las actividades y mantener la continuidad de las operaciones. Por ello, necesita disponer de información actualizada que le permita identificar problemas, establecer prioridades y tomar decisiones oportunas.
 
-### Análisis de resultados
+Por su parte, **Víctor Salazar, Coordinador de Operaciones**, desarrolla principalmente actividades relacionadas con la gestión de técnicos, servicios, clientes y plantas industriales. Las tareas de mayor frecuencia e importancia para este perfil incluyen la asignación y coordinación de técnicos, el seguimiento de Órdenes de Trabajo y la elaboración de reportes e indicadores de mantenimiento para diferentes clientes.
 
-**Tareas más frecuentes:**
-Entre los tres segmentos, las tareas *"Acceder desde smartphones en planta"*, *"Consultar inventario de repuestos"* y *"Comunicar alertas críticas"* presentan alta frecuencia. Esto refleja la necesidad operativa del día a día por tener acceso móvil, visibilidad de stock y una comunicación rápida para evitar paradas prolongadas.
+El Coordinador de Operaciones también necesita verificar la disponibilidad de repuestos y recursos antes de organizar una intervención, ya que la falta de materiales o personal puede ocasionar retrasos en la atención de los servicios. Sin embargo, su participación se concentra en la coordinación y supervisión, en lugar de la ejecución directa de las actividades técnicas.
 
-**Tareas más importantes:**
-En todos los casos, las tareas *"Comunicar alertas críticas"*, *"Auditar tiempos muertos (MTTR)"* y *"Validar cumplimiento de OTs"* destacan con alta importancia. Esto evidencia que los usuarios valoran resolver las emergencias de inmediato y tener un control de calidad estricto respaldado por datos para proteger los bienes de capital.
+Al comparar los tres perfiles, se observa que algunas tareas son importantes para todos, aunque se realizan con diferente frecuencia. Por ejemplo, verificar la disponibilidad de repuestos es relevante porque permite conocer si existen los materiales necesarios para realizar un mantenimiento. Del mismo modo, comunicar fallas críticas resulta importante para coordinar una atención oportuna, mientras que el seguimiento de las Órdenes de Trabajo permite conocer el avance de las actividades pendientes y realizadas.
 
-**Diferencias entre segmentos:**
-*   **Los Técnicos de Piso** priorizan la inmediatez: su enfoque absoluto está en reportar fallas rápidamente, ejecutar OTs y consultar repuestos desde sus celulares sin interfaces complejas (baja fricción).
-*   **Los Supervisores y Jefes de Planta (ej. Carla)** actúan como el puente de control: dan igual peso a la asignación de recursos, la planificación y la generación de reportes mensuales para la gerencia, buscando consolidar la información.
-*   **Las Firmas Consultoras (ej. Víctor)** concentran sus tareas en la gestión a gran escala: auditar KPIs, estandarizar reportes y gestionar operaciones multi-planta para justificar el valor de su servicio tercerizado.
+No obstante, cada perfil utiliza esta información de acuerdo con sus responsabilidades. El Técnico la necesita para ejecutar correctamente sus tareas; la Jefa de Planta, para supervisar el mantenimiento y mantener la continuidad de la producción; y el Coordinador de Operaciones, para organizar los servicios realizados en diferentes plantas y clientes.
 
-**Coincidencias clave:**
-Todos los perfiles coinciden en la necesidad de un acceso digital unificado y sin fricción (especialmente móvil) que erradique la dependencia del papel y los grupos informales de WhatsApp. Esta convergencia valida el enfoque de FixCore como un núcleo centralizado que conecta la inmediatez del operario con la analítica del gerente.
+En conjunto, el User Task Matrix permite reconocer las actividades que requieren mayor frecuencia de interacción y aquellas que tienen mayor importancia para los usuarios. Estos resultados sirven como referencia para definir las funcionalidades, los flujos de interacción y las prioridades de diseño de FixCore, considerando las necesidades específicas de cada segmento objetivo.
 
-### 2.3.3. User Journey Mapping. 
+### 2.3.3. User Journey Mapping.
 
 A partir de los User Personas definidos, se elaboraron tres User Journey Maps con el propósito de representar el recorrido actual de cada perfil durante las actividades relacionadas con el mantenimiento industrial. En cada mapa se muestran sus objetivos, procesos, principales problemas, experiencia emocional y oportunidades de mejora identificadas durante las entrevistas.
 
 <div align="center">
-  <strong>Gráfico 6: User Journey Map - Carla García, Jefa de Planta</strong><br><br>
+  <strong>Gráfico 7: User Journey Map - Carla García, Jefa de Planta</strong><br><br>
   <img src="report/assets/images/User Journey Map - Carla García — Jefa de Planta.png" width="700"><br>
   <em>Fuente: Elaboración propia.</em>
 </div>
@@ -1769,7 +2153,7 @@ A partir de los User Personas definidos, se elaboraron tres User Journey Maps co
 <br>
 
 <div align="center">
-  <strong>Gráfico 7: User Journey Map - Víctor Salazar, Coordinador de Operaciones</strong><br><br>
+  <strong>Gráfico 8: User Journey Map - Víctor Salazar, Coordinador de Operaciones</strong><br><br>
   <img src="report/assets/images/User Journey Map - Víctor Salazar — Coordinador de Operaciones.png" width="700"><br>
   <em>Fuente: Elaboración propia.</em>
 </div>
@@ -1777,17 +2161,16 @@ A partir de los User Personas definidos, se elaboraron tres User Journey Maps co
 <br>
 
 <div align="center">
-  <strong>Gráfico 8: User Journey Map - José Ramírez, Técnico de Mantenimiento Industrial</strong><br><br>
+  <strong>Gráfico 9: User Journey Map - José Ramírez, Técnico de Mantenimiento Industrial</strong><br><br>
   <img src="report/assets/images/User Journey Map - José Ramírez — Técnico de Mantenimiento Industrial.png" width="700"><br>
   <em>Fuente: Elaboración propia.</em>
 </div>
-
-### 2.3.4. Empathy Mapping. 
+### 2.3.4. Empathy Mapping.
 
 A partir de los User Personas definidos y de los hallazgos obtenidos en las entrevistas, se elaboraron tres Empathy Maps para profundizar en las necesidades, comportamientos, pensamientos, frustraciones y expectativas de cada perfil representativo de los segmentos objetivo de FixCore.
 
 <div align="center">
-  <strong>Gráfico 9: Empathy Map - Carla García, Jefa de Planta</strong><br><br>
+  <strong>Gráfico 10: Empathy Map - Carla García, Jefa de Planta</strong><br><br>
   <img src="report/assets/images/Empathy Map - Carla García — Jefa de Planta.png" width="700"><br>
   <em>Fuente: Elaboración propia.</em>
 </div>
@@ -1795,7 +2178,7 @@ A partir de los User Personas definidos y de los hallazgos obtenidos en las entr
 <br>
 
 <div align="center">
-  <strong>Gráfico 10: Empathy Map - Víctor Salazar, Coordinador de Operaciones</strong><br><br>
+  <strong>Gráfico 11: Empathy Map - Víctor Salazar, Coordinador de Operaciones</strong><br><br>
   <img src="report/assets/images/Empathy Map - Víctor Salazar — Coordinador de Operaciones.png" width="700"><br>
   <em>Fuente: Elaboración propia.</em>
 </div>
@@ -1803,15 +2186,18 @@ A partir de los User Personas definidos y de los hallazgos obtenidos en las entr
 <br>
 
 <div align="center">
-  <strong>Gráfico 11: Empathy Map - José Ramírez, Técnico de Mantenimiento Industrial</strong><br><br>
+  <strong>Gráfico 12: Empathy Map - José Ramírez, Técnico de Mantenimiento Industrial</strong><br><br>
   <img src="report/assets/images/Empathy Map - José Ramírez — Técnico de Mantenimiento Industrial.png" width="700"><br>
   <em>Fuente: Elaboración propia.</em>
 </div>
-
 ### 2.3.5. As-Is Scenario Mapping.
 
+A partir de las necesidades y dificultades identificadas durante las entrevistas, se elaboraron tres As-Is Scenario Maps para representar cómo los usuarios realizan actualmente sus actividades de mantenimiento industrial, antes de la implementación de FixCore.
+
+Estos mapas permiten visualizar los principales pasos de cada proceso, las herramientas utilizadas, los problemas encontrados y las oportunidades de mejora correspondientes a los tres segmentos objetivo.
+
 <div align="center">
-  <strong>Gráfico 9: As-Is Scenario Mapping - Pymes de Manufactura y Producción</strong><br><br>
+  <strong>Gráfico 13: As-Is Scenario Mapping - Pymes de Manufactura y Producción</strong><br><br>
   <img src="report/assets/images/As Is Segmento 1.png" width="700"><br>
   <em>Fuente: Elaboración propia.</em>
 </div>
@@ -1819,7 +2205,7 @@ A partir de los User Personas definidos y de los hallazgos obtenidos en las entr
 <br>
 
 <div align="center">
-  <strong>Gráfico 10: As-Is Scenario Mapping - Firmas Consultoras y Contratistas de Ingeniería Industrial</strong><br><br>
+  <strong>Gráfico 14: As-Is Scenario Mapping - Firmas Consultoras y Contratistas de Ingeniería Industrial</strong><br><br>
   <img src="report/assets/images/As Is Segmento 2.png" width="700"><br>
   <em>Fuente: Elaboración propia.</em>
 </div>
@@ -1827,159 +2213,251 @@ A partir de los User Personas definidos y de los hallazgos obtenidos en las entr
 <br>
 
 <div align="center">
-  <strong>Gráfico 11: As-Is Scenario Mapping - Técnicos y Operarios de Mantenimiento Industrial</strong><br><br>
+  <strong>Gráfico 15: As-Is Scenario Mapping - Técnicos y Operarios de Mantenimiento Industrial</strong><br><br>
   <img src="report/assets/images/As Is Segmento 3.png" width="700"><br>
   <em>Fuente: Elaboración propia.</em>
 </div>
+## 2.4. Big Picture EventStorming.
 
-## 2.4. Big Picture EventStorming. 
+El Big Picture EventStorming permite representar de manera visual los principales procesos del dominio de mantenimiento industrial. Para su elaboración se siguieron las ocho etapas del proceso de EventStorming, comenzando con la identificación de eventos del dominio y finalizando con la incorporación de los sistemas externos involucrados.
 
-El Big Picture Event Storming consiste en una exploración de alto nivel que busca alinear a los involucrados mediante el mapeo de eventos de dominio en una línea de tiempo extensa. Su propósito es capturar la narrativa completa del negocio para identificar puntos de fricción y establecer los límites preliminares de los Bounded Contexts antes de realizar un diseño técnico detallado. A continuación se presentarán los pasos realizados para la elaboración del tablero.
+**1- Unstructured Exploration**
 
-**1- Generación de eventos del dominio**  
-En esta primera etapa se colocaron tarjetas naranjas que representen a los diferentes eventos que pueden ocurrir dentro del dominio del negocio.
+En esta primera etapa se realizó una exploración inicial de los eventos relevantes que ocurren actualmente dentro del dominio. Los Domain Events fueron expresados en tiempo pasado y representan situaciones relacionadas con el mantenimiento correctivo, mantenimiento preventivo, inventario y atención de servicios.
 
 <div align="center">
-  <strong>Gráfico 12: Etapa 1 del Big picture Event Storming</strong><br><br>
-  <img src="report/assets/images/techmakers-bp-eventstorming-1.jpg" width="700"><br>
+  <strong>Gráfico 16: Step 1 - Unstructured Exploration</strong><br><br>
+  <img src="report/assets/images/Big Picture 1.png" width="900"><br>
   <em>Fuente: Elaboración propia.</em>
 </div>
 
-**2- Ordenamiento cronológico de eventos**  
-En esta fase se ordenaron los eventos colocados previamente hasta formar una secuencia ordenada cronológicamente.
+<br>
+
+**2- Timelines**
+
+En esta etapa los Domain Events identificados fueron organizados cronológicamente para representar la secuencia en la que ocurren los diferentes procesos del negocio. Se consideraron los principales flujos correspondientes al mantenimiento correctivo, mantenimiento preventivo, gestión de inventario y atención de servicios.
 
 <div align="center">
-  <strong>Gráfico 13: Etapa 2 del Big picture Event Storming</strong><br><br>
-  <img src="report/assets/images/techmakers-bp-eventstorming-2.jpg" width="700"><br>
+  <strong>Gráfico 17: Step 2 - Timelines</strong><br><br>
+  <img src="report/assets/images/Big Picture 2.png" width="900"><br>
   <em>Fuente: Elaboración propia.</em>
 </div>
 
-**3- Identificación de actores y sistemas externos**  
-En esta etapa se agregaron tarjetas amarillas que representen a los usuarios responsables de generar ciertos eventos, así como tarjetas azules que representen unos sistemas externos involucrados.
+<br>
+
+**3- Pain Points**
+
+Luego de establecer las líneas de tiempo, se identificaron los principales Pain Points presentes en los procesos actuales. Entre ellos se encuentran la información distribuida entre diferentes medios, la dificultad para conocer la disponibilidad de los técnicos, la dispersión de los manuales e historiales y los problemas relacionados con el control de repuestos.
 
 <div align="center">
-  <strong>Gráfico 14: Etapa 3 del Big picture Event Storming</strong><br><br>
-  <img src="report/assets/images/techmakers-bp-eventstorming-3.jpg" width="700"><br>
+  <strong>Gráfico 18: Step 3 - Pain Points</strong><br><br>
+  <img src="report/assets/images/Big Picture 3.png" width="900"><br>
   <em>Fuente: Elaboración propia.</em>
 </div>
 
-**4- Identificación de problemas**  
-En esta última fase se colocaron tarjetas rosadas que indiquen posibles ambigüedades o problemas que tienen que discutirse en relación con la secuencia.
+<br>
+
+**4- Pivotal Points**
+
+En esta etapa se identificaron los Pivotal Points, los cuales representan momentos relevantes en los que se produce un cambio importante dentro del flujo del negocio. Estos puntos permiten reconocer transiciones entre distintas fases del proceso de mantenimiento.
 
 <div align="center">
-  <strong>Gráfico 15: Etapa 4 del Big picture Event Storming</strong><br><br>
-  <img src="report/assets/images/techmakers-bp-eventstorming-4.jpg" width="700"><br>
+  <strong>Gráfico 19: Step 4 - Pivotal Points</strong><br><br>
+  <img src="report/assets/images/Big Picture 4.png" width="900"><br>
   <em>Fuente: Elaboración propia.</em>
 </div>
 
-**Procesos clave:**  
-Luego de elaborar el tablero de Big Picture Event Storming identificamos los siguientes procesos importantes para nuestro negocio:  
-- Creación y acceso a cuentas de usuario.
-- Registro de plantas industriales con sus integrantes.
-- Registro de activos, repuestos y problemas.
-- Planificación de mantenimientos.
-- Creación y registro de órdenes de trabajo.
+<br>
 
-## 2.5. Ubiquitous Language. 
+**5- Commands**
 
-Es el lenguaje común compartido entre desarrolladores y expertos del negocio que se formula para alinear modelos mentales y eliminar ambigüedades. Este lenguaje asegura que tanto la documentación técnica como el código fuente final de FixCore utilicen exactamente los mismos términos definidos para el dominio de mantenimiento industrial.
+Posteriormente se incorporaron los Commands que representan las acciones realizadas por los actores del dominio y que generan determinados Domain Events. Entre los principales actores involucrados se encuentran el Plant Manager, Technician y Operations Coordinator.
 
-| Concepto | Definición |
+<div align="center">
+  <strong>Gráfico 20: Step 5 - Commands</strong><br><br>
+  <img src="report/assets/images/Big Picture 5.png" width="900"><br>
+  <em>Fuente: Elaboración propia.</em>
+</div>
+
+<br>
+
+**6- Policies**
+
+En esta etapa se agregaron las Policies que representan reglas del negocio mediante las cuales la ocurrencia de determinados eventos puede provocar la ejecución de nuevas acciones dentro del proceso.
+
+<div align="center">
+  <strong>Gráfico 21: Step 6 - Policies</strong><br><br>
+  <img src="report/assets/images/Big Picture 6.png" width="900"><br>
+  <em>Fuente: Elaboración propia.</em>
+</div>
+
+<br>
+
+**7- Read Models**
+
+A continuación, se identificaron los Read Models que contienen la información necesaria para que los actores puedan tomar decisiones durante la ejecución de los procesos. Entre ellos se encuentran la lista de fallas pendientes, disponibilidad de técnicos, historial de máquinas, inventario de repuestos, calendario de mantenimiento y reportes por cliente.
+
+<div align="center">
+  <strong>Gráfico 22: Step 7 - Read Models</strong><br><br>
+  <img src="report/assets/images/Big Picture 7.png" width="900"><br>
+  <em>Fuente: Elaboración propia.</em>
+</div>
+
+<br>
+
+**8- External Systems**
+
+Finalmente, se incorporaron los External Systems que actualmente intervienen en los procesos del negocio. Estos sistemas representan herramientas externas utilizadas para comunicar información, registrar datos o intercambiar documentación durante las actividades de mantenimiento.
+
+<div align="center">
+  <strong>Gráfico 23: Step 8 - External Systems</strong><br><br>
+  <img src="report/assets/images/Big Picture 8.png" width="900"><br>
+  <em>Fuente: Elaboración propia.</em>
+</div>
+
+<br>
+
+**Procesos clave**
+
+Luego de elaborar el Big Picture EventStorming se identificaron los siguientes procesos principales dentro del dominio:
+
+- Gestión de mantenimiento correctivo.
+- Gestión de mantenimiento preventivo.
+- Gestión de inventario y repuestos.
+- Gestión de Órdenes de Trabajo.
+- Coordinación de técnicos.
+- Registro y consulta de información técnica.
+- Seguimiento de servicios y elaboración de reportes para clientes.
+
+
+## 2.5. Ubiquitous Language.
+
+Con el objetivo de mantener un lenguaje común entre los integrantes del equipo y evitar diferentes interpretaciones de los conceptos utilizados en FixCore, se definió el siguiente Ubiquitous Language. Los términos representan conceptos propios de la gestión del mantenimiento industrial y serán utilizados de forma consistente en los diferentes artefactos del proyecto.
+
+| Término | Definición |
 | :--- | :--- |
-| **Técnico** | Usuario móvil del sistema encargado de ejecutar las órdenes de trabajo en planta y reportar incidencias. |
-| **Jefe de Planta** | Usuario administrador responsable de supervisar la maquinaria, asignar tareas y analizar métricas operativas. |
-| **Máquina (Activo)** | Equipo industrial físico registrado en el sistema que requiere monitoreo, historial y mantenimiento constante. |
-| **Orden de Trabajo (OT)** | Registro digital que detalla una tarea de mantenimiento específica asignada a un técnico, incluyendo tiempos y repuestos. |
-| **Falla (Incidencia)** | Evento imprevisto reportado en el que una máquina deja de funcionar correctamente, requiriendo atención inmediata. |
-| **Tiempo Muerto (Downtime)** | Período durante el cual una máquina no está operativa debido a una falla, generando retrasos en la producción. |
-| **Mantenimiento Preventivo** | Conjunto de tareas programadas y recurrentes para revisar y conservar las máquinas antes de que ocurra una falla. |
-| **Mantenimiento Correctivo** | Acción de reparación que se ejecuta de manera reactiva después de que se ha reportado una falla en una máquina. |
-| **Alerta Automatizada** | Notificación enviada en tiempo real (vía webhooks a WhatsApp) informando a los involucrados sobre un cambio de estado o falla. |
-| **Repuesto (Insumo)** | Pieza física o material consumible necesario para completar una orden de trabajo (ej. rodamientos, lubricantes). |
-| **Inventario** | Módulo que gestiona el stock y las existencias actualizadas de los repuestos disponibles en el almacén. |
-| **Planta (Locación)** | Espacio físico, fábrica o instalación industrial donde se encuentran operando las máquinas registradas. |
-| **KPI de Mantenimiento** | Indicador clave (ej. MTTR - Tiempo Medio de Reparación) generado automáticamente para medir la eficiencia del equipo. |
-| **Plan Freemium** | Nivel de acceso básico de la plataforma que permite a la pyme gestionar un número limitado de OTs sin costo inicial. |
+| **Jefe de Planta** | Persona responsable de supervisar las operaciones de una planta y coordinar las actividades relacionadas con el mantenimiento de sus máquinas. Puede registrar máquinas, planificar mantenimientos, gestionar Órdenes de Trabajo y consultar el estado general de las operaciones. |
+| **Técnico** | Persona encargada de realizar directamente actividades de mantenimiento preventivo o correctivo sobre las máquinas. Puede consultar información técnica, atender Órdenes de Trabajo, reportar fallas y registrar las actividades y repuestos utilizados durante una intervención. |
+| **Coordinador de Operaciones** | Persona encargada de organizar y supervisar las actividades de mantenimiento realizadas para diferentes clientes o plantas. Necesita conocer la disponibilidad de los técnicos, consultar el estado de los servicios y obtener información consolidada de las operaciones. |
+| **Planta** | Instalación industrial en la que se encuentran las máquinas y donde se realizan actividades de producción y mantenimiento. Una planta puede contener varias máquinas y tener diferentes técnicos asociados a sus operaciones. |
+| **Máquina** | Equipo utilizado dentro de una planta y que requiere seguimiento y mantenimiento durante su vida útil. Cada máquina puede tener información técnica, manuales, fallas, mantenimientos y Órdenes de Trabajo asociadas. |
+| **Ficha Técnica** | Conjunto de información que describe las principales características de una máquina, como fabricante, modelo, número de serie y otros datos necesarios para su identificación y mantenimiento. |
+| **Manual Técnico** | Documento que contiene información proporcionada por el fabricante o responsable del equipo para apoyar su operación, inspección, diagnóstico o mantenimiento. |
+| **Falla** | Problema o comportamiento anormal detectado en una máquina que puede afectar su funcionamiento y requerir una intervención de mantenimiento. |
+| **Prioridad de Falla** | Nivel utilizado para indicar la urgencia con la que una falla debe ser atendida según su impacto en las operaciones. Permite diferenciar incidencias de menor importancia de aquellas que necesitan atención inmediata. |
+| **Orden de Trabajo** | Registro que formaliza una actividad de mantenimiento que debe ser realizada sobre una máquina. Contiene información sobre la actividad, el Técnico responsable, su estado y los trabajos realizados durante la intervención. |
+| **Estado de Orden de Trabajo** | Situación actual de una Orden de Trabajo dentro de su ciclo de atención. Permite conocer si una actividad se encuentra pendiente, en progreso o completada. |
+| **Actividad de Mantenimiento** | Trabajo realizado por un Técnico como parte de una Orden de Trabajo, como una inspección, reparación, ajuste, limpieza o cambio de componentes. |
+| **Plan de Mantenimiento** | Conjunto de condiciones utilizadas para organizar la realización periódica de mantenimientos sobre una máquina. Puede definir una frecuencia y servir como base para generar mantenimientos futuros. |
+| **Mantenimiento Programado** | Actividad de mantenimiento que cuenta con una fecha prevista para su realización. Puede ser reprogramada mientras todavía se encuentre pendiente. |
+| **Mantenimiento Preventivo** | Mantenimiento realizado de manera planificada antes de que ocurra una falla, con el objetivo de conservar el funcionamiento de una máquina y reducir la posibilidad de interrupciones inesperadas. |
+| **Mantenimiento Correctivo** | Mantenimiento realizado después de identificar una falla, con el objetivo de reparar la máquina y recuperar su funcionamiento normal. |
+| **Mantenimiento Vencido** | Mantenimiento cuya fecha programada ya pasó y que todavía no ha sido completado. |
+| **Repuesto** | Pieza, componente o material que puede ser utilizado durante una actividad de mantenimiento para reemplazar o reparar una parte de una máquina. |
+| **Inventario** | Registro de los repuestos disponibles para realizar actividades de mantenimiento dentro de una planta. Permite controlar ingresos, consumos y ajustes de existencias. |
+| **Stock** | Cantidad disponible de unidades de un determinado repuesto dentro del inventario. |
+| **Stock Mínimo** | Cantidad mínima de unidades que se espera mantener disponible para un repuesto. Cuando el stock alcanza o disminuye por debajo de este valor, puede ser necesario realizar una reposición. |
+| **Movimiento de Inventario** | Cambio registrado en las existencias de un repuesto como consecuencia de un ingreso, consumo o ajuste de inventario. |
+| **Alerta** | Aviso generado cuando ocurre una situación que requiere la atención de uno o más responsables, como una falla crítica, un mantenimiento próximo o un nivel bajo de stock. |
+| **Notificación** | Comunicación enviada a un usuario para informarle sobre un evento relacionado con sus actividades, como la asignación de una nueva Orden de Trabajo o un cambio relevante en una operación. |
+| **Tiempo Muerto** | Periodo durante el cual una máquina permanece fuera de operación debido a una falla, mantenimiento u otra situación que impide su funcionamiento normal. |
+| **MTTR (Mean Time To Repair)** | Indicador que representa el tiempo promedio utilizado para reparar una máquina después de una falla. Se calcula utilizando los tiempos de reparación registrados en las intervenciones completadas. |
+| **Cumplimiento Preventivo** | Indicador que permite conocer qué porcentaje de los mantenimientos preventivos programados fueron realizados según la planificación establecida durante un periodo determinado. |
+| **KPI de Mantenimiento** | Indicador utilizado para evaluar el desempeño de las actividades de mantenimiento. En FixCore puede incluir métricas como MTTR, Tiempo Muerto y Cumplimiento Preventivo. |
+| **Historial de Mantenimiento** | Registro cronológico de las fallas, mantenimientos y actividades realizadas anteriormente sobre una máquina. |
+
+
+<div style="page-break-after: always;"></div>
 
 # Capítulo III: Requirements Specification 
 
 ## 3.1. User Stories.
 
+Las siguientes User Stories representan las principales funcionalidades de FixCore a partir de las necesidades identificadas en los segmentos objetivo. Los criterios de aceptación fueron definidos mediante escenarios Given-When-Then, considerando tanto los casos principales como situaciones alternativas relevantes para cada funcionalidad.
+
 | Story ID | Título | Descripción | Criterios de aceptación | Relacionado con |
 | :--- | :--- | :--- | :--- | :--- |
-| **US01** | Registrar planta | Como Jefe de Planta, deseo registrar una planta para organizar las máquinas que forman parte de sus operaciones. | **Escenario 1:** Dado que el Jefe de Planta cuenta con la información necesaria, cuando registra una nueva planta, entonces la planta queda registrada correctamente.<br><br>**Escenario 2:** Dado que falta información obligatoria, cuando intenta registrar la planta, entonces el registro no se completa y se informa qué datos faltan. | EP01 |
-| **US02** | Editar información de una planta | Como Jefe de Planta, deseo actualizar la información de una planta para mantener sus datos correctos. | **Escenario 1:** Dado que la planta está registrada, cuando modifica sus datos con información válida, entonces los cambios quedan guardados.<br><br>**Escenario 2:** Dado que ingresa información no válida, cuando intenta guardar los cambios, entonces la información anterior se mantiene. | EP01 |
-| **US03** | Registrar máquina | Como Jefe de Planta, deseo registrar una máquina para llevar un control de los activos que requieren mantenimiento. | **Escenario 1:** Dado que existe una planta registrada, cuando registra una máquina con sus datos obligatorios, entonces la máquina queda asociada a dicha planta.<br><br>**Escenario 2:** Dado que faltan datos obligatorios, cuando intenta registrar la máquina, entonces el registro no se completa. | EP01 |
-| **US04** | Editar información de una máquina | Como Jefe de Planta, deseo actualizar los datos de una máquina para mantener su información técnica al día. | **Escenario 1:** Dado que la máquina está registrada, cuando modifica información válida, entonces los cambios quedan guardados.<br><br>**Escenario 2:** Dado que proporciona información incorrecta o incompleta, cuando intenta actualizarla, entonces los cambios no son registrados. | EP01 |
-| **US05** | Consultar ficha técnica de una máquina | Como Técnico, deseo consultar la ficha técnica de una máquina para conocer sus características antes de realizar un mantenimiento. | **Escenario 1:** Dado que la máquina está registrada, cuando consulta su ficha técnica, entonces obtiene la marca, modelo y demás información disponible.<br><br>**Escenario 2:** Dado que la máquina no existe, cuando intenta consultar su ficha, entonces se informa que el activo no fue encontrado. | EP01 |
-| **US06** | Asociar manual técnico a una máquina | Como Jefe de Planta, deseo asociar manuales a una máquina para mantener su documentación técnica centralizada. | **Escenario 1:** Dado que la máquina está registrada, cuando se asocia un manual válido, entonces el documento queda relacionado con el activo.<br><br>**Escenario 2:** Dado que el documento no cumple con las condiciones permitidas, cuando intenta asociarlo, entonces el manual no queda registrado. | EP01 |
-| **US07** | Consultar manuales de una máquina | Como Técnico, deseo consultar los manuales de una máquina para tener información de apoyo durante el mantenimiento. | **Escenario 1:** Dado que existen manuales asociados a la máquina, cuando los consulta, entonces puede acceder a los documentos disponibles.<br><br>**Escenario 2:** Dado que no existen manuales asociados, cuando realiza la consulta, entonces se informa que no hay documentos disponibles. | EP01 |
-| **US08** | Consultar estado de una máquina | Como Jefe de Planta, deseo conocer el estado de una máquina para saber si está operativa, en mantenimiento o presenta una falla. | **Escenario 1:** Dado que la máquina está registrada, cuando consulta su estado, entonces obtiene su condición actual.<br><br>**Escenario 2:** Dado que ocurre un cambio relacionado con una falla o mantenimiento, cuando vuelve a consultar la máquina, entonces obtiene el estado actualizado. | EP01 |
-| **US09** | Consultar historial de una máquina | Como Jefe de Planta, deseo revisar el historial de una máquina para conocer sus fallas y mantenimientos anteriores. | **Escenario 1:** Dado que la máquina tiene actividades anteriores, cuando consulta su historial, entonces obtiene los eventos registrados en orden cronológico.<br><br>**Escenario 2:** Dado que la máquina todavía no tiene actividad registrada, cuando consulta su historial, entonces se informa que aún no existen registros. | EP01 |
-| **US10** | Programar mantenimiento preventivo | Como Jefe de Planta, deseo programar un mantenimiento preventivo para reducir el riesgo de fallas inesperadas en una máquina. | **Escenario 1:** Dado que la máquina está registrada, cuando programa un mantenimiento con información válida, entonces la actividad queda registrada.<br><br>**Escenario 2:** Dado que faltan datos obligatorios, cuando intenta realizar la programación, entonces el mantenimiento no queda registrado. | EP02 |
-| **US11** | Definir frecuencia de mantenimiento | Como Jefe de Planta, deseo establecer cada cuánto debe realizarse un mantenimiento para mantener una planificación preventiva constante. | **Escenario 1:** Dado que existe un mantenimiento preventivo, cuando establece una frecuencia válida, entonces quedan definidas las futuras revisiones.<br><br>**Escenario 2:** Dado que la frecuencia no es válida, cuando intenta registrarla, entonces la programación no se modifica. | EP02 |
-| **US12** | Editar mantenimiento programado | Como Jefe de Planta, deseo modificar los datos de un mantenimiento pendiente para corregir cambios en su planificación. | **Escenario 1:** Dado que el mantenimiento está pendiente, cuando modifica información válida, entonces la planificación queda actualizada.<br><br>**Escenario 2:** Dado que el mantenimiento ya está completado, cuando intenta modificarlo, entonces el registro realizado se conserva. | EP02 |
-| **US13** | Reprogramar mantenimiento | Como Jefe de Planta, deseo cambiar la fecha de un mantenimiento para adaptarlo a cambios en las operaciones de la planta. | **Escenario 1:** Dado que el mantenimiento está pendiente, cuando selecciona una nueva fecha válida, entonces queda reprogramado.<br><br>**Escenario 2:** Dado que la nueva fecha no es válida, cuando intenta realizar el cambio, entonces se conserva la fecha anterior. | EP02 |
-| **US14** | Consultar calendario de mantenimientos | Como Jefe de Planta, deseo consultar los mantenimientos programados para organizar las actividades del equipo técnico. | **Escenario 1:** Dado que existen mantenimientos programados, cuando consulta un periodo determinado, entonces obtiene las actividades correspondientes.<br><br>**Escenario 2:** Dado que no existen actividades en el periodo consultado, cuando realiza la consulta, entonces se informa que no hay mantenimientos programados. | EP02 |
-| **US15** | Consultar mantenimientos por planta | Como Gerente de Operaciones, deseo consultar los mantenimientos de cada planta atendida para organizar el trabajo de los técnicos entre diferentes clientes. | **Escenario 1:** Dado que administra varias plantas, cuando consulta una planta determinada, entonces obtiene los mantenimientos asociados únicamente a ella.<br><br>**Escenario 2:** Dado que una planta no tiene actividades programadas, cuando la consulta, entonces se informa que no existen mantenimientos pendientes. | EP02 |
-| **US16** | Consultar próximos mantenimientos | Como Técnico, deseo conocer los próximos mantenimientos que debo realizar para prepararme antes de iniciar mis actividades. | **Escenario 1:** Dado que tiene mantenimientos próximos asignados, cuando consulta sus actividades, entonces obtiene las tareas pendientes ordenadas por fecha.<br><br>**Escenario 2:** Dado que no tiene mantenimientos próximos, cuando realiza la consulta, entonces se informa que no existen actividades pendientes. | EP02 |
-| **US17** | Identificar mantenimientos vencidos | Como Jefe de Planta, deseo identificar los mantenimientos que no fueron realizados a tiempo para tomar acciones antes de que ocurra una falla. | **Escenario 1:** Dado que la fecha programada ya pasó y el mantenimiento continúa pendiente, cuando consulta sus actividades, entonces el mantenimiento aparece como vencido.<br><br>**Escenario 2:** Dado que el mantenimiento fue completado dentro de la fecha prevista, cuando consulta su estado, entonces no aparece como vencido. | EP02 |
-| **US18** | Suspender o reactivar mantenimiento preventivo | Como Jefe de Planta, deseo suspender o reactivar un plan preventivo para adaptarlo al estado actual de una máquina. | **Escenario 1:** Dado que un plan está activo, cuando decide suspenderlo, entonces deja de generar nuevas actividades mientras permanezca suspendido.<br><br>**Escenario 2:** Dado que el plan se encuentra suspendido, cuando lo reactiva, entonces vuelve a considerar su programación establecida. | EP02 |
-| **US19** | Reportar falla de una máquina | Como Técnico, deseo reportar rápidamente una falla para que pueda ser atendida y no se pierda entre otros medios de comunicación. | **Escenario 1:** Dado que la máquina está registrada, cuando el Técnico reporta una falla con la información necesaria, entonces la incidencia queda registrada.<br><br>**Escenario 2:** Dado que falta información obligatoria, cuando intenta reportarla, entonces la incidencia no queda registrada y se indican los datos faltantes. | EP03 |
-| **US20** | Asignar prioridad a una falla | Como Jefe de Planta, deseo indicar la prioridad de una falla para atender primero las incidencias que generan mayor impacto en la producción. | **Escenario 1:** Dado que existe una falla registrada, cuando se establece una prioridad válida, entonces esta queda asociada a la incidencia.<br><br>**Escenario 2:** Dado que la prioridad cambia, cuando se actualiza la incidencia, entonces la nueva prioridad queda registrada. | EP03 |
-| **US21** | Consultar fallas pendientes | Como Jefe de Planta, deseo consultar las fallas pendientes para conocer qué máquinas requieren atención. | **Escenario 1:** Dado que existen incidencias pendientes, cuando realiza la consulta, entonces obtiene las fallas que todavía requieren atención.<br><br>**Escenario 2:** Dado que no existen fallas pendientes, cuando realiza la consulta, entonces se informa que no existen incidencias por atender. | EP03 |
-| **US22** | Consultar detalle de una falla | Como Jefe de Planta, deseo revisar la información de una falla para entender qué ocurrió antes de coordinar su atención. | **Escenario 1:** Dado que la incidencia existe, cuando consulta su detalle, entonces obtiene la máquina afectada, descripción, fecha, prioridad y estado.<br><br>**Escenario 2:** Dado que la incidencia no existe, cuando intenta consultarla, entonces se informa que no fue encontrada. | EP03 |
-| **US23** | Generar orden correctiva desde una falla | Como Jefe de Planta, deseo crear una Orden de Trabajo a partir de una falla para iniciar formalmente su reparación. | **Escenario 1:** Dado que existe una falla pendiente, cuando genera la Orden de Trabajo correctiva, entonces la orden queda relacionada con la incidencia y la máquina.<br><br>**Escenario 2:** Dado que la falla ya tiene una orden activa, cuando intenta generar otra, entonces no se crea una orden duplicada. | EP03 |
-| **US24** | Generar orden de mantenimiento preventivo | Como Jefe de Planta, deseo generar una Orden de Trabajo para un mantenimiento programado para organizar su ejecución. | **Escenario 1:** Dado que existe un mantenimiento preventivo pendiente, cuando genera una Orden de Trabajo, entonces ambos registros quedan relacionados.<br><br>**Escenario 2:** Dado que ya existe una orden para ese mantenimiento, cuando intenta generar otra, entonces se evita crear un duplicado. | EP03 |
-| **US25** | Asignar técnico a una orden | Como Jefe de Planta, deseo asignar una Orden de Trabajo a un Técnico para definir quién será responsable del mantenimiento. | **Escenario 1:** Dado que la orden está pendiente y existe un Técnico disponible, cuando lo asigna, entonces la orden queda relacionada con dicho Técnico.<br><br>**Escenario 2:** Dado que el Técnico no está disponible para la actividad, cuando intenta asignarlo, entonces la asignación no se completa. | EP03 |
-| **US26** | Reasignar orden de trabajo | Como Jefe de Planta, deseo cambiar el Técnico responsable de una orden para responder a cambios de disponibilidad. | **Escenario 1:** Dado que la orden todavía no está completada, cuando selecciona otro Técnico disponible, entonces el responsable queda actualizado.<br><br>**Escenario 2:** Dado que la orden ya está completada, cuando intenta reasignarla, entonces el responsable original se conserva. | EP03 |
-| **US27** | Consultar órdenes asignadas | Como Técnico, deseo consultar mis Órdenes de Trabajo para saber qué actividades debo atender durante mi turno. | **Escenario 1:** Dado que tiene órdenes asignadas, cuando consulta sus actividades, entonces obtiene únicamente las órdenes que le corresponden.<br><br>**Escenario 2:** Dado que no tiene órdenes pendientes, cuando realiza la consulta, entonces se informa que no existen trabajos asignados. | EP03 |
-| **US28** | Iniciar orden de trabajo | Como Técnico, deseo indicar que he comenzado una Orden de Trabajo para registrar desde cuándo se está atendiendo el mantenimiento. | **Escenario 1:** Dado que la orden está pendiente y asignada al Técnico, cuando inicia el trabajo, entonces la orden cambia a estado en progreso.<br><br>**Escenario 2:** Dado que la orden no pertenece al Técnico, cuando intenta iniciarla, entonces la operación no se realiza. | EP03 |
-| **US29** | Registrar trabajo realizado | Como Técnico, deseo registrar lo realizado durante el mantenimiento para mantener una evidencia clara del trabajo efectuado. | **Escenario 1:** Dado que la orden está en progreso, cuando registra las actividades realizadas, entonces la información queda asociada a la Orden de Trabajo.<br><br>**Escenario 2:** Dado que falta información requerida, cuando intenta registrar el trabajo, entonces el registro no se completa. | EP03 |
-| **US30** | Cerrar orden de trabajo | Como Técnico, deseo cerrar una Orden de Trabajo cuando termino el mantenimiento para dejar registrada su finalización. | **Escenario 1:** Dado que la orden está en progreso y contiene la información requerida, cuando el Técnico la finaliza, entonces cambia a estado completado.<br><br>**Escenario 2:** Dado que faltan datos necesarios del mantenimiento, cuando intenta cerrarla, entonces la orden permanece en progreso. | EP03 |
-| **US31** | Registrar repuesto | Como Jefe de Planta, deseo registrar un repuesto para controlar los materiales disponibles para los mantenimientos. | **Escenario 1:** Dado que cuenta con la información requerida, cuando registra un nuevo repuesto, entonces este queda almacenado en el inventario.<br><br>**Escenario 2:** Dado que falta información obligatoria, cuando intenta registrarlo, entonces el repuesto no queda creado. | EP04 |
-| **US32** | Editar información de un repuesto | Como Jefe de Planta, deseo actualizar los datos de un repuesto para mantener correcta la información del inventario. | **Escenario 1:** Dado que el repuesto está registrado, cuando modifica información válida, entonces los cambios quedan guardados.<br><br>**Escenario 2:** Dado que la información no es válida, cuando intenta actualizarla, entonces se conservan los datos anteriores. | EP04 |
-| **US33** | Consultar stock de repuestos | Como Técnico, deseo consultar la cantidad disponible de un repuesto para saber si puedo utilizarlo durante un mantenimiento. | **Escenario 1:** Dado que el repuesto está registrado, cuando consulta su disponibilidad, entonces obtiene la cantidad actual existente.<br><br>**Escenario 2:** Dado que el repuesto no tiene unidades disponibles, cuando consulta su stock, entonces se indica que se encuentra agotado. | EP04 |
-| **US34** | Buscar repuestos | Como Técnico, deseo buscar un repuesto para encontrar rápidamente el material que necesito durante una reparación. | **Escenario 1:** Dado que existen repuestos que coinciden con los datos consultados, cuando realiza la búsqueda, entonces obtiene los resultados correspondientes.<br><br>**Escenario 2:** Dado que ningún repuesto coincide, cuando realiza la búsqueda, entonces se informa que no existen resultados. | EP04 |
-| **US35** | Definir stock mínimo | Como Jefe de Planta, deseo establecer una cantidad mínima para cada repuesto para saber cuándo es necesario reponerlo. | **Escenario 1:** Dado que el repuesto está registrado, cuando establece una cantidad mínima válida, entonces el límite queda guardado.<br><br>**Escenario 2:** Dado que la cantidad indicada no es válida, cuando intenta registrarla, entonces el stock mínimo no se modifica. | EP04 |
-| **US36** | Registrar ingreso de repuestos | Como Jefe de Planta, deseo registrar el ingreso de nuevas unidades para mantener actualizado el inventario. | **Escenario 1:** Dado que el repuesto existe, cuando registra una cantidad válida de unidades recibidas, entonces el stock aumenta en la cantidad indicada.<br><br>**Escenario 2:** Dado que la cantidad ingresada no es válida, cuando intenta registrarla, entonces el stock permanece sin cambios. | EP04 |
-| **US37** | Ajustar existencias de inventario | Como Jefe de Planta, deseo corregir las existencias registradas para solucionar diferencias encontradas en el inventario real. | **Escenario 1:** Dado que existe una diferencia comprobada, cuando registra un ajuste válido, entonces la nueva cantidad queda actualizada.<br><br>**Escenario 2:** Dado que se realiza un ajuste, cuando posteriormente se consulta el historial, entonces el movimiento puede ser identificado. | EP04 |
-| **US38** | Registrar repuestos utilizados | Como Técnico, deseo registrar los repuestos utilizados en una Orden de Trabajo para dejar constancia de los materiales consumidos. | **Escenario 1:** Dado que la orden está en progreso y existe stock disponible, cuando registra un repuesto utilizado, entonces queda asociado a la orden.<br><br>**Escenario 2:** Dado que la cantidad solicitada supera el stock disponible, cuando intenta registrarla, entonces el consumo no es aceptado. | EP04 |
-| **US39** | Actualizar stock al completar una orden | Como Jefe de Planta, deseo que el inventario considere los repuestos consumidos en las Órdenes de Trabajo para conocer el stock real disponible. | **Escenario 1:** Dado que una orden contiene repuestos utilizados, cuando se completa la Orden de Trabajo, entonces las cantidades correspondientes son descontadas del inventario.<br><br>**Escenario 2:** Dado que una orden no utilizó repuestos, cuando se completa, entonces las existencias permanecen sin cambios. | EP04 |
-| **US40** | Consultar historial de inventario | Como Jefe de Planta, deseo consultar los movimientos de los repuestos para conocer cómo han cambiado sus existencias. | **Escenario 1:** Dado que existen movimientos registrados, cuando consulta el historial, entonces obtiene los ingresos, consumos y ajustes realizados.<br><br>**Escenario 2:** Dado que no existen movimientos para un repuesto, cuando consulta su historial, entonces se informa que todavía no tiene actividad registrada. | EP04 |
-| **US41** | Consultar resumen de operaciones | Como Jefe de Planta, deseo consultar un resumen general del mantenimiento para conocer rápidamente la situación de las máquinas de la planta. | **Escenario 1:** Dado que existen datos de operación, cuando consulta el resumen, entonces obtiene información consolidada de máquinas, fallas y mantenimientos.<br><br>**Escenario 2:** Dado que existen registros nuevos, cuando vuelve a consultar el resumen, entonces la información refleja los datos más recientes disponibles. | EP05 |
-| **US42** | Consultar tiempo muerto de las máquinas | Como Jefe de Planta, deseo conocer el Tiempo Muerto de las máquinas para identificar qué equipos generan mayores interrupciones en la producción. | **Escenario 1:** Dado que existen periodos de inactividad registrados, cuando consulta el indicador de Downtime, entonces obtiene el tiempo acumulado correspondiente.<br><br>**Escenario 2:** Dado que una máquina no registra inactividad, cuando consulta su indicador, entonces el tiempo muerto obtenido es cero. | EP05 |
-| **US43** | Consultar MTTR | Como Jefe de Planta, deseo consultar el tiempo medio de reparación para evaluar qué tan rápido son atendidas las fallas. | **Escenario 1:** Dado que existen reparaciones completadas, cuando consulta el MTTR, entonces obtiene el promedio calculado utilizando los registros disponibles.<br><br>**Escenario 2:** Dado que no existen suficientes reparaciones registradas, cuando consulta el indicador, entonces se informa que aún no puede ser calculado. | EP05 |
-| **US44** | Consultar cumplimiento preventivo | Como Jefe de Planta, deseo conocer el nivel de cumplimiento de los mantenimientos preventivos para saber si las revisiones se realizan dentro de las fechas planificadas. | **Escenario 1:** Dado que existen mantenimientos programados y completados, cuando consulta el cumplimiento, entonces obtiene el porcentaje correspondiente al periodo.<br><br>**Escenario 2:** Dado que no existen mantenimientos durante el periodo, cuando realiza la consulta, entonces se informa que no hay datos suficientes. | EP05 |
-| **US45** | Consultar estado de las órdenes de trabajo | Como Jefe de Planta, deseo conocer cuántas Órdenes de Trabajo están pendientes, en progreso o completadas para supervisar las actividades de mantenimiento. | **Escenario 1:** Dado que existen órdenes registradas, cuando consulta su estado general, entonces obtiene las cantidades agrupadas según su situación.<br><br>**Escenario 2:** Dado que una orden cambia de estado, cuando vuelve a realizar la consulta, entonces el resumen refleja el cambio. | EP05 |
-| **US46** | Consultar desempeño de técnicos | Como Gerente de Operaciones, deseo consultar las Órdenes de Trabajo realizadas por los técnicos para conocer su actividad y organizar mejor los recursos de la empresa. | **Escenario 1:** Dado que el Técnico tiene órdenes completadas, cuando consulta su actividad durante un periodo, entonces obtiene los trabajos realizados.<br><br>**Escenario 2:** Dado que el Técnico no registra actividad en el periodo seleccionado, cuando realiza la consulta, entonces se informa que no existen registros. | EP05 |
-| **US47** | Generar reporte por cliente | Como Gerente de Operaciones, deseo generar un reporte de mantenimiento para cada cliente para entregar información clara sobre sus máquinas y servicios realizados. | **Escenario 1:** Dado que existen registros de mantenimiento del cliente, cuando genera el reporte para un periodo, entonces obtiene información relacionada con sus máquinas, fallas y Órdenes de Trabajo.<br><br>**Escenario 2:** Dado que no existen registros en el periodo seleccionado, cuando solicita el reporte, entonces se informa que no existen datos disponibles. | EP05 |
-| **US48** | Recibir alerta de mantenimiento próximo | Como Jefe de Planta, deseo recibir una alerta antes de una fecha de mantenimiento para evitar que una revisión preventiva sea olvidada. | **Escenario 1:** Dado que existe un mantenimiento próximo, cuando se alcanza el periodo establecido para el aviso, entonces se genera una alerta.<br><br>**Escenario 2:** Dado que el mantenimiento ya fue completado, cuando llega el momento previsto para la alerta, entonces no se genera un aviso pendiente. | EP06 |
-| **US49** | Recibir alerta de falla crítica | Como Jefe de Planta, deseo recibir una alerta cuando se registra una falla crítica para coordinar su atención lo antes posible. | **Escenario 1:** Dado que se registra una falla con prioridad crítica, cuando la incidencia queda confirmada, entonces se genera una alerta para los responsables.<br><br>**Escenario 2:** Dado que la falla no tiene prioridad crítica, cuando queda registrada, entonces conserva el nivel de prioridad correspondiente sin generar una alerta crítica. | EP06 |
-| **US50** | Recibir notificación de orden asignada | Como Técnico, deseo recibir una notificación cuando se me asigna una Orden de Trabajo para conocer que tengo una nueva actividad pendiente. | **Escenario 1:** Dado que una orden es asignada al Técnico, cuando la asignación queda registrada, entonces se genera una notificación para dicho Técnico.<br><br>**Escenario 2:** Dado que la orden es reasignada a otro Técnico, cuando se confirma el cambio, entonces el nuevo responsable recibe la notificación correspondiente. | EP06 |
-| **US51** | Recibir alerta de stock bajo | Como Jefe de Planta, deseo recibir una alerta cuando un repuesto alcanza su stock mínimo para poder reponerlo antes de que se agote. | **Escenario 1:** Dado que el stock alcanza o baja del mínimo establecido, cuando se actualizan las existencias, entonces se genera una alerta.<br><br>**Escenario 2:** Dado que el stock permanece por encima del mínimo, cuando se actualiza el inventario, entonces no se genera una alerta de stock bajo. | EP06 |
-| **US52** | Configurar destinatarios de alertas | Como Jefe de Planta, deseo definir qué responsables deben recibir cada tipo de alerta para que la información llegue a las personas adecuadas. | **Escenario 1:** Dado que existe un usuario autorizado, cuando se configura como destinatario de una alerta, entonces queda asociado a ese tipo de notificación.<br><br>**Escenario 2:** Dado que se elimina un destinatario de la configuración, cuando ocurre posteriormente el evento, entonces dicho usuario ya no recibe esa alerta. | EP06 |
-| **US53** | Recibir alertas mediante WhatsApp | Como Jefe de Planta, deseo recibir las alertas importantes mediante WhatsApp para enterarme de situaciones urgentes aunque no esté usando FixCore. | **Escenario 1:** Dado que ocurre un evento configurado para notificación externa, cuando se genera la alerta, entonces se envía la información mediante el servicio de WhatsApp integrado.<br><br>**Escenario 2:** Dado que el servicio externo no está disponible, cuando se intenta realizar el envío, entonces el fallo queda registrado para evitar perder el evento. | EP06 |
-| **US54** | Iniciar sesión | Como usuario registrado, deseo iniciar sesión en FixCore para acceder a las funciones correspondientes a mi cuenta. | **Escenario 1:** Dado que las credenciales son correctas, cuando el usuario solicita acceso, entonces puede ingresar a su cuenta.<br><br>**Escenario 2:** Dado que las credenciales son incorrectas, cuando intenta acceder, entonces el inicio de sesión es rechazado. | EP07 |
-| **US55** | Recuperar acceso a la cuenta | Como usuario registrado, deseo recuperar el acceso cuando olvido mi contraseña para volver a utilizar FixCore. | **Escenario 1:** Dado que existe una cuenta asociada al usuario, cuando solicita recuperar el acceso, entonces recibe el procedimiento de recuperación correspondiente.<br><br>**Escenario 2:** Dado que no existe una cuenta asociada a los datos proporcionados, cuando solicita la recuperación, entonces ninguna cuenta es modificada. | EP07 |
-| **US56** | Registrar técnico | Como Jefe de Planta, deseo registrar Técnicos para poder asignarles las actividades de mantenimiento de la empresa. | **Escenario 1:** Dado que proporciona información válida del Técnico, cuando realiza el registro, entonces el Técnico queda disponible para ser asociado a actividades.<br><br>**Escenario 2:** Dado que ya existe un usuario con los mismos datos de identificación, cuando intenta registrarlo nuevamente, entonces no se crea un registro duplicado. | EP07 |
-| **US57** | Editar información de un técnico | Como Jefe de Planta, deseo actualizar la información de un Técnico para mantener sus datos correctamente registrados. | **Escenario 1:** Dado que el Técnico existe, cuando modifica información válida, entonces los cambios quedan guardados.<br><br>**Escenario 2:** Dado que la información proporcionada no es válida, cuando intenta actualizarla, entonces se conservan los datos anteriores. | EP07 |
-| **US58** | Asignar acceso según responsabilidad | Como Gerente de Operaciones, deseo definir a qué plantas puede acceder cada usuario para organizar el trabajo de los Técnicos que atienden diferentes clientes. | **Escenario 1:** Dado que el usuario está registrado, cuando se le asigna acceso a una planta autorizada, entonces puede consultar la información relacionada con dicha planta.<br><br>**Escenario 2:** Dado que el usuario no tiene acceso a una planta determinada, cuando intenta consultar su información, entonces el acceso es rechazado. | EP07 |
-| **US59** | Conocer FixCore | Como Visitante, deseo conocer qué es FixCore para entender qué problema de mantenimiento industrial busca resolver. | **Escenario 1:** Dado que el Visitante accede al Landing Page, cuando consulta la presentación del producto, entonces puede conocer el propósito principal de FixCore.<br><br>**Escenario 2:** Dado que continúa revisando la información, cuando consulta la problemática presentada, entonces puede entender la relación entre FixCore y la gestión del mantenimiento industrial. | EP08 |
-| **US60** | Conocer funcionalidades de FixCore | Como Visitante, deseo conocer las principales funcionalidades de FixCore para saber cómo puede ayudar a organizar el mantenimiento de una empresa. | **Escenario 1:** Dado que el Visitante consulta las características del producto, cuando revisa la información disponible, entonces puede identificar sus principales funcionalidades.<br><br>**Escenario 2:** Dado que consulta una funcionalidad, cuando revisa su descripción, entonces puede conocer el beneficio que ofrece. | EP08 |
-| **US61** | Conocer beneficios según el segmento | Como Visitante, deseo conocer cómo FixCore puede ayudar a mi tipo de empresa para determinar si la solución responde a mis necesidades. | **Escenario 1:** Dado que el Visitante pertenece a una pyme manufacturera, cuando consulta la información dirigida a su segmento, entonces encuentra beneficios relacionados con el control de sus máquinas y mantenimientos.<br><br>**Escenario 2:** Dado que pertenece a una firma contratista, cuando consulta la información dirigida a su segmento, entonces encuentra beneficios relacionados con la gestión de técnicos y servicios para diferentes clientes. | EP08 |
-| **US62** | Consultar planes de FixCore | Como Visitante, deseo conocer los planes disponibles para evaluar qué alternativa se adapta mejor a mi empresa. | **Escenario 1:** Dado que existen diferentes planes, cuando el Visitante consulta sus características, entonces puede identificar las diferencias principales entre ellos.<br><br>**Escenario 2:** Dado que existe un Plan Freemium, cuando consulta sus condiciones, entonces puede conocer las funcionalidades y límites incluidos. | EP08 |
-| **US63** | Consultas adicionales sobre FixCore | Como Visitante, quiero que haya un espacio en la Landing Page donde pueda obtener información adicional sobre FixCore para así poder resolver mis dudas. | **Escenario 1:** Dado que el Visitante se encuentra en la Landing Page, cuando accede a la sección de preguntas frecuentes e interactúa con una pregunta, entonces visualiza una respuesta que aclara sus dudas.<br><br>**Escenario 2:** Dado que el Visitante se encuentra en la Landing Page, cuando accede a la sección del footer y presiona el botón de términos y condiciones, entonces es redirigido a una pestaña con los términos y condiciones asociados a FixCore. | EP08 |
-| **US64** | Servicio de autenticación | Como Developer, deseo disponer de servicios RESTful de autenticación para controlar el acceso a los recursos protegidos de FixCore. | **Escenario 1:** Dado un request con credenciales válidas, cuando el API procesa la solicitud, entonces devuelve una respuesta exitosa con la información necesaria para identificar la sesión.<br><br>**Escenario 2:** Dado un request con credenciales incorrectas, cuando el API procesa la solicitud, entonces responde indicando que el acceso no está autorizado. | EP09 |
-| **US65** | Servicio de plantas y máquinas | Como Developer, deseo disponer de endpoints para administrar plantas y máquinas para que la Web Application pueda gestionar los activos de FixCore. | **Escenario 1:** Dado un request válido para registrar un recurso, cuando el API procesa la solicitud, entonces el recurso queda creado y devuelve una respuesta exitosa.<br><br>**Escenario 2:** Dado un request para consultar un recurso existente, cuando el API procesa la solicitud, entonces devuelve la información correspondiente. | EP09 |
-| **US66** | Servicio de mantenimiento preventivo | Como Developer, deseo disponer de endpoints para gestionar mantenimientos preventivos para permitir su programación y seguimiento desde la Web Application. | **Escenario 1:** Dado un request válido para crear un mantenimiento, cuando el API procesa la solicitud, entonces registra la actividad y devuelve una respuesta exitosa.<br><br>**Escenario 2:** Dado un request para consultar mantenimientos, cuando el API procesa la solicitud, entonces devuelve los registros que corresponden a los parámetros indicados. | EP09 |
-| **US67** | Servicio de fallas y órdenes de trabajo | Como Developer, deseo disponer de endpoints para gestionar Fallas y Órdenes de Trabajo para soportar los procesos de mantenimiento correctivo y preventivo. | **Escenario 1:** Dado un request válido para registrar una Falla u Orden de Trabajo, cuando el API procesa la solicitud, entonces crea el recurso correspondiente.<br><br>**Escenario 2:** Dado un identificador inexistente, cuando se solicita el recurso, entonces el API responde indicando que no fue encontrado. | EP09 |
-| **US68** | Servicio de inventario | Como Developer, deseo disponer de endpoints para gestionar repuestos y existencias para mantener actualizado el Inventario de FixCore. | **Escenario 1:** Dado un request válido para consultar un repuesto, cuando el API procesa la solicitud, entonces devuelve su información y stock disponible.<br><br>**Escenario 2:** Dado un request válido que modifica las existencias, cuando el API procesa la solicitud, entonces actualiza el stock y registra el movimiento correspondiente. | EP09 |
-| **US69** | Servicio de métricas y reportes | Como Developer, deseo disponer de endpoints para consultar KPIs de mantenimiento y reportes para que la Web Application pueda presentar información de seguimiento. | **Escenario 1:** Dado un request con un periodo válido, cuando el API procesa la consulta, entonces devuelve las métricas calculadas con los registros disponibles.<br><br>**Escenario 2:** Dado un periodo sin información suficiente, cuando se realiza la consulta, entonces el API devuelve una respuesta indicando que no existen datos para calcular la métrica solicitada. | EP09 |
-| **US70** | Servicio de notificaciones externas | Como Developer, deseo integrar el API con un servicio externo de notificaciones para enviar alertas relacionadas con eventos importantes de mantenimiento. | **Escenario 1:** Dado que ocurre un evento configurado para notificación externa, cuando el API envía el request al servicio correspondiente, entonces registra el envío realizado correctamente.<br><br>**Escenario 2:** Dado que el servicio externo responde con un error, cuando se intenta enviar la notificación, entonces el API registra el fallo y conserva el evento que originó la alerta. | EP09 |
+| **US01** | Registrar planta | Como Jefe de Planta, deseo registrar una planta para organizar las máquinas que forman parte de sus operaciones. | **Escenario 1: Registro correcto de una planta.** Dado que el Jefe de Planta cuenta con la información requerida, cuando registra una nueva planta, entonces la planta queda almacenada y disponible para asociar máquinas.<br><br>**Escenario 2: Datos obligatorios incompletos.** Dado que falta información obligatoria, cuando intenta registrar la planta, entonces el registro no se completa y se indican los datos que deben ser corregidos. | EP01 |
+| **US02** | Editar información de una planta | Como Jefe de Planta, deseo actualizar la información de una planta para mantener sus datos correctos. | **Escenario 1: Actualización correcta.** Dado que la planta se encuentra registrada, cuando el Jefe de Planta modifica sus datos con información válida, entonces los cambios quedan guardados.<br><br>**Escenario 2: Información no válida.** Dado que alguno de los datos ingresados no cumple con las condiciones requeridas, cuando intenta guardar los cambios, entonces la información anterior se conserva y se indican los datos que deben corregirse. | EP01 |
+| **US03** | Registrar máquina | Como Jefe de Planta, deseo registrar una máquina para llevar un control de los activos que requieren mantenimiento. | **Escenario 1: Registro correcto de una máquina.** Dado que existe una planta registrada, cuando el Jefe de Planta registra una máquina con sus datos obligatorios, entonces la máquina queda registrada y asociada a la planta seleccionada.<br><br>**Escenario 2: Datos obligatorios incompletos.** Dado que falta información requerida, cuando intenta registrar la máquina, entonces el registro no se completa.<br><br>**Escenario 3: Código de máquina duplicado.** Dado que ya existe una máquina con el mismo código, cuando intenta registrar otra con ese código, entonces el sistema evita crear un registro duplicado. | EP01 |
+| **US04** | Editar información de una máquina | Como Jefe de Planta, deseo actualizar los datos de una máquina para mantener su información técnica al día. | **Escenario 1: Actualización correcta.** Dado que la máquina está registrada, cuando el Jefe de Planta modifica sus datos con información válida, entonces los cambios quedan guardados.<br><br>**Escenario 2: Información no válida.** Dado que los datos ingresados son incorrectos o incompletos, cuando intenta guardar los cambios, entonces la información anterior se conserva. | EP01 |
+| **US05** | Consultar ficha técnica de una máquina | Como Técnico, deseo consultar la ficha técnica de una máquina para conocer sus características antes de realizar un mantenimiento. | **Escenario 1: Consulta de una máquina existente.** Dado que la máquina se encuentra registrada, cuando el Técnico consulta su ficha técnica, entonces visualiza la información disponible como fabricante, modelo, número de serie y demás características registradas.<br><br>**Escenario 2: Máquina inexistente.** Dado que la máquina solicitada no existe, cuando intenta consultar su ficha técnica, entonces se informa que el activo no fue encontrado. | EP01 |
+| **US06** | Asociar manual técnico a una máquina | Como Jefe de Planta, deseo asociar manuales a una máquina para mantener su documentación técnica centralizada. | **Escenario 1: Asociación correcta de un manual.** Dado que la máquina está registrada y el documento cumple con las condiciones permitidas, cuando el Jefe de Planta agrega el manual, entonces este queda asociado a la máquina.<br><br>**Escenario 2: Documento no permitido.** Dado que el documento no cumple con las condiciones establecidas, cuando intenta asociarlo, entonces el manual no queda registrado y se informa el motivo. | EP01 |
+| **US07** | Consultar manuales de una máquina | Como Técnico, deseo consultar los manuales de una máquina para tener información de apoyo durante el mantenimiento. | **Escenario 1: Máquina con manuales registrados.** Dado que la máquina tiene documentos asociados, cuando el Técnico consulta sus manuales, entonces puede visualizar los documentos disponibles.<br><br>**Escenario 2: Máquina sin manuales.** Dado que la máquina no tiene documentos asociados, cuando realiza la consulta, entonces se informa que todavía no existen manuales registrados. | EP01 |
+| **US08** | Consultar estado de una máquina | Como Jefe de Planta, deseo conocer el estado de una máquina para saber si está operativa, en mantenimiento o presenta una falla. | **Escenario 1: Consulta del estado actual.** Dado que la máquina se encuentra registrada, cuando el Jefe de Planta consulta su información, entonces visualiza su estado actual.<br><br>**Escenario 2: Estado actualizado.** Dado que la máquina presenta un cambio relacionado con una falla o mantenimiento, cuando vuelve a consultar su información, entonces visualiza el nuevo estado registrado. | EP01 |
+| **US09** | Consultar historial de una máquina | Como Jefe de Planta, deseo revisar el historial de una máquina para conocer sus fallas y mantenimientos anteriores. | **Escenario 1: Máquina con historial.** Dado que existen actividades anteriores registradas para la máquina, cuando el Jefe de Planta consulta su historial, entonces obtiene los eventos registrados en orden cronológico.<br><br>**Escenario 2: Máquina sin historial.** Dado que la máquina todavía no tiene actividades registradas, cuando consulta su historial, entonces se informa que aún no existen registros. | EP01 |
+| **US10** | Programar mantenimiento preventivo | Como Jefe de Planta, deseo programar un mantenimiento preventivo para reducir el riesgo de fallas inesperadas en una máquina. | **Escenario 1: Programación correcta.** Dado que la máquina se encuentra registrada, cuando el Jefe de Planta programa un mantenimiento con la información requerida, entonces la actividad queda registrada para la fecha indicada.<br><br>**Escenario 2: Información incompleta.** Dado que faltan datos obligatorios, cuando intenta programar el mantenimiento, entonces la actividad no queda registrada. | EP02 |
+| **US11** | Definir frecuencia de mantenimiento | Como Jefe de Planta, deseo establecer cada cuánto debe realizarse un mantenimiento para mantener una planificación preventiva constante. | **Escenario 1: Frecuencia válida.** Dado que existe un plan de mantenimiento preventivo, cuando el Jefe de Planta establece una frecuencia válida, entonces esta queda registrada para calcular las siguientes fechas de mantenimiento.<br><br>**Escenario 2: Frecuencia no válida.** Dado que la frecuencia ingresada no cumple con las condiciones permitidas, cuando intenta guardarla, entonces la programación anterior se mantiene sin cambios. | EP02 |
+| **US12** | Editar mantenimiento programado | Como Jefe de Planta, deseo modificar los datos de un mantenimiento pendiente para corregir cambios en su planificación. | **Escenario 1: Modificación de mantenimiento pendiente.** Dado que el mantenimiento todavía se encuentra pendiente, cuando el Jefe de Planta modifica información válida, entonces los cambios quedan registrados.<br><br>**Escenario 2: Mantenimiento completado.** Dado que el mantenimiento ya fue completado, cuando intenta modificar su planificación, entonces el registro realizado se conserva sin cambios. | EP02 |
+| **US13** | Reprogramar mantenimiento | Como Jefe de Planta, deseo cambiar la fecha de un mantenimiento para adaptarlo a cambios en las operaciones de la planta. | **Escenario 1: Reprogramación correcta.** Dado que el mantenimiento se encuentra pendiente, cuando el Jefe de Planta selecciona una nueva fecha válida, entonces el mantenimiento queda reprogramado.<br><br>**Escenario 2: Fecha no válida.** Dado que la nueva fecha no cumple con las condiciones de programación, cuando intenta realizar el cambio, entonces se conserva la fecha anterior. | EP02 |
+| **US14** | Consultar calendario de mantenimientos | Como Jefe de Planta, deseo consultar los mantenimientos programados para organizar las actividades del equipo técnico. | **Escenario 1: Periodo con mantenimientos.** Dado que existen mantenimientos programados, cuando el Jefe de Planta consulta un periodo determinado, entonces visualiza las actividades correspondientes a dicho periodo.<br><br>**Escenario 2: Periodo sin mantenimientos.** Dado que no existen actividades programadas para el periodo consultado, cuando realiza la búsqueda, entonces se informa que no existen mantenimientos registrados. | EP02 |
+| **US15** | Consultar mantenimientos por planta | Como Coordinador de Operaciones, deseo consultar los mantenimientos de cada planta atendida para organizar el trabajo de los técnicos entre diferentes clientes. | **Escenario 1: Consulta de una planta con mantenimientos.** Dado que el Coordinador de Operaciones tiene acceso a varias plantas, cuando selecciona una de ellas, entonces visualiza únicamente los mantenimientos correspondientes a esa planta.<br><br>**Escenario 2: Planta sin mantenimientos registrados.** Dado que la planta seleccionada no tiene actividades programadas, cuando realiza la consulta, entonces se informa que no existen mantenimientos registrados. | EP02 |
+| **US16** | Consultar próximos mantenimientos | Como Técnico, deseo conocer los próximos mantenimientos que debo realizar para prepararme antes de iniciar mis actividades. | **Escenario 1: Técnico con mantenimientos próximos.** Dado que existen mantenimientos próximos asignados al Técnico, cuando consulta sus actividades, entonces visualiza las tareas pendientes ordenadas por fecha.<br><br>**Escenario 2: Técnico sin mantenimientos próximos.** Dado que no tiene actividades próximas asignadas, cuando realiza la consulta, entonces se informa que no existen mantenimientos pendientes. | EP02 |
+| **US17** | Identificar mantenimientos vencidos | Como Jefe de Planta, deseo identificar los mantenimientos que no fueron realizados a tiempo para tomar acciones antes de que ocurra una falla. | **Escenario 1: Mantenimiento vencido.** Dado que la fecha programada ya pasó y el mantenimiento continúa pendiente, cuando el Jefe de Planta consulta las actividades, entonces el mantenimiento aparece identificado como vencido.<br><br>**Escenario 2: Mantenimiento realizado a tiempo.** Dado que el mantenimiento fue completado dentro de la fecha prevista, cuando consulta su estado, entonces no aparece como vencido. | EP02 |
+| **US18** | Suspender o reactivar mantenimiento preventivo | Como Jefe de Planta, deseo suspender o reactivar un plan preventivo para adaptarlo al estado actual de una máquina. | **Escenario 1: Suspender un plan activo.** Dado que el plan preventivo se encuentra activo, cuando el Jefe de Planta decide suspenderlo, entonces el plan cambia a estado suspendido y deja de generar nuevas programaciones mientras permanezca en ese estado.<br><br>**Escenario 2: Reactivar un plan suspendido.** Dado que el plan preventivo se encuentra suspendido, cuando el Jefe de Planta lo reactiva, entonces vuelve a considerar su programación establecida. | EP02 |
+| **US19** | Reportar falla de una máquina | Como Técnico, deseo reportar rápidamente una falla para que pueda ser atendida y no se pierda entre otros medios de comunicación. | **Escenario 1: Registro correcto de una falla.** Dado que la máquina se encuentra registrada, cuando el Técnico reporta una falla con la información requerida, entonces la incidencia queda registrada y disponible para su atención.<br><br>**Escenario 2: Información incompleta.** Dado que falta información obligatoria, cuando intenta registrar la falla, entonces la incidencia no se crea y se indican los datos faltantes. | EP03 |
+| **US20** | Asignar prioridad a una falla | Como Jefe de Planta, deseo indicar la prioridad de una falla para atender primero las incidencias que generan mayor impacto en la producción. | **Escenario 1: Asignación de prioridad.** Dado que existe una falla registrada, cuando el Jefe de Planta selecciona una prioridad válida, entonces esta queda asociada a la incidencia.<br><br>**Escenario 2: Prioridad no válida.** Dado que el valor indicado no corresponde a una prioridad permitida, cuando intenta guardarlo, entonces la prioridad de la falla no se modifica. | EP03 |
+| **US21** | Consultar fallas pendientes | Como Jefe de Planta, deseo consultar las fallas pendientes para conocer qué máquinas requieren atención. | **Escenario 1: Existen fallas pendientes.** Dado que existen incidencias que todavía requieren atención, cuando el Jefe de Planta consulta las fallas pendientes, entonces visualiza dichas incidencias.<br><br>**Escenario 2: No existen fallas pendientes.** Dado que todas las incidencias fueron atendidas, cuando realiza la consulta, entonces se informa que no existen fallas pendientes. | EP03 |
+| **US22** | Consultar detalle de una falla | Como Jefe de Planta, deseo revisar la información de una falla para entender qué ocurrió antes de coordinar su atención. | **Escenario 1: Consulta de una falla existente.** Dado que la incidencia se encuentra registrada, cuando el Jefe de Planta consulta su detalle, entonces visualiza la máquina afectada, descripción, fecha, prioridad y estado.<br><br>**Escenario 2: Falla inexistente.** Dado que la incidencia solicitada no existe, cuando intenta consultarla, entonces se informa que no fue encontrada. | EP03 |
+| **US23** | Generar orden correctiva desde una falla | Como Jefe de Planta, deseo crear una Orden de Trabajo a partir de una falla para iniciar formalmente su reparación. | **Escenario 1: Generación correcta de una orden.** Dado que existe una falla pendiente sin una Orden de Trabajo activa, cuando el Jefe de Planta genera una orden correctiva, entonces la orden queda registrada y asociada con la falla y la máquina correspondiente.<br><br>**Escenario 2: Falla con una orden activa.** Dado que la falla ya tiene una Orden de Trabajo activa, cuando intenta generar otra, entonces no se crea una orden duplicada. | EP03 |
+| **US24** | Generar orden de mantenimiento preventivo | Como Jefe de Planta, deseo generar una Orden de Trabajo para un mantenimiento programado para organizar su ejecución. | **Escenario 1: Generación correcta de una orden preventiva.** Dado que existe un mantenimiento preventivo pendiente sin una orden asociada, cuando el Jefe de Planta genera la Orden de Trabajo, entonces ambos registros quedan relacionados.<br><br>**Escenario 2: Mantenimiento con orden existente.** Dado que el mantenimiento ya tiene una Orden de Trabajo activa, cuando intenta generar otra, entonces no se crea una orden duplicada. | EP03 |
+| **US25** | Asignar técnico a una orden | Como Jefe de Planta, deseo asignar una Orden de Trabajo a un Técnico para definir quién será responsable del mantenimiento. | **Escenario 1: Técnico disponible.** Dado que la Orden de Trabajo se encuentra pendiente y existe un Técnico disponible, cuando el Jefe de Planta realiza la asignación, entonces el Técnico queda registrado como responsable de la orden.<br><br>**Escenario 2: Técnico no disponible.** Dado que el Técnico seleccionado no se encuentra disponible para la actividad, cuando intenta asignarlo, entonces la asignación no se completa. | EP03 |
+| **US26** | Reasignar orden de trabajo | Como Jefe de Planta, deseo cambiar el Técnico responsable de una orden para responder a cambios de disponibilidad. | **Escenario 1: Reasignación de una orden activa.** Dado que la orden todavía no ha sido completada, cuando el Jefe de Planta selecciona otro Técnico disponible, entonces el responsable de la orden queda actualizado.<br><br>**Escenario 2: Orden completada.** Dado que la Orden de Trabajo ya fue completada, cuando intenta reasignarla, entonces el responsable registrado se conserva. | EP03 |
+| **US27** | Consultar órdenes asignadas | Como Técnico, deseo consultar mis Órdenes de Trabajo para saber qué actividades debo atender durante mi turno. | **Escenario 1: Técnico con órdenes asignadas.** Dado que existen Órdenes de Trabajo asignadas al Técnico, cuando consulta sus actividades, entonces visualiza únicamente las órdenes que le corresponden.<br><br>**Escenario 2: Técnico sin órdenes pendientes.** Dado que no tiene Órdenes de Trabajo pendientes, cuando realiza la consulta, entonces se informa que no existen actividades asignadas. | EP03 |
+| **US28** | Iniciar orden de trabajo | Como Técnico, deseo indicar que he comenzado una Orden de Trabajo para registrar desde cuándo se está atendiendo el mantenimiento. | **Escenario 1: Inicio correcto de una orden.** Dado que la Orden de Trabajo se encuentra pendiente y está asignada al Técnico, cuando este inicia la actividad, entonces la orden cambia a estado en progreso y queda registrada la hora de inicio.<br><br>**Escenario 2: Orden asignada a otro Técnico.** Dado que la orden no está asignada al Técnico que intenta iniciarla, cuando realiza la acción, entonces el estado de la orden no cambia. | EP03 |
+| **US29** | Registrar trabajo realizado | Como Técnico, deseo registrar lo realizado durante el mantenimiento para mantener una evidencia clara del trabajo efectuado. | **Escenario 1: Registro correcto de actividades.** Dado que la Orden de Trabajo se encuentra en progreso, cuando el Técnico registra las actividades realizadas con la información requerida, entonces estas quedan asociadas a la orden.<br><br>**Escenario 2: Información incompleta.** Dado que falta información requerida sobre el trabajo realizado, cuando intenta guardar el registro, entonces la actividad no queda registrada. | EP03 |
+| **US30** | Cerrar orden de trabajo | Como Técnico, deseo cerrar una Orden de Trabajo cuando termino el mantenimiento para dejar registrada su finalización. | **Escenario 1: Cierre correcto de una orden.** Dado que la Orden de Trabajo está en progreso y contiene la información requerida sobre el mantenimiento realizado, cuando el Técnico la finaliza, entonces cambia a estado completado y queda registrada la fecha de finalización.<br><br>**Escenario 2: Información pendiente.** Dado que faltan datos necesarios del mantenimiento, cuando intenta cerrar la orden, entonces esta permanece en progreso y se indican los datos pendientes. | EP03 |
+| **US31** | Registrar repuesto | Como Jefe de Planta, deseo registrar un repuesto para controlar los materiales disponibles para los mantenimientos. | **Escenario 1: Registro correcto de un repuesto.** Dado que el Jefe de Planta cuenta con la información requerida, cuando registra un nuevo repuesto, entonces este queda almacenado en el inventario.<br><br>**Escenario 2: Información incompleta.** Dado que falta información obligatoria, cuando intenta registrar el repuesto, entonces el registro no se completa.<br><br>**Escenario 3: Código duplicado.** Dado que ya existe un repuesto con el mismo código, cuando intenta registrar otro con dicho código, entonces no se crea un registro duplicado. | EP04 |
+| **US32** | Editar información de un repuesto | Como Jefe de Planta, deseo actualizar los datos de un repuesto para mantener correcta la información del inventario. | **Escenario 1: Actualización correcta.** Dado que el repuesto se encuentra registrado, cuando el Jefe de Planta modifica sus datos con información válida, entonces los cambios quedan guardados.<br><br>**Escenario 2: Información no válida.** Dado que los datos ingresados no cumplen con las condiciones requeridas, cuando intenta guardarlos, entonces se conserva la información anterior. | EP04 |
+| **US33** | Consultar stock de repuestos | Como Técnico, deseo consultar la cantidad disponible de un repuesto para saber si puedo utilizarlo durante un mantenimiento. | **Escenario 1: Repuesto con existencias.** Dado que el repuesto está registrado y cuenta con unidades disponibles, cuando el Técnico consulta su stock, entonces visualiza la cantidad existente.<br><br>**Escenario 2: Repuesto agotado.** Dado que el repuesto no tiene unidades disponibles, cuando consulta su stock, entonces se indica que se encuentra agotado. | EP04 |
+| **US34** | Buscar repuestos | Como Técnico, deseo buscar un repuesto para encontrar rápidamente el material que necesito durante una reparación. | **Escenario 1: Búsqueda con resultados.** Dado que existen repuestos que coinciden con los criterios ingresados, cuando el Técnico realiza la búsqueda, entonces obtiene los resultados correspondientes.<br><br>**Escenario 2: Búsqueda sin resultados.** Dado que ningún repuesto coincide con los criterios ingresados, cuando realiza la búsqueda, entonces se informa que no existen resultados. | EP04 |
+| **US35** | Definir stock mínimo | Como Jefe de Planta, deseo establecer una cantidad mínima para cada repuesto para saber cuándo es necesario reponerlo. | **Escenario 1: Stock mínimo válido.** Dado que el repuesto está registrado, cuando el Jefe de Planta establece una cantidad mínima válida, entonces el límite queda almacenado.<br><br>**Escenario 2: Cantidad no válida.** Dado que la cantidad indicada no es válida, cuando intenta guardarla, entonces el stock mínimo anterior se mantiene sin cambios. | EP04 |
+| **US36** | Registrar ingreso de repuestos | Como Jefe de Planta, deseo registrar el ingreso de nuevas unidades para mantener actualizado el inventario. | **Escenario 1: Registro de un ingreso válido.** Dado que el repuesto se encuentra registrado, cuando el Jefe de Planta registra una cantidad mayor a cero, entonces el stock aumenta en la cantidad indicada y se registra el movimiento.<br><br>**Escenario 2: Cantidad no válida.** Dado que la cantidad ingresada es igual o menor a cero, cuando intenta registrar el ingreso, entonces las existencias permanecen sin cambios. | EP04 |
+| **US37** | Ajustar existencias de inventario | Como Jefe de Planta, deseo corregir las existencias registradas para solucionar diferencias encontradas en el inventario real. | **Escenario 1: Ajuste correcto de existencias.** Dado que se ha comprobado una diferencia entre el inventario registrado y el inventario real, cuando el Jefe de Planta registra una nueva cantidad e indica el motivo del ajuste, entonces las existencias quedan actualizadas.<br><br>**Escenario 2: Ajuste sin información requerida.** Dado que no se indica una cantidad válida o el motivo del ajuste, cuando intenta guardar el cambio, entonces las existencias permanecen sin modificaciones. | EP04 |
+| **US38** | Registrar repuestos utilizados | Como Técnico, deseo registrar los repuestos utilizados en una Orden de Trabajo para dejar constancia de los materiales consumidos. | **Escenario 1: Registro con stock disponible.** Dado que la Orden de Trabajo se encuentra en progreso y existe stock suficiente, cuando el Técnico registra el repuesto y la cantidad utilizada, entonces el consumo queda asociado a la orden.<br><br>**Escenario 2: Stock insuficiente.** Dado que la cantidad indicada supera las existencias disponibles, cuando intenta registrar el consumo, entonces la operación no se completa y se informa que no existe stock suficiente. | EP04 |
+| **US39** | Actualizar stock al completar una orden | Como Jefe de Planta, deseo que el inventario considere automáticamente los repuestos utilizados en las Órdenes de Trabajo para mantener actualizado el stock disponible. | **Escenario 1: Orden con repuestos utilizados.** Dado que una Orden de Trabajo contiene repuestos registrados como utilizados, cuando la orden se completa, entonces las cantidades correspondientes son descontadas del inventario.<br><br>**Escenario 2: Orden sin repuestos utilizados.** Dado que una Orden de Trabajo no tiene repuestos registrados, cuando se completa, entonces las existencias del inventario permanecen sin cambios. | EP04 |
+| **US40** | Consultar historial de inventario | Como Jefe de Planta, deseo consultar los movimientos de los repuestos para conocer cómo han cambiado sus existencias. | **Escenario 1: Repuesto con movimientos registrados.** Dado que existen movimientos de inventario, cuando el Jefe de Planta consulta el historial de un repuesto, entonces visualiza los ingresos, consumos y ajustes registrados.<br><br>**Escenario 2: Repuesto sin movimientos.** Dado que no existen movimientos asociados al repuesto, cuando consulta su historial, entonces se informa que todavía no tiene actividad registrada. | EP04 |
+| **US41** | Consultar resumen de operaciones | Como Jefe de Planta, deseo consultar un resumen general del mantenimiento para conocer rápidamente la situación de las máquinas de la planta. | **Escenario 1: Planta con información operativa.** Dado que existen registros de máquinas, fallas, mantenimientos y Órdenes de Trabajo, cuando el Jefe de Planta consulta el resumen de operaciones, entonces visualiza la información consolidada disponible.<br><br>**Escenario 2: Planta sin información suficiente.** Dado que todavía no existen registros suficientes, cuando consulta el resumen, entonces se muestran únicamente los datos disponibles sin generar información inexistente. | EP05 |
+| **US42** | Consultar tiempo muerto de las máquinas | Como Jefe de Planta, deseo conocer el Tiempo Muerto de las máquinas para identificar qué equipos generan mayores interrupciones en la producción. | **Escenario 1: Máquina con periodos de inactividad.** Dado que existen periodos de inactividad registrados, cuando el Jefe de Planta consulta el Tiempo Muerto de la máquina, entonces visualiza el tiempo acumulado correspondiente al periodo seleccionado.<br><br>**Escenario 2: Máquina sin inactividad registrada.** Dado que la máquina no registra periodos de inactividad, cuando consulta el indicador, entonces el Tiempo Muerto mostrado es cero. | EP05 |
+| **US43** | Consultar MTTR | Como Jefe de Planta, deseo consultar el tiempo medio de reparación para evaluar qué tan rápido son atendidas las fallas. | **Escenario 1: Existen reparaciones completadas.** Dado que existen fallas con tiempos de reparación registrados, cuando el Jefe de Planta consulta el MTTR de un periodo, entonces visualiza el promedio calculado a partir de dichas reparaciones.<br><br>**Escenario 2: No existen datos suficientes.** Dado que no existen reparaciones completadas durante el periodo consultado, cuando solicita el MTTR, entonces se informa que todavía no existen datos suficientes para calcularlo. | EP05 |
+| **US44** | Consultar cumplimiento preventivo | Como Jefe de Planta, deseo conocer el nivel de cumplimiento de los mantenimientos preventivos para saber si las revisiones se realizan dentro de las fechas planificadas. | **Escenario 1: Periodo con mantenimientos.** Dado que existen mantenimientos preventivos programados y completados, cuando el Jefe de Planta consulta el cumplimiento de un periodo, entonces visualiza el porcentaje correspondiente.<br><br>**Escenario 2: Periodo sin mantenimientos.** Dado que no existen mantenimientos programados para el periodo seleccionado, cuando realiza la consulta, entonces se informa que no existen datos para calcular el indicador. | EP05 |
+| **US45** | Consultar estado de las órdenes de trabajo | Como Jefe de Planta, deseo conocer cuántas Órdenes de Trabajo están pendientes, en progreso o completadas para supervisar las actividades de mantenimiento. | **Escenario 1: Existen Órdenes de Trabajo.** Dado que existen órdenes registradas, cuando el Jefe de Planta consulta su estado general, entonces visualiza las cantidades agrupadas por estado.<br><br>**Escenario 2: No existen Órdenes de Trabajo.** Dado que todavía no existen órdenes registradas, cuando realiza la consulta, entonces se informa que no existen datos disponibles. | EP05 |
+| **US46** | Consultar actividad de técnicos | Como Coordinador de Operaciones, deseo consultar las Órdenes de Trabajo realizadas por los técnicos para conocer su actividad y organizar mejor los recursos de la empresa. | **Escenario 1: Técnico con actividad registrada.** Dado que el Técnico tiene Órdenes de Trabajo realizadas durante el periodo seleccionado, cuando el Coordinador de Operaciones consulta su actividad, entonces visualiza los trabajos correspondientes.<br><br>**Escenario 2: Técnico sin actividad registrada.** Dado que el Técnico no registra Órdenes de Trabajo durante el periodo seleccionado, cuando se realiza la consulta, entonces se informa que no existen registros. | EP05 |
+| **US47** | Generar reporte por cliente | Como Coordinador de Operaciones, deseo generar un reporte de mantenimiento para cada cliente para entregar información clara sobre sus máquinas y servicios realizados. | **Escenario 1: Cliente con información registrada.** Dado que existen registros de mantenimiento del cliente durante el periodo seleccionado, cuando el Coordinador de Operaciones genera el reporte, entonces obtiene información relacionada con sus máquinas, fallas, mantenimientos y Órdenes de Trabajo.<br><br>**Escenario 2: Periodo sin información.** Dado que no existen registros del cliente durante el periodo seleccionado, cuando intenta generar el reporte, entonces se informa que no existen datos disponibles. | EP05 |
+| **US48** | Recibir alerta de mantenimiento próximo | Como Jefe de Planta, deseo recibir una alerta antes de una fecha de mantenimiento para evitar que una revisión preventiva sea olvidada. | **Escenario 1: Mantenimiento próximo.** Dado que existe un mantenimiento programado próximo a su fecha de ejecución, cuando se alcanza el periodo configurado para el aviso, entonces se genera una alerta para los responsables definidos.<br><br>**Escenario 2: Mantenimiento ya completado.** Dado que el mantenimiento fue completado antes de la fecha del aviso, cuando se alcanza el periodo configurado, entonces no se genera una alerta pendiente. | EP06 |
+| **US49** | Recibir alerta de falla crítica | Como Jefe de Planta, deseo recibir una alerta cuando se registra una falla crítica para coordinar su atención lo antes posible. | **Escenario 1: Registro de una falla crítica.** Dado que una falla es registrada con prioridad crítica, cuando el registro queda confirmado, entonces se genera una alerta para los responsables configurados.<br><br>**Escenario 2: Falla con otra prioridad.** Dado que una falla tiene una prioridad diferente a crítica, cuando queda registrada, entonces no se genera una alerta de falla crítica. | EP06 |
+| **US50** | Recibir notificación de orden asignada | Como Técnico, deseo recibir una notificación cuando se me asigna una Orden de Trabajo para conocer que tengo una nueva actividad pendiente. | **Escenario 1: Nueva asignación.** Dado que una Orden de Trabajo es asignada al Técnico, cuando la asignación queda registrada, entonces se genera una notificación para dicho Técnico.<br><br>**Escenario 2: Reasignación de una orden.** Dado que una orden es reasignada a otro Técnico, cuando se confirma el cambio, entonces el nuevo responsable recibe la notificación correspondiente. | EP06 |
+| **US51** | Recibir alerta de stock bajo | Como Jefe de Planta, deseo recibir una alerta cuando un repuesto alcanza su stock mínimo para poder reponerlo antes de que se agote. | **Escenario 1: Stock igual o inferior al mínimo.** Dado que el stock de un repuesto alcanza o baja del mínimo establecido, cuando se actualizan las existencias, entonces se genera una alerta de stock bajo.<br><br>**Escenario 2: Stock superior al mínimo.** Dado que las existencias permanecen por encima del nivel mínimo, cuando se actualiza el inventario, entonces no se genera una alerta de stock bajo. | EP06 |
+| **US52** | Configurar destinatarios de alertas | Como Jefe de Planta, deseo definir qué responsables deben recibir cada tipo de alerta para que la información llegue a las personas adecuadas. | **Escenario 1: Agregar destinatario.** Dado que existe un usuario autorizado, cuando el Jefe de Planta lo configura como destinatario de un tipo de alerta, entonces queda asociado a dicha notificación.<br><br>**Escenario 2: Retirar destinatario.** Dado que un usuario se encuentra configurado como destinatario, cuando el Jefe de Planta lo retira de la configuración, entonces deja de recibir futuras alertas de ese tipo. | EP06 |
+| **US53** | Recibir alertas mediante WhatsApp | Como Jefe de Planta, deseo recibir las alertas importantes mediante WhatsApp para enterarme de situaciones urgentes aunque no esté usando FixCore. | **Escenario 1: Envío correcto de una alerta.** Dado que ocurre un evento configurado para enviar una notificación externa y existe un destinatario definido, cuando FixCore genera la alerta, entonces el mensaje es enviado mediante el servicio de WhatsApp integrado.<br><br>**Escenario 2: Servicio de WhatsApp no disponible.** Dado que el servicio externo presenta un error, cuando FixCore intenta enviar la alerta, entonces el fallo queda registrado sin perder la información del evento que originó la notificación. | EP06 |
+| **US54** | Iniciar sesión | Como usuario registrado, deseo iniciar sesión en FixCore para acceder a las funciones correspondientes a mi cuenta. | **Escenario 1: Credenciales correctas.** Dado que el usuario tiene una cuenta activa, cuando ingresa credenciales correctas, entonces puede acceder a FixCore y visualizar las funciones correspondientes a su perfil.<br><br>**Escenario 2: Credenciales incorrectas.** Dado que las credenciales ingresadas no son correctas, cuando intenta iniciar sesión, entonces el acceso es rechazado.<br><br>**Escenario 3: Cuenta inactiva.** Dado que la cuenta del usuario está inactiva, cuando intenta iniciar sesión, entonces no puede acceder al sistema. | EP07 |
+| **US55** | Recuperar acceso a la cuenta | Como usuario registrado, deseo recuperar el acceso cuando olvido mi contraseña para volver a utilizar FixCore. | **Escenario 1: Cuenta registrada.** Dado que el usuario tiene una cuenta registrada, cuando solicita recuperar su acceso utilizando los datos asociados a la cuenta, entonces se inicia el proceso de recuperación correspondiente.<br><br>**Escenario 2: Datos sin una cuenta asociada.** Dado que los datos ingresados no corresponden a una cuenta registrada, cuando se solicita la recuperación, entonces ninguna cuenta es modificada ni se revela información privada sobre los usuarios registrados. | EP07 |
+| **US56** | Registrar técnico | Como Jefe de Planta, deseo registrar Técnicos para poder asignarles las actividades de mantenimiento de la empresa. | **Escenario 1: Registro correcto.** Dado que el Jefe de Planta proporciona la información requerida del Técnico, cuando realiza el registro, entonces el Técnico queda disponible para ser asignado a actividades.<br><br>**Escenario 2: Técnico ya registrado.** Dado que ya existe un usuario con los mismos datos de identificación, cuando intenta registrarlo nuevamente, entonces no se crea un registro duplicado. | EP07 |
+| **US57** | Editar información de un técnico | Como Jefe de Planta, deseo actualizar la información de un Técnico para mantener sus datos correctamente registrados. | **Escenario 1: Actualización correcta.** Dado que el Técnico se encuentra registrado, cuando el Jefe de Planta modifica sus datos con información válida, entonces los cambios quedan guardados.<br><br>**Escenario 2: Información no válida.** Dado que los datos ingresados no cumplen con las condiciones requeridas, cuando intenta actualizar la información, entonces se conservan los datos anteriores. | EP07 |
+| **US58** | Asignar acceso según responsabilidad | Como Coordinador de Operaciones, deseo definir a qué plantas puede acceder cada usuario para organizar el trabajo de los técnicos que atienden diferentes clientes. | **Escenario 1: Asignación de acceso.** Dado que el usuario se encuentra registrado, cuando el Coordinador de Operaciones le asigna acceso a una planta, entonces puede consultar la información correspondiente a dicha planta.<br><br>**Escenario 2: Acceso no autorizado.** Dado que un usuario no tiene acceso asignado a una planta determinada, cuando intenta consultar su información, entonces la solicitud es rechazada. | EP07 |
+| **US59** | Conocer FixCore | Como Visitante, deseo conocer qué es FixCore para entender qué problema de mantenimiento industrial busca resolver. | **Escenario 1: Consulta de la presentación principal.** Dado que el Visitante accede a la Landing Page, cuando visualiza la sección principal, entonces puede identificar el propósito general de FixCore y el problema que busca resolver.<br><br>**Escenario 2: Consulta de la propuesta de valor.** Dado que el Visitante continúa recorriendo la Landing Page, cuando revisa la información del producto, entonces puede conocer de manera general cómo FixCore apoya la gestión del mantenimiento industrial. | EP08 |
+| **US60** | Conocer funcionalidades de FixCore | Como Visitante, deseo conocer las principales funcionalidades de FixCore para saber cómo puede ayudar a organizar el mantenimiento de una empresa. | **Escenario 1: Consulta de funcionalidades.** Dado que el Visitante se encuentra en la Landing Page, cuando accede a la sección de funcionalidades, entonces puede conocer las principales características ofrecidas por FixCore.<br><br>**Escenario 2: Consulta del beneficio de una funcionalidad.** Dado que una funcionalidad se encuentra presentada en la Landing Page, cuando el Visitante revisa su información, entonces puede comprender qué problema o necesidad busca atender. | EP08 |
+| **US61** | Conocer beneficios según el segmento | Como Visitante, deseo conocer cómo FixCore puede ayudar a mi tipo de empresa o actividad para determinar si la solución responde a mis necesidades. | **Escenario 1: Pyme de manufactura o producción.** Dado que el Visitante pertenece a una pyme manufacturera, cuando consulta la información dirigida a su segmento, entonces encuentra beneficios relacionados con el control de máquinas, fallas y mantenimientos.<br><br>**Escenario 2: Firma consultora o contratista.** Dado que el Visitante pertenece a una firma contratista, cuando consulta la información dirigida a su segmento, entonces encuentra beneficios relacionados con la coordinación de técnicos, clientes y plantas.<br><br>**Escenario 3: Técnico u operario.** Dado que el Visitante realiza actividades técnicas de mantenimiento, cuando consulta la información dirigida a su segmento, entonces encuentra beneficios relacionados con el acceso a tareas, información de máquinas y repuestos desde el lugar de trabajo. | EP08 |
+| **US62** | Consultar planes de FixCore | Como Visitante, deseo conocer los planes disponibles para evaluar qué alternativa se adapta mejor a mi empresa. | **Escenario 1: Consulta de planes disponibles.** Dado que existen diferentes planes de FixCore, cuando el Visitante accede a la sección de precios, entonces puede comparar sus características principales.<br><br>**Escenario 2: Consulta del Plan Freemium.** Dado que existe una opción gratuita, cuando el Visitante revisa sus condiciones, entonces puede conocer las funcionalidades y límites incluidos. | EP08 |
+| **US63** | Consultar información adicional de FixCore | Como Visitante, deseo consultar información adicional sobre FixCore para resolver dudas y conocer las condiciones relacionadas con el servicio. | **Escenario 1: Consulta de preguntas frecuentes.** Dado que el Visitante se encuentra en la Landing Page, cuando accede a la sección de preguntas frecuentes y selecciona una pregunta, entonces visualiza la respuesta correspondiente.<br><br>**Escenario 2: Consulta de términos y condiciones.** Dado que el Visitante se encuentra en la Landing Page, cuando selecciona el enlace de términos y condiciones, entonces puede acceder a la información legal correspondiente. | EP08 |
+| **US64** | Acceder a la Web Application | Como Visitante, deseo acceder a la Web Application desde la Landing Page para comenzar a utilizar FixCore después de conocer la propuesta y sus planes. | **Escenario 1: Acceso mediante el llamado a la acción.** Dado que el Visitante se encuentra en la Landing Page, cuando selecciona el botón principal para comenzar a utilizar FixCore, entonces es dirigido a la Web Application.<br><br>**Escenario 2: Acceso desde un plan.** Dado que el Visitante está revisando los planes disponibles, cuando selecciona la opción para comenzar con uno de ellos, entonces es dirigido al punto de acceso o registro correspondiente de la Web Application. | EP08 |
+
+**Technical Stories**
+
+Las siguientes Technical Stories representan capacidades técnicas necesarias para soportar las funcionalidades de la Web Application mediante la RESTful API de FixCore.
+
+| Story ID | Título | Descripción | Criterios de aceptación | Relacionado con |
+| :--- | :--- | :--- | :--- | :--- |
+| **TS01** | Servicio de autenticación | Como Developer, deseo disponer de servicios RESTful de autenticación para controlar el acceso a los recursos protegidos de FixCore. | **Escenario 1: Autenticación correcta.** Dado un request con credenciales válidas, cuando la API procesa la solicitud de autenticación, entonces responde correctamente con la información necesaria para identificar la sesión del usuario.<br><br>**Escenario 2: Credenciales incorrectas.** Dado un request con credenciales incorrectas, cuando la API procesa la solicitud, entonces responde indicando que el acceso no está autorizado.<br><br>**Escenario 3: Acceso a un recurso protegido sin autenticación.** Dado un request sin una sesión válida, cuando se intenta acceder a un recurso protegido, entonces la API rechaza la solicitud. | EP09 |
+| **TS02** | Servicio de plantas y máquinas | Como Developer, deseo disponer de endpoints para administrar plantas y máquinas para que la Web Application pueda gestionar los activos de FixCore. | **Escenario 1: Creación de un recurso.** Dado un request válido para registrar una planta o máquina, cuando la API procesa la solicitud, entonces el recurso queda creado y se devuelve una respuesta exitosa.<br><br>**Escenario 2: Consulta de un recurso existente.** Dado el identificador de una planta o máquina registrada, cuando la API procesa la consulta, entonces devuelve la información correspondiente.<br><br>**Escenario 3: Recurso inexistente.** Dado un identificador que no corresponde a un recurso registrado, cuando se realiza la consulta, entonces la API responde indicando que el recurso no fue encontrado. | EP09 |
+| **TS03** | Servicio de mantenimiento preventivo | Como Developer, deseo disponer de endpoints para gestionar mantenimientos preventivos para permitir su programación y seguimiento desde la Web Application. | **Escenario 1: Creación de un mantenimiento.** Dado un request válido con la información requerida, cuando la API procesa la solicitud, entonces el mantenimiento preventivo queda registrado.<br><br>**Escenario 2: Consulta de mantenimientos.** Dado un request con parámetros de consulta válidos, cuando la API procesa la solicitud, entonces devuelve los mantenimientos correspondientes.<br><br>**Escenario 3: Datos de programación no válidos.** Dado un request con información incompleta o no válida, cuando se intenta crear un mantenimiento, entonces la API rechaza la solicitud e informa el problema encontrado. | EP09 |
+| **TS04** | Servicio de fallas y órdenes de trabajo | Como Developer, deseo disponer de endpoints para gestionar Fallas y Órdenes de Trabajo para soportar los procesos de mantenimiento correctivo y preventivo. | **Escenario 1: Registro de una falla.** Dado un request válido con la información de una falla, cuando la API procesa la solicitud, entonces la falla queda registrada.<br><br>**Escenario 2: Creación de una Orden de Trabajo.** Dado un request válido asociado a una falla o mantenimiento preventivo, cuando la API procesa la solicitud, entonces la Orden de Trabajo queda registrada.<br><br>**Escenario 3: Recurso inexistente.** Dado un identificador que no corresponde a una falla u orden registrada, cuando se solicita el recurso, entonces la API responde indicando que no fue encontrado. | EP09 |
+| **TS05** | Servicio de inventario | Como Developer, deseo disponer de endpoints para gestionar repuestos y existencias para mantener actualizado el inventario de FixCore. | **Escenario 1: Consulta de un repuesto.** Dado un request válido para consultar un repuesto registrado, cuando la API procesa la solicitud, entonces devuelve su información y existencias disponibles.<br><br>**Escenario 2: Actualización de existencias.** Dado un request válido que representa un ingreso, consumo o ajuste de inventario, cuando la API procesa la solicitud, entonces actualiza las existencias y registra el movimiento correspondiente.<br><br>**Escenario 3: Cantidad no válida.** Dado un request que contiene una cantidad no permitida, cuando la API intenta procesar la operación, entonces la modificación del inventario es rechazada. | EP09 |
+| **TS06** | Servicio de métricas y reportes | Como Developer, deseo disponer de endpoints para consultar indicadores de mantenimiento y reportes para que la Web Application pueda presentar información de seguimiento. | **Escenario 1: Consulta con información disponible.** Dado un request con un periodo válido y registros suficientes, cuando la API procesa la consulta, entonces devuelve los indicadores calculados para dicho periodo.<br><br>**Escenario 2: Periodo sin información suficiente.** Dado un periodo en el que no existen registros suficientes para calcular un indicador, cuando la API procesa la consulta, entonces responde indicando que no existen datos disponibles para realizar el cálculo.<br><br>**Escenario 3: Consulta de reporte por cliente.** Dado un cliente y un periodo válidos, cuando la API procesa la solicitud, entonces devuelve la información necesaria para elaborar el reporte correspondiente. | EP09 |
+| **TS07** | Servicio de notificaciones externas | Como Developer, deseo integrar la API con un servicio externo de notificaciones para enviar alertas relacionadas con eventos importantes de mantenimiento. | **Escenario 1: Envío correcto de una notificación.** Dado que ocurre un evento configurado para generar una alerta externa, cuando la API solicita el envío al servicio de notificaciones, entonces el envío queda registrado correctamente.<br><br>**Escenario 2: Error del servicio externo.** Dado que el servicio externo devuelve un error o no se encuentra disponible, cuando la API intenta enviar la notificación, entonces el fallo queda registrado sin perder el evento que originó la alerta.<br><br>**Escenario 3: Evento sin notificación externa configurada.** Dado que ocurre un evento que no tiene un envío externo configurado, cuando es procesado por la API, entonces no se solicita el envío de una notificación externa. | EP09 |
 
 
-### Epics
+**Epics**
 
 | Epic ID | Título | Descripción |
 | :--- | :--- | :--- |
@@ -2003,10 +2481,11 @@ Es el lenguaje común compartido entre desarrolladores y expertos del negocio qu
 </div>
 
 
-## 3.3. Product Backlog. 
+## 3.3. Product Backlog.
 
+El Product Backlog de FixCore reúne los Product Backlog Items definidos para el desarrollo de la solución. Estos incluyen las User Stories relacionadas con las necesidades de los usuarios y las Technical Stories necesarias para implementar las capacidades técnicas de la plataforma.
 
-El Product Backlog de FixCore reúne las User Stories identificadas para el desarrollo de la solución. Las historias fueron priorizadas considerando principalmente el valor que aportan a los segmentos objetivo y a las funciones principales del producto. Para la estimación se utilizaron Story Points siguiendo la escala 1, 2, 3, 5 y 8.
+Los elementos fueron ordenados considerando el valor que aportan a los segmentos objetivo, las funcionalidades principales del producto y las dependencias necesarias para su implementación. Para realizar las estimaciones se utilizaron Story Points siguiendo la escala de 1, 2, 3, 5 y 8.
 
 Enlace del Product Backlog elaborado en Trello: [https://trello.com/b/yJyuiOSO](https://trello.com/b/yJyuiOSO)
 
@@ -2016,80 +2495,83 @@ Enlace del Product Backlog elaborado en Trello: [https://trello.com/b/yJyuiOSO](
   <em>Fuente: Elaboración propia.</em>
 </div>
 
-A continuación se presenta la tabla con mayor detalle:
+A continuación, se presenta el Product Backlog de FixCore con mayor detalle:
 
-| # Orden | User Story ID | Título | Descripción | Story Points |
+| # Orden | Item ID | Título | Descripción | Story Points |
 | :---: | :---: | :--- | :--- | :---: |
 | 01 | **US59** | Conocer FixCore | Como Visitante, deseo conocer qué es FixCore para entender qué problema de mantenimiento industrial busca resolver. | 2 |
 | 02 | **US60** | Conocer funcionalidades de FixCore | Como Visitante, deseo conocer las principales funcionalidades de FixCore para saber cómo puede ayudar a organizar el mantenimiento de una empresa. | 1 |
-| 03 | **US61** | Conocer beneficios según el segmento | Como Visitante, deseo conocer cómo FixCore puede ayudar a mi tipo de empresa para determinar si la solución responde a mis necesidades. | 1 |
-| 04 | **US63** | Consultas adicionales sobre FixCore | Como Visitante, quiero que haya un espacio en la Landing Page donde pueda obtener información adicional sobre FixCore para así poder resolver mis dudas. | 1 |
+| 03 | **US61** | Conocer beneficios según el segmento | Como Visitante, deseo conocer cómo FixCore puede ayudar a mi tipo de empresa o actividad para determinar si la solución responde a mis necesidades. | 1 |
+| 04 | **US63** | Consultar información adicional de FixCore | Como Visitante, deseo consultar información adicional sobre FixCore para resolver dudas y conocer las condiciones relacionadas con el servicio. | 1 |
 | 05 | **US62** | Consultar planes de FixCore | Como Visitante, deseo conocer los planes disponibles para evaluar qué alternativa se adapta mejor a mi empresa. | 2 |
-| 06 | **US03** | Registrar máquina | Como Jefe de Planta, deseo registrar una máquina para llevar un control de los activos que requieren mantenimiento. | 5 |
-| 07 | **US05** | Consultar ficha técnica de una máquina | Como Técnico, deseo consultar la ficha técnica de una máquina para conocer sus características antes de realizar un mantenimiento. | 3 |
-| 08 | **US19** | Reportar falla de una máquina | Como Técnico, deseo reportar rápidamente una falla para que pueda ser atendida y no se pierda entre otros medios de comunicación. | 3 |
-| 09 | **US21** | Consultar fallas pendientes | Como Jefe de Planta, deseo consultar las fallas pendientes para conocer qué máquinas requieren atención. | 3 |
-| 10 | **US23** | Generar orden correctiva desde una falla | Como Jefe de Planta, deseo crear una Orden de Trabajo a partir de una falla para iniciar formalmente su reparación. | 5 |
-| 11 | **US25** | Asignar técnico a una orden | Como Jefe de Planta, deseo asignar una Orden de Trabajo a un Técnico para definir quién será responsable del mantenimiento. | 3 |
-| 12 | **US27** | Consultar órdenes asignadas | Como Técnico, deseo consultar mis Órdenes de Trabajo para saber qué actividades debo atender durante mi turno. | 3 |
-| 13 | **US28** | Iniciar orden de trabajo | Como Técnico, deseo indicar que he comenzado una Orden de Trabajo para registrar desde cuándo se está atendiendo el mantenimiento. | 2 |
-| 14 | **US29** | Registrar trabajo realizado | Como Técnico, deseo registrar lo realizado durante el mantenimiento para mantener una evidencia clara del trabajo efectuado. | 3 |
-| 15 | **US30** | Cerrar orden de trabajo | Como Técnico, deseo cerrar una Orden de Trabajo cuando termino el mantenimiento para dejar registrada su finalización. | 5 |
-| 16 | **US10** | Programar mantenimiento preventivo | Como Jefe de Planta, deseo programar un mantenimiento preventivo para reducir el riesgo de fallas inesperadas en una máquina. | 5 |
-| 17 | **US14** | Consultar calendario de mantenimientos | Como Jefe de Planta, deseo consultar los mantenimientos programados para organizar las actividades del equipo técnico. | 5 |
-| 18 | **US16** | Consultar próximos mantenimientos | Como Técnico, deseo conocer los próximos mantenimientos que debo realizar para prepararme antes de iniciar mis actividades. | 3 |
-| 19 | **US17** | Identificar mantenimientos vencidos | Como Jefe de Planta, deseo identificar los mantenimientos que no fueron realizados a tiempo para tomar acciones antes de que ocurra una falla. | 3 |
-| 20 | **US48** | Recibir alerta de mantenimiento próximo | Como Jefe de Planta, deseo recibir una alerta antes de una fecha de mantenimiento para evitar que una revisión preventiva sea olvidada. | 3 |
-| 21 | **US33** | Consultar stock de repuestos | Como Técnico, deseo consultar la cantidad disponible de un repuesto para saber si puedo utilizarlo durante un mantenimiento. | 2 |
-| 22 | **US38** | Registrar repuestos utilizados | Como Técnico, deseo registrar los repuestos utilizados en una Orden de Trabajo para dejar constancia de los materiales consumidos. | 5 |
-| 23 | **US39** | Actualizar stock al completar una orden | Como Jefe de Planta, deseo que el inventario considere los repuestos consumidos en las Órdenes de Trabajo para conocer el stock real disponible. | 5 |
-| 24 | **US35** | Definir stock mínimo | Como Jefe de Planta, deseo establecer una cantidad mínima para cada repuesto para saber cuándo es necesario reponerlo. | 2 |
-| 25 | **US51** | Recibir alerta de stock bajo | Como Jefe de Planta, deseo recibir una alerta cuando un repuesto alcanza su stock mínimo para poder reponerlo antes de que se agote. | 3 |
-| 26 | **US41** | Consultar resumen de operaciones | Como Jefe de Planta, deseo consultar un resumen general del mantenimiento para conocer rápidamente la situación de las máquinas de la planta. | 5 |
-| 27 | **US42** | Consultar tiempo muerto de las máquinas | Como Jefe de Planta, deseo conocer el Tiempo Muerto de las máquinas para identificar qué equipos generan mayores interrupciones en la producción. | 5 |
-| 28 | **US44** | Consultar cumplimiento preventivo | Como Jefe de Planta, deseo conocer el nivel de cumplimiento de los mantenimientos preventivos para saber si las revisiones se realizan dentro de las fechas planificadas. | 5 |
-| 29 | **US45** | Consultar estado de las órdenes de trabajo | Como Jefe de Planta, deseo conocer cuántas Órdenes de Trabajo están pendientes, en progreso o completadas para supervisar las actividades de mantenimiento. | 3 |
-| 30 | **US47** | Generar reporte por cliente | Como Gerente de Operaciones, deseo generar un reporte de mantenimiento para cada cliente para entregar información clara sobre sus máquinas y servicios realizados. | 5 |
-| 31 | **US53** | Recibir alertas mediante WhatsApp | Como Jefe de Planta, deseo recibir las alertas importantes mediante WhatsApp para enterarme de situaciones urgentes aunque no esté usando FixCore. | 5 |
-| 32 | **US49** | Recibir alerta de falla crítica | Como Jefe de Planta, deseo recibir una alerta cuando se registra una falla crítica para coordinar su atención lo antes posible. | 3 |
-| 33 | **US50** | Recibir notificación de orden asignada | Como Técnico, deseo recibir una notificación cuando se me asigna una Orden de Trabajo para conocer que tengo una nueva actividad pendiente. | 2 |
-| 34 | **US09** | Consultar historial de una máquina | Como Jefe de Planta, deseo revisar el historial de una máquina para conocer sus fallas y mantenimientos anteriores. | 5 |
-| 35 | **US08** | Consultar estado de una máquina | Como Jefe de Planta, deseo conocer el estado de una máquina para saber si está operativa, en mantenimiento o presenta una falla. | 3 |
-| 36 | **US06** | Asociar manual técnico a una máquina | Como Jefe de Planta, deseo asociar manuales a una máquina para mantener su documentación técnica centralizada. | 3 |
-| 37 | **US07** | Consultar manuales de una máquina | Como Técnico, deseo consultar los manuales de una máquina para tener información de apoyo durante el mantenimiento. | 2 |
-| 38 | **US01** | Registrar planta | Como Jefe de Planta, deseo registrar una planta para organizar las máquinas que forman parte de sus operaciones. | 3 |
-| 39 | **US02** | Editar información de una planta | Como Jefe de Planta, deseo actualizar la información de una planta para mantener sus datos correctos. | 2 |
-| 40 | **US04** | Editar información de una máquina | Como Jefe de Planta, deseo actualizar los datos de una máquina para mantener su información técnica al día. | 3 |
-| 41 | **US15** | Consultar mantenimientos por planta | Como Gerente de Operaciones, deseo consultar los mantenimientos de cada planta atendida para organizar el trabajo de los técnicos entre diferentes clientes. | 3 |
-| 42 | **US11** | Definir frecuencia de mantenimiento | Como Jefe de Planta, deseo establecer cada cuánto debe realizarse un mantenimiento para mantener una planificación preventiva constante. | 3 |
-| 43 | **US13** | Reprogramar mantenimiento | Como Jefe de Planta, deseo cambiar la fecha de un mantenimiento para adaptarlo a cambios en las operaciones de la planta. | 2 |
-| 44 | **US12** | Editar mantenimiento programado | Como Jefe de Planta, deseo modificar los datos de un mantenimiento pendiente para corregir cambios en su planificación. | 3 |
-| 45 | **US18** | Suspender o reactivar mantenimiento preventivo | Como Jefe de Planta, deseo suspender o reactivar un plan preventivo para adaptarlo al estado actual de una máquina. | 2 |
-| 46 | **US20** | Asignar prioridad a una falla | Como Jefe de Planta, deseo indicar la prioridad de una falla para atender primero las incidencias que generan mayor impacto en la producción. | 2 |
-| 47 | **US22** | Consultar detalle de una falla | Como Jefe de Planta, deseo revisar la información de una falla para entender qué ocurrió antes de coordinar su atención. | 2 |
-| 48 | **US24** | Generar orden de mantenimiento preventivo | Como Jefe de Planta, deseo generar una Orden de Trabajo para un mantenimiento programado para organizar su ejecución. | 5 |
-| 49 | **US26** | Reasignar orden de trabajo | Como Jefe de Planta, deseo cambiar el Técnico responsable de una orden para responder a cambios de disponibilidad. | 2 |
-| 50 | **US31** | Registrar repuesto | Como Jefe de Planta, deseo registrar un repuesto para controlar los materiales disponibles para los mantenimientos. | 3 |
-| 51 | **US32** | Editar información de un repuesto | Como Jefe de Planta, deseo actualizar los datos de un repuesto para mantener correcta la información del inventario. | 2 |
-| 52 | **US34** | Buscar repuestos | Como Técnico, deseo buscar un repuesto para encontrar rápidamente el material que necesito durante una reparación. | 2 |
-| 53 | **US36** | Registrar ingreso de repuestos | Como Jefe de Planta, deseo registrar el ingreso de nuevas unidades para mantener actualizado el inventario. | 3 |
-| 54 | **US37** | Ajustar existencias de inventario | Como Jefe de Planta, deseo corregir las existencias registradas para solucionar diferencias encontradas en el inventario real. | 3 |
-| 55 | **US40** | Consultar historial de inventario | Como Jefe de Planta, deseo consultar los movimientos de los repuestos para conocer cómo han cambiado sus existencias. | 3 |
-| 56 | **US43** | Consultar MTTR | Como Jefe de Planta, deseo consultar el tiempo medio de reparación para evaluar qué tan rápido son atendidas las fallas. | 5 |
-| 57 | **US46** | Consultar desempeño de técnicos | Como Gerente de Operaciones, deseo consultar las Órdenes de Trabajo realizadas por los técnicos para conocer su actividad y organizar mejor los recursos de la empresa. | 5 |
-| 58 | **US52** | Configurar destinatarios de alertas | Como Jefe de Planta, deseo definir qué responsables deben recibir cada tipo de alerta para que la información llegue a las personas adecuadas. | 3 |
-| 59 | **US56** | Registrar técnico | Como Jefe de Planta, deseo registrar Técnicos para poder asignarles las actividades de mantenimiento de la empresa. | 3 |
-| 60 | **US57** | Editar información de un técnico | Como Jefe de Planta, deseo actualizar la información de un Técnico para mantener sus datos correctamente registrados. | 2 |
-| 61 | **US58** | Asignar acceso según responsabilidad | Como Gerente de Operaciones, deseo definir a qué plantas puede acceder cada usuario para organizar el trabajo de los Técnicos que atienden diferentes clientes. | 5 |
-| 62 | **US54** | Iniciar sesión | Como usuario registrado, deseo iniciar sesión en FixCore para acceder a las funciones correspondientes a mi cuenta. | 3 |
-| 63 | **US55** | Recuperar acceso a la cuenta | Como usuario registrado, deseo recuperar el acceso cuando olvido mi contraseña para volver a utilizar FixCore. | 5 |
-| 64 | **US64** | Servicio de autenticación | Como Developer, deseo disponer de servicios RESTful de autenticación para controlar el acceso a los recursos protegidos de FixCore. | 5 |
-| 65 | **US65** | Servicio de plantas y máquinas | Como Developer, deseo disponer de endpoints para administrar plantas y máquinas para que la Web Application pueda gestionar los activos de FixCore. | 8 |
-| 66 | **US67** | Servicio de fallas y órdenes de trabajo | Como Developer, deseo disponer de endpoints para gestionar Fallas y Órdenes de Trabajo para soportar los procesos de mantenimiento correctivo y preventivo. | 8 |
-| 67 | **US66** | Servicio de mantenimiento preventivo | Como Developer, deseo disponer de endpoints para gestionar mantenimientos preventivos para permitir su programación y seguimiento desde la Web Application. | 8 |
-| 68 | **US68** | Servicio de inventario | Como Developer, deseo disponer de endpoints para gestionar repuestos y existencias para mantener actualizado el Inventario de FixCore. | 8 |
-| 69 | **US69** | Servicio de métricas y reportes | Como Developer, deseo disponer de endpoints para consultar KPIs de mantenimiento y reportes para que la Web Application pueda presentar información de seguimiento. | 8 |
-| 70 | **US70** | Servicio de notificaciones externas | Como Developer, deseo integrar el API con un servicio externo de notificaciones para enviar alertas relacionadas con eventos importantes de mantenimiento. | 8 |
+| 06 | **US64** | Acceder a la Web Application | Como Visitante, deseo acceder a la Web Application desde la Landing Page para comenzar a utilizar FixCore después de conocer la propuesta y sus planes. | 2 |
+| 07 | **US03** | Registrar máquina | Como Jefe de Planta, deseo registrar una máquina para llevar un control de los activos que requieren mantenimiento. | 5 |
+| 08 | **US05** | Consultar ficha técnica de una máquina | Como Técnico, deseo consultar la ficha técnica de una máquina para conocer sus características antes de realizar un mantenimiento. | 3 |
+| 09 | **US19** | Reportar falla de una máquina | Como Técnico, deseo reportar rápidamente una falla para que pueda ser atendida y no se pierda entre otros medios de comunicación. | 3 |
+| 10 | **US21** | Consultar fallas pendientes | Como Jefe de Planta, deseo consultar las fallas pendientes para conocer qué máquinas requieren atención. | 3 |
+| 11 | **US23** | Generar orden correctiva desde una falla | Como Jefe de Planta, deseo crear una Orden de Trabajo a partir de una falla para iniciar formalmente su reparación. | 5 |
+| 12 | **US25** | Asignar técnico a una orden | Como Jefe de Planta, deseo asignar una Orden de Trabajo a un Técnico para definir quién será responsable del mantenimiento. | 3 |
+| 13 | **US27** | Consultar órdenes asignadas | Como Técnico, deseo consultar mis Órdenes de Trabajo para saber qué actividades debo atender durante mi turno. | 3 |
+| 14 | **US28** | Iniciar orden de trabajo | Como Técnico, deseo indicar que he comenzado una Orden de Trabajo para registrar desde cuándo se está atendiendo el mantenimiento. | 2 |
+| 15 | **US29** | Registrar trabajo realizado | Como Técnico, deseo registrar lo realizado durante el mantenimiento para mantener una evidencia clara del trabajo efectuado. | 3 |
+| 16 | **US30** | Cerrar orden de trabajo | Como Técnico, deseo cerrar una Orden de Trabajo cuando termino el mantenimiento para dejar registrada su finalización. | 5 |
+| 17 | **US10** | Programar mantenimiento preventivo | Como Jefe de Planta, deseo programar un mantenimiento preventivo para reducir el riesgo de fallas inesperadas en una máquina. | 5 |
+| 18 | **US14** | Consultar calendario de mantenimientos | Como Jefe de Planta, deseo consultar los mantenimientos programados para organizar las actividades del equipo técnico. | 5 |
+| 19 | **US16** | Consultar próximos mantenimientos | Como Técnico, deseo conocer los próximos mantenimientos que debo realizar para prepararme antes de iniciar mis actividades. | 3 |
+| 20 | **US17** | Identificar mantenimientos vencidos | Como Jefe de Planta, deseo identificar los mantenimientos que no fueron realizados a tiempo para tomar acciones antes de que ocurra una falla. | 3 |
+| 21 | **US48** | Recibir alerta de mantenimiento próximo | Como Jefe de Planta, deseo recibir una alerta antes de una fecha de mantenimiento para evitar que una revisión preventiva sea olvidada. | 3 |
+| 22 | **US33** | Consultar stock de repuestos | Como Técnico, deseo consultar la cantidad disponible de un repuesto para saber si puedo utilizarlo durante un mantenimiento. | 2 |
+| 23 | **US38** | Registrar repuestos utilizados | Como Técnico, deseo registrar los repuestos utilizados en una Orden de Trabajo para dejar constancia de los materiales consumidos. | 5 |
+| 24 | **US39** | Actualizar stock al completar una orden | Como Jefe de Planta, deseo que el inventario considere automáticamente los repuestos utilizados en las Órdenes de Trabajo para mantener actualizado el stock disponible. | 5 |
+| 25 | **US35** | Definir stock mínimo | Como Jefe de Planta, deseo establecer una cantidad mínima para cada repuesto para saber cuándo es necesario reponerlo. | 2 |
+| 26 | **US51** | Recibir alerta de stock bajo | Como Jefe de Planta, deseo recibir una alerta cuando un repuesto alcanza su stock mínimo para poder reponerlo antes de que se agote. | 3 |
+| 27 | **US41** | Consultar resumen de operaciones | Como Jefe de Planta, deseo consultar un resumen general del mantenimiento para conocer rápidamente la situación de las máquinas de la planta. | 5 |
+| 28 | **US42** | Consultar tiempo muerto de las máquinas | Como Jefe de Planta, deseo conocer el Tiempo Muerto de las máquinas para identificar qué equipos generan mayores interrupciones en la producción. | 5 |
+| 29 | **US44** | Consultar cumplimiento preventivo | Como Jefe de Planta, deseo conocer el nivel de cumplimiento de los mantenimientos preventivos para saber si las revisiones se realizan dentro de las fechas planificadas. | 5 |
+| 30 | **US45** | Consultar estado de las órdenes de trabajo | Como Jefe de Planta, deseo conocer cuántas Órdenes de Trabajo están pendientes, en progreso o completadas para supervisar las actividades de mantenimiento. | 3 |
+| 31 | **US47** | Generar reporte por cliente | Como Coordinador de Operaciones, deseo generar un reporte de mantenimiento para cada cliente para entregar información clara sobre sus máquinas y servicios realizados. | 5 |
+| 32 | **US53** | Recibir alertas mediante WhatsApp | Como Jefe de Planta, deseo recibir las alertas importantes mediante WhatsApp para enterarme de situaciones urgentes aunque no esté usando FixCore. | 5 |
+| 33 | **US49** | Recibir alerta de falla crítica | Como Jefe de Planta, deseo recibir una alerta cuando se registra una falla crítica para coordinar su atención lo antes posible. | 3 |
+| 34 | **US50** | Recibir notificación de orden asignada | Como Técnico, deseo recibir una notificación cuando se me asigna una Orden de Trabajo para conocer que tengo una nueva actividad pendiente. | 2 |
+| 35 | **US09** | Consultar historial de una máquina | Como Jefe de Planta, deseo revisar el historial de una máquina para conocer sus fallas y mantenimientos anteriores. | 5 |
+| 36 | **US08** | Consultar estado de una máquina | Como Jefe de Planta, deseo conocer el estado de una máquina para saber si está operativa, en mantenimiento o presenta una falla. | 3 |
+| 37 | **US06** | Asociar manual técnico a una máquina | Como Jefe de Planta, deseo asociar manuales a una máquina para mantener su documentación técnica centralizada. | 3 |
+| 38 | **US07** | Consultar manuales de una máquina | Como Técnico, deseo consultar los manuales de una máquina para tener información de apoyo durante el mantenimiento. | 2 |
+| 39 | **US01** | Registrar planta | Como Jefe de Planta, deseo registrar una planta para organizar las máquinas que forman parte de sus operaciones. | 3 |
+| 40 | **US02** | Editar información de una planta | Como Jefe de Planta, deseo actualizar la información de una planta para mantener sus datos correctos. | 2 |
+| 41 | **US04** | Editar información de una máquina | Como Jefe de Planta, deseo actualizar los datos de una máquina para mantener su información técnica al día. | 3 |
+| 42 | **US15** | Consultar mantenimientos por planta | Como Coordinador de Operaciones, deseo consultar los mantenimientos de cada planta atendida para organizar el trabajo de los técnicos entre diferentes clientes. | 3 |
+| 43 | **US11** | Definir frecuencia de mantenimiento | Como Jefe de Planta, deseo establecer cada cuánto debe realizarse un mantenimiento para mantener una planificación preventiva constante. | 3 |
+| 44 | **US13** | Reprogramar mantenimiento | Como Jefe de Planta, deseo cambiar la fecha de un mantenimiento para adaptarlo a cambios en las operaciones de la planta. | 2 |
+| 45 | **US12** | Editar mantenimiento programado | Como Jefe de Planta, deseo modificar los datos de un mantenimiento pendiente para corregir cambios en su planificación. | 3 |
+| 46 | **US18** | Suspender o reactivar mantenimiento preventivo | Como Jefe de Planta, deseo suspender o reactivar un plan preventivo para adaptarlo al estado actual de una máquina. | 2 |
+| 47 | **US20** | Asignar prioridad a una falla | Como Jefe de Planta, deseo indicar la prioridad de una falla para atender primero las incidencias que generan mayor impacto en la producción. | 2 |
+| 48 | **US22** | Consultar detalle de una falla | Como Jefe de Planta, deseo revisar la información de una falla para entender qué ocurrió antes de coordinar su atención. | 2 |
+| 49 | **US24** | Generar orden de mantenimiento preventivo | Como Jefe de Planta, deseo generar una Orden de Trabajo para un mantenimiento programado para organizar su ejecución. | 5 |
+| 50 | **US26** | Reasignar orden de trabajo | Como Jefe de Planta, deseo cambiar el Técnico responsable de una orden para responder a cambios de disponibilidad. | 2 |
+| 51 | **US31** | Registrar repuesto | Como Jefe de Planta, deseo registrar un repuesto para controlar los materiales disponibles para los mantenimientos. | 3 |
+| 52 | **US32** | Editar información de un repuesto | Como Jefe de Planta, deseo actualizar los datos de un repuesto para mantener correcta la información del inventario. | 2 |
+| 53 | **US34** | Buscar repuestos | Como Técnico, deseo buscar un repuesto para encontrar rápidamente el material que necesito durante una reparación. | 2 |
+| 54 | **US36** | Registrar ingreso de repuestos | Como Jefe de Planta, deseo registrar el ingreso de nuevas unidades para mantener actualizado el inventario. | 3 |
+| 55 | **US37** | Ajustar existencias de inventario | Como Jefe de Planta, deseo corregir las existencias registradas para solucionar diferencias encontradas en el inventario real. | 3 |
+| 56 | **US40** | Consultar historial de inventario | Como Jefe de Planta, deseo consultar los movimientos de los repuestos para conocer cómo han cambiado sus existencias. | 3 |
+| 57 | **US43** | Consultar MTTR | Como Jefe de Planta, deseo consultar el tiempo medio de reparación para evaluar qué tan rápido son atendidas las fallas. | 5 |
+| 58 | **US46** | Consultar actividad de técnicos | Como Coordinador de Operaciones, deseo consultar las Órdenes de Trabajo realizadas por los técnicos para conocer su actividad y organizar mejor los recursos de la empresa. | 5 |
+| 59 | **US52** | Configurar destinatarios de alertas | Como Jefe de Planta, deseo definir qué responsables deben recibir cada tipo de alerta para que la información llegue a las personas adecuadas. | 3 |
+| 60 | **US56** | Registrar técnico | Como Jefe de Planta, deseo registrar Técnicos para poder asignarles las actividades de mantenimiento de la empresa. | 3 |
+| 61 | **US57** | Editar información de un técnico | Como Jefe de Planta, deseo actualizar la información de un Técnico para mantener sus datos correctamente registrados. | 2 |
+| 62 | **US58** | Asignar acceso según responsabilidad | Como Coordinador de Operaciones, deseo definir a qué plantas puede acceder cada usuario para organizar el trabajo de los técnicos que atienden diferentes clientes. | 5 |
+| 63 | **US54** | Iniciar sesión | Como usuario registrado, deseo iniciar sesión en FixCore para acceder a las funciones correspondientes a mi cuenta. | 3 |
+| 64 | **US55** | Recuperar acceso a la cuenta | Como usuario registrado, deseo recuperar el acceso cuando olvido mi contraseña para volver a utilizar FixCore. | 5 |
+| 65 | **TS01** | Servicio de autenticación | Como Developer, deseo disponer de servicios RESTful de autenticación para controlar el acceso a los recursos protegidos de FixCore. | 5 |
+| 66 | **TS02** | Servicio de plantas y máquinas | Como Developer, deseo disponer de endpoints para administrar plantas y máquinas para que la Web Application pueda gestionar los activos de FixCore. | 8 |
+| 67 | **TS03** | Servicio de mantenimiento preventivo | Como Developer, deseo disponer de endpoints para gestionar mantenimientos preventivos para permitir su programación y seguimiento desde la Web Application. | 8 |
+| 68 | **TS04** | Servicio de fallas y órdenes de trabajo | Como Developer, deseo disponer de endpoints para gestionar Fallas y Órdenes de Trabajo para soportar los procesos de mantenimiento correctivo y preventivo. | 8 |
+| 69 | **TS05** | Servicio de inventario | Como Developer, deseo disponer de endpoints para gestionar repuestos y existencias para mantener actualizado el Inventario de FixCore. | 8 |
+| 70 | **TS06** | Servicio de métricas y reportes | Como Developer, deseo disponer de endpoints para consultar indicadores de mantenimiento y reportes para que la Web Application pueda presentar información de seguimiento. | 8 |
+| 71 | **TS07** | Servicio de notificaciones externas | Como Developer, deseo integrar la API con un servicio externo de notificaciones para enviar alertas relacionadas con eventos importantes de mantenimiento. | 8 |
+
+**Total estimado del Product Backlog: 258 Story Points.**
 
 # Capítulo IV: Product Design 
 
@@ -2888,7 +3370,7 @@ Estructura General Desktop
   <em>Fuente: Elaboración propia.</em>
 </div>
 
-#### 4.3.1.3. wireframe Mobile
+#### 4.3.1.3. Wireframe Mobile
 El wireframe mobile adapta la estructura desktop a formatos verticales:
 
 <div align="center">
@@ -2976,8 +3458,6 @@ El esquema estructural de FixCore se sostiene en los siguientes fundamentos UX/U
 *   **Escalabilidad Mobile-First:** Elementos como el acordeón de FAQs y la barra de navegación se transforman en patrones nativos móviles (hamburguesa, menús desplegables) asegurando áreas táctiles de mínimo 44x44px.
 
 ### 4.3.2. Landing Page Mock-up. 
-
-### 4.3.2. Landing Page Mock-up
 
 Esta sección presenta y explica los Mock-ups (prototipos de alta fidelidad) del Landing Page de FixCore, tanto en su versión para Desktop Web Browser como Mobile Web Browser. En esta propuesta se evidencia la aplicación de los principios de diseño visual, accesibilidad y la arquitectura de información validada previamente en los wireframes, consolidando el Design System corporativo orientado al sector B2B (Mantenimiento Industrial).
 
@@ -3144,9 +3624,56 @@ Los perfiles clave contemplados son el Jefe de Planta, quien administra los recu
 
 ### 4.4.1. Web Applications Wireframes. 
 
-Esta sección presenta los wireframes de baja fidelidad de FixCore, diseñados en Figma. La plataforma se estructuró bajo un enfoque mobile-first y responsivo, adaptándose a los tres roles principales del sistema (Jefe de Planta, Técnico y Gerente de Operaciones).
+Esta sección presenta los wireframes de baja fidelidad de FixCore, diseñados en Figma. La plataforma se estructuró bajo un enfoque responsivo, adaptándose a los tres roles principales del sistema (Jefe de Planta, Técnico y Gerente de Operaciones).
 
-<img src="./Assets/Images/Captura de pantalla 2026-09-15 035232.png" alt="wireframes">
+**Wireframes Mobile**
+
+<div align="center">
+  <img src="report/assets/images/wireframe-movil.png" width="700" alt="Wireframes Mobile"><br>
+</div>
+
+**Wireframes Desktop**
+
+<div align="center">
+  <img src="report/assets/images/tm-wireframe-1.jpg" width="700" alt="Wireframe Desktop 1"><br>
+</div>
+
+<div align="center">
+  <img src="report/assets/images/tm-wireframe-2.jpg" width="700" alt="Wireframe Desktop 2"><br>
+</div>
+
+<div align="center">
+  <img src="report/assets/images/tm-wireframe-3.jpg" width="700" alt="Wireframe Desktop 3"><br>
+</div>
+
+<div align="center">
+  <img src="report/assets/images/tm-wireframe-4.jpg" width="700" alt="Wireframe Desktop 4"><br>
+</div>
+
+<div align="center">
+  <img src="report/assets/images/tm-wireframe-5.jpg" width="700" alt="Wireframe Desktop 5"><br>
+</div>
+
+<div align="center">
+  <img src="report/assets/images/tm-wireframe-6.jpg" width="700" alt="Wireframe Desktop 6"><br>
+</div>
+
+<div align="center">
+  <img src="report/assets/images/tm-wireframe-7.jpg" width="700" alt="Wireframe Desktop 7"><br>
+</div>
+
+<div align="center">
+  <img src="report/assets/images/tm-wireframe-8.jpg" width="700" alt="Wireframe Desktop 8"><br>
+</div>
+
+<div align="center">
+  <img src="report/assets/images/tm-wireframe-9.jpg" width="700" alt="Wireframe Desktop 9"><br>
+</div>
+
+<div align="center">
+  <img src="report/assets/images/tm-wireframe-10.jpg" width="700" alt="Wireframe Desktop 10"><br>
+</div>
+
 
 Explicación de la propuesta:
 
@@ -3167,7 +3694,9 @@ Para construir estos diagramas, previamente analizamos las rutas típicas de int
 Usuario: Jefe de planta
 Obetivo de usuario: Como Jefe de Planta, deseo registrarme con una cuenta y a la vez las máquina en el sistema indicando sus datos técnicos y ubicación para llevar un control centralizado de los activos que requieren mantenimiento preventivo y correctivo.
 
-<img src="./Assets/Images/Captura de pantalla 2026-09-15 043453.png" alt="wireframes"> 
+<div align="center">
+  <img src="report/assets//images/tm-wireflow-1.png" width="700" alt="Wireflow 1"><br>
+</div>
 
 Explicación del flujo: Nuestro flujo arranca en la pantalla principal de acceso, donde ingresamos el usuario y la contraseña. Al presionar el botón de inicio de sesión, el sistema valida las credenciales y nos lleva  hacia el panel de bienvenida adaptado específicamente al perfil del usuario (ya sea el tablero del Jefe de Planta, la vista operativa del Técnico o el resumen ejecutivo del Gerente de Operaciones). Una vez en el panel principal del Jefe de Planta, desde donde accedemos al módulo de maquinaria para agregar un nuevo equipo, lo que nos dirige hacia el formulario de registro en su estado inicial. Ingresamos los datos obligatorios, como nombre, planta, categoría y nivel de criticidad. Al confirmar la acción, el sistema valida los datos y nos redirige al listado general de activos actualizado. Con esto logramos automatizar el registro y dejamos atrás los controles en papel o Excel.
 
@@ -3176,24 +3705,85 @@ Explicación del flujo: Nuestro flujo arranca en la pantalla principal de acceso
 Usuario: Técnico
 Obetivo de usuario: Como Técnico de campo, deseo observar los fallos de las maquinas y dirigirme a la planta asignada, reportarme para que la incidencia quede registrada formalmente y pueda ser atendida sin retrasos.
 
-<img src="./Assets/Images/Captura de pantalla 2026-09-15 050753.png" alt="wireframes"> 
+<div align="center">
+  <img src="report/assets/images/tm-wireflow-2.png" width="700" alt="Wireflow 1"><br>
+</div>
 
-Explicación del flujo: Este recorrido parte de la interfaz móvil del Técnico, donde seleccionamos la opción abrir dependiendo la maquina a trabajar y así visualizar el formulario correspondiente. Elegimos la máquina afectada y verificamos la prioridad. Al presionar el botón "ACEPTAR", la interfaz muestra un estado de confirmación y refresca de inmediato el panel de tareas asignadas con la nueva alerta visible. Diseñamos este flujo para garantizar una baja fricción y agilizar la comunicación directa desde el área de operaciones.
+Explicación del flujo: En este recorrido, luego de haber iniciado sesión y estar en una planta industrial, se accede a la sección de maquinas donde se verá un listado de todas las maquinas pertenecientes a la planta actual. El técnico luego puede buscar la información de una maquina en especifico por su nombre. En caso se introduzca un nombre que no pertenezca a alguna maquina, no se mostrarán resultados.
 
-#### 4.4.2.3. Wireflow 03 — Gerente de Operaciones revisa el resumen de operaciones
+#### 4.4.2.3. Wireflow 03 — Gerente de Operaciones crea una orden de trabajo
 
 Usuario: Gerente de Operaciones
-Obetivo de usuario: Como Gerente de Operaciones, deseo consultar un resumen general de las actividades y el estado de las plantas para evaluar el rendimiento general y tomar decisiones informadas.
+Obetivo de usuario: Como Gerente de Operaciones, deseo ser capaz de generar ordenes de trabajo dentro de la plataforma FixCore para así facilitar la asignación de tareas a los tecnicos de una planta industrial.
 
-<img src="./Assets/Images/Captura de pantalla 2026-09-15 051008.png" alt="wireframes"> 
+<div align="center">
+  <img src="report/assets/images/tm-wireflow-3.png" width="700" alt="Wireflow 1"><br>
+</div>
 
-Explicación del flujo: El flujo comienza en el panel ejecutivo del Gerente de Operaciones, donde visualizamos las métricas globales del estado de las plantas. Al seleccionar un indicador o una planta en particular, el wireframe transiciona hacia una vista detallada que muestra el historial de intervenciones, las órdenes de trabajo y los tiempos muertos acumulados. De esta manera, facilitamos una auditoría rápida y transparente del desempeño operativo.
+Explicación del flujo: El flujo comienza en el panel de inicio, donde luego se ingresa a la sección de ordenes de trabajo. Dentro de alli se presiona el botón de crear una nueva orden de trabajo para abrir un formulario donde se deberá colocar información como la maquina que se va a atender, el tipo de trabajo que se va a realizar o el técnico encargado. En caso algunos datos no sean colocados, tales como la maquina o el titulo de la orden de trabajo, no se continuará con la creación. Una vez los datos estén validados, e usuario regresará al listado de ordenes de trabajo.
+
+#### 4.4.2.4. Wireflow 04 — Integrante de una planta reporta una falla
+
+Usuario: Integrante en general de una planta industrial
+Obetivo de usuario: Como miembro de una planta industrial, deseo ser capaz de reportar fallos presentes en las maquinas de la planta industrial a la que pertenezco para así facilitar su identificación y atención oportuna por parte de los otros técnicos dentro de la planta.
+
+<div align="center">
+  <img src="report/assets/images/tm-wireflow-4.png" width="700" alt="Wireflow 1"><br>
+</div>
+
+Explicación del flujo: El flujo comienza en el panel de inicio, donde luego se ingresa a la sección de fallas. Una vez alli, se presiona el botón de reportar una falla. Durante el reporte primero se pedirá elegir la maquina que está fallando, intentar buscar el nombre de una maquina que no existe dentro de la planta no dará resultados. Siguiente, se pedirán datos sobre la falla, tales como su tipo, si ha detenido la linea de producción, así como otros detalles opcionales. Una vez completado el proceso se mostrará una tarjeta de confirmación antes del envío del reporte.
 
 ### 4.4.3. Web Applications Mock-ups. 
 
 En esta sección presentamos los Mock-ups de alta fidelidad, los cuales materializan visualmente los wireframes que definimos previamente para FixCore. Para su desarrollo en Figma, aplicamos de manera rigurosa los lineamientos de nuestro Design System, integrando la paleta de colores corporativa, la jerarquía tipográfica, el sistema de espaciados y los componentes de interfaz estandarizados, garantizando así total coherencia gráfica de nuestro proyecto.
 
-<img src="./Assets/Images/maqueta0.png" alt="maqueta0">
+**Mockups Mobile**
+
+<div align="center">
+  <img src="report/assets/images/mockups-mobile.png" width="700" alt="mockups Mobile"><br>
+</div>
+
+**Mockups Desktop**
+
+<div align="center">
+  <img src="report/assets/images/tm-mockup-1.jpg" width="700" alt="Wireframe Mockup 1"><br>
+</div>
+
+<div align="center">
+  <img src="report/assets/images/tm-mockup-2.jpg" width="700" alt="Wireframe Mockup 2"><br>
+</div>
+
+<div align="center">
+  <img src="report/assets/images/tm-mockup-3.jpg" width="700" alt="Wireframe Mockup 3"><br>
+</div>
+
+<div align="center">
+  <img src="report/assets/images/tm-mockup-4.jpg" width="700" alt="Wireframe Mockup 4"><br>
+</div>
+
+<div align="center">
+  <img src="report/assets/images/tm-mockup-5.jpg" width="700" alt="Wireframe Mockup 5"><br>
+</div>
+
+<div align="center">
+  <img src="report/assets/images/tm-mockup-6.jpg" width="700" alt="Wireframe Mockup 6"><br>
+</div>
+
+<div align="center">
+  <img src="report/assets/images/tm-mockup-7.jpg" width="700" alt="Wireframe Mockup 7"><br>
+</div>
+
+<div align="center">
+  <img src="report/assets/images/tm-mockup-8.jpg" width="700" alt="Wireframe Mockup 8"><br>
+</div>
+
+<div align="center">
+  <img src="report/assets/images/tm-mockup-9.jpg" width="700" alt="Wireframe Mockup 9"><br>
+</div>
+
+<div align="center">
+  <img src="report/assets/images/tm-mockup-10.jpg" width="700" alt="Wireframe Mockup 10"><br>
+</div>
 
 Explicación de la propuesta:
 Los mock-ups reflejan fielmente el diseño visual definitivo de la plataforma. Implementamos una interfaz limpia y estructurada mediante tarjetas (cards), barras de navegación intuitivas y contenedores claramente delimitados que reducen la fatiga visual y facilitan la lectura rápida de los datos. La selección cromática prioriza contrastes óptimos para asegurar una legibilidad excelente tanto en monitores de oficina como en las pantallas móviles utilizadas por los técnicos en la fábrica.
@@ -3206,47 +3796,114 @@ Los diagramas de flujo de usuario que documentamos en esta sección representan 
 
 Estos flujos de usuario mantienen una total consistencia con los wireflows que definimos en esta sección, lo que garantiza una trazabilidad de extremo a extremo en todo nuestro proceso de diseño de software. Cada uno de los diagramas detalla con precisión los puntos de decisión, las condiciones lógicas de validación y las transiciones de pantallas, todo ello complementado con anotaciones que explican con claridad el comportamiento exacto del sistema ante cada bifurcación. Diseñamos estas rutas alternativas considerando rigurosamente los escenarios reales de mantenimiento industrial que identificamos durante las entrevistas con los representantes de nuestros segmentos objetivo (Jefes de Planta, Técnicos y Gerentes de Operaciones).
 
-#### 4.4.4.1. Flujo de usuario 01 — Jefe de planta registra su cuenta y máquinas
 
-Persona de usuario: Jairo (Jefe de Planta)
+#### 4.4.4.1. Userflow 01 — Jefe de Planta registra su cuenta y maquinas. 
 
-Objetivo del usuario: Como Jefe de Planta, deseo registrarme con una cuenta y a la vez las máquinas en el sistema indicando sus datos técnicos y ubicación para llevar un control centralizado de los activos que requieren mantenimiento preventivo y correctivo.
+Usuario: Jefe de planta
+Obetivo de usuario: Como Jefe de Planta, deseo registrarme con una cuenta y a la vez las máquina en el sistema indicando sus datos técnicos y ubicación para llevar un control centralizado de los activos que requieren mantenimiento preventivo y correctivo.
 
-<img src="./Assets/Images/jefe-planta.png" alt="jefe-de-planta">
+<div align="center">
+  <img src="report/assets//images/tm-userflow-1.png" width="700" alt="WUserflow 1"><br>
+</div>
 
-Explicación del flujo: El recorrido inicia en la pantalla principal de acceso (Login), donde el usuario ingresa sus credenciales (usuario y contraseña). Al presionar el botón de inicio de sesión, el sistema valida la información y lo identifica, permitiéndole seleccionar su rol correspondiente (Jefe de Planta, Técnico o Gerente de Operaciones). Una vez dentro del panel principal del Jefe de Planta, este accede a la sección para registrar una nueva planta o empresa ingresando los datos solicitados (nombre de la planta, dirección exacta, ciudad/ubicación y cantidad de máquinas iniciales). Al confirmar el registro, el sistema procesa la información y redirige al usuario hacia su panel de control principal, donde podrá supervisar el estado general de la planta, gestionar órdenes de trabajo y administrar la maquinaria.
+Explicación del flujo: Nuestro flujo arranca en la pantalla principal de acceso, donde ingresamos el usuario y la contraseña. Al presionar el botón de inicio de sesión, el sistema valida las credenciales y nos lleva  hacia el panel de bienvenida adaptado específicamente al perfil del usuario (ya sea el tablero del Jefe de Planta, la vista operativa del Técnico o el resumen ejecutivo del Gerente de Operaciones). Una vez en el panel principal del Jefe de Planta, desde donde accedemos al módulo de maquinaria para agregar un nuevo equipo, lo que nos dirige hacia el formulario de registro en su estado inicial. Ingresamos los datos obligatorios, como nombre, planta, categoría y nivel de criticidad. Al confirmar la acción, el sistema valida los datos y nos redirige al listado general de activos actualizado. Con esto logramos automatizar el registro y dejamos atrás los controles en papel o Excel.
 
-#### 4.4.4.2. Flujo de usuario 02 — Técnico accede a la información de máquinas
+#### 4.4.4.2. Userflow 02 — Técnico accede a la informacion de maquinas. 
 
-Persona de usuario: Miguel (Técnico de campo)   
+Usuario: Técnico
+Obetivo de usuario: Como Técnico de campo, deseo observar los fallos de las maquinas y dirigirme a la planta asignada, reportarme para que la incidencia quede registrada formalmente y pueda ser atendida sin retrasos.
 
-Objetivo del usuario: Como Técnico de campo, deseo observar los fallos de las máquinas y dirigirme a la planta asignada, reportarme para que la incidencia quede registrada formalmente y pueda ser atendida sin retrasos.
+<div align="center">
+  <img src="report/assets/images/tm-userflow-2.png" width="700" alt="Userflow 1"><br>
+</div>
 
-<img src="./Assets/Images/tecnico.png" alt="tecnico">
+Explicación del flujo: En este recorrido, luego de haber iniciado sesión y estar en una planta industrial, se accede a la sección de maquinas donde se verá un listado de todas las maquinas pertenecientes a la planta actual. El técnico luego puede buscar la información de una maquina en especifico por su nombre. En caso se introduzca un nombre que no pertenezca a alguna maquina, no se mostrarán resultados.
 
-Explicación del flujo: El flujo comienza en la pantalla de selección de rol, donde el usuario se identifica como "Técnico" tras el inicio de sesión. Al ingresar, el sistema muestra el panel de bienvenida de Miguel junto con un módulo de filtros avanzados por estado, prioridad, fechas y técnico asignado, además de las órdenes de trabajo pendientes o en curso. Posteriormente, al navegar al apartado de "Maquinaria", el técnico puede revisar el listado detallado de equipos y su nivel de criticidad ("No presenta fallos", "Necesita mantenimiento" o "Fallos críticos"). Finalmente, el usuario elige una máquina específica para consultar su ficha técnica y detalles del problema, disponiendo de un botón de aceptación ("Aceptar") para confirmar la intervención y comenzar con la labor operativa. 
+#### 4.4.4.3. Userflow 03 — Gerente de Operaciones crea una orden de trabajo
 
-#### 4.4.4.3. Flujo de usuario 03 — Gerente de Operaciones revisa el resumen de operaciones
+Usuario: Gerente de Operaciones
+Obetivo de usuario: Como Gerente de Operaciones, deseo ser capaz de generar ordenes de trabajo dentro de la plataforma FixCore para así facilitar la asignación de tareas a los tecnicos de una planta industrial.
 
-Persona de usuario: Carlos (Gerente de Operaciones)
+<div align="center">
+  <img src="report/assets/images/tm-userflow-3.png" width="700" alt="Userflow 1"><br>
+</div>
 
-Objetivo del usuario: Como Gerente de Operaciones, deseo consultar un resumen general de las actividades y el estado de las plantas para evaluar el rendimiento general y tomar decisiones informadas.
+Explicación del flujo: El flujo comienza en el panel de inicio, donde luego se ingresa a la sección de ordenes de trabajo. Dentro de alli se presiona el botón de crear una nueva orden de trabajo para abrir un formulario donde se deberá colocar información como la maquina que se va a atender, el tipo de trabajo que se va a realizar o el técnico encargado. En caso algunos datos no sean colocados, tales como la maquina o el titulo de la orden de trabajo, no se continuará con la creación. Una vez los datos estén validados, e usuario regresará al listado de ordenes de trabajo.
 
-<img src="./Assets/Images/Gerente-operaciones.png" alt="Gerente-de-operaciones">
+#### 4.4.4.4. Userflow 04 — Integrante de una planta reporta una falla
 
-Explicación del flujo: El recorrido parte de la pantalla de autenticación, donde el usuario selecciona el rol de "Gerente de Operaciones". Al acceder al sistema, se visualiza el tablero ejecutivo que incluye un resumen general de operaciones (número de plantas activas, fallas críticas, técnicos disponibles y órdenes abiertas), así como el estado detallado por planta y el estatus de cada técnico. Desde esta vista principal, el gerente puede profundizar en la sección de órdenes programadas para analizar los datos de mantenimiento regular, con la opción de editar o registrar una nueva orden de trabajo si es necesario. Por último, el flujo permite consultar el historial completo de intervenciones y el registro detallado de fallas de los equipos, facilitando la auditoría y la supervisión gerencial.
+Usuario: Integrante en general de una planta industrial
+Obetivo de usuario: Como miembro de una planta industrial, deseo ser capaz de reportar fallos presentes en las maquinas de la planta industrial a la que pertenezco para así facilitar su identificación y atención oportuna por parte de los otros técnicos dentro de la planta.
+
+<div align="center">
+  <img src="report/assets/images/tm-userflow-4.png" width="700" alt="Userflow 1"><br>
+</div>
 
 ## 4.5. Web Applications Prototyping. 
+
+Con los Mockups realizados hemos elaborado un prototipo en Figma que muestre una versión preliminar de nuestra aplicación web. En este prototipo se consideraron procesos presentes en los Userflows, además de otras vistas generales de las secciones que puede ofrecer la plataforma.
+
+Enlace al prototipo realizado en Figma: [https://www.figma.com/proto/VbkpyP5gwR4Orgl1eNsB7a/Figma-basics?node-id=2449-1168&t=Va1SHaV7XPbK0ZlF-1&scaling=scale-down&content-scaling=fixed&page-id=2439%3A2&starting-point-node-id=2449%3A1168](https://www.figma.com/proto/VbkpyP5gwR4Orgl1eNsB7a/Figma-basics?node-id=2449-1168&t=Va1SHaV7XPbK0ZlF-1&scaling=scale-down&content-scaling=fixed&page-id=2439%3A2&starting-point-node-id=2449%3A1168)
+
+Enlace al video de presentación del prototipo: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423973_upc_edu_pe/IQDYMFuJ7lLVR70eP-ZT_VL8AQQDJFn8kAVoKRjQeePpziU?e=0tnbiI&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423973_upc_edu_pe/IQDYMFuJ7lLVR70eP-ZT_VL8AQQDJFn8kAVoKRjQeePpziU?e=0tnbiI&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+<div align="center">
+  <img src="report/assets/images/tm-prototype-thumbnail.jpg" width="700" alt="Video de presentación de prototipo"><br>
+</div>
 
 ## 4.6. Domain-Driven Software Architecture. 
 
 ### 4.6.1. Design-Level EventStorming. 
 
-Realizamos una sesión de Design-Level EventStorming tomando como punto de partida los resultados obtenidos en el Big Picture EventStorming. En esta etapa profundizamos en los principales procesos identificados del dominio de FixCore, detallamos los actores, comandos, aggregates, eventos de dominio, reglas de negocio y consultas involucrados en cada flujo. Esto nos ayudo a mejorar el modelo inicial, delimitar las responsabilidades del sistema y establecer una primera definición de los Bounded Contexts, buscando que cada uno mantenga una responsabilidad clara dentro de la arquitectura de la plataforma.
+Realizamos una sesión de Design-Level EventStorming tomando como punto de partida los resultados obtenidos en el Big Picture EventStorming. En esta etapa profundizamos en los principales procesos identificados del dominio de FixCore, detallamos los eventos, actores, comandos, politicas y otros aspectos involucrados en cada flujo. Esto nos ayudo a mejorar el modelo inicial, delimitar las responsabilidades del sistema y establecer una primera definición de los Bounded Contexts, buscando que cada uno mantenga una responsabilidad clara dentro de la arquitectura de la plataforma. Para la elaboración del tablero, se siguieron siete pasos.
+
+
 
 <div align="center">
-  <strong>Gráfico 20:Design-Level EventStorming </strong><br><br>
-  <img src="report/assets/images/Design-Level-Storming.png" width="700"><br>
+  <strong>1. Agregar eventos del dominio</strong><br><br>
+  <img src="report/assets/images/tm-dl-eventstorming-1.png" width="700" alt="Design level Eventstorming 1"><br>
+</div>
+
+
+
+<div align="center">
+  <strong>2. Agregar comandos</strong><br><br>
+  <img src="report/assets/images/tm-dl-eventstorming-2.png" width="700" alt="Design level Eventstorming 2"><br>
+</div>
+
+
+
+<div align="center">
+  <strong>3. Agregar actores y politicas</strong><br><br>
+  <img src="report/assets/images/tm-dl-eventstorming-3.png" width="700" alt="Design level Eventstorming 3"><br>
+</div>
+
+
+
+<div align="center">
+  <strong>4. Agregar Read Models</strong><br><br>
+  <img src="report/assets/images/tm-dl-eventstorming-4.png" width="700" alt="Design level Eventstorming 4"><br>
+</div>
+
+
+
+<div align="center">
+  <strong>5. Agregar sistemas externos</strong><br><br>
+  <img src="report/assets/images/tm-dl-eventstorming-5.png" width="700" alt="Design level Eventstorming 5"><br>
+</div>
+
+
+
+<div align="center">
+  <strong>6. Agregar reglas de negocio</strong><br><br>
+  <img src="report/assets/images/tm-dl-eventstorming-6.png" width="700" alt="Design level Eventstorming 6"><br>
+</div>
+
+
+
+<div align="center">
+<strong>7. Agrupar reglas de negocio</strong><br><br>
+  <img src="report/assets/images/tm-dl-eventstorming-7.png" width="700" alt="Design level Eventstorming 7"><br>
   <em>Fuente: Elaboración propia.</em>
 </div>
 
@@ -3267,7 +3924,7 @@ En esta sección se presenta el Container Diagram de FixCore, elaborado bajo el 
 
 <div align="center">
   <strong></strong><br><br>
-  <img src="report/assets/images/DiagramaContainersFixCore-dark.png" width="700"><br>
+  <img src="report/assets/images/Containers-dark.png" width="700"><br>
   <em>Fuente: Elaboración propia.</em>
 </div>
 
@@ -3277,83 +3934,65 @@ Ahora presentamos los Diagramas de Componentes de FixCore, desarrollados a parti
 
 * **1.Diagrama de Componentes – Aplicación Web**
 
-Este diagrama muestra la descomposición de la Aplicación Web de FixCore. Se presentan los componentes responsables de la navegación, autenticación, gestión de activos, mantenimiento preventivo, fallas y ordenes de trabajo, inventario, reportes y notificaciones. Los componentes utilizan un Cliente API para comunicarse con la API REST.
+Este diagrama muestra la estructura visual de la plataforma. Contiene los componentes responsables de la autenticación, gestión de plantas, activos, mantenimiento, inventario, reportes y notificaciones, los cuales envían las peticiones al backend.
+
 <div align="center">
   <strong></strong><br><br>
-  <img src="report/assets/images/ComponentesAplicacionWeb-dark.png" width="700"><br>
+  <img src="report/assets/images/Componentes_WebApp-dark.png" width="700"><br>
   <em>Fuente: Elaboración propia.</em>
 </div>
 
 
 * **2.Diagrama de Componentes – API REST**
 
-Este diagrama representa la estructura interna de la API REST de FixCore. Se muestran los controladores encargados de recibir y gestionar las solicitudes relacionadas con autenticación, usuarios, activos, mantenimiento, fallas, órdenes de trabajo, inventario y reportes, funcionando como punto de comunicación entre la Aplicación Web y los servicios del sistema.
+Este diagrama representa la capa principal de entrada del backend. Se muestran los controladores encargados de recibir las peticiones de la web, apoyados por el componente de seguridad y el manejador de errores.
 <div align="center">
   <strong></strong><br><br>
-  <img src="report/assets/images/ComponentesApiRest-dark.png" width="700"><br>
+  <img src="report/assets/images/Componentes_API_REST-dark.png" width="700"><br>
   <em>Fuente: Elaboración propia.</em>
 </div>
 
 * **3.Diagrama de Componentes – Identidad y Acceso**
 
-Este diagrama presenta los componentes encargados de la gestión de identidad y acceso en FixCore.Incluimos la autenticacion,gestión de usuarios, roles, permisos y recuperación de acceso, además del parte responsable de la persistencia de esta información en la Base de Datos de Identidad.
+Este diagrama detalla los componentes internos encargados de la seguridad. Muestra cómo se gestionan las cuentas de usuarios, roles, sesiones activas y la validación de credenciales directamente con la base de datos.
 
 <div align="center">
   <strong></strong><br><br>
-  <img src="report/assets/images/ComponentesIdentidadAcceso-dark.png" width="700"><br>
+  <img src="report/assets/images/Componentes_Identidad-dark.png" width="700"><br>
   <em>Fuente: Elaboración propia.</em>
 </div>
 
 
 * **4.Diagrama de Componentes – Recursos y Activos**
 
-Este diagrama muestra la descomposición del servicio encargado de administrar los recursos y activos industriales. Sus componentes permiten gestionar plantas, activos, fichas técnicas, manuales e historial de los activos, utilizando un repositorio para almacenar y consultar la información correspondiente.
+Este diagrama presenta la lógica interna para la administración de las instalaciones. Incluye los componentes que gestionan las plantas industriales, las máquinas, las fichas técnicas y el historial de mantenimiento.
 
 <div align="center">
   <strong></strong><br><br>
-  <img src="report/assets/images/ComponentesRecursosActivos-dark.png" width="700"><br>
+  <img src="report/assets/images/Componentes_Activos-dark.png" width="700"><br>
   <em>Fuente: Elaboración propia.</em>
 </div>
 
-* **5.Diagrama de Componentes – Diseño y planificacion**
+* **5.Diagrama de Componentes – Ejecución y Monitoreo**
 
-Este diagrama representa los componentes relacionados con el diseño y planificación del mantenimiento preventivo. Incluye la gestion de planes, programacion, reprogramacion, calendario y control de vencimientos. El repositorio de planificacion permite almacenar y consultar la informacion necesaria para gestionar las actividades programadas.
+Este diagrama describe el flujo de trabajo operativo diario. Presenta los componentes para el registro de fallas, creación de órdenes de trabajo, asignación de técnicos, registro de tareas y el envío de alertas por WhatsApp.
 
 <div align="center">
   <strong></strong><br><br>
-  <img src="report/assets/images/ComponentesPlanificacion-dark.png" width="700"><br>
+  <img src="report/assets/images/Componentes_Ejecucion-dark.png" width="700"><br>
   <em>Fuente: Elaboración propia.</em>
 </div>
 
-* **6.Diagrama de Componentes – Ejecución y Monitoreo**
+* **6.Diagrama de Componentes – Inventario y Repuestos**
 
-Este diagrama muestra los componentes principales para la ejecucion del mantenimiento en FixCore. Incluye la gestion de fallas,ordenes de trabajo, cuando se asigna un tecnico, la ejecucion, registro de actividades, cierre y gestión de alertas. Tambien se incorpora el cliente de notificaciones WhatsApp y el repositorio encargado de persistir la información de ejecucion.
+Este diagrama muestra los componentes enfocados en el control del almacén. Incluye la administración del inventario, catálogo de repuestos, control de cantidades disponibles (stock), registro de movimientos y las alertas de escasez.
 
 <div align="center">
   <strong></strong><br><br>
-  <img src="report/assets/images/ComponentesEjecucionMonitoreo-dark.png" width="700"><br>
+  <img src="report/assets/images/Componentes_Inventario-dark.png" width="700"><br>
   <em>Fuente: Elaboración propia.</em>
 </div>
 
-* **7.Diagrama de Componentes – Inventario y Repuestos**
-
-Este diagrama representa los componentes responsables de administrar el inventario y los repuestos que se usaron en las actividades de mantenimiento. Incluye la gestion de inventario,control de stock, consumo, movimientos y alertas de stock, ademas de la persistencia de datos.
-
-<div align="center">
-  <strong></strong><br><br>
-  <img src="report/assets/images/ComponentesInventarioRepuestos-dark.png" width="700"><br>
-  <em>Fuente: Elaboración propia.</em>
-</div>
-
-* **8.Diagrama de Componentes – Panel y Reportes**
-
-Este diagrama muestra la estructura interna del servicio encargado de proporcionar información para el analisis,sus componentes permiten consultar KPIs, metricas de mantenimiento y operativas, desempeño de técnicos, generar reportes y preparar la informacion para el panel de control.
-
-<div align="center">
-  <strong></strong><br><br>
-  <img src="report/assets/images/ComponentesPanelReportes-dark.png" width="700"><br>
-  <em>Fuente: Elaboración propia.</em>
-</div>
 
 ## 4.7. Software Object-Oriented Design. 
 
@@ -3365,22 +4004,22 @@ Se presentan los diagramas de clases UML de cada bounded context, mostrando sus 
 
 #### 4.7.1.1. Class Diagram – Identity & Access Management
 
-![](report/assets/images/class_diagram-BC1.png)
+![](report/assets/images/ClassD-BC1.png)
 
 #### 4.7.1.2. Class Diagram – Resource & Asset Management
 
-![](report/assets/images/class_diagram-BC2.png)
+![](report/assets/images/ClassD-BC2.png)
 #### 4.7.1.3. Class Diagram – Service Design & Planning
 
-![](report/assets/images/class_diagram-BC3.png)
+![](report/assets/images/ClassD-BC3.png)
 
 #### 4.7.1.4. Class Diagram – Service Execution & Monitoring
 
-![](report/assets/images/class_diagram-BC4.png)
+![](report/assets/images/ClassD-BC4.png)
 
 #### 4.7.1.5. Class Diagram – Inventory & Spare Parts Management
 
-![](report/assets/images/class_diagram-BC5.png)
+![](report/assets/images/ClassD-BC5.png)
 
 
 ## 4.8. Database Design. 
@@ -3395,7 +4034,7 @@ En este apartado mostramos los Database Diagrams correspondientes a cada Bounded
 
 <div align="center">
   <strong></strong><br><br>
-  <img src="report/assets/images/bc1.png" width="700"><br>
+  <img src="report/assets/images/bc1.png" width="700">
   <em>Fuente: Elaboración propia.</em>
 </div>
 
@@ -3431,6 +4070,9 @@ En este apartado mostramos los Database Diagrams correspondientes a cada Bounded
   <em>Fuente: Elaboración propia.</em>
 </div>
 
+
+
+<div style="page-break-after: always;"></div>
 
 # Capítulo V: Product Implementation, Validation & Deployment  
 
@@ -3481,6 +4123,7 @@ En esta sección se encuentran las herramientas usadas por los integrantes del e
 |:-------|:---------------|:-----------------|
 |Visual Studio Code |Usado para el desarrollo de la Landing Page|https://code.visualstudio.com/
 |Git|Control de versiones|https://git-scm.com/
+|JetBrains Webstorm|Usado para el desarrollo del frontend web application|https://www.jetbrains.com/es-es/|
 ||||
 
 **Software Deployment** 
@@ -3490,6 +4133,8 @@ Se presentan los productos usados para el despliegue de nuestros productos de so
 |Producto|Proposito de uso|Ruta de referencia|
 |:-------|:---------------|:-----------------|
 |GitHub Pages|Plataforma de despliegue para el landing page|https://docs.github.com/es/pages
+|Vercel|Despliegue de paginas frontend|https://vercel.com/|
+|Render|Despliegue de servicios web|https://render.com/|
 ||||
 
 **Software Documentation**
@@ -3534,7 +4179,7 @@ A fin de asegurar la calidad, mantenibilidad y legibilidad del código a lo larg
 
 El proceso de despliegue de la solución busca garantizar que, desde el repositorio de código fuente, se pueda realizar correctamente la publicación del producto digital correspondiente.
 
-#### Landing Page
+**Landing Page**
 
 * Entorno de destino: GitHub Pages
 
@@ -3543,265 +4188,644 @@ El proceso de despliegue de la solución busca garantizar que, desde el reposito
 
 ## 5.2. Landing Page, Services & Applications Implementation. 
 
-### 5.2.1. Sprint 1 
-En esta sección registramos y explicamos el avance del equipo durante el Sprint 1, tanto en términos del desarrollo del producto en este caso el Landing Page,como en el trabajo colaborativo. El objetivo central de esta iteración fue la construcción y despliegue del sitio web estático que presenta el modelo de negocio de FixCore  
-#### 5.2.1.1. Sprint Planning 1. 
+### 5.2.1. Sprint 1
 
-<div align="center">
-<table border="1">
-  <tr>
-    <th> Sprint #
-    </th>
-    <th> Sprint 1
-    </td>
-  </tr>
-  <tr>
-    <th> Sprint Planning Background
-    </th>
-  </tr>
+Durante el Sprint 1, el equipo TechMakers trabajó en el desarrollo y despliegue de la Landing Page de FixCore, con el objetivo de presentar la propuesta de valor del producto y dar a conocer sus principales funcionalidades a los segmentos definidos. En esta etapa nos enfocamos en implementar un sitio web informativo, responsivo y accesible desde distintos dispositivos.
 
-  <tr>
-    <th> Date
-    </th>
-    <td> 2026-09-11
-    </td>
-  </tr>
+A continuación, se presentan la planificación del sprint, las responsabilidades de cada integrante, el Sprint Backlog, las evidencias de desarrollo y despliegue, y los resultados del trabajo colaborativo.
 
-  <tr>
-    <th> Time
-    </th>
-    <td> 7:00 PM - 8:PM
-    </td>
-  </tr>
+#### 5.2.1.1. Sprint Planning 1.
 
-  <tr>
-    <th> Location
-    </th>
-    <td> Discord
-    </td>
-  </tr>
+La planificación del Sprint 1 se realizó mediante una reunión virtual en Discord. Durante esta sesión, definimos el objetivo del sprint, seleccionamos las User Stories relacionadas con la Landing Page y distribuimos las responsabilidades de implementación entre los integrantes del equipo.
 
-  <tr>
-    <th> Prepared By
-    </th>
-    <td> Alvar Lucas Córdova 
-    </td>
-  </tr>
+| Campo | Información |
+|---|---|
+| Sprint # | Sprint 1 |
+| **Sprint Planning Background** | |
+| Date | 2026-09-11 |
+| Time | 7:00 PM - 8:00 PM |
+| Location | Discord |
+| Prepared By | Alvar Lucas Córdova |
+| Attendees | Sunio Danilo Landa Sánchez, Giuseppe Adrián Villanueva Rodríguez, Diego Rances Rojas Huaranga y Pierre Alessandro Mendoza Boluarte |
+| **Sprint Goal & User Stories** | |
+| Sprint 1 Goal | **Our focus is on** developing and deploying a responsive Landing Page that clearly presents FixCore and its value proposition. **We believe it delivers** accessible information about the product, its main features, benefits, subscription plans and frequently asked questions for the defined target segments. **This will be confirmed when** the Landing Page is published on GitHub Pages and visitors can navigate its main sections from desktop and mobile devices. |
+| Sprint 1 Velocity | 6 Story Points completados |
+| Sum of Story Points | 7 Story Points planificados |
 
-  <tr>
-    <th> Attendees
-    </th>
-    <td> Sunio Danilo Landa Sánchez<br>Giuseppe Adrián Villanueva Rodríguez<br>Diego Rances Rojas Huaranga<br>Pierre Alessandro Mendoza Boluarte
-    </td>
-    
-  </tr>
+Para este sprint se seleccionaron cinco User Stories relacionadas con la presentación de FixCore: US59, US60, US61, US62 y US63. Estas historias suman 7 Story Points en el Product Backlog.
 
-  <tr>
-    <th colspan="2"> Sprint Goal & User Stories
-    </th>
-  </tr>
+Se completaron las funcionalidades informativas principales, correspondientes a 6 Story Points. La US63 requiere terminar de habilitar el acceso a los términos y condiciones desde el Footer para considerarse completamente finalizada.
 
-  <tr>
-    <th> Sprint 1 Goal
-    </th>
-    <td> 
-    <b>Our focus is on</b> deploying a clear, responsive, and functional Landing Page that effectively presents the core benefits of the FixCore industrial maintenance platform.<br><br>
-      <b>We believe it delivers</b> a professional first impression and increases trust by providing clear value propositions to our target segments: Plant Managers, Technicians, and Industrial Consultants.<br><br>
-      <b>This will be confirmed when</b> the landing page is successfully deployed and visitors can navigate
-    </td>
-  </tr>
+#### 5.2.1.2. Aspect Leaders and Collaborators.
 
-  <tr>
-    <th> Sprint 1 Velocity
-    </th>
-    <td> 9
-    </td>
-  </tr>
+Para organizar el trabajo del Sprint 1, elaboramos una Leadership and Collaboration Matrix en la que se asignó un responsable principal para cada sección de la Landing Page. Los demás integrantes participaron como colaboradores, apoyando en la revisión de las interfaces, integración de cambios y correcciones necesarias.
 
-  <tr>
-    <th> Sum of Story Points
-    </th>
-    <td> 9
-    </td>
-  </tr>
-</table>
-</div>
+En la siguiente matriz, **L** representa al líder de la actividad y **C** a los colaboradores.
 
-#### 5.2.1.2. Aspect Leaders and Collaborators. 
-
-A continuación se presenta la Leadership and Collaboration Matrix elaborada para el desarrollo de este Sprint 1 con el despliegue de la Landing Page
-
-
-| Team Member (Last Name, First Name) | GitHub Username| Landing Page Hero & Navbar<br>Leader (L) / Collaborator (C) | Features & Usage Guide Section<br>Leader (L) / Collaborator (C) | Segmented Benefits & Testimonials<br>Leader (L) / Collaborator (C) | Monthly & Annual Pricing Views<br>Leader (L) / Collaborator (C) | FAQ Component & Support<br>Leader (L) / Collaborator (C) |
-| ----------------------------------- | ------------------------------------------------ | ------------------------------------------------------ | ----------------------------------------------------------------------- | ---------------------------------------------------------- | ----------------------------------------------------------- | --------------------------------------------------------------- |
+| Team Member (Last Name, First Name) | GitHub Username | Landing Page Hero & Navbar | Features & Usage Guide Section | Segmented Benefits & Testimonials | Monthly & Annual Pricing Views | FAQ Component & Support |
+|---|---|---|---|---|---|---|
 | Rojas Huaranga, Diego Rances | diego27-16 | L | C | C | C | C |
 | Mendoza Boluarte, Pierre Alessandro | pierreale2302 | C | L | C | C | C |
 | Córdova, Alvar Lucas | AlvarLC | C | C | L | C | C |
 | Landa Sánchez, Sunio Danilo | DanLandio | C | C | C | L | C |
 | Villanueva Rodríguez, Giuseppe Adrián | Giuseppe152004 | C | C | C | C | L |
 
+Esta distribución permitió que cada integrante se concentrara en una sección específica del sitio, mientras el resto del equipo brindaba apoyo cuando era necesario. De esta manera, pudimos desarrollar las diferentes partes de la Landing Page en paralelo y posteriormente integrarlas en una misma versión.
 
+#### 5.2.1.3. Sprint Backlog 1.
 
-#### 5.2.1.3. Sprint Backlog 1. 
+El Sprint Backlog 1 reúne las tareas que definimos para implementar las secciones principales de la Landing Page de FixCore. Estas actividades están relacionadas con cinco User Stories del Product Backlog y fueron distribuidas entre los integrantes del equipo según las responsabilidades establecidas durante la planificación.
 
-El objetivo principal del Sprint 1 fue desarrollar la Landing Page de FixCore con las principales secciones e informacion dirigida a los segmentos definidos para la plataforma. 
+Para hacer seguimiento a las actividades utilizamos Trello, donde registramos las tareas asignadas, sus responsables y sus estados durante el desarrollo del sprint.
 
-Enlace al tablero publico en Trello: 
+**Enlace al Sprint Backlog 1:**
 
 [Tablero Trello Sprint Backlog 1](https://trello.com/b/8ilypk4J/sprint-backlog-1-techmakers)
 
+| Story ID | Story Title | Task ID | Task Title | Task Description | Estimation (hours) | Assigned To | Status |
+|---|---|---|---|---|---|---|---|
+| US59 | Conocer FixCore | T001 | Develop Landing Page Hero | Implementar la sección principal del Hero con la propuesta de valor y el llamado a la acción de FixCore. | 2 | Rojas Huaranga, Diego Rances | Done |
+| US59 | Conocer FixCore | T002 | Add Landing Page Navbar | Implementar la barra de navegación con el logo, enlaces a las secciones de FixCore y diseño responsivo. | 2 | Rojas Huaranga, Diego Rances | Done |
+| US60 | Conocer funcionalidades de FixCore | T003 | Develop Features Section | Desarrollar la sección que presenta las funcionalidades principales de FixCore y la vista referencial del dashboard. | 3 | Mendoza Boluarte, Pierre Alessandro | Done |
+| US60 | Conocer funcionalidades de FixCore | T004 | Design User Guide Section | Diseñar e implementar los pasos explicativos sobre el funcionamiento general de FixCore. | 2 | Mendoza Boluarte, Pierre Alessandro | Done |
+| US61 | Conocer beneficios según el segmento | T005 | Write Benefits for Each Segment | Redactar e implementar la sección de beneficios de FixCore adaptada a los diferentes segmentos objetivo. | 2 | Córdova, Alvar Lucas | Done |
+| US61 | Conocer beneficios según el segmento | T006 | Add User Testimonials | Diseñar e incorporar una sección de testimonios ilustrativos para presentar situaciones de uso y beneficios esperados de FixCore. | 2 | Córdova, Alvar Lucas | Done |
+| US62 | Consultar planes de FixCore | T007 | Develop Monthly Pricing Plans | Implementar las tarjetas de planes de suscripción, mostrando sus características y tarifas mensuales. | 2 | Landa Sánchez, Sunio Danilo | Done |
+| US62 | Consultar planes de FixCore | T008 | Develop Annual Pricing Plans | Implementar la funcionalidad para alternar entre los precios mensuales y anuales. | 2 | Landa Sánchez, Sunio Danilo | Done |
+| US63 | Consultar información adicional de FixCore | T009 | Add Frequently Asked Questions | Implementar la sección de preguntas frecuentes y el Footer para resolver dudas adicionales de los visitantes. | 3 | Villanueva Rodríguez, Giuseppe Adrián | Done |
+| US63 | Consultar información adicional de FixCore | T010 | Write Terms and Conditions | Redactar los términos y condiciones de FixCore y habilitar su consulta desde el enlace correspondiente del Footer. | 2 | Villanueva Rodríguez, Giuseppe Adrián | In Progress |
+
+Durante el desarrollo del Sprint 1 se implementaron las secciones principales del sitio, incluyendo el Hero, Navbar, funcionalidades, guía de uso, beneficios por segmento, testimonios ilustrativos, planes de suscripción, preguntas frecuentes y Footer.
+
+La sección de preguntas frecuentes y el Footer se encuentran implementados. Sin embargo, todavía se debe completar el acceso a los términos y condiciones, debido a que el enlace correspondiente no dirige a una página con esa información.
+
+#### 5.2.1.4. Development Evidence for Sprint Review.
+
+Durante el Sprint 1 utilizamos Git y GitHub para gestionar los cambios realizados en el código fuente de la Landing Page. Cada integrante trabajó en las funcionalidades asignadas y registró sus avances mediante commits.
+
+La siguiente tabla presenta algunos de los commits realizados durante el desarrollo del sitio. Estos registros permiten identificar los cambios incorporados, las ramas utilizadas y las fechas en las que se realizaron.
+
+| Repository | Branch | Commit ID | Commit Message | Commit Message Body | Committed on |
+|---|---|---|---|---|---|
+| Landing-Page | feature/landing-page-presentation | 0128950 | feat: Enhance index.html with meta tags and header structure | | Sep 19, 2026 |
+| Landing-Page | feature/landing-page-presentation | 18ee3c6 | styles: Add base styles and CSS variables | | Sep 19, 2026 |
+| Landing-Page | feature/landing-page-presentation | 51ba71f | Merge pull request #1 from TechMakers-upc/Feature/landing-page | | Sep 19, 2026 |
+| Landing-Page | feature/functions-landing | c7507e1 | feat(landing): implement features section and add UI assets | | Sep 19, 2026 |
+| Landing-Page | feature/functions-landing | c0f0ae4 | Merge pull request #3 from TechMakers-upc/feature/functions-landing | | Sep 19, 2026 |
+| Landing-Page | feature/benefints-landing-page | ef53f10 | Update index.html | | Sep 19, 2026 |
+| Landing-Page | feature/benefints-landing-page | 2b78517 | Merge pull request #4 from TechMakers-upc/feature/Benefits-Landing-Page | | Sep 19, 2026 |
+| Landing-Page | main | eb0f365 | feat: add subscription plans information cards | | Sep 19, 2026 |
+
+Los commits muestran parte del proceso de implementación de las distintas secciones de la Landing Page. La integración de estos cambios permitió reunir las funcionalidades desarrolladas por el equipo en una versión compartida del sitio web.
+
+#### 5.2.1.5. Execution Evidence for Sprint Review.
+
+**Video de presentación del Sprint 1:** [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423973_upc_edu_pe/IQD6WLEWUP5oQLbSvCXtwgcqAZEWm3YKXW1kVty23sprr_g?e=01QNKW)
+
+En esta sección presentamos las evidencias visuales de las funcionalidades implementadas durante el Sprint 1. Las capturas corresponden a la primera versión de la Landing Page y muestran las principales secciones desarrolladas.
+
+**1. Navbar y Hero Section**
+
+Implementamos el encabezado principal de la Landing Page, compuesto por el logo de FixCore, el menú de navegación y la sección Hero. Esta última presenta la propuesta de valor del producto y permite que los visitantes conozcan su propósito desde el inicio.
+
+![Navbar y Hero Section](report/assets/images/nav-hero.png)
+
+**2. Funcionalidades y guía de uso**
+
+Desarrollamos una sección informativa que presenta las principales funcionalidades propuestas para FixCore. También incorporamos una guía visual que explica cómo se utilizaría la plataforma para organizar actividades de mantenimiento industrial.
+
+La finalidad de estas secciones es que los visitantes comprendan las capacidades de la solución antes de acceder a la aplicación.
+
+![Funcionalidades de FixCore](report/assets/images/funcionalidades.png)
+
+![Guía de uso de FixCore](report/assets/images/flujo.png)
+
+**3. Beneficios por segmento y testimonios**
+
+Implementamos una sección de beneficios orientada a los segmentos objetivo de FixCore. En ella se presentan las ventajas esperadas de la plataforma para pymes manufactureras, firmas contratistas y personal técnico de mantenimiento.
+
+También incorporamos testimonios ilustrativos que muestran situaciones relacionadas con los problemas que FixCore busca resolver. Estos ejemplos forman parte de la presentación de la propuesta y no constituyen resultados comprobados de clientes que ya utilizan el producto.
+
+![Beneficios de FixCore](report/assets/images/soluciones.png)
+
+![Testimonios ilustrativos](report/assets/images/testimonios.png)
+
+**4. Planes y precios**
+
+Desarrollamos la sección de suscripciones, donde los visitantes pueden revisar los planes propuestos para FixCore y comparar sus características principales.
+
+Además, implementamos un selector que permite alternar entre la visualización de precios mensuales y anuales sin necesidad de cambiar de página.
+
+![Planes y precios de FixCore](report/assets/images/planes.png)
+
+**5. Preguntas frecuentes y Footer**
+
+Implementamos la sección de preguntas frecuentes para ofrecer respuestas a dudas habituales relacionadas con FixCore, sus funcionalidades y sus planes.
+
+Asimismo, desarrollamos el Footer con enlaces de navegación e información adicional del producto. El acceso al contenido de términos y condiciones permanece pendiente de completarse.
+
+![Preguntas frecuentes](report/assets/images/preguntas.png)
+
+![Footer de FixCore](report/assets/images/footer.png)
+
+#### 5.2.1.6. Services Documentation Evidence for Sprint Review.
+
+Durante el Sprint 1 nos concentramos en desarrollar la Landing Page de FixCore como un sitio web informativo. Las actividades realizadas abarcaron la implementación de sus secciones visuales, la navegación entre contenidos, la presentación de planes y la interacción con las preguntas frecuentes.
+
+La Landing Page fue desarrollada utilizando tecnologías web como HTML, CSS y JavaScript. Su funcionamiento no requiere una base de datos ni una API REST para presentar la información al visitante.
+
+Por este motivo, durante este sprint no se implementaron Web Services, endpoints o servicios de backend relacionados con la gestión del mantenimiento industrial. Estas funcionalidades corresponden a etapas posteriores del desarrollo de FixCore.
+
+En consecuencia, no se presentan endpoints ni documentación de servicios REST en esta entrega, debido a que no formaron parte del alcance del Sprint 1.
+
+#### 5.2.1.7. Software Deployment Evidence for Sprint Review.
+
+Al finalizar el desarrollo de la Landing Page, realizamos su publicación mediante GitHub Pages. De esta manera, el sitio quedó disponible a través de un enlace público y puede consultarse desde un navegador sin necesidad de descargar o ejecutar el proyecto localmente.
+
+El repositorio de la Landing Page contiene el código fuente, los estilos y los recursos utilizados para presentar FixCore. También incluye versiones del sitio en español e inglés.
+
+La versión publicada presenta las secciones desarrolladas durante el sprint: Navbar, Hero, funcionalidades, guía de uso, beneficios, testimonios ilustrativos, planes de precios, preguntas frecuentes y Footer.
+
+**Repositorio de código fuente:**
+
+https://github.com/TechMakers-upc/Landing-Page
+
+**Landing Page desplegada:**
+
+https://techmakers-upc.github.io/Landing-Page/
+
+A continuación, se presentan las capturas utilizadas para registrar el despliegue de la Landing Page en GitHub Pages.
+
+![Despliegue de Landing Page en GitHub Pages](report/assets/images/pages.png)
+
+![Evidencia de despliegue](report/assets/images/evidence.png)
+
+#### 5.2.1.8. Team Collaboration Insights during Sprint.
+
+Durante el Sprint 1 organizamos las actividades de desarrollo mediante la distribución de responsabilidades entre los cinco integrantes de TechMakers. Cada miembro asumió el liderazgo de una sección de la Landing Page y colaboró con el resto del equipo durante las revisiones e integración de los cambios.
+
+Para coordinar el trabajo utilizamos reuniones virtuales, Trello y GitHub. El tablero del Sprint Backlog nos permitió mantener un seguimiento de las tareas, mientras que el repositorio registró los commits y las contribuciones realizadas por los integrantes.
+
+Trabajar con ramas independientes facilitó el desarrollo paralelo de las secciones. Sin embargo, durante la integración encontramos algunos problemas relacionados con traducciones, espaciados, colores y diferencias entre componentes. Estos detalles requirieron ajustes adicionales para mantener una presentación uniforme.
+
+A partir de esta experiencia identificamos la importancia de mantener convenciones comunes de diseño y desarrollo, revisar los cambios antes de integrarlos y comunicar oportunamente las dificultades encontradas.
+
+El trabajo realizado permitió completar la estructura principal de la Landing Page y publicarla mediante GitHub Pages. Asimismo, las actividades del sprint nos ayudaron a mejorar la organización del equipo y establecer una base para las siguientes etapas del proyecto.
+
+**Métricas de colaboración:**
+
+![Métricas de colaboración del Sprint 1](report/assets/images/insight.png)
 <div align="center">
-<table border="1">
-  <tr>
-    <th>Sprint #</th>
-    <th colspan="7">Sprint 1</th>
-  </tr>
-
-  <tr>
-    <th colspan="2">User Story</th>
-    <th colspan="6">Work Item / Task</th>
-  </tr>
-
-  <tr>
-    <th>Story ID</th>
-    <th>Story Title</th>
-    <th>Task ID</th>
-    <th>Task Title</th>
-    <th>Task Description</th>
-    <th>Estimation (hours)</th>
-    <th>Assigned To</th>
-    <th>Status</th>
-  </tr>
-
-  <tr>
-    <td rowspan="2">US59</td>
-    <td rowspan="2">Conocer FixCore</td>
-    <td>T001</td>
-    <td>Develop Landing Page Hero</td>
-    <td>Implementar la sección principal del Hero con la propuesta de valor y el llamado a la acción de FixCore.</td>
-    <td>2</td>
-    <td>Rojas Huaranga, Diego Rances</td>
-    <td>Done</td>
-  </tr>
-
-  <tr>
-    <td>T002</td>
-    <td>Add Landing Page Navbar</td>
-    <td>Implementar la barra de navegación con logo, enlaces a las secciones de FixCore y diseño responsivo.</td>
-    <td>2</td>
-    <td>Rojas Huaranga, Diego Rances</td>
-    <td>Done</td>
-  </tr>
-  <tr>
-    <td rowspan="2">US60</td>
-    <td rowspan="2">Conocer funcionalidades de FixCore</td>
-    <td>T003</td>
-    <td>Develop Features Section</td>
-    <td>Desarrollar la vista que detalla las funcionalidades principales y el dashboard de la plataforma FixCore.</td>
-    <td>3</td>
-    <td>Mendoza Boluarte, Pierre Alessandro</td>
-    <td>Done</td>
-  </tr>
-
-  <tr>
-    <td>T004</td>
-    <td>Design User Guide Section</td>
-    <td>Diseñar e implementar los pasos explicativos (System Preview) sobre cómo funciona y se usa FixCore.</td>
-    <td>2</td>
-    <td>Mendoza Boluarte, Pierre Alessandro</td>
-    <td>Done</td>
-  </tr>
-  <tr>
-    <td rowspan="2">US61</td>
-    <td rowspan="2">Conocer beneficios según el segmento</td>
-    <td>T005</td>
-    <td>Write Benefits for Each Segment</td>
-    <td>Redactar e implementar la sección de beneficios de FixCore adaptada a los diferentes segmentos objetivo.</td>
-    <td>2</td>
-    <td>Córdova, Alvar Lucas</td>
-    <td>Done</td>
-  </tr>
-
-  <tr>
-    <td>T006</td>
-    <td>Add User Testimonials</td>
-    <td>Diseñar e incorporar la sección de testimonios para respaldar el uso de FixCore.</td>
-    <td>2</td>
-    <td>Córdova, Alvar Lucas</td>
-    <td>Done</td>
-  </tr>
-  <tr>
-    <td rowspan="2">US62</td>
-    <td rowspan="2">Consultar planes de FixCore</td>
-    <td>T007</td>
-    <td>Develop Monthly Pricing Plans</td>
-    <td>Implementar la tarjeta de planes de suscripción mostrando sus características y tarifa mensual.</td>
-    <td>2</td>
-    <td>Landa Sánchez, Sunio Danilo</td>
-    <td>Done</td>
-  </tr>
-  <tr>
-    <td>T008</td>
-    <td>Develop Annual Pricing Plans</td>
-    <td>Implementar la funcionalidad para alternar visualmente a la vista de facturación con precio anual.</td>
-    <td>2</td>
-    <td>Landa Sánchez, Sunio Danilo</td>
-    <td>Done</td>
-  </tr>
-  <tr>
-    <td rowspan="2">US63</td>
-    <td rowspan="2">Consultas adicionales sobre FixCore</td>
-    <td>T009</td>
-    <td>Add Frequently Asked Questions</td>
-    <td>Implementar la sección de FAQ (preguntas frecuentes) y el Footer para resolver dudas adicionales de FixCore.</td>
-    <td>3</td>
-    <td>Villanueva Rodríguez, Giuseppe Adrián</td>
-    <td>Done</td>
-  </tr>
-
-  <tr>
-    <td>T010</td>
-    <td>Write Terms and Conditions</td>
-    <td>Redactar e implementar la sección de términos y condiciones de uso de la plataforma FixCore.</td>
-    <td>2</td>
-    <td>Villanueva Rodríguez, Giuseppe Adrián</td>
-    <td>Done</td>
-  </tr>
-
-</table>
+  <img src="report/assets/images/insight.png" width="700"><br>
 </div>
 
-#### 5.2.1.4. Development Evidence for Sprint Review. 
-
-Los principales avances en la implementación durante este sprint fueron 
-
-|Repository|Branch|Commit Id|Commit Message|Commit Message Body|Commited on|
-|:---------|:-----|:--------|:-------------|:------------------|:----------|
-|Landing-Page|feature/landing-page-presentation|0128950|feat: Enhance index.html with meta tags and header structure||Sep 19, 2026|
-|Landing-Page|feature/landing-page-presentation|18ee3c6|styles: Add base styles and CSS variables||Sep 19, 2026|
-|Landing-Page|feature/landing-page-presentation|51ba71f|Merge pull request #1 from TechMakers-upc/Feature/landing-page||Sep 19, 2026|
-|Landing-Page|feature/functions-landing|c7507e1|feat(landing): implement features section and add UI assets||Sep 19, 2026|
-|Landing-Page|feature/functions-landing|c0f0ae4|Merge pull request #3 from TechMakers-upc/feature/functions-landing||Sep 19, 2026|
-|Landing-Page|feature/benefints-landing-page|ef53f10|Update index.html||Sep 19, 2026|
-|Landing-Page|feature/benefints-landing-page|2b78517|Merge pull request #4 from TechMakers-upc/feature/Benefits-Landing-Page||Sep 19, 2026|
-|Landing-Page|main|eb0f365|feat: add subscription plans information cards||Sep 19, 2026|
 
 
-#### 5.2.1.5. Execution Evidence for Sprint Review. 
+<div style="page-break-after: always;"></div>
 
 
-#### 5.2.1.6. Services Documentation Evidence for Sprint Review. 
 
 
-#### 5.2.1.7. Software Deployment Evidence for Sprint Review. 
+### 5.2.2. Sprint 2.
 
-#### 5.2.1.8. Team Collaboration Insights during Sprint. 
+Durante el Sprint 2, el equipo TechMakers se enfocará en desarrollar las interfaces principales de la Web Application de FixCore, tomando como referencia las User Stories definidas en el Product Backlog.
 
-A continuación se presentan los aportes realizados por todos los integrantes del grupo.
+A diferencia del Sprint 1, que estuvo dedicado a la Landing Page, esta iteración estará orientada al frontend de la plataforma de mantenimiento industrial. Se propone trabajar las interfaces relacionadas con la gestión de plantas y máquinas, mantenimiento preventivo, fallas, órdenes de trabajo, inventario de repuestos, dashboard y acceso desde la Landing Page.
 
-# Conclusiones 
+Se han identificado 27 User Stories relacionadas con estas funcionalidades, que suman 88 Story Points según las estimaciones originales del Product Backlog. Estas historias representan la cobertura funcional que el equipo desea abordar a nivel de frontend y no implican que todas puedan considerarse completadas durante esta iteración.
 
-## 5. Conclusiones
+Para las demostraciones se utilizarán datos simulados y validaciones del lado del cliente. El backend, los servicios RESTful, la base de datos y las funcionalidades de Identity and Access Management (IAM) quedan fuera del alcance del Sprint 2.
+
+#### 5.2.2.1. Sprint Planning 2.
+
+La planificación del Sprint 2 considera los resultados obtenidos durante el Sprint 1 y las funcionalidades principales de FixCore. Para esta iteración se plantea distribuir el desarrollo del frontend por módulos, de modo que los cinco integrantes puedan trabajar en diferentes interfaces y posteriormente integrar sus avances en una misma aplicación web.
+
+| Campo | Información |
+|---|---|
+| Sprint # | Sprint 2 |
+| **Sprint Planning Background** | |
+| Date | 2026-10-08 |
+| Time | 2:00 AM - 2:45 AM |
+| Location | Meeting |
+| Prepared By | Alvar Lucas Córdova |
+| Attendees | Alvar Lucas Córdova, Sunio Danilo Landa Sánchez, Giuseppe Adrián Villanueva Rodríguez, Diego Rances Rojas Huaranga y Pierre Alessandro Mendoza Boluarte (participación prevista) |
+| Sprint 1 Review Summary | Durante el Sprint 1 se implementó la estructura principal de la Landing Page de FixCore, incluyendo sus secciones informativas, navegación, beneficios, planes y preguntas frecuentes. Posteriormente se realizaron correcciones relacionadas con las traducciones, enlaces y páginas informativas. |
+| Sprint 1 Retrospective Summary | Se identificó la importancia de mantener convenciones comunes de desarrollo, mejorar la coordinación entre integrantes y realizar revisiones antes de integrar los cambios. Para el Sprint 2 se propone organizar las responsabilidades por módulos y realizar pruebas de integración durante el desarrollo. |
+| **Sprint Goal & User Stories** | |
+| Sprint 2 Goal | **Our focus is on** developing the main frontend interfaces of the FixCore Web Application, covering asset management, preventive maintenance, failure reporting, work orders, spare parts inventory, operational dashboards, and navigation from the Landing Page. **We believe it delivers** an integrated and navigable frontend prototype that allows users to explore the main modules and interact with representative maintenance workflows using simulated data. **This will be confirmed when** the planned interfaces are integrated, their navigation and validations are tested, and the frontend is accessible through a deployed application. |
+| Sprint 1 Velocity Reference | 6 Story Points completados |
+| Sprint 2 Velocity | No calculada: las User Stories completas están pendientes de validación |
+| User Stories Considered for Frontend Coverage | 27 |
+| Associated Product Backlog Story Points | 88 Story Points |
+| Sum of Story Points | No se estableció un compromiso formal de SP; las 27 historias consideradas suman 88 SP |
+
+**User Stories consideradas para la cobertura del frontend**
+
+| Módulo | User Stories | Cantidad | Story Points |
+|---|---|---:|---:|
+| Gestión de plantas y máquinas | US01, US02, US03, US04, US05, US08, US09 | 7 | 24 |
+| Mantenimiento preventivo | US10, US14, US16, US17 | 4 | 16 |
+| Gestión de fallas | US19, US20, US21, US22 | 4 | 10 |
+| Órdenes de trabajo | US23, US25, US27, US28, US29, US30 | 6 | 21 |
+| Inventario de repuestos | US31, US33, US35 | 3 | 7 |
+| Dashboard y seguimiento | US41, US45 | 2 | 8 |
+| Acceso desde Landing Page | US64 | 1 | 2 |
+| **Total** | | **27** | **88** |
+
+Las User Stories seleccionadas se encuentran relacionadas con las principales interfaces que se busca desarrollar durante el Sprint 2. Estas se han organizado por módulos para facilitar la distribución de responsabilidades y permitir que los integrantes avancen en diferentes partes de la aplicación.
+
+Las 27 historias consideradas suman 88 Story Points según las estimaciones originales del Product Backlog. Sin embargo, estos puntos corresponden al desarrollo completo de las funcionalidades, mientras que el alcance previsto para este sprint se concentra en la implementación del frontend con datos simulados y validaciones del lado del cliente.
+
+Por este motivo, las interfaces desarrolladas no implicarán necesariamente que todas las User Stories se encuentren completadas. El equipo deberá revisar sus criterios de aceptación y determinar cuáles podrán finalizarse dentro del tiempo disponible, considerando también las dependencias con los servicios de backend que se implementarán en iteraciones posteriores.
+
+
+
+#### 5.2.2.2. Aspect Leaders and Collaborators.
+
+Para organizar el desarrollo del Sprint 2, se propone una Leadership and Collaboration Matrix en la que cada integrante asumirá el liderazgo de un módulo principal y colaborará en la integración de las demás interfaces.
+
+En la siguiente matriz, **L** representa al líder del área de trabajo y **C** a los colaboradores.
+
+| Team Member  | GitHub Username | Plants & Machines | Preventive Maintenance | Failures & Dashboard | Work Orders & Access | Inventory & Testing |
+|---|---|:---:|:---:|:---:|:---:|:---:|
+| Córdova, Alvar Lucas | AlvarLC | L | C | C | C | C |
+| Landa Sánchez, Sunio Danilo | DanLandio | C | L | C | C | C |
+| Villanueva Rodríguez, Giuseppe Adrián | Giuseppe152004 | C | C | L | C | C |
+| Rojas Huaranga, Diego Rances | diego27-16 | C | C | C | L | C |
+| Mendoza Boluarte, Pierre Alessandro | pierreale2302 | C | C | C | C | L |
+
+La distribución propuesta establece las siguientes responsabilidades:
+
+- **Alvar Lucas Córdova:** configuración inicial del frontend y desarrollo de las interfaces para registrar, editar y consultar información de plantas y máquinas.
+- **Sunio Danilo Landa Sánchez:** desarrollo de las interfaces de mantenimiento preventivo, incluyendo programación, calendario y consultas de actividades pendientes o vencidas.
+- **Giuseppe Adrián Villanueva Rodríguez:** implementación de las interfaces para reportar y consultar fallas, así como del dashboard con indicadores demostrativos.
+- **Diego Rances Rojas Huaranga:** desarrollo del módulo de órdenes de trabajo y conexión entre la Landing Page y la Web Application.
+- **Pierre Alessandro Mendoza Boluarte:** desarrollo de las interfaces de inventario de repuestos y apoyo en las pruebas de integración y adaptación responsive.
+
+Estas responsabilidades son una propuesta inicial y podrán modificarse de acuerdo con las decisiones y la disponibilidad de los integrantes.
+
+#### 5.2.2.3. Sprint Backlog 2.
+
+El Sprint Backlog 2 organiza las actividades propuestas para implementar las interfaces principales de FixCore. Las tareas se relacionan con las User Stories consideradas para la cobertura del frontend y mantienen la numeración consecutiva del Sprint Backlog 1.
+
+La implementación se realizará utilizando componentes reutilizables, validaciones del lado del cliente y datos simulados. Se utilizará el tablero de Trello del Sprint 2 para gestionar las actividades y registrar sus estados.
+
+**Tablero de Sprint Backlog 2:**
+
+https://trello.com/b/8djFNRhg/sprint-backlog-2-techmakers
+
+**Sprint Backlog 2 — Tareas propuestas**
+
+| Story ID | Task ID | Task Title | Task Description | Estimation (hours) | Assigned To | Status |
+|---|---|---|---|---:|---|---|
+| Transversal | T011 | Configuración de la estructura del frontend | Configurar la estructura inicial de la aplicación, las carpetas, los componentes base y las rutas principales. | 3 | Córdova, Alvar Lucas | In Progress |
+| US01, US02 | T012 | Elaborar formulario de registro de máquina | Implementar los formularios demostrativos para registrar y editar información de plantas. | 4 | Córdova, Alvar Lucas | In Progress |
+| US03, US04 | T013 | Implementar registro de máquina | Implementar los formularios para registrar y actualizar la información de las máquinas. | 5 | Córdova, Alvar Lucas | In Progress |
+| US05, US08 | T014 | Desarrollar la vista detallada de la máquina | Implementar la vista de información técnica y estado de una máquina. | 4 | Córdova, Alvar Lucas | In Progress |
+| US09 | T015 | Desarrollar la vista del historial de la máquina | Implementar una vista del historial de fallas y mantenimientos con datos simulados. | 3 | Córdova, Alvar Lucas | In Progress |
+| US10 | T016 | Elaborar un formulario de programación del mantenimiento | Implementar el formulario para programar mantenimientos preventivos. | 4 | Landa Sánchez, Sunio Danilo | In Progress |
+| US14 | T017 | Elaborar un calendario de mantenimiento | Implementar el calendario para consultar los mantenimientos programados. | 4 | Landa Sánchez, Sunio Danilo | In Progress |
+| US16 | T018 | Desarrollar la vista de próximos mantenimientos | Implementar una lista de mantenimientos próximos con fechas y estados. | 3 | Landa Sánchez, Sunio Danilo | In Progress |
+| US17 | T019 | Identificar el mantenimiento atrasado| Incorporar indicadores visuales para identificar mantenimientos vencidos. | 3 | Landa Sánchez, Sunio Danilo | In Progress |
+| Transversal | T020 | Integrar la navegación de mantenimiento | Integrar las pantallas del módulo de mantenimiento preventivo y comprobar su navegación. | 3 | Landa Sánchez, Sunio Danilo | In Progress |
+| US19 | T021 | Elaborar un formulario de notificacion de averias | Implementar el formulario para reportar fallas de máquinas. | 4 | Villanueva Rodríguez, Giuseppe Adrián | In Progress |
+| US20, US22 | T022 |Desarrollar la prioridad y los detalles del fallo | Implementar la visualización del detalle de una falla y el control de prioridad. | 4 | Villanueva Rodríguez, Giuseppe Adrián | In Progress |
+| US21 | T023 | Desarrollar la vista fallos pendientes | Implementar una lista de fallas pendientes con filtros y estados. | 3 | Villanueva Rodríguez, Giuseppe Adrián | In Progress |
+| US41 | T024 | Desarrollar el panel de control de operaciones | Implementar el dashboard con información demostrativa sobre las operaciones de mantenimiento. | 4 | Villanueva Rodríguez, Giuseppe Adrián | In Progress |
+| US45 | T025 | Desarrollar indicadores de estado de las órdenes de trabajo | Incorporar indicadores visuales de órdenes pendientes, en progreso y completadas. | 3 | Villanueva Rodríguez, Giuseppe Adrián | In Progress |
+| US23 | T026 | Elaborar un formulario de orden de trabajo correctivo | Implementar la interfaz para generar una orden correctiva desde una falla. | 5 | Rojas Huaranga, Diego Rances | In Progress |
+| US25 | T027 | Desarrollar la interfaz de asignación de técnicos | Implementar el selector demostrativo para asignar técnicos a órdenes de trabajo. | 3 | Rojas Huaranga, Diego Rances | In Progress |
+| US27 | T028 | Desarrollar la vista de ordenes de trabajo asignadas | Implementar la consulta de órdenes de trabajo asignadas. | 3 | Rojas Huaranga, Diego Rances | In Progress |
+| US28, US29 | T029 | Desarrollar una interfaz para la ejecucion de ordenes de trabajo | Implementar las acciones para iniciar una orden y registrar el trabajo realizado. | 5 | Rojas Huaranga, Diego Rances | In Progress |
+| US30 | T030 | Desarrollar la interfaz de cierre de órdenes de trabajo| Implementar el formulario y las acciones demostrativas para cerrar una orden de trabajo. | 4 | Rojas Huaranga, Diego Rances | In Progress |
+| US64 | T031 | Conectar la Landing Page con la aplicación web | Incorporar un enlace funcional desde la Landing Page hacia el frontend de FixCore. | 3 | Rojas Huaranga, Diego Rances | In Progress |
+| US31 | T032 | Elaborar un formulario de registro de piezas de recambio | Implementar el formulario para registrar repuestos. | 4 | Mendoza Boluarte, Pierre Alessandro | In Progress |
+| US33 | T033 | Desarrollar la vista de existencias de piezas de recambio| Implementar una lista para consultar las existencias de repuestos. | 3 | Mendoza Boluarte, Pierre Alessandro | In Progress |
+| US35 | T034 | Desarrollar la configuración de stock mínimo | Implementar los controles para establecer y visualizar el stock mínimo de un repuesto. | 3 | Mendoza Boluarte, Pierre Alessandro | In Progress |
+| Transversal | T035 | Desarrollar componentes reutilizables para el inventario | Preparar componentes y validaciones compartidas para el módulo de inventario. | 3 | Mendoza Boluarte, Pierre Alessandro | In Progress |
+| Transversal | T036 | Comprobar la integración y la capacidad de respuesta de la interfaz de usuario | Comprobar navegación, formularios, visualización responsive e integración de las interfaces. | 5 | Mendoza Boluarte, Pierre Alessandro | To Do |
+
+**Resumen de actividades por integrante**
+
+| Team Member | Tasks Assigned | Total Estimated Hours |
+|---|---|---:|
+| Córdova, Alvar Lucas | T011 - T015 | 19 |
+| Landa Sánchez, Sunio Danilo | T016 - T020 | 17 |
+| Villanueva Rodríguez, Giuseppe Adrián | T021 - T025 | 18 |
+| Rojas Huaranga, Diego Rances | T026 - T031 | 23 |
+| Mendoza Boluarte, Pierre Alessandro | T032 - T036 | 18 |
+| **Total** | **26 tareas** | **95 horas** |
+
+Las 95 horas representan estimaciones preliminares de esfuerzo y no horas trabajadas. Debido a la amplitud de la cobertura propuesta, el equipo deberá revisar si todas las actividades pueden abordarse dentro del tiempo disponible y reducir o trasladar tareas cuando corresponda.
+
+Para el seguimiento se utilizarán los estados **To Do**, **In Progress** y **Done**. El estado de cada tarea deberá actualizarse según el avance real registrado en Trello y GitHub.
+
+**Criterios para la revisión del frontend**
+
+La revisión del Sprint 2 considerará los siguientes aspectos:
+
+- Que las interfaces implementadas puedan abrirse y navegarse desde la aplicación.
+- Que los formularios dispongan de campos adecuados y validaciones básicas.
+- Que las tablas y vistas permitan presentar información de demostración.
+- Que las acciones simuladas muestren resultados consistentes dentro de la interfaz.
+- Que los componentes mantengan una presentación visual uniforme.
+- Que las pantallas se adapten a diferentes tamaños de dispositivos.
+- Que las funcionalidades desarrolladas cuenten con evidencia de pruebas y commits.
+
+El cumplimiento de estos criterios permitirá evaluar el avance del frontend. Las User Stories completas se considerarán terminadas únicamente cuando se satisfagan sus criterios de aceptación establecidos en el Product Backlog.
+
+#### 5.2.2.4. Development Evidence for Sprint Review.
+
+Durante el Sprint 2 utilizamos Git y GitHub, con la extensión GitFlowHelper de Jetbrains Webstorm para gestionar los cambios realizados en el código fuente de la frontend web application. La siguiente tabla presenta los cambios de la aplicación web registrados en GitHub durante el desarrollo, identificando las ramas utilizadas, los responsables, los mensajes de commit y las fechas correspondientes.
+
+| Repository | Branch | Commit ID | Commit Message | Commit Message Body | Committed on |
+|---|---|---|---|---|---|
+| Frontend | feature/frontend-setup-assets | b94f329 | chore(shared): integrate frontend services and reusable components | | Oct 8, 2026 |
+| Frontend | feature/frontend-setup-assets | ad2c0d9 | feat(assets): add plant and machine management forms | | Oct 8, 2026 | 
+| Frontend | feature/frontend-setup-assets | 376e60f | feat(assets): add machine details and maintenance history | | Oct 8, 2026 | 
+| Frontend | feature/failures-dashboard | 3854c5a | feat(failures): implement failure reporting interface | | Oct 8, 2026 | 
+| Frontend | feature/failures-dashboard | 7f04637 | feat(failures): add failure details and pending reports | | Oct 8, 2026 | 
+| Frontend | feature/failures-dashboard | 93c4ca2 | feat(analytics): add operations dashboard and status indicators | | Oct 8, 2026 | 
+| Frontend | feature/preventive-maintenance | 4995d52 | feat(maintenance): implement preventive scheduling forms | | Oct 8, 2026 | 
+| Frontend | feature/preventive-maintenance | 2fe7221 | feat(maintenance): add calendar and maintenance status views| | Oct 8, 2026 | 
+| Frontend | feature/preventive-maintenance | 9796005 | feat(maintenance): integrate module navigation and routes| | Oct 8, 2026 | 
+| Frontend | feature/work-orders | fc52f8c | feat(work-orders): add work order creation and assignment | | Oct 8, 2026 | 
+| Frontend | feature/work-orders | 0867eb7 | feat(work-orders): implement execution and closing workflows | | Oct 8, 2026 | 
+| Frontend | feature/inventory-integration | 52d6549 | feat(inventory): add spare parts forms and shared validations| | Oct 8, 2026 | 
+| Frontend | feature/inventory-integration | d0224b4 | feat(inventory): implement stock views and minimum levels| | Oct 8, 2026 | 
+| Frontend | fix/frontend-integration-deployment | 5bab08c | feat: integrate FixCore Sprint 2 frontend and responsive Figma design | | Oct 8, 2026 | 
+| Frontend | fix/frontend-integration-deployment | 05375b4 | fix: apply Sprint 2 frontend audit corrections | | Oct 8, 2026 | 
+
+
+#### 5.2.2.5. Execution Evidence for Sprint Review.
+
+**Video de presentación del Sprint 2:** [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c554_upc_edu_pe/IQAUYlQa0B7NQrXxJbTrLBoyAcmdZetyTMORm1Pi7hRGtfM?e=pniRwM)
+
+Durante el Sprint 2 se implementó la primera versión de la Web Application de FixCore, desarrollada con Angular 22, TypeScript, Angular Material, RxJS y Angular Router. La aplicación está organizada por módulos orientados a la gestión del mantenimiento industrial, incluyendo Asset Management, Service Execution, Maintenance Planning, Inventory y Analytics, además de componentes y servicios compartidos para funcionalidades transversales.
+
+La aplicación consume información desde una Fake API desplegada en Render, utilizando HttpClient para realizar las operaciones de consulta, registro, actualización y eliminación de datos. También se implementó un layout compartido mediante el componente Workspace Shell, encargado de la navegación principal, selección de planta, notificaciones y acceso a las diferentes funcionalidades según el rol del usuario.
+
+* Selección de perfil: Pantalla inicial de FixCore donde el usuario puede seleccionar entre los perfiles Jefe de Planta, Gerente de Operaciones y Técnico de Mantenimiento, cada uno con funcionalidades específicas.
+
+![alt text](report/assets/images/evidence-sprint2/image.png)
+
+* Panel del Jefe de Planta: Dashboard con el estado general de la planta, máquinas detenidas, fallas críticas, órdenes de trabajo, mantenimientos e indicadores como tiempo muerto, MTTR y cumplimiento preventivo.
+
+![alt text](report/assets/images/evidence-sprint2/image-1.png)
+
+* Módulo de Máquinas - Jefe de Planta: Gestión de las máquinas y activos registrados en la planta, permitiendo consultar su estado e información relacionada con el mantenimiento y registrando maquinas.
+
+![alt text](report/assets/images/evidence-sprint2/image-2.png)
+![alt text](report/assets/images/evidence-sprint2/image-3.png)
+
+* Módulo de Fallas - Jefe de Planta: Gestión y seguimiento de las fallas reportadas en las máquinas de la planta.
+
+![alt text](report/assets/images/evidence-sprint2/image-4.png)
+*FILTRO DE FALLAS RESUELTAS*
+![alt text](report/assets/images/evidence-sprint2/image-5.png)
+*REPORTAR FALLAS*
+![alt text](report/assets/images/evidence-sprint2/image-6.png)
+*REPORTAR FALLAS 2DO PASO*
+![alt text](report/assets/images/evidence-sprint2/image-7.png)
+*REPORTAR FALLAS 3ER PASO*
+![alt text](report/assets/images/evidence-sprint2/image-8.png)
+
+* Módulo de Órdenes de Trabajo - Jefe de Planta: Consulta,gestión y creacion de las órdenes de trabajo asociadas a las actividades de mantenimiento.
+
+![alt text](report/assets/images/evidence-sprint2/image-9.png)
+![alt text](report/assets/images/evidence-sprint2/image-10.png)
+
+* Módulo Preventido - Jefe de Planta: Gestión de calendariocon diferentes filtros como vencidos o suspendidos para visitar tecnicas preventivas con diferentes acciones como reprogramar,suspender,o crear una nueva fecha de mantenimiento preventivo.
+
+![alt text](report/assets/images/evidence-sprint2/image-11.png)
+*PREVENTIVOS VENCIDOS*
+![alt text](report/assets/images/evidence-sprint2/image-12.png)
+*PREVENTIVOS SUSPENDIDOS*
+![alt text](report/assets/images/evidence-sprint2/image-13.png)
+
+* Módulo de Inventario - Jefe de Planta: Gestión de repuestos disponibles y seguimiento del stock utilizado en las actividades de mantenimiento.
+
+![alt text](report/assets/images/evidence-sprint2/image-14.png)
+
+* Módulo de Reportes - Jefe de Planta:Un resumen sobre los modulos anteriores con opcion de descarga
+
+![alt text](report/assets/images/evidence-sprint2/image-15.png)
+
+
+* Módulo de Mi Planta - Jefe de Planta:Para almacenas los datos de la Planta
+
+![alt text](report/assets/images/evidence-sprint2/image-16.png)
+
+* Resumen de Operaciones - Gerente de Operaciones: Vista general de todas las plantas con indicadores de disponibilidad, órdenes de trabajo abiertas, paradas, cumplimiento preventivo y MTTR.
+
+![Resumen de operaciones](report/assets/images/evidence-sprint2/image-17.png)
+
+* Módulo de Plantas - Gerente de Operaciones: Consulta y seguimiento del estado de las diferentes plantas gestionadas por la organización.
+
+![alt text](report/assets/images/evidence-sprint2/image-18.png)
+
+* Módulo de Técnicos - Gerente de Operaciones: Visualización de los técnicos disponibles, su planta asignada y las órdenes de trabajo pendientes.
+
+![alt text](report/assets/images/evidence-sprint2/image-19.png)
+
+* Inicio del Técnico de Mantenimiento: Dashboard personalizado para el técnico con sus órdenes de trabajo pendientes, máquinas detenidas y próximos mantenimientos.
+
+![alt text](report/assets/images/evidence-sprint2/image-20.png)
+
+* Mis Órdenes de Trabajo - Técnico: Listado de las órdenes asignadas al técnico, mostrando su estado, prioridad, tipo de mantenimiento y fechas.
+
+![alt text](report/assets/images/evidence-sprint2/image-21.png)
+
+* Módulo de Repuestos - Técnico: Consulta de los repuestos disponibles necesarios para la ejecución de las actividades de mantenimiento.
+
+![alt text](report/assets/images/evidence-sprint2/image-22.png)
+
+* Módulo de Repuestos - Técnico: Consulta de los repuestos disponibles necesarios para la ejecución de las actividades de mantenimiento.
+
+![alt text](report/assets/images/evidence-sprint2/image-23.png)
+
+* Reporte de Fallas - Técnico: Funcionalidad para que el técnico pueda reportar una nueva falla desde su panel de trabajo.
+
+![alt text](report/assets/images/evidence-sprint2/image-24.png)
+
+
+
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review.
+
+Durante esta entrega se implementó una versión preliminar de un web service mediante un mock API usando JSON server. Esta versión permite que los usuarios puedan consultar, crear y actualizar datos de la plataforma.
+
+A continuación se presentan los endpoints implementados.
+
+|Acción|Endpoint|Verbos HTTP|URL|
+|:-----|:-------|:---------|:---------|
+|Consultar y validar información de usuarios|/users|GET|https://fixcore-json-api.onrender.com/users|
+|Consultar y actualizar información de plantas|/plants|GET, PUT|https://fixcore-json-api.onrender.com/plants|
+|Consultar, actualizar y añadir maquinas|/assets/|GET, POST, PUT|https://fixcore-json-api.onrender.com/assets|
+|Consultar, editar y agregar mantenimientos|/maintenance-plans|GET, POST ,PUT|https://fixcore-json-api.onrender.com/maintenance-plans|
+|Consultar, editar y reportar fallos en maquinas|/failures|GET, POST, PUT|https://fixcore-json-api.onrender.com/failures|
+|Consultar, actualizar y añadir ordenes de trabajo|/work-orders|GET, POST, PUT| https://fixcore-json-api.onrender.com/work-orders|
+|Consultar, actualizar y agregar inventario de repuestos|/spare-parts|GET, POST, PUT|https://fixcore-json-api.onrender.com/spare-parts|
+|Consultar y agregar movimientos de inventario |/stock-movements|GET, POST|https://fixcore-json-api.onrender.com/stock-movements|
+
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review.
+
+Durante el Sprint 2, el alcance de desarrollo se limitará al frontend de FixCore y la publicación de una mock API que permita la obtención y publicación de recursos dentro de la plataforma.
+
+**Publicación del Mock API**
+
+Para publicar la mock API se ha utilizado Render, una plataforma que permite el despliegue de aplicaciones web, APIs, bases de datos, entre otros.
+
+<div align="center">
+  Se accede al sitio de Render con una cuenta creada, se hace click al botón New y se selecciona la opción Web Service<br><br>
+  <img src="report/assets/images/sprint-2-api-deploy-1.jpeg" width="700"><br>
+</div>
+
+<div align="center">
+  Dentro de la pestaña de New Web Service se vincula la cuenta de render con la de GitHub y se instala Render en el repositorio del Frontend de la organización<br><br>
+  <img src="report/assets/images/sprint-2-api-deploy-2.jpeg" width="700"><br>
+</div>
+
+
+<div align="center">
+  <img src="report/assets/images/sprint-2-api-deploy-3.jpeg" width="700"><br>
+</div>
+
+<div align="center">
+  Al seleccionar Only select repositories se puede seleccionar solo el repositorio con la mock API<br><br>
+  <img src="report/assets/images/sprint-2-api-deploy-4.jpeg" width="700"><br>
+</div>
+
+<div align="center">
+  Una vez instalado, se selecciona el repositorio con la mock API, en nuestro caso se encuentra en TechMakers / Frontend<br><br>
+  <img src="report/assets/images/sprint-2-api-deploy-5.jpeg" width="700"><br>
+</div>
+
+<div align="center">
+  Se configura el nombre del servicio, la rama de la cual se desplegará, el lenguaje del servicio y otras configuraciones como la región <br><br>
+  <img src="report/assets/images/sprint-2-api-deploy-6.jpeg" width="700"><br>
+</div>
+
+<div align="center">
+  Para nuestro caso se llamará fixcore-json-api y se ejecutará el comando de build: npm install --no-save json-servera1.0.0-beta.15 , junto con el comando start: npx json-server public/mock/db.json --host 0.0.0.0 --port $PORT<br><br>
+  <img src="report/assets/images/sprint-2-api-deploy-9.jpeg" width="700"><br>
+</div>
+
+<div align="center">
+  Es posible asignarle más recursos al servidor o solo usar el plan gratis <br><br>
+  <img src="report/assets/images/sprint-2-api-deploy-7.jpeg" width="700"><br>
+</div>
+
+<div align="center">
+  Para nuestro caso se usará el plan gratis <br><br>
+  <img src="report/assets/images/sprint-2-api-deploy-10.jpeg" width="700"><br>
+</div>
+
+<div align="center">
+  Una vez configurado, se presiona el botón Deploy Web Service <br><br>
+  <img src="report/assets/images/sprint-2-api-deploy-8.jpeg" width="700"><br>
+</div>
+
+<div align="center">
+  Al desplegarse, primero se ejecuta el build command definido previamente <br><br>
+  <img src="report/assets/images/sprint-2-api-deploy-11.jpeg" width="700"><br>
+</div>
+
+<div align="center">
+  Al desplegarse, primero se ejecuta el build command definido previamente <br><br>
+  <img src="report/assets/images/sprint-2-api-deploy-12.jpeg" width="700"><br>
+</div>
+
+
+Dirección del Mock API: [https://fixcore-json-api.onrender.com/](https://fixcore-json-api.onrender.com/)
+
+
+**Publicación del Frontend web application**
+
+Para el despliegue de la aplicación web de FixCore se usó Vercel, el cual es una plataforma de despliegue y alojamiento en la nube para sitios y aplicaciones web.
+
+<div align="center">
+  Se accede al sitio de Vercel con una cuenta y se selecciona la opción de GitHub como Git Provider<br><br>
+  <img src="report/assets/images/sprint-2-frontend-deploy-1.jpeg" width="700"><br>
+</div>
+
+<div align="center">
+  Se instala Vercel en el repositorio Frontend de FixCore.<br><br>
+  <img src="report/assets/images/sprint-2-frontend-deploy-2.jpeg" width="700"><br>
+</div>
+
+<div align="center">
+  Una vez instalado y vinculado, se puede importar el repositorio Frontend<br><br>
+  <img src="report/assets/images/sprint-2-frontend-deploy-3.jpeg" width="700"><br>
+</div>
+
+<div align="center">
+  Al importarlo se redirige a la pestaña de creación de proyecto<br><br>
+  <img src="report/assets/images/sprint-2-frontend-deploy-4.jpeg" width="700"><br>
+</div>
+
+<div align="center">
+  Se desglosan los menús Build and Output Settings y Environment Variables<br><br>
+  <img src="report/assets/images/sprint-2-frontend-deploy-5.jpeg" width="700"><br>
+</div>
+
+<div align="center">
+  Se realiza la configuración necesaria en Build and Output Settings, con los comandos de compilacion e instalación, asi como el directorio de salida<br><br>
+  <img src="report/assets/images/sprint-2-frontend-deploy-6.jpeg" width="700"><br>
+</div>
+
+<div align="center">
+  Al seleccionar la opción Deploy se despliega el proyecto y se continua presionando el botón Continue to Project<br><br>
+  <img src="report/assets/images/sprint-2-frontend-deploy-7.jpeg" width="700"><br>
+</div>
+
+<div align="center">
+  Dentro de la pagina del proyecto se accede a la sección Environments y se selecciona el entorno de producción<br><br>
+  <img src="report/assets/images/sprint-2-frontend-deploy-8.jpeg" width="700"><br>
+</div>
+
+<div align="center">
+  Una vez en el entorno de configuración se configura el Branch tracking<br><br>
+  <img src="report/assets/images/sprint-2-frontend-deploy-9.jpeg" width="700"><br>
+</div>
+
+<div align="center">
+  Allí se puede configurar la rama que se va a usar para el despliegue, se usa una rama fix para pruebas<br><br>
+  <img src="report/assets/images/sprint-2-frontend-deploy-10.jpeg" width="700"><br>
+</div>
+
+<div align="center">
+  En la sección de Deployments del proyecto se observa el estado de compilación del frontend<br><br>
+  <img src="report/assets/images/sprint-2-frontend-deploy-11.jpeg" width="700"><br>
+</div>
+
+
+Enlace al frontend web application desplegado: (https://fixcore-frontend-eight.vercel.app/demo)[https://fixcore-frontend-eight.vercel.app/demo]
+
+
+
+#### 5.2.2.8. Team Collaboration Insights during Sprint.
+
+Durante el Sprint 2 desarrollamos la primera versión de la Web Application de FixCore, distribuyendo las responsabilidades entre los cinco integrantes de TechMakers según los módulos y funcionalidades del sistema. Cada miembro asumió tareas específicas de implementación y colaboró con el equipo durante las revisiones, pruebas e integración de los cambios.
+
+Para coordinar el trabajo utilizamos reuniones virtuales, Trello y GitHub. El tablero del Sprint Backlog permitió organizar las tareas, realizar un seguimiento de su progreso y asignar responsabilidades, mientras que el repositorio facilitó el control de versiones y el registro de los commits realizados por los integrantes.
+El desarrollo se realizó utilizando Angular, TypeScript y Angular Material, organizando la aplicación en módulos relacionados con la gestión de activos, mantenimiento, órdenes de trabajo, inventario y analítica. Asimismo, se implementaron interfaces diferenciadas para los perfiles de Jefe de Planta, Gerente de Operaciones y Técnico de Mantenimiento, con funcionalidades adaptadas a las responsabilidades de cada usuario. Durante la integración fue necesario revisar la navegación, la presentación de los componentes y el funcionamiento de las distintas vistas para mantener una experiencia de usuario coherente.
+
+El trabajo realizado permitió establecer la estructura principal de la Web Application de FixCore e implementar las funcionalidades iniciales de sus principales módulos. Además, se incorporaron elementos compartidos de navegación, acceso según el perfil del usuario y una interfaz adaptable a diferentes dispositivos. De esta manera, las actividades del Sprint 2 contribuyeron a fortalecer la coordinación del equipo y sentar las bases para continuar con la integración, validación y mejora de las funcionalidades del sistema en los siguientes sprints.
+
+Métricas de colaboración:
+
+![alt text](report/assets/images/evidence-sprint2/evidence-sprint2.png)
+
+
+<div style="page-break-after: always;"></div>
+
+# Conclusiones
+
+### Resultados del TB1
+
+Durante el Sprint 2 desarrollamos las primeras interfaces de la aplicación web de FixCore con Angular. El trabajo se dividió entre los cinco integrantes por módulos: plantas y máquinas, mantenimiento preventivo, fallas, órdenes de trabajo e inventario.
+
+También integramos las pantallas, corregimos problemas de navegación y publicamos el frontend en Vercel junto con una API de prueba en Render. Esta entrega nos permitió comprobar el funcionamiento inicial de los principales flujos del sistema e identificar mejoras para los siguientes sprints.
 
 
 El desarrollo del primer avance de **FixCore** permitió definir con mayor claridad la problemática, los usuarios objetivo, los principales requisitos y la propuesta de diseño de la solución. A partir del trabajo realizado, se establecen las siguientes conclusiones:
@@ -3821,6 +4845,10 @@ El desarrollo del primer avance de **FixCore** permitió definir con mayor clari
 * **Base para las siguientes etapas del proyecto:** Los artefactos desarrollados, como User Personas, User Stories, Product Backlog, EventStorming, diagramas de arquitectura y diseños de interfaz, establecen una base para continuar con la implementación y validación progresiva de FixCore en los próximos avances.
 
 
+
+<div style="page-break-after: always;"></div>
+
+
 # Bibliografía
 
 Adzic, G. (2012). *Impact mapping: Making a big impact with software products and projects*. Provoking Thoughts. https://www.impactmapping.org/book.html
@@ -3828,6 +4856,8 @@ Adzic, G. (2012). *Impact mapping: Making a big impact with software products an
 Angular. (s. f.). *Angular coding style guide*. https://angular.dev/style-guide
 
 Atlassian. (s. f.). *Flujo de trabajo de Gitflow*. https://www.atlassian.com/es/git/tutorials/comparing-workflows/gitflow-workflow
+
+Bokrantz, J., Skoogh, A., Berlin, C., Wuest, T., & Stahre, J. (2020). Smart Maintenance: An empirically grounded conceptualization. *International Journal of Production Economics, 223*, 107534. https://doi.org/10.1016/j.ijpe.2019.107534
 
 Bradbury, S., Carpizo, B., Gentzel, M., Horah, D., & Thibert, J. (2018, 4 de octubre). *Digitally enabled reliability: Beyond predictive maintenance*. McKinsey & Company. https://www.mckinsey.com/capabilities/operations/our-insights/digitally-enabled-reliability-beyond-predictive-maintenance
 
@@ -3857,7 +4887,11 @@ Material Design. (s. f.). *Accessibility*. Google. https://m1.material.io/usabil
 
 Ministerio de la Producción. (2024). *Anuario estadístico 2023: Industrial, Mipyme y comercio interno*. Observatorio PRODUCEmpresarial. https://www.producempresarial.pe/anuario-estadistico-industrial-mipyme-y-comercio-interno-2023/
 
+Senseye Predictive Maintenance. (2023). *The true cost of downtime 2022*. Siemens. https://assets.new.siemens.com/siemens/assets/api/uuid:3d606495-dbe0-43e4-80b1-d04e27ada920/dics-b10153-00-7600truecostofdowntime2022-144.pdf
+
 Spring. (s. f.). *Spring Boot reference documentation*. https://docs.spring.io/spring-boot/reference/
+
+Tamvada, J. P., Narula, S., Audretsch, D., Puppala, H., & Kumar, A. (2022). Adopting new technology is a distant dream? The risks of implementing Industry 4.0 in emerging economy SMEs. *Technological Forecasting and Social Change, 185*, 122088. https://doi.org/10.1016/j.techfore.2022.122088
 
 UpKeep. (s. f.). *CMMS software*. https://upkeep.com/product/cmms-software/
 
@@ -3865,9 +4899,11 @@ World Wide Web Consortium. (2023). *Web Content Accessibility Guidelines (WCAG) 
 
 W3Schools. (s. f.). *HTML style guide and coding conventions*. https://www.w3schools.com/HTML/html5_syntax.asp
 
+<div style="page-break-after: always;"></div>
+
 # Anexos
 
-
+<div style="page-break-after: always;"></div>
 
 ## Anexo A. Repositorios del Proyecto
 
@@ -3880,6 +4916,10 @@ W3Schools. (s. f.). *HTML style guide and coding conventions*. https://www.w3sch
 - Repositorio del Landing Page:
   https://github.com/TechMakers-upc/Landing-Page
 
+- Repositorio del Frontend Web Application
+  https://github.com/TechMakers-upc/Frontend
+
+<div style="page-break-after: always;"></div>
 
 ## Anexo B. Gestión y Planificación del Proyecto
 
@@ -3889,28 +4929,39 @@ W3Schools. (s. f.). *HTML style guide and coding conventions*. https://www.w3sch
 - Sprint Backlog 1:
   https://trello.com/b/8ilypk4J/sprint-backlog-1-techmakers
 
+- Sprint Backlog 2:
+  https://trello.com/b/8djFNRhg/sprint-backlog-2-techmakers
+
 - Artefactos de Needfinding en UXPressia:
   https://uxpressia.com/w/v8FzI/t/zbzV3
 
-
+- Prototipo de la aplicación:
+  https://www.figma.com/proto/VbkpyP5gwR4Orgl1eNsB7a/Figma-basics?node-id=2449-1168&t=Va1SHaV7XPbK0ZlF-1&scaling=scale-down&content-scaling=fixed&page-id=2439%3A2&starting-point-node-id=2449%3A1168
 
 ## Anexo D. Entrevistas
 
 - [Video de las entrevistas realizadas](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423973_upc_edu_pe/IQBCKuUvc8VeT4YtxyBRxNnnAerbBFUqAE8C5H7KH6vx3GU?e=f8X1Pp)
 
+<div style="page-break-after: always;"></div>
 
-## Anexo E. Landing Page
-
-- Código fuente:
-  https://github.com/TechMakers-upc/Landing-Page
+## Anexo E. Despliegues
 
 - Landing Page desplegado:
   https://techmakers-upc.github.io/Landing-Page/
 
+- Frontend Web Application desplegado:
+  https://fixcore-frontend-eight.vercel.app/demo
 
-## Anexo F. Video de Exposición AV1
+- URL del Mockup API:
+  https://fixcore-json-api.onrender.com/
+
+<div style="page-break-after: always;"></div>
+
+## Anexo F. Videos de exposiciones
+
+- [Video de presentación del Sprint 1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423973_upc_edu_pe/IQD6WLEWUP5oQLbSvCXtwgcqAZEWm3YKXW1kVty23sprr_g?e=01QNKW)
+- [Video de presentación del Sprint 2](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c554_upc_edu_pe/IQAUYlQa0B7NQrXxJbTrLBoyAcmdZetyTMORm1Pi7hRGtfM?e=pniRwM)
 
 - [Video de exposición AV1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202324461_upc_edu_pe/IQDmty3FNqrWTLFvZG58kxPfAfv-bKwb9TGY5O8XUFahqSs?e=p3LPOL)
 
 
- 

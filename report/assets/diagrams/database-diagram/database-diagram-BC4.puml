@@ -1,0 +1,72 @@
+@startuml
+title Diagrama de Base de Datos - Ejecucion y Monitoreo del Servicio
+
+' registro de fallas detectadas
+entity "failures" as failures {
+    * id : uuid <<PK>>
+    --
+    * asset_id : uuid
+    * reported_by : uuid
+    * description : varchar(1000)
+    * priority : varchar(30)
+    * status : varchar(30)
+    * reported_at : timestamp
+}
+
+' ordenes generadas para atender fallas o mantenimientos
+entity "work_orders" as work_orders {
+    * id : uuid <<PK>>
+    --
+    * failure_id : uuid <<FK>>
+    * asset_id : uuid
+    * technician_id : uuid
+    * title : varchar(200)
+    * description : varchar(1000)
+    * status : varchar(50)
+    * priority : varchar(30)
+    * started_at : timestamp
+    * completed_at : timestamp
+    * created_at : timestamp
+}
+
+' asignacion de personal a las ordenes
+entity "technician_assignments" as technician_assignments {
+    * id : uuid <<PK>>
+    --
+    * work_order_id : uuid <<FK>>
+    * technician_id : uuid
+    * assigned_at : timestamp
+    * unassigned_at : timestamp
+}
+
+' detalle de tareas realizadas en campo
+entity "maintenance_activities" as maintenance_activities {
+    * id : uuid <<PK>>
+    --
+    * work_order_id : uuid <<FK>>
+    * technician_id : uuid
+    * activity_type : varchar(50)
+    * description : varchar(1000)
+    * started_at : timestamp
+    * completed_at : timestamp
+    * created_at : timestamp
+}
+
+' piezas consumidas durante el trabajo
+entity "spare_part_usages" as spare_part_usages {
+    * id : uuid <<PK>>
+    --
+    * work_order_id : uuid <<FK>>
+    * spare_part_id : uuid
+    * quantity : decimal(10,2)
+    * used_at : timestamp
+}
+
+' una falla puede abrir una orden de trabajo
+failures ||--o| work_orders : genera
+
+' detalles asociados a la orden
+work_orders ||--o{ technician_assignments : tiene
+work_orders ||--o{ maintenance_activities : registra
+work_orders ||--o{ spare_part_usages : utiliza
+@enduml

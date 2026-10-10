@@ -1,0 +1,65 @@
+@startuml
+title Database Diagram - Identity & Access Management
+
+' tabla de usuarios del sistema
+entity "user_account" as user_account {
+    * id : uuid <<PK>>
+    --
+    * username : varchar(100) <<UK>>
+    * email : varchar(150) <<UK>>
+    * password : varchar(255)
+    * first_name : varchar(100)
+    * last_name : varchar(100)
+    * active : boolean
+    * created_at : timestamp
+}
+
+' roles asignables
+entity "role" as role {
+    * id : uuid <<PK>>
+    --
+    * name : varchar(50) <<UK>>
+    * description : varchar(255)
+}
+
+' catalogo de permisos
+entity "permission" as permission {
+    * id : uuid <<PK>>
+    --
+    * name : varchar(100) <<UK>>
+    * description : varchar(255)
+}
+
+' tabla intermedia para roles de usuario
+entity "user_role" as user_role {
+    * user_id : uuid <<PK, FK>>
+    * role_id : uuid <<PK, FK>>
+}
+
+' tabla intermedia para permisos por rol
+entity "role_permission" as role_permission {
+    * role_id : uuid <<PK, FK>>
+    * permission_id : uuid <<PK, FK>>
+}
+
+' registro de sesiones activas
+entity "session" as session {
+    * id : uuid <<PK>>
+    --
+    * user_id : uuid <<FK>>
+    * token : varchar(500) <<UK>>
+    * status : varchar(30)
+    * expires_at : timestamp
+    * created_at : timestamp
+}
+
+' relaciones de muchos a muchos
+user_account ||--o{ user_role
+role ||--o{ user_role
+
+role ||--o{ role_permission
+permission ||--o{ role_permission
+
+' relacion de sesiones por usuario
+user_account ||--o{ session
+@enduml

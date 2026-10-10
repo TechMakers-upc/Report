@@ -1,0 +1,102 @@
+@startuml
+title FixCore - Class Diagram - Resource & Asset Management
+
+skinparam classAttributeIconSize 0
+
+' estados y tipos de historial
+enum AssetStatuses {
+    ACTIVE
+    INACTIVE
+    UNDER_MAINTENANCE
+    OUT_OF_SERVICE
+}
+
+enum HistoryTypes {
+    REGISTRATION
+    UPDATE
+    MAINTENANCE
+    STATUS_CHANGE
+}
+
+' entidades del modulo
+class IndustrialPlants {
+    - id: UUID
+    - name: String
+    - location: String
+    - description: String
+    - active: Boolean
+    - createdAt: DateTime
+
+    + register(): void
+    + updateInformation(name: String, location: String): void
+    + addAsset(asset: Assets): void
+    + removeAsset(asset: Assets): void
+}
+
+class Assets {
+    - id: UUID
+    - code: String
+    - name: String
+    - description: String
+    - status: AssetStatuses
+    - installationDate: Date
+    - createdAt: DateTime
+
+    + register(): void
+    + updateInformation(): void
+    + changeStatus(status: AssetStatuses): void
+    + isAvailable(): Boolean
+}
+
+class TechnicalSheets {
+    - id: UUID
+    - manufacturer: String
+    - model: String
+    - serialNumber: String
+    - specifications: String
+
+    + updateSpecifications(data: String): void
+    + validateInformation(): Boolean
+}
+
+class Manuals {
+    - id: UUID
+    - title: String
+    - fileUrl: String
+    - version: String
+    - uploadedAt: DateTime
+
+    + upload(): void
+    + updateVersion(version: String): void
+}
+
+class AssetHistories {
+    - id: UUID
+    - date: DateTime
+    - type: HistoryTypes
+    - description: String
+
+    + registerEvent(): void
+}
+
+' acceso a datos
+interface IAssetRepository {
+    + findById(id: UUID): Assets
+    + findByPlant(plantId: UUID): List<Assets>
+    + save(asset: Assets): void
+    + update(asset: Assets): void
+}
+
+' composicion y relaciones de activos
+IndustrialPlants "1" *-- "0..*" Assets : contains
+
+Assets "1" *-- "1" TechnicalSheets : has
+Assets "1" *-- "0..*" Manuals : has
+Assets "1" *-- "0..*" AssetHistories : records
+
+AssetHistories "0..*" --> "1" Assets : belongsTo
+
+' uso del repositorio
+IAssetRepository ..> Assets : persists
+IAssetRepository ..> IndustrialPlants : queries
+@enduml

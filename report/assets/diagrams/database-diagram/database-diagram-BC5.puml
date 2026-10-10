@@ -1,0 +1,74 @@
+@startuml
+title Diagrama de Base de Datos - Inventario y Repuestos
+
+' almacenes o bodegas registradas
+entity "inventories" as inventories {
+    * id : uuid <<PK>>
+    --
+    * plant_id : uuid
+    * name : varchar(150)
+    * location : varchar(255)
+    * created_at : timestamp
+}
+
+' catalogo general de piezas
+entity "spare_parts" as spare_parts {
+    * id : uuid <<PK>>
+    --
+    * code : varchar(100) <<UK>>
+    * name : varchar(150)
+    * description : varchar(500)
+    * unit : varchar(30)
+    * minimum_stock : decimal(10,2)
+    * is_active : boolean
+    * created_at : timestamp
+}
+
+' cantidades disponibles en cada almacen
+entity "stocks" as stocks {
+    * id : uuid <<PK>>
+    --
+    * inventory_id : uuid <<FK>>
+    * spare_part_id : uuid <<FK>>
+    * quantity : decimal(10,2)
+    * reserved_quantity : decimal(10,2)
+    * status : varchar(30)
+    * updated_at : timestamp
+}
+
+' historial de entradas salidas y traslados
+entity "inventory_movements" as inventory_movements {
+    * id : uuid <<PK>>
+    --
+    * inventory_id : uuid <<FK>>
+    * spare_part_id : uuid <<FK>>
+    * movement_type : varchar(30)
+    * quantity : decimal(10,2)
+    * reference_id : uuid
+    * description : varchar(500)
+    * created_at : timestamp
+}
+
+' avisos automaticos de stock bajo
+entity "inventory_alerts" as inventory_alerts {
+    * id : uuid <<PK>>
+    --
+    * stock_id : uuid <<FK>>
+    * alert_type : varchar(50)
+    * message : varchar(500)
+    * status : varchar(30)
+    * created_at : timestamp
+    * resolved_at : timestamp
+}
+
+' control de existencias
+inventories ||--o{ stocks : contiene
+spare_parts ||--o{ stocks : tiene
+
+' registro de transacciones
+inventories ||--o{ inventory_movements : registra
+spare_parts ||--o{ inventory_movements : participa
+
+' alertas generadas por niveles de stock
+stocks ||--o{ inventory_alerts : genera
+@enduml

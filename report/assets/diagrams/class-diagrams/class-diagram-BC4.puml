@@ -1,0 +1,178 @@
+@startuml
+title FixCore - Class Diagram - Service Execution & Monitoring
+
+skinparam classAttributeIconSize 0
+
+' prioridades estados y tipos de tareas
+enum FailurePriorities {
+    LOW
+    MEDIUM
+    HIGH
+    CRITICAL
+}
+
+enum WorkOrderStatuses {
+    CREATED
+    ASSIGNED
+    IN_PROGRESS
+    COMPLETED
+    CLOSED
+}
+
+enum ActivityTypes {
+    INSPECTION
+    REPAIR
+    REPLACEMENT
+    CLEANING
+    TESTING
+}
+
+' clases del flujo de fallas y ordenes
+class Failures {
+    - id: UUID
+    - description: String
+    - priority: FailurePriorities
+    - reportedAt: DateTime
+    - resolvedAt: DateTime
+
+    + report(): void
+    + prioritize(priority: FailurePriorities): void
+    + markResolved(): void
+    + isCritical(): Boolean
+}
+
+class WorkOrders {
+    - id: UUID
+    - code: String
+    - description: String
+    - status: WorkOrderStatuses
+    - createdAt: DateTime
+    - startedAt: DateTime
+    - finishedAt: DateTime
+
+    + create(): void
+    + assignTechnician(technicianId: UUID): void
+    + start(): void
+    + finish(): void
+    + close(): void
+    + canStart(): Boolean
+    + canFinish(): Boolean
+}
+
+class MaintenanceActivities {
+    - id: UUID
+    - description: String
+    - activityType: ActivityTypes
+    - performedAt: DateTime
+    - durationMinutes: Integer
+
+    + record(): void
+    + updateDescription(description: String): void
+}
+
+class SparePartUsages {
+    - id: UUID
+    - sparePartId: UUID
+    - quantity: Integer
+    - usedAt: DateTime
+
+    + registerUsage(): void
+    + validateQuantity(): Boolean
+}
+
+class TechnicianAssignments {
+    - id: UUID
+    - technicianId: UUID
+    - assignedAt: DateTime
+    - active: Boolean
+
+    + assign(): void
+    + remove(): void
+}
+
+' logica de negocio y servicios
+class FailureServices {
+    + reportFailure(description: String, priority: FailurePriorities): Failures
+    + prioritizeFailure(failure: Failures, priority: FailurePriorities): void
+}
+
+class WorkOrderServices {
+    + createWorkOrder(failure: Failures): WorkOrders
+    + assignTechnician(order: WorkOrders, technicianId: UUID): void
+    + startWorkOrder(order: WorkOrders): void
+    + finishWorkOrder(order: WorkOrders): void
+    + closeWorkOrder(order: WorkOrders): void
+}
+
+class MonitoringServices {
+    + calculateDowntime(order: WorkOrders): Duration
+    + calculateMTTR(): Duration
+    + getWorkOrderHistory(): List<WorkOrders>
+}
+
+' persistencia e integraciones externas
+interface IWorkOrderRepository {
+    + findById(id: UUID): WorkOrders
+    + findByTechnician(technicianId: UUID): List<WorkOrders>
+    + save(order: WorkOrders): void
+    + update(order: WorkOrders): void
+}
+
+interface IFailureRepository {
+    + findById(id: UUID): Failures
+    + findPending(): List<Failures>
+    + save(failure: Failures): void
+}
+
+interface IInventoryService {
+    + consumeSparePart(sparePartId: UUID, quantity: Integer): Boolean
+}
+
+interface IAssetService {
+    + getAsset(assetId: UUID): AssetReferences
+}
+
+interface INotificationService {
+    + sendCriticalFailureAlert(failure: Failures): void
+}
+
+class AssetReferences {
+    + id: UUID
+    + name: String
+}
+
+class Technicians {
+    - id: UUID
+    - name: String
+    - available: Boolean
+
+    + isAvailable(): Boolean
+    + getId(): UUID
+}
+
+' estructura y relaciones entre clases
+Failures "1" --> "0..1" WorkOrders : generates
+
+WorkOrders "1" *-- "0..*" MaintenanceActivities : contains
+
+WorkOrders "1" *-- "0..*" SparePartUsages : records
+
+WorkOrders "1" *-- "0..*" TechnicianAssignments : has
+
+TechnicianAssignments "0..*" --> "1" Technicians : assignedTechnician
+
+WorkOrders "0..*" --> "1" AssetReferences : concerns
+
+' dependencias operativas
+FailureServices ..> Failures : manages
+WorkOrderServices ..> WorkOrders : manages
+MonitoringServices ..> WorkOrders : monitors
+
+IFailureRepository ..> Failures : persists
+IWorkOrderRepository ..> WorkOrders : persists
+Technicians "1" <-- "0..*" TechnicianAssignments : assignedTechnician
+IInventoryService ..> SparePartUsages : validates consumption
+IAssetService ..> AssetReferences : queries asset
+
+INotificationService ..> Failures : sends alert
+@enduml

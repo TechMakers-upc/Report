@@ -1,0 +1,70 @@
+@startuml
+title Diagrama de Base de Datos - Gestion de Plantas y Activos
+
+' informacion de las sedes o plantas
+entity "industrial_plants" as industrial_plants {
+    * id : uuid <<PK>>
+    --
+    * name : varchar(150)
+    * address : varchar(255)
+    * location : varchar(150)
+    * is_active : boolean
+    * created_at : timestamp
+}
+
+' maquinas y equipos registrados
+entity "assets" as assets {
+    * id : uuid <<PK>>
+    --
+    * plant_id : uuid <<FK>>
+    * code : varchar(100) <<UK>>
+    * name : varchar(150)
+    * description : varchar(500)
+    * status : varchar(50)
+    * installation_date : date
+    * created_at : timestamp
+    * updated_at : timestamp
+}
+
+' datos tecnicos detallados de cada activo
+entity "technical_data_sheets" as technical_data_sheets {
+    * id : uuid <<PK>>
+    --
+    * asset_id : uuid <<FK, UK>>
+    * manufacturer : varchar(150)
+    * model : varchar(100)
+    * serial_number : varchar(100)
+    * specifications : text
+}
+
+' manuales o documentos adjuntos
+entity "manuals" as manuals {
+    * id : uuid <<PK>>
+    --
+    * asset_id : uuid <<FK>>
+    * name : varchar(150)
+    * file_url : varchar(500)
+    * version : varchar(50)
+    * uploaded_at : timestamp
+}
+
+' log de cambios y eventos sobre la maquina
+entity "asset_histories" as asset_histories {
+    * id : uuid <<PK>>
+    --
+    * asset_id : uuid <<FK>>
+    * event_type : varchar(50)
+    * description : varchar(500)
+    * previous_status : varchar(50)
+    * new_status : varchar(50)
+    * created_at : timestamp
+}
+
+' una planta agrupa varios activos
+industrial_plants ||--o{ assets : contiene
+
+' relaciones directas del activo con su documentacion
+assets ||--|| technical_data_sheets : tiene
+assets ||--o{ manuals : tiene
+assets ||--o{ asset_histories : registra
+@enduml

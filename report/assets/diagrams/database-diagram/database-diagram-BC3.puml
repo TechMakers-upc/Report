@@ -1,0 +1,37 @@
+@startuml BD_Planificacion_Mantenimiento
+
+title Diagrama de Base de Datos - Diseño y Planificacion del Servicio
+
+' planes preventivos para cada activo
+entity "maintenance_plans" as maintenance_plans {
+    * id : uuid <<PK>>
+    --
+    * asset_id : uuid
+    * name : varchar(150)
+    * description : varchar(500)
+    * frequency_type : varchar(50)
+    * frequency_value : int
+    * is_active : boolean
+    * created_at : timestamp
+    * updated_at : timestamp
+}
+
+' fechas y estado de ejecucion programada
+entity "maintenance_schedules" as maintenance_schedules {
+    * id : uuid <<PK>>
+    --
+    * maintenance_plan_id : uuid <<FK>>
+    * scheduled_date : timestamp
+    * status : varchar(50)
+    * original_date : timestamp
+    * rescheduled_date : timestamp
+    * reason : varchar(500)
+    * created_at : timestamp
+    * updated_at : timestamp
+}
+
+' un plan genera varias fechas de mantenimiento
+maintenance_plans ||--o{ maintenance_schedules : tiene
+
+
+@enduml
