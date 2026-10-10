@@ -3629,7 +3629,7 @@ Esta sección presenta los wireframes de baja fidelidad de FixCore, diseñados e
 **Wireframes Mobile**
 
 <div align="center">
-  <img src="./Assets/Images/wireframe-movil.png" width="700" alt="Wireframes Mobile"><br>
+  <img src="report/assets/images/wireframe-movil.png" width="700" alt="Wireframes Mobile"><br>
 </div>
 
 **Wireframes Desktop**
@@ -3740,7 +3740,7 @@ En esta sección presentamos los Mock-ups de alta fidelidad, los cuales material
 **Mockups Mobile**
 
 <div align="center">
-  <img src="./Assets/Images/maqueta0.png" width="700" alt="mockups Mobile"><br>
+  <img src="report/assets/images/mockups-mobile.png" width="700" alt="mockups Mobile"><br>
 </div>
 
 **Mockups Desktop**
