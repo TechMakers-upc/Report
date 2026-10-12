@@ -2336,35 +2336,37 @@ Con el objetivo de mantener un lenguaje común entre los integrantes del equipo 
 
 | Término | Definición |
 | :--- | :--- |
-| **Jefe de Planta** | Persona responsable de supervisar las operaciones de una planta y coordinar las actividades relacionadas con el mantenimiento de sus máquinas. Puede registrar máquinas, planificar mantenimientos, gestionar Órdenes de Trabajo y consultar el estado general de las operaciones. |
-| **Técnico** | Persona encargada de realizar directamente actividades de mantenimiento preventivo o correctivo sobre las máquinas. Puede consultar información técnica, atender Órdenes de Trabajo, reportar fallas y registrar las actividades y repuestos utilizados durante una intervención. |
-| **Coordinador de Operaciones** | Persona encargada de organizar y supervisar las actividades de mantenimiento realizadas para diferentes clientes o plantas. Necesita conocer la disponibilidad de los técnicos, consultar el estado de los servicios y obtener información consolidada de las operaciones. |
-| **Planta** | Instalación industrial en la que se encuentran las máquinas y donde se realizan actividades de producción y mantenimiento. Una planta puede contener varias máquinas y tener diferentes técnicos asociados a sus operaciones. |
-| **Máquina** | Equipo utilizado dentro de una planta y que requiere seguimiento y mantenimiento durante su vida útil. Cada máquina puede tener información técnica, manuales, fallas, mantenimientos y Órdenes de Trabajo asociadas. |
-| **Ficha Técnica** | Conjunto de información que describe las principales características de una máquina, como fabricante, modelo, número de serie y otros datos necesarios para su identificación y mantenimiento. |
-| **Manual Técnico** | Documento que contiene información proporcionada por el fabricante o responsable del equipo para apoyar su operación, inspección, diagnóstico o mantenimiento. |
-| **Falla** | Problema o comportamiento anormal detectado en una máquina que puede afectar su funcionamiento y requerir una intervención de mantenimiento. |
-| **Prioridad de Falla** | Nivel utilizado para indicar la urgencia con la que una falla debe ser atendida según su impacto en las operaciones. Permite diferenciar incidencias de menor importancia de aquellas que necesitan atención inmediata. |
-| **Orden de Trabajo** | Registro que formaliza una actividad de mantenimiento que debe ser realizada sobre una máquina. Contiene información sobre la actividad, el Técnico responsable, su estado y los trabajos realizados durante la intervención. |
-| **Estado de Orden de Trabajo** | Situación actual de una Orden de Trabajo dentro de su ciclo de atención. Permite conocer si una actividad se encuentra pendiente, en progreso o completada. |
-| **Actividad de Mantenimiento** | Trabajo realizado por un Técnico como parte de una Orden de Trabajo, como una inspección, reparación, ajuste, limpieza o cambio de componentes. |
-| **Plan de Mantenimiento** | Conjunto de condiciones utilizadas para organizar la realización periódica de mantenimientos sobre una máquina. Puede definir una frecuencia y servir como base para generar mantenimientos futuros. |
-| **Mantenimiento Programado** | Actividad de mantenimiento que cuenta con una fecha prevista para su realización. Puede ser reprogramada mientras todavía se encuentre pendiente. |
-| **Mantenimiento Preventivo** | Mantenimiento realizado de manera planificada antes de que ocurra una falla, con el objetivo de conservar el funcionamiento de una máquina y reducir la posibilidad de interrupciones inesperadas. |
-| **Mantenimiento Correctivo** | Mantenimiento realizado después de identificar una falla, con el objetivo de reparar la máquina y recuperar su funcionamiento normal. |
-| **Mantenimiento Vencido** | Mantenimiento cuya fecha programada ya pasó y que todavía no ha sido completado. |
-| **Repuesto** | Pieza, componente o material que puede ser utilizado durante una actividad de mantenimiento para reemplazar o reparar una parte de una máquina. |
-| **Inventario** | Registro de los repuestos disponibles para realizar actividades de mantenimiento dentro de una planta. Permite controlar ingresos, consumos y ajustes de existencias. |
+| **Plant Manager** (Jefe de planta) | Persona responsable de supervisar las operaciones de una planta y coordinar las actividades relacionadas con el mantenimiento de sus máquinas. Puede registrar máquinas, planificar mantenimientos, gestionar Órdenes de Trabajo y consultar el estado general de las operaciones. |
+| **Technician** (Técnico) | Persona encargada de realizar directamente actividades de mantenimiento preventivo o correctivo sobre las máquinas. Puede consultar información técnica, atender Órdenes de Trabajo, reportar fallas y registrar las actividades y repuestos utilizados durante una intervención. |
+| **Operations Manager** (Gerente de operaciones) | Persona encargada de organizar y supervisar las actividades de mantenimiento realizadas para diferentes clientes o plantas. Necesita conocer la disponibilidad de los técnicos, consultar el estado de los servicios y obtener información consolidada de las operaciones. |
+| **Plant** (Planta) | Instalación industrial en la que se encuentran las máquinas y donde se realizan actividades de producción y mantenimiento. Una planta puede contener varias máquinas y tener diferentes técnicos asociados a sus operaciones. |
+| **Machine** (Máquina) | Equipo utilizado dentro de una planta y que requiere seguimiento y mantenimiento durante su vida útil. Cada máquina puede tener información técnica, manuales, fallas, mantenimientos y Órdenes de Trabajo asociadas. |
+| **Technical Sheet** (Ficha técnica) | Conjunto de información que describe las principales características de una máquina, como fabricante, modelo, número de serie y otros datos necesarios para su identificación y mantenimiento. |
+| **Technical Manual** (Manual técnico) | Documento que contiene información proporcionada por el fabricante o responsable del equipo para apoyar su operación, inspección, diagnóstico o mantenimiento. |
+| **Failure** (Falla) | Problema o comportamiento anormal detectado en una máquina que puede afectar su funcionamiento y requerir una intervención de mantenimiento. |
+| **Failure Priority** (Prioridad de Falla) | Nivel utilizado para indicar la urgencia con la que una falla debe ser atendida según su impacto en las operaciones. Permite diferenciar incidencias de menor importancia de aquellas que necesitan atención inmediata. |
+| **Work Order** (Orden de Trabajo) | Registro que formaliza una actividad de mantenimiento que debe ser realizada sobre una máquina. Contiene información sobre la actividad, el Técnico responsable, su estado y los trabajos realizados durante la intervención. |
+| **WO** (OT) | Abreviación de Work Order en inglés, Orden de Trabajo en español |
+| **Work Order Status** (Estado de Orden de Trabajo) | Situación actual de una Orden de Trabajo dentro de su ciclo de atención. Permite conocer si una actividad se encuentra pendiente, en progreso o completada. |
+| **Maintenance Activity** (Actividad de Mantenimiento) | Trabajo realizado por un Técnico como parte de una Orden de Trabajo, como una inspección, reparación, ajuste, limpieza o cambio de componentes. |
+| **Maintenance Plan** (Plan de Mantenimiento) | Conjunto de condiciones utilizadas para organizar la realización periódica de mantenimientos sobre una máquina. Puede definir una frecuencia y servir como base para generar mantenimientos futuros. |
+| **Scheduled Maintenance** (Mantenimiento Programado) | Actividad de mantenimiento que cuenta con una fecha prevista para su realización. Puede ser reprogramada mientras todavía se encuentre pendiente. |
+| **Preventive Maintenance** (Mantenimiento Preventivo) | Mantenimiento realizado de manera planificada antes de que ocurra una falla, con el objetivo de conservar el funcionamiento de una máquina y reducir la posibilidad de interrupciones inesperadas. |
+| **Corrective Maintenance** (Mantenimiento Correctivo) | Mantenimiento realizado después de identificar una falla, con el objetivo de reparar la máquina y recuperar su funcionamiento normal. |
+| **Overdue Maintenance** (Mantenimiento Vencido) | Mantenimiento cuya fecha programada ya pasó y que todavía no ha sido completado. |
+| **Spare Part** (Repuesto) | Pieza, componente o material que puede ser utilizado durante una actividad de mantenimiento para reemplazar o reparar una parte de una máquina. |
+| **Inventory** (Inventario) | Registro de los repuestos disponibles para realizar actividades de mantenimiento dentro de una planta. Permite controlar ingresos, consumos y ajustes de existencias. |
 | **Stock** | Cantidad disponible de unidades de un determinado repuesto dentro del inventario. |
-| **Stock Mínimo** | Cantidad mínima de unidades que se espera mantener disponible para un repuesto. Cuando el stock alcanza o disminuye por debajo de este valor, puede ser necesario realizar una reposición. |
-| **Movimiento de Inventario** | Cambio registrado en las existencias de un repuesto como consecuencia de un ingreso, consumo o ajuste de inventario. |
-| **Alerta** | Aviso generado cuando ocurre una situación que requiere la atención de uno o más responsables, como una falla crítica, un mantenimiento próximo o un nivel bajo de stock. |
-| **Notificación** | Comunicación enviada a un usuario para informarle sobre un evento relacionado con sus actividades, como la asignación de una nueva Orden de Trabajo o un cambio relevante en una operación. |
-| **Tiempo Muerto** | Periodo durante el cual una máquina permanece fuera de operación debido a una falla, mantenimiento u otra situación que impide su funcionamiento normal. |
-| **MTTR (Mean Time To Repair)** | Indicador que representa el tiempo promedio utilizado para reparar una máquina después de una falla. Se calcula utilizando los tiempos de reparación registrados en las intervenciones completadas. |
-| **Cumplimiento Preventivo** | Indicador que permite conocer qué porcentaje de los mantenimientos preventivos programados fueron realizados según la planificación establecida durante un periodo determinado. |
-| **KPI de Mantenimiento** | Indicador utilizado para evaluar el desempeño de las actividades de mantenimiento. En FixCore puede incluir métricas como MTTR, Tiempo Muerto y Cumplimiento Preventivo. |
-| **Historial de Mantenimiento** | Registro cronológico de las fallas, mantenimientos y actividades realizadas anteriormente sobre una máquina. |
+| **Minimum Stock** (Stock Mínimo) | Cantidad mínima de unidades que se espera mantener disponible para un repuesto. Cuando el stock alcanza o disminuye por debajo de este valor, puede ser necesario realizar una reposición. |
+| **Inventory Movement** (Movimiento de Inventario) | Cambio registrado en las existencias de un repuesto como consecuencia de un ingreso, consumo o ajuste de inventario. |
+| **Alert** (Alerta) | Aviso generado cuando ocurre una situación que requiere la atención de uno o más responsables, como una falla crítica, un mantenimiento próximo o un nivel bajo de stock. |
+| **Notification** (Notificación) | Comunicación enviada a un usuario para informarle sobre un evento relacionado con sus actividades, como la asignación de una nueva Orden de Trabajo o un cambio relevante en una operación. |
+| **Downtime** (Tiempo Muerto) | Periodo durante el cual una máquina permanece fuera de operación debido a una falla, mantenimiento u otra situación que impide su funcionamiento normal. |
+| **Mean Time To Repair** (Tiempo promedio para reparar) | Indicador que representa el tiempo promedio utilizado para reparar una máquina después de una falla. Se calcula utilizando los tiempos de reparación registrados en las intervenciones completadas. |
+| **MTTR** | Abreviación de Mean Time To Repair |
+| **Preventive Compliance** (Cumplimiento Preventivo) | Indicador que permite conocer qué porcentaje de los mantenimientos preventivos programados fueron realizados según la planificación establecida durante un periodo determinado. |
+| **Maintenance KPI** (KPI de Mantenimiento) | Indicador utilizado para evaluar el desempeño de las actividades de mantenimiento. En FixCore puede incluir métricas como MTTR, Tiempo Muerto y Cumplimiento Preventivo. |
+| **Maintenance History** (Historial de Mantenimiento) | Registro cronológico de las fallas, mantenimientos y actividades realizadas anteriormente sobre una máquina. |
 
 
 <div style="page-break-after: always;"></div>
