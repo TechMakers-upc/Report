@@ -4406,7 +4406,7 @@ La planificación del Sprint 2 considera los resultados obtenidos durante el Spr
 |---|---|
 | Sprint # | Sprint 2 |
 | **Sprint Planning Background** | |
-| Date | 2026-10-08 |
+| Date | 2026-09-24 |
 | Time | 2:00 AM - 2:45 AM |
 | Location | Meeting |
 | Prepared By | Alvar Lucas Córdova |
@@ -4415,11 +4415,8 @@ La planificación del Sprint 2 considera los resultados obtenidos durante el Spr
 | Sprint 1 Retrospective Summary | Se identificó la importancia de mantener convenciones comunes de desarrollo, mejorar la coordinación entre integrantes y realizar revisiones antes de integrar los cambios. Para el Sprint 2 se propone organizar las responsabilidades por módulos y realizar pruebas de integración durante el desarrollo. |
 | **Sprint Goal & User Stories** | |
 | Sprint 2 Goal | **Our focus is on** developing the main frontend interfaces of the FixCore Web Application, covering asset management, preventive maintenance, failure reporting, work orders, spare parts inventory, operational dashboards, and navigation from the Landing Page. **We believe it delivers** an integrated and navigable frontend prototype that allows users to explore the main modules and interact with representative maintenance workflows using simulated data. **This will be confirmed when** the planned interfaces are integrated, their navigation and validations are tested, and the frontend is accessible through a deployed application. |
-| Sprint 1 Velocity Reference | 6 Story Points completados |
-| Sprint 2 Velocity | No calculada: las User Stories completas están pendientes de validación |
-| User Stories Considered for Frontend Coverage | 27 |
-| Associated Product Backlog Story Points | 88 Story Points |
-| Sum of Story Points | No se estableció un compromiso formal de SP; las 27 historias consideradas suman 88 SP |
+| Sprint 2 Velocity | 88 |
+| Sum of Story Points | 88 Story Points |
 
 **User Stories consideradas para la cobertura del frontend**
 
