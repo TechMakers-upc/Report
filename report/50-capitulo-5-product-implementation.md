@@ -764,15 +764,15 @@ Métricas de colaboración:
 
 ### 5.2.3. Sprint 3.
 
-El Sprint 3 inicia el **16 de octubre de 2026**. En esta primera etapa, los integrantes activos de TechMakers se concentrarán en tres productos que ya cuentan con una base de desarrollo: **Frontend Web Application, Landing Page y Project Report**. El propósito es mejorar la navegación y el diseño de FixCore, incorporar la interfaz de inicio de sesión, ajustar los flujos de mantenimiento que ya existen y mantener actualizadas las evidencias del informe.
+El Sprint 3 inicia el **16 de octubre de 2026**. TechMakers propone continuar el desarrollo de **FixCore** sobre los avances de Sprint 2, distribuyendo trabajo en **Frontend Web Application (Angular), Landing Page, Project Report y Backend (Java y Spring Boot)**. Esta planificación reúne mejoras de interfaz, primeras capacidades del backend organizadas por contextos delimitados (*Bounded Contexts*) y la documentación de los resultados verificables. Las estimaciones corresponden a actividades propuestas y no constituyen evidencia de tareas terminadas.
 
-El equipo está reorganizando sus responsabilidades para continuar el proyecto con cuatro integrantes: Alvar Lucas Córdova, Giuseppe Adrián Villanueva Rodríguez, Diego Rances Rojas Huaranga y Pierre Alessandro Mendoza Boluarte. La distribución propuesta asigna a Alvar la mayor carga de trabajo, principalmente en el frontend y la documentación, mientras los demás integrantes mantienen tareas concretas de apoyo e implementación. Los aportes de Sunio Danilo Landa Sánchez realizados en Sprint 1 y Sprint 2 permanecen en los registros históricos.
+El equipo activo considerado para esta distribución está integrado por **Alvar Lucas Córdova, Giuseppe Adrián Villanueva Rodríguez, Diego Rances Rojas Huaranga y Pierre Alessandro Mendoza Boluarte**. Alvar concentra las actividades transversales de frontend y Report; los otros tres integrantes asumen cinco tareas cada uno, incluida una tarea de backend. Los aportes previos de **Sunio Danilo Landa Sánchez** se conservan en los registros históricos de Sprints 1 y 2, sin asignarle nuevas tareas en este plan.
 
-**Alcance de esta etapa:** las tareas T037–T050 abarcan exclusivamente frontend, Landing Page y Report. El backend propio, las entrevistas de validación y los videos obligatorios de AV2 **no se incluyen todavía en esta distribución de trabajo**; el equipo deberá planificarlos y documentarlos más adelante, antes de la entrega de la semana 12. Por lo tanto, este Sprint Backlog es una **planificación parcial en evolución**, no la cobertura completa de AV2 ni una lista de funcionalidades terminadas.
+**Límites del alcance.** El desarrollo de backend comprende implementaciones iniciales de *Work Orders*, *Inventory* y *Asset Management*. Estos nombres son **propuestas de módulos/contextos a confirmar** contra el diseño DDD y el Context Map vigentes del proyecto; no se afirma que hayan sido implementados o integrados. La interfaz de Login se prepara para autenticación posterior: hasta incorporar un servicio real, sus interacciones con perfiles son demostrativas. Las entrevistas de validación, los videos y otros entregables de AV2 que no aparecen en este backlog deberán planificarse por separado antes de la entrega aplicable; no se consideran realizados.
 
 #### 5.2.3.1. Sprint Planning 3.
 
-El equipo inicia Sprint 3 tomando como referencia la Web Application Angular implementada en Sprint 2, la Landing Page publicada en GitHub Pages y el informe del proyecto reorganizado por capítulos. En esta etapa se mejorarán las funcionalidades visibles y la calidad de la documentación, sin presentar como reales operaciones de autenticación o persistencia que todavía dependen de servicios no implementados.
+La base de trabajo es la Web Application Angular desplegada en Sprint 2, la Landing Page y la documentación modularizada del proyecto. Para los primeros servicios propios se propone Java con Spring Boot, bajo una organización modular que separe las responsabilidades de dominio, aplicación e infraestructura; no se presupone una arquitectura de microservicios ni persistencia productiva completada.
 
 | Campo | Información |
 |---|---|
@@ -783,89 +783,106 @@ El equipo inicia Sprint 3 tomando como referencia la Web Application Angular imp
 | Location | Pendiente de confirmación |
 | Prepared By | Alvar Lucas Córdova — propuesta de coordinación |
 | Proposed Participants | Alvar Lucas Córdova, Giuseppe Adrián Villanueva Rodríguez, Diego Rances Rojas Huaranga y Pierre Alessandro Mendoza Boluarte |
-| Sprint 2 Review Summary | Se desarrolló la primera versión del frontend de FixCore con módulos demostrativos de plantas, máquinas, mantenimiento preventivo, fallas, órdenes de trabajo e inventario. La aplicación utilizó JSON Server y se publicó en Vercel. |
-| Sprint 2 Retrospective Summary | La integración por módulos permitió completar una versión navegable, pero el alcance inicial fue amplio. Para mejorar el seguimiento se priorizarán tareas de frontend y documentación más específicas, con responsables y criterios de revisión claros. |
+| Sprint 2 Review Summary | Se desarrollaron y desplegaron vistas demostrativas de la Web Application para gestión de plantas, máquinas, mantenimiento, fallas, órdenes de trabajo e inventario, con apoyo de JSON Server. |
+| Sprint 2 Retrospective Summary | La integración de los módulos permitió obtener una versión navegable. Para Sprint 3 se agrupan las responsabilidades transversales y se diferencian expresamente las tareas de backend propio de las pruebas con recursos simulados. |
 | **Sprint Goal & User Stories** | |
-| Sprint 3 Goal | **Our focus is on** improving the existing FixCore frontend, preparing its login interface, refining key maintenance screens, updating the Landing Page, and keeping project documentation consistent. **We believe it delivers** a clearer and more reliable demonstrative experience that the team can review before integrating further services. **This will be confirmed when** the planned screens and navigation work with demonstration data, both published websites can be accessed, and the report contains traceable changes and evidence of the activities completed. |
-| Initial Scope | Frontend, Landing Page and Project Report only |
-| Product Backlog References | US54 (solo interfaz de Login), US64 (acceso desde Landing Page) y mejoras parciales de interfaces relacionadas con US01, US03, US19 y US23. No se atribuye cumplimiento completo de dichas historias por mejoras visuales. |
-| Estimated Tasks | 14 tareas iniciales, T037–T050 |
-| Estimated Workload | 58 horas propuestas para los cuatro integrantes |
-| Sprint 3 Velocity | Pendiente de determinar a partir de historias íntegramente aceptadas; el avance parcial de interfaces no genera Story Points terminados automáticamente |
+| Sprint 3 Goal | **Our focus is on** improving FixCore's login and main frontend flows, implementing initial backend capabilities for work orders, inventory and asset management, validating the Landing Page, and keeping project evidence traceable. **We believe it delivers** a more coherent demonstrative application and an initial foundation for real REST services. **This will be confirmed when** completed changes are integrated and tested, the initial backend endpoints have verifiable results, published links are checked, and the report records actual commits and evidence. |
+| Product Backlog References | US54 (interfaz Login); US01 y US03 (plantas y máquinas); US19 y US23 (fallas y órdenes de trabajo); US64 (acceso desde Landing Page). Las tareas de Inventory y backend se relacionarán con los identificadores de historias del Product Backlog tras verificarlos; no se inventan IDs. |
+| Planned Scope | Frontend, Landing Page, Project Report y tres módulos iniciales del backend con Java/Spring Boot |
+| Estimated Tasks | 19 tareas propuestas, T037–T055 |
+| Estimated Workload | 70 horas propuestas para cuatro integrantes |
+| Sprint 3 Velocity | Por determinar con las User Stories aceptadas; horas estimadas y commits no equivalen a Story Points completados |
 
-**Priorización de funcionalidades.** El trabajo principal comenzará por la vista de Login, sus validaciones de formulario y una navegación demostrativa de perfiles. Después se revisarán las interfaces de plantas y máquinas, la navegación común y las pantallas de fallas y órdenes de trabajo. En paralelo se verificará que los botones de la Landing Page dirijan a la aplicación, que las versiones en español e inglés mantengan el contenido adecuado y que los capítulos del informe sean consistentes con el trabajo realizado.
+**Orden propuesto de ejecución.** Primero se validarán las convenciones y límites de los Bounded Contexts con el modelo del proyecto y se preparará la estructura compartida del backend. Luego se implementarán los módulos iniciales y se probarán sus operaciones HTTP; en paralelo se desarrollarán las mejoras del frontend y la Landing Page. La integración extremo a extremo se documentará solamente cuando se haya comprobado. Los ajustes del Report acompañarán los cambios verificables.
 
-**Limitación del Login.** En esta etapa se implementarán la interfaz y la estructura del servicio Angular que permitirá conectarse posteriormente a una API de autenticación. Sin backend, la selección de perfiles o cualquier simulación de entrada tendrá exclusivamente fines de demostración; **no equivale a autenticar usuarios, proteger recursos o administrar sesiones seguras**. No se utilizará JSON Server para exponer contraseñas ni se afirmará que las rutas están protegidas por una autorización real.
+**Criterio del Login.** Crear y validar el formulario, preparar el servicio Angular y mejorar la navegación demostrativa **no representa autenticación real**, manejo seguro de sesiones ni autorización por roles. No se expondrán contraseñas en JSON Server ni se declararán rutas protegidas sin una implementación comprobable.
 
 #### 5.2.3.2. Aspect Leaders and Collaborators.
 
-Para esta etapa del Sprint 3 se propone la siguiente distribución. **L** identifica al principal responsable del área y **C** la colaboración. Las asignaciones deberán confirmarse en la reunión del equipo y actualizarse en Trello.
+La siguiente tabla propone responsables principales (**L**) y colaboradores (**C**); debe confirmarse en la reunión del equipo y reflejarse en Trello.
 
-| Team Member | GitHub Username | Frontend Login & Forms | Frontend UX & Navigation | Landing Page | Report & Evidence |
-|---|---|:---:|:---:|:---:|:---:|
-| Córdova, Alvar Lucas | AlvarLC | L | C | C | L |
-| Villanueva Rodríguez, Giuseppe Adrián | Giuseppe152004 | C | L | C | C |
-| Rojas Huaranga, Diego Rances | diego27-16 | C | C | L | C |
-| Mendoza Boluarte, Pierre Alessandro | pierreale2302 | C | C | C | C |
+| Team Member | GitHub Username | Frontend Login & Forms | Frontend UX & Testing | Landing Page | Backend (Spring Boot) | Report & Evidence |
+|---|---|:---:|:---:|:---:|:---:|:---:|
+| Córdova, Alvar Lucas | AlvarLC | L | C | C | C | L |
+| Villanueva Rodríguez, Giuseppe Adrián | Giuseppe152004 | C | L | C | L (Work Orders) | C |
+| Rojas Huaranga, Diego Rances | diego27-16 | C | C | L | L (Inventory) | C |
+| Mendoza Boluarte, Pierre Alessandro | pierreale2302 | C | C | C | L (Asset Management) | C |
 
-Alvar coordinará el trabajo técnico de Login y formularios del frontend, además de mantener la documentación. Giuseppe se concentrará en mejorar las pantallas y la navegación ya implementadas. Diego realizará los ajustes de la Landing Page y sus enlaces con la Web Application. Pierre apoyará en pruebas de interfaz, revisión responsive y verificación de enlaces. La colaboración deberá acreditarse después mediante tareas completadas, commits y Pull Requests.
+Alvar coordinará Login, formularios y documentación; Giuseppe abordará Work Orders y ajustes de las pantallas de fallas y órdenes; Diego trabajará Inventory y Landing Page; Pierre implementará el módulo inicial de Asset Management y ejecutará pruebas de interfaz. Una colaboración solo se registrará como realizada cuando existan aportes comprobables.
 
 #### 5.2.3.3. Sprint Backlog 3.
 
-El Sprint Backlog continúa la numeración del Sprint 2, cuyo último identificador es T036. **Todas las actividades siguientes se encuentran propuestas y en estado To Do** hasta verificar sus avances en GitHub y Trello. Las horas son estimaciones iniciales de esfuerzo, no registros de tiempo ejecutado.
+El Sprint 3 continúa la numeración histórica del Sprint 2, cuyo último identificador es T036. Se **reorganizan las tareas del borrador inicial de Sprint 3** para evitar fragmentar excesivamente las actividades de Alvar y asignar cinco a cada uno de los otros integrantes. La numeración T037–T055 de esta versión **sustituye la numeración del borrador**: se deben actualizar los identificadores de las tarjetas de Trello o mantener una tabla de correspondencia antes de cerrar la planificación.
+
+Las horas representan esfuerzo estimado; las actividades permanecen **To Do**, salvo el avance documental T039, para el cual ya existe el commit local `74d0b91` (revisión de Sprints 1 y 2). El estado final de T039 deberá determinarse al contrastar todos sus criterios y evidencias con Trello.
 
 | Story ID / Scope | Task ID | Task Title | Task Description | Estimated Hours | Proposed Owner | Status |
 |---|---|---|---|---:|---|---|
-| US54 (interfaz parcial) | T037 | Build Angular Login View | Crear una pantalla de Login coherente con el diseño de FixCore, con campos, etiquetas, navegación y mensajes de ayuda. | 5 | Alvar Lucas Córdova | To Do |
-| US54 (interfaz parcial) | T038 | Validate Login Form and Prepare Service | Agregar validaciones de formulario y una interfaz de servicio Angular desacoplada, preparada para incorporar autenticación real posteriormente. | 4 | Alvar Lucas Córdova | To Do |
-| Frontend demostrativo | T039 | Refine Profile Navigation | Mejorar la navegación demostrativa entre perfiles, el regreso al Login y la acción visual de salida, sin atribuirle seguridad real. | 4 | Alvar Lucas Córdova | To Do |
-| US01, US03 (interfaz parcial) | T040 | Improve Plants and Machines Forms | Revisar campos, validaciones y mensajes de las vistas de plantas y máquinas; conservar datos de demostración cuando corresponda. | 5 | Alvar Lucas Córdova | To Do |
-| US64 | T041 | Verify Landing Page Call-to-Action | Revisar los botones que conducen desde la Landing Page a la Web Application y a la futura vista de Login; corregir enlaces incorrectos. | 3 | Diego Rances Rojas Huaranga | To Do |
-| Landing Page | T042 | Review Landing Page Languages and Layout | Comprobar las versiones en español e inglés, enlaces legales, navegación y presentación responsive. | 5 | Diego Rances Rojas Huaranga | To Do |
-| US19, US23 (interfaz parcial) | T043 | Refine Failure and Work Order Screens | Corregir estados visuales, formularios y navegación de los flujos demostrativos de fallas y órdenes de trabajo. | 5 | Giuseppe Adrián Villanueva Rodríguez | To Do |
-| Frontend | T044 | Improve Shared Navigation and Responsive UI | Revisar componentes compartidos, menú, adaptación a pantallas y consistencia visual entre perfiles. | 4 | Giuseppe Adrián Villanueva Rodríguez | To Do |
-| Frontend | T045 | Test Frontend Demonstrative Flows | Comprobar Login demostrativo, vistas de máquinas y principales flujos visuales; registrar defectos encontrados. | 4 | Pierre Alessandro Mendoza Boluarte | To Do |
-| Landing Page | T046 | Test Landing Page Links and Viewports | Verificar enlaces, navegación entre idiomas y visualización en escritorio y móvil. | 3 | Pierre Alessandro Mendoza Boluarte | To Do |
-| Report | T047 | Review Sprint 1 and Sprint 2 Records | Conciliar los estados de tareas, commits y evidencias históricas con los registros existentes, sin alterar resultados anteriores sin sustento. | 4 | Alvar Lucas Córdova | To Do |
-| Report | T048 | Document Sprint 3 Frontend and Landing Evidence | Incorporar actividades completadas, commits, capturas y resultados verificables de esta etapa del Sprint 3. | 5 | Alvar Lucas Córdova | To Do |
-| Report | T049 | Update Student Outcome and Project Report | Actualizar registro de versiones, Student Outcome, conclusiones y referencias relacionadas con el avance real. | 4 | Alvar Lucas Córdova | To Do |
-| Report | T050 | Validate Markdown Index and Asset References | Comprobar enlaces del README, rutas de capítulos, imágenes y presentación Markdown del informe antes de los cambios de versión. | 3 | Alvar Lucas Córdova | To Do |
+| US54 (interfaz parcial) | T037 | Implement Login Interface and Demonstrative Navigation | Crear formulario Login Angular, validaciones, mensajes, contrato de servicio preparado para API futura y navegación demostrativa entre perfiles, sin atribuir autenticación real. | 9 | Alvar Lucas Córdova | To Do |
+| US01, US03 (interfaz parcial) | T038 | Improve Plants and Machines Forms | Revisar formularios, campos, validaciones, estados visuales y navegación de plantas y máquinas, manteniendo claros los datos simulados. | 6 | Alvar Lucas Córdova | To Do |
+| Report | T039 | Reconcile Sprint 1 and Sprint 2 Records | Verificar y conciliar commits, estados históricos y evidencias de Sprints 1 y 2; registrar diferencias sin modificar resultados históricos sin sustento. | 4 | Alvar Lucas Córdova | In Progress (evidencia parcial: `74d0b91`) |
+| Report | T040 | Update Sprint 3 and Project Report | Actualizar planificación, Student Outcome, registro de versiones, conclusiones, vínculos e imágenes; incorporar únicamente evidencias reales de Sprint 3. | 9 | Alvar Lucas Córdova | To Do |
+| Backend / Work Orders (alcance inicial) | T041 | Implement Work Orders Backend Module | Preparar módulo/contexto de órdenes de trabajo en Java/Spring Boot con modelo de dominio, caso de uso básico, repositorio y endpoints REST probables con solicitudes HTTP; definir persistencia según infraestructura disponible. | 6 | Giuseppe Adrián Villanueva Rodríguez | To Do |
+| US23 (interfaz parcial) | T042 | Refine Work Order Forms | Corregir campos, validaciones y estados visuales de las vistas de órdenes de trabajo. | 2 | Giuseppe Adrián Villanueva Rodríguez | To Do |
+| US19 (interfaz parcial) | T043 | Refine Failure Reporting View | Revisar presentación del reporte de fallas, mensajes y estados de formulario. | 2 | Giuseppe Adrián Villanueva Rodríguez | To Do |
+| Frontend | T044 | Fix Shared Menu Navigation | Corregir enlaces y comportamiento del menú compartido entre vistas y perfiles demostrativos. | 2 | Giuseppe Adrián Villanueva Rodríguez | To Do |
+| Frontend | T045 | Review Shared UI Components | Unificar textos, estilos y estados de componentes visuales comunes. | 2 | Giuseppe Adrián Villanueva Rodríguez | To Do |
+| Backend / Inventory (alcance inicial) | T046 | Implement Inventory Backend Module | Preparar módulo/contexto de inventario con modelo de repuesto, caso de uso básico, repositorio y endpoints REST en Spring Boot; comprobar al menos una operación con petición y respuesta. | 6 | Diego Rances Rojas Huaranga | To Do |
+| US64 | T047 | Verify Landing Page Access Button | Corregir el enlace de acceso desde Landing Page hacia la ruta de la Web Application que efectivamente exista. | 2 | Diego Rances Rojas Huaranga | To Do |
+| Landing Page | T048 | Review Spanish and English Content | Revisar traducciones y consistencia básica de etiquetas entre versiones EN/ES. | 2 | Diego Rances Rojas Huaranga | To Do |
+| Landing Page | T049 | Verify Legal Page Links | Comprobar y corregir enlaces de términos, privacidad y navegación relacionada. | 2 | Diego Rances Rojas Huaranga | To Do |
+| Landing Page | T050 | Improve Landing Page Responsive Layout | Ajustar presentación de secciones y botones en tamaños de pantalla representativos. | 2 | Diego Rances Rojas Huaranga | To Do |
+| Backend / Asset Management (alcance inicial) | T051 | Implement Asset Management Backend Module | Preparar módulo/contexto de gestión de activos o máquinas con entidad de dominio, caso de uso básico, repositorio y endpoints REST en Spring Boot; probar al menos una operación HTTP. | 6 | Pierre Alessandro Mendoza Boluarte | To Do |
+| Frontend test | T052 | Test Login Form | Comprobar campos requeridos, validaciones y mensajes de interfaz; reportar defectos reproducibles. | 2 | Pierre Alessandro Mendoza Boluarte | To Do |
+| Frontend test | T053 | Test Demonstrative Profile Navigation | Verificar acceso a vistas de perfiles demostrativos y regreso a la pantalla inicial, sin confundirlo con autorización real. | 2 | Pierre Alessandro Mendoza Boluarte | To Do |
+| Frontend test | T054 | Test Machines Forms | Comprobar navegación, entradas y mensajes de los formularios de máquinas con datos de prueba. | 2 | Pierre Alessandro Mendoza Boluarte | To Do |
+| Frontend test | T055 | Record UI Defects and Test Results | Consolidar pruebas y registrar errores, pasos para reproducirlos y resultado de las correcciones comprobadas. | 2 | Pierre Alessandro Mendoza Boluarte | To Do |
 
 **Resumen de asignaciones propuestas**
 
 | Integrante | Tareas | Horas estimadas |
 |---|---|---:|
-| Córdova, Alvar Lucas | T037, T038, T039, T040, T047, T048, T049, T050 | 34 |
-| Villanueva Rodríguez, Giuseppe Adrián | T043, T044 | 9 |
-| Rojas Huaranga, Diego Rances | T041, T042 | 8 |
-| Mendoza Boluarte, Pierre Alessandro | T045, T046 | 7 |
-| **Total** | **14 tareas** | **58** |
+| Córdova, Alvar Lucas | T037–T040 (4) | 28 |
+| Villanueva Rodríguez, Giuseppe Adrián | T041–T045 (5) | 14 |
+| Rojas Huaranga, Diego Rances | T046–T050 (5) | 14 |
+| Mendoza Boluarte, Pierre Alessandro | T051–T055 (5) | 14 |
+| **Total** | **19 tareas** | **70** |
 
-El reparto responde a la reorganización de los integrantes activos para esta etapa. Alvar asume la mayor parte de las tareas, pero los tiempos y responsables deberán confirmarse con los demás. Sunio no tiene tareas nuevas en este plan; sus aportes históricos permanecen en la documentación de los Sprints 1 y 2.
+**Criterios generales de aceptación.** Las tareas de UI requieren cambios integrados, prueba de navegación/formularios y evidencias reproducibles. Las tareas de backend requieren al menos un caso de uso operativo por módulo, una petición HTTP probada con su respuesta, código versionado y explicación de cómo ejecutar el servicio. Crear únicamente clases o carpetas no basta para declararlas terminadas. El hecho de crear un módulo no demuestra por sí solo un Bounded Context bien definido: se validarán sus responsabilidades y límites frente al modelo DDD del proyecto. Las tareas de Report requieren enlaces y commits verificables. Ninguna User Story se considerará totalmente aceptada por implementar solo una parte de su alcance.
 
-**Criterios de revisión.** Una tarea de interfaz se marcará como terminada cuando el cambio esté integrado y se haya comprobado su comportamiento con los datos de demostración disponibles. Una tarea de documentación requerirá enlaces, capturas y commits verificables. Las User Stories que dependen de servicios propios o autenticación real permanecerán como parciales hasta cumplir todos sus criterios de aceptación. Las tareas de backend y el resto de entregables de AV2 se incorporarán mediante una actualización posterior de la planificación, antes del cierre de la semana 12.
+**Dependencias y riesgos.** Las definiciones de dominio deben revisarse para no duplicar conceptos entre Asset Management, Inventory y Work Orders. Antes de integrar módulos, se acordarán los contratos REST, configuración del proyecto, tratamiento de errores y estrategia de persistencia. Si los tres módulos no llegan a desplegarse, las evidencias deberán distinguir entre pruebas locales, despliegues reales y trabajo pendiente.
 
 #### 5.2.3.4. Development Evidence for Sprint Review.
 
-Se registrarán los cambios realmente realizados en los repositorios **Frontend**, **Landing-Page** y **Report**, incluyendo la rama, el identificador del commit, su mensaje, la fecha y las responsabilidades verificadas. Las evidencias se incorporarán conforme el equipo termine las tareas y revise los Pull Requests. Por ahora no se registran commits de Sprint 3 como si ya se hubieran producido.
+Esta sección registrará **solo cambios efectivamente comprobados** por repositorio, rama, commit, fecha, tarea y enlace a Pull Request cuando corresponda. El commit local `74d0b91` en la rama `feature/sprint3-report` contiene la conciliación documental de Sprints 1 y 2 y constituye evidencia parcial de **T039**; no acredita la finalización del resto de Sprint 3 ni se presenta como publicado en GitHub mientras no se verifique su `push`.
+
+| Repository | Branch | Commit | Description | Related Task | Evidence Status |
+|---|---|---|---|---|---|
+| Report | `feature/sprint3-report` | `74d0b91` | `docs: reconcile sprint 1 and sprint 2 records` | T039 | Commit local mostrado; publicación remota y aceptación final pendientes de verificación |
+
+Las filas de Frontend, Landing Page y Backend se incorporarán cuando existan commits verificables. No se atribuirán cambios aún no realizados.
 
 #### 5.2.3.5. Execution Evidence for Sprint Review.
 
-La revisión de esta etapa presentará, cuando estén implementados y probados, los siguientes escenarios: abrir la nueva pantalla de Login y validar sus campos; navegar entre perfiles en modo demostración; consultar y registrar datos de prueba desde las vistas de plantas y máquinas; recorrer las pantallas principales de fallas y órdenes de trabajo; y acceder desde los botones de la Landing Page a las rutas correspondientes de la Web Application. Se incluirán capturas, resultados de revisión y enlaces a los videos de demostración únicamente cuando estos existan.
+La revisión presentará resultados reales de los escenarios previstos: (1) visualización y validación de la pantalla Login; (2) navegación entre perfiles demostrativos; (3) revisión de formularios de plantas, máquinas, fallas y órdenes de trabajo; (4) botones y rutas de Landing Page, traducciones y enlaces legales; y (5) invocación y respuesta de al menos un endpoint operativo de cada módulo backend que haya sido terminado.
 
-Se indicará expresamente qué flujos continúan utilizando datos simulados. No se presentará la interfaz de Login como inicio de sesión seguro ni se afirmará que se ha implementado persistencia propia.
+Para cada escenario ejecutado se registrarán fecha, entorno (local/desplegado), procedimiento, resultado, evidencia visual o técnica, y defectos pendientes. No se incluirán capturas, videos ni resultados ficticios. Las operaciones que sigan dependiendo de JSON Server se identificarán como simuladas.
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review.
 
-En esta primera etapa del Sprint 3 **no se han asignado actividades de desarrollo ni documentación de Web Services propios**. La API simulada de JSON Server utilizada en Sprint 2 permanece como apoyo para las pantallas demostrativas, sin considerarse un backend de elaboración interna. Esta subsección se actualizará posteriormente cuando el equipo defina, implemente y pruebe el alcance de servicios requerido para AV2; mientras tanto, no se registran endpoints propios ni evidencias OpenAPI como completados.
+A diferencia del borrador inicial de Sprint 3, esta planificación **sí asigna tres tareas de backend propio**: T041 (*Work Orders*), T046 (*Inventory*) y T051 (*Asset Management*). Se propone implementarlas con Java y Spring Boot de forma modular, siempre que coincidan con los límites del dominio validados por el equipo.
+
+Cada tarea deberá aportar, cuando se complete: responsabilidades del módulo, entidades o agregados relevantes, un caso de uso implementado, endpoint y método HTTP, ejemplo de petición/respuesta, prueba de funcionamiento, manejo básico de errores y referencia al commit. La documentación OpenAPI/Swagger se añadirá **si se configura y verifica**; no se consignarán URLs o endpoints no implementados. JSON Server seguirá identificado exclusivamente como servicio simulado de Sprint 2 hasta que se pruebe una integración nueva.
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review.
 
-Los productos previstos para revisión y publicación durante esta primera etapa son la **Landing Page en GitHub Pages** y la **Web Application Angular en Vercel**. La documentación mostrará las configuraciones y versiones realmente publicadas, junto con capturas y pruebas de acceso. La publicación de servicios propios queda fuera de las tareas asignadas actualmente y deberá planificarse antes de la entrega AV2.
+Los despliegues de referencia del trabajo anterior son la Landing Page en GitHub Pages y la Web Application Angular en Vercel; se comprobará su funcionamiento con los cambios nuevos antes de documentar una publicación de Sprint 3. Para backend se especificará por módulo si funciona solo en ambiente local o si ha sido publicado, con URL real, configuración necesaria, versión/commit y prueba HTTP. **La asignación de T041, T046 y T051 no implica que exista un despliegue de Spring Boot.**
 
 #### 5.2.3.8. Team Collaboration Insights during Sprint.
 
-La colaboración de los cuatro integrantes activos se registrará mediante el Sprint Backlog, commits, Pull Requests, reuniones y revisiones del frontend, la Landing Page y el Report. Al cerrar esta etapa, la sección incluirá los resultados efectivos, problemas detectados y acciones de mejora. No se atribuirá trabajo del Sprint 3 a quien no haya participado, pero se mantendrá el reconocimiento de las contribuciones históricas que correspondan.
+La planificación considera cuatro integrantes activos y conserva los aportes históricos de todos los participantes de los sprints previos. El seguimiento se realizará mediante Trello, ramas, commits, Pull Requests y reuniones documentadas. Cada integrante deberá asociar sus evidencias con sus tareas; al cierre se registrarán resultados reales, dificultades de integración entre módulos, incidencias, acuerdos y ajustes al backlog. Las métricas de colaboración se calcularán con registros existentes y no con estimaciones de trabajo.
+
+**Actividades AV2 pendientes de planificación.** Este backlog no asigna todavía responsables ni horas para entrevistas de validación, Video About-the-Product, Video About-the-Team ni para cualquier integración adicional exigida por la rúbrica. Estos entregables deberán incorporarse en una actualización del plan y documentarse con evidencia real antes de la fecha de entrega aplicable. Esta lista de 19 tareas no debe presentarse como cumplimiento integral de AV2.
 
 ### 5.3. Validation Interviews.
 
