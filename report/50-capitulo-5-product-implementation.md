@@ -198,7 +198,7 @@ La siguiente tabla presenta algunos de los commits realizados durante el desarro
 |---|---|---|---|---|---|
 | Landing-Page | feature/landing-page-presentation | 0128950 | feat: Enhance index.html with meta tags and header structure | | Sep 19, 2026 |
 | Landing-Page | feature/landing-page-presentation | 18ee3c6 | styles: Add base styles and CSS variables | | Sep 19, 2026 |
-| Landing-Page | feature/landing-page-presentation | 51ba71f | Merge pull request #1 from TechMakers-upc/Feature/landing-page | | Sep 19, 2026 |
+| Landing-Page | feature/landing-page-presentation | 51ba71f | Merge pull request #1 from TechMakers-upc/Feature/landing-page-presentation | | Sep 19, 2026 |
 | Landing-Page | feature/functions-landing | c7507e1 | feat(landing): implement features section and add UI assets | | Sep 19, 2026 |
 | Landing-Page | feature/functions-landing | c0f0ae4 | Merge pull request #3 from TechMakers-upc/feature/functions-landing | | Sep 19, 2026 |
 | Landing-Page | feature/benefints-landing-page | ef53f10 | Update index.html | | Sep 19, 2026 |
@@ -480,6 +480,22 @@ Durante el Sprint 2 utilizamos Git y GitHub, con la extensión GitFlowHelper de 
 | Frontend | fix/frontend-integration-deployment | 5bab08c | feat: integrate FixCore Sprint 2 frontend and responsive Figma design | | Oct 8, 2026 |
 | Frontend | fix/frontend-integration-deployment | 05375b4 | fix: apply Sprint 2 frontend audit corrections | | Oct 8, 2026 |
 
+
+**Conciliación documental de los Sprints 1 y 2 (revisión T047).** Se contrastaron los identificadores, los mensajes y las fechas de los ocho commits citados en la evidencia de desarrollo del Sprint 1 y los quince del Sprint 2 con sus registros disponibles en los repositorios de GitHub. Los identificadores consultados corresponden a commits existentes y las fechas documentadas coinciden con sus registros. Se ajusta el mensaje del merge commit `51ba71f` para consignar su rama de origen completa (`Feature/landing-page-presentation`), según GitHub. Esta revisión verifica la trazabilidad de los cambios de código, no la aceptación integral de las User Stories ni los estados de las tarjetas de Trello.
+
+| Sprint | Tareas relacionadas | Evidencia de commits comprobada | Alcance que respaldan los registros |
+|---|---|---|---|
+| 1 | T001–T002 | Landing Page: [`0128950`](https://github.com/TechMakers-upc/Landing-Page/commit/0128950), [`18ee3c6`](https://github.com/TechMakers-upc/Landing-Page/commit/18ee3c6) | Estructura de presentación y estilos base. |
+| 1 | T003–T004 | Landing Page: [`c7507e1`](https://github.com/TechMakers-upc/Landing-Page/commit/c7507e1) | Sección de funcionalidades y recursos visuales; la aceptación de cada tarea requiere revisar sus criterios. |
+| 1 | T005–T006 | Landing Page: [`ef53f10`](https://github.com/TechMakers-upc/Landing-Page/commit/ef53f10), [`2b78517`](https://github.com/TechMakers-upc/Landing-Page/commit/2b78517) | Cambios en la página y la integración de la rama de beneficios; no acreditan por sí solos cada detalle de contenido. |
+| 1 | T007–T008 | Landing Page: [`eb0f365`](https://github.com/TechMakers-upc/Landing-Page/commit/eb0f365) | Tarjetas informativas de planes de suscripción. |
+| 2 | T011–T015 | Frontend: [`b94f329`](https://github.com/TechMakers-upc/Frontend/commit/b94f329), [`ad2c0d9`](https://github.com/TechMakers-upc/Frontend/commit/ad2c0d9), [`376e60f`](https://github.com/TechMakers-upc/Frontend/commit/376e60f) | Componentes compartidos, formularios, detalle e historial de máquinas. |
+| 2 | T016–T020 | Frontend: [`4995d52`](https://github.com/TechMakers-upc/Frontend/commit/4995d52), [`2fe7221`](https://github.com/TechMakers-upc/Frontend/commit/2fe7221), [`9796005`](https://github.com/TechMakers-upc/Frontend/commit/9796005) | Formularios, calendario, estados y navegación de mantenimiento preventivo. |
+| 2 | T021–T025 | Frontend: [`3854c5a`](https://github.com/TechMakers-upc/Frontend/commit/3854c5a), [`7f04637`](https://github.com/TechMakers-upc/Frontend/commit/7f04637), [`93c4ca2`](https://github.com/TechMakers-upc/Frontend/commit/93c4ca2) | Reporte y seguimiento de fallas y vistas de indicadores. |
+| 2 | T026–T031 | Frontend: [`fc52f8c`](https://github.com/TechMakers-upc/Frontend/commit/fc52f8c), [`0867eb7`](https://github.com/TechMakers-upc/Frontend/commit/0867eb7) | Formularios y flujos visuales de órdenes de trabajo; la conexión desde la Landing Page (T031) requiere evidencia específica del repositorio correspondiente. |
+| 2 | T032–T036 | Frontend: [`52d6549`](https://github.com/TechMakers-upc/Frontend/commit/52d6549), [`d0224b4`](https://github.com/TechMakers-upc/Frontend/commit/d0224b4), [`5bab08c`](https://github.com/TechMakers-upc/Frontend/commit/5bab08c), [`05375b4`](https://github.com/TechMakers-upc/Frontend/commit/05375b4) | Inventario, integración del frontend y correcciones; la aceptación de T036 necesita evidencias de revisión funcional y responsive. |
+
+**Estados históricos preservados.** La T010 permanece registrada como *In Progress* al cierre del Sprint 1 y la velocidad histórica se mantiene en 6 de 7 Story Points. En Sprint 2 se conservan los estados de la tabla de planificación (T011–T035 en *In Progress* y T036 en *To Do*) porque los commits no acreditan por sí solos la finalización de cada tarea o de sus historias asociadas. Para actualizar los estados de cierre es necesario contrastarlos con las tarjetas de Trello y las evidencias de aceptación del equipo. Los datos de JSON Server y la selección demostrativa de perfiles tampoco constituyen autenticación ni servicios de negocio propios.
 
 #### 5.2.2.5. Execution Evidence for Sprint Review.
 
