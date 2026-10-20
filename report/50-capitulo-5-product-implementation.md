@@ -766,13 +766,13 @@ Métricas de colaboración:
 
 El Sprint 3 inicia el **16 de octubre de 2026**. TechMakers propone continuar el desarrollo de **FixCore** sobre los avances de Sprint 2, distribuyendo trabajo en **Frontend Web Application (Angular), Landing Page, Project Report y Backend (Java y Spring Boot)**. Esta planificación reúne mejoras de interfaz, primeras capacidades del backend organizadas por contextos delimitados (*Bounded Contexts*) y la documentación de los resultados verificables. Las estimaciones corresponden a actividades propuestas y no constituyen evidencia de tareas terminadas.
 
-El equipo activo considerado para esta distribución está integrado por **Alvar Lucas Córdova, Giuseppe Adrián Villanueva Rodríguez, Diego Rances Rojas Huaranga y Pierre Alessandro Mendoza Boluarte**. Alvar concentra las actividades transversales de frontend y Report; los otros tres integrantes asumen cinco tareas cada uno, incluida una tarea de backend. Los aportes previos de **Sunio Danilo Landa Sánchez** se conservan en los registros históricos de Sprints 1 y 2, sin asignarle nuevas tareas en este plan.
+El equipo activo considerado para esta distribución está integrado por **Alvar Lucas Córdova, Giuseppe Adrián Villanueva Rodríguez, Diego Rances Rojas Huaranga y Pierre Alessandro Mendoza Boluarte**. Alvar prepara primero la infraestructura y arquitectura compartida del backend; los otros tres integrantes asumen cinco tareas cada uno para desarrollar módulos funcionales, integrarlos con Angular y realizar pruebas. Los aportes previos de **Sunio Danilo Landa Sánchez** se conservan en los registros históricos de Sprints 1 y 2, sin asignarle nuevas tareas en este plan.
 
-**Límites del alcance.** El desarrollo de backend comprende implementaciones iniciales de *Work Orders*, *Inventory* y *Asset Management*. Estos nombres son **propuestas de módulos/contextos a confirmar** contra el diseño DDD y el Context Map vigentes del proyecto; no se afirma que hayan sido implementados o integrados. La interfaz de Login se prepara para autenticación posterior: hasta incorporar un servicio real, sus interacciones con perfiles son demostrativas. Las entrevistas de validación, los videos y otros entregables de AV2 que no aparecen en este backlog deberán planificarse por separado antes de la entrega aplicable; no se consideran realizados.
+**Límites del alcance.** El desarrollo de backend comprende implementaciones iniciales de *Work Orders*, *Inventory* y *Asset Management*. Estos nombres son **propuestas de módulos/contextos a confirmar** contra el diseño DDD y el Context Map vigentes del proyecto; no se afirma que hayan sido implementados o integrados. La autenticación real queda fuera de estas 19 tareas y el Login existente permanece como demostración hasta que se programe su integración segura. Las entrevistas de validación, los videos y otros entregables de AV2 que no aparecen en este backlog deberán planificarse por separado antes de la entrega aplicable; no se consideran realizados.
 
 #### 5.2.3.1. Sprint Planning 3.
 
-La base de trabajo es la Web Application Angular desplegada en Sprint 2, la Landing Page y la documentación modularizada del proyecto. Para los primeros servicios propios se propone Java con Spring Boot, bajo una organización modular que separe las responsabilidades de dominio, aplicación e infraestructura; no se presupone una arquitectura de microservicios ni persistencia productiva completada.
+La base de trabajo es la aplicación Angular del Sprint 2, la Landing Page y el Report. Primero Alvar preparará un único backend modular en Java/Spring Boot con convenciones DDD y Clean Architecture, configuración de persistencia y contratos REST. Después los otros integrantes implementarán los módulos de negocio sobre esa base; no se presuponen microservicios ni despliegues existentes.
 
 | Campo | Información |
 |---|---|
@@ -786,101 +786,95 @@ La base de trabajo es la Web Application Angular desplegada en Sprint 2, la Land
 | Sprint 2 Review Summary | Se desarrollaron y desplegaron vistas demostrativas de la Web Application para gestión de plantas, máquinas, mantenimiento, fallas, órdenes de trabajo e inventario, con apoyo de JSON Server. |
 | Sprint 2 Retrospective Summary | La integración de los módulos permitió obtener una versión navegable. Para Sprint 3 se agrupan las responsabilidades transversales y se diferencian expresamente las tareas de backend propio de las pruebas con recursos simulados. |
 | **Sprint Goal & User Stories** | |
-| Sprint 3 Goal | **Our focus is on** improving FixCore's login and main frontend flows, implementing initial backend capabilities for work orders, inventory and asset management, validating the Landing Page, and keeping project evidence traceable. **We believe it delivers** a more coherent demonstrative application and an initial foundation for real REST services. **This will be confirmed when** completed changes are integrated and tested, the initial backend endpoints have verifiable results, published links are checked, and the report records actual commits and evidence. |
-| Product Backlog References | US54 (interfaz Login); US01 y US03 (plantas y máquinas); US19 y US23 (fallas y órdenes de trabajo); US64 (acceso desde Landing Page). Las tareas de Inventory y backend se relacionarán con los identificadores de historias del Product Backlog tras verificarlos; no se inventan IDs. |
-| Planned Scope | Frontend, Landing Page, Project Report y tres módulos iniciales del backend con Java/Spring Boot |
+| Sprint 3 Goal | **Our focus is on** establishing a shared Java/Spring Boot backend foundation, building functional modules for Work Orders, Inventory and Asset Management, connecting them to the existing Angular application and documenting verified results. **We believe it delivers** a maintainable starting point for real FixCore services. **This will be confirmed when** the backend structure compiles, database access and agreed contracts are tested, each implemented module passes an HTTP test, selected Angular flows are integrated and evidence is traceable. |
+| Product Backlog References | US01 y US03 (plantas y máquinas), US23 (órdenes de trabajo), y las historias de Inventory pendientes de confirmar con el Product Backlog. Las tareas de arquitectura y la integración transversal son técnicas; no se les atribuyen nuevos IDs de User Story. |
+| Planned Scope | Backend modular Java/Spring Boot, integración Angular, pruebas, mantenimiento de Landing Page y Report |
 | Estimated Tasks | 19 tareas propuestas, T037–T055 |
-| Estimated Workload | 70 horas propuestas para cuatro integrantes |
-| Sprint 3 Velocity | Por determinar con las User Stories aceptadas; horas estimadas y commits no equivalen a Story Points completados |
+| Estimated Workload | 73 horas propuestas para cuatro integrantes |
+| Sprint 3 Velocity | Se determinará solo por historias aceptadas; las estimaciones horarias no equivalen a Story Points |
 
-**Orden propuesto de ejecución.** Primero se validarán las convenciones y límites de los Bounded Contexts con el modelo del proyecto y se preparará la estructura compartida del backend. Luego se implementarán los módulos iniciales y se probarán sus operaciones HTTP; en paralelo se desarrollarán las mejoras del frontend y la Landing Page. La integración extremo a extremo se documentará solamente cuando se haya comprobado. Los ajustes del Report acompañarán los cambios verificables.
+**Orden de ejecución y dependencias.** Fase 1 (Alvar): proyecto Spring Boot ejecutable, estructura por capas y módulos, conexión a base de datos, estrategia de migraciones, errores y contratos REST. Fase 2 (equipo): implementación paralela de Work Orders, Inventory y Asset Management, una vez integrada la base común. Fase 3 (equipo): integración con Angular, pruebas funcionales y evidencias. El Report se actualiza de manera progresiva. Este orden describe dependencias de trabajo, no fechas ni avances confirmados.
 
-**Criterio del Login.** Crear y validar el formulario, preparar el servicio Angular y mejorar la navegación demostrativa **no representa autenticación real**, manejo seguro de sesiones ni autorización por roles. No se expondrán contraseñas en JSON Server ni se declararán rutas protegidas sin una implementación comprobable.
+**Alcance de autenticación.** La interfaz de Login desarrollada en etapas anteriores no se considerará autenticación real; este Sprint no promete un servicio IAM completo ni autorización segura. Las rutas demostrativas no se presentarán como protegidas.
 
 #### 5.2.3.2. Aspect Leaders and Collaborators.
 
 La siguiente tabla propone responsables principales (**L**) y colaboradores (**C**); debe confirmarse en la reunión del equipo y reflejarse en Trello.
 
-| Team Member | GitHub Username | Frontend Login & Forms | Frontend UX & Testing | Landing Page | Backend (Spring Boot) | Report & Evidence |
-|---|---|:---:|:---:|:---:|:---:|:---:|
-| Córdova, Alvar Lucas | AlvarLC | L | C | C | C | L |
-| Villanueva Rodríguez, Giuseppe Adrián | Giuseppe152004 | C | L | C | L (Work Orders) | C |
-| Rojas Huaranga, Diego Rances | diego27-16 | C | C | L | L (Inventory) | C |
-| Mendoza Boluarte, Pierre Alessandro | pierreale2302 | C | C | C | L (Asset Management) | C |
+| Team Member | GitHub Username | Backend foundation | Work Orders | Inventory | Asset Management | Angular integration & tests | Report |
+|---|---|:---:|:---:|:---:|:---:|:---:|:---:|
+| Córdova, Alvar Lucas | AlvarLC | L | C | C | C | C | L |
+| Villanueva Rodríguez, Giuseppe Adrián | Giuseppe152004 | C | L |  |  | L (órdenes) | C |
+| Rojas Huaranga, Diego Rances | diego27-16 | C |  | L |  | L (inventario) | C |
+| Mendoza Boluarte, Pierre Alessandro | pierreale2302 | C |  |  | L | L (activos) | C |
 
-Alvar coordinará Login, formularios y documentación; Giuseppe abordará Work Orders y ajustes de las pantallas de fallas y órdenes; Diego trabajará Inventory y Landing Page; Pierre implementará el módulo inicial de Asset Management y ejecutará pruebas de interfaz. Una colaboración solo se registrará como realizada cuando existan aportes comprobables.
+Alvar establece la base técnica común y sus decisiones de arquitectura; Giuseppe, Diego y Pierre desarrollan sus módulos sobre el mismo proyecto, conectan los respectivos flujos Angular y prueban los resultados. La participación final se respaldará con commits y pruebas verificables.
 
 #### 5.2.3.3. Sprint Backlog 3.
 
-El Sprint 3 continúa la numeración histórica del Sprint 2, cuyo último identificador es T036. Se **reorganizan las tareas del borrador inicial de Sprint 3** para evitar fragmentar excesivamente las actividades de Alvar y asignar cinco a cada uno de los otros integrantes. La numeración T037–T055 de esta versión **sustituye la numeración del borrador**: se deben actualizar los identificadores de las tarjetas de Trello o mantener una tabla de correspondencia antes de cerrar la planificación.
-
-Las horas representan esfuerzo estimado; las actividades permanecen **To Do**, salvo el avance documental T039, para el cual ya existe el commit local `74d0b91` (revisión de Sprints 1 y 2). El estado final de T039 deberá determinarse al contrastar todos sus criterios y evidencias con Trello.
+El Sprint Backlog continúa desde T036. Esta versión **reemplaza la asignación anterior de T037–T055**. Por tratarse de una renumeración y reasignación de actividades, se deben reconciliar las tarjetas de Trello antes de considerarla aprobada. Las estimaciones son propuestas; ninguna nueva tarea de backend se da por terminada.
 
 | Story ID / Scope | Task ID | Task Title | Task Description | Estimated Hours | Proposed Owner | Status |
 |---|---|---|---|---:|---|---|
-| US54 (interfaz parcial) | T037 | Implement Login Interface and Demonstrative Navigation | Crear formulario Login Angular, validaciones, mensajes, contrato de servicio preparado para API futura y navegación demostrativa entre perfiles, sin atribuir autenticación real. | 9 | Alvar Lucas Córdova | To Do |
-| US01, US03 (interfaz parcial) | T038 | Improve Plants and Machines Forms | Revisar formularios, campos, validaciones, estados visuales y navegación de plantas y máquinas, manteniendo claros los datos simulados. | 6 | Alvar Lucas Córdova | To Do |
-| Report | T039 | Reconcile Sprint 1 and Sprint 2 Records | Verificar y conciliar commits, estados históricos y evidencias de Sprints 1 y 2; registrar diferencias sin modificar resultados históricos sin sustento. | 4 | Alvar Lucas Córdova | In Progress (evidencia parcial: `74d0b91`) |
-| Report | T040 | Update Sprint 3 and Project Report | Actualizar planificación, Student Outcome, registro de versiones, conclusiones, vínculos e imágenes; incorporar únicamente evidencias reales de Sprint 3. | 9 | Alvar Lucas Córdova | To Do |
-| Backend / Work Orders (alcance inicial) | T041 | Implement Work Orders Backend Module | Preparar módulo/contexto de órdenes de trabajo en Java/Spring Boot con modelo de dominio, caso de uso básico, repositorio y endpoints REST probables con solicitudes HTTP; definir persistencia según infraestructura disponible. | 6 | Giuseppe Adrián Villanueva Rodríguez | To Do |
-| US23 (interfaz parcial) | T042 | Refine Work Order Forms | Corregir campos, validaciones y estados visuales de las vistas de órdenes de trabajo. | 2 | Giuseppe Adrián Villanueva Rodríguez | To Do |
-| US19 (interfaz parcial) | T043 | Refine Failure Reporting View | Revisar presentación del reporte de fallas, mensajes y estados de formulario. | 2 | Giuseppe Adrián Villanueva Rodríguez | To Do |
-| Frontend | T044 | Fix Shared Menu Navigation | Corregir enlaces y comportamiento del menú compartido entre vistas y perfiles demostrativos. | 2 | Giuseppe Adrián Villanueva Rodríguez | To Do |
-| Frontend | T045 | Review Shared UI Components | Unificar textos, estilos y estados de componentes visuales comunes. | 2 | Giuseppe Adrián Villanueva Rodríguez | To Do |
-| Backend / Inventory (alcance inicial) | T046 | Implement Inventory Backend Module | Preparar módulo/contexto de inventario con modelo de repuesto, caso de uso básico, repositorio y endpoints REST en Spring Boot; comprobar al menos una operación con petición y respuesta. | 6 | Diego Rances Rojas Huaranga | To Do |
-| US64 | T047 | Verify Landing Page Access Button | Corregir el enlace de acceso desde Landing Page hacia la ruta de la Web Application que efectivamente exista. | 2 | Diego Rances Rojas Huaranga | To Do |
-| Landing Page | T048 | Review Spanish and English Content | Revisar traducciones y consistencia básica de etiquetas entre versiones EN/ES. | 2 | Diego Rances Rojas Huaranga | To Do |
-| Landing Page | T049 | Verify Legal Page Links | Comprobar y corregir enlaces de términos, privacidad y navegación relacionada. | 2 | Diego Rances Rojas Huaranga | To Do |
-| Landing Page | T050 | Improve Landing Page Responsive Layout | Ajustar presentación de secciones y botones en tamaños de pantalla representativos. | 2 | Diego Rances Rojas Huaranga | To Do |
-| Backend / Asset Management (alcance inicial) | T051 | Implement Asset Management Backend Module | Preparar módulo/contexto de gestión de activos o máquinas con entidad de dominio, caso de uso básico, repositorio y endpoints REST en Spring Boot; probar al menos una operación HTTP. | 6 | Pierre Alessandro Mendoza Boluarte | To Do |
-| Frontend test | T052 | Test Login Form | Comprobar campos requeridos, validaciones y mensajes de interfaz; reportar defectos reproducibles. | 2 | Pierre Alessandro Mendoza Boluarte | To Do |
-| Frontend test | T053 | Test Demonstrative Profile Navigation | Verificar acceso a vistas de perfiles demostrativos y regreso a la pantalla inicial, sin confundirlo con autorización real. | 2 | Pierre Alessandro Mendoza Boluarte | To Do |
-| Frontend test | T054 | Test Machines Forms | Comprobar navegación, entradas y mensajes de los formularios de máquinas con datos de prueba. | 2 | Pierre Alessandro Mendoza Boluarte | To Do |
-| Frontend test | T055 | Record UI Defects and Test Results | Consolidar pruebas y registrar errores, pasos para reproducirlos y resultado de las correcciones comprobadas. | 2 | Pierre Alessandro Mendoza Boluarte | To Do |
+| Backend foundation | T037 | Initialize Spring Boot Backend | Crear proyecto Java/Spring Boot, configuración inicial, dependencias, estructura multi-módulo o paquetes y aplicación ejecutable; entregar instrucciones para levantarlo. | 5 | Alvar Lucas Córdova | To Do |
+| Backend architecture | T038 | Establish DDD and Clean Architecture Structure | Definir separación Domain, Application, Infrastructure y Interfaces; establecer convenciones, dependencias y límites de Work Orders, Inventory y Asset Management según Context Map. | 7 | Alvar Lucas Córdova | To Do |
+| Backend persistence | T039 | Configure Persistence and REST Conventions | Configurar conexión de desarrollo a base de datos, migraciones o esquema inicial, repositorios base, manejo común de errores y acuerdos de contratos REST; comprobar conectividad. | 7 | Alvar Lucas Córdova | To Do |
+| Report | T040 | Document Foundation and Sprint 3 Evidence | Actualizar Sprint 3, Student Outcome, versiones y evidencias reales; registrar configuración del backend, commits y resultados de integración sin inventar avances. | 9 | Alvar Lucas Córdova | To Do |
+| Backend / Work Orders | T041 | Model Work Orders Domain | Implementar entidades, value objects y reglas mínimas del módulo Work Orders compatibles con los límites DDD acordados. | 3 | Giuseppe Adrián Villanueva Rodríguez | To Do |
+| Backend / Work Orders | T042 | Implement Work Orders Use Cases and Persistence | Crear caso(s) de uso, puertos y adaptadores de persistencia de órdenes de trabajo sobre infraestructura compartida. | 4 | Giuseppe Adrián Villanueva Rodríguez | To Do |
+| Backend / Work Orders | T043 | Expose and Test Work Orders REST API | Crear controladores REST, validaciones y manejo de errores; probar al menos una operación HTTP real. | 4 | Giuseppe Adrián Villanueva Rodríguez | To Do |
+| Angular integration | T044 | Connect Angular Work Orders Flow | Conectar vistas de órdenes de trabajo con endpoints reales del módulo y distinguir cualquier flujo que continúe simulado. | 2 | Giuseppe Adrián Villanueva Rodríguez | To Do |
+| Tests | T045 | Verify Work Orders Flow | Ejecutar prueba funcional e indicar defectos, resultados y evidencia verificable. | 2 | Giuseppe Adrián Villanueva Rodríguez | To Do |
+| Backend / Inventory | T046 | Model Inventory Domain | Implementar entidad o agregado de repuestos e invariantes mínimas en Inventory. | 3 | Diego Rances Rojas Huaranga | To Do |
+| Backend / Inventory | T047 | Implement Inventory Use Cases and Persistence | Crear casos de uso y adaptadores de persistencia para inventario. | 4 | Diego Rances Rojas Huaranga | To Do |
+| Backend / Inventory | T048 | Expose and Test Inventory REST API | Implementar endpoints REST del inventario y verificar solicitudes y respuestas. | 4 | Diego Rances Rojas Huaranga | To Do |
+| Angular integration | T049 | Connect Angular Inventory Flow | Sustituir las llamadas simuladas en el flujo seleccionado de inventario por consumo de servicios reales. | 2 | Diego Rances Rojas Huaranga | To Do |
+| Landing Page | T050 | Review Landing Page and Links | Comprobar enlaces, navegación EN/ES y presentación responsive de Landing Page; corregir defectos comprobados. | 2 | Diego Rances Rojas Huaranga | To Do |
+| Backend / Asset Management | T051 | Model Asset Management Domain | Implementar entidad de máquina o activo y reglas mínimas del dominio. | 3 | Pierre Alessandro Mendoza Boluarte | To Do |
+| Backend / Asset Management | T052 | Implement Asset Use Cases and Persistence | Crear casos de uso y adaptadores de persistencia sobre la estructura compartida. | 4 | Pierre Alessandro Mendoza Boluarte | To Do |
+| Backend / Asset Management | T053 | Expose and Test Asset REST API | Implementar controladores REST, validaciones y pruebas HTTP del módulo de activos. | 4 | Pierre Alessandro Mendoza Boluarte | To Do |
+| Angular integration | T054 | Connect Angular Machines Flow | Conectar el flujo principal de máquinas del frontend Angular con el backend real. | 2 | Pierre Alessandro Mendoza Boluarte | To Do |
+| Tests | T055 | Run Functional Tests and Record Results | Validar flujo de activos y registrar incidencias, pruebas ejecutadas y resultados. | 2 | Pierre Alessandro Mendoza Boluarte | To Do |
 
 **Resumen de asignaciones propuestas**
 
 | Integrante | Tareas | Horas estimadas |
 |---|---|---:|
 | Córdova, Alvar Lucas | T037–T040 (4) | 28 |
-| Villanueva Rodríguez, Giuseppe Adrián | T041–T045 (5) | 14 |
-| Rojas Huaranga, Diego Rances | T046–T050 (5) | 14 |
-| Mendoza Boluarte, Pierre Alessandro | T051–T055 (5) | 14 |
-| **Total** | **19 tareas** | **70** |
+| Villanueva Rodríguez, Giuseppe Adrián | T041–T045 (5) | 15 |
+| Rojas Huaranga, Diego Rances | T046–T050 (5) | 15 |
+| Mendoza Boluarte, Pierre Alessandro | T051–T055 (5) | 15 |
+| **Total** | **19 tareas** | **73** |
 
-**Criterios generales de aceptación.** Las tareas de UI requieren cambios integrados, prueba de navegación/formularios y evidencias reproducibles. Las tareas de backend requieren al menos un caso de uso operativo por módulo, una petición HTTP probada con su respuesta, código versionado y explicación de cómo ejecutar el servicio. Crear únicamente clases o carpetas no basta para declararlas terminadas. El hecho de crear un módulo no demuestra por sí solo un Bounded Context bien definido: se validarán sus responsabilidades y límites frente al modelo DDD del proyecto. Las tareas de Report requieren enlaces y commits verificables. Ninguna User Story se considerará totalmente aceptada por implementar solo una parte de su alcance.
+**Criterios de aceptación.** T037–T039 requieren código base ejecutable, estructura documentada y prueba de conexión a BD, sin fingir que los módulos de negocio ya funcionan. Los módulos T041–T043, T046–T048 y T051–T053 necesitan dominio, caso de uso, persistencia y al menos una prueba HTTP reproducible. Las integraciones T044, T049 y T054 requieren un flujo Angular verificable consumiendo la API real. Las pruebas finales y Report requieren resultados y referencias a commits existentes. Las historias no se dan por aceptadas por una tarea parcial.
 
-**Dependencias y riesgos.** Las definiciones de dominio deben revisarse para no duplicar conceptos entre Asset Management, Inventory y Work Orders. Antes de integrar módulos, se acordarán los contratos REST, configuración del proyecto, tratamiento de errores y estrategia de persistencia. Si los tres módulos no llegan a desplegarse, las evidencias deberán distinguir entre pruebas locales, despliegues reales y trabajo pendiente.
+**Dependencias y riesgos.** Los compañeros deben partir de la base de Alvar y acordar primero contratos, esquema y convenciones, evitando modelos duplicados. Un módulo Spring Boot no constituye necesariamente un Bounded Context validado: sus límites se revisarán contra el diseño DDD. Si no se logra desplegar o conectar alguno, se documentará como pendiente.
 
 #### 5.2.3.4. Development Evidence for Sprint Review.
 
-Esta sección registrará **solo cambios efectivamente comprobados** por repositorio, rama, commit, fecha, tarea y enlace a Pull Request cuando corresponda. El commit local `74d0b91` en la rama `feature/sprint3-report` contiene la conciliación documental de Sprints 1 y 2 y constituye evidencia parcial de **T039**; no acredita la finalización del resto de Sprint 3 ni se presenta como publicado en GitHub mientras no se verifique su `push`.
+Se registrarán únicamente cambios reales de Backend, Frontend, Landing Page y Report, con repositorio, rama, commit, fecha, tarea y pruebas. En el historial existe el commit local `74d0b91`, que documenta la conciliación de Sprints 1 y 2. **Ese commit es antecedente documental y no se presentará como evidencia de la nueva tarea T039**, que ahora corresponde a persistencia y convenciones REST.
 
-| Repository | Branch | Commit | Description | Related Task | Evidence Status |
-|---|---|---|---|---|---|
-| Report | `feature/sprint3-report` | `74d0b91` | `docs: reconcile sprint 1 and sprint 2 records` | T039 | Commit local mostrado; publicación remota y aceptación final pendientes de verificación |
+| Repository | Branch | Commit | Description | Evidence status |
+|---|---|---|---|---|
+| Report | `feature/sprint3-report` | `74d0b91` | `docs: reconcile sprint 1 and sprint 2 records` | Evidencia documental previa; publicación remota no confirmada |
 
-Las filas de Frontend, Landing Page y Backend se incorporarán cuando existan commits verificables. No se atribuirán cambios aún no realizados.
+Se completará esta tabla con evidencias nuevas cuando realmente existan; no se atribuyen commits hipotéticos.
 
 #### 5.2.3.5. Execution Evidence for Sprint Review.
 
-La revisión presentará resultados reales de los escenarios previstos: (1) visualización y validación de la pantalla Login; (2) navegación entre perfiles demostrativos; (3) revisión de formularios de plantas, máquinas, fallas y órdenes de trabajo; (4) botones y rutas de Landing Page, traducciones y enlaces legales; y (5) invocación y respuesta de al menos un endpoint operativo de cada módulo backend que haya sido terminado.
-
-Para cada escenario ejecutado se registrarán fecha, entorno (local/desplegado), procedimiento, resultado, evidencia visual o técnica, y defectos pendientes. No se incluirán capturas, videos ni resultados ficticios. Las operaciones que sigan dependiendo de JSON Server se identificarán como simuladas.
+La revisión deberá mostrar: (1) ejecución del backend común y conectividad a base de datos; (2) solicitudes y respuestas HTTP de Work Orders, Inventory y Asset Management; (3) consumo real de los endpoints desde las vistas Angular de órdenes, inventario y máquinas; (4) pruebas y defectos; y (5) estado de la Landing Page. Para cada prueba se registrarán fecha, ambiente, procedimiento y resultado verificable. Los flujos que sigan usando JSON Server se identificarán como demostrativos.
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review.
 
-A diferencia del borrador inicial de Sprint 3, esta planificación **sí asigna tres tareas de backend propio**: T041 (*Work Orders*), T046 (*Inventory*) y T051 (*Asset Management*). Se propone implementarlas con Java y Spring Boot de forma modular, siempre que coincidan con los límites del dominio validados por el equipo.
-
-Cada tarea deberá aportar, cuando se complete: responsabilidades del módulo, entidades o agregados relevantes, un caso de uso implementado, endpoint y método HTTP, ejemplo de petición/respuesta, prueba de funcionamiento, manejo básico de errores y referencia al commit. La documentación OpenAPI/Swagger se añadirá **si se configura y verifica**; no se consignarán URLs o endpoints no implementados. JSON Server seguirá identificado exclusivamente como servicio simulado de Sprint 2 hasta que se pruebe una integración nueva.
+La implementación de backend se planifica en dos etapas. Primero T037–T039 establecen el proyecto Spring Boot, arquitectura DDD/Clean Architecture, persistencia compartida y convenciones REST. Después se implementarán Work Orders (T041–T043), Inventory (T046–T048) y Asset Management (T051–T053). Cada módulo deberá documentar entidades, caso de uso, operación REST, validaciones, prueba HTTP y commit. OpenAPI/Swagger se incluirá cuando esté configurado y comprobado. Los recursos de JSON Server del Sprint 2 no se presentarán como servicios propios.
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review.
 
-Los despliegues de referencia del trabajo anterior son la Landing Page en GitHub Pages y la Web Application Angular en Vercel; se comprobará su funcionamiento con los cambios nuevos antes de documentar una publicación de Sprint 3. Para backend se especificará por módulo si funciona solo en ambiente local o si ha sido publicado, con URL real, configuración necesaria, versión/commit y prueba HTTP. **La asignación de T041, T046 y T051 no implica que exista un despliegue de Spring Boot.**
+Se conservará la referencia a la aplicación Angular publicada en Vercel y a la Landing Page en GitHub Pages, sujetas a nuevas verificaciones. Primero se comprobará el backend en local y después se documentará el despliegue si se realiza, indicando URL comprobada, versión, configuración y prueba HTTP. Las tareas de integración de cada integrante deberán aclarar si se probaron localmente o en un entorno publicado. Ningún despliegue nuevo se da por hecho.
 
 #### 5.2.3.8. Team Collaboration Insights during Sprint.
 
-La planificación considera cuatro integrantes activos y conserva los aportes históricos de todos los participantes de los sprints previos. El seguimiento se realizará mediante Trello, ramas, commits, Pull Requests y reuniones documentadas. Cada integrante deberá asociar sus evidencias con sus tareas; al cierre se registrarán resultados reales, dificultades de integración entre módulos, incidencias, acuerdos y ajustes al backlog. Las métricas de colaboración se calcularán con registros existentes y no con estimaciones de trabajo.
+La coordinación de Sprint 3 seguirá la dependencia técnica de la base compartida (Alvar) hacia los módulos de negocio e integraciones (Giuseppe, Diego y Pierre). El equipo registrará reuniones, PR, decisiones de arquitectura, conflictos de integración, pruebas y correcciones. El trabajo de participantes de sprints anteriores seguirá reconocido en las secciones históricas. Los indicadores de colaboración se obtendrán de evidencias reales, no del número de tareas asignadas.
 
 **Actividades AV2 pendientes de planificación.** Este backlog no asigna todavía responsables ni horas para entrevistas de validación, Video About-the-Product, Video About-the-Team ni para cualquier integración adicional exigida por la rúbrica. Estos entregables deberán incorporarse en una actualización del plan y documentarse con evidencia real antes de la fecha de entrega aplicable. Esta lista de 19 tareas no debe presentarse como cumplimiento integral de AV2.
 
