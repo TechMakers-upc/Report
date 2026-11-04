@@ -1,901 +1,1415 @@
 # Capítulo V: Product Implementation, Validation & Deployment
 
-## 5.1. Software Configuration Management.
+## 5.1. Software Configuration Management
 
-En esta sección se describen las herramientas, los repositorios y las convenciones utilizadas para organizar el desarrollo de FixCore. Se documenta la configuración aplicada durante los Sprints 1 y 2 y la continuidad inicial de trabajo en frontend, Landing Page e informe para Sprint 3.
+En este capítulo se documenta el proceso de implementación, integración, pruebas y despliegue de FixCore, producto desarrollado por la startup TechMakers. Se presentan las herramientas utilizadas, la administración del código fuente, las convenciones de desarrollo y las evidencias correspondientes a los tres primeros sprints.
 
-### 5.1.1. Software Development Environment Configuration.
+El desarrollo del producto se realizó de manera progresiva. Durante el Sprint 1 se implementó la Landing Page. En el Sprint 2 se desarrolló una primera versión de la Web Application utilizando Angular y una API simulada. Finalmente, durante el Sprint 3 se implementaron servicios REST propios con Spring Boot, se integraron con Angular y se configuró el despliegue de la solución en la nube.
 
-Para coordinar el trabajo del equipo se utilizan herramientas de planificación, diseño, programación, documentación y despliegue. A continuación se indica el propósito de cada una dentro del proyecto.
+### 5.1.1. Software Development Environment Configuration
+
+Para desarrollar FixCore se utilizaron herramientas de planificación, diseño, programación, pruebas, documentación y despliegue.
 
 **Project Management**
 
-| Producto | Propósito de uso | Referencia |
+| Herramienta | Propósito | Referencia |
 |---|---|---|
-| Trello | Organizar el Product Backlog y los Sprint Backlogs, asignar tareas y registrar su seguimiento. | https://trello.com/ |
-| GitHub | Gestionar los repositorios, ramas, commits, Pull Requests y revisiones de código. | https://github.com/TechMakers-upc |
-| Google Drive | Almacenar y compartir archivos complementarios y materiales de entrevistas. | https://drive.google.com/ |
-| WhatsApp | Resolver consultas y coordinar asuntos puntuales entre los integrantes. | https://www.whatsapp.com/ |
-| Discord | Realizar reuniones virtuales y coordinar actividades del equipo. | https://discord.com/ |
+| Trello | Organización del Product Backlog, Sprint Backlogs y seguimiento de tareas. | https://trello.com/ |
+| GitHub | Administración de repositorios, ramas, commits y Pull Requests. | https://github.com/ |
+| Discord | Coordinación técnica y reuniones virtuales. | https://discord.com/ |
+| WhatsApp | Comunicación y seguimiento de actividades. | https://www.whatsapp.com/ |
+| Google Drive | Almacenamiento de documentos y materiales complementarios. | https://drive.google.com/ |
 
 **Requirements Management**
 
-| Producto | Propósito de uso | Referencia |
+| Herramienta | Propósito | Referencia |
 |---|---|---|
-| UXPressia | Elaborar User Personas, User Journey Maps y otros artefactos de investigación de usuarios. | https://uxpressia.com/ |
-| FigJam | Trabajar colaborativamente en los diagramas de EventStorming y en el análisis del dominio. | https://www.figma.com/figjam/ |
-| Trello | Registrar, priorizar y dar seguimiento a las historias y tareas del Product Backlog. | https://trello.com/ |
+| Trello | Registro, organización y seguimiento de User Stories. | https://trello.com/ |
+| UXPressia | Elaboración de User Personas y User Journey Maps. | https://uxpressia.com/ |
+| FigJam | Elaboración colaborativa de diagramas y actividades de EventStorming. | https://www.figma.com/figjam/ |
 
 **Product UX/UI Design**
 
-| Producto | Propósito de uso | Referencia |
+| Herramienta | Propósito | Referencia |
 |---|---|---|
-| Figma | Diseñar wireframes, mock-ups, prototipos y recursos visuales de FixCore. | https://www.figma.com/ |
+| Figma | Elaboración de wireframes, mockups y prototipos de FixCore. | https://www.figma.com/ |
 
 **Software Development**
 
-| Producto o tecnología | Propósito de uso | Referencia |
-|---|---|---|
-| Visual Studio Code | Edición de archivos HTML, CSS y JavaScript de la Landing Page. | https://code.visualstudio.com/ |
-| Git | Control de versiones de los productos de software y del informe. | https://git-scm.com/ |
-| JetBrains WebStorm | Desarrollo y revisión de la Web Application. | https://www.jetbrains.com/webstorm/ |
-| Angular y TypeScript | Implementación del frontend de FixCore, organizado en componentes, vistas y servicios. | https://angular.dev/ |
-| Angular Material | Componentes de interfaz utilizados en la Web Application. | https://material.angular.dev/ |
-| Node.js y npm | Instalación de dependencias y ejecución de herramientas de desarrollo del frontend. | https://nodejs.org/ |
-| JSON Server | API simulada utilizada en Sprint 2 para probar solicitudes HTTP desde Angular. | https://github.com/typicode/json-server |
+| Tecnología o herramienta | Propósito |
+|---|---|
+| Visual Studio Code | Edición de archivos y desarrollo web. |
+| JetBrains WebStorm | Desarrollo de la aplicación Angular. |
+| Angular 22 | Implementación de la Web Application. |
+| TypeScript | Desarrollo de componentes, servicios y lógica de interfaz. |
+| Angular Material | Implementación de componentes visuales. |
+| Node.js y npm | Administración de dependencias y ejecución del frontend. |
+| Java 21 | Desarrollo del backend. |
+| Spring Boot 4.0.3 | Implementación de servicios REST. |
+| Spring Security | Autenticación y autorización de usuarios. |
+| Spring Data JPA | Persistencia de entidades. |
+| PostgreSQL | Almacenamiento relacional de información. |
+| Flyway | Administración de migraciones de base de datos. |
+| Maven | Compilación, dependencias y pruebas del backend. |
+| Docker | Empaquetado y despliegue de servicios. |
+| Postman | Pruebas de solicitudes HTTP. |
+| JUnit 5 | Pruebas automatizadas del backend. |
+| Git | Control de versiones. |
 
-Las versiones efectivamente utilizadas y la configuración de ejecución deben contrastarse con los archivos de cada repositorio. La incorporación de nuevas herramientas de servidor se documentará cuando el equipo planifique esa etapa del proyecto.
+Durante el Sprint 2 se utilizó JSON Server para simular los recursos consumidos por Angular. En el Sprint 3 se implementó una API propia con reglas de negocio, persistencia y controles de seguridad.
 
 **Software Deployment**
 
-| Producto | Propósito de uso | Referencia |
-|---|---|---|
-| GitHub Pages | Publicación del sitio estático de la Landing Page. | https://pages.github.com/ |
-| Vercel | Despliegue de la Web Application desarrollada en Angular. | https://vercel.com/ |
-| Render | Despliegue de JSON Server durante Sprint 2 como API simulada. | https://render.com/ |
+| Plataforma | Componente desplegado |
+|---|---|
+| GitHub Pages | Landing Page. |
+| Vercel | Web Application Angular. |
+| Render Web Service | Backend Spring Boot. |
+| Render PostgreSQL | Base de datos de FixCore. |
 
 **Software Documentation**
 
-| Producto o estándar | Propósito de uso | Referencia |
+| Herramienta o estándar | Propósito |
+|---|---|
+| Markdown | Elaboración del informe y documentación técnica. |
+| OpenAPI | Descripción de los contratos REST. |
+| Swagger UI | Consulta y prueba interactiva de endpoints. |
+| README.md | Instrucciones de instalación, configuración y ejecución. |
+
+### 5.1.2. Source Code Management
+
+El equipo utilizó Git y GitHub para administrar el código fuente, registrar modificaciones e integrar el trabajo realizado.
+
+La organización TechMakers dispone de los siguientes repositorios:
+
+| Repositorio | Descripción | URL |
 |---|---|---|
-| Markdown | Elaboración colaborativa del informe y su organización por capítulos. | https://www.markdownguide.org/ |
-| OpenAPI | Estándar que se incorporará cuando se documente una API propia en una etapa posterior. | https://www.openapis.org/ |
+| Landing-Page | Sitio informativo de FixCore. | https://github.com/TechMakers-upc/Landing-Page |
+| Frontend | Aplicación web desarrollada con Angular. | https://github.com/TechMakers-upc/Frontend |
+| Backend | API REST y lógica de negocio con Spring Boot. | https://github.com/TechMakers-upc/Backend |
+| Report | Informe del proyecto y evidencias. | https://github.com/TechMakers-upc/Report |
 
-### 5.1.2. Source Code Management.
+Se utilizó una estrategia de trabajo basada en ramas:
 
-El equipo utiliza Git y GitHub para administrar las versiones de los productos y mantener evidencia de las contribuciones. Los repositorios conocidos de la organización son los siguientes:
+- `main`: versiones estables del producto.
+- `develop`: integración de cambios durante el desarrollo.
+- `feature/*`: desarrollo de funcionalidades específicas.
+- `release/*`: preparación de versiones para publicación, cuando corresponde.
+- `hotfix/*`: correcciones de versiones estables, cuando corresponde.
 
-| Repositorio | Propósito | URL |
-|---|---|---|
-| Report | Informe del proyecto, capítulos y evidencias de desarrollo. | https://github.com/TechMakers-upc/Report |
-| Landing-Page | Sitio estático público de FixCore, incluyendo las versiones en español e inglés. | https://github.com/TechMakers-upc/Landing-Page |
-| Frontend | Aplicación Angular y recursos utilizados para la demostración del Sprint 2. | https://github.com/TechMakers-upc/Frontend |
+Los commits utilizan mensajes descriptivos, incluyendo prefijos como `feat`, `fix`, `test`, `refactor`, `docs`, `build` y `ci`.
 
-Para organizar las contribuciones se aplica una estrategia basada en GitFlow. La rama `main` se reserva para versiones estables, `develop` concentra la integración del trabajo y las ramas `feature/*` permiten desarrollar cambios específicos sin modificar directamente la versión principal. Los cambios se revisan antes de su integración y se describen mediante Conventional Commits, por ejemplo `feat:`, `fix:`, `docs:` y `refactor:`.
+Durante el Sprint 3 se utilizaron Pull Requests para integrar funcionalidades y correcciones del backend y frontend. Este procedimiento permitió conservar la trazabilidad de los cambios y revisar las modificaciones antes de consolidarlas.
 
-Para las entregas que requieran preparar una versión estable, el equipo contempla el uso de ramas `release/*`; para correcciones urgentes en producción, `hotfix/*`. Estas convenciones deberán aplicarse cuando se presente la necesidad, sin afirmar que ya existen ramas de dichos tipos. Las versiones publicadas podrán identificarse mediante etiquetado compatible con Semantic Versioning una vez definido el esquema de releases.
+### 5.1.3. Source Code Style Guide & Conventions
 
-### 5.1.3. Source Code Style Guide & Conventions.
+Se establecieron convenciones para mantener el código organizado y facilitar la colaboración.
 
-Con el fin de facilitar la integración de cambios entre los integrantes, se establecen las siguientes convenciones de desarrollo:
+**Frontend**
 
-- **Nomenclatura:** utilizar identificadores en inglés para archivos de código, variables, funciones, clases, interfaces y componentes. Las clases y tipos siguen las convenciones de cada lenguaje; los nombres de métodos y variables se mantienen consistentes dentro de su módulo.
-- **HTML y CSS:** emplear estructura semántica, estilos organizados y reglas adaptables a diferentes tamaños de pantalla, tomando como referencia las guías de estilo web de Google.
-- **JavaScript y TypeScript:** mantener funciones con responsabilidades claras y evitar la duplicación innecesaria de lógica, siguiendo las guías de estilo correspondientes.
-- **Angular:** organizar vistas, componentes y servicios por responsabilidad, aplicar tipado de TypeScript y conservar un sistema de navegación consistente.
-- **User Stories:** redactar criterios de aceptación verificables en formato Given–When–Then, evitando confundir requisitos de negocio con detalles de una implementación particular.
-- **Git:** redactar mensajes de commit descriptivos, utilizar ramas por funcionalidad y revisar los cambios antes de integrarlos.
+- Utilizar nombres descriptivos en inglés.
+- Organizar los componentes según sus responsabilidades.
+- Separar las interfaces de los servicios HTTP.
+- Utilizar el tipado proporcionado por TypeScript.
+- Reutilizar componentes compartidos.
+- Implementar validaciones de formularios.
+- Manejar errores de comunicación con la API.
+- Utilizar interceptores para autenticación y tratamiento de respuestas HTTP.
 
-Como referencias se consideran las guías de Angular, Google TypeScript y Google HTML/CSS, incluidas en la bibliografía del proyecto. La aplicación efectiva de estas convenciones deberá demostrarse mediante código y revisiones, no únicamente por su descripción en el informe.
+**Backend**
 
-### 5.1.4. Software Deployment Configuration.
+El backend se organizó siguiendo principios de Domain-Driven Design y Clean Architecture.
 
-El equipo mantiene diferentes medios de publicación según el producto de software. Cada despliegue se documenta con el entorno utilizado, la configuración necesaria y las evidencias de funcionamiento.
+Los contextos de negocio contemplan las siguientes capas:
+
+1. `domain`: entidades, reglas y contratos del dominio.
+2. `application`: coordinación de los casos de uso.
+3. `infrastructure`: persistencia e integraciones técnicas.
+4. `interfaces`: exposición de operaciones mediante REST.
+
+Los contextos principales de FixCore son:
+
+1. Identity & Access Management.
+2. Resource & Asset Management.
+3. Service Design & Planning.
+4. Service Execution & Monitoring.
+5. Inventory & Spare Parts.
+6. Analytics.
+7. Notifications.
+
+El paquete `shared` reúne componentes técnicos compartidos.
+
+**Persistencia**
+
+Se utilizó PostgreSQL como sistema de gestión de base de datos y Flyway para administrar las modificaciones del esquema mediante migraciones versionadas.
+
+**Pruebas**
+
+Se incorporaron pruebas unitarias, de integración, seguridad y arquitectura. Las pruebas de arquitectura se utilizaron para verificar la separación de responsabilidades y las reglas de dependencia entre capas.
+
+**Control de versiones**
+
+Los cambios se registraron mediante commits descriptivos y se integraron utilizando ramas y Pull Requests.
+
+### 5.1.4. Software Deployment Configuration
+
+FixCore utiliza servicios independientes para sus principales componentes.
 
 **Landing Page — GitHub Pages**
 
-La Landing Page está construida con HTML, CSS y JavaScript. Su publicación se realiza mediante GitHub Pages a partir de la rama y carpeta configuradas en el repositorio. Después de integrar cambios y actualizar la versión publicada, se verifica la navegación en español e inglés, los enlaces legales, el menú responsive y los botones de acceso a la Web Application.
+La Landing Page se desarrolló con HTML, CSS y JavaScript. Presenta la propuesta de valor de FixCore, sus funcionalidades, beneficios y planes.
 
 - Repositorio: https://github.com/TechMakers-upc/Landing-Page
-- URL documentada de despliegue: https://techmakers-upc.github.io/Landing-Page/
+- URL: https://techmakers-upc.github.io/Landing-Page/
 
 **Web Application — Vercel**
 
-La aplicación Angular se publicó en Vercel durante Sprint 2. El despliegue requiere instalar dependencias, compilar el proyecto y configurar los parámetros adecuados para su ejecución. Durante esa entrega, las vistas consumieron recursos de JSON Server. En la primera etapa del Sprint 3 se comprobarán las rutas, formularios y flujos demostrativos existentes.
+La Web Application se desarrolló con Angular y se publicó mediante Vercel.
+
+El frontend realiza solicitudes HTTP a los servicios REST del backend.
 
 - Repositorio: https://github.com/TechMakers-upc/Frontend
-- URL documentada de la aplicación: https://fixcore-frontend-eight.vercel.app/demo
+- URL: https://fixcore-frontend-eight.vercel.app/
+- API utilizada: https://backend-zv29.onrender.com/api/v1
 
-**API simulada — Render (Sprint 2)**
+**Backend — Render**
 
-Durante Sprint 2 se publicó una instancia de JSON Server en Render para apoyar las demostraciones. Esta API permite operaciones HTTP sobre datos de prueba, pero no implementa por sí misma las reglas de negocio, persistencia relacional ni mecanismos de seguridad exigidos para la solución final.
+El backend se desarrolló con Java y Spring Boot, utilizando Docker para su despliegue.
 
-- URL documentada de la API simulada: https://fixcore-json-api.onrender.com/
+- Repositorio: https://github.com/TechMakers-upc/Backend
+- URL: https://backend-zv29.onrender.com
+- Health Check: https://backend-zv29.onrender.com/actuator/health
 
+**Base de datos — Render PostgreSQL**
 
-## 5.2. Landing Page, Services & Applications Implementation.
+Se configuró una instancia PostgreSQL para almacenar la información relacionada con usuarios, plantas, máquinas, mantenimiento, fallas, órdenes de trabajo y repuestos.
 
-### 5.2.1. Sprint 1.
+**Variables de entorno**
 
-El Sprint 1 estuvo dedicado a la implementación y publicación de la primera versión de la Landing Page de FixCore. El objetivo fue presentar el problema abordado por la solución, sus funcionalidades principales, los beneficios para los segmentos objetivo y los planes del producto mediante un sitio web adaptable a computadoras y dispositivos móviles.
+| Variable | Propósito |
+|---|---|
+| `SPRING_PROFILES_ACTIVE` | Seleccionar el perfil de ejecución. |
+| `DB_URL` | Configurar la conexión JDBC. |
+| `DB_USERNAME` | Identificar al usuario de PostgreSQL. |
+| `DB_PASSWORD` | Autenticar la conexión a la base de datos. |
+| `JWT_SECRET` | Configurar la firma de tokens JWT. |
+| `CORS_ALLOWED_ORIGINS` | Definir los orígenes permitidos para consumir la API. |
+| `PORT` | Configurar el puerto utilizado por el servicio. |
 
-El equipo desarrolló el encabezado, la presentación principal, las funcionalidades, la guía de uso, los beneficios por segmento, los planes de suscripción y las preguntas frecuentes. La primera versión se publicó en GitHub Pages. Al cierre del sprint quedó pendiente completar el acceso a los términos y condiciones, por lo que se registraron **6 de 7 Story Points** como terminados. Esta cifra corresponde únicamente al resultado del Sprint 1 y no incluye las correcciones realizadas con posterioridad.
+Los valores confidenciales se almacenan en la configuración del entorno y no deben incluirse en el código fuente ni en las capturas públicas del informe.
 
-Las secciones siguientes registran la planificación original, las tareas asumidas por el equipo, las evidencias de implementación y el estado del producto al momento de la revisión del sprint.
+La distribución adoptada separa la presentación, la lógica de negocio y la persistencia.
 
-#### 5.2.1.1. Sprint Planning 1.
+---
 
-La planificación del Sprint 1 se realizó mediante una reunión virtual en Discord. Durante esta sesión, definimos el objetivo del sprint, seleccionamos las User Stories relacionadas con la Landing Page y distribuimos las responsabilidades de implementación entre los integrantes del equipo.
+## 5.2. Landing Page, Services & Applications Implementation
+
+Esta sección documenta los resultados de los tres primeros sprints del proyecto FixCore. Se describen la planificación, distribución de responsabilidades, tareas, evidencias de desarrollo, ejecución, servicios, despliegue y colaboración.
+
+### 5.2.1. Sprint 1
+
+El Sprint 1 estuvo dedicado a implementar la Landing Page de FixCore.
+
+El objetivo fue presentar la propuesta de valor del producto, sus funcionalidades, beneficios, planes y preguntas frecuentes mediante un sitio adaptable a diferentes tamaños de pantalla.
+
+Se completaron las principales secciones informativas y se publicó la Landing Page en GitHub Pages.
+
+#### 5.2.1.1. Sprint Planning 1
+
+La planificación se realizó mediante una reunión virtual en la que se seleccionaron las historias relacionadas con la Landing Page y se distribuyeron las actividades.
 
 | Campo | Información |
 |---|---|
 | Sprint # | Sprint 1 |
-| **Sprint Planning Background** | |
 | Date | 2026-09-11 |
-| Time | 7:00 PM - 8:00 PM |
+| Time | 7:00 PM – 8:00 PM |
 | Location | Discord |
 | Prepared By | Alvar Lucas Córdova |
 | Attendees | Alvar Lucas Córdova, Sunio Danilo Landa Sánchez, Giuseppe Adrián Villanueva Rodríguez, Diego Rances Rojas Huaranga y Pierre Alessandro Mendoza Boluarte |
-| **Sprint Goal & User Stories** | |
-| Sprint 1 Goal | **Our focus is on** developing and deploying a responsive Landing Page that clearly presents FixCore and its value proposition. **We believe it delivers** accessible information about the product, its main features, benefits, subscription plans and frequently asked questions for the defined target segments. **This will be confirmed when** the Landing Page is published on GitHub Pages and visitors can navigate its main sections from desktop and mobile devices. |
-| Sprint 1 Velocity | 6 Story Points completados |
+| Sprint Goal | Desarrollar y publicar una Landing Page responsive que presente FixCore y sus principales beneficios. |
 | Sum of Story Points | 7 Story Points planificados |
+| Sprint Velocity | 6 Story Points completados |
 
-Para este sprint se seleccionaron cinco User Stories relacionadas con la presentación de FixCore: US59, US60, US61, US62 y US63. Estas historias suman 7 Story Points en el Product Backlog.
+Las historias consideradas fueron US59, US60, US61, US62 y US63.
 
-Se completaron las funcionalidades informativas principales, equivalentes a 6 Story Points. La **US63 quedó parcialmente terminada** al cierre del Sprint 1 porque aún faltaba habilitar el enlace a los términos y condiciones. Las mejoras incorporadas posteriormente se documentan como trabajo de corrección y evolución del producto, sin alterar el registro histórico de velocidad del sprint.
+La US63 quedó parcialmente terminada, debido a que la implementación de los términos y condiciones permanecía en proceso al cierre del sprint.
 
-#### 5.2.1.2. Aspect Leaders and Collaborators.
+#### 5.2.1.2. Aspect Leaders and Collaborators
 
-Para organizar el trabajo del Sprint 1, elaboramos una Leadership and Collaboration Matrix en la que se asignó un responsable principal para cada sección de la Landing Page. Los demás integrantes participaron como colaboradores, apoyando en la revisión de las interfaces, integración de cambios y correcciones necesarias.
+Las responsabilidades se distribuyeron según las secciones de la Landing Page.
 
-En la siguiente matriz, **L** representa al líder de la actividad y **C** a los colaboradores.
+La letra **L** representa al líder de cada aspecto y **C** a los colaboradores.
 
-| Team Member (Last Name, First Name) | GitHub Username | Landing Page Hero & Navbar | Features & Usage Guide Section | Segmented Benefits & Testimonials | Monthly & Annual Pricing Views | FAQ Component & Support |
-|---|---|---|---|---|---|---|
-| Rojas Huaranga, Diego Rances | diego27-16 | L | C | C | C | C |
-| Mendoza Boluarte, Pierre Alessandro | pierreale2302 | C | L | C | C | C |
-| Córdova, Alvar Lucas | AlvarLC | C | C | L | C | C |
-| Landa Sánchez, Sunio Danilo | DanLandio | C | C | C | L | C |
-| Villanueva Rodríguez, Giuseppe Adrián | Giuseppe152004 | C | C | C | C | L |
+| Team Member | GitHub Username | Hero & Navbar | Features & Guide | Benefits | Pricing | FAQ & Support |
+|---|---|:---:|:---:|:---:|:---:|:---:|
+| Diego Rances Rojas Huaranga | diego27-16 | L | C | C | C | C |
+| Pierre Alessandro Mendoza Boluarte | pierreale2302 | C | L | C | C | C |
+| Alvar Lucas Córdova | AlvarLC | C | C | L | C | C |
+| Sunio Danilo Landa Sánchez | DanLandio | C | C | C | L | C |
+| Giuseppe Adrián Villanueva Rodríguez | Giuseppe152004 | C | C | C | C | L |
 
-Esta distribución permitió que cada integrante se concentrara en una sección específica del sitio, mientras el resto del equipo brindaba apoyo cuando era necesario. De esta manera, pudimos desarrollar las diferentes partes de la Landing Page en paralelo y posteriormente integrarlas en una misma versión.
+Esta distribución permitió desarrollar diferentes secciones de manera paralela e integrarlas posteriormente.
 
-#### 5.2.1.3. Sprint Backlog 1.
+#### 5.2.1.3. Sprint Backlog 1
 
-El Sprint Backlog 1 reúne las tareas que definimos para implementar las secciones principales de la Landing Page de FixCore. Estas actividades están relacionadas con cinco User Stories del Product Backlog y fueron distribuidas entre los integrantes del equipo según las responsabilidades establecidas durante la planificación.
+El Sprint Backlog 1 reunió las diez tareas relacionadas con la implementación inicial de la Landing Page.
 
-Para hacer seguimiento a las actividades utilizamos Trello, donde registramos las tareas asignadas, sus responsables y sus estados durante el desarrollo del sprint.
+**Tablero Trello:** https://trello.com/b/8ilypk4J/sprint-backlog-1-techmakers
 
-**Enlace al Sprint Backlog 1:**
+![Sprint Backlog 1](assets/images/sprint1-foto.png)
 
-[Tablero Trello Sprint Backlog 1](https://trello.com/b/8ilypk4J/sprint-backlog-1-techmakers)
 
-| Story ID | Story Title | Task ID | Task Title | Task Description | Estimation (hours) | Assigned To | Status |
-|---|---|---|---|---|---|---|---|
-| US59 | Conocer FixCore | T001 | Develop Landing Page Hero | Implementar la sección principal del Hero con la propuesta de valor y el llamado a la acción de FixCore. | 2 | Rojas Huaranga, Diego Rances | Done |
-| US59 | Conocer FixCore | T002 | Add Landing Page Navbar | Implementar la barra de navegación con el logo, enlaces a las secciones de FixCore y diseño responsivo. | 2 | Rojas Huaranga, Diego Rances | Done |
-| US60 | Conocer funcionalidades de FixCore | T003 | Develop Features Section | Desarrollar la sección que presenta las funcionalidades principales de FixCore y la vista referencial del dashboard. | 3 | Mendoza Boluarte, Pierre Alessandro | Done |
-| US60 | Conocer funcionalidades de FixCore | T004 | Design User Guide Section | Diseñar e implementar los pasos explicativos sobre el funcionamiento general de FixCore. | 2 | Mendoza Boluarte, Pierre Alessandro | Done |
-| US61 | Conocer beneficios según el segmento | T005 | Write Benefits for Each Segment | Redactar e implementar la sección de beneficios de FixCore adaptada a los diferentes segmentos objetivo. | 2 | Córdova, Alvar Lucas | Done |
-| US61 | Conocer beneficios según el segmento | T006 | Add User Testimonials | Diseñar e incorporar una sección de testimonios ilustrativos para presentar situaciones de uso y beneficios esperados de FixCore. | 2 | Córdova, Alvar Lucas | Done |
-| US62 | Consultar planes de FixCore | T007 | Develop Monthly Pricing Plans | Implementar las tarjetas de planes de suscripción, mostrando sus características y tarifas mensuales. | 2 | Landa Sánchez, Sunio Danilo | Done |
-| US62 | Consultar planes de FixCore | T008 | Develop Annual Pricing Plans | Implementar la funcionalidad para alternar entre los precios mensuales y anuales. | 2 | Landa Sánchez, Sunio Danilo | Done |
-| US63 | Consultar información adicional de FixCore | T009 | Add Frequently Asked Questions | Implementar la sección de preguntas frecuentes y el Footer para resolver dudas adicionales de los visitantes. | 3 | Villanueva Rodríguez, Giuseppe Adrián | Done |
-| US63 | Consultar información adicional de FixCore | T010 | Write Terms and Conditions | Redactar los términos y condiciones de FixCore y habilitar su consulta desde el enlace correspondiente del Footer. | 2 | Villanueva Rodríguez, Giuseppe Adrián | In Progress |
+| Story ID | Story Title | Task ID | Task Title | Task Description | Hours | Assigned To | Status |
+|---|---|---|---|---|---:|---|---|
+| US59 | Conocer FixCore | T001 | Develop Landing Page Hero | Implementar la presentación principal del producto. | 2 | Diego | Done |
+| US59 | Conocer FixCore | T002 | Add Landing Page Navbar | Implementar la navegación y el encabezado responsive. | 2 | Diego | Done |
+| US60 | Conocer funcionalidades de FixCore | T003 | Develop Features Section | Presentar las principales funcionalidades. | 3 | Pierre | Done |
+| US60 | Conocer funcionalidades de FixCore | T004 | Design User Guide Section | Implementar la guía visual de uso. | 2 | Pierre | Done |
+| US61 | Conocer beneficios según el segmento | T005 | Write Benefits for Each Segment | Presentar los beneficios para cada segmento objetivo. | 2 | Alvar | Done |
+| US61 | Conocer beneficios según el segmento | T006 | Add User Testimonials | Incorporar testimonios ilustrativos. | 2 | Alvar | Done |
+| US62 | Consultar planes de FixCore | T007 | Develop Monthly Pricing Plans | Presentar los planes mensuales. | 2 | Sunio | Done |
+| US62 | Consultar planes de FixCore | T008 | Develop Annual Pricing Plans | Presentar los planes anuales. | 2 | Sunio | Done |
+| US63 | Consultar información adicional de FixCore | T009 | Add Frequently Asked Questions | Incorporar preguntas frecuentes y enlaces informativos. | 3 | Giuseppe | Done |
+| US63 | Consultar información adicional de FixCore | T010 | Write Terms and Conditions | Incorporar el contenido y acceso a términos y condiciones. | 2 | Giuseppe | In Process |
 
-Durante el desarrollo del Sprint 1 se implementaron las secciones principales del sitio, incluyendo el Hero, Navbar, funcionalidades, guía de uso, beneficios por segmento, testimonios ilustrativos, planes de suscripción, preguntas frecuentes y Footer.
+**Resumen del Sprint Backlog 1**
 
-La sección de preguntas frecuentes y el Footer quedaron implementados. Al cierre de este sprint, el enlace a los términos y condiciones todavía no dirigía a una página informativa funcional, motivo por el cual la T010 permaneció en estado **In Progress**. El equipo debía atender esa observación en las revisiones posteriores.
+| Columna de Trello | Cantidad |
+|---|---:|
+| To Do | 0 |
+| In Process | 1 |
+| To Review | 0 |
+| Done | 9 |
+| **Total** | **10** |
 
-#### 5.2.1.4. Development Evidence for Sprint Review.
+Las nueve tareas terminadas se encuentran en `Done`. La T010 permanece en `In Process`, de acuerdo con el estado documentado del tablero.
 
-Durante el Sprint 1 utilizamos Git y GitHub para gestionar los cambios realizados en el código fuente de la Landing Page. Cada integrante trabajó en las funcionalidades asignadas y registró sus avances mediante commits.
+#### 5.2.1.4. Development Evidence for Sprint Review
 
-La siguiente tabla presenta algunos de los commits realizados durante el desarrollo del sitio. Estos registros permiten identificar los cambios incorporados, las ramas utilizadas y las fechas en las que se realizaron.
+Durante el Sprint 1 se utilizó GitHub para registrar las modificaciones de la Landing Page.
 
-| Repository | Branch | Commit ID | Commit Message | Commit Message Body | Committed on |
-|---|---|---|---|---|---|
-| Landing-Page | feature/landing-page-presentation | 0128950 | feat: Enhance index.html with meta tags and header structure | | Sep 19, 2026 |
-| Landing-Page | feature/landing-page-presentation | 18ee3c6 | styles: Add base styles and CSS variables | | Sep 19, 2026 |
-| Landing-Page | feature/landing-page-presentation | 51ba71f | Merge pull request #1 from TechMakers-upc/Feature/landing-page-presentation | | Sep 19, 2026 |
-| Landing-Page | feature/functions-landing | c7507e1 | feat(landing): implement features section and add UI assets | | Sep 19, 2026 |
-| Landing-Page | feature/functions-landing | c0f0ae4 | Merge pull request #3 from TechMakers-upc/feature/functions-landing | | Sep 19, 2026 |
-| Landing-Page | feature/benefints-landing-page | ef53f10 | Update index.html | | Sep 19, 2026 |
-| Landing-Page | feature/benefints-landing-page | 2b78517 | Merge pull request #4 from TechMakers-upc/feature/Benefits-Landing-Page | | Sep 19, 2026 |
-| Landing-Page | main | eb0f365 | feat: add subscription plans information cards | | Sep 19, 2026 |
+| Repository | Branch | Commit ID | Commit Message | Committed on |
+|---|---|---|---|---|
+| Landing-Page | feature/landing-page-presentation | `0128950` | Enhance index.html with meta tags and header structure | 2026-09-19 |
+| Landing-Page | feature/landing-page-presentation | `18ee3c6` | Add base styles and CSS variables | 2026-09-19 |
+| Landing-Page | feature/landing-page-presentation | `51ba71f` | Merge pull request #1 | 2026-09-19 |
+| Landing-Page | feature/functions-landing | `c7507e1` | Implement features section and assets | 2026-09-19 |
+| Landing-Page | feature/functions-landing | `c0f0ae4` | Merge pull request #3 | 2026-09-19 |
+| Landing-Page | feature/benefints-landing-page | `ef53f10` | Update index.html | 2026-09-19 |
+| Landing-Page | feature/benefints-landing-page | `2b78517` | Merge pull request #4 | 2026-09-19 |
+| Landing-Page | main | `eb0f365` | Add subscription plans information cards | 2026-09-19 |
 
-Los commits muestran parte del proceso de implementación de las distintas secciones de la Landing Page. La integración de estos cambios permitió reunir las funcionalidades desarrolladas por el equipo en una versión compartida del sitio web.
+Los registros permiten identificar los cambios incorporados en las principales secciones de presentación del producto.
 
-#### 5.2.1.5. Execution Evidence for Sprint Review.
+#### 5.2.1.5. Execution Evidence for Sprint Review
 
-**Video de presentación del Sprint 1:** [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423973_upc_edu_pe/IQD6WLEWUP5oQLbSvCXtwgcqAZEWm3YKXW1kVty23sprr_g?e=01QNKW)
+**Video de presentación del Sprint 1:**
 
-En esta sección presentamos las evidencias visuales de las funcionalidades implementadas durante el Sprint 1. Las capturas corresponden a la primera versión de la Landing Page y muestran las principales secciones desarrolladas.
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423973_upc_edu_pe/IQD6WLEWUP5oQLbSvCXtwgcqAZEWm3YKXW1kVty23sprr_g?e=01QNKW
 
-**1. Navbar y Hero Section**
+**Navbar y Hero**
 
-Implementamos el encabezado principal de la Landing Page, compuesto por el logo de FixCore, el menú de navegación y la sección Hero. Esta última presenta la propuesta de valor del producto y permite que los visitantes conozcan su propósito desde el inicio.
+Se implementó el encabezado, la navegación y la presentación inicial de FixCore.
 
-![Navbar y Hero Section](assets/images/nav-hero.png)
+![Navbar y Hero](assets/images/nav-hero.png)
 
-**2. Funcionalidades y guía de uso**
+**Funcionalidades y guía de uso**
 
-Desarrollamos una sección informativa que presenta las principales funcionalidades propuestas para FixCore. También incorporamos una guía visual que explica cómo se utilizaría la plataforma para organizar actividades de mantenimiento industrial.
+Se desarrollaron secciones para presentar las funcionalidades y explicar el uso general del producto.
 
-La finalidad de estas secciones es que los visitantes comprendan las capacidades de la solución antes de acceder a la aplicación.
+![Funcionalidades](assets/images/funcionalidades.png)
 
-![Funcionalidades de FixCore](assets/images/funcionalidades.png)
+![Guía de uso](assets/images/flujo.png)
 
-![Guía de uso de FixCore](assets/images/flujo.png)
+**Beneficios y testimonios**
 
-**3. Beneficios por segmento y testimonios**
+Se incorporaron contenidos dirigidos a los segmentos objetivo. Los testimonios presentados en la Landing Page tienen carácter ilustrativo y no sustituyen las entrevistas de validación.
 
-Implementamos una sección de beneficios orientada a los segmentos objetivo de FixCore. En ella se presentan las ventajas esperadas de la plataforma para pymes manufactureras, firmas contratistas y personal técnico de mantenimiento.
+![Beneficios](assets/images/soluciones.png)
 
-También incorporamos testimonios ilustrativos que muestran situaciones relacionadas con los problemas que FixCore busca resolver. Estos ejemplos forman parte de la presentación de la propuesta y no constituyen resultados comprobados de clientes que ya utilizan el producto.
+![Testimonios](assets/images/testimonios.png)
 
-![Beneficios de FixCore](assets/images/soluciones.png)
+**Planes de suscripción**
 
-![Testimonios ilustrativos](assets/images/testimonios.png)
+Se desarrollaron tarjetas comerciales para presentar las opciones mensuales y anuales.
 
-**4. Planes y precios**
+![Planes de suscripción](assets/images/planes.png)
 
-Desarrollamos la sección de suscripciones, donde los visitantes pueden revisar los planes propuestos para FixCore y comparar sus características principales.
+**Preguntas frecuentes y Footer**
 
-Además, implementamos un selector que permite alternar entre la visualización de precios mensuales y anuales sin necesidad de cambiar de página.
-
-![Planes y precios de FixCore](assets/images/planes.png)
-
-**5. Preguntas frecuentes y Footer**
-
-Implementamos la sección de preguntas frecuentes para ofrecer respuestas a dudas habituales relacionadas con FixCore, sus funcionalidades y sus planes.
-
-Asimismo, desarrollamos el Footer con enlaces de navegación e información adicional del producto. **En la versión revisada durante el Sprint 1**, el acceso a los términos y condiciones todavía estaba pendiente de completarse.
+Se incorporaron preguntas frecuentes y enlaces de navegación e información.
 
 ![Preguntas frecuentes](assets/images/preguntas.png)
 
-![Footer de FixCore](assets/images/footer.png)
+![Footer](assets/images/footer.png)
 
-#### 5.2.1.6. Services Documentation Evidence for Sprint Review.
+#### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
-Durante el Sprint 1 nos concentramos en desarrollar la Landing Page de FixCore como un sitio web informativo. Las actividades realizadas abarcaron la implementación de sus secciones visuales, la navegación entre contenidos, la presentación de planes y la interacción con las preguntas frecuentes.
+Durante el Sprint 1 no se desarrollaron servicios REST propios, dado que el alcance se concentró en la implementación de una Landing Page.
 
-La Landing Page fue desarrollada utilizando tecnologías web como HTML, CSS y JavaScript. Su funcionamiento no requiere una base de datos ni una API REST para presentar la información al visitante.
+El sitio fue desarrollado con HTML, CSS y JavaScript. Sus funcionalidades informativas no requerían una API REST ni una base de datos.
 
-Por este motivo, durante este sprint no se implementaron Web Services, endpoints o servicios de backend relacionados con la gestión del mantenimiento industrial. Estas funcionalidades corresponden a etapas posteriores del desarrollo de FixCore.
+La implementación de servicios de negocio se reservó para los sprints posteriores.
 
-En consecuencia, no se presentan endpoints ni documentación de servicios REST en esta entrega, debido a que no formaron parte del alcance del Sprint 1.
+#### 5.2.1.7. Software Deployment Evidence for Sprint Review
 
-#### 5.2.1.7. Software Deployment Evidence for Sprint Review.
+La Landing Page fue publicada mediante GitHub Pages.
 
-Al finalizar el desarrollo de la Landing Page, realizamos su publicación mediante GitHub Pages. De esta manera, el sitio quedó disponible a través de un enlace público y puede consultarse desde un navegador sin necesidad de descargar o ejecutar el proyecto localmente.
+**Repositorio:** https://github.com/TechMakers-upc/Landing-Page
 
-El repositorio de la Landing Page contiene el código fuente, los estilos y los recursos utilizados para presentar FixCore. También incluye versiones del sitio en español e inglés.
+**URL:** https://techmakers-upc.github.io/Landing-Page/
 
-La versión publicada presenta las secciones desarrolladas durante el sprint: Navbar, Hero, funcionalidades, guía de uso, beneficios, testimonios ilustrativos, planes de precios, preguntas frecuentes y Footer.
+![Despliegue en GitHub Pages](assets/images/pages.png)
 
-**Repositorio de código fuente:**
+![Evidencia de publicación](assets/images/evidence.png)
 
-https://github.com/TechMakers-upc/Landing-Page
+La publicación permitió acceder al producto desde un navegador sin instalar herramientas adicionales.
 
-**Landing Page desplegada:**
+#### 5.2.1.8. Team Collaboration Insights during Sprint
 
-https://techmakers-upc.github.io/Landing-Page/
+Durante el Sprint 1 se distribuyeron las responsabilidades entre los cinco integrantes.
 
-A continuación, se presentan las capturas utilizadas para registrar el despliegue de la Landing Page en GitHub Pages.
+La coordinación se realizó mediante GitHub, Trello y herramientas de comunicación virtual. Cada integrante trabajó en una sección y posteriormente participó en la integración de los cambios.
 
-![Despliegue de Landing Page en GitHub Pages](assets/images/pages.png)
+Entre las dificultades identificadas se encontraron diferencias en estilos, espaciados, traducciones y comportamiento responsive.
 
-![Evidencia de despliegue](assets/images/evidence.png)
+Estas observaciones permitieron establecer convenciones para las siguientes iteraciones.
 
-#### 5.2.1.8. Team Collaboration Insights during Sprint.
+![Colaboración Sprint 1](assets/images/insight.png)
 
-Durante el Sprint 1 organizamos las actividades de desarrollo mediante la distribución de responsabilidades entre los cinco integrantes de TechMakers. Cada miembro asumió el liderazgo de una sección de la Landing Page y colaboró con el resto del equipo durante las revisiones e integración de los cambios.
+Las mejoras realizadas después del cierre del Sprint 1 forman parte de la evolución posterior del producto y no modifican retroactivamente sus resultados.
 
-Para coordinar el trabajo utilizamos reuniones virtuales, Trello y GitHub. El tablero del Sprint Backlog nos permitió mantener un seguimiento de las tareas, mientras que el repositorio registró los commits y las contribuciones realizadas por los integrantes.
+---
 
-Trabajar con ramas independientes facilitó el desarrollo paralelo de las secciones. Sin embargo, durante la integración encontramos algunos problemas relacionados con traducciones, espaciados, colores y diferencias entre componentes. Estos detalles requirieron ajustes adicionales para mantener una presentación uniforme.
+### 5.2.2. Sprint 2
 
-A partir de esta experiencia identificamos la importancia de mantener convenciones comunes de diseño y desarrollo, revisar los cambios antes de integrarlos y comunicar oportunamente las dificultades encontradas.
+El Sprint 2 se concentró en desarrollar una primera versión de la Web Application de FixCore utilizando Angular y TypeScript.
 
-El trabajo realizado permitió completar y publicar la estructura principal de la Landing Page mediante GitHub Pages. Asimismo, el sprint ayudó a establecer convenciones para la integración de cambios y el trabajo por ramas.
+Se implementaron interfaces para gestión de plantas, máquinas, mantenimiento preventivo, fallas, órdenes de trabajo, inventario y reportes.
 
-**Seguimiento posterior al Sprint 1.** En las revisiones posteriores se corrigieron los enlaces de las páginas legales, la navegación entre idiomas, contenidos comerciales y aspectos visuales de la Landing Page. También se incorporaron secciones interactivas de funcionalidades, tecnología y presentación del equipo, así como los accesos a la Web Application. Estas mejoras forman parte de la evolución del producto después del cierre del Sprint 1; por tanto, no modifican retroactivamente los estados ni la velocidad consignados en su Sprint Backlog. Para AV2 corresponde actualizar las evidencias de la versión desplegada y vincular los commits o Pull Requests que acrediten dichos ajustes.
+Para facilitar la navegación y las demostraciones se utilizó JSON Server como API simulada.
 
-**Métricas de colaboración:**
+Aunque esta solución permitió probar operaciones HTTP con información de ejemplo, todavía no incorporaba todas las reglas de negocio, persistencia relacional ni autenticación del backend definitivo.
 
-![Métricas de colaboración del Sprint 1](assets/images/insight.png)
+#### 5.2.2.1. Sprint Planning 2
 
-
-<div style="page-break-after: always;"></div>
-
-
-### 5.2.2. Sprint 2.
-
-En el Sprint 2, TechMakers desarrolló la primera versión de la Web Application de FixCore utilizando Angular y TypeScript. A diferencia del Sprint 1, centrado en la Landing Page, este trabajo se orientó a las interfaces de gestión de plantas y máquinas, mantenimiento preventivo, fallas, órdenes de trabajo, inventario de repuestos y consulta de indicadores operativos.
-
-Los integrantes distribuyeron el desarrollo por módulos y posteriormente integraron las vistas en una aplicación con navegación común y experiencias diferenciadas para Jefe de Planta, Gerente de Operaciones y Técnico de Mantenimiento. Para facilitar las demostraciones, el frontend consumió una **API de prueba implementada con JSON Server y desplegada en Render**. Esta herramienta simuló el acceso a recursos mediante endpoints HTTP, pero **no constituyó todavía una API REST propia construida con Java y Spring Boot**, objetivo reservado para una etapa posterior.
-
-La planificación consideró 27 User Stories relacionadas con la cobertura funcional del frontend, cuya estimación original ascendía a 88 Story Points. Sin embargo, esas estimaciones correspondían a las historias completas de producto, no exclusivamente a la construcción de pantallas. Por ese motivo, **no se presentan 88 puntos como velocidad lograda**. La finalización de cada historia depende de comprobar todos sus criterios de aceptación, incluidas las operaciones de servidor cuando estas resulten necesarias.
-
-La autenticación real, la autorización basada en cuentas persistentes y la recuperación de contraseñas no formaron parte del alcance ejecutado en este sprint. La selección de perfiles utilizada para demostrar la navegación no debe confundirse con un inicio de sesión seguro.
-
-#### 5.2.2.1. Sprint Planning 2.
-
-La planificación del Sprint 2 tomó como referencia los resultados del Sprint 1 y las historias del Product Backlog. El trabajo se distribuyó por módulos para que los cinco integrantes desarrollaran interfaces en paralelo y posteriormente integraran sus avances en una misma aplicación web. Los datos del siguiente cuadro corresponden al registro de planificación conservado por el equipo.
+La planificación consideró los resultados del Sprint 1 y las historias del Product Backlog relacionadas con las principales funcionalidades de FixCore.
 
 | Campo | Información |
 |---|---|
 | Sprint # | Sprint 2 |
-| **Sprint Planning Background** | |
 | Date | 2026-10-08 |
-| Time | 2:00 AM - 2:45 AM |
-| Location | Reunión de coordinación (medio no especificado en el registro) |
+| Time | 2:00 AM – 2:45 AM |
+| Location | Reunión de coordinación; medio no especificado en el registro |
 | Prepared By | Alvar Lucas Córdova |
-| Team Members Considered | Alvar Lucas Córdova, Sunio Danilo Landa Sánchez, Giuseppe Adrián Villanueva Rodríguez, Diego Rances Rojas Huaranga y Pierre Alessandro Mendoza Boluarte |
-| Sprint 1 Review Summary | Durante el Sprint 1 se implementó la estructura principal de la Landing Page de FixCore, incluyendo sus secciones informativas, navegación, beneficios, planes y preguntas frecuentes. Posteriormente se realizaron correcciones relacionadas con las traducciones, enlaces y páginas informativas. |
-| Sprint 1 Retrospective Summary | Se identificó la importancia de mantener convenciones comunes de desarrollo, mejorar la coordinación entre integrantes y realizar revisiones antes de integrar los cambios. Para el Sprint 2 se propone organizar las responsabilidades por módulos y realizar pruebas de integración durante el desarrollo. |
-| **Sprint Goal & User Stories** | |
-| Sprint 2 Goal | **Our focus is on** developing the main frontend interfaces of the FixCore Web Application, covering asset management, preventive maintenance, failure reporting, work orders, spare parts inventory, operational dashboards, and navigation from the Landing Page. **We believe it delivers** an integrated and navigable frontend prototype that allows users to explore the main modules and interact with representative maintenance workflows using simulated data. **This will be confirmed when** the planned interfaces are integrated, their navigation and validations are tested, and the frontend is accessible through a deployed application. |
-| Sprint 1 Velocity Reference | 6 Story Points completados |
-| Sprint 2 Velocity | No determinada; se requiere verificar las historias finalizadas contra sus criterios de aceptación |
-| User Stories Considered for Frontend Coverage | 27 |
-| Associated Product Backlog Story Points | 88 Story Points |
-| Sum of Story Points | 88 SP asociados a la cobertura funcional considerada; no equivalen a SP terminados |
+| Team Members | Alvar Lucas Córdova, Sunio Danilo Landa Sánchez, Giuseppe Adrián Villanueva Rodríguez, Diego Rances Rojas Huaranga y Pierre Alessandro Mendoza Boluarte |
+| Sprint 1 Review Summary | Se desarrolló y publicó la Landing Page con sus principales secciones informativas. |
+| Sprint 1 Retrospective Summary | Se identificaron mejoras necesarias en integración, convenciones visuales y coordinación. |
+| Sprint Goal | Implementar las interfaces principales de la Web Application y conectarlas con una API de demostración. |
+| Sprint 1 Velocity Reference | 6 Story Points |
+| Sprint 2 Velocity | No determinada mediante aceptación integral de historias. |
+| User Stories Considered | 27 |
+| Associated Story Points | 88 |
 
-**User Stories consideradas para la cobertura del frontend**
+**Historias consideradas**
 
 | Módulo | User Stories | Cantidad | Story Points |
 |---|---|---:|---:|
-| Gestión de plantas y máquinas | US01, US02, US03, US04, US05, US08, US09 | 7 | 24 |
+| Plantas y máquinas | US01, US02, US03, US04, US05, US08, US09 | 7 | 24 |
 | Mantenimiento preventivo | US10, US14, US16, US17 | 4 | 16 |
-| Gestión de fallas | US19, US20, US21, US22 | 4 | 10 |
+| Fallas | US19, US20, US21, US22 | 4 | 10 |
 | Órdenes de trabajo | US23, US25, US27, US28, US29, US30 | 6 | 21 |
-| Inventario de repuestos | US31, US33, US35 | 3 | 7 |
-| Dashboard y seguimiento | US41, US45 | 2 | 8 |
+| Inventario | US31, US33, US35 | 3 | 7 |
+| Dashboard | US41, US45 | 2 | 8 |
 | Acceso desde Landing Page | US64 | 1 | 2 |
 | **Total** | | **27** | **88** |
 
-Las User Stories de la tabla se relacionaron con las principales interfaces previstas para el Sprint 2. Se organizaron por módulos para facilitar la distribución de responsabilidades y el desarrollo paralelo.
+Los 88 Story Points corresponden a las estimaciones de las historias consideradas y no deben interpretarse como velocidad alcanzada. El sprint se concentró en el desarrollo de interfaces y operaciones de demostración.
 
-Las 27 historias consideradas sumaban 88 Story Points según el Product Backlog. Sin embargo, esos puntos correspondían al desarrollo completo de las funcionalidades, mientras que el alcance efectivo del sprint fue principalmente frontend, apoyado en una API de prueba y validaciones de interfaz.
+#### 5.2.2.2. Aspect Leaders and Collaborators
 
-Por lo tanto, las interfaces implementadas no implican que todas las User Stories hayan quedado completas. Las historias que necesitan persistencia, reglas de negocio o autenticación real deben volver a evaluarse cuando se integren los Web Services propios.
+La distribución inicial del trabajo se organizó por módulos.
 
-
-#### 5.2.2.2. Aspect Leaders and Collaborators.
-
-El equipo organizó la distribución inicial del trabajo mediante la siguiente Leadership and Collaboration Matrix. Cada integrante asumió la coordinación de un módulo y colaboró con los demás durante la integración.
-
-En la siguiente matriz, **L** representa al líder del área de trabajo y **C** a los colaboradores.
-
-| Team Member  | GitHub Username | Plants & Machines | Preventive Maintenance | Failures & Dashboard | Work Orders & Access | Inventory & Testing |
+| Team Member | GitHub Username | Plants & Machines | Preventive Maintenance | Failures & Dashboard | Work Orders | Inventory |
 |---|---|:---:|:---:|:---:|:---:|:---:|
-| Córdova, Alvar Lucas | AlvarLC | L | C | C | C | C |
-| Landa Sánchez, Sunio Danilo | DanLandio | C | L | C | C | C |
-| Villanueva Rodríguez, Giuseppe Adrián | Giuseppe152004 | C | C | L | C | C |
-| Rojas Huaranga, Diego Rances | diego27-16 | C | C | C | L | C |
-| Mendoza Boluarte, Pierre Alessandro | pierreale2302 | C | C | C | C | L |
+| Alvar Lucas Córdova | AlvarLC | L | C | C | C | C |
+| Sunio Danilo Landa Sánchez | DanLandio | C | L | C | C | C |
+| Giuseppe Adrián Villanueva Rodríguez | Giuseppe152004 | C | C | L | C | C |
+| Diego Rances Rojas Huaranga | diego27-16 | C | C | C | L | C |
+| Pierre Alessandro Mendoza Boluarte | pierreale2302 | C | C | C | C | L |
 
-La distribución de responsabilidades considerada para el sprint fue la siguiente:
+Las principales responsabilidades asignadas fueron:
 
-- **Alvar Lucas Córdova:** configuración inicial del frontend y desarrollo de las interfaces para registrar, editar y consultar información de plantas y máquinas.
-- **Sunio Danilo Landa Sánchez:** desarrollo de las interfaces de mantenimiento preventivo, incluyendo programación, calendario y consultas de actividades pendientes o vencidas.
-- **Giuseppe Adrián Villanueva Rodríguez:** implementación de las interfaces para reportar y consultar fallas, así como del dashboard con indicadores demostrativos.
-- **Diego Rances Rojas Huaranga:** desarrollo del módulo de órdenes de trabajo y conexión entre la Landing Page y la Web Application.
-- **Pierre Alessandro Mendoza Boluarte:** desarrollo de las interfaces de inventario de repuestos y apoyo en las pruebas de integración y adaptación responsive.
+- Alvar: gestión de plantas y máquinas.
+- Sunio: mantenimiento preventivo.
+- Giuseppe: fallas, dashboard e indicadores.
+- Diego: órdenes de trabajo.
+- Pierre: inventario y verificación de interfaces.
 
-Esta matriz registra la asignación inicial. Las contribuciones efectivas deben sustentarse con los commits, Pull Requests y evidencias de integración incluidos en la revisión del sprint.
+La matriz representa la distribución de responsabilidades planificada. Las contribuciones de código deben contrastarse con el historial de GitHub.
 
-#### 5.2.2.3. Sprint Backlog 2.
+#### 5.2.2.3. Sprint Backlog 2
 
-El Sprint Backlog 2 registró las tareas definidas para implementar las interfaces principales de FixCore. Las tareas se vincularon con las User Stories consideradas para la cobertura del frontend y continuaron la numeración del Sprint Backlog 1.
+El Sprint Backlog 2 contiene las tareas de implementación y verificación de las interfaces Angular.
 
-La implementación utilizó componentes reutilizables, validaciones del lado del cliente y recursos suministrados mediante la API de prueba. El equipo utilizó Trello para hacer seguimiento de las tareas.
+**Tablero Trello:** https://trello.com/b/TsmoUxyH/sprint-backlog-2-techmakers
 
-**Tablero de Sprint Backlog 2:**
+![Sprint Backlog 2](assets/images/sprint2-foto.png)
 
-https://trello.com/b/8djFNRhg/sprint-backlog-2-techmakers
+| Story ID | Story Title | Task ID | Task Title | Task Description | Hours | Assigned To | Status |
+|---|---|---|---|---|---:|---|---|
+| — | Configuración transversal del frontend | T011 | Configure Angular Project Structure | Configurar el proyecto Angular, componentes y rutas. | 3 | Alvar | To Review |
+| US01–US02 | Gestión de plantas | T012 | Implement Plant Forms | Desarrollar formularios para registrar y actualizar plantas. | 4 | Alvar | To Review |
+| US03–US04 | Registro de máquinas | T013 | Implement Machine Registration | Implementar el registro y edición de máquinas. | 5 | Alvar | To Review |
+| US05–US08 | Consulta de máquinas | T014 | Develop Machine Details View | Desarrollar la vista con los detalles técnicos de una máquina. | 4 | Alvar | To Review |
+| US09 | Historial de máquinas | T015 | Develop Machine History View | Presentar el historial de la máquina. | 3 | Alvar | To Review |
+| US10 | Programación de mantenimiento | T016 | Implement Maintenance Scheduling Form | Desarrollar el formulario de programación preventiva. | 4 | Sunio | To Review |
+| US14 | Calendario de mantenimiento | T017 | Develop Maintenance Calendar | Mostrar actividades programadas en un calendario. | 4 | Sunio | To Review |
+| US16 | Próximos mantenimientos | T018 | Develop Upcoming Maintenance View | Mostrar los mantenimientos próximos. | 3 | Sunio | To Review |
+| US17 | Mantenimientos vencidos | T019 | Implement Overdue Maintenance Indicators | Mostrar indicadores de actividades vencidas. | 3 | Sunio | To Review |
+| — | Navegación del mantenimiento | T020 | Integrate Maintenance Navigation | Integrar las rutas y accesos del módulo. | 3 | Sunio | To Review |
+| US19 | Reporte de fallas | T021 | Implement Failure Reporting Form | Implementar el formulario para registrar fallas. | 4 | Giuseppe | To Review |
+| US20–US22 | Priorización y detalle de fallas | T022 | Develop Failure Priority and Details | Mostrar la prioridad y detalles de una falla. | 4 | Giuseppe | To Review |
+| US21 | Consulta de fallas pendientes | T023 | Develop Pending Failures View | Presentar la lista de fallas pendientes. | 3 | Giuseppe | To Review |
+| US41 | Dashboard de operaciones | T024 | Develop Operations Dashboard | Implementar el panel de indicadores operativos. | 4 | Giuseppe | To Review |
+| US45 | Indicadores de órdenes | T025 | Implement Work Order Status Indicators | Mostrar los estados de las órdenes de trabajo. | 3 | Giuseppe | To Review |
+| US23 | Registro de órdenes de trabajo | T026 | Implement Corrective Work Order Form | Desarrollar el formulario de órdenes correctivas. | 5 | Diego | To Review |
+| US25 | Asignación de técnicos | T027 | Develop Technician Assignment Interface | Incorporar la interfaz para asignar técnicos. | 3 | Diego | To Review |
+| US27 | Consulta de órdenes asignadas | T028 | Develop Assigned Work Orders View | Mostrar las órdenes asignadas a un técnico. | 3 | Diego | To Review |
+| US28–US29 | Ejecución de órdenes | T029 | Develop Work Order Execution Interface | Desarrollar los controles para ejecutar órdenes. | 5 | Diego | To Review |
+| US30 | Cierre de órdenes | T030 | Implement Work Order Closure | Implementar la interfaz de cierre. | 4 | Diego | To Review |
+| US64 | Acceso desde la Landing Page | T031 | Connect Landing Page to Web Application | Conectar la Landing Page con la Web Application. | 3 | Diego | In Process |
+| US31 | Registro de repuestos | T032 | Implement Spare Parts Registration | Desarrollar el formulario de repuestos. | 4 | Pierre | To Review |
+| US33 | Consulta de inventario | T033 | Develop Spare Parts Stock View | Mostrar las existencias de repuestos. | 3 | Pierre | To Review |
+| US35 | Configuración de stock mínimo | T034 | Implement Minimum Stock Configuration | Configurar los niveles mínimos de existencias. | 3 | Pierre | To Review |
+| — | Componentes compartidos de inventario | T035 | Develop Reusable Inventory Components | Implementar componentes reutilizables del módulo. | 3 | Pierre | To Review |
+| — | Verificación transversal | T036 | Verify Frontend Integration and Responsiveness | Revisar la integración y adaptación responsive. | 5 | Pierre | To Do |
 
-**Sprint Backlog 2 — Planificación registrada**
+**Resumen por integrante**
 
-| Story ID | Task ID | Task Title | Task Description | Estimation (hours) | Assigned To | Status |
-|---|---|---|---|---:|---|---|
-| Transversal | T011 | Configuración de la estructura del frontend | Configurar la estructura inicial de la aplicación, las carpetas, los componentes base y las rutas principales. | 3 | Córdova, Alvar Lucas | In Progress |
-| US01, US02 | T012 | Implementar formularios de plantas | Desarrollar los formularios demostrativos para registrar y editar información de plantas. | 4 | Córdova, Alvar Lucas | In Progress |
-| US03, US04 | T013 | Implementar registro de máquina | Implementar los formularios para registrar y actualizar la información de las máquinas. | 5 | Córdova, Alvar Lucas | In Progress |
-| US05, US08 | T014 | Desarrollar la vista detallada de la máquina | Implementar la vista de información técnica y estado de una máquina. | 4 | Córdova, Alvar Lucas | In Progress |
-| US09 | T015 | Desarrollar la vista del historial de la máquina | Implementar una vista del historial de fallas y mantenimientos con datos simulados. | 3 | Córdova, Alvar Lucas | In Progress |
-| US10 | T016 | Elaborar un formulario de programación del mantenimiento | Implementar el formulario para programar mantenimientos preventivos. | 4 | Landa Sánchez, Sunio Danilo | In Progress |
-| US14 | T017 | Elaborar un calendario de mantenimiento | Implementar el calendario para consultar los mantenimientos programados. | 4 | Landa Sánchez, Sunio Danilo | In Progress |
-| US16 | T018 | Desarrollar la vista de próximos mantenimientos | Implementar una lista de mantenimientos próximos con fechas y estados. | 3 | Landa Sánchez, Sunio Danilo | In Progress |
-| US17 | T019 | Identificar el mantenimiento atrasado| Incorporar indicadores visuales para identificar mantenimientos vencidos. | 3 | Landa Sánchez, Sunio Danilo | In Progress |
-| Transversal | T020 | Integrar la navegación de mantenimiento | Integrar las pantallas del módulo de mantenimiento preventivo y comprobar su navegación. | 3 | Landa Sánchez, Sunio Danilo | In Progress |
-| US19 | T021 | Elaborar un formulario de notificacion de averias | Implementar el formulario para reportar fallas de máquinas. | 4 | Villanueva Rodríguez, Giuseppe Adrián | In Progress |
-| US20, US22 | T022 |Desarrollar la prioridad y los detalles del fallo | Implementar la visualización del detalle de una falla y el control de prioridad. | 4 | Villanueva Rodríguez, Giuseppe Adrián | In Progress |
-| US21 | T023 | Desarrollar la vista fallos pendientes | Implementar una lista de fallas pendientes con filtros y estados. | 3 | Villanueva Rodríguez, Giuseppe Adrián | In Progress |
-| US41 | T024 | Desarrollar el panel de control de operaciones | Implementar el dashboard con información demostrativa sobre las operaciones de mantenimiento. | 4 | Villanueva Rodríguez, Giuseppe Adrián | In Progress |
-| US45 | T025 | Desarrollar indicadores de estado de las órdenes de trabajo | Incorporar indicadores visuales de órdenes pendientes, en progreso y completadas. | 3 | Villanueva Rodríguez, Giuseppe Adrián | In Progress |
-| US23 | T026 | Elaborar un formulario de orden de trabajo correctivo | Implementar la interfaz para generar una orden correctiva desde una falla. | 5 | Rojas Huaranga, Diego Rances | In Progress |
-| US25 | T027 | Desarrollar la interfaz de asignación de técnicos | Implementar el selector demostrativo para asignar técnicos a órdenes de trabajo. | 3 | Rojas Huaranga, Diego Rances | In Progress |
-| US27 | T028 | Desarrollar la vista de ordenes de trabajo asignadas | Implementar la consulta de órdenes de trabajo asignadas. | 3 | Rojas Huaranga, Diego Rances | In Progress |
-| US28, US29 | T029 | Desarrollar una interfaz para la ejecucion de ordenes de trabajo | Implementar las acciones para iniciar una orden y registrar el trabajo realizado. | 5 | Rojas Huaranga, Diego Rances | In Progress |
-| US30 | T030 | Desarrollar la interfaz de cierre de órdenes de trabajo| Implementar el formulario y las acciones demostrativas para cerrar una orden de trabajo. | 4 | Rojas Huaranga, Diego Rances | In Progress |
-| US64 | T031 | Conectar la Landing Page con la aplicación web | Incorporar un enlace funcional desde la Landing Page hacia el frontend de FixCore. | 3 | Rojas Huaranga, Diego Rances | In Progress |
-| US31 | T032 | Elaborar un formulario de registro de piezas de recambio | Implementar el formulario para registrar repuestos. | 4 | Mendoza Boluarte, Pierre Alessandro | In Progress |
-| US33 | T033 | Desarrollar la vista de existencias de piezas de recambio| Implementar una lista para consultar las existencias de repuestos. | 3 | Mendoza Boluarte, Pierre Alessandro | In Progress |
-| US35 | T034 | Desarrollar la configuración de stock mínimo | Implementar los controles para establecer y visualizar el stock mínimo de un repuesto. | 3 | Mendoza Boluarte, Pierre Alessandro | In Progress |
-| Transversal | T035 | Desarrollar componentes reutilizables para el inventario | Preparar componentes y validaciones compartidas para el módulo de inventario. | 3 | Mendoza Boluarte, Pierre Alessandro | In Progress |
-| Transversal | T036 | Comprobar la integración y la capacidad de respuesta de la interfaz de usuario | Comprobar navegación, formularios, visualización responsive e integración de las interfaces. | 5 | Mendoza Boluarte, Pierre Alessandro | To Do |
-
-**Resumen de actividades por integrante**
-
-| Team Member | Tasks Assigned | Total Estimated Hours |
+| Integrante | Tareas | Horas estimadas |
 |---|---|---:|
-| Córdova, Alvar Lucas | T011 - T015 | 19 |
-| Landa Sánchez, Sunio Danilo | T016 - T020 | 17 |
-| Villanueva Rodríguez, Giuseppe Adrián | T021 - T025 | 18 |
-| Rojas Huaranga, Diego Rances | T026 - T031 | 23 |
-| Mendoza Boluarte, Pierre Alessandro | T032 - T036 | 18 |
-| **Total** | **26 tareas** | **95 horas** |
+| Alvar Lucas Córdova | T011–T015 | 19 |
+| Sunio Danilo Landa Sánchez | T016–T020 | 17 |
+| Giuseppe Adrián Villanueva Rodríguez | T021–T025 | 18 |
+| Diego Rances Rojas Huaranga | T026–T031 | 23 |
+| Pierre Alessandro Mendoza Boluarte | T032–T036 | 18 |
+| **Total** | **26 tareas** | **95** |
 
-Las 95 horas son estimaciones del plan inicial, no horas efectivamente trabajadas ni evidencias de finalización. El alcance resultó amplio para una iteración centrada en frontend, por lo que las funcionalidades con dependencias de backend quedaron sujetas a integración y validación posteriores.
+**Resumen del tablero**
 
-Los estados **To Do**, **In Progress** y **Done** reproducen el registro de planificación del Sprint Backlog. **No deben interpretarse como el estado final del Sprint 2**, ya que la evidencia de ejecución presenta vistas integradas con posterioridad. Antes de publicar el reporte de AV2, se deben conciliar estos estados con Trello, los commits y las pruebas realizadas, sin marcar tareas como finalizadas sin respaldo.
+| Columna de Trello | Cantidad |
+|---|---:|
+| To Do | 1 |
+| In Process | 1 |
+| To Review | 24 |
+| Done | 0 |
+| **Total** | **26** |
 
-**Criterios para la revisión del frontend**
+Los estados reflejan el tablero documentado del Sprint 2. Las tareas ubicadas en `To Review` representan trabajo pendiente de aceptación formal, por lo que no deben presentarse como tareas terminadas.
 
-La revisión del Sprint 2 consideró los siguientes aspectos:
+La integración posterior de algunos módulos durante el Sprint 3 no modifica automáticamente su estado histórico de revisión.
 
-- Que las interfaces implementadas puedan abrirse y navegarse desde la aplicación.
-- Que los formularios dispongan de campos adecuados y validaciones básicas.
-- Que las tablas y vistas permitan presentar información de demostración.
-- Que las acciones simuladas muestren resultados consistentes dentro de la interfaz.
-- Que los componentes mantengan una presentación visual uniforme.
-- Que las pantallas se adapten a diferentes tamaños de dispositivos.
-- Que las funcionalidades desarrolladas cuenten con evidencia de pruebas y commits.
+#### 5.2.2.4. Development Evidence for Sprint Review
 
-Estos criterios permiten revisar el avance del frontend. Una User Story solo debe considerarse terminada cuando cumpla los criterios de aceptación especificados en el Product Backlog; presentar una pantalla o consumir un recurso simulado no acredita necesariamente la historia completa.
+Durante el Sprint 2 se registraron avances de los módulos Angular mediante GitHub.
 
-#### 5.2.2.4. Development Evidence for Sprint Review.
+| Repository | Branch | Commit ID | Commit Message | Committed on |
+|---|---|---|---|---|
+| Frontend | feature/frontend-setup-assets | `b94f329` | Integrate frontend services and reusable components | 2026-10-08 |
+| Frontend | feature/frontend-setup-assets | `ad2c0d9` | Add plant and machine management forms | 2026-10-08 |
+| Frontend | feature/frontend-setup-assets | `376e60f` | Add machine details and maintenance history | 2026-10-08 |
+| Frontend | feature/failures-dashboard | `3854c5a` | Implement failure reporting interface | 2026-10-08 |
+| Frontend | feature/failures-dashboard | `7f04637` | Add failure details and pending reports | 2026-10-08 |
+| Frontend | feature/failures-dashboard | `93c4ca2` | Add operations dashboard and indicators | 2026-10-08 |
+| Frontend | feature/preventive-maintenance | `4995d52` | Implement preventive scheduling forms | 2026-10-08 |
+| Frontend | feature/preventive-maintenance | `2fe7221` | Add calendar and maintenance status views | 2026-10-08 |
+| Frontend | feature/preventive-maintenance | `9796005` | Integrate maintenance navigation | 2026-10-08 |
+| Frontend | feature/work-orders | `fc52f8c` | Add work order creation and assignment | 2026-10-08 |
+| Frontend | feature/work-orders | `0867eb7` | Implement execution and closing workflows | 2026-10-08 |
+| Frontend | feature/inventory-integration | `52d6549` | Add spare parts forms and validations | 2026-10-08 |
+| Frontend | feature/inventory-integration | `d0224b4` | Implement stock views and minimum levels | 2026-10-08 |
+| Frontend | fix/frontend-integration-deployment | `5bab08c` | Integrate Sprint 2 frontend | 2026-10-08 |
+| Frontend | fix/frontend-integration-deployment | `05375b4` | Apply frontend audit corrections | 2026-10-08 |
 
-Durante el Sprint 2 utilizamos Git y GitHub, con la extensión GitFlowHelper de Jetbrains Webstorm para gestionar los cambios realizados en el código fuente de la frontend web application. La siguiente tabla presenta los cambios de la aplicación web registrados en GitHub durante el desarrollo, identificando las ramas utilizadas, los responsables, los mensajes de commit y las fechas correspondientes.
+Los commits documentan los avances realizados en las interfaces y permiten identificar los módulos implementados.
 
-| Repository | Branch | Commit ID | Commit Message | Commit Message Body | Committed on |
-|---|---|---|---|---|---|
-| Frontend | feature/frontend-setup-assets | b94f329 | chore(shared): integrate frontend services and reusable components | | Oct 8, 2026 |
-| Frontend | feature/frontend-setup-assets | ad2c0d9 | feat(assets): add plant and machine management forms | | Oct 8, 2026 |
-| Frontend | feature/frontend-setup-assets | 376e60f | feat(assets): add machine details and maintenance history | | Oct 8, 2026 |
-| Frontend | feature/failures-dashboard | 3854c5a | feat(failures): implement failure reporting interface | | Oct 8, 2026 |
-| Frontend | feature/failures-dashboard | 7f04637 | feat(failures): add failure details and pending reports | | Oct 8, 2026 |
-| Frontend | feature/failures-dashboard | 93c4ca2 | feat(analytics): add operations dashboard and status indicators | | Oct 8, 2026 |
-| Frontend | feature/preventive-maintenance | 4995d52 | feat(maintenance): implement preventive scheduling forms | | Oct 8, 2026 |
-| Frontend | feature/preventive-maintenance | 2fe7221 | feat(maintenance): add calendar and maintenance status views| | Oct 8, 2026 |
-| Frontend | feature/preventive-maintenance | 9796005 | feat(maintenance): integrate module navigation and routes| | Oct 8, 2026 |
-| Frontend | feature/work-orders | fc52f8c | feat(work-orders): add work order creation and assignment | | Oct 8, 2026 |
-| Frontend | feature/work-orders | 0867eb7 | feat(work-orders): implement execution and closing workflows | | Oct 8, 2026 |
-| Frontend | feature/inventory-integration | 52d6549 | feat(inventory): add spare parts forms and shared validations| | Oct 8, 2026 |
-| Frontend | feature/inventory-integration | d0224b4 | feat(inventory): implement stock views and minimum levels| | Oct 8, 2026 |
-| Frontend | fix/frontend-integration-deployment | 5bab08c | feat: integrate FixCore Sprint 2 frontend and responsive Figma design | | Oct 8, 2026 |
-| Frontend | fix/frontend-integration-deployment | 05375b4 | fix: apply Sprint 2 frontend audit corrections | | Oct 8, 2026 |
+La revisión posterior del informe permitió conciliar referencias de commits de los Sprints 1 y 2 sin alterar sus resultados históricos.
 
+#### 5.2.2.5. Execution Evidence for Sprint Review
 
-**Conciliación documental de los Sprints 1 y 2 (revisión T047).** Se contrastaron los identificadores, los mensajes y las fechas de los ocho commits citados en la evidencia de desarrollo del Sprint 1 y los quince del Sprint 2 con sus registros disponibles en los repositorios de GitHub. Los identificadores consultados corresponden a commits existentes y las fechas documentadas coinciden con sus registros. Se ajusta el mensaje del merge commit `51ba71f` para consignar su rama de origen completa (`Feature/landing-page-presentation`), según GitHub. Esta revisión verifica la trazabilidad de los cambios de código, no la aceptación integral de las User Stories ni los estados de las tarjetas de Trello.
+**Video de presentación del Sprint 2:**
 
-| Sprint | Tareas relacionadas | Evidencia de commits comprobada | Alcance que respaldan los registros |
-|---|---|---|---|
-| 1 | T001–T002 | Landing Page: [`0128950`](https://github.com/TechMakers-upc/Landing-Page/commit/0128950), [`18ee3c6`](https://github.com/TechMakers-upc/Landing-Page/commit/18ee3c6) | Estructura de presentación y estilos base. |
-| 1 | T003–T004 | Landing Page: [`c7507e1`](https://github.com/TechMakers-upc/Landing-Page/commit/c7507e1) | Sección de funcionalidades y recursos visuales; la aceptación de cada tarea requiere revisar sus criterios. |
-| 1 | T005–T006 | Landing Page: [`ef53f10`](https://github.com/TechMakers-upc/Landing-Page/commit/ef53f10), [`2b78517`](https://github.com/TechMakers-upc/Landing-Page/commit/2b78517) | Cambios en la página y la integración de la rama de beneficios; no acreditan por sí solos cada detalle de contenido. |
-| 1 | T007–T008 | Landing Page: [`eb0f365`](https://github.com/TechMakers-upc/Landing-Page/commit/eb0f365) | Tarjetas informativas de planes de suscripción. |
-| 2 | T011–T015 | Frontend: [`b94f329`](https://github.com/TechMakers-upc/Frontend/commit/b94f329), [`ad2c0d9`](https://github.com/TechMakers-upc/Frontend/commit/ad2c0d9), [`376e60f`](https://github.com/TechMakers-upc/Frontend/commit/376e60f) | Componentes compartidos, formularios, detalle e historial de máquinas. |
-| 2 | T016–T020 | Frontend: [`4995d52`](https://github.com/TechMakers-upc/Frontend/commit/4995d52), [`2fe7221`](https://github.com/TechMakers-upc/Frontend/commit/2fe7221), [`9796005`](https://github.com/TechMakers-upc/Frontend/commit/9796005) | Formularios, calendario, estados y navegación de mantenimiento preventivo. |
-| 2 | T021–T025 | Frontend: [`3854c5a`](https://github.com/TechMakers-upc/Frontend/commit/3854c5a), [`7f04637`](https://github.com/TechMakers-upc/Frontend/commit/7f04637), [`93c4ca2`](https://github.com/TechMakers-upc/Frontend/commit/93c4ca2) | Reporte y seguimiento de fallas y vistas de indicadores. |
-| 2 | T026–T031 | Frontend: [`fc52f8c`](https://github.com/TechMakers-upc/Frontend/commit/fc52f8c), [`0867eb7`](https://github.com/TechMakers-upc/Frontend/commit/0867eb7) | Formularios y flujos visuales de órdenes de trabajo; la conexión desde la Landing Page (T031) requiere evidencia específica del repositorio correspondiente. |
-| 2 | T032–T036 | Frontend: [`52d6549`](https://github.com/TechMakers-upc/Frontend/commit/52d6549), [`d0224b4`](https://github.com/TechMakers-upc/Frontend/commit/d0224b4), [`5bab08c`](https://github.com/TechMakers-upc/Frontend/commit/5bab08c), [`05375b4`](https://github.com/TechMakers-upc/Frontend/commit/05375b4) | Inventario, integración del frontend y correcciones; la aceptación de T036 necesita evidencias de revisión funcional y responsive. |
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c554_upc_edu_pe/IQAUYlQa0B7NQrXxJbTrLBoyAcmdZetyTMORm1Pi7hRGtfM?e=pniRwM
 
-**Estados históricos preservados.** La T010 permanece registrada como *In Progress* al cierre del Sprint 1 y la velocidad histórica se mantiene en 6 de 7 Story Points. En Sprint 2 se conservan los estados de la tabla de planificación (T011–T035 en *In Progress* y T036 en *To Do*) porque los commits no acreditan por sí solos la finalización de cada tarea o de sus historias asociadas. Para actualizar los estados de cierre es necesario contrastarlos con las tarjetas de Trello y las evidencias de aceptación del equipo. Los datos de JSON Server y la selección demostrativa de perfiles tampoco constituyen autenticación ni servicios de negocio propios.
+Durante este sprint se desarrollaron interfaces adaptadas a diferentes perfiles de usuario.
 
-#### 5.2.2.5. Execution Evidence for Sprint Review.
+**Selección inicial de perfiles**
 
-**Video de presentación del Sprint 2:** [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c554_upc_edu_pe/IQAUYlQa0B7NQrXxJbTrLBoyAcmdZetyTMORm1Pi7hRGtfM?e=pniRwM)
+Se incorporó una pantalla de selección de perfiles para acceder a las interfaces de demostración.
 
-Durante el Sprint 2 se implementó la primera versión de la Web Application de FixCore, desarrollada con Angular 22, TypeScript, Angular Material, RxJS y Angular Router. La aplicación está organizada por módulos orientados a la gestión del mantenimiento industrial, incluyendo Asset Management, Service Execution, Maintenance Planning, Inventory y Analytics, además de componentes y servicios compartidos para funcionalidades transversales.
+![Selección de perfiles](assets/images/evidence-sprint2/image.png)
 
-La aplicación consume información desde una Fake API desplegada en Render, utilizando HttpClient para realizar las operaciones de consulta, registro, actualización y eliminación de datos. También se implementó un layout compartido mediante el componente Workspace Shell, encargado de la navegación principal, selección de planta, notificaciones y acceso a las diferentes funcionalidades según el rol del usuario.
+**Jefe de Planta**
 
-* Selección de perfil: Pantalla inicial de FixCore donde el usuario puede seleccionar entre los perfiles Jefe de Planta, Gerente de Operaciones y Técnico de Mantenimiento, cada uno con funcionalidades específicas.
-
-![Selección inicial de perfiles](assets/images/evidence-sprint2/image.png)
-
-* Panel del Jefe de Planta: Dashboard con el estado general de la planta, máquinas detenidas, fallas críticas, órdenes de trabajo, mantenimientos e indicadores como tiempo muerto, MTTR y cumplimiento preventivo.
+Se desarrollaron vistas para consultar indicadores, máquinas, fallas, órdenes de trabajo y mantenimiento.
 
 ![Dashboard del jefe de planta](assets/images/evidence-sprint2/image-1.png)
 
-* **Módulo de Máquinas — Jefe de Planta:** Gestión de máquinas y activos de la planta, con consulta de estados, información técnica y formularios de registro.
-
 ![Listado de máquinas](assets/images/evidence-sprint2/image-2.png)
+
 ![Registro de máquina](assets/images/evidence-sprint2/image-3.png)
 
-* **Módulo de Fallas — Jefe de Planta:** Registro, consulta y seguimiento de incidencias reportadas sobre las máquinas.
-
 ![Listado de fallas](assets/images/evidence-sprint2/image-4.png)
-*FILTRO DE FALLAS RESUELTAS*
-![Filtro de fallas resueltas](assets/images/evidence-sprint2/image-5.png)
-*REPORTAR FALLAS*
-![Reporte de falla, paso 1](assets/images/evidence-sprint2/image-6.png)
-*REPORTAR FALLAS 2DO PASO*
-![Reporte de falla, paso 2](assets/images/evidence-sprint2/image-7.png)
-*REPORTAR FALLAS 3ER PASO*
-![Reporte de falla, paso 3](assets/images/evidence-sprint2/image-8.png)
 
-* **Módulo de Órdenes de Trabajo — Jefe de Planta:** Consulta, creación y seguimiento de órdenes de trabajo asociadas con actividades de mantenimiento.
+![Filtro de fallas](assets/images/evidence-sprint2/image-5.png)
 
-![Órdenes de trabajo](assets/images/evidence-sprint2/image-9.png)
-![Registro de orden de trabajo](assets/images/evidence-sprint2/image-10.png)
+**Registro de fallas**
 
-* **Módulo de Mantenimiento Preventivo — Jefe de Planta:** Calendario con filtros de actividades próximas, vencidas o suspendidas, y opciones para programar o reprogramar mantenimientos.
+Se desarrolló un formulario dividido en pasos para registrar información de las fallas.
 
-![Calendario de mantenimiento preventivo](assets/images/evidence-sprint2/image-11.png)
-*PREVENTIVOS VENCIDOS*
+![Registro de fallas paso 1](assets/images/evidence-sprint2/image-6.png)
+
+![Registro de fallas paso 2](assets/images/evidence-sprint2/image-7.png)
+
+![Registro de fallas paso 3](assets/images/evidence-sprint2/image-8.png)
+
+**Órdenes de trabajo**
+
+Se incorporaron interfaces para consultar y registrar órdenes.
+
+![Listado de órdenes](assets/images/evidence-sprint2/image-9.png)
+
+![Registro de orden](assets/images/evidence-sprint2/image-10.png)
+
+**Mantenimiento preventivo**
+
+Se implementaron vistas de calendario y seguimiento de actividades.
+
+![Calendario de mantenimiento](assets/images/evidence-sprint2/image-11.png)
+
 ![Mantenimientos vencidos](assets/images/evidence-sprint2/image-12.png)
-*PREVENTIVOS SUSPENDIDOS*
+
 ![Mantenimientos suspendidos](assets/images/evidence-sprint2/image-13.png)
 
-* Módulo de Inventario - Jefe de Planta: Gestión de repuestos disponibles y seguimiento del stock utilizado en las actividades de mantenimiento.
+**Inventario y reportes**
 
-![Inventario de repuestos](assets/images/evidence-sprint2/image-14.png)
+Se desarrollaron interfaces para consultar repuestos e indicadores.
 
-* **Módulo de Reportes — Jefe de Planta:** Resumen de información de los módulos de mantenimiento y opciones de consulta o descarga.
+![Inventario](assets/images/evidence-sprint2/image-14.png)
 
-![Reportes operativos](assets/images/evidence-sprint2/image-15.png)
+![Reportes](assets/images/evidence-sprint2/image-15.png)
 
+**Información de planta**
 
-* **Módulo Mi Planta — Jefe de Planta:** Consulta y mantenimiento de los datos generales de la planta.
+![Información de planta](assets/images/evidence-sprint2/image-16.png)
 
-![Datos de la planta](assets/images/evidence-sprint2/image-16.png)
+**Gerente de Operaciones**
 
-* Resumen de Operaciones - Gerente de Operaciones: Vista general de todas las plantas con indicadores de disponibilidad, órdenes de trabajo abiertas, paradas, cumplimiento preventivo y MTTR.
+Se implementaron vistas de indicadores generales, plantas y técnicos.
 
-![Resumen de operaciones](assets/images/evidence-sprint2/image-17.png)
+![Dashboard de operaciones](assets/images/evidence-sprint2/image-17.png)
 
-* Módulo de Plantas - Gerente de Operaciones: Consulta y seguimiento del estado de las diferentes plantas gestionadas por la organización.
+![Gestión de plantas](assets/images/evidence-sprint2/image-18.png)
 
-![Listado de plantas](assets/images/evidence-sprint2/image-18.png)
+![Consulta de técnicos](assets/images/evidence-sprint2/image-19.png)
 
-* Módulo de Técnicos - Gerente de Operaciones: Visualización de los técnicos disponibles, su planta asignada y las órdenes de trabajo pendientes.
+**Técnico de Mantenimiento**
 
-![Listado de técnicos](assets/images/evidence-sprint2/image-19.png)
+Se incorporaron interfaces para consultar órdenes asignadas, repuestos y reportar fallas.
 
-* Inicio del Técnico de Mantenimiento: Dashboard personalizado para el técnico con sus órdenes de trabajo pendientes, máquinas detenidas y próximos mantenimientos.
+![Dashboard del técnico](assets/images/evidence-sprint2/image-20.png)
 
-![Inicio del técnico](assets/images/evidence-sprint2/image-20.png)
+![Órdenes asignadas](assets/images/evidence-sprint2/image-21.png)
 
-* Mis Órdenes de Trabajo - Técnico: Listado de las órdenes asignadas al técnico, mostrando su estado, prioridad, tipo de mantenimiento y fechas.
+![Repuestos](assets/images/evidence-sprint2/image-22.png)
 
-![Órdenes asignadas al técnico](assets/images/evidence-sprint2/image-21.png)
+![Detalle de repuestos](assets/images/evidence-sprint2/image-23.png)
 
-* Módulo de Repuestos - Técnico: Consulta de los repuestos disponibles necesarios para la ejecución de las actividades de mantenimiento.
+![Reporte de fallas](assets/images/evidence-sprint2/image-24.png)
 
-![Repuestos para mantenimiento](assets/images/evidence-sprint2/image-22.png)
+Estas capturas representan las interfaces desarrolladas durante el Sprint 2. En esta etapa, las operaciones demostrativas dependían de JSON Server.
 
-* **Vista adicional de Repuestos — Técnico:** Presentación complementaria del inventario disponible para realizar actividades de mantenimiento.
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
-![Vista adicional de repuestos del técnico](assets/images/evidence-sprint2/image-23.png)
+Durante el Sprint 2 se utilizó JSON Server para simular una API REST y facilitar las pruebas de comunicación desde Angular.
 
-* Reporte de Fallas - Técnico: Funcionalidad para que el técnico pueda reportar una nueva falla desde su panel de trabajo.
+| Recurso | Métodos utilizados | Endpoint |
+|---|---|---|
+| Usuarios de demostración | GET | `/users` |
+| Plantas | GET, PUT | `/plants` |
+| Máquinas | GET, POST, PUT | `/assets` |
+| Planes de mantenimiento | GET, POST, PUT | `/maintenance-plans` |
+| Fallas | GET, POST, PUT | `/failures` |
+| Órdenes de trabajo | GET, POST, PUT | `/work-orders` |
+| Repuestos | GET, POST, PUT | `/spare-parts` |
+| Movimientos de stock | GET, POST | `/stock-movements` |
 
-![Reporte de fallas del técnico](assets/images/evidence-sprint2/image-24.png)
+**URL histórica de la API simulada:**
 
+https://fixcore-json-api.onrender.com/
 
-#### 5.2.2.6. Services Documentation Evidence for Sprint Review.
+Los recursos permitieron realizar operaciones HTTP con datos de prueba. Sin embargo, esta solución no equivalía a una implementación completa de la lógica de negocio, autorización y persistencia relacional.
 
-Durante el Sprint 2 se configuró una **API simulada con JSON Server**. Esta implementación permitió que el frontend utilizara solicitudes HTTP para consultar, crear y actualizar recursos de demostración. Se trató de una herramienta para probar las interfaces, **no de los Web Services de desarrollo interno en Java y Spring Boot** requeridos para AV2. La documentación OpenAPI de los servicios propios se incorporará cuando se implemente el backend real.
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review
 
-A continuación se presentan los recursos y métodos documentados para la API simulada del Sprint 2. Estas operaciones deben distinguirse de los servicios propios previstos para la entrega AV2.
+Durante el Sprint 2 se publicaron la Web Application Angular y una API de demostración.
 
-|Acción|Endpoint|Verbos HTTP|URL|
-|:-----|:-------|:---------|:---------|
-|Consultar usuarios de demostración (sin autenticación real)|/users|GET|https://fixcore-json-api.onrender.com/users|
-|Consultar y actualizar información de plantas|/plants|GET, PUT|https://fixcore-json-api.onrender.com/plants|
-|Consultar, actualizar y añadir maquinas|/assets/|GET, POST, PUT|https://fixcore-json-api.onrender.com/assets|
-|Consultar, editar y agregar mantenimientos|/maintenance-plans|GET, POST ,PUT|https://fixcore-json-api.onrender.com/maintenance-plans|
-|Consultar, editar y reportar fallos en maquinas|/failures|GET, POST, PUT|https://fixcore-json-api.onrender.com/failures|
-|Consultar, actualizar y añadir ordenes de trabajo|/work-orders|GET, POST, PUT| https://fixcore-json-api.onrender.com/work-orders|
-|Consultar, actualizar y agregar inventario de repuestos|/spare-parts|GET, POST, PUT|https://fixcore-json-api.onrender.com/spare-parts|
-|Consultar y agregar movimientos de inventario |/stock-movements|GET, POST|https://fixcore-json-api.onrender.com/stock-movements|
+**Publicación de la API simulada en Render**
 
-La consulta de usuarios mediante `/users` pertenece únicamente al entorno de demostración. No debe utilizarse como sustituto de un mecanismo seguro de autenticación ni exponer contraseñas o información sensible en una API pública.
+Se configuró un servicio vinculado con GitHub para desplegar JSON Server.
 
-#### 5.2.2.7. Software Deployment Evidence for Sprint Review.
+![Configuración inicial de Render](assets/images/sprint-2-api-deploy-1.jpeg)
 
-Durante el Sprint 2, el trabajo de despliegue se concentró en el frontend de FixCore y una API simulada con JSON Server, utilizados para demostrar las interfaces y sus operaciones HTTP.
+![Integración GitHub y Render](assets/images/sprint-2-api-deploy-2.jpeg)
 
-**Publicación del Mock API**
+![Configuración de repositorios](assets/images/sprint-2-api-deploy-3.jpeg)
 
-Para publicar la mock API se ha utilizado Render, una plataforma que permite el despliegue de aplicaciones web, APIs, bases de datos, entre otros.
+![Selección de repositorio](assets/images/sprint-2-api-deploy-4.jpeg)
 
-<div align="center">
-  Se accede al sitio de Render con una cuenta creada, se hace click al botón New y se selecciona la opción Web Service<br><br>
-  <img src="assets/images/sprint-2-api-deploy-1.jpeg" width="700"><br>
-</div>
+![Repositorio seleccionado](assets/images/sprint-2-api-deploy-5.jpeg)
 
-<div align="center">
-  Dentro de la pestaña de New Web Service se vincula la cuenta de render con la de GitHub y se instala Render en el repositorio del Frontend de la organización<br><br>
-  <img src="assets/images/sprint-2-api-deploy-2.jpeg" width="700"><br>
-</div>
+![Configuración del servicio](assets/images/sprint-2-api-deploy-6.jpeg)
 
+![Selección de recursos](assets/images/sprint-2-api-deploy-7.jpeg)
 
-<div align="center">
-  <img src="assets/images/sprint-2-api-deploy-3.jpeg" width="700"><br>
-</div>
+![Creación del servicio](assets/images/sprint-2-api-deploy-8.jpeg)
 
-<div align="center">
-  Al seleccionar Only select repositories se puede seleccionar solo el repositorio con la mock API<br><br>
-  <img src="assets/images/sprint-2-api-deploy-4.jpeg" width="700"><br>
-</div>
+![Configuración de comandos](assets/images/sprint-2-api-deploy-9.jpeg)
 
-<div align="center">
-  Una vez instalado, se selecciona el repositorio con la mock API, en nuestro caso se encuentra en TechMakers / Frontend<br><br>
-  <img src="assets/images/sprint-2-api-deploy-5.jpeg" width="700"><br>
-</div>
+![Plan de despliegue](assets/images/sprint-2-api-deploy-10.jpeg)
 
-<div align="center">
-  Se configura el nombre del servicio, la rama de la cual se desplegará, el lenguaje del servicio y otras configuraciones como la región <br><br>
-  <img src="assets/images/sprint-2-api-deploy-6.jpeg" width="700"><br>
-</div>
+![Proceso de compilación](assets/images/sprint-2-api-deploy-11.jpeg)
 
-<div align="center">
-  Para esta demostración se configuró el servicio `fixcore-json-api` con los comandos de instalación y ejecución de JSON Server, tomando como origen el archivo `public/mock/db.json` y utilizando el puerto asignado por Render.<br><br>
-  <img src="assets/images/sprint-2-api-deploy-9.jpeg" width="700"><br>
-</div>
+![Resultado del despliegue](assets/images/sprint-2-api-deploy-12.jpeg)
 
-<div align="center">
-  Es posible asignarle más recursos al servidor o solo usar el plan gratis <br><br>
-  <img src="assets/images/sprint-2-api-deploy-7.jpeg" width="700"><br>
-</div>
+**Publicación del frontend en Vercel**
 
-<div align="center">
-  Para nuestro caso se usará el plan gratis <br><br>
-  <img src="assets/images/sprint-2-api-deploy-10.jpeg" width="700"><br>
-</div>
+Se vinculó el repositorio Frontend con Vercel para publicar la aplicación Angular.
 
-<div align="center">
-  Una vez configurado, se presiona el botón Deploy Web Service <br><br>
-  <img src="assets/images/sprint-2-api-deploy-8.jpeg" width="700"><br>
-</div>
+![Integración Vercel y GitHub](assets/images/sprint-2-frontend-deploy-1.jpeg)
 
-<div align="center">
-  Al desplegarse, primero se ejecuta el build command definido previamente <br><br>
-  <img src="assets/images/sprint-2-api-deploy-11.jpeg" width="700"><br>
-</div>
+![Selección del repositorio](assets/images/sprint-2-frontend-deploy-2.jpeg)
 
-<div align="center">
-  Al desplegarse, primero se ejecuta el build command definido previamente <br><br>
-  <img src="assets/images/sprint-2-api-deploy-12.jpeg" width="700"><br>
-</div>
+![Importación del repositorio](assets/images/sprint-2-frontend-deploy-3.jpeg)
 
+![Creación del proyecto](assets/images/sprint-2-frontend-deploy-4.jpeg)
 
-Dirección del Mock API: [https://fixcore-json-api.onrender.com/](https://fixcore-json-api.onrender.com/)
+![Configuración de variables](assets/images/sprint-2-frontend-deploy-5.jpeg)
 
+![Configuración de compilación](assets/images/sprint-2-frontend-deploy-6.jpeg)
 
-**Publicación del Frontend web application**
+![Proceso de despliegue](assets/images/sprint-2-frontend-deploy-7.jpeg)
 
-Para el despliegue de la aplicación web de FixCore se usó Vercel, el cual es una plataforma de despliegue y alojamiento en la nube para sitios y aplicaciones web.
+![Entorno de producción](assets/images/sprint-2-frontend-deploy-8.jpeg)
 
-<div align="center">
-  Se accede al sitio de Vercel con una cuenta y se selecciona la opción de GitHub como Git Provider<br><br>
-  <img src="assets/images/sprint-2-frontend-deploy-1.jpeg" width="700"><br>
-</div>
+![Configuración de rama](assets/images/sprint-2-frontend-deploy-9.jpeg)
 
-<div align="center">
-  Se instala Vercel en el repositorio Frontend de FixCore.<br><br>
-  <img src="assets/images/sprint-2-frontend-deploy-2.jpeg" width="700"><br>
-</div>
+![Selección de rama](assets/images/sprint-2-frontend-deploy-10.jpeg)
 
-<div align="center">
-  Una vez instalado y vinculado, se puede importar el repositorio Frontend<br><br>
-  <img src="assets/images/sprint-2-frontend-deploy-3.jpeg" width="700"><br>
-</div>
+![Resultado del despliegue](assets/images/sprint-2-frontend-deploy-11.jpeg)
 
-<div align="center">
-  Al importarlo se redirige a la pestaña de creación de proyecto<br><br>
-  <img src="assets/images/sprint-2-frontend-deploy-4.jpeg" width="700"><br>
-</div>
+**URL documentada del Sprint 2:**
 
-<div align="center">
-  Se desglosan los menús Build and Output Settings y Environment Variables<br><br>
-  <img src="assets/images/sprint-2-frontend-deploy-5.jpeg" width="700"><br>
-</div>
+https://fixcore-frontend-eight.vercel.app/demo
 
-<div align="center">
-  Se realiza la configuración necesaria en Build and Output Settings, con los comandos de compilacion e instalación, asi como el directorio de salida<br><br>
-  <img src="assets/images/sprint-2-frontend-deploy-6.jpeg" width="700"><br>
-</div>
+#### 5.2.2.8. Team Collaboration Insights during Sprint
 
-<div align="center">
-  Al seleccionar la opción Deploy se despliega el proyecto y se continua presionando el botón Continue to Project<br><br>
-  <img src="assets/images/sprint-2-frontend-deploy-7.jpeg" width="700"><br>
-</div>
+Durante el Sprint 2 se organizaron las actividades por módulos funcionales.
 
-<div align="center">
-  Dentro de la pagina del proyecto se accede a la sección Environments y se selecciona el entorno de producción<br><br>
-  <img src="assets/images/sprint-2-frontend-deploy-8.jpeg" width="700"><br>
-</div>
+La coordinación mediante GitHub, Trello y comunicación virtual permitió integrar una primera versión navegable de la Web Application.
 
-<div align="center">
-  Una vez en el entorno de configuración se configura el Branch tracking<br><br>
-  <img src="assets/images/sprint-2-frontend-deploy-9.jpeg" width="700"><br>
-</div>
+Durante la integración se identificaron oportunidades de mejora relacionadas con la consistencia visual, navegación, tratamiento de datos y comunicación HTTP.
 
-<div align="center">
-  Allí se puede configurar la rama que se va a usar para el despliegue, se usa una rama fix para pruebas<br><br>
-  <img src="assets/images/sprint-2-frontend-deploy-10.jpeg" width="700"><br>
-</div>
+Estas observaciones contribuyeron a definir las prioridades técnicas del Sprint 3: desarrollar servicios propios, incorporar persistencia, implementar autenticación y ampliar las pruebas de integración.
 
-<div align="center">
-  En la sección de Deployments del proyecto se observa el estado de compilación del frontend<br><br>
-  <img src="assets/images/sprint-2-frontend-deploy-11.jpeg" width="700"><br>
-</div>
+![Evidencia de colaboración Sprint 2](assets/images/evidence-sprint2/evidence-sprint2.png)
 
+---
 
-**Web Application desplegada:** [https://fixcore-frontend-eight.vercel.app/demo](https://fixcore-frontend-eight.vercel.app/demo)
+### 5.2.3. Sprint 3
 
+Durante el Sprint 3 se implementó una versión integrada de FixCore mediante servicios REST propios y su conexión con la Web Application Angular.
 
-#### 5.2.2.8. Team Collaboration Insights during Sprint.
+Las actividades documentadas comprenden el período del 18 de octubre al 3 de noviembre de 2026.
 
-Durante el Sprint 2 desarrollamos la primera versión de la Web Application de FixCore, distribuyendo las responsabilidades entre los cinco integrantes de TechMakers según los módulos y funcionalidades del sistema. Cada miembro asumió tareas específicas de implementación y colaboró con el equipo durante las revisiones, pruebas e integración de los cambios.
+El trabajo incluyó la preparación de la arquitectura backend, implementación de servicios de negocio, integración del frontend, autenticación, autorización, persistencia PostgreSQL, pruebas automatizadas y despliegue.
 
-Para coordinar el trabajo utilizamos reuniones virtuales, Trello y GitHub. El tablero del Sprint Backlog permitió organizar las tareas, realizar un seguimiento de su progreso y asignar responsabilidades, mientras que el repositorio facilitó el control de versiones y el registro de los commits realizados por los integrantes.
-El desarrollo se realizó utilizando Angular, TypeScript y Angular Material, organizando la aplicación en módulos relacionados con la gestión de activos, mantenimiento, órdenes de trabajo, inventario y analítica. Asimismo, se implementaron interfaces diferenciadas para los perfiles de Jefe de Planta, Gerente de Operaciones y Técnico de Mantenimiento, con funcionalidades adaptadas a las responsabilidades de cada usuario. Durante la integración fue necesario revisar la navegación, la presentación de los componentes y el funcionamiento de las distintas vistas para mantener una experiencia de usuario coherente.
+Las contribuciones de implementación identificadas en los repositorios corresponden a Alvar Lucas Córdova, Giuseppe Adrián Villanueva Rodríguez y Diego Rances Rojas Huaranga.
 
-El trabajo realizado permitió establecer y desplegar la estructura principal de la Web Application, con módulos de mantenimiento industrial, navegación compartida y vistas adaptadas a distintos perfiles. Las pruebas con JSON Server ayudaron a identificar ajustes de integración y navegación antes de incorporar el backend de elaboración interna.
+Los integrantes Sunio Danilo Landa Sánchez y Pierre Alessandro Mendoza Boluarte permanecen registrados como miembros del equipo. No obstante, no se identificaron contribuciones de implementación suyas durante el período de Sprint 3 revisado.
 
-**Aspectos pendientes para el Sprint 3:** implementar inicio de sesión y control de acceso sobre cuentas reales, construir y desplegar los primeros servicios RESTful con Java y Spring Boot, integrar al menos un flujo de negocio con persistencia y comprobar su funcionamiento de extremo a extremo. Las pantallas que todavía dependan de datos simulados deberán identificarse como tales en las evidencias de AV2.
+#### 5.2.3.1. Sprint Planning 3
 
-Métricas de colaboración:
+El objetivo del Sprint 3 fue integrar Angular con servicios REST que permitieran administrar información de mantenimiento industrial de manera persistente y segura.
 
-![Métricas de colaboración del Sprint 2](assets/images/evidence-sprint2/evidence-sprint2.png)
-
-
-<div style="page-break-after: always;"></div>
-
-
-### 5.2.3. Sprint 3.
-
-El Sprint 3 inicia el **16 de octubre de 2026**. TechMakers propone continuar el desarrollo de **FixCore** sobre los avances de Sprint 2, distribuyendo trabajo en **Frontend Web Application (Angular), Landing Page, Project Report y Backend (Java y Spring Boot)**. Esta planificación reúne mejoras de interfaz, primeras capacidades del backend organizadas por contextos delimitados (*Bounded Contexts*) y la documentación de los resultados verificables. Las estimaciones corresponden a actividades propuestas y no constituyen evidencia de tareas terminadas.
-
-El equipo activo considerado para esta distribución está integrado por **Alvar Lucas Córdova, Giuseppe Adrián Villanueva Rodríguez, Diego Rances Rojas Huaranga y Pierre Alessandro Mendoza Boluarte**. Alvar prepara primero la infraestructura y arquitectura compartida del backend; los otros tres integrantes asumen cinco tareas cada uno para desarrollar módulos funcionales, integrarlos con Angular y realizar pruebas. Los aportes previos de **Sunio Danilo Landa Sánchez** se conservan en los registros históricos de Sprints 1 y 2, sin asignarle nuevas tareas en este plan.
-
-**Límites del alcance.** El desarrollo de backend comprende implementaciones iniciales de *Work Orders*, *Inventory* y *Asset Management*. Estos nombres son **propuestas de módulos/contextos a confirmar** contra el diseño DDD y el Context Map vigentes del proyecto; no se afirma que hayan sido implementados o integrados. La autenticación real queda fuera de estas 19 tareas y el Login existente permanece como demostración hasta que se programe su integración segura. Las entrevistas de validación, los videos y otros entregables de AV2 que no aparecen en este backlog deberán planificarse por separado antes de la entrega aplicable; no se consideran realizados.
-
-#### 5.2.3.1. Sprint Planning 3.
-
-La base de trabajo es la aplicación Angular del Sprint 2, la Landing Page y el Report. Primero Alvar preparará un único backend modular en Java/Spring Boot con convenciones DDD y Clean Architecture, configuración de persistencia y contratos REST. Después los otros integrantes implementarán los módulos de negocio sobre esa base; no se presuponen microservicios ni despliegues existentes.
+Se priorizaron los módulos de autenticación, plantas, máquinas, mantenimiento preventivo, fallas, órdenes de trabajo, inventario e indicadores.
 
 | Campo | Información |
 |---|---|
 | Sprint # | Sprint 3 |
-| **Sprint Planning Background** | |
-| Start Date | 2026-10-16 |
-| Planning Meeting Date and Time | Pendiente de confirmación por el equipo |
-| Location | Pendiente de confirmación |
-| Prepared By | Alvar Lucas Córdova — propuesta de coordinación |
-| Proposed Participants | Alvar Lucas Córdova, Giuseppe Adrián Villanueva Rodríguez, Diego Rances Rojas Huaranga y Pierre Alessandro Mendoza Boluarte |
-| Sprint 2 Review Summary | Se desarrollaron y desplegaron vistas demostrativas de la Web Application para gestión de plantas, máquinas, mantenimiento, fallas, órdenes de trabajo e inventario, con apoyo de JSON Server. |
-| Sprint 2 Retrospective Summary | La integración de los módulos permitió obtener una versión navegable. Para Sprint 3 se agrupan las responsabilidades transversales y se diferencian expresamente las tareas de backend propio de las pruebas con recursos simulados. |
-| **Sprint Goal & User Stories** | |
-| Sprint 3 Goal | **Our focus is on** establishing a shared Java/Spring Boot backend foundation, building functional modules for Work Orders, Inventory and Asset Management, connecting them to the existing Angular application and documenting verified results. **We believe it delivers** a maintainable starting point for real FixCore services. **This will be confirmed when** the backend structure compiles, database access and agreed contracts are tested, each implemented module passes an HTTP test, selected Angular flows are integrated and evidence is traceable. |
-| Product Backlog References | US01 y US03 (plantas y máquinas), US23 (órdenes de trabajo), y las historias de Inventory pendientes de confirmar con el Product Backlog. Las tareas de arquitectura y la integración transversal son técnicas; no se les atribuyen nuevos IDs de User Story. |
-| Planned Scope | Backend modular Java/Spring Boot, integración Angular, pruebas, mantenimiento de Landing Page y Report |
-| Estimated Tasks | 19 tareas propuestas, T037–T055 |
-| Estimated Workload | 73 horas propuestas para cuatro integrantes |
-| Sprint 3 Velocity | Se determinará solo por historias aceptadas; las estimaciones horarias no equivalen a Story Points |
+| Date | 2026-10-18, fecha referencial pendiente de confirmar |
+| Time | 7:00 PM – 8:00 PM, horario referencial |
+| Location | Discord, medio referencial |
+| Prepared By | Alvar Lucas Córdova |
+| Implementation Contributors | Alvar Lucas Córdova, Giuseppe Adrián Villanueva Rodríguez y Diego Rances Rojas Huaranga |
+| Sprint 2 Review Summary | Se desarrollaron las interfaces principales de Angular utilizando una API simulada mediante JSON Server. |
+| Sprint 2 Retrospective Summary | Se identificó la necesidad de incorporar persistencia real, autenticación, autorización y contratos REST estables. |
+| Sprint Goal | Integrar la Web Application con servicios propios que permitan realizar operaciones persistentes y controladas según el rol del usuario. |
+| Sprint Velocity | Pendiente de determinar mediante aceptación de User Stories completas. |
+| Sum of Story Points | Pendiente de conciliar con el Product Backlog. |
+| Work Items | T037–T055 |
+| Estimated Workload | 145 horas referenciales. |
 
-**Orden de ejecución y dependencias.** Fase 1 (Alvar): proyecto Spring Boot ejecutable, estructura por capas y módulos, conexión a base de datos, estrategia de migraciones, errores y contratos REST. Fase 2 (equipo): implementación paralela de Work Orders, Inventory y Asset Management, una vez integrada la base común. Fase 3 (equipo): integración con Angular, pruebas funcionales y evidencias. El Report se actualiza de manera progresiva. Este orden describe dependencias de trabajo, no fechas ni avances confirmados.
+**Sprint Goal**
 
-**Alcance de autenticación.** La interfaz de Login desarrollada en etapas anteriores no se considerará autenticación real; este Sprint no promete un servicio IAM completo ni autorización segura. Las rutas demostrativas no se presentarán como protegidas.
+Our focus is on enabling operations managers, plant managers and maintenance technicians to perform the main FixCore activities through an integrated web application connected to persistent services.
 
-#### 5.2.3.2. Aspect Leaders and Collaborators.
+We believe it delivers reliable maintenance management, controlled access to operational data and improved tracking of plants, machines, work orders and spare parts.
 
-La siguiente tabla propone responsables principales (**L**) y colaboradores (**C**); debe confirmarse en la reunión del equipo y reflejarse en Trello.
+This will be confirmed when authenticated users can interact with the deployed Angular application, its services persist information in PostgreSQL and the principal business operations can be verified through the REST API.
 
-| Team Member | GitHub Username | Backend foundation | Work Orders | Inventory | Asset Management | Angular integration & tests | Report |
-|---|---|:---:|:---:|:---:|:---:|:---:|:---:|
-| Córdova, Alvar Lucas | AlvarLC | L | C | C | C | C | L |
-| Villanueva Rodríguez, Giuseppe Adrián | Giuseppe152004 | C | L |  |  | L (órdenes) | C |
-| Rojas Huaranga, Diego Rances | diego27-16 | C |  | L |  | L (inventario) | C |
-| Mendoza Boluarte, Pierre Alessandro | pierreale2302 | C |  |  | L | L (activos) | C |
+Las estimaciones de horas representan el esfuerzo previsto para las tareas técnicas. No constituyen horas efectivamente registradas ni Story Points aceptados.
 
-Alvar establece la base técnica común y sus decisiones de arquitectura; Giuseppe, Diego y Pierre desarrollan sus módulos sobre el mismo proyecto, conectan los respectivos flujos Angular y prueban los resultados. La participación final se respaldará con commits y pruebas verificables.
+**Cronología de implementación**
 
-#### 5.2.3.3. Sprint Backlog 3.
+| Período | Actividades documentadas |
+|---|---|
+| 18–21 de octubre | Preparación de Spring Boot, PostgreSQL, Flyway, arquitectura y pruebas iniciales. |
+| 22–27 de octubre | Implementación progresiva de servicios REST y módulos de negocio. |
+| 28–30 de octubre | Integración con Angular y configuración de entornos. |
+| 31 de octubre–2 de noviembre | Correcciones de autenticación, formularios y comunicación entre frontend y backend. |
+| 3 de noviembre | Refuerzo de seguridad, integridad de datos, pruebas y consolidación de versiones. |
 
-El Sprint Backlog continúa desde T036. Esta versión **reemplaza la asignación anterior de T037–T055**. Por tratarse de una renumeración y reasignación de actividades, se deben reconciliar las tarjetas de Trello antes de considerarla aprobada. Las estimaciones son propuestas; ninguna nueva tarea de backend se da por terminada.
+La cronología corresponde a los hitos técnicos identificados en el historial de desarrollo y no sustituye las actas de reuniones.
 
-| Story ID / Scope | Task ID | Task Title | Task Description | Estimated Hours | Proposed Owner | Status |
-|---|---|---|---|---:|---|---|
-| Backend foundation | T037 | Initialize Spring Boot Backend | Crear proyecto Java/Spring Boot, configuración inicial, dependencias, estructura multi-módulo o paquetes y aplicación ejecutable; entregar instrucciones para levantarlo. | 5 | Alvar Lucas Córdova | To Do |
-| Backend architecture | T038 | Establish DDD and Clean Architecture Structure | Definir separación Domain, Application, Infrastructure y Interfaces; establecer convenciones, dependencias y límites de Work Orders, Inventory y Asset Management según Context Map. | 7 | Alvar Lucas Córdova | To Do |
-| Backend persistence | T039 | Configure Persistence and REST Conventions | Configurar conexión de desarrollo a base de datos, migraciones o esquema inicial, repositorios base, manejo común de errores y acuerdos de contratos REST; comprobar conectividad. | 7 | Alvar Lucas Córdova | To Do |
-| Report | T040 | Document Foundation and Sprint 3 Evidence | Actualizar Sprint 3, Student Outcome, versiones y evidencias reales; registrar configuración del backend, commits y resultados de integración sin inventar avances. | 9 | Alvar Lucas Córdova | To Do |
-| Backend / Work Orders | T041 | Model Work Orders Domain | Implementar entidades, value objects y reglas mínimas del módulo Work Orders compatibles con los límites DDD acordados. | 3 | Giuseppe Adrián Villanueva Rodríguez | To Do |
-| Backend / Work Orders | T042 | Implement Work Orders Use Cases and Persistence | Crear caso(s) de uso, puertos y adaptadores de persistencia de órdenes de trabajo sobre infraestructura compartida. | 4 | Giuseppe Adrián Villanueva Rodríguez | To Do |
-| Backend / Work Orders | T043 | Expose and Test Work Orders REST API | Crear controladores REST, validaciones y manejo de errores; probar al menos una operación HTTP real. | 4 | Giuseppe Adrián Villanueva Rodríguez | To Do |
-| Angular integration | T044 | Connect Angular Work Orders Flow | Conectar vistas de órdenes de trabajo con endpoints reales del módulo y distinguir cualquier flujo que continúe simulado. | 2 | Giuseppe Adrián Villanueva Rodríguez | To Do |
-| Tests | T045 | Verify Work Orders Flow | Ejecutar prueba funcional e indicar defectos, resultados y evidencia verificable. | 2 | Giuseppe Adrián Villanueva Rodríguez | To Do |
-| Backend / Inventory | T046 | Model Inventory Domain | Implementar entidad o agregado de repuestos e invariantes mínimas en Inventory. | 3 | Diego Rances Rojas Huaranga | To Do |
-| Backend / Inventory | T047 | Implement Inventory Use Cases and Persistence | Crear casos de uso y adaptadores de persistencia para inventario. | 4 | Diego Rances Rojas Huaranga | To Do |
-| Backend / Inventory | T048 | Expose and Test Inventory REST API | Implementar endpoints REST del inventario y verificar solicitudes y respuestas. | 4 | Diego Rances Rojas Huaranga | To Do |
-| Angular integration | T049 | Connect Angular Inventory Flow | Sustituir las llamadas simuladas en el flujo seleccionado de inventario por consumo de servicios reales. | 2 | Diego Rances Rojas Huaranga | To Do |
-| Landing Page | T050 | Review Landing Page and Links | Comprobar enlaces, navegación EN/ES y presentación responsive de Landing Page; corregir defectos comprobados. | 2 | Diego Rances Rojas Huaranga | To Do |
-| Backend / Asset Management | T051 | Model Asset Management Domain | Implementar entidad de máquina o activo y reglas mínimas del dominio. | 3 | Pierre Alessandro Mendoza Boluarte | To Do |
-| Backend / Asset Management | T052 | Implement Asset Use Cases and Persistence | Crear casos de uso y adaptadores de persistencia sobre la estructura compartida. | 4 | Pierre Alessandro Mendoza Boluarte | To Do |
-| Backend / Asset Management | T053 | Expose and Test Asset REST API | Implementar controladores REST, validaciones y pruebas HTTP del módulo de activos. | 4 | Pierre Alessandro Mendoza Boluarte | To Do |
-| Angular integration | T054 | Connect Angular Machines Flow | Conectar el flujo principal de máquinas del frontend Angular con el backend real. | 2 | Pierre Alessandro Mendoza Boluarte | To Do |
-| Tests | T055 | Run Functional Tests and Record Results | Validar flujo de activos y registrar incidencias, pruebas ejecutadas y resultados. | 2 | Pierre Alessandro Mendoza Boluarte | To Do |
+#### 5.2.3.2. Aspect Leaders and Collaborators
 
-**Resumen de asignaciones propuestas**
+La distribución de responsabilidades consideró las principales áreas técnicas del Sprint 3.
+
+En la matriz, **L** representa al líder del aspecto y **C** a un colaborador.
+
+| Team Member | GitHub Username | Backend Foundation | Business Services | Frontend Integration | Security & Testing | Deployment & Report |
+|---|---|:---:|:---:|:---:|:---:|:---:|
+| Alvar Lucas Córdova | AlvarLC | L | C | L | C | L |
+| Giuseppe Adrián Villanueva Rodríguez | Giuseppe152004 | C | L | C | C | C |
+| Diego Rances Rojas Huaranga | diego27-16 | C | C | C | L | C |
+| Sunio Danilo Landa Sánchez | DanLandio | — | — | — | — | — |
+| Pierre Alessandro Mendoza Boluarte | pierreale2302 | — | — | — | — | — |
+
+**Alvar Lucas Córdova**
+
+Participó en la configuración inicial del backend, arquitectura y persistencia. También desarrolló integraciones y correcciones del frontend Angular relacionadas con servicios HTTP, formularios, navegación y pruebas. Asimismo, participó en el despliegue y documentación del proyecto.
+
+**Giuseppe Adrián Villanueva Rodríguez**
+
+Participó en la implementación de servicios backend relacionados con autenticación, plantas, máquinas, mantenimiento, inventario, fallas, órdenes de trabajo, analítica y notificaciones. También realizó correcciones de integración en Angular.
+
+**Diego Rances Rojas Huaranga**
+
+Participó en la integración del frontend con servicios REST, pruebas de órdenes e inventario y correcciones de seguridad e integridad del backend. Sus cambios incluyeron controles de acceso y medidas para proteger operaciones sobre datos.
+
+La distribución de tareas del Sprint Backlog identifica responsables de coordinación. La autoría concreta del código se determina mediante los commits y Pull Requests de cada integrante.
+
+#### 5.2.3.3. Sprint Backlog 3
+
+El Sprint Backlog 3 contiene diecinueve actividades técnicas, numeradas desde T037 hasta T055.
+
+**Tablero Trello:** https://trello.com/b/c8HvDAIU/1-sprint-backlog-3-techmakers
+
+![Sprint Backlog 3](assets/images/sprintfoto-3.png)
+
+| Story ID | Story Title / Scope | Task ID | Task Title | Task Description | Hours | Assigned To | Status |
+|---|---|---|---|---|---:|---|---|
+| — | Inicialización del backend | T037 | Coordinate Spring Boot Initialization | Coordinar la configuración inicial de Spring Boot y sus dependencias. | 6 | Alvar | Done |
+| — | Arquitectura de software | T038 | Define Bounded Contexts and Clean Architecture | Definir los Bounded Contexts, capas y dependencias del sistema. | 6 | Alvar | Done |
+| — | Persistencia e infraestructura | T039 | Coordinate PostgreSQL and Flyway Configuration | Coordinar la conexión con PostgreSQL y las migraciones Flyway. | 8 | Alvar | Done |
+| — | Autenticación e integración | T040 | Integrate Angular Authentication with JWT | Integrar el inicio de sesión de Angular con autenticación JWT. | 6 | Alvar | Done |
+| US01–US35 | Integración de funcionalidades | T041 | Integrate Angular Views with REST Services | Integrar las vistas de Angular con los servicios REST del backend. | 7 | Alvar | Done |
+| — | Verificación de seguridad e integración | T042 | Verify Authentication, Access and Integration | Verificar autenticación, accesos por rol y comunicación de componentes. | 5 | Alvar | Done |
+| — | Landing Page y documentación | T043 | Update Landing Page and Project Report | Actualizar la Landing Page y documentar las evidencias del proyecto. | 8 | Alvar | Done |
+| — | Interfaces de autenticación | T044 | Integrate Authentication and Role Interfaces | Integrar las interfaces de acceso y los perfiles de usuario. | 9 | Giuseppe | Done |
+| US01–US09 | Gestión de plantas y máquinas | T045 | Integrate Plants and Machines Management | Integrar las operaciones de plantas y máquinas. | 8 | Giuseppe | Done |
+| US10–US17 | Mantenimiento preventivo | T046 | Integrate Preventive Maintenance | Integrar programación y consulta de mantenimientos. | 8 | Giuseppe | Done |
+| US19–US30 | Fallas y órdenes de trabajo | T047 | Integrate Failures and Work Orders | Integrar el registro de fallas y las operaciones de órdenes. | 8 | Giuseppe | Done |
+| US31–US35 | Gestión de inventario | T048 | Integrate Inventory Management | Integrar repuestos, existencias y movimientos de inventario. | 8 | Giuseppe | Done |
+| US41–US45 | Analítica y notificaciones | T049 | Integrate Analytics and Notifications | Integrar indicadores, reportes y alertas. | 8 | Giuseppe | Done |
+| — | Integración del frontend | T050 | Verify Frontend Integration and Versions | Revisar compatibilidad entre servicios, versiones y componentes. | 8 | Giuseppe | Done |
+| — | Usuarios y calidad visual | T051 | Verify Users, Roles and Responsive Design | Verificar perfiles, restricciones y comportamiento responsive. | 10 | Giuseppe | Done |
+| — | Dominio y persistencia backend | T052 | Implement Spring Boot Domain and Persistence | Implementar y ajustar el dominio, repositorios y persistencia. | 8 | Diego | Done |
+| — | Servicios y pruebas REST | T053 | Implement and Test REST Endpoints | Implementar, integrar y probar endpoints REST. | 8 | Diego | Done |
+| — | Seguridad y autorización | T054 | Implement Backend Security and Authorization | Reforzar permisos, autenticación y restricciones por usuario y planta. | 8 | Diego | Done |
+| — | Calidad y endurecimiento del backend | T055 | Perform Backend Hardening and Final Tests | Implementar correcciones de integridad y pruebas de regresión. | 8 | Diego | Done |
+
+**Resumen por integrante**
 
 | Integrante | Tareas | Horas estimadas |
 |---|---|---:|
-| Córdova, Alvar Lucas | T037–T040 (4) | 28 |
-| Villanueva Rodríguez, Giuseppe Adrián | T041–T045 (5) | 15 |
-| Rojas Huaranga, Diego Rances | T046–T050 (5) | 15 |
-| Mendoza Boluarte, Pierre Alessandro | T051–T055 (5) | 15 |
-| **Total** | **19 tareas** | **73** |
+| Alvar Lucas Córdova | T037–T043 | 46 |
+| Giuseppe Adrián Villanueva Rodríguez | T044–T051 | 67 |
+| Diego Rances Rojas Huaranga | T052–T055 | 32 |
+| **Total** | **19 tareas** | **145** |
 
-**Criterios de aceptación.** T037–T039 requieren código base ejecutable, estructura documentada y prueba de conexión a BD, sin fingir que los módulos de negocio ya funcionan. Los módulos T041–T043, T046–T048 y T051–T053 necesitan dominio, caso de uso, persistencia y al menos una prueba HTTP reproducible. Las integraciones T044, T049 y T054 requieren un flujo Angular verificable consumiendo la API real. Las pruebas finales y Report requieren resultados y referencias a commits existentes. Las historias no se dan por aceptadas por una tarea parcial.
+**Resumen del tablero**
 
-**Dependencias y riesgos.** Los compañeros deben partir de la base de Alvar y acordar primero contratos, esquema y convenciones, evitando modelos duplicados. Un módulo Spring Boot no constituye necesariamente un Bounded Context validado: sus límites se revisarán contra el diseño DDD. Si no se logra desplegar o conectar alguno, se documentará como pendiente.
+| Columna de Trello | Cantidad |
+|---|---:|
+| To Do | 0 |
+| In Process | 0 |
+| To Review | 0 |
+| Done | 19 |
+| **Total** | **19** |
 
-#### 5.2.3.4. Development Evidence for Sprint Review.
+Las diecinueve actividades se encuentran registradas en `Done` en Trello. Este estado documenta su cierre en el tablero, pero no sustituye las evidencias técnicas necesarias para comprobar cada flujo funcional.
 
-Se registrarán únicamente cambios reales de Backend, Frontend, Landing Page y Report, con repositorio, rama, commit, fecha, tarea y pruebas. En el historial existe el commit local `74d0b91`, que documenta la conciliación de Sprints 1 y 2. **Ese commit es antecedente documental y no se presentará como evidencia de la nueva tarea T039**, que ahora corresponde a persistencia y convenciones REST.
+Las horas corresponden a estimaciones de trabajo y no a registros efectivos de tiempo.
 
-| Repository | Branch | Commit | Description | Evidence status |
-|---|---|---|---|---|
-| Report | `feature/sprint3-report` | `74d0b91` | `docs: reconcile sprint 1 and sprint 2 records` | Evidencia documental previa; publicación remota no confirmada |
+#### 5.2.3.4. Development Evidence for Sprint Review
 
-Se completará esta tabla con evidencias nuevas cuando realmente existan; no se atribuyen commits hipotéticos.
+Durante el Sprint 3 se implementaron funcionalidades y correcciones en los repositorios Backend, Frontend y Landing-Page.
 
-#### 5.2.3.5. Execution Evidence for Sprint Review.
+La siguiente tabla presenta commits representativos de los cambios realizados.
 
-La revisión deberá mostrar: (1) ejecución del backend común y conectividad a base de datos; (2) solicitudes y respuestas HTTP de Work Orders, Inventory y Asset Management; (3) consumo real de los endpoints desde las vistas Angular de órdenes, inventario y máquinas; (4) pruebas y defectos; y (5) estado de la Landing Page. Para cada prueba se registrarán fecha, ambiente, procedimiento y resultado verificable. Los flujos que sigan usando JSON Server se identificarán como demostrativos.
+| Repository | Branch integrada | Commit ID | Commit Message | Author | Committed on |
+|---|---|---|---|---|---|
+| Backend | main | `f6764451` | Initialize Spring Boot backend | AlvarLC | 2026-10-20 |
+| Backend | main | `07f4d101` | Configure PostgreSQL datasource | AlvarLC | 2026-10-20 |
+| Backend | main | `1d4f117f` | Enable Flyway auto-configuration | AlvarLC | 2026-10-20 |
+| Backend | main | `ac134bec` | Enforce clean architecture dependency rules | AlvarLC | 2026-10-21 |
+| Backend | main | `462c8b8d` | Allow plant managers to update their plant | Giuseppe152004 | 2026-11-03 |
+| Backend | main | `5a06831b` | Set version 1.0.1 | Giuseppe152004 | 2026-11-03 |
+| Backend | main | `4f9d7737` | Lock work orders during mutations | diego27-16 | 2026-11-03 |
+| Backend | main | `b8bb1411` | Prevent integer overflow in stock | diego27-16 | 2026-11-03 |
+| Frontend | develop/main | `2ec408e6` | Integrate plant deletion with Spring Boot | AlvarLC | 2026-10-30 |
+| Frontend | develop/main | `4908ae10` | Integrate backend mark-as-read endpoint | AlvarLC | 2026-11-03 |
+| Frontend | develop/main | `bc022973` | Verify pipeline and resolve session injection conflict | AlvarLC | 2026-11-03 |
+| Frontend | develop/main | `3d14560d` | Map numeric user and plant IDs | Giuseppe152004 | 2026-11-03 |
+| Frontend | develop/main | `f6a159c2` | Skip analytics requests for technicians | Giuseppe152004 | 2026-11-03 |
+| Frontend | develop/main | `435662ca` | Use Spring Boot authentication | diego27-16 | 2026-11-02 |
+| Frontend | develop/main | `f712bc2e` | Start only assigned work orders | diego27-16 | 2026-11-02 |
+| Frontend | develop/main | `d27aa7f4` | Map real spare part resources | diego27-16 | 2026-11-02 |
+| Landing-Page | main | `1cb02e44` | Improve responsive breakpoints and mobile layout | Giuseppe152004 | 2026-10-25 |
 
-#### 5.2.3.6. Services Documentation Evidence for Sprint Review.
+Estos commits representan una selección de los cambios implementados, no la totalidad de las contribuciones.
 
-La implementación de backend se planifica en dos etapas. Primero T037–T039 establecen el proyecto Spring Boot, arquitectura DDD/Clean Architecture, persistencia compartida y convenciones REST. Después se implementarán Work Orders (T041–T043), Inventory (T046–T048) y Asset Management (T051–T053). Cada módulo deberá documentar entidades, caso de uso, operación REST, validaciones, prueba HTTP y commit. OpenAPI/Swagger se incluirá cuando esté configurado y comprobado. Los recursos de JSON Server del Sprint 2 no se presentarán como servicios propios.
+**Pull Requests de Backend**
 
-#### 5.2.3.7. Software Deployment Evidence for Sprint Review.
+- https://github.com/TechMakers-upc/Backend/pull/1
+- https://github.com/TechMakers-upc/Backend/pull/3
+- https://github.com/TechMakers-upc/Backend/pull/6
+- https://github.com/TechMakers-upc/Backend/pull/8
+- https://github.com/TechMakers-upc/Backend/pull/10
+- https://github.com/TechMakers-upc/Backend/pull/16
+- https://github.com/TechMakers-upc/Backend/pull/17
 
-Se conservará la referencia a la aplicación Angular publicada en Vercel y a la Landing Page en GitHub Pages, sujetas a nuevas verificaciones. Primero se comprobará el backend en local y después se documentará el despliegue si se realiza, indicando URL comprobada, versión, configuración y prueba HTTP. Las tareas de integración de cada integrante deberán aclarar si se probaron localmente o en un entorno publicado. Ningún despliegue nuevo se da por hecho.
+**Pull Requests de Frontend**
 
-#### 5.2.3.8. Team Collaboration Insights during Sprint.
+- https://github.com/TechMakers-upc/Frontend/pull/8
+- https://github.com/TechMakers-upc/Frontend/pull/9
+- https://github.com/TechMakers-upc/Frontend/pull/10
 
-La coordinación de Sprint 3 seguirá la dependencia técnica de la base compartida (Alvar) hacia los módulos de negocio e integraciones (Giuseppe, Diego y Pierre). El equipo registrará reuniones, PR, decisiones de arquitectura, conflictos de integración, pruebas y correcciones. El trabajo de participantes de sprints anteriores seguirá reconocido en las secciones históricas. Los indicadores de colaboración se obtendrán de evidencias reales, no del número de tareas asignadas.
+Los registros muestran la evolución de FixCore desde una aplicación con interfaces demostrativas hacia una solución integrada con servicios de negocio, persistencia y mecanismos de seguridad.
 
-**Actividades AV2 pendientes de planificación.** Este backlog no asigna todavía responsables ni horas para entrevistas de validación, Video About-the-Product, Video About-the-Team ni para cualquier integración adicional exigida por la rúbrica. Estos entregables deberán incorporarse en una actualización del plan y documentarse con evidencia real antes de la fecha de entrega aplicable. Esta lista de 19 tareas no debe presentarse como cumplimiento integral de AV2.
+#### 5.2.3.5. Execution Evidence for Sprint Review
 
-### 5.3. Validation Interviews.
+Durante el Sprint 3 se integraron interfaces Angular con servicios REST propios de Spring Boot.
 
-Las entrevistas de validación constituyen un requisito de AV2. **Todavía no se han asignado tareas ni fechas para esta actividad dentro de la distribución T037–T050**, limitada a frontend, Landing Page y Report. Antes de la entrega de la semana 12 el equipo deberá planificar las sesiones con representantes de los segmentos objetivo y registrar sus resultados reales.
+La aplicación contempla los perfiles Gerente de Operaciones, Jefe de Planta y Técnico de Mantenimiento.
 
-#### 5.3.1. Diseño de Entrevistas.
+**Autenticación**
 
-Pendiente de planificación: definir participantes, tareas de interacción con los productos, preguntas y criterios de evaluación heurística. No se registrarán sesiones que todavía no se hayan programado ni realizado.
+Se integró el inicio de sesión de Angular con los servicios de autenticación del backend. El mecanismo utiliza JWT para identificar al usuario y permitir operaciones según sus permisos.
 
-#### 5.3.2. Registro de Entrevistas.
+[EVIDENCIA PENDIENTE: captura del inicio de sesión conectado al backend]
 
-Pendiente de ejecución: incluir las entrevistas efectivamente realizadas con sus fechas, enlaces a videos y observaciones. La información de los participantes deberá tratarse conforme a su autorización.
+**Gerente de Operaciones**
 
-#### 5.3.3. Evaluaciones según heurísticas.
+El Gerente de Operaciones dispone de un panel para consultar información de plantas, indicadores y reportes.
 
-Pendiente de ejecución: analizar los resultados de las sesiones de validación utilizando los criterios de usabilidad, arquitectura de información y diseño inclusivo requeridos por el curso.
+Durante las verificaciones se realizaron consultas y operaciones seleccionadas de creación y eliminación de registros temporales.
 
-### 5.4. Video About-the-Product.
+![Dashboard del Gerente de Operaciones](<assets/images/evidence-sprint3/foto-gerente de operaciones.png>)
 
-La primera versión de Video About-the-Product se encuentra pendiente de planificación en esta etapa. Para AV2 deberá presentar el producto, sus flujos demostrables y al menos un testimonio positivo obtenido de una entrevista de validación real, conforme al enunciado. El enlace y las capturas se incluirán después de producir y publicar el material correspondiente.
+[EVIDENCIA PENDIENTE: captura de la gestión de plantas integrada con el backend]
 
-**Video About-the-Team.** También se encuentra pendiente de planificación y publicación para AV2. Su contenido deberá presentar los aportes efectivamente realizados, sin omitir las contribuciones históricas de los integrantes que participaron en sprints anteriores.
+**Jefe de Planta**
+
+El Jefe de Planta puede consultar la información correspondiente a sus plantas, máquinas, mantenimientos, fallas e inventario, según los permisos establecidos.
+
+Durante las pruebas se realizó la creación y eliminación de una máquina temporal mediante servicios REST.
+
+![Dashboard del Jefe de Planta](<assets/images/evidence-sprint3/foto-jefe de planta.png>)
+
+[EVIDENCIA PENDIENTE: captura del módulo de máquinas integrado con el backend]
+
+**Técnico de Mantenimiento**
+
+El Técnico dispone de interfaces para consultar sus órdenes asignadas, revisar repuestos y reportar fallas.
+
+En las verificaciones se comprobó la visualización de una orden asignada al usuario correspondiente.
+
+![Dashboard del Técnico de Mantenimiento](assets/images/evidence-sprint3/foto-tecnico.png)
+
+[EVIDENCIA PENDIENTE: captura del detalle de órdenes asignadas al técnico]
+
+**Órdenes de trabajo**
+
+Se implementaron servicios para registrar órdenes, asignar técnicos, consultar información y administrar operaciones relacionadas con su ejecución.
+
+Las verificaciones realizadas confirmaron la creación de una orden de prueba y su aparición en la vista del técnico asignado.
+
+El flujo completo de inicio, ejecución, consumo de repuestos y cierre requiere una evidencia integral adicional.
+
+[EVIDENCIA PENDIENTE: captura del módulo de órdenes de trabajo integrado]
+
+[EVIDENCIA PENDIENTE: secuencia completa de creación, asignación, ejecución y cierre]
+
+**Inventario**
+
+Se implementaron operaciones para consultar repuestos, administrar existencias y registrar movimientos.
+
+El backend incorpora validaciones destinadas a proteger la integridad de los datos de inventario.
+
+[EVIDENCIA PENDIENTE: captura del módulo de inventario integrado con PostgreSQL]
+
+**Analítica y reportes**
+
+Se incorporaron consultas de indicadores y vistas para presentar información de mantenimiento.
+
+Se verificó la disponibilidad de las interfaces y la opción de exportación CSV. La validación integral del contenido de los archivos PDF permanece pendiente.
+
+[EVIDENCIA PENDIENTE: captura del módulo de reportes e indicadores]
+
+**Resultados de verificación**
+
+| Funcionalidad | Resultado documentado |
+|---|---|
+| Autenticación de los tres perfiles | Verificada en pruebas realizadas. |
+| Acceso a vistas según perfil | Verificado en operaciones seleccionadas. |
+| Consulta de plantas y máquinas | Verificada. |
+| Creación y eliminación de registros de prueba | Verificada en operaciones seleccionadas. |
+| Creación y asignación de órdenes | Verificada. |
+| Visualización de órdenes asignadas | Verificada. |
+| Ejecución y cierre completo de órdenes | Pendiente de evidencia integral. |
+| Consumo de repuestos durante una orden | Pendiente de evidencia integral. |
+| Exportación CSV | Verificada. |
+| Validación del contenido PDF | Pendiente. |
+| Pruebas automatizadas del backend | Ejecutadas durante la integración. |
+| Integración continua del frontend | Se registraron ejecuciones satisfactorias en GitHub Actions. |
+
+Los resultados describen las comprobaciones realizadas y no constituyen una certificación de todos los flujos funcionales.
+
+**Video de ejecución del Sprint 3**
+
+[EVIDENCIA PENDIENTE: URL del video de demostración del Sprint 3]
+
+#### 5.2.3.6. Services Documentation Evidence for Sprint Review
+
+Durante el Sprint 3 se desarrolló una API REST propia utilizando Java, Spring Boot, Spring Security, Spring Data JPA y PostgreSQL.
+
+Los servicios se organizaron según los contextos de negocio de FixCore.
+
+**Repositorio:** https://github.com/TechMakers-upc/Backend
+
+**Base URL:** https://backend-zv29.onrender.com/api/v1
+
+**Swagger UI local:** http://localhost:8080/swagger-ui.html
+
+La exposición de Swagger en producción depende de la configuración del entorno. Para evitar divulgar información técnica innecesaria, su acceso público puede permanecer deshabilitado.
+
+**Endpoints principales documentados**
+
+| Módulo | Método | Endpoint | Descripción |
+|---|---|---|---|
+| Authentication | POST | `/authentication/sign-in` | Autenticar usuario. |
+| Authentication | POST | `/authentication/sign-up` | Registrar usuario. |
+| Users | GET | `/users/me` | Consultar al usuario autenticado. |
+| Plants | GET | `/plants` | Consultar plantas. |
+| Plants | POST | `/plants` | Registrar planta. |
+| Plants | PUT | `/plants/{id}` | Actualizar planta. |
+| Plants | DELETE | `/plants/{id}` | Eliminar planta. |
+| Assets | GET | `/assets` | Consultar máquinas. |
+| Assets | POST | `/assets` | Registrar máquina. |
+| Assets | PUT | `/assets/{id}` | Actualizar máquina. |
+| Assets | DELETE | `/assets/{id}` | Eliminar máquina. |
+| Maintenance | GET | `/maintenance-plans` | Consultar planes de mantenimiento. |
+| Maintenance | POST | `/maintenance-plans` | Registrar plan. |
+| Inventory | GET | `/spare-parts` | Consultar repuestos. |
+| Inventory | POST | `/spare-parts` | Registrar repuesto. |
+| Inventory | GET | `/stock-movements` | Consultar movimientos de existencias. |
+| Failures | GET | `/failures` | Consultar fallas. |
+| Failures | POST | `/failures` | Reportar falla. |
+| Work Orders | GET | `/work-orders` | Consultar órdenes de trabajo. |
+| Work Orders | POST | `/work-orders` | Registrar orden. |
+| Work Orders | PATCH | `/work-orders/{id}/assignment` | Asignar técnico. |
+| Work Orders | DELETE | `/work-orders/{id}` | Eliminar una orden cuando las reglas lo permiten. |
+| Analytics | GET | `/analytics/summary` | Consultar indicadores. |
+| Notifications | GET | `/alerts` | Consultar alertas. |
+
+La relación presentada corresponde a los endpoints documentados para el proyecto. Antes de la entrega debe contrastarse con el contrato OpenAPI de la versión efectivamente desplegada.
+
+La mayoría de las operaciones requiere autenticación mediante JWT.
+
+**Ejemplo 1. Inicio de sesión**
+
+Método:
+
+`POST /api/v1/authentication/sign-in`
+
+Request Body:
+
+```json
+{
+  "email": "usuario@fixcore.demo",
+  "password": "CONTRASENA_DE_PRUEBA"
+}
+```
+
+Una solicitud satisfactoria devuelve un código HTTP `200 OK` y los datos necesarios para mantener una sesión autenticada.
+
+Ejemplo ilustrativo de respuesta abreviada:
+
+```json
+{
+  "account": {
+    "id": 1,
+    "email": "usuario@fixcore.demo"
+  },
+  "token": "TOKEN_JWT_DE_EJEMPLO"
+}
+```
+
+**Ejemplo 2. Registro de planta**
+
+Método:
+
+`POST /api/v1/plants`
+
+Request Body:
+
+```json
+{
+  "name": "Planta de Prueba",
+  "city": "Lima",
+  "address": "Dirección de prueba"
+}
+```
+
+Una operación satisfactoria de creación puede devolver `201 Created` y la información del registro generado.
+
+**Ejemplo 3. Consulta de máquina**
+
+Método:
+
+`GET /api/v1/assets/{id}`
+
+Parámetro:
+
+- `id`: identificador de la máquina.
+
+Respuestas posibles:
+
+- `200 OK`: recurso encontrado.
+- `403 Forbidden`: acceso no autorizado.
+- `404 Not Found`: recurso inexistente.
+
+**Ejemplo 4. Eliminación de una orden de trabajo**
+
+Método:
+
+`DELETE /api/v1/work-orders/{id}`
+
+Parámetro:
+
+- `id`: identificador de la orden.
+
+La operación depende de las restricciones implementadas por el backend. Cuando se completa correctamente y no devuelve contenido, puede utilizarse `204 No Content`.
+
+**Manejo de errores**
+
+| Código HTTP | Significado |
+|---|---|
+| 400 | Solicitud inválida. |
+| 401 | Autenticación ausente o inválida. |
+| 403 | Operación no autorizada. |
+| 404 | Recurso no encontrado. |
+| 409 | Conflicto con una regla de negocio. |
+
+**Documentación interactiva**
+
+[EVIDENCIA PENDIENTE: captura de Swagger UI]
+
+[EVIDENCIA PENDIENTE: captura de la ejecución de un endpoint desde Swagger]
+
+Las capturas deben mostrar solicitudes y respuestas con datos de prueba, sin divulgar contraseñas, JWT ni otros secretos.
+
+#### 5.2.3.7. Software Deployment Evidence for Sprint Review
+
+Durante el Sprint 3 se configuró el despliegue de FixCore utilizando GitHub Pages, Vercel y Render.
+
+**1. Configuración de PostgreSQL**
+
+Se creó una instancia PostgreSQL en Render para proporcionar almacenamiento persistente a los servicios del backend.
+
+![Configuración inicial de PostgreSQL](assets/images/evidence-sprint3/deploy1.jpeg)
+
+*Figura 1. Configuración inicial de PostgreSQL en Render.*
+
+Posteriormente se configuraron los recursos disponibles para la instancia.
+
+![Configuración de recursos PostgreSQL](assets/images/evidence-sprint3/deploy2.jpeg)
+
+*Figura 2. Configuración de recursos de la instancia PostgreSQL.*
+
+**2. Configuración del backend**
+
+Se creó un Web Service vinculado con el repositorio Backend de TechMakers.
+
+El servicio se configuró utilizando Docker y la rama `main` como origen del código.
+
+![Configuración del backend](assets/images/evidence-sprint3/deploy3.jpeg)
+
+*Figura 3. Configuración del servicio backend en Render.*
+
+**3. Variables de entorno**
+
+Se configuraron las variables utilizadas por Spring Boot para establecer la conexión con PostgreSQL, seleccionar el perfil de producción y administrar la autenticación.
+
+Entre ellas se encuentran `DB_URL`, `DB_USERNAME`, `DB_PASSWORD`, `JWT_SECRET`, `SPRING_PROFILES_ACTIVE` y `CORS_ALLOWED_ORIGINS`.
+
+[EVIDENCIA PENDIENTE: captura de variables de entorno con todos los valores confidenciales ocultos]
+
+*Figura 4. Variables de entorno del backend con los secretos protegidos.*
+
+La captura original `deploy4.jpeg` no debe incorporarse sin censurar, porque puede revelar valores sensibles. Los secretos expuestos en una captura compartida deben reemplazarse.
+
+**4. Inicialización de la base de datos**
+
+Se utilizó Flyway para ejecutar y validar las migraciones del esquema PostgreSQL.
+
+El registro técnico documenta la validación de once migraciones. La captura de los logs correspondiente a esta ejecución todavía debe incorporarse para sustentar visualmente el resultado.
+
+[EVIDENCIA PENDIENTE: captura de logs de Flyway y conexión con PostgreSQL]
+
+*Figura 5. Evidencia de migraciones y conexión con la base de datos.*
+
+**5. Publicación del backend**
+
+El backend fue configurado y publicado como Web Service de Render.
+
+**Repositorio:** https://github.com/TechMakers-upc/Backend
+
+**URL:** https://backend-zv29.onrender.com
+
+**Health Check:** https://backend-zv29.onrender.com/actuator/health
+
+![Backend publicado en Render](assets/images/evidence-sprint3/backend-live.png)
+
+*Figura 6. Backend de FixCore publicado en Render.*
+
+**6. Publicación del frontend**
+
+La Web Application Angular fue publicada mediante Vercel y configurada para comunicarse con la API de Spring Boot.
+
+**Repositorio:** https://github.com/TechMakers-upc/Frontend
+
+**URL:** https://fixcore-frontend-eight.vercel.app/
+
+![Frontend publicado en Vercel](assets/images/evidence-sprint3/fronted-live.png)
+
+*Figura 7. Frontend de FixCore publicado en Vercel.*
+
+**7. Publicación de la Landing Page**
+
+La Landing Page se mantuvo publicada en GitHub Pages e incorporó mejoras relacionadas con diseño responsive y presentación.
+
+**Repositorio:** https://github.com/TechMakers-upc/Landing-Page
+
+**URL:** https://techmakers-upc.github.io/Landing-Page/
+
+![Landing Page de FixCore](assets/images/evidence-sprint3/foto-landingpage.png)
+
+*Figura 8. Landing Page publicada.*
+
+**Resumen de despliegues**
+
+| Componente | Plataforma | Estado documentado |
+|---|---|---|
+| Landing Page | GitHub Pages | Publicado |
+| Web Application Angular | Vercel | Publicado |
+| Backend Spring Boot | Render | Publicado |
+| PostgreSQL | Render | Configurado e integrado |
+
+La arquitectura de despliegue separa las responsabilidades del frontend, backend y base de datos, permitiendo que los usuarios accedan a FixCore desde un navegador.
+
+#### 5.2.3.8. Team Collaboration Insights during Sprint
+
+Durante el Sprint 3, las contribuciones de implementación identificadas se concentraron en Alvar Lucas Córdova, Giuseppe Adrián Villanueva Rodríguez y Diego Rances Rojas Huaranga.
+
+La integración de los cambios se realizó mediante Git y GitHub, utilizando commits descriptivos, ramas y Pull Requests.
+
+**Alvar Lucas Córdova**
+
+Participó en la configuración inicial del backend, arquitectura modular, persistencia, pruebas de estructura, integración Angular, correcciones de formularios, comunicación HTTP y despliegue.
+
+**Giuseppe Adrián Villanueva Rodríguez**
+
+Participó principalmente en la implementación de servicios backend relacionados con autenticación, activos, mantenimiento, inventario, fallas, órdenes, indicadores y notificaciones. También realizó correcciones en el frontend.
+
+**Diego Rances Rojas Huaranga**
+
+Participó en la integración del frontend con los servicios reales y en pruebas de órdenes e inventario. Además, realizó correcciones de seguridad, autorización, concurrencia e integridad de datos del backend.
+
+**Resultados de la colaboración**
+
+Durante la integración se identificaron diferencias entre los modelos de datos, identificadores, permisos y comportamiento de determinadas operaciones.
+
+Estas observaciones dieron lugar a ajustes en los contratos REST, validaciones y pruebas de regresión.
+
+Las principales lecciones obtenidas fueron:
+
+- Coordinar los contratos REST antes de integrar las funcionalidades.
+- Comprobar los permisos tanto en el frontend como en el backend.
+- Utilizar pruebas automatizadas para identificar regresiones.
+- Proteger las operaciones concurrentes sobre inventario y órdenes de trabajo.
+- Mantener la documentación alineada con el desarrollo efectivo.
+
+**Evidencias de colaboración**
+
+![Contribuciones del backend](assets/images/evidence-sprint3/contribuciones-backend.png)
+
+*Figura 9. Evidencia de contribuciones en el repositorio Backend.*
+
+![Contribuciones del frontend](assets/images/evidence-sprint3/contribuciones-fronted.png)
+
+*Figura 10. Evidencia de contribuciones en el repositorio Frontend.*
+
+![Contribuciones de la Landing Page](assets/images/evidence-sprint3/contribuciones-landingpage.png)
+
+*Figura 11. Evidencia de contribuciones en el repositorio Landing-Page.*
+
+Durante el período revisado no se identificaron contribuciones de implementación de Sunio Danilo Landa Sánchez ni Pierre Alessandro Mendoza Boluarte. Sus participaciones anteriores permanecen registradas en los sprints correspondientes.
+
+El principal resultado técnico del Sprint 3 fue integrar la Web Application con servicios REST propios, persistencia, autenticación y mecanismos de control de acceso.
+
+Se mantiene pendiente incorporar evidencia completa de algunos flujos de extremo a extremo.
+
+---
+
+### 5.3. Validation Interviews
+
+Las entrevistas de validación tienen como objetivo determinar si los usuarios de los segmentos objetivo comprenden FixCore y pueden utilizar sus funcionalidades para realizar actividades relacionadas con la gestión del mantenimiento industrial.
+
+Estas sesiones deben permitir identificar dificultades de interacción, problemas de comprensión y oportunidades de mejora.
+
+#### 5.3.1. Diseño de Entrevistas
+
+La validación contempla la interacción de los participantes con la Landing Page y con los módulos de la Web Application correspondientes a sus necesidades.
+
+**Escenarios de validación**
+
+| Perfil | Actividades propuestas |
+|---|---|
+| Gerente de Operaciones | Consultar indicadores generales, revisar plantas y explorar reportes. |
+| Jefe de Planta | Consultar máquinas, registrar fallas y administrar órdenes de trabajo. |
+| Técnico de Mantenimiento | Consultar órdenes asignadas y revisar información de repuestos. |
+
+**Preguntas de evaluación**
+
+1. ¿Fue sencillo identificar las principales funcionalidades?
+2. ¿Pudo encontrar la información que necesitaba?
+3. ¿Los formularios fueron comprensibles?
+4. ¿Tuvo dificultades para realizar alguna actividad?
+5. ¿Los mensajes del sistema fueron claros?
+6. ¿Qué aspectos considera que deberían mejorar?
+7. ¿Utilizaría una herramienta como FixCore en sus actividades?
+
+La información recopilada permitirá identificar aspectos positivos y problemas de usabilidad.
+
+#### 5.3.2. Registro de Entrevistas
+
+Para completar la validación se deben registrar entrevistas de usuarios pertenecientes a los segmentos objetivo.
+
+Cada entrevista deberá incluir identificación del participante, fecha, duración, enlace de grabación y principales observaciones.
+
+**Registro de entrevistas**
+
+| ID | Segmento | Participante | Fecha | Video | Estado |
+|---|---|---|---|---|---|
+| E01 | Segmento objetivo 1 | Por registrar | Por confirmar | Pendiente | Pendiente |
+| E02 | Segmento objetivo 1 | Por registrar | Por confirmar | Pendiente | Pendiente |
+| E03 | Segmento objetivo 1 | Por registrar | Por confirmar | Pendiente | Pendiente |
+| E04 | Segmento objetivo 1 | Por registrar | Por confirmar | Pendiente | Pendiente |
+| E05 | Segmento objetivo 1 | Por registrar | Por confirmar | Pendiente | Pendiente |
+| E06 | Segmento objetivo 2 | Por registrar | Por confirmar | Pendiente | Pendiente |
+| E07 | Segmento objetivo 2 | Por registrar | Por confirmar | Pendiente | Pendiente |
+| E08 | Segmento objetivo 2 | Por registrar | Por confirmar | Pendiente | Pendiente |
+| E09 | Segmento objetivo 2 | Por registrar | Por confirmar | Pendiente | Pendiente |
+| E10 | Segmento objetivo 2 | Por registrar | Por confirmar | Pendiente | Pendiente |
+
+La cantidad final de entrevistas debe ajustarse a los segmentos objetivo establecidos en el capítulo de investigación y a las indicaciones de la rúbrica.
+
+No se presentan entrevistas como realizadas mientras no se disponga de sus evidencias verificables.
+
+#### 5.3.3. Evaluaciones según heurísticas
+
+Las observaciones obtenidas en las entrevistas deberán analizarse utilizando criterios de usabilidad, arquitectura de información y diseño inclusivo.
+
+Se consideran los siguientes aspectos:
+
+- Visibilidad del estado del sistema.
+- Consistencia de las interfaces.
+- Prevención de errores.
+- Claridad de los mensajes.
+- Facilidad para encontrar funcionalidades.
+- Accesibilidad y comprensión de la información.
+- Correspondencia entre las tareas del usuario y las funcionalidades ofrecidas.
+
+Los problemas identificados deberán clasificarse según su severidad y acompañarse de propuestas de mejora.
+
+**Registro de evaluación**
+
+| ID | Heurística o criterio | Problema identificado | Severidad | Propuesta de mejora | Estado |
+|---|---|---|---|---|---|
+| H01 | Por evaluar | Pendiente de entrevista | Por determinar | Por definir | Pendiente |
+| H02 | Por evaluar | Pendiente de entrevista | Por determinar | Por definir | Pendiente |
+| H03 | Por evaluar | Pendiente de entrevista | Por determinar | Por definir | Pendiente |
+
+[EVIDENCIA PENDIENTE: resultados de las evaluaciones heurísticas]
+
+La evaluación deberá completarse a partir de observaciones reales de los participantes, evitando registrar resultados no verificados.
+
+---
+
+### 5.4. Video About-the-Product
+
+El Video About-the-Product tiene como objetivo presentar FixCore, explicar el problema de mantenimiento industrial que aborda y demostrar sus principales funcionalidades.
+
+La estructura propuesta comprende:
+
+1. Presentación de FixCore y TechMakers.
+2. Descripción del problema de mantenimiento industrial.
+3. Explicación de la propuesta de valor.
+4. Demostración de la Landing Page.
+5. Demostración de la Web Application.
+6. Presentación de las funcionalidades según el perfil del usuario.
+7. Ejemplo de un proceso de mantenimiento industrial.
+8. Testimonio positivo auténtico de un participante de las entrevistas de validación.
+9. Cierre y presentación de los beneficios del producto.
+
+**Evidencia del video**
+
+| Campo | Información |
+|---|---|
+| Producto | FixCore |
+| Startup | TechMakers |
+| Microsoft Stream | Pendiente de incorporar |
+| YouTube | Pendiente de incorporar |
+| Duración | Pendiente de registrar |
+| Estado | Pendiente de evidencia de publicación |
+
+[EVIDENCIA PENDIENTE: captura del Video About-the-Product]
+
+La versión final del video deberá incluir una demostración real del producto y al menos un testimonio auténtico obtenido durante las entrevistas de validación.
+
+El material deberá mantener coherencia con las funcionalidades implementadas y con los resultados documentados en los tres sprints.
