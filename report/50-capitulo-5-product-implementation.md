@@ -920,7 +920,9 @@ La aplicación contempla los perfiles Gerente de Operaciones, Jefe de Planta y T
 
 Se integró el inicio de sesión de Angular con los servicios de autenticación del backend. El mecanismo utiliza JWT para identificar al usuario y permitir operaciones según sus permisos.
 
-[EVIDENCIA PENDIENTE: captura del inicio de sesión conectado al backend]
+![login](<assets/images/01a-login.png>)
+![sesion autenticada](<assets/images/01b-sesion-autenticada.png>)
+![comprobacion api](<assets/images/01c-comprobacion-api.png>)
 
 **Gerente de Operaciones**
 
@@ -930,7 +932,7 @@ Durante las verificaciones se realizaron consultas y operaciones seleccionadas d
 
 ![Dashboard del Gerente de Operaciones](<assets/images/evidence-sprint3/foto-gerente de operaciones.png>)
 
-[EVIDENCIA PENDIENTE: captura de la gestión de plantas integrada con el backend]
+![Gestion de plantas](<assets/images/02-plantas.png>)
 
 **Jefe de Planta**
 
@@ -940,7 +942,7 @@ Durante las pruebas se realizó la creación y eliminación de una máquina temp
 
 ![Dashboard del Jefe de Planta](<assets/images/evidence-sprint3/foto-jefe de planta.png>)
 
-[EVIDENCIA PENDIENTE: captura del módulo de máquinas integrado con el backend]
+![Modulo de maquinas](<assets/images/03-maquinas.png>)
 
 **Técnico de Mantenimiento**
 
@@ -950,7 +952,9 @@ En las verificaciones se comprobó la visualización de una orden asignada al us
 
 ![Dashboard del Técnico de Mantenimiento](assets/images/evidence-sprint3/foto-tecnico.png)
 
-[EVIDENCIA PENDIENTE: captura del detalle de órdenes asignadas al técnico]
+![Ordenes de tecnico](<assets/images/04a-ordenes-del-tecnico.png>)
+
+![Detalle asignado](<assets/images/04b-detalle-asignado.png>)
 
 **Órdenes de trabajo**
 
@@ -960,9 +964,23 @@ Las verificaciones realizadas confirmaron la creación de una orden de prueba y 
 
 El flujo completo de inicio, ejecución, consumo de repuestos y cierre requiere una evidencia integral adicional.
 
-[EVIDENCIA PENDIENTE: captura del módulo de órdenes de trabajo integrado]
+![Modulo de ordenes de trabajo](<assets/images/05-modulo-ordenes.png>)
 
-[EVIDENCIA PENDIENTE: secuencia completa de creación, asignación, ejecución y cierre]
+![Formulario creado](<assets/images/06a-formulario-creacion.png>)
+
+![Orden creada](<assets/images/06b-orden-creada.png>)
+
+![Asignar tecnico](<assets/images/06c-asignar-tecnico.png>)
+
+![Orden asignada](<assets/images/06d-orden-asignada.png>)
+
+![Orden en ejecucion](<assets/images/06e-orden-en-ejecucion.png>)
+
+![Avance registrado](<assets/images/06f-avance-registrado.png>)
+
+![Formulario cierre](<assets/images/06g-formulario-cierre.png>)
+
+![Orden cerrada](<assets/images/06h-orden-cerrada.png>)
 
 **Inventario**
 
