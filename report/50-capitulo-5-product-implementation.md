@@ -1228,8 +1228,10 @@ El backend fue configurado y publicado como Web Service de Render.
 **Health Check:** https://backend-zv29.onrender.com/actuator/health
 
 ![Backend publicado en Render](assets/images/evidence-sprint3/backend-live.png)
-
 *Figura 6. Backend de FixCore publicado en Render.*
+
+![Render](assets/images/render.png)
+*Figura 7. Backend de FixCore publicado en Render.*
 
 **6. Publicación del frontend**
 
@@ -1241,7 +1243,7 @@ La Web Application Angular fue publicada mediante Vercel y configurada para comu
 
 ![Frontend publicado en Vercel](assets/images/evidence-sprint3/fronted-live.png)
 
-*Figura 7. Frontend de FixCore publicado en Vercel.*
+*Figura 8. Frontend de FixCore publicado en Vercel.*
 
 **7. Publicación de la Landing Page**
 
@@ -1253,7 +1255,7 @@ La Landing Page se mantuvo publicada en GitHub Pages e incorporó mejoras relaci
 
 ![Landing Page de FixCore](assets/images/evidence-sprint3/foto-landingpage.png)
 
-*Figura 8. Landing Page publicada.*
+*Figura 9. Landing Page publicada.*
 
 **Resumen de despliegues**
 
