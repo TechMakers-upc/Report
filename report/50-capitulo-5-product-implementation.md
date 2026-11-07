@@ -1000,7 +1000,9 @@ Se incorporaron consultas de indicadores y vistas para presentar información de
 
 Se verificó la disponibilidad de las interfaces y la opción de exportación CSV. La validación integral del contenido de los archivos PDF permanece pendiente.
 
-[EVIDENCIA PENDIENTE: captura del módulo de reportes e indicadores]
+![dashboard indicadores](<assets/images/08a-dashboard-indicadores.png>)
+
+![Reportes](<assets/images/08b-reportes.png>)
 
 **Resultados de verificación**
 
@@ -1159,9 +1161,9 @@ La operación depende de las restricciones implementadas por el backend. Cuando 
 
 **Documentación interactiva**
 
-[EVIDENCIA PENDIENTE: captura de Swagger UI]
+![Swagger](<assets/images/09-swagger-ui.png>)
 
-[EVIDENCIA PENDIENTE: captura de la ejecución de un endpoint desde Swagger]
+![Swagger endpoint](<assets/images/10-endpoint-swagger-200.png>)
 
 Las capturas deben mostrar solicitudes y respuestas con datos de prueba, sin divulgar contraseñas, JWT ni otros secretos.
 
@@ -1199,7 +1201,7 @@ Se configuraron las variables utilizadas por Spring Boot para establecer la cone
 
 Entre ellas se encuentran `DB_URL`, `DB_USERNAME`, `DB_PASSWORD`, `JWT_SECRET`, `SPRING_PROFILES_ACTIVE` y `CORS_ALLOWED_ORIGINS`.
 
-[EVIDENCIA PENDIENTE: captura de variables de entorno con todos los valores confidenciales ocultos]
+![variables redactadas](<assets/images/11-variables-redactadas.png>)
 
 *Figura 4. Variables de entorno del backend con los secretos protegidos.*
 
@@ -1211,7 +1213,7 @@ Se utilizó Flyway para ejecutar y validar las migraciones del esquema PostgreSQ
 
 El registro técnico documenta la validación de once migraciones. La captura de los logs correspondiente a esta ejecución todavía debe incorporarse para sustentar visualmente el resultado.
 
-[EVIDENCIA PENDIENTE: captura de logs de Flyway y conexión con PostgreSQL]
+![flyway postgresql](<assets/images/12-flyway-postgresql.png>)
 
 *Figura 5. Evidencia de migraciones y conexión con la base de datos.*
 
