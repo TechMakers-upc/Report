@@ -748,9 +748,9 @@ Se priorizaron los módulos de autenticación, plantas, máquinas, mantenimiento
 | Campo | Información |
 |---|---|
 | Sprint # | Sprint 3 |
-| Date | 2026-10-18, fecha referencial pendiente de confirmar |
-| Time | 7:00 PM – 8:00 PM, horario referencial |
-| Location | Discord, medio referencial |
+| Date | 2026-10-6 |
+| Time | 7:00 PM – 8:00 PM|
+| Location | Discord|
 | Prepared By | Alvar Lucas Córdova |
 | Implementation Contributors | Alvar Lucas Córdova, Giuseppe Adrián Villanueva Rodríguez y Diego Rances Rojas Huaranga |
 | Sprint 2 Review Summary | Se desarrollaron las interfaces principales de Angular utilizando una API simulada mediante JSON Server. |
@@ -759,7 +759,7 @@ Se priorizaron los módulos de autenticación, plantas, máquinas, mantenimiento
 | Sprint Velocity | Pendiente de determinar mediante aceptación de User Stories completas. |
 | Sum of Story Points | Pendiente de conciliar con el Product Backlog. |
 | Work Items | T037–T055 |
-| Estimated Workload | 145 horas referenciales. |
+| Estimated Workload | 30 min |
 
 **Sprint Goal**
 
