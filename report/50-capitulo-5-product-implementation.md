@@ -921,7 +921,9 @@ La aplicación contempla los perfiles Gerente de Operaciones, Jefe de Planta y T
 Se integró el inicio de sesión de Angular con los servicios de autenticación del backend. El mecanismo utiliza JWT para identificar al usuario y permitir operaciones según sus permisos.
 
 ![login](<assets/images/01a-login.png>)
+
 ![sesion autenticada](<assets/images/01b-sesion-autenticada.png>)
+
 ![comprobacion api](<assets/images/01c-comprobacion-api.png>)
 
 **Gerente de Operaciones**
@@ -988,7 +990,9 @@ Se implementaron operaciones para consultar repuestos, administrar existencias y
 
 El backend incorpora validaciones destinadas a proteger la integridad de los datos de inventario.
 
-[EVIDENCIA PENDIENTE: captura del módulo de inventario integrado con PostgreSQL]
+![Inventario](<assets/images/07a-inventario.png>)
+
+![Postgresql](<assets/images/07b-postgresql.png>)
 
 **Analítica y reportes**
 
