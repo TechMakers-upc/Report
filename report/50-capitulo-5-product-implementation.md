@@ -1230,7 +1230,7 @@ El backend fue configurado y publicado como Web Service de Render.
 ![Backend publicado en Render](assets/images/evidence-sprint3/backend-live.png)
 *Figura 6. Backend de FixCore publicado en Render.*
 
-![Render](assets/images/render.png)
+![Render](assets/images/render.jpeg)
 *Figura 7. Backend de FixCore publicado en Render.*
 
 **6. Publicación del frontend**
