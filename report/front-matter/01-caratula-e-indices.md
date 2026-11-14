@@ -231,6 +231,37 @@ Proyecto
       <td style="border: 1px solid black;">Pierre Alessandro Mendoza Boluarte</td>
       <td style="border: 1px solid black;">Refinamiento de redacción en el Sprint 2 Backlog y actualización del registro de versiones del informe.</td>
     </tr>
+    <!-- TECHMAKERS-AV2-REGISTRY: versiones 29-33 -->
+    <tr>
+      <td style="border: 1px solid black; text-align: center;">29</td>
+      <td style="border: 1px solid black; text-align: center;">16/10/2026</td>
+      <td style="border: 1px solid black;">Alvar Lucas Córdova</td>
+      <td style="border: 1px solid black;">Reorganización modular del informe y actualización de la documentación del proyecto y del Sprint 3. Evidencia: commit 63505073a.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; text-align: center;">30</td>
+      <td style="border: 1px solid black; text-align: center;">20/10/2026</td>
+      <td style="border: 1px solid black;">Alvar Lucas Córdova</td>
+      <td style="border: 1px solid black;">Actualización del Sprint Planning 3 y documentación del backend, arquitectura y módulos contemplados en la implementación. Evidencias: commits 6fb6f7e5e y 5ef9eccc9.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; text-align: center;">31</td>
+      <td style="border: 1px solid black; text-align: center;">04/11/2026</td>
+      <td style="border: 1px solid black;">Alvar Lucas Córdova</td>
+      <td style="border: 1px solid black;">Integración de evidencias del Sprint 3, respaldadas por el historial del informe y los repositorios del producto. Evidencia: commit f495b1f95.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; text-align: center;">32</td>
+      <td style="border: 1px solid black; text-align: center;">07/11/2026</td>
+      <td style="border: 1px solid black;">Giuseppe Adrián Villanueva Rodríguez</td>
+      <td style="border: 1px solid black;">Actualización de evidencias gráficas y detalles técnicos del Capítulo V, incluyendo despliegue y carga estimada del Sprint 3. Evidencias: commits b12de2b5f y 6d78bf36e.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; text-align: center;">33</td>
+      <td style="border: 1px solid black; text-align: center;">14/11/2026</td>
+      <td style="border: 1px solid black;">Alvar Lucas Córdova</td>
+      <td style="border: 1px solid black;">Actualización para AV2 del Registro de Versiones, Project Report Collaboration Insights y Student Outcome, conservando la trazabilidad de las entregas anteriores.</td>
+    </tr>
   </tbody>
 </table>
 
@@ -259,6 +290,27 @@ Seguidamente se presenta la pestaña Contributors, donde se muestran los número
 | Villanueva Rodríguez, Giuseppe Adrián | Giuseppe152004 |
 
 ![Contributors Avance 1](../assets/images/collaboration-insight-2-av1.jpeg)
+
+
+<!-- TECHMAKERS-AV2-COLLABORATION -->
+
+**AV2 — Sprint 3 (18 de octubre al 3 de noviembre de 2026)**
+
+En este avance, las contribuciones a la documentación del Sprint 3 y las evidencias técnicas consideradas se concentraron en **Alvar Lucas Córdova, Giuseppe Adrián Villanueva Rodríguez y Diego Rances Rojas Huaranga**. La colaboración documental se registra de manera diferenciada de la autoría de código: un commit de Backend o Frontend no se presenta como si fuera un commit del repositorio Report.
+
+Se utilizaron ramas de trabajo y commits registrados en GitHub para consolidar la planificación del Sprint 3, las evidencias de implementación, las pruebas y el despliegue de FixCore. Para esta actualización se consideran los siguientes aportes verificables:
+
+| Participante | Aporte documentado en AV2 | Evidencia de GitHub |
+|---|---|---|
+| **Alvar Lucas Córdova** (`AlvarLC`) | Reorganización modular del informe; planificación del Sprint 3; actualización de contenidos de arquitectura, integración y evidencias del Capítulo V. | [Reorganización](https://github.com/TechMakers-upc/Report/commit/63505073a), [Sprint 3/backend](https://github.com/TechMakers-upc/Report/commit/5ef9eccc9), [Evidencias de Sprint 3](https://github.com/TechMakers-upc/Report/commit/f495b1f95) |
+| **Giuseppe Adrián Villanueva Rodríguez** (`Giuseppe152004`) | Incorporación y actualización de evidencias del Capítulo V, material gráfico y ajustes en la planificación y estimaciones del Sprint 3. | [Evidencias y texto](https://github.com/TechMakers-upc/Report/commit/b12de2b5f), [Detalles y carga de trabajo](https://github.com/TechMakers-upc/Report/commit/6d78bf36e) |
+| **Diego Rances Rojas Huaranga** (`diego27-16`) | Evidencia técnica del trabajo de integración, pruebas y controles de seguridad del backend que sirve de sustento al apartado de implementación. No se atribuyen commits del repositorio Report sin respaldo. | [Seguridad de órdenes](https://github.com/TechMakers-upc/Backend/commit/4f9d7737), [Integridad de inventario](https://github.com/TechMakers-upc/Backend/commit/b8bb1411), [Integración de autenticación](https://github.com/TechMakers-upc/Frontend/commit/435662ca) |
+
+**Recursos de colaboración del informe:** [Repositorio Report](https://github.com/TechMakers-upc/Report), [historial de commits](https://github.com/TechMakers-upc/Report/commits/main/), [Pull Requests](https://github.com/TechMakers-upc/Report/pulls?q=is%3Apr), [Pulse](https://github.com/TechMakers-upc/Report/pulse) y [Contributors](https://github.com/TechMakers-upc/Report/graphs/contributors).
+
+**Interpretación de la evidencia.** Los enlaces a commits muestran cambios identificables en el repositorio. La sección no asigna cantidades de commits u horas a personas sin comprobarlas, ni presenta participación oral o capturas de sesiones como si ya estuvieran grabadas. Las contribuciones técnicas se explican en el apartado 5.2.3.8 del Capítulo V.
+
+**Evidencia gráfica por verificar:** Si las capturas automáticas no se generaron, incorporar screenshots auténticos de GitHub Pulse y Contributors del repositorio Report antes de exportar el PDF.
 
 <div style="page-break-after: always;"></div>
 
@@ -446,6 +498,16 @@ Seguidamente se presenta la pestaña Contributors, donde se muestran los número
 
 # Student Outcome
 
+<!-- TECHMAKERS-AV2-STUDENT-OUTCOME -->
+
+El curso contribuye al cumplimiento del Student Outcome ABET:
+ABET – EAC - Student Outcome 3
+
+Criterio: Capacidad de comunicarse efectivamente con un rango de audiencias.
+En el siguiente cuadro se describe las acciones realizadas y enunciados de
+conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro
+del ABET – EAC - Student Outcome 3.
+
 <div align="center">
 <table border="1">
   <tr>
@@ -457,30 +519,30 @@ Seguidamente se presenta la pestaña Contributors, donde se muestran los número
   <tr>
     <th>Comunica oralmente con efectividad a diferentes rangos de audiencia</th>
     <td>
-    Alvar Lucas Córdova <br> AV1: Participé en las reuniones y coordinaciones del equipo explicando los avances realizados en el proyecto, principalmente en los artefactos de Requirements Elicitation & Analysis y Requirements Specification, como User Personas, User Task Matrix, User Journey Mapping, Empathy Mapping, User Stories, Impact Mapping y Product Backlog. También comuniqué decisiones y avances relacionados con el diseño y desarrollo del producto.<br> TB1: Coordiné con el equipo los avances y las correcciones de la integración del frontend durante el Sprint 2.<br><br>
+    Alvar Lucas Córdova <br> AV1: Participé en las reuniones y coordinaciones del equipo explicando los avances realizados en el proyecto, principalmente en los artefactos de Requirements Elicitation & Analysis y Requirements Specification, como User Personas, User Task Matrix, User Journey Mapping, Empathy Mapping, User Stories, Impact Mapping y Product Backlog. También comuniqué decisiones y avances relacionados con el diseño y desarrollo del producto.<br> TB1: Coordiné con el equipo los avances y las correcciones de la integración del frontend durante el Sprint 2.<br> AV2: Durante el Sprint 3 coordiné y comuniqué al equipo la planificación del backend, la organización de su arquitectura, la integración con Angular y los puntos que debían documentarse para explicar el despliegue y las evidencias de ejecución. Estos intercambios permitieron alinear el trabajo técnico con la estructura del informe.<br><br>
     Sunio Danilo Landa Sánchez <br> AV1: Participé en la coordinación del equipo para el desarrollo del proyecto siguiendo las convenciones descritas en el enunciado. Además, participé en la exposición de los avances realizados.<br> TB1: Comuniqué los avances del módulo de mantenimiento preventivo, incluyendo programación, calendario y navegación.<br><br>
-    Giuseppe Adrián Villanueva Rodríguez <br> AV1: Colaboré en el desarrollo de los capítulos II, III y IV, así como en algunas partes del desarrollo y despliegue de la Landing Page. También comuniqué al equipo los avances realizados en estas actividades.<br> TB1: Expliqué los avances del reporte de fallas y de los indicadores del dashboard.<br><br>
-    Diego Rances Rojas Huaranga <br> AV1: Apoyé en la elaboración del primer avance del proyecto y en la realización de entrevistas correspondientes a los tres segmentos definidos. También participé en las coordinaciones del equipo para integrar estos aportes al informe.<br> TB1: Comuniqué los avances del flujo de órdenes de trabajo y la conexión desde la Landing Page.<br><br>
+    Giuseppe Adrián Villanueva Rodríguez <br> AV1: Colaboré en el desarrollo de los capítulos II, III y IV, así como en algunas partes del desarrollo y despliegue de la Landing Page. También comuniqué al equipo los avances realizados en estas actividades.<br> TB1: Expliqué los avances del reporte de fallas y de los indicadores del dashboard.<br> AV2: Comuniqué al equipo los avances de los servicios REST y las principales funcionalidades de FixCore, además de los ajustes requeridos para documentar con claridad las pruebas, los despliegues y el alcance real del Sprint 3.<br><br>
+    Diego Rances Rojas Huaranga <br> AV1: Apoyé en la elaboración del primer avance del proyecto y en la realización de entrevistas correspondientes a los tres segmentos definidos. También participé en las coordinaciones del equipo para integrar estos aportes al informe.<br> TB1: Comuniqué los avances del flujo de órdenes de trabajo y la conexión desde la Landing Page.<br> AV2: Comuniqué hallazgos técnicos derivados de la integración frontend-backend y de las comprobaciones sobre órdenes de trabajo, inventario y permisos. Estos resultados ayudaron a identificar restricciones de autorización y casos de prueba necesarios para sustentar el funcionamiento de FixCore.<br><br>
     Pierre Alessandro Mendoza Boluarte <br> AV1: Participé activamente en la elaboración del primer avance, aportando contenido para el Capítulo I relacionado con la definición del negocio y los segmentos objetivo. Asimismo, realicé dos entrevistas y comuniqué al equipo los resultados obtenidos.<br> TB1: Presenté los avances del inventario, los repuestos y la integración de módulos mediante pull requests.
     </td>
     <td>
     AV1: La comunicación oral permitió coordinar las actividades entre los integrantes, presentar los avances realizados y compartir las decisiones tomadas durante el desarrollo del proyecto. Asimismo, facilitó la explicación de la problemática, los requerimientos y la propuesta de FixCore durante las reuniones y exposiciones del equipo.
-    <br><br>    TB1: La comunicación oral facilitó la coordinación del Sprint 2, la explicación de avances de cada módulo y la identificación de correcciones para integrar FixCore.
+    <br><br>    TB1: La comunicación oral facilitó la coordinación del Sprint 2, la explicación de avances de cada módulo y la identificación de correcciones para integrar FixCore.<br><br>    AV2: La comunicación técnica durante el Sprint 3 permitió coordinar la arquitectura del backend, contrastar contratos REST y discutir las verificaciones de integración, seguridad y persistencia. Los avances se documentaron con evidencias técnicas, sin sustituir la necesidad de una exposición grabada.
     </td>
   </tr>
 
   <tr>
     <th>Comunica por escrito con efectividad a diferentes rangos de audiencia</th>
     <td>
-    Alvar Lucas Córdova <br> AV1: Elaboré y redacté diferentes secciones del informe, incluyendo User Personas, User Task Matrix, User Journey Mapping, Empathy Mapping, User Stories, Impact Mapping y Product Backlog. Además, participé en la documentación de secciones relacionadas con el diseño del producto y el avance de la implementación.<br> TB1: Actualicé Needfinding y el Sprint Planning 2; implementé la gestión de plantas y máquinas, integré el frontend y corregí problemas detectados en la auditoría.<br><br>
+    Alvar Lucas Córdova <br> AV1: Elaboré y redacté diferentes secciones del informe, incluyendo User Personas, User Task Matrix, User Journey Mapping, Empathy Mapping, User Stories, Impact Mapping y Product Backlog. Además, participé en la documentación de secciones relacionadas con el diseño del producto y el avance de la implementación.<br> TB1: Actualicé Needfinding y el Sprint Planning 2; implementé la gestión de plantas y máquinas, integré el frontend y corregí problemas detectados en la auditoría.<br> AV2: Reorganicé archivos del informe, actualicé la planificación y documentación técnica del Sprint 3 e integré evidencias del backend y la aplicación web en el Capítulo V. Los cambios pueden comprobarse en los commits 63505073a, 5ef9eccc9 y f495b1f95 del repositorio Report.<br><br>
     Sunio Danilo Landa Sánchez <br> AV1: Apoyé en la aplicación de convenciones durante el control de versiones del proyecto y en la nomenclatura de los mensajes de cambio realizados en el repositorio.<br> TB1: Registré mediante commits los formularios de mantenimiento preventivo, el calendario, los estados y las rutas del módulo.<br><br>
-    Giuseppe Adrián Villanueva Rodríguez <br> AV1: Redacté diferentes secciones comprendidas desde Style Guidelines hasta Landing Page Mock-up. Además, participé en la elaboración de dos entrevistas y en la redacción de sus respectivos resúmenes.<br> TB1: Registré mediante commits el desarrollo del registro de fallas, el dashboard y los ajustes de diagramas de base de datos del informe.<br><br>
-    Diego Rances Rojas Huaranga <br> AV1: Participé en el desarrollo de la propuesta visual y de interacción de la plataforma orientada al mantenimiento industrial, elaborando wireframes de baja fidelidad en Figma. También integré los wireframes con los flujos de interacción y cambios de estado según los objetivos de cada rol, y participé en el desarrollo de los mock-ups de alta fidelidad aplicando el Design System de FixCore.<br> TB1: Documenté mediante commits la creación, asignación, ejecución y cierre de órdenes de trabajo, además de la conexión con la Landing Page.<br><br>
+    Giuseppe Adrián Villanueva Rodríguez <br> AV1: Redacté diferentes secciones comprendidas desde Style Guidelines hasta Landing Page Mock-up. Además, participé en la elaboración de dos entrevistas y en la redacción de sus respectivos resúmenes.<br> TB1: Registré mediante commits el desarrollo del registro de fallas, el dashboard y los ajustes de diagramas de base de datos del informe.<br> AV2: Actualicé la documentación del Capítulo V con evidencias de implementación y despliegue, capturas y correcciones de la planificación del Sprint 3. Los commits b12de2b5f y 6d78bf36e permiten rastrear dichos cambios en el repositorio Report.<br><br>
+    Diego Rances Rojas Huaranga <br> AV1: Participé en el desarrollo de la propuesta visual y de interacción de la plataforma orientada al mantenimiento industrial, elaborando wireframes de baja fidelidad en Figma. También integré los wireframes con los flujos de interacción y cambios de estado según los objetivos de cada rol, y participé en el desarrollo de los mock-ups de alta fidelidad aplicando el Design System de FixCore.<br> TB1: Documenté mediante commits la creación, asignación, ejecución y cierre de órdenes de trabajo, además de la conexión con la Landing Page.<br> AV2: Registré mediante código, commits y cambios revisables las correcciones de seguridad, autorización e integridad del backend, así como ajustes de integración del frontend. Las evidencias incluyen los commits 4f9d7737 y b8bb1411 del Backend y 435662ca del Frontend; no se atribuye autoría documental no comprobada en Report.<br><br>
     Pierre Alessandro Mendoza Boluarte <br> AV1: Participé en la planificación del EventStorming, colaboré en la elaboración de diagramas y apoyé en la redacción de diferentes apartados correspondientes al Capítulo V.<br> TB1: Registré commits y pull requests de gestión de inventario, repuestos, validaciones, niveles mínimos de stock e integración de módulos.
     </td>
     <td>
     AV1: La documentación elaborada permitió comunicar de forma organizada la problemática, los segmentos objetivo, los requerimientos, el diseño y los avances de implementación de FixCore. La utilización de una estructura común, artefactos visuales y convenciones de documentación permitió mantener coherencia entre los diferentes capítulos del informe y facilitar su comprensión.
-    <br><br>    TB1: La documentación del Sprint 2 y el registro de commits permitieron explicar las responsabilidades del equipo, mantener trazabilidad y comunicar las mejoras del frontend.
+    <br><br>    TB1: La documentación del Sprint 2 y el registro de commits permitieron explicar las responsabilidades del equipo, mantener trazabilidad y comunicar las mejoras del frontend.<br><br>    AV2: La actualización del Capítulo V y las referencias a commits verificables ayudaron a comunicar la evolución del producto, sus decisiones de arquitectura, los despliegues y los límites de las validaciones realizadas. Se distinguió la autoría del repositorio Report de la evidencia aportada desde los repositorios Backend y Frontend.
     </td>
   </tr>
 </table>
