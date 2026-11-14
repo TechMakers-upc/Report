@@ -262,6 +262,12 @@ Proyecto
       <td style="border: 1px solid black;">Alvar Lucas Córdova</td>
       <td style="border: 1px solid black;">Actualización para AV2 del Registro de Versiones, Project Report Collaboration Insights y Student Outcome, conservando la trazabilidad de las entregas anteriores.</td>
     </tr>
+    <tr>
+      <td style="border: 1px solid black; text-align: center;">34</td>
+      <td style="border: 1px solid black; text-align: center;">14/11/2026</td>
+      <td style="border: 1px solid black;">Alvar Lucas Córdova</td>
+      <td style="border: 1px solid black;">Revisión de AV2: corrección del índice, orden de secciones, planificación y trazabilidad del Sprint 3, documentación del API, conclusiones y anexos. Las evidencias audiovisuales y gráficas se mantienen bajo verificación.</td>
+    </tr>
   </tbody>
 </table>
 
@@ -413,7 +419,7 @@ Se utilizaron ramas de trabajo y commits registrados en GitHub para consolidar l
       - [4.3.1.1. Introducción al Wireframe del Landing Page](../40-capitulo-4-product-design.md#4311-introducción-al-wireframe-del-landing-page)
       - [4.3.1.2. Wireframe Desktop](../40-capitulo-4-product-design.md#4312-wireframe-desktop)
       - [4.3.1.3. Wireframe Mobile](../40-capitulo-4-product-design.md#4313-wireframe-mobile)
-      - [4.3.1.1. Introducción al Wireframe del Landing Page](../40-capitulo-4-product-design.md#4311-introducción-al-wireframe-del-landing-page-1)
+
       - [4.3.1.4. Regiones del wireframe y su Función](../40-capitulo-4-product-design.md#4314-regiones-del-wireframe-y-su-función)
       - [4.3.1.5. Principios de Diseño Aplicados en los Wireframes](../40-capitulo-4-product-design.md#4315-principios-de-diseño-aplicados-en-los-wireframes)
     - [4.3.2. Landing Page Mock-up.](../40-capitulo-4-product-design.md#432-landing-page-mock-up)
@@ -483,7 +489,23 @@ Se utilizaron ramas de trabajo y commits registrados en GitHub para consolidar l
       - [5.2.2.6. Services Documentation Evidence for Sprint Review.](../50-capitulo-5-product-implementation.md#5226-services-documentation-evidence-for-sprint-review)
       - [5.2.2.7. Software Deployment Evidence for Sprint Review.](../50-capitulo-5-product-implementation.md#5227-software-deployment-evidence-for-sprint-review)
       - [5.2.2.8. Team Collaboration Insights during Sprint.](../50-capitulo-5-product-implementation.md#5228-team-collaboration-insights-during-sprint)
+    - [5.2.3. Sprint 3](../50-capitulo-5-product-implementation.md#523-sprint-3)
+      - [5.2.3.1. Sprint Planning 3](../50-capitulo-5-product-implementation.md#5231-sprint-planning-3)
+      - [5.2.3.2. Aspect Leaders and Collaborators](../50-capitulo-5-product-implementation.md#5232-aspect-leaders-and-collaborators)
+      - [5.2.3.3. Sprint Backlog 3](../50-capitulo-5-product-implementation.md#5233-sprint-backlog-3)
+      - [5.2.3.4. Development Evidence for Sprint Review](../50-capitulo-5-product-implementation.md#5234-development-evidence-for-sprint-review)
+      - [5.2.3.5. Execution Evidence for Sprint Review](../50-capitulo-5-product-implementation.md#5235-execution-evidence-for-sprint-review)
+      - [5.2.3.6. Services Documentation Evidence for Sprint Review](../50-capitulo-5-product-implementation.md#5236-services-documentation-evidence-for-sprint-review)
+      - [5.2.3.7. Software Deployment Evidence for Sprint Review](../50-capitulo-5-product-implementation.md#5237-software-deployment-evidence-for-sprint-review)
+      - [5.2.3.8. Team Collaboration Insights during Sprint](../50-capitulo-5-product-implementation.md#5238-team-collaboration-insights-during-sprint)
+  - [5.3. Validation Interviews](../50-capitulo-5-product-implementation.md#53-validation-interviews)
+    - [5.3.1. Diseño de Entrevistas](../50-capitulo-5-product-implementation.md#531-diseño-de-entrevistas)
+    - [5.3.2. Registro de Entrevistas](../50-capitulo-5-product-implementation.md#532-registro-de-entrevistas)
+    - [5.3.3. Evaluaciones según heurísticas](../50-capitulo-5-product-implementation.md#533-evaluaciones-según-heurísticas)
+  - [5.4. Video About-the-Product](../50-capitulo-5-product-implementation.md#54-video-about-the-product)
 - [Conclusiones](../98-conclusiones-y-bibliografia.md#conclusiones)
+  - [Resultados del AV2 Sprint 3](../98-conclusiones-y-bibliografia.md#resultados-del-av2-sprint-3)
+  - [Video About-the-Team](../98-conclusiones-y-bibliografia.md#video-about-the-team)
 - [Bibliografía](../98-conclusiones-y-bibliografia.md#bibliografía)
 - [Anexos](../annexes/99-anexos.md#anexos)
   - [Anexo A. Repositorios del Proyecto](../annexes/99-anexos.md#anexo-a-repositorios-del-proyecto)

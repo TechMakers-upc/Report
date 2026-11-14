@@ -503,7 +503,7 @@ Reporte de Fallas y OTs - FixCore
 **Meta Description**
 Practica una respuesta ágil ante paradas de máquina. Reporta fallas en 3 clics, asigna técnicos y gestiona Órdenes de Trabajo desde cualquier dispositivo móvil.
 
-### 4.2.3.8. Estructura de Datos Schema Markup
+#### 4.2.3.8. Estructura de Datos Schema Markup
 
 FixCore implementa `Schema.org` (en formato JSON-LD) para optimizar su presentación en motores de búsqueda como una solución de software empresarial B2B:
 
@@ -542,7 +542,7 @@ FixCore implementa `Schema.org` (en formato JSON-LD) para optimizar su presentac
 }
 ```
 
-### 4.2.3.9. Directrices SEO Generales
+#### 4.2.3.9. Directrices SEO Generales
 
 FixCore sigue las siguientes directrices estructurales para mantener un SEO técnico optimizado en toda la plataforma:
 
@@ -804,7 +804,7 @@ El wireframe mobile adapta la estructura desktop a formatos verticales:
   <em>Fuente: Elaboración propia.</em>
 </div>
 
-#### 4.3.1.1. Introducción al Wireframe del Landing Page
+**Justificación de la estructura del wireframe**
 
 El wireframe del Landing Page de FixCore establece la estructura fundamental y el flujo de persuasión B2B antes de la aplicación de la interfaz gráfica final (UI). Este esquema sirve como plano arquitectónico para definir la jerarquía de la información, guiando al visitante desde la propuesta de valor inicial en el *Hero Section* centrada en la reducción de tiempos muertos, pasando por la validación técnica (métricas de impacto y características del sistema), hasta los planes de suscripción y el llamado a la acción final (CTA).
 

@@ -737,7 +737,7 @@ El trabajo incluyó la preparación de la arquitectura backend, implementación 
 
 Las contribuciones de implementación identificadas en los repositorios corresponden a Alvar Lucas Córdova, Giuseppe Adrián Villanueva Rodríguez y Diego Rances Rojas Huaranga.
 
-Los integrantes Sunio Danilo Landa Sánchez y Pierre Alessandro Mendoza Boluarte permanecen registrados como miembros del equipo. No obstante, no se identificaron contribuciones de implementación suyas durante el período de Sprint 3 revisado.
+
 
 #### 5.2.3.1. Sprint Planning 3
 
@@ -748,7 +748,7 @@ Se priorizaron los módulos de autenticación, plantas, máquinas, mantenimiento
 | Campo | Información |
 |---|---|
 | Sprint # | Sprint 3 |
-| Date | 2026-10-6 |
+| Date | 2026-10-06 |
 | Time | 7:00 PM – 8:00 PM|
 | Location | Discord|
 | Prepared By | Alvar Lucas Córdova |
@@ -759,7 +759,8 @@ Se priorizaron los módulos de autenticación, plantas, máquinas, mantenimiento
 | Sprint Velocity | Pendiente de determinar mediante aceptación de User Stories completas. |
 | Sum of Story Points | Pendiente de conciliar con el Product Backlog. |
 | Work Items | T037–T055 |
-| Estimated Workload | 30 min |
+| Planning Meeting Duration | 60 min (de 7:00 PM a 8:00 PM). |
+| Estimated Workload | 145 horas estimadas para 19 tareas (T037–T055); no son horas efectivamente trabajadas. |
 
 **Sprint Goal**
 
@@ -769,7 +770,7 @@ We believe it delivers reliable maintenance management, controlled access to ope
 
 This will be confirmed when authenticated users can interact with the deployed Angular application, its services persist information in PostgreSQL and the principal business operations can be verified through the REST API.
 
-Las estimaciones de horas representan el esfuerzo previsto para las tareas técnicas. No constituyen horas efectivamente registradas ni Story Points aceptados.
+Las 145 horas son la suma de las estimaciones del Sprint Backlog 3; no representan horas reales trabajadas ni Story Points aceptados. La reunión de planificación se consigna el 6 de octubre y la cronología de implementación documentada comienza el 18 de octubre; son fechas de actividades distintas.
 
 **Cronología de implementación**
 
@@ -794,8 +795,8 @@ En la matriz, **L** representa al líder del aspecto y **C** a un colaborador.
 | Alvar Lucas Córdova | AlvarLC | L | C | L | C | L |
 | Giuseppe Adrián Villanueva Rodríguez | Giuseppe152004 | C | L | C | C | C |
 | Diego Rances Rojas Huaranga | diego27-16 | C | C | C | L | C |
-| Sunio Danilo Landa Sánchez | DanLandio | — | — | — | — | — |
-| Pierre Alessandro Mendoza Boluarte | pierreale2302 | — | — | — | — | — |
+
+
 
 **Alvar Lucas Córdova**
 
@@ -832,8 +833,8 @@ El Sprint Backlog 3 contiene diecinueve actividades técnicas, numeradas desde T
 | US01–US09 | Gestión de plantas y máquinas | T045 | Integrate Plants and Machines Management | Integrar las operaciones de plantas y máquinas. | 8 | Giuseppe | Done |
 | US10–US17 | Mantenimiento preventivo | T046 | Integrate Preventive Maintenance | Integrar programación y consulta de mantenimientos. | 8 | Giuseppe | Done |
 | US19–US30 | Fallas y órdenes de trabajo | T047 | Integrate Failures and Work Orders | Integrar el registro de fallas y las operaciones de órdenes. | 8 | Giuseppe | Done |
-| US31–US35 | Gestión de inventario | T048 | Integrate Inventory Management | Integrar repuestos, existencias y movimientos de inventario. | 8 | Giuseppe | Done |
-| US41–US45 | Analítica y notificaciones | T049 | Integrate Analytics and Notifications | Integrar indicadores, reportes y alertas. | 8 | Giuseppe | Done |
+| US31–US40 | Gestión de inventario | T048 | Integrate Inventory Management | Integrar repuestos, existencias y movimientos de inventario. | 8 | Giuseppe | Done |
+| US41–US47; US48–US53 | Analítica y notificaciones | T049 | Integrate Analytics and Notifications | Integrar indicadores, reportes y alertas. | 8 | Giuseppe | Done |
 | — | Integración del frontend | T050 | Verify Frontend Integration and Versions | Revisar compatibilidad entre servicios, versiones y componentes. | 8 | Giuseppe | Done |
 | — | Usuarios y calidad visual | T051 | Verify Users, Roles and Responsive Design | Verificar perfiles, restricciones y comportamiento responsive. | 10 | Giuseppe | Done |
 | — | Dominio y persistencia backend | T052 | Implement Spring Boot Domain and Persistence | Implementar y ajustar el dominio, repositorios y persistencia. | 8 | Diego | Done |
@@ -860,7 +861,7 @@ El Sprint Backlog 3 contiene diecinueve actividades técnicas, numeradas desde T
 | Done | 19 |
 | **Total** | **19** |
 
-Las diecinueve actividades se encuentran registradas en `Done` en Trello. Este estado documenta su cierre en el tablero, pero no sustituye las evidencias técnicas necesarias para comprobar cada flujo funcional.
+Las diecinueve actividades se encuentran registradas en `Done` en Trello. Los rangos de User Stories de las tareas T048 y T049 expresan su alcance funcional previsto; por sí solos no demuestran que todas esas historias hayan sido aceptadas. El estado del tablero no sustituye las evidencias técnicas necesarias para comprobar cada flujo funcional.
 
 Las horas corresponden a estimaciones de trabajo y no a registros efectivos de tiempo.
 
@@ -1014,8 +1015,8 @@ Se verificó la disponibilidad de las interfaces y la opción de exportación CS
 | Creación y eliminación de registros de prueba | Verificada en operaciones seleccionadas. |
 | Creación y asignación de órdenes | Verificada. |
 | Visualización de órdenes asignadas | Verificada. |
-| Ejecución y cierre completo de órdenes | Pendiente de evidencia integral. |
-| Consumo de repuestos durante una orden | Pendiente de evidencia integral. |
+| Ejecución y cierre completo de órdenes | La entrevista E03 muestra una orden que pasa por estados de ejecución hasta COMPLETADA; faltan pruebas integrales de persistencia y autorización. |
+| Consumo de repuestos durante una orden | La entrevista E03 muestra el registro de un repuesto en la orden; no verifica por sí sola el descuento real de stock en PostgreSQL. |
 | Exportación CSV | Verificada. |
 | Validación del contenido PDF | Pendiente. |
 | Pruebas automatizadas del backend | Ejecutadas durante la integración. |
@@ -1026,6 +1027,8 @@ Los resultados describen las comprobaciones realizadas y no constituyen una cert
 **Video de ejecución del Sprint 3**
 
 [EVIDENCIA PENDIENTE: URL del video de demostración del Sprint 3]
+
+Como evidencia complementaria de ejecución, las grabaciones E01–E03 están descritas en [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas); no sustituyen automáticamente el video de ejecución exigido para esta sección.
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
@@ -1046,7 +1049,7 @@ La exposición de Swagger en producción depende de la configuración del entorn
 | Módulo | Método | Endpoint | Descripción |
 |---|---|---|---|
 | Authentication | POST | `/authentication/sign-in` | Autenticar usuario. |
-| Authentication | POST | `/authentication/sign-up` | Registrar usuario. |
+| Authentication | POST | `/authentication/sign-up` | Registrar usuario mediante una cuenta con rol de gerencia autorizada; no es un registro público. |
 | Users | GET | `/users/me` | Consultar al usuario autenticado. |
 | Plants | GET | `/plants` | Consultar plantas. |
 | Plants | POST | `/plants` | Registrar planta. |
@@ -1067,6 +1070,10 @@ La exposición de Swagger en producción depende de la configuración del entorn
 | Work Orders | POST | `/work-orders` | Registrar orden. |
 | Work Orders | PATCH | `/work-orders/{id}/assignment` | Asignar técnico. |
 | Work Orders | DELETE | `/work-orders/{id}` | Eliminar una orden cuando las reglas lo permiten. |
+| Work Orders | POST | `/work-orders/{id}/start` | Iniciar una orden asignada conforme a las reglas de acceso. |
+| Work Orders | POST | `/work-orders/{id}/work-logs` | Registrar el trabajo realizado en una orden. |
+| Work Orders | POST | `/work-orders/{id}/part-usages` | Registrar repuestos utilizados en una orden. |
+| Work Orders | POST | `/work-orders/{id}/completion` | Solicitar el cierre de una orden con las validaciones correspondientes. |
 | Analytics | GET | `/analytics/summary` | Consultar indicadores. |
 | Notifications | GET | `/alerts` | Consultar alertas. |
 
@@ -1211,7 +1218,7 @@ La captura original `deploy4.jpeg` no debe incorporarse sin censurar, porque pue
 
 Se utilizó Flyway para ejecutar y validar las migraciones del esquema PostgreSQL.
 
-El registro técnico documenta la validación de once migraciones. La captura de los logs correspondiente a esta ejecución todavía debe incorporarse para sustentar visualmente el resultado.
+El registro técnico documenta la validación de once migraciones y ya se incluye una captura de Flyway debajo. Debe distinguirse esta imagen de las evidencias de despliegue en Render: si corresponde a un entorno local, no demuestra por sí sola la ejecución de las migraciones en producción.
 
 ![flyway postgresql](<assets/images/12-flyway-postgresql.png>)
 
@@ -1431,7 +1438,9 @@ La evaluación se organiza según el enfoque exigido por el Anexo D del Final Pr
 
 **Conclusión de la validación disponible:** las tres grabaciones muestran recorridos funcionales de FixCore desde roles diferentes, incluyendo un flujo de Orden de Trabajo hasta un estado completado. La conclusión es **descriptiva y limitada a lo observable**: no acredita satisfacción de usuarios, facilidad de aprendizaje, cumplimiento del número mínimo por segmento ni validación integral de permisos y persistencia. Se recomienda completar primero la verificación de identidad, el audio y los hallazgos antes de emitir recomendaciones basadas en opiniones de entrevistados.
 
----### 5.4. Video About-the-Product
+---
+
+### 5.4. Video About-the-Product
 
 El Video About-the-Product tiene como objetivo presentar FixCore, explicar el problema de mantenimiento industrial que aborda y demostrar sus principales funcionalidades.
 

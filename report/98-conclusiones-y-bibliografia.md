@@ -25,6 +25,31 @@ El desarrollo del primer avance de **FixCore** permitió definir con mayor clari
 
 
 
+### Resultados del AV2 Sprint 3
+
+Durante el Sprint 3 se documentaron la API REST con Spring Boot, la integración con la aplicación Angular, las migraciones de PostgreSQL y el despliegue de los componentes principales de FixCore. La documentación y los commits referenciados en el Capítulo V permiten explicar las decisiones técnicas y los avances del producto.
+
+- **Integración entre frontend y backend.** La Web Application fue conectada a servicios REST propios para gestionar plantas, activos, mantenimientos, órdenes, inventario e indicadores. El informe conserva evidencias de interfaces y operaciones seleccionadas; no debe confundirse con una validación exhaustiva de todos los flujos.
+- **Seguridad y persistencia.** Se documentaron autenticación JWT, restricciones por rol y planta, migraciones Flyway y mecanismos de integridad en operaciones del backend. El cumplimiento integral requiere pruebas de seguridad y persistencia realizadas sobre el sistema desplegado.
+- **Resultados de las sesiones de validación.** Se dispone de tres grabaciones con recorridos de Jefe de Planta, Gerente de Operaciones y Técnico. Visualmente se aprecia una orden que llega al estado COMPLETADA; no se dispone de transcripciones verificadas para atribuir comentarios u opiniones a los participantes.
+- **Límites del alcance.** Las tres grabaciones no alcanzan el mínimo de tres a cinco entrevistas por cada segmento objetivo exigido por el enunciado. Siguen pendientes la comprobación integral del descuento de stock, la validación del contenido PDF y otras evidencias indicadas en el apartado 5.2.3.5.
+
+**Recomendaciones.** Completar los videos About-the-Product y About-the-Team, anexar las capturas de colaboración de GitHub, verificar permisos y persistencia por rol, contrastar los endpoints con la versión desplegada y completar las evidencias de validación sin atribuir declaraciones no comprobadas.
+
+### Video About-the-Team
+
+El Video About-the-Team debe explicar el proceso de trabajo seguido por TechMakers, utilizando escenas auténticas de coordinación y desarrollo, narración del proceso y testimonios ante cámara de los participantes sobre sus actividades, logros y competencias. Las secuencias y los tiempos se registrarán a partir del video final efectivamente publicado.
+
+| Evidencia requerida | Estado al cierre de esta revisión |
+|---|---|
+| Video publicado en Microsoft Stream | Pendiente de incorporar enlace auténtico |
+| Video publicado en YouTube | Pendiente de incorporar enlace auténtico |
+| Duración total y pauta de secuencias con inicio `hh:mm:ss` | Pendiente de registrar desde el video editado |
+| Fotograma representativo | Pendiente de incorporar captura real |
+| Inserción en la Landing Page | Pendiente de verificar tras la publicación |
+
+No se presenta un video como publicado ni se atribuyen testimonios que no estén documentados.
+
 <div style="page-break-after: always;"></div>
 
 

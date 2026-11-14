@@ -13,8 +13,11 @@
 - Repositorio del Landing Page:
   https://github.com/TechMakers-upc/Landing-Page
 
-- Repositorio del Frontend Web Application
+- Repositorio del Frontend Web Application:
   https://github.com/TechMakers-upc/Frontend
+
+- Repositorio del Backend (Web Services):
+  https://github.com/TechMakers-upc/Backend
 
 <div style="page-break-after: always;"></div>
 
@@ -28,6 +31,9 @@
 
 - Sprint Backlog 2:
   https://trello.com/b/8djFNRhg/sprint-backlog-2-techmakers
+
+- Sprint Backlog 3:
+  https://trello.com/b/c8HvDAIU/1-sprint-backlog-3-techmakers
 
 - Artefactos de Needfinding en UXPressia:
   https://uxpressia.com/w/v8FzI/t/zbzV3
@@ -58,7 +64,16 @@ Las fichas, minutos y capturas correspondientes a E01–E03 se documentan en [5.
 - Frontend Web Application desplegado:
   https://fixcore-frontend-eight.vercel.app/demo
 
-- URL del Mockup API:
+- Backend REST real (Spring Boot, Sprint 3):
+  https://backend-zv29.onrender.com/
+
+- Health Check del Backend:
+  https://backend-zv29.onrender.com/actuator/health
+
+- Base URL de Web Services:
+  https://backend-zv29.onrender.com/api/v1
+
+- API simulada utilizada durante el Sprint 2 (referencia histórica; NO es el backend real de AV2):
   https://fixcore-json-api.onrender.com/
 
 <div style="page-break-after: always;"></div>
@@ -69,3 +84,5 @@ Las fichas, minutos y capturas correspondientes a E01–E03 se documentan en [5.
 - [Video de presentación del Sprint 2](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c554_upc_edu_pe/IQAUYlQa0B7NQrXxJbTrLBoyAcmdZetyTMORm1Pi7hRGtfM?e=pniRwM)
 
 - [Video de exposición AV1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202324461_upc_edu_pe/IQDmty3FNqrWTLFvZG58kxPfAfv-bKwb9TGY5O8XUFahqSs?e=p3LPOL)
+
+El enlace del video de exposición AV2 se incorporará cuando el archivo MP4 y su publicación en Microsoft Stream estén disponibles. No se añade un enlace ficticio.
