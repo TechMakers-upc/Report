@@ -39,6 +39,15 @@
 
 - [Video de las entrevistas realizadas](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423973_upc_edu_pe/IQBCKuUvc8VeT4YtxyBRxNnnAerbBFUqAE8C5H7KH6vx3GU?e=f8X1Pp)
 
+### Entrevistas de validación AV2 — Sprint 3
+
+Se incluyen únicamente **tres grabaciones reales** aportadas por el equipo (E01 Jefe de Planta, E02 Gerente de Operaciones y E03 Técnico). La correspondencia definitiva entre los archivos MP4 y cada URL de Stream sigue pendiente de confirmación; los enlaces se enumeran en el orden en que fueron compartidos.
+
+- [Grabación 1 en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202324461_upc_edu_pe/IQAP5e8dn0yhQY3L36LRTBe_ATyEYBqREHub17NjnAOoeBs?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=uwNoPi)
+- [Grabación 2 en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202324461_upc_edu_pe/IQCgWLgTjns1T6HIqOm0lbuZAWSdUbm4AuT0lfSPbGicQQ8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=OhDqkm)
+- [Grabación 3 en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202324461_upc_edu_pe/IQALFPlFxumyQrXU888fIzevAWpVsdnZGXzEaKdIgfr2ZPo?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=w0a8ne)
+
+Las fichas, minutos y capturas correspondientes a E01–E03 se documentan en [5.3. Validation Interviews](../50-capitulo-5-product-implementation.md#53-validation-interviews). El conjunto no equivale a las 9 entrevistas mínimas requeridas por la rúbrica.
 <div style="page-break-after: always;"></div>
 
 ## Anexo E. Despliegues

@@ -1324,90 +1324,114 @@ Se mantiene pendiente incorporar evidencia completa de algunos flujos de extremo
 
 ### 5.3. Validation Interviews
 
-Las entrevistas de validación tienen como objetivo determinar si los usuarios de los segmentos objetivo comprenden FixCore y pueden utilizar sus funcionalidades para realizar actividades relacionadas con la gestión del mantenimiento industrial.
+Durante el Sprint 3 se registraron **tres grabaciones de sesiones de interacción** con la Landing Page y la aplicación web de FixCore. Esta sección documenta los recorridos visibles en los archivos MP4 proporcionados por el equipo. Las capturas y los tiempos señalados son evidencias audiovisuales; **no se interpretan como declaraciones u opiniones del entrevistado**, porque el audio todavía no cuenta con una transcripción verificable.
 
-Estas sesiones deben permitir identificar dificultades de interacción, problemas de comprensión y oportunidades de mejora.
+El propósito de la validación es identificar si personas representativas de los segmentos objetivo comprenden la propuesta de valor y pueden realizar actividades en la aplicación. Las demostraciones existentes permiten documentar pantallas y operaciones, pero aún no permiten medir autónomamente el éxito de tareas, la satisfacción de los participantes ni sus sugerencias.
 
 #### 5.3.1. Diseño de Entrevistas
 
-La validación contempla la interacción de los participantes con la Landing Page y con los módulos de la Web Application correspondientes a sus necesidades.
+**Objetivo:** evaluar la comprensión del Landing Page, la navegación, la ejecución de tareas relevantes y la claridad de mensajes en la Web Application. Se consideran usabilidad, arquitectura de información y diseño inclusivo.
 
-**Escenarios de validación**
+Los **segmentos objetivo comerciales** identificados en el Capítulo II son (1) pymes de manufactura y producción, (2) firmas consultoras y contratistas de ingeniería industrial, y (3) técnicos y operarios de mantenimiento industrial. Los **roles de prueba** en FixCore (Gerente de Operaciones, Jefe de Planta y Técnico) son perfiles de acceso al software; no se debe suponer que por probar un rol se pertenece a un segmento comercial determinado.
 
-| Perfil | Actividades propuestas |
-|---|---|
-| Gerente de Operaciones | Consultar indicadores generales, revisar plantas y explorar reportes. |
-| Jefe de Planta | Consultar máquinas, registrar fallas y administrar órdenes de trabajo. |
-| Técnico de Mantenimiento | Consultar órdenes asignadas y revisar información de repuestos. |
+| Grabación | Rol utilizado en FixCore | Escenarios mostrados en la grabación | Objetivo de la observación |
+|---|---|---|---|
+| E01 | Jefe de Planta | Landing Page, máquinas, fallas, órdenes e inventario | Revisar el acceso y la organización de operaciones de mantenimiento |
+| E02 | Gerente de Operaciones | Landing Page, plantas, tablero, órdenes, planificación y reportes | Revisar la visualización de información para supervisión |
+| E03 | Técnico | Landing Page, órdenes asignadas, repuestos y cierre de orden | Revisar la secuencia de atención y registro del trabajo |
 
-**Preguntas de evaluación**
+**Guía de preguntas de validación:** ¿qué comprende de FixCore al visitar la Landing Page?, ¿qué información encuentra primero?, ¿puede ubicar las opciones necesarias para su rol?, ¿entiende los campos y estados?, ¿qué tarea le resulta más fácil o difícil?, ¿qué problema o mejora identifica?, ¿utilizaría la herramienta en su contexto laboral y por qué? Estas preguntas constituyen la guía de análisis; **no se afirma que todas hayan sido formuladas en las grabaciones**.
 
-1. ¿Fue sencillo identificar las principales funcionalidades?
-2. ¿Pudo encontrar la información que necesitaba?
-3. ¿Los formularios fueron comprensibles?
-4. ¿Tuvo dificultades para realizar alguna actividad?
-5. ¿Los mensajes del sistema fueron claros?
-6. ¿Qué aspectos considera que deberían mejorar?
-7. ¿Utilizaría una herramienta como FixCore en sus actividades?
-
-La información recopilada permitirá identificar aspectos positivos y problemas de usabilidad.
+Para cada participante, el registro completo debe contrastar los resultados observados con nombre y apellidos, edad, distrito, ocupación, segmento objetivo, tiempo de tarea y observaciones expresadas. Los datos no visibles ni verificados se mantienen expresamente sin confirmar. Se utilizaron cuentas de prueba, que no deben confundirse con las identidades de los participantes.
 
 #### 5.3.2. Registro de Entrevistas
 
-Para completar la validación se deben registrar entrevistas de usuarios pertenecientes a los segmentos objetivo.
+Se dispone de **tres archivos MP4**, con una duración total de aproximadamente **34 minutos y 2 segundos**. Se registran únicamente esas tres sesiones; se han eliminado las diez filas vacías que no correspondían a entrevistas efectivamente aportadas.
 
-Cada entrevista deberá incluir identificación del participante, fecha, duración, enlace de grabación y principales observaciones.
-
-**Registro de entrevistas**
-
-| ID | Segmento | Participante | Fecha | Video | Estado |
+| ID | Participante identificado en Teams | Rol de prueba | Duración del MP4 | Fecha de la entrevista | Estado de registro |
 |---|---|---|---|---|---|
-| E01 | Segmento objetivo 1 | Por registrar | Por confirmar | Pendiente | Pendiente |
-| E02 | Segmento objetivo 1 | Por registrar | Por confirmar | Pendiente | Pendiente |
-| E03 | Segmento objetivo 1 | Por registrar | Por confirmar | Pendiente | Pendiente |
-| E04 | Segmento objetivo 1 | Por registrar | Por confirmar | Pendiente | Pendiente |
-| E05 | Segmento objetivo 1 | Por registrar | Por confirmar | Pendiente | Pendiente |
-| E06 | Segmento objetivo 2 | Por registrar | Por confirmar | Pendiente | Pendiente |
-| E07 | Segmento objetivo 2 | Por registrar | Por confirmar | Pendiente | Pendiente |
-| E08 | Segmento objetivo 2 | Por registrar | Por confirmar | Pendiente | Pendiente |
-| E09 | Segmento objetivo 2 | Por registrar | Por confirmar | Pendiente | Pendiente |
-| E10 | Segmento objetivo 2 | Por registrar | Por confirmar | Pendiente | Pendiente |
+| E01 | «George» (apellido no verificado) | Jefe de Planta | 11:59.70 | Por confirmar | Grabación disponible; respuestas orales pendientes de verificar |
+| E02 | «Alberca Saavedra, Víctor Manuel» (nombre visible en Teams) | Gerente de Operaciones | 13:36.63 | Por confirmar | Grabación disponible; respuestas orales pendientes de verificar |
+| E03 | «cabanillas anderson» (nombre visible en Teams) | Técnico | 08:25.97 | Por confirmar | Grabación disponible; respuestas orales pendientes de verificar |
 
-La cantidad final de entrevistas debe ajustarse a los segmentos objetivo establecidos en el capítulo de investigación y a las indicaciones de la rúbrica.
+**Enlaces de Microsoft Stream proporcionados por el equipo** (en el orden en que fueron compartidos):
 
-No se presentan entrevistas como realizadas mientras no se disponga de sus evidencias verificables.
+- [Enlace de validación 1 — Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202324461_upc_edu_pe/IQAP5e8dn0yhQY3L36LRTBe_ATyEYBqREHub17NjnAOoeBs?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=uwNoPi)
+- [Enlace de validación 2 — Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202324461_upc_edu_pe/IQCgWLgTjns1T6HIqOm0lbuZAWSdUbm4AuT0lfSPbGicQQ8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=OhDqkm)
+- [Enlace de validación 3 — Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202324461_upc_edu_pe/IQALFPlFxumyQrXU888fIzevAWpVsdnZGXzEaKdIgfr2ZPo?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=w0a8ne)
+
+**Control de correspondencia:** los tres enlaces no se han podido abrir para comparar sus títulos y duraciones. Por ello, **aún no se asigna de manera definitiva cada enlace a E01, E02 o E03**; antes de la entrega se deberá confirmar esa correspondencia y los permisos de visualización en Stream. Los nombres de los MP4 se muestran en cada ficha.
+
+**E01 — Interacción con el perfil de Jefe de Planta («George»)**
+
+- Archivo aportado: `WhatsApp Video 2026-11-10 at 02.13.01.mp4`.
+- Identificación: en la videollamada aparece el nombre «George». **Edad, distrito, apellido, cargo laboral real y segmento objetivo: sin verificar**.
+- **00:20:** Landing Page y presentación de FixCore; **00:50–02:20:** secciones de características y planes.
+- **02:50–03:50:** vista de Jefe de Planta y listado de máquinas con filtros.
+- **04:20–05:50:** formulario de registro y ficha de una máquina.
+- **06:20–08:50:** reporte de falla y creación/detalle de una Orden de Trabajo.
+- **09:20–11:50:** inventario, registro de repuesto y consulta de movimientos.
+- **Resumen sustentado:** se observan pantallas de registro, búsqueda, creación y consulta correspondientes a máquinas, fallas, órdenes e inventario. No es posible deducir a partir de la pantalla qué tan fácil le resultaron estas tareas al entrevistado ni si las realizó sin ayuda.
+
+![E01: captura real de la grabación de validación del Jefe de Planta](assets/images/validation-sprint3/av2-validacion-e01-jefe-planta.jpg)
+
+*Figura E01. Captura de la sesión con el formulario de registro de máquina y participantes de la videollamada; archivo original E01.*
+
+**E02 — Interacción con el perfil de Gerente de Operaciones (Víctor Manuel Alberca Saavedra)**
+
+- Archivo aportado: `WhatsApp Video 2026-11-10 at 01.26.11.mp4`.
+- Identificación: nombre visible en Teams. **Edad, distrito, cargo laboral real y segmento objetivo: sin verificar**.
+- **00:20–02:20:** Landing Page y pantalla de inicio de sesión.
+- **02:50–05:50:** dashboard, indicadores, plantas y detalle de planta.
+- **06:20–08:20:** consulta/creación de órdenes y mantenimiento preventivo.
+- **08:50–10:50:** desempeño de técnicos, indicadores y vista previa de reportes.
+- **11:50–13:20:** regreso al resumen y consulta de órdenes.
+- **Resumen sustentado:** se observan módulos de supervisión de plantas, seguimiento de órdenes y reportes. La vista previa del reporte no permite concluir que el PDF fue descargado ni que sus métricas fueron verificadas.
+
+![E02: captura real de la grabación de validación de Gerencia](assets/images/validation-sprint3/av2-validacion-e02-gerente-operaciones.jpg)
+
+*Figura E02. Captura del resumen de plantas e indicadores del perfil de Gerente de Operaciones; archivo original E02.*
+
+**E03 — Interacción con el perfil de Técnico («cabanillas anderson»)**
+
+- Archivo aportado: `entrevista de validación (técnico).mp4`.
+- Identificación: nombre visible en Teams. **Edad, distrito, profesión real y segmento objetivo: sin verificar**.
+- **00:20–02:20:** Landing Page, ingreso a la aplicación y panel de Técnico.
+- **02:50–03:50:** consulta de órdenes asignadas y máquinas.
+- **04:20–05:20:** consulta de una orden y visualización del cambio de pendiente a en progreso.
+- **04:50–06:50:** consulta de repuestos y registro de un repuesto de prueba asociado a la orden.
+- **07:20–08:20:** formulario de cierre y visualización final de una orden con estado `COMPLETADA`.
+- **Resumen sustentado:** se muestra una secuencia de ejecución de una orden que culmina con una orden completada en la interfaz. No se demuestra solo con el video el descuento real de inventario, los registros persistidos en PostgreSQL ni el bloqueo de acceso a órdenes de otros técnicos.
+
+![E03: captura de la sesión del Técnico](assets/images/validation-sprint3/av2-validacion-e03-tecnico.jpg)
+
+*Figura E03-A. Panel y órdenes del rol Técnico, con la videollamada visible.*
+
+![E03: orden completada al final de la grabación](assets/images/validation-sprint3/av2-validacion-e03-orden-completada.jpg)
+
+*Figura E03-B. Una Orden de Trabajo aparece como `COMPLETADA` al final de la grabación.*
+
+**Datos y resultados aún no comprobados:** no se dispone de edad, distrito ni ocupación confirmados, de la fecha exacta de cada sesión, de transcripciones de las respuestas orales ni de evidencia para afirmar citas textuales, niveles de satisfacción, dificultad percibida o aprobación de funcionalidades por los participantes. Los videos sí permiten registrar recorridos y momentos de interacción visual.
+
+**Alcance respecto a la rúbrica:** el Final Project Statement, sección *Validation Interviews*, solicita **de 3 a 5 entrevistas por cada uno de los tres segmentos objetivo** (mínimo 9 entrevistas). El equipo ha proporcionado **solo tres grabaciones en total**; por tanto, esta documentación representa la totalidad de las evidencias disponibles, pero **no satisface el mínimo de participantes de la rúbrica** y tampoco acredita por sí sola tres segmentos distintos. No se incorporan entrevistas inexistentes ni se declaran hallazgos de participantes que no puedan corroborarse.
 
 #### 5.3.3. Evaluaciones según heurísticas
 
-Las observaciones obtenidas en las entrevistas deberán analizarse utilizando criterios de usabilidad, arquitectura de información y diseño inclusivo.
+La evaluación se organiza según el enfoque exigido por el Anexo D del Final Project Statement: **usabilidad, arquitectura de información y diseño inclusivo**. Se distingue entre elementos visibles en las grabaciones y problemas realmente expresados u observados en el comportamiento del usuario. Sin transcripción del audio ni registro sistemático de errores, **no es válido inventar infracciones heurísticas, severidades o porcentajes de éxito**.
 
-Se consideran los siguientes aspectos:
-
-- Visibilidad del estado del sistema.
-- Consistencia de las interfaces.
-- Prevención de errores.
-- Claridad de los mensajes.
-- Facilidad para encontrar funcionalidades.
-- Accesibilidad y comprensión de la información.
-- Correspondencia entre las tareas del usuario y las funcionalidades ofrecidas.
-
-Los problemas identificados deberán clasificarse según su severidad y acompañarse de propuestas de mejora.
-
-**Registro de evaluación**
-
-| ID | Heurística o criterio | Problema identificado | Severidad | Propuesta de mejora | Estado |
+| ID | Área / heurística o principio | Evidencia visible y minuto aproximado | Valoración sustentada | Severidad | Acción de verificación o mejora |
 |---|---|---|---|---|---|
-| H01 | Por evaluar | Pendiente de entrevista | Por determinar | Por definir | Pendiente |
-| H02 | Por evaluar | Pendiente de entrevista | Por determinar | Por definir | Pendiente |
-| H03 | Por evaluar | Pendiente de entrevista | Por determinar | Por definir | Pendiente |
+| H01 | Usabilidad: visibilidad del estado | E03, 04:20–08:20: estados pendiente, en progreso y completada | Se observan indicadores de estado. No se verifica si fueron comprendidos sin ayuda | Sin calificar | Preguntar qué significa cada estado sin ofrecer pistas |
+| H02 | Usabilidad: prevención de errores | E03, 07:20: formulario de cierre y validación de descripción | Se observa validación del formulario. No se puede evaluar la claridad percibida del mensaje | Sin calificar | Comprobar mensajes ante campos vacíos y corrección autónoma |
+| H03 | Arquitectura de información: organización y búsqueda | E01, 03:20–03:50; E02, 06:20–07:50: listas y filtros | Existen opciones de filtrado y consulta. No se ha medido facilidad para encontrarlas | Sin calificar | Solicitar búsquedas sin guía y anotar desvíos o errores |
+| H04 | Usabilidad: información y retroalimentación | E02, 09:50–10:50: vista previa del reporte | Se muestra una previsualización, pero no se acredita una exportación PDF completa; es una limitación de evidencia, no un defecto UX demostrado | Sin calificar | Ejecutar exportación y revisar archivo, mensajes de error y comprensión de datos |
+| H05 | Diseño inclusivo: idioma, accesibilidad y adaptación | E01/E02/E03: selector de idioma visible en la aplicación | La presencia del selector no demuestra navegación por teclado, compatibilidad con lector de pantalla ni adecuación en móvil | Sin calificar | Verificar contraste, foco, etiquetas ARIA, lectura de mensajes y responsive |
 
-[EVIDENCIA PENDIENTE: resultados de las evaluaciones heurísticas]
+**Formato de registro para hallazgos reales:** para cada dificultad identificada posteriormente, registrar la pantalla y tarea, nombre del principio vulnerado, descripción del problema, evidencia audiovisual con tiempo, escala de severidad 0–4 del Anexo D y la mejora propuesta. A la fecha de esta revisión no se atribuyen afirmaciones orales a los participantes ni se presentan problemas hipotéticos como si estuvieran confirmados.
 
-La evaluación deberá completarse a partir de observaciones reales de los participantes, evitando registrar resultados no verificados.
+**Conclusión de la validación disponible:** las tres grabaciones muestran recorridos funcionales de FixCore desde roles diferentes, incluyendo un flujo de Orden de Trabajo hasta un estado completado. La conclusión es **descriptiva y limitada a lo observable**: no acredita satisfacción de usuarios, facilidad de aprendizaje, cumplimiento del número mínimo por segmento ni validación integral de permisos y persistencia. Se recomienda completar primero la verificación de identidad, el audio y los hallazgos antes de emitir recomendaciones basadas en opiniones de entrevistados.
 
----
-
-### 5.4. Video About-the-Product
+---### 5.4. Video About-the-Product
 
 El Video About-the-Product tiene como objetivo presentar FixCore, explicar el problema de mantenimiento industrial que aborda y demostrar sus principales funcionalidades.
 
