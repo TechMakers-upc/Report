@@ -153,7 +153,7 @@ Los cambios se registraron mediante commits descriptivos y se integraron utiliza
 
 ### 5.1.4. Software Deployment Configuration
 
-FixCore utiliza servicios independientes para sus principales componentes.
+FixCore se distribuye en tres partes: Landing Page, aplicación web Angular y API REST de Spring Boot. La base PostgreSQL almacena la información de negocio. Dentro del backend los módulos están separados por bounded contexts, pero funcionan como un monolito modular, no como servicios desplegados individualmente.
 
 **Landing Page — GitHub Pages**
 
@@ -756,8 +756,8 @@ Se priorizaron los módulos de autenticación, plantas, máquinas, mantenimiento
 | Sprint 2 Review Summary | Se desarrollaron las interfaces principales de Angular utilizando una API simulada mediante JSON Server. |
 | Sprint 2 Retrospective Summary | Se identificó la necesidad de incorporar persistencia real, autenticación, autorización y contratos REST estables. |
 | Sprint Goal | Integrar la Web Application con servicios propios que permitan realizar operaciones persistentes y controladas según el rol del usuario. |
-| Sprint Velocity | Pendiente de determinar mediante aceptación de User Stories completas. |
-| Sum of Story Points | Pendiente de conciliar con el Product Backlog. |
+| Sprint Velocity | No calculada. El tablero registra tareas técnicas terminadas, pero no identifica las User Stories aceptadas que permitirían sumar la velocidad. |
+| Sum of Story Points | No se asignó una suma independiente para Sprint 3: la planificación se hizo por 19 tareas técnicas y 145 horas estimadas. Los rangos de User Stories son referencias funcionales, no puntos aceptados. |
 | Work Items | T037–T055 |
 | Planning Meeting Duration | 60 min (de 7:00 PM a 8:00 PM). |
 | Estimated Workload | 145 horas estimadas para 19 tareas (T037–T055); no son horas efectivamente trabajadas. |
@@ -863,7 +863,7 @@ El Sprint Backlog 3 contiene diecinueve actividades técnicas, numeradas desde T
 
 Las diecinueve actividades se encuentran registradas en `Done` en Trello. Los rangos de User Stories de las tareas T048 y T049 expresan su alcance funcional previsto; por sí solos no demuestran que todas esas historias hayan sido aceptadas. El estado del tablero no sustituye las evidencias técnicas necesarias para comprobar cada flujo funcional.
 
-Las horas corresponden a estimaciones de trabajo y no a registros efectivos de tiempo.
+Las 145 horas son la suma de las estimaciones de las 19 tareas. No deben interpretarse como horas trabajadas ni convertirse directamente a Story Points; para calcular la velocidad se necesita la lista de User Stories aceptadas por el equipo.
 
 #### 5.2.3.4. Development Evidence for Sprint Review
 
@@ -871,27 +871,27 @@ Durante el Sprint 3 se implementaron funcionalidades y correcciones en los repos
 
 La siguiente tabla presenta commits representativos de los cambios realizados.
 
-| Repository | Branch integrada | Commit ID | Commit Message | Author | Committed on |
-|---|---|---|---|---|---|
-| Backend | main | `f6764451` | Initialize Spring Boot backend | AlvarLC | 2026-10-20 |
-| Backend | main | `07f4d101` | Configure PostgreSQL datasource | AlvarLC | 2026-10-20 |
-| Backend | main | `1d4f117f` | Enable Flyway auto-configuration | AlvarLC | 2026-10-20 |
-| Backend | main | `ac134bec` | Enforce clean architecture dependency rules | AlvarLC | 2026-10-21 |
-| Backend | main | `462c8b8d` | Allow plant managers to update their plant | Giuseppe152004 | 2026-11-03 |
-| Backend | main | `5a06831b` | Set version 1.0.1 | Giuseppe152004 | 2026-11-03 |
-| Backend | main | `4f9d7737` | Lock work orders during mutations | diego27-16 | 2026-11-03 |
-| Backend | main | `b8bb1411` | Prevent integer overflow in stock | diego27-16 | 2026-11-03 |
-| Frontend | develop/main | `2ec408e6` | Integrate plant deletion with Spring Boot | AlvarLC | 2026-10-30 |
-| Frontend | develop/main | `4908ae10` | Integrate backend mark-as-read endpoint | AlvarLC | 2026-11-03 |
-| Frontend | develop/main | `bc022973` | Verify pipeline and resolve session injection conflict | AlvarLC | 2026-11-03 |
-| Frontend | develop/main | `3d14560d` | Map numeric user and plant IDs | Giuseppe152004 | 2026-11-03 |
-| Frontend | develop/main | `f6a159c2` | Skip analytics requests for technicians | Giuseppe152004 | 2026-11-03 |
-| Frontend | develop/main | `435662ca` | Use Spring Boot authentication | diego27-16 | 2026-11-02 |
-| Frontend | develop/main | `f712bc2e` | Start only assigned work orders | diego27-16 | 2026-11-02 |
-| Frontend | develop/main | `d27aa7f4` | Map real spare part resources | diego27-16 | 2026-11-02 |
-| Landing-Page | main | `1cb02e44` | Improve responsive breakpoints and mobile layout | Giuseppe152004 | 2026-10-25 |
+| Repository | Branch integrada | Commit ID | Commit Message | Commit Message Body | Author | Committed on |
+|---|---|---|---|---|---|---|
+| Backend | main | `f6764451` | chore: initialize Spring Boot backend | Sin cuerpo adicional | AlvarLC | 2026-10-20 |
+| Backend | main | `07f4d101` | chore: configure PostgreSQL datasource | Sin cuerpo adicional | AlvarLC | 2026-10-20 |
+| Backend | main | `1d4f117f` | fix: enable Flyway auto-configuration | Sin cuerpo adicional | AlvarLC | 2026-10-20 |
+| Backend | main | `ac134bec` | test: enforce clean architecture dependency rules | Sin cuerpo adicional | AlvarLC | 2026-10-21 |
+| Backend | main | `462c8b8d` | fix(asset): let plant managers update their own plant | Sin cuerpo adicional | Giuseppe152004 | 2026-11-03 |
+| Backend | main | `5a06831b` | build: set version 1.0.1 | Sin cuerpo adicional | Giuseppe152004 | 2026-11-03 |
+| Backend | main | `4f9d7737` | fix(workorders): lock work orders during mutations | Sin cuerpo adicional | diego27-16 | 2026-11-03 |
+| Backend | main | `b8bb1411` | fix(inventory): prevent integer overflow when receiving stock | Sin cuerpo adicional | diego27-16 | 2026-11-03 |
+| Frontend | develop/main | `2ec408e6` | feat: integrate plant deletion with Spring Boot | Sin cuerpo adicional | AlvarLC | 2026-10-30 |
+| Frontend | develop/main | `4908ae10` | feat(alerts): integrate backend mark-as-read endpoint | Sin cuerpo adicional | AlvarLC | 2026-11-03 |
+| Frontend | develop/main | `bc022973` | ci(frontend): verify pipeline and resolve session injection conflict | Sin cuerpo adicional | AlvarLC | 2026-11-03 |
+| Frontend | develop/main | `3d14560d` | fix(iam): map numeric user and plant ids from the API to string ids | Sin cuerpo adicional | Giuseppe152004 | 2026-11-03 |
+| Frontend | develop/main | `f6a159c2` | fix(analytics): skip analytics requests for technicians | Sin cuerpo adicional | Giuseppe152004 | 2026-11-03 |
+| Frontend | develop/main | `435662ca` | fix(frontend): use Spring Boot authentication instead of public demo flow | Sin cuerpo adicional | diego27-16 | 2026-11-02 |
+| Frontend | develop/main | `f712bc2e` | test(work-orders): start only assigned orders | Sin cuerpo adicional | diego27-16 | 2026-11-02 |
+| Frontend | develop/main | `d27aa7f4` | test(inventory): map real spare part resources | Sin cuerpo adicional | diego27-16 | 2026-11-02 |
+| Landing-Page | main | `1cb02e44` | fix(styles): clean up responsive breakpoints and mobile layout | Elimina reglas CSS duplicadas; mejora selector ES/EN, media queries, planes y botones en móvil; ajusta enlaces y espacios. Resumen del cuerpo original. | Giuseppe152004 | 2026-10-25 |
 
-Estos commits representan una selección de los cambios implementados, no la totalidad de las contribuciones.
+Estos commits representan una selección de cambios. Los mensajes y la presencia o ausencia de cuerpo adicional se comprobaron en el historial de GitHub. En Landing Page se presenta un resumen del cuerpo extenso para que la tabla sea legible.
 
 **Pull Requests de Backend**
 
@@ -1076,6 +1076,54 @@ La exposición de Swagger en producción depende de la configuración del entorn
 | Work Orders | POST | `/work-orders/{id}/completion` | Solicitar el cierre de una orden con las validaciones correspondientes. |
 | Analytics | GET | `/analytics/summary` | Consultar indicadores. |
 | Notifications | GET | `/alerts` | Consultar alertas. |
+
+**Entradas y resultados de las operaciones del Sprint 3**
+
+Las rutas siguientes usan la base `/api/v1`. Salvo el inicio de sesión, requieren un token JWT en `Authorization: Bearer`. En cada solicitud de escritura se envía un JSON conforme al contrato publicado en Swagger. El siguiente resumen explica qué datos se envían y qué resultado se espera; no sustituye los DTO ni afirma que cada operación haya sido probada en producción.
+
+| Módulo | Método y ruta | Parámetros o cuerpo de la solicitud | Resultado esperado o caso de error |
+|---|---|---|---|
+| IAM | `POST /authentication/sign-in` | JSON con `email` y `password` | Sesión con información de cuenta y token; acceso rechazado si las credenciales no son válidas. |
+| IAM | `POST /authentication/sign-up` | JSON con datos del usuario, rol y planta, según Swagger; requiere una cuenta de gerencia autorizada | Nueva cuenta si cumple las reglas; `403` sin permisos. El registro no es público. |
+| IAM | `GET /users/me` | Token JWT; sin cuerpo | Datos de la cuenta autenticada; `401` si la sesión no es válida. |
+| Plantas | `GET /plants` | Token JWT; sin cuerpo | Lista de plantas permitidas por los permisos del usuario. |
+| Plantas | `POST /plants` | JSON con nombre y datos de ubicación de la planta | Registro de planta o error de validación/autorización. |
+| Plantas | `PUT /plants/{id}` | `id` en ruta y JSON con los campos a actualizar | Planta actualizada, o `403` si no puede modificarla. |
+| Plantas | `DELETE /plants/{id}` | `id` en ruta | Eliminación autorizada o conflicto con reglas de negocio. |
+| Activos | `GET /assets` | Token JWT; sin cuerpo | Activos visibles para el usuario. |
+| Activos | `POST /assets` | JSON con los datos de la máquina y su relación con una planta | Nuevo activo o error de validación. |
+| Activos | `PUT /assets/{id}` | `id` y JSON del activo | Cambios guardados si pertenece al alcance autorizado. |
+| Activos | `DELETE /assets/{id}` | `id` en ruta | Eliminación cuando las restricciones lo permiten. |
+| Mantenimiento | `GET /maintenance-plans` | Token JWT; sin cuerpo | Relación de planes accesibles. |
+| Mantenimiento | `POST /maintenance-plans` | JSON con activo, programación y datos requeridos por Swagger | Plan registrado o error de validación. |
+| Inventario | `GET /spare-parts` | Token JWT; sin cuerpo | Relación de repuestos accesibles. |
+| Inventario | `POST /spare-parts` | JSON con datos del repuesto y stock según contrato | Repuesto creado o rechazo por validaciones. |
+| Inventario | `GET /stock-movements` | Token JWT; sin cuerpo | Movimientos de existencias permitidos. |
+| Fallas | `GET /failures` | Token JWT; sin cuerpo | Fallas que el usuario puede consultar. |
+| Fallas | `POST /failures` | JSON con datos de la falla y activo relacionado | Falla registrada o error de validación. |
+| Órdenes | `GET /work-orders` | Token JWT; sin cuerpo | Órdenes visibles según planta y responsabilidad. |
+| Órdenes | `POST /work-orders` | JSON con datos de la intervención y referencias requeridas | Orden registrada si cumple las reglas. |
+| Órdenes | `PATCH /work-orders/{id}/assignment` | `id` y datos de asignación del técnico | Asignación registrada; `403` si el técnico o la orden queda fuera del alcance permitido. |
+| Órdenes | `DELETE /work-orders/{id}` | `id` en ruta | Eliminación únicamente cuando el estado y permisos lo permiten. |
+| Órdenes | `POST /work-orders/{id}/start` | `id` y sesión del usuario autorizado | Inicio de orden o `409` si su estado no permite iniciarla. |
+| Órdenes | `POST /work-orders/{id}/work-logs` | `id` y JSON con el trabajo realizado | Registro de avance asociado a la orden. |
+| Órdenes | `POST /work-orders/{id}/part-usages` | `id` y JSON con el repuesto y cantidad utilizados | Uso registrado o error por reglas de inventario. |
+| Órdenes | `POST /work-orders/{id}/completion` | `id` y datos de cierre definidos en el contrato | Orden completada cuando se satisfacen sus validaciones. |
+| Analítica | `GET /analytics/summary` | Token JWT; sin cuerpo | Indicadores autorizados según el rol. |
+| Alertas | `GET /alerts` | Token JWT; sin cuerpo | Alertas disponibles para la cuenta. |
+
+**Otras rutas del backend.** El README técnico también registra `GET /users`, `GET /users/{id}`, `GET /roles`, cambios de estado y manuales de activos, programación y suspensión de planes, entradas y ajustes de stock, cambios de prioridad o resolución de fallas, métricas de tiempo muerto y rendimiento técnico, y lectura de alertas. Sus parámetros y cuerpos completos deben consultarse en Swagger de la versión utilizada para las pruebas; no se reproducen esquemas JSON no contrastados.
+
+**Ejemplo de consulta protegida** (reemplazar el token con una credencial temporal del entorno de pruebas):
+
+```http
+GET /api/v1/work-orders HTTP/1.1
+Host: backend-zv29.onrender.com
+Authorization: Bearer TOKEN_DE_PRUEBA
+```
+
+Una respuesta satisfactoria devuelve las órdenes autorizadas para el usuario. El backend emplea `400` ante datos inválidos, `401` cuando la autenticación no es válida, `403` si faltan permisos, `404` cuando no existe el recurso y `409` cuando se incumple una regla de negocio. El formato común de error contiene `status`, `message` y `timestamp`.
+
 
 La relación presentada corresponde a los endpoints documentados para el proyecto. Antes de la entrega debe contrastarse con el contrato OpenAPI de la versión efectivamente desplegada.
 

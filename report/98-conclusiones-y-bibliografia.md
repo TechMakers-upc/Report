@@ -36,6 +36,23 @@ Durante el Sprint 3 se documentaron la API REST con Spring Boot, la integración
 
 **Recomendaciones.** Completar los videos About-the-Product y About-the-Team, anexar las capturas de colaboración de GitHub, verificar permisos y persistencia por rol, contrastar los endpoints con la versión desplegada y completar las evidencias de validación sin atribuir declaraciones no comprobadas.
 
+### Contraste de hipótesis Lean UX
+
+En el Capítulo I definimos cinco hipótesis sobre la utilidad de FixCore. Las revisamos con las funciones implementadas y con las tres grabaciones de validación disponibles. Por ahora podemos hablar de avances en la aplicación, pero no de una aceptación comprobada por los usuarios: no tenemos datos suficientes sobre tiempos, satisfacción o uso autónomo.
+
+| Hipótesis del Capítulo I | Qué se pudo observar en AV2 | Resultado de la revisión |
+|---|---|---|
+| H1. Consulta de fichas mediante códigos QR | Se mostraron fichas y listados de máquinas. No hay evidencia suficiente de un acceso completo mediante QR. | Sin validar el uso de QR ni el aumento de interés. |
+| H2. Coordinación mediante Órdenes de Trabajo | Las grabaciones recorren creación, consulta, ejecución y cierre. E03 muestra una orden como `COMPLETADA`. | Funcionalidad demostrada en pantalla; falta contrastar la coordinación y la utilidad percibida. |
+| H3. Inventario relacionado con órdenes | E03 muestra el registro de un repuesto utilizado. No se verificó el descuento persistido en PostgreSQL. | Integración parcialmente observable; resultado de negocio sin validar. |
+| H4. Alertas y notificaciones | El backend documenta endpoints de alertas, pero no se midió si los avisos ayudaron a recordar actividades ni se confirmó envío mediante WhatsApp. | Sin validar el beneficio planteado. |
+| H5. Dashboard para supervisión | E02 muestra indicadores, plantas y vistas de reportes. | Vistas disponibles; comprensión de los indicadores sin medir. |
+
+Las hipótesis sobre la reducción de trabajo manual, la utilidad percibida y la continuidad de uso necesitan pruebas con usuarios de los segmentos objetivo y preguntas cuyas respuestas puedan revisarse. Con tres grabaciones no se alcanza el número de entrevistas solicitado en el enunciado.
+
+**Próximos pasos.** Primero corresponde comprobar el flujo completo de órdenes, permisos e inventario con datos persistidos. Después deben completarse las evaluaciones de usabilidad e inclusión, junto con la prueba de los avisos y la exportación de reportes. Finalmente, las funciones como acceso por QR y notificaciones externas deben contrastarse con los requerimientos y la implementación real antes de presentarlas como terminadas.
+
+
 ### Video About-the-Team
 
 El Video About-the-Team debe explicar el proceso de trabajo seguido por TechMakers, utilizando escenas auténticas de coordinación y desarrollo, narración del proceso y testimonios ante cámara de los participantes sobre sus actividades, logros y competencias. Las secuencias y los tiempos se registrarán a partir del video final efectivamente publicado.

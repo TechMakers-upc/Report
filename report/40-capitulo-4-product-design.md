@@ -1334,9 +1334,9 @@ Realizamos una sesión de Design-Level EventStorming tomando como punto de parti
 
 ### 4.6.2. Software Architecture Context Diagram.
 
-En esta sección se presenta el Diagrama de Contexto de FixCore, con el fin de mostrar el sistema desde una perspectiva general y su relación con los principales usuarios y sistemas externos. El diagrama permite identificar quiénes interactúan con FixCore y cuál es el propósito general de estas interacciones.Este diagrama muestra a FixCore como el sistema central para la gestión del mantenimiento industrial. El administrador de planta utiliza la plataforma para gestionar plantas, activos, actividades de mantenimiento y órdenes de trabajo.El tecnico la usa para reportar fallas, ejecutar ordenes y registrar actividades de mantenimiento,por ultimo qel Consultor Industrial coordina los servicios de mantenimiento y técnicos en las plantas. Además, FixCore se comunica con el Servicio de Notificaciones WhatsApp, un sistema externo encargado de enviar alertas y notificaciones importantes relacionadas con el mantenimiento.
+El diagrama de contexto ubica a FixCore como la plataforma central para gestionar el mantenimiento industrial. El Jefe de Planta organiza máquinas, mantenimientos y órdenes; el Técnico consulta sus tareas y registra las intervenciones; y el Gerente de Operaciones supervisa plantas e indicadores.
 
-
+En el diseño también se considera un servicio externo para notificaciones por WhatsApp. Se trata de una integración prevista: las alertas que actualmente registra la API no demuestran por sí solas el envío real de mensajes mediante WhatsApp. Por ello, esta relación debe entenderse como parte de la arquitectura propuesta y no como una funcionalidad validada en producción.
 <div align="center">
   <strong></strong><br><br>
   <img src="assets/images/FixCoreSystemContext-dark.png" width="700"><br>
@@ -1345,8 +1345,9 @@ En esta sección se presenta el Diagrama de Contexto de FixCore, con el fin de m
 
 ### 4.6.3. Software Architecture Container Diagrams.
 
-En esta sección se presenta el Container Diagram de FixCore, elaborado bajo el C4 Model donde intentamos mostrar los elementos principales de la arquitectura y como se distribuyen las responsabilidades entre ellos. El diagrama incluye la Aplicación Web, API REST, servicios especializados y sus respectivas bases de datos,tambien incluimos el servicio externo de notificaciones.Por ultimo,en el diagrama indicamos las principales decisiones tecnológicas y las formas de comunicación entre los containers mediante HTTPS, REST y JSON. Cada container representa una unidad de despliegue independiente, permitiendo organizar las funcionalidades de FixCore de acuerdo con sus responsabilidades.
+El modelo de contenedores muestra cómo se relacionan la aplicación web Angular, la API REST desarrollada en Spring Boot y la base de datos PostgreSQL. Angular consume los endpoints mediante HTTP/JSON y Spring Boot concentra las reglas de negocio y la persistencia. La Landing Page es otro sitio web, publicado de forma independiente.
 
+En el Sprint 3, el backend se implementó como un **monolito modular**, organizado por bounded contexts dentro de una misma aplicación Spring Boot. Estos contextos no son microservicios desplegados por separado. Si el diagrama representa servicios especializados o bases de datos individuales, debe leerse como una separación de responsabilidades de diseño que todavía necesita ajustarse para reflejar exactamente el despliegue realizado.
 <div align="center">
   <strong></strong><br><br>
   <img src="assets/images/Containers-dark.png" width="700"><br>
@@ -1355,7 +1356,7 @@ En esta sección se presenta el Container Diagram de FixCore, elaborado bajo el 
 
 ### 4.6.4. Software Architecture Components Diagrams.
 
-Ahora presentamos los Diagramas de Componentes de FixCore, desarrollados a partir de los containers definidos apartado anterior. Estos diagramas permiten profundizar en la estructura interna de cada container, identificando sus principales componentes, responsabilidades, relaciones e implementación tecnológica,estos nos ayuda a obtener una vision más detallada de como se organiza cada parte de la plataforma y como es que sus componentes colaboran para cumplir con las funcionalidades definidas para FixCore.
+Los diagramas de componentes presentan las responsabilidades internas de la aplicación web y de los módulos del backend. En la implementación del Sprint 3, las funciones de identidad, activos, planificación, ejecución, inventario, analítica y notificaciones están organizadas en paquetes de una misma aplicación Spring Boot. Esta distribución permite revisar sus dependencias sin afirmar que cada módulo tenga un despliegue propio.
 
 * **1.Diagrama de Componentes – Aplicación Web**
 

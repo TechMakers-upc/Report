@@ -46,7 +46,7 @@ Proyecto
 
 **Periodo 202620**
 
-**Octubre 2026**
+**Noviembre 2026**
 </div>
 
 <div style="page-break-after: always;"></div>
@@ -268,6 +268,12 @@ Proyecto
       <td style="border: 1px solid black;">Alvar Lucas Córdova</td>
       <td style="border: 1px solid black;">Revisión de AV2: corrección del índice, orden de secciones, planificación y trazabilidad del Sprint 3, documentación del API, conclusiones y anexos. Las evidencias audiovisuales y gráficas se mantienen bajo verificación.</td>
     </tr>
+    <tr>
+      <td style="border: 1px solid black; text-align: center;">35</td>
+      <td style="border: 1px solid black; text-align: center;">14/11/2026</td>
+      <td style="border: 1px solid black;">Alvar Lucas Córdova</td>
+      <td style="border: 1px solid black;">Ajuste de redacción y trazabilidad de AV2: colaboración TB1, estimaciones del Sprint 3, tabla de commits, documentación de servicios, relación entre arquitectura y despliegue, y contraste de las hipótesis Lean UX.</td>
+    </tr>
   </tbody>
 </table>
 
@@ -296,6 +302,15 @@ Seguidamente se presenta la pestaña Contributors, donde se muestran los número
 | Villanueva Rodríguez, Giuseppe Adrián | Giuseppe152004 |
 
 ![Contributors Avance 1](../assets/images/collaboration-insight-2-av1.jpeg)
+
+
+**TB1 — Sprint 2 (octubre de 2026)**
+
+En el TB1 organizamos la implementación inicial de la aplicación web por módulos. El reparto registrado en el Sprint Backlog 2 fue: plantas y máquinas (Alvar), mantenimiento preventivo (Sunio), fallas y dashboard (Giuseppe), órdenes de trabajo (Diego) e inventario (Pierre). Cada avance se integró después en Angular para revisar navegación, formularios y consistencia entre pantallas.
+
+En esta etapa todavía trabajábamos con una API simulada. La revisión de los módulos ayudó a identificar los puntos que debíamos resolver en el Sprint 3, principalmente la autenticación, la persistencia y la conexión con servicios REST propios. El detalle de la coordinación y la captura disponible del Sprint 2 se encuentran en [5.2.2.8. Team Collaboration Insights during Sprint](../50-capitulo-5-product-implementation.md#5228-team-collaboration-insights-during-sprint).
+
+Este resumen corresponde al trabajo documentado para TB1. Las capturas específicas de Pulse y Contributors del repositorio Report deben verificarse para esa entrega antes de presentar métricas de participación.
 
 
 <!-- TECHMAKERS-AV2-COLLABORATION -->
@@ -505,6 +520,7 @@ Se utilizaron ramas de trabajo y commits registrados en GitHub para consolidar l
   - [5.4. Video About-the-Product](../50-capitulo-5-product-implementation.md#54-video-about-the-product)
 - [Conclusiones](../98-conclusiones-y-bibliografia.md#conclusiones)
   - [Resultados del AV2 Sprint 3](../98-conclusiones-y-bibliografia.md#resultados-del-av2-sprint-3)
+  - [Contraste de hipótesis Lean UX](../98-conclusiones-y-bibliografia.md#contraste-de-hipótesis-lean-ux)
   - [Video About-the-Team](../98-conclusiones-y-bibliografia.md#video-about-the-team)
 - [Bibliografía](../98-conclusiones-y-bibliografia.md#bibliografía)
 - [Anexos](../annexes/99-anexos.md#anexos)
