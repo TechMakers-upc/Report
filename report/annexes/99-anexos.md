@@ -97,4 +97,4 @@ El video de navegación se documenta en el apartado 5.2.3.5 y el video About-the
 
 El video About-the-Team se documenta en Conclusiones. La grabación se incorpora como evidencia del proceso de trabajo del equipo.
 
-El video de exposición AV2 todavía no tiene enlace registrado en Stream. Se agregará en este anexo cuando el equipo lo publique.
+**Exposición AV2:** enlace de Microsoft Stream no registrado.

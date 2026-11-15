@@ -66,8 +66,8 @@ El video About-the-Team presenta el trabajo realizado por TechMakers durante el 
 |---|---|
 | Publicación en Microsoft Stream | Enlace incorporado |
 | Publicación en YouTube | Enlace incorporado |
-| Duración y secuencias del video | Pendientes de registrar después de revisar el video |
-| Captura representativa | Pendiente de incorporar una imagen real |
+| Duración y secuencias del video | Sin datos registrados en este informe |
+| Captura representativa | No incluida en esta versión |
 | Inserción en la Landing Page | Incorporada al código en español e inglés; verificar reproducción en el sitio publicado. |
 
 El video complementa el apartado Student Outcome, donde se describen las actividades y los aprendizajes del equipo. Los enlaces están registrados; queda revisar los permisos de reproducción con una cuenta de evaluación.

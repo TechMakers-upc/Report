@@ -292,7 +292,13 @@ Proyecto
       <td style="border: 1px solid black;">Alvar Lucas Córdova</td>
       <td style="border: 1px solid black;">Se integró el video About-the-Team a las versiones en español e inglés de la Landing Page y se completó su referencia en el informe.</td>
     </tr>
-  </tbody>
+      <tr>
+      <td style="border: 1px solid black; text-align: center;">39</td>
+      <td style="border: 1px solid black; text-align: center;">15/11/2026</td>
+      <td style="border: 1px solid black;">Alvar Lucas Córdova</td>
+      <td style="border: 1px solid black;">Revisión de la coherencia técnica, los metadatos web y los flujos de usuario del Capítulo IV; actualización de redacción y referencias audiovisuales del AV2.</td>
+    </tr>
+</tbody>
 </table>
 
 <div style="page-break-after: always;"></div>
@@ -328,7 +334,7 @@ En el TB1 organizamos la implementación inicial de la aplicación web por módu
 
 En esta etapa todavía trabajábamos con una API simulada. La revisión de los módulos ayudó a identificar los puntos que debíamos resolver en el Sprint 3, principalmente la autenticación, la persistencia y la conexión con servicios REST propios. El detalle de la coordinación y la captura disponible del Sprint 2 se encuentran en [5.2.2.8. Team Collaboration Insights during Sprint](../50-capitulo-5-product-implementation.md#5228-team-collaboration-insights-during-sprint).
 
-El trabajo del TB1 queda documentado en el Sprint Backlog 2 y en el historial de GitHub. Para completar las evidencias de colaboración de ese periodo faltan las capturas de Pulse y Contributors del repositorio Report.
+El trabajo del TB1 se describe en el Sprint Backlog 2 y se relaciona con los commits del repositorio Report.
 
 
 <!-- TECHMAKERS-AV2-COLLABORATION -->
@@ -349,7 +355,7 @@ Se utilizaron ramas de trabajo y commits registrados en GitHub para consolidar l
 
 Los commits enlazados permiten consultar los cambios de cada integrante. Las tareas de integración, pruebas y despliegue se explican en el apartado 5.2.3.8 del Capítulo V.
 
-**Capturas de colaboración pendientes:** incorporar imágenes de Pulse y Contributors del repositorio Report correspondientes al AV2.
+
 
 <div style="page-break-after: always;"></div>
 
@@ -467,13 +473,13 @@ Los commits enlazados permiten consultar los cambios de cada integrante. Las tar
   - [4.4. Web Applications UX/UI Design.](../40-capitulo-4-product-design.md#44-web-applications-uxui-design)
     - [4.4.1. Web Applications Wireframes.](../40-capitulo-4-product-design.md#441-web-applications-wireframes)
     - [4.4.2. Web Applications Wireflow Diagrams.](../40-capitulo-4-product-design.md#442-web-applications-wireflow-diagrams)
-      - [4.4.2.1. Wireflow 01 — Jefe de Planta registra su cuenta y maquinas.](../40-capitulo-4-product-design.md#4421-wireflow-01--jefe-de-planta-registra-su-cuenta-y-maquinas)
+      - [4.4.2.1. Wireflow 01 — Jefe de Planta registra su cuenta y maquinas.](../40-capitulo-4-product-design.md#4421-wireflow-01--jefe-de-planta-registra-una-máquina)
       - [4.4.2.2. Wireflow 02 — Técnico accede a la informacion de maquinas.](../40-capitulo-4-product-design.md#4422-wireflow-02--técnico-accede-a-la-informacion-de-maquinas)
       - [4.4.2.3. Wireflow 03 — Gerente de Operaciones crea una orden de trabajo](../40-capitulo-4-product-design.md#4423-wireflow-03--gerente-de-operaciones-crea-una-orden-de-trabajo)
       - [4.4.2.4. Wireflow 04 — Integrante de una planta reporta una falla](../40-capitulo-4-product-design.md#4424-wireflow-04--integrante-de-una-planta-reporta-una-falla)
     - [4.4.3. Web Applications Mock-ups.](../40-capitulo-4-product-design.md#443-web-applications-mock-ups)
     - [4.4.4. Web Applications User Flow Diagrams.](../40-capitulo-4-product-design.md#444-web-applications-user-flow-diagrams)
-      - [4.4.4.1. Userflow 01 — Jefe de Planta registra su cuenta y maquinas.](../40-capitulo-4-product-design.md#4441-userflow-01--jefe-de-planta-registra-su-cuenta-y-maquinas)
+      - [4.4.4.1. Userflow 01 — Jefe de Planta registra su cuenta y maquinas.](../40-capitulo-4-product-design.md#4441-userflow-01--jefe-de-planta-registra-una-máquina)
       - [4.4.4.2. Userflow 02 — Técnico accede a la informacion de maquinas.](../40-capitulo-4-product-design.md#4442-userflow-02--técnico-accede-a-la-informacion-de-maquinas)
       - [4.4.4.3. Userflow 03 — Gerente de Operaciones crea una orden de trabajo](../40-capitulo-4-product-design.md#4443-userflow-03--gerente-de-operaciones-crea-una-orden-de-trabajo)
       - [4.4.4.4. Userflow 04 — Integrante de una planta reporta una falla](../40-capitulo-4-product-design.md#4444-userflow-04--integrante-de-una-planta-reporta-una-falla)

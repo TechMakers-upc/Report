@@ -6,7 +6,7 @@
 
 #### 4.1.1.1 Branding
 
-El branding de FixCore se fundamenta en la misión de erradicar el caos operativo y reducir los altos costos por tiempos muertos (downtime) en el sector industrial. La marca busca transmitir solidez, agilidad tecnológica y pragmatismo, posicionándose como una herramienta robusta para la gerencia, pero sin fricción para el técnico de planta. A continuación se detallan los elementos fundamentales de la identidad de FixCore.
+La identidad de FixCore se centra en mejorar la organización del mantenimiento industrial y facilitar el seguimiento de equipos, órdenes de trabajo y repuestos. La marca busca transmitir claridad, confianza y facilidad de uso tanto para personal técnico como para responsables de planta.
 
 **Nombre de la Marca**
 FixCore es una marca compuesta que transmite resolución y centralización. El prefijo "Fix" (reparar o solucionar en inglés) hace referencia directa a la acción principal del mantenimiento y la corrección de fallas. Por su parte, "Core" (núcleo o centro en inglés) representa el corazón de la operación industrial, centralizando los datos, reportes y métricas. La combinación transmite el mensaje de que el mantenimiento no es un gasto secundario, sino el núcleo vital para que la maquinaria y la rentabilidad de la empresa nunca se detengan.
@@ -26,11 +26,11 @@ El eslogan principal de FixCore es "El núcleo de tu mantenimiento industrial". 
 **Valores de Marca**
 FixCore se basa en los siguientes valores fundamentales que guían todas las decisiones de diseño arquitectónico y de interfaz:
 
-**1. Baja Fricción:** La plataforma entiende que el usuario tiene las manos ocupadas o sucias; por ello, la interfaz prioriza el minimalismo y permite reportar fallas en menos de 3 clics, asegurando la adopción por parte del técnico.
+**1. Facilidad de uso:** La interfaz busca simplificar el registro de incidencias y la consulta de órdenes de trabajo para los técnicos de mantenimiento.
 
 **2. Trazabilidad:** Cada orden de trabajo, repuesto y tiempo muerto queda registrado con precisión. El diseño transmite exactitud, permitiendo a la gerencia auditar y tomar decisiones basadas en datos reales.
 
-**3. Agilidad:** FixCore valora el tiempo. La integración con automatizaciones (webhooks a WhatsApp) refleja una marca que reacciona en tiempo real ante las emergencias de la planta.
+**3. Agilidad:** La plataforma contempla alertas para dar seguimiento a las actividades de mantenimiento. La integración con servicios externos de mensajería se mantiene como una posibilidad de evolución del producto.
 
 **4. Pragmatismo:** La plataforma se adapta a la realidad del sector industrial. Evita flujos de trabajo sobre-teorizados y se enfoca directamente en solucionar el problema de la máquina detenida.
 
@@ -133,10 +133,10 @@ Los colores neutrales (basados en tonos fríos/pizarra) construyen la estructura
 
 **Uso de Color en la Interfaz**
 
-El sistema de color de FixCore obedece a estrictas normativas de seguridad industrial y accesibilidad:
+La paleta de colores sigue criterios de legibilidad y señalización visual:
 
-*   El color **nunca** es el único indicador de una falla (las alertas rojas siempre van acompañadas del texto "FALLA" y un icono de advertencia).
-*   Se prioriza el contraste ultra-alto (superando el estándar WCAG AA) debido a que los operarios utilizan las pantallas bajo luces fluorescentes industriales o luz solar directa.
+*   Los estados importantes se acompañan de texto e iconos para que su comprensión no dependa exclusivamente del color.
+*   Se prioriza un contraste adecuado entre texto, fondo y controles para facilitar la lectura en distintos entornos de trabajo.
 *   Los estados interactivos responden de forma evidente (cambio de color + sombra + elevación) para confirmar las acciones táctiles rápidas del técnico en planta.
 
 #### 4.1.1.4. Spacing System
@@ -192,7 +192,7 @@ Los principios de diseño responsivo de FixCore garantizan que la plataforma sea
 FixCore adopta un diseño mobile-first riguroso, asumiendo que el reporte de fallas ocurrirá en condiciones adversas (de pie, con prisa o usando guantes). Este enfoque asegura que:
 * El contenido esencial (botones de reporte y estado de la máquina) sea hiper-visible.
 * Las áreas táctiles tengan un tamaño industrial (mínimo 48x48px).
-* La versión móvil (app/PWA) esté centrada en la acción táctica, mientras que la versión de escritorio se expande hacia el análisis estratégico (dashboards y tablas complejas).
+* La interfaz móvil se centre en operaciones frecuentes de los técnicos
 
 **Breakpoints Established**
 FixCore define los siguientes puntos de quiebre para adaptar su interfaz:
@@ -250,7 +250,7 @@ FixCore cumple con el estándar WCAG AA, priorizando las realidades del trabajo 
 * Las alertas de estado no dependen solo del color: una luz roja siempre va acompañada de la palabra en negrita "**FALLA CRÍTICA**" y un icono triangular de advertencia.
 
 **Keyboard Navigation & Screen Readers**
-* Soporte total de teclado (Tab, Enter, Space) y etiquetas ARIA para garantizar que el software sea utilizable por personal de oficina con limitaciones motrices o de visión.
+* Se considera la navegación por teclado y el uso de etiquetas accesibles como criterios de diseño que deben revisarse durante las pruebas.
 
 #### 4.1.2.6. Animation Guidelines
 
@@ -261,7 +261,7 @@ En un entorno industrial, la velocidad supera a la estética. Las animaciones en
 * **Carga de datos:** Usar *Skeleton Loaders* (esquemas grises parpadeantes) en lugar de spinners para que la interfaz se sienta más rápida, crucial cuando el Wi-Fi de la fábrica es inestable.
 
 **Animation Principles**
-* **Ultrarrápidas:** 150ms-200ms como máximo. El software debe sentirse instantáneo y mecánico, no flotante ni lento.
+*   **Breves y discretas:** las transiciones visuales se diseñan para no dificultar la interacción.
 * Sin efectos de rebote (bounces) innecesarios; se utilizan curvas *ease-out* directas.
 * Compatibilidad total con la preferencia del sistema operativo de reducción de movimiento (*prefers-reduced-motion*).
 
@@ -290,15 +290,16 @@ La organización del Landing Page de FixCore aplica los siguientes principios:
 
 #### 4.2.1.2. Organización de la Aplicación Web (Dashboard y Área Principal)
 
-La aplicación web de FixCore posee una estructura dual, ya que debe satisfacer a dos perfiles de usuario con necesidades diametralmente opuestas: la urgencia táctica del técnico en planta y la necesidad analítica del gerente.
+La aplicación web de FixCore organiza sus funciones según tres roles principales: Gerente de Operaciones, Jefe de Planta y Técnico de Mantenimiento. Cada uno accede a las funciones relacionadas con sus responsabilidades, desde la supervisión general hasta el registro y ejecución de trabajos.
 
 **Sistema de Organización Principal**
 
 La aplicación utiliza un sistema matricial que combina los siguientes enfoques:
 
-**1. Organización por audiencia (Roles de usuario):**
-* **Técnico/Operario:** El usuario que está en la fábrica reportando y solucionando fallas. Su vista (mobile-first) se organiza en torno a la inmediatez: Escanear QR, Órdenes Asignadas Hoy, Reportar Falla.
-* **Gerente/Supervisor:** El usuario que gestiona recursos y analiza datos. Su vista (desktop-first) se organiza en torno a métricas generales, aprobación de compras, control de inventario y tiempos medios de reparación (MTTR).
+**1. Organización por audiencia (roles de usuario):**
+* **Gerente de Operaciones:** consulta indicadores, plantas y reportes para supervisar las actividades de mantenimiento.
+* **Jefe de Planta:** administra los activos, planifica mantenimientos y realiza el seguimiento de fallas, órdenes e inventario en sus plantas.
+* **Técnico de Mantenimiento:** consulta las órdenes asignadas, registra avances, reporta fallas y documenta los trabajos realizados.
 
 **2. Organización por función principal (Áreas del software):**
 * **Mantenimiento:** Centro de operaciones para Órdenes de Trabajo (OTs), asignación de tareas y reportes de falla.
@@ -411,146 +412,91 @@ Las etiquetas en FixCore se relacionan de manera predecible y jerárquica:
 
 ### 4.2.3. SEO Tags and Meta Tags
 
-En esta sección se incluyen los SEO Tags y Meta Tags, junto con los valores que se asignarán en las principales páginas de FixCore, abarcando tanto el sitio web estático (Landing Page) desplegado en Vercel como la estructura de la Web Application. Se definen Title, Meta Description, Keywords, Author y esquemas de datos clave.
+La Landing Page de FixCore se desarrolló con HTML, CSS y JavaScript y está publicada mediante GitHub Pages. La aplicación de gestión está implementada con Angular y se despliega en Vercel. La optimización para buscadores se centra principalmente en las páginas públicas; las vistas privadas de la aplicación requieren un tratamiento diferente.
 
 #### 4.2.3.1. Configuración SEO General
 
-FixCore implementa una configuración SEO robusta gestionada a través del enrutador y el archivo `app/layout.tsx` para maximizar su visibilidad en buscadores B2B.
+**Sitio público:** https://techmakers-upc.github.io/Landing-Page/
 
-**Nombre del Sitio**
-FixCore - El núcleo de tu mantenimiento industrial
+**Versiones disponibles:** `index.html` (inglés) e `index-es.html` (español).
 
-**Dominio Principal**
-https://fixcore-eta.vercel.app/
+Ambas versiones incluyen un título, una descripción y enlaces `hreflang` para diferenciar los idiomas. Los metadatos se definen directamente en los archivos HTML de la Landing Page.
 
 #### 4.2.3.2. Landing Page SEO Tags
 
-El Landing Page (`app/page.tsx`) es el punto de entrada más importante para la captación de leads y conversiones comerciales.
+**Título en español:** FixCore — Plataforma CMMS para Gestión de Mantenimiento Industrial.
 
-**Title Tag**
-FixCore | El núcleo de tu mantenimiento industrial - Software CMMS
+**Descripción en español:** Centraliza activos, órdenes de trabajo, mantenimiento preventivo y repuestos con FixCore, la plataforma web para mantenimiento industrial.
 
-**Meta Description**
-Erradica el caos operativo y reduce los tiempos muertos con la plataforma líder en gestión de activos y órdenes de trabajo. ¡Moderniza tu mantenimiento industrial hoy!
+**Título en inglés:** FixCore — CMMS Platform for Industrial Maintenance Management.
 
-**Meta Keywords**
-mantenimiento industrial, gestión de activos, órdenes de trabajo, reducir tiempos muertos, software CMMS, SaaS B2B, mantenimiento predictivo, control de inventario
+**Descripción en inglés:** Organize assets, work orders, preventive maintenance and spare parts with FixCore, the industrial maintenance platform.
 
-**Meta Author**
-FixCore Team
-
-**Open Graph Tags (para redes sociales)**
-*   `og:title` = FixCore | El núcleo de tu mantenimiento industrial
-*   `og:description` = Erradica el caos operativo y reduce los tiempos muertos en tu planta. Diseñado para Gerentes, Supervisores y Técnicos.
-*   `og:image` = https://fixcore-eta.vercel.app/favicon.ico
-*   `og:url` = https://fixcore-eta.vercel.app/
-*   `og:type` = website
-*   `og:site_name` = FixCore
-
-**Twitter Card Tags**
-*   `twitter:card` = summary_large_image
-*   `twitter:title` = FixCore | El núcleo de tu mantenimiento industrial
-*   `twitter:description` = Erradica el caos operativo y reduce los tiempos muertos con la plataforma líder.
-*   `twitter:image` = https://fixcore-eta.vercel.app/favicon.ico
+Las etiquetas Open Graph y Twitter Cards son una mejora recomendable para controlar cómo aparece el sitio cuando se comparte en redes sociales. Su implementación deberá comprobarse en los archivos publicados antes de considerarlas parte de la versión desplegada.
 
 #### 4.2.3.3. Web Application - Dashboard SEO Tags
 
-El dashboard es la página principal (escritorio gerencial) a la que accede el usuario después de iniciar sesión en la aplicación.
-
-**Title Tag**
-Dashboard Ejecutivo - FixCore
-
-**Meta Description**
-Tu espacio de control industrial. Maximiza el ROI, audita tiempos muertos (MTTR) y supervisa el estado de tu planta en tiempo real.
-
-**Meta Robots**
-`noindex, nofollow`
-*(El dashboard contiene información confidencial de la planta y no debe ser indexado por los motores de búsqueda).*
+Los paneles de Angular presentan información operativa de usuarios autenticados y no están destinados a aparecer en resultados de búsqueda. Para estas vistas se recomienda una directiva `noindex, nofollow`, además de los controles de autenticación y autorización implementados en la aplicación.
 
 #### 4.2.3.4. Página de Detalles por Rol SEO Tags
 
-Corresponde a la ruta dinámica `app/detalles/[rol]/page.tsx` diseñada para explicar el valor del software según el perfil del usuario.
-
-**Title Tag**
-Soluciones para [Gerencia / Supervisión / Técnicos] - FixCore
-
-**Meta Description**
-Descubre cómo FixCore optimiza la operación para tu rol. Accede a paneles analíticos, asignación de OTs sin fricción o reportes de fallas rápidos.
+Los contenidos y títulos de la aplicación deben identificar claramente el rol activo: Gerente de Operaciones, Jefe de Planta o Técnico de Mantenimiento. Estas vistas pertenecen a la aplicación Angular y no se presentan como páginas públicas de captación.
 
 #### 4.2.3.5. Página de Gestión de Activos / Inventario SEO Tags
 
-Sección transaccional de la aplicación enfocada en el control de almacén y la jerarquía de maquinaria.
+**Título propuesto:** Gestión de Activos e Inventario - FixCore.
 
-**Title Tag**
-Gestión de Activos e Inventario - FixCore
-
-**Meta Description**
-Controla el inventario de repuestos y la jerarquía física de tus activos. Mantén la trazabilidad total de tu fábrica y evita quiebres de stock.
+**Descripción propuesta:** Consulta equipos, repuestos y movimientos de inventario según los permisos de cada usuario.
 
 #### 4.2.3.6. Página de Perfil de Activo Individual SEO Tags
 
-**Title Tag**
-[Nombre o Código del Activo / Máquina] - FixCore
+**Título propuesto:** Detalle de Máquina - FixCore.
 
-**Meta Description**
-[Descripción específica del estado operativo del activo, MTTR, ubicación en planta y fallas reportadas recientes de 150-160 caracteres]
+**Descripción propuesta:** Ficha de la máquina con su información técnica e historial de mantenimiento, disponible para usuarios autorizados.
 
 #### 4.2.3.7. Página de Reporte de Fallas (OTs) SEO Tags
 
-**Title Tag**
-Reporte de Fallas y OTs - FixCore
+**Título propuesto:** Reporte de Fallas y Órdenes de Trabajo - FixCore.
 
-**Meta Description**
-Practica una respuesta ágil ante paradas de máquina. Reporta fallas en 3 clics, asigna técnicos y gestiona Órdenes de Trabajo desde cualquier dispositivo móvil.
+**Descripción propuesta:** Registro y seguimiento de fallas y órdenes de mantenimiento según los permisos del usuario.
 
 #### 4.2.3.8. Estructura de Datos Schema Markup
 
-FixCore implementa `Schema.org` (en formato JSON-LD) para optimizar su presentación en motores de búsqueda como una solución de software empresarial B2B:
+Como posible mejora SEO para la Landing Page se propone utilizar datos estructurados JSON-LD. Los siguientes ejemplos describen la organización y su aplicación web; son propuestas de marcado y no una afirmación de que ya estén incorporadas al código publicado.
 
-**Organization Schema**
+**Organization Schema (propuesta):**
 
 ```json
 {
-  "@context": "[https://schema.org](https://schema.org)",
+  "@context": "https://schema.org",
   "@type": "Organization",
-  "name": "FixCore",
-  "url": "[https://fixcore-eta.vercel.app/](https://fixcore-eta.vercel.app/)",
-  "logo": "[https://fixcore-eta.vercel.app/favicon.ico](https://fixcore-eta.vercel.app/favicon.ico)",
-  "description": "Plataforma B2B para la gestión integral del mantenimiento industrial y reducción de tiempos muertos.",
-  "sameAs": [
-    "[https://www.linkedin.com/company/FixCore](https://www.linkedin.com/company/FixCore)"
-  ]
+  "name": "TechMakers",
+  "url": "https://techmakers-upc.github.io/Landing-Page/",
+  "logo": "https://techmakers-upc.github.io/Landing-Page/public/assets/images/logo-fixcore.png"
 }
 ```
 
-**SoftwareApplication Schema (Para la Landing Page y SaaS)**
+**SoftwareApplication Schema (propuesta):**
 
 ```json
 {
-  "@context": "[https://schema.org](https://schema.org)",
+  "@context": "https://schema.org",
   "@type": "SoftwareApplication",
   "name": "FixCore",
   "applicationCategory": "BusinessApplication",
-  "operatingSystem": "Web, iOS, Android",
-  "description": "Software integral de gestión de mantenimiento (CMMS) con paneles gerenciales y aplicación de baja fricción para técnicos.",
-  "offers": {
-    "@type": "Offer",
-    "priceCurrency": "USD",
-    "price": "0",
-    "description": "Demostración técnica gratuita para plantas industriales."
-  }
+  "operatingSystem": "Web",
+  "url": "https://techmakers-upc.github.io/Landing-Page/",
+  "description": "Aplicación web para organizar el mantenimiento industrial, los activos, las órdenes de trabajo y los repuestos."
 }
 ```
 
 #### 4.2.3.9. Directrices SEO Generales
 
-FixCore sigue las siguientes directrices estructurales para mantener un SEO técnico optimizado en toda la plataforma:
-
-*   **URLs descriptivas:** Se utilizan rutas semánticas dinámicas generadas por el App Router de Next.js, como `/detalles/[rol]`.
-*   **Un H1 por página:** Restricción estricta de un solo título principal por vista, típicamente alojado dentro del componente `HeroSection.tsx`.
-*   **Jerarquía de encabezados correcta:** Uso escalonado y lógico de etiquetas H1 > H2 > H3, implementado modularmente en componentes como `AudienceSection.tsx` y `SolutionsSection.tsx`.
-*   **Etiquetas alt significativas:** Todas las representaciones de interfaz y recursos visuales ubicados en `/components/mockups/` (como `DesktopMockup.tsx` o `MobileMockup.tsx`) cuentan con texto alternativo que describe exactamente la función que se está mostrando.
-*   **Links con anchor text descriptivo:** Se evita el uso de frases genéricas como "clic aquí". Los enlaces generados en `Navbar.tsx` y `BottomCTA.tsx` utilizan textos de acción claros como "Solicitar Demostración" o "Ver Funcionamiento".
+* **Páginas públicas:** usar títulos y descripciones claros en las versiones española e inglesa de la Landing Page.
+* **Idiomas:** mantener los enlaces `hreflang` y comprobar que cada uno dirija a la versión correspondiente.
+* **Encabezados:** conservar una jerarquía de títulos comprensible para lectores y motores de búsqueda.
+* **Accesibilidad:** acompañar imágenes informativas con texto alternativo y utilizar nombres de enlaces descriptivos.
+* **Aplicación privada:** limitar la indexación de paneles internos sin depender del SEO como mecanismo de seguridad.
 
 ### 4.2.4. Searching Systems.
 
@@ -667,7 +613,7 @@ FixCore implementa un sistema de navegación global consistente, adaptado tanto 
     *   Estado de conexión y sincronización de datos.
 
 **Comportamiento de Navegación**
-*   Transiciones rápidas e instantáneas (arquitectura SPA con Next.js).
+*   Navegación entre vistas mediante el enrutador de Angular, con indicación de la sección activa.
 *   Indicador visual (highlight) de la página actual en el menú.
 *   Persistencia de estado en tablas y filtros al cambiar de vista y regresar.
 
@@ -1114,10 +1060,10 @@ En esta sección presentamos los Wireflows diseñados para FixCore, los cuales e
 
 Para construir estos diagramas, previamente analizamos las rutas típicas de interacción de nuestros usuarios. El desarrollo se centró en los perfiles principales que definimos para el sistema: el Jefe de Planta (enfocado en la administración de activos y la planificación), el Técnico (responsable de la ejecución y el reporte directo en campo) y el Gerente de Operaciones (orientado a la supervisión macro y la revisión de métricas).
 
-#### 4.4.2.1. Wireflow 01 — Jefe de Planta registra su cuenta y maquinas.
+#### 4.4.2.1. Wireflow 01 — Jefe de Planta registra una máquina.
 
 Usuario: Jefe de planta
-Obetivo de usuario: Como Jefe de Planta, deseo registrarme con una cuenta y a la vez las máquina en el sistema indicando sus datos técnicos y ubicación para llevar un control centralizado de los activos que requieren mantenimiento preventivo y correctivo.
+Objetivo del usuario: Como Jefe de Planta, deseo ingresar al sistema y registrar máquinas con sus datos técnicos y ubicación para mantener organizado el inventario de activos y sus actividades de mantenimiento.
 
 <div align="center">
   <img src="assets/images/tm-wireflow-1.png" width="700" alt="Wireflow 1"><br>
@@ -1128,10 +1074,10 @@ Explicación del flujo: Nuestro flujo arranca en la pantalla principal de acceso
 #### 4.4.2.2. Wireflow 02 — Técnico accede a la informacion de maquinas.
 
 Usuario: Técnico
-Obetivo de usuario: Como Técnico de campo, deseo observar los fallos de las maquinas y dirigirme a la planta asignada, reportarme para que la incidencia quede registrada formalmente y pueda ser atendida sin retrasos.
+Objetivo del usuario: Como Técnico de campo, deseo observar los fallos de las maquinas y dirigirme a la planta asignada, reportarme para que la incidencia quede registrada formalmente y pueda ser atendida sin retrasos.
 
 <div align="center">
-  <img src="assets/images/tm-wireflow-2.png" width="700" alt="Wireflow 1"><br>
+  <img src="assets/images/tm-wireflow-2.png" width="700" alt="Wireflow 2"><br>
 </div>
 
 Explicación del flujo: En este recorrido, luego de haber iniciado sesión y estar en una planta industrial, se accede a la sección de maquinas donde se verá un listado de todas las maquinas pertenecientes a la planta actual. El técnico luego puede buscar la información de una maquina en especifico por su nombre. En caso se introduzca un nombre que no pertenezca a alguna maquina, no se mostrarán resultados.
@@ -1139,21 +1085,21 @@ Explicación del flujo: En este recorrido, luego de haber iniciado sesión y est
 #### 4.4.2.3. Wireflow 03 — Gerente de Operaciones crea una orden de trabajo
 
 Usuario: Gerente de Operaciones
-Obetivo de usuario: Como Gerente de Operaciones, deseo ser capaz de generar ordenes de trabajo dentro de la plataforma FixCore para así facilitar la asignación de tareas a los tecnicos de una planta industrial.
+Objetivo del usuario: Como Gerente de Operaciones, deseo ser capaz de generar ordenes de trabajo dentro de la plataforma FixCore para así facilitar la asignación de tareas a los tecnicos de una planta industrial.
 
 <div align="center">
-  <img src="assets/images/tm-wireflow-3.png" width="700" alt="Wireflow 1"><br>
+  <img src="assets/images/tm-wireflow-3.png" width="700" alt="Wireflow 3"><br>
 </div>
 
-Explicación del flujo: El flujo comienza en el panel de inicio, donde luego se ingresa a la sección de ordenes de trabajo. Dentro de alli se presiona el botón de crear una nueva orden de trabajo para abrir un formulario donde se deberá colocar información como la maquina que se va a atender, el tipo de trabajo que se va a realizar o el técnico encargado. En caso algunos datos no sean colocados, tales como la maquina o el titulo de la orden de trabajo, no se continuará con la creación. Una vez los datos estén validados, e usuario regresará al listado de ordenes de trabajo.
+Explicación del flujo: El flujo comienza en el panel de inicio, donde luego se ingresa a la sección de ordenes de trabajo. Dentro de alli se presiona el botón de crear una nueva orden de trabajo para abrir un formulario donde se deberá colocar información como la maquina que se va a atender, el tipo de trabajo que se va a realizar o el técnico encargado. En caso algunos datos no sean colocados, tales como la maquina o el titulo de la orden de trabajo, no se continuará con la creación. Una vez los datos estén validados, el usuario regresará al listado de órdenes de trabajo.
 
 #### 4.4.2.4. Wireflow 04 — Integrante de una planta reporta una falla
 
 Usuario: Integrante en general de una planta industrial
-Obetivo de usuario: Como miembro de una planta industrial, deseo ser capaz de reportar fallos presentes en las maquinas de la planta industrial a la que pertenezco para así facilitar su identificación y atención oportuna por parte de los otros técnicos dentro de la planta.
+Objetivo del usuario: Como miembro de una planta industrial, deseo ser capaz de reportar fallos presentes en las maquinas de la planta industrial a la que pertenezco para así facilitar su identificación y atención oportuna por parte de los otros técnicos dentro de la planta.
 
 <div align="center">
-  <img src="assets/images/tm-wireflow-4.png" width="700" alt="Wireflow 1"><br>
+  <img src="assets/images/tm-wireflow-4.png" width="700" alt="Wireflow 4"><br>
 </div>
 
 Explicación del flujo: El flujo comienza en el panel de inicio, donde luego se ingresa a la sección de fallas. Una vez alli, se presiona el botón de reportar una falla. Durante el reporte primero se pedirá elegir la maquina que está fallando, intentar buscar el nombre de una maquina que no existe dentro de la planta no dará resultados. Siguiente, se pedirán datos sobre la falla, tales como su tipo, si ha detenido la linea de producción, así como otros detalles opcionales. Una vez completado el proceso se mostrará una tarjeta de confirmación antes del envío del reporte.
@@ -1217,18 +1163,18 @@ Asimismo, cuidamos la accesibilidad y el diseño inclusivo en cada componente. L
 
 ### 4.4.4. Web Applications User Flow Diagrams.
 
-Los diagramas de flujo de usuario que documentamos en esta sección representan la evolución de alta fidelidad de los Wireflows que presentamos previamente. Mientras que los wireflows operan con representaciones esquemáticas de baja fidelidad, los User Flows integran los mock-ups finales de FixCore junto con el detalle completo de las trayectorias que nuestros usuarios pueden recorrer dentro del sistema: tanto el camino ideal u esperado (happy path) como los caminos alternativos (unhappy paths) que se activan ante errores, validaciones fallidas o decisiones operativas que se apartan del flujo principal.
+Los User Flows de esta sección muestran cómo los distintos perfiles de FixCore realizan actividades mediante las pantallas de la aplicación. Incluyen el recorrido principal y las alternativas que pueden surgir por decisiones del usuario o errores de validación.
 
-Estos flujos de usuario mantienen una total consistencia con los wireflows que definimos en esta sección, lo que garantiza una trazabilidad de extremo a extremo en todo nuestro proceso de diseño de software. Cada uno de los diagramas detalla con precisión los puntos de decisión, las condiciones lógicas de validación y las transiciones de pantallas, todo ello complementado con anotaciones que explican con claridad el comportamiento exacto del sistema ante cada bifurcación. Diseñamos estas rutas alternativas considerando rigurosamente los escenarios reales de mantenimiento industrial que identificamos durante las entrevistas con los representantes de nuestros segmentos objetivo (Jefes de Planta, Técnicos y Gerentes de Operaciones).
+Los User Flows permiten revisar los recorridos principales y sus alternativas: validación de formularios, búsqueda de registros y navegación entre módulos. Se complementan con los wireflows y mock-ups presentados anteriormente.
 
 
-#### 4.4.4.1. Userflow 01 — Jefe de Planta registra su cuenta y maquinas.
+#### 4.4.4.1. Userflow 01 — Jefe de Planta registra una máquina.
 
 Usuario: Jefe de planta
-Obetivo de usuario: Como Jefe de Planta, deseo registrarme con una cuenta y a la vez las máquina en el sistema indicando sus datos técnicos y ubicación para llevar un control centralizado de los activos que requieren mantenimiento preventivo y correctivo.
+Objetivo del usuario: Como Jefe de Planta, deseo ingresar al sistema y registrar máquinas con sus datos técnicos y ubicación para mantener organizado el inventario de activos y sus actividades de mantenimiento.
 
 <div align="center">
-  <img src="assets/images/tm-userflow-1.png" width="700" alt="WUserflow 1"><br>
+  <img src="assets/images/tm-userflow-1.png" width="700" alt="Userflow 1"><br>
 </div>
 
 Explicación del flujo: Nuestro flujo arranca en la pantalla principal de acceso, donde ingresamos el usuario y la contraseña. Al presionar el botón de inicio de sesión, el sistema valida las credenciales y nos lleva  hacia el panel de bienvenida adaptado específicamente al perfil del usuario (ya sea el tablero del Jefe de Planta, la vista operativa del Técnico o el resumen ejecutivo del Gerente de Operaciones). Una vez en el panel principal del Jefe de Planta, desde donde accedemos al módulo de maquinaria para agregar un nuevo equipo, lo que nos dirige hacia el formulario de registro en su estado inicial. Ingresamos los datos obligatorios, como nombre, planta, categoría y nivel de criticidad. Al confirmar la acción, el sistema valida los datos y nos redirige al listado general de activos actualizado. Con esto logramos automatizar el registro y dejamos atrás los controles en papel o Excel.
@@ -1236,10 +1182,10 @@ Explicación del flujo: Nuestro flujo arranca en la pantalla principal de acceso
 #### 4.4.4.2. Userflow 02 — Técnico accede a la informacion de maquinas.
 
 Usuario: Técnico
-Obetivo de usuario: Como Técnico de campo, deseo observar los fallos de las maquinas y dirigirme a la planta asignada, reportarme para que la incidencia quede registrada formalmente y pueda ser atendida sin retrasos.
+Objetivo del usuario: Como Técnico de campo, deseo observar los fallos de las maquinas y dirigirme a la planta asignada, reportarme para que la incidencia quede registrada formalmente y pueda ser atendida sin retrasos.
 
 <div align="center">
-  <img src="assets/images/tm-userflow-2.png" width="700" alt="Userflow 1"><br>
+  <img src="assets/images/tm-userflow-2.png" width="700" alt="Userflow 2"><br>
 </div>
 
 Explicación del flujo: En este recorrido, luego de haber iniciado sesión y estar en una planta industrial, se accede a la sección de maquinas donde se verá un listado de todas las maquinas pertenecientes a la planta actual. El técnico luego puede buscar la información de una maquina en especifico por su nombre. En caso se introduzca un nombre que no pertenezca a alguna maquina, no se mostrarán resultados.
@@ -1247,21 +1193,21 @@ Explicación del flujo: En este recorrido, luego de haber iniciado sesión y est
 #### 4.4.4.3. Userflow 03 — Gerente de Operaciones crea una orden de trabajo
 
 Usuario: Gerente de Operaciones
-Obetivo de usuario: Como Gerente de Operaciones, deseo ser capaz de generar ordenes de trabajo dentro de la plataforma FixCore para así facilitar la asignación de tareas a los tecnicos de una planta industrial.
+Objetivo del usuario: Como Gerente de Operaciones, deseo ser capaz de generar ordenes de trabajo dentro de la plataforma FixCore para así facilitar la asignación de tareas a los tecnicos de una planta industrial.
 
 <div align="center">
-  <img src="assets/images/tm-userflow-3.png" width="700" alt="Userflow 1"><br>
+  <img src="assets/images/tm-userflow-3.png" width="700" alt="Userflow 3"><br>
 </div>
 
-Explicación del flujo: El flujo comienza en el panel de inicio, donde luego se ingresa a la sección de ordenes de trabajo. Dentro de alli se presiona el botón de crear una nueva orden de trabajo para abrir un formulario donde se deberá colocar información como la maquina que se va a atender, el tipo de trabajo que se va a realizar o el técnico encargado. En caso algunos datos no sean colocados, tales como la maquina o el titulo de la orden de trabajo, no se continuará con la creación. Una vez los datos estén validados, e usuario regresará al listado de ordenes de trabajo.
+Explicación del flujo: El flujo comienza en el panel de inicio, donde luego se ingresa a la sección de ordenes de trabajo. Dentro de alli se presiona el botón de crear una nueva orden de trabajo para abrir un formulario donde se deberá colocar información como la maquina que se va a atender, el tipo de trabajo que se va a realizar o el técnico encargado. En caso algunos datos no sean colocados, tales como la maquina o el titulo de la orden de trabajo, no se continuará con la creación. Una vez los datos estén validados, el usuario regresará al listado de órdenes de trabajo.
 
 #### 4.4.4.4. Userflow 04 — Integrante de una planta reporta una falla
 
 Usuario: Integrante en general de una planta industrial
-Obetivo de usuario: Como miembro de una planta industrial, deseo ser capaz de reportar fallos presentes en las maquinas de la planta industrial a la que pertenezco para así facilitar su identificación y atención oportuna por parte de los otros técnicos dentro de la planta.
+Objetivo del usuario: Como miembro de una planta industrial, deseo ser capaz de reportar fallos presentes en las maquinas de la planta industrial a la que pertenezco para así facilitar su identificación y atención oportuna por parte de los otros técnicos dentro de la planta.
 
 <div align="center">
-  <img src="assets/images/tm-userflow-4.png" width="700" alt="Userflow 1"><br>
+  <img src="assets/images/tm-userflow-4.png" width="700" alt="Userflow 4"><br>
 </div>
 
 ## 4.5. Web Applications Prototyping.

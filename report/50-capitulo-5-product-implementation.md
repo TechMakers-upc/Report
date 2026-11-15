@@ -1030,7 +1030,7 @@ Para acompañar las capturas de esta sección, el equipo preparó una grabación
 
 [Ver video de navegación del Sprint 3 en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202324461_upc_edu_pe/IQAmjsCEEoO2RpFwsr6v6JFrAYjzXHwygwx15IxXrxnUXBs?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=ynn4Vg)
 
-**Fotograma pendiente:** imagen de la grabación de navegación del Sprint 3.
+
 
 La grabación complementa las capturas anteriores. Los recorridos con participantes se presentan en [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas).
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review
@@ -1128,7 +1128,7 @@ Authorization: Bearer TOKEN_DE_PRUEBA
 Una respuesta satisfactoria devuelve las órdenes autorizadas para el usuario. El backend emplea `400` ante datos inválidos, `401` cuando la autenticación no es válida, `403` si faltan permisos, `404` cuando no existe el recurso y `409` cuando se incumple una regla de negocio. El formato común de error contiene `status`, `message` y `timestamp`.
 
 
-Los endpoints listados corresponden a la documentación del proyecto. Para reproducir las pruebas se utilizará el contrato OpenAPI de la versión desplegada.
+Los endpoints listados resumen los principales servicios REST del proyecto. La documentación OpenAPI permite consultar los parámetros y formatos de respuesta de cada operación.
 
 La mayoría de las operaciones requiere autenticación mediante JWT.
 
@@ -1223,7 +1223,7 @@ La operación depende de las restricciones implementadas por el backend. Cuando 
 
 ![Swagger endpoint](<assets/images/10-endpoint-swagger-200.png>)
 
-Las capturas deben mostrar solicitudes y respuestas con datos de prueba, sin divulgar contraseñas, JWT ni otros secretos.
+
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
@@ -1263,7 +1263,7 @@ Entre ellas se encuentran `DB_URL`, `DB_USERNAME`, `DB_PASSWORD`, `JWT_SECRET`, 
 
 *Figura 4. Variables de entorno del backend con los secretos protegidos.*
 
-La captura original `deploy4.jpeg` no debe incorporarse sin censurar, porque puede revelar valores sensibles. Los secretos expuestos en una captura compartida deben reemplazarse.
+Las variables de entorno utilizadas en Render contienen parámetros de configuración y credenciales que no deben publicarse en el informe ni en capturas compartidas.
 
 **4. Inicialización de la base de datos**
 
@@ -1404,7 +1404,7 @@ Las fichas de las sesiones incluyen el rol utilizado y el recorrido observado. P
 
 #### 5.3.2. Registro de Entrevistas
 
-Se dispone de **tres archivos MP4**, con una duración total de aproximadamente **34 minutos y 2 segundos**. Se registran únicamente esas tres sesiones; se han eliminado las diez filas vacías que no correspondían a entrevistas efectivamente aportadas.
+Se dispone de **tres grabaciones MP4** de sesiones de validación, con una duración conjunta aproximada de **34 minutos y 2 segundos**.
 
 | ID | Participante identificado en Teams | Rol de prueba | Duración del MP4 | Fecha de la entrevista | Estado de registro |
 |---|---|---|---|---|---|
@@ -1418,7 +1418,7 @@ Se dispone de **tres archivos MP4**, con una duración total de aproximadamente 
 - [Enlace de validación 2 — Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202324461_upc_edu_pe/IQCgWLgTjns1T6HIqOm0lbuZAWSdUbm4AuT0lfSPbGicQQ8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=OhDqkm)
 - [Enlace de validación 3 — Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202324461_upc_edu_pe/IQALFPlFxumyQrXU888fIzevAWpVsdnZGXzEaKdIgfr2ZPo?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=w0a8ne)
 
-**Enlaces de las sesiones:** se presentan en el orden en que fueron compartidos. Falta confirmar qué URL corresponde a cada archivo MP4 y revisar los permisos de acceso en Stream.
+**Enlaces de las sesiones:** los videos se presentan en el orden en que fueron compartidos por el equipo; su correspondencia con cada archivo MP4 aún requiere confirmación.
 
 **E01 — Interacción con el perfil de Jefe de Planta («George»)**
 
@@ -1485,7 +1485,7 @@ La evaluación sigue tres ejes del Anexo D: **usabilidad, arquitectura de inform
 | H04 | Usabilidad: información y retroalimentación | E02, 09:50–10:50: vista previa del reporte | Se mostró una vista previa; falta comprobar la descarga del PDF | Por evaluar | Exportar el archivo y revisar el contenido y los mensajes del sistema |
 | H05 | Diseño inclusivo: idioma, accesibilidad y adaptación | E01/E02/E03: selector de idioma | Se muestra el selector de idioma; falta probar teclado, lector de pantalla y dispositivos móviles | Por evaluar | Revisar contraste, foco, etiquetas y diseño responsive |
 
-**Registro de hallazgos:** cada dificultad se documentará con la tarea, pantalla, principio afectado, minuto del video, severidad de 0 a 4 y mejora propuesta. El análisis se completará con las respuestas de los participantes.
+El análisis de las sesiones se organiza por tarea, pantalla, principio de usabilidad, minuto del video y medida de mejora. La valoración de severidad se completará con los problemas que se identifiquen durante la evaluación.
 
 **Resultados de las sesiones:** se recorrieron las funciones principales de FixCore y la sesión E03 mostró el cierre de una Orden de Trabajo hasta el estado `COMPLETADA`. Para evaluar la experiencia de uso faltan más entrevistas, las respuestas de los participantes y pruebas específicas de permisos e inventario.
 
@@ -1505,6 +1505,6 @@ El equipo ha compartido las siguientes versiones del video:
 | Duración exacta | Por registrar después de comprobar el archivo MP4. |
 | Reproducción y permisos | Los enlaces fueron aportados por el equipo; queda comprobar su acceso desde una cuenta habilitada para evaluación. |
 
-**Fotograma pendiente:** captura del video About-the-Product.
 
-Para completar esta sección faltan la duración exacta, una captura representativa y la revisión de los testimonios incluidos en el video. Los comentarios de los participantes deben corresponder a lo expresado en las grabaciones.
+
+El video se publica en Microsoft Stream y YouTube como presentación de la propuesta de FixCore. Se relaciona con los recorridos del producto y las entrevistas de validación documentadas en la sección 5.3.
