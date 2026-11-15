@@ -984,7 +984,7 @@ El backend incorpora validaciones destinadas a proteger la integridad de los dat
 
 Se incorporaron consultas de indicadores y vistas para presentar información de mantenimiento.
 
-Se verificó la disponibilidad de las interfaces y la exportación CSV. Además, se generó y abrió un PDF de mantenimiento mediante el diálogo de impresión del navegador. La exactitud de indicadores con datos históricos complejos requiere pruebas adicionales.
+Se revisaron las interfaces de analítica, la exportación CSV y la generación de un PDF de mantenimiento mediante la función de impresión del navegador. No se evaluaron los cálculos con conjuntos históricos extensos.
 
 ![dashboard indicadores](<assets/images/08a-dashboard-indicadores.png>)
 
@@ -1022,7 +1022,7 @@ Se creó una orden correctiva y se revisó su asignación, ejecución y cierre d
 
 **Caso 2. Registro de repuestos y actualización de inventario**
 
-Se registró un repuesto de prueba con SKU `3232323`, denominado `asdasd`, categoría Mecánicos y stock inicial de 100 unidades. Posteriormente se documentó el uso de 20 unidades en una orden de trabajo y la visualización de 80 unidades disponibles en el inventario.
+Se registró un repuesto de prueba con SKU `3232323`, de categoría Mecánicos y con 100 unidades de stock inicial. Tras registrar el uso de 20 unidades en una orden de trabajo, el inventario mostró 80 unidades disponibles.
 
 ![Formulario de inventario](assets/images/evidence-sprint3/1-inventario.png)
 
@@ -1166,9 +1166,9 @@ Los endpoints utilizan la base `/api/v1`. Las operaciones protegidas requieren u
 | Analítica | `GET /analytics/summary` | Token JWT; sin cuerpo | Indicadores autorizados según el rol. |
 | Alertas | `GET /alerts` | Token JWT; sin cuerpo | Alertas disponibles para la cuenta. |
 
-**Otras rutas del backend.** El README técnico también registra `GET /users`, `GET /users/{id}`, `GET /roles`, cambios de estado y manuales de activos, programación y suspensión de planes, entradas y ajustes de stock, cambios de prioridad o resolución de fallas, métricas de tiempo muerto y rendimiento técnico, y lectura de alertas. Sus parámetros y cuerpos completos deben consultarse en Swagger de la versión utilizada para las pruebas; no se reproducen esquemas JSON no contrastados.
+**Otras rutas del backend.** El README técnico también registra `GET /users`, `GET /users/{id}`, `GET /roles`, cambios de estado y manuales de activos, programación y suspensión de planes, entradas y ajustes de stock, cambios de prioridad o resolución de fallas, métricas de tiempo muerto y rendimiento técnico, y lectura de alertas. La documentación Swagger de la versión utilizada para las pruebas contiene los parámetros y formatos de estas operaciones.
 
-**Ejemplo de consulta protegida** (reemplazar el token con una credencial temporal del entorno de pruebas):
+**Ejemplo de consulta protegida con un token de prueba:**
 
 ```http
 GET /api/v1/work-orders HTTP/1.1
@@ -1180,7 +1180,7 @@ Una respuesta satisfactoria devuelve las órdenes autorizadas para el usuario. E
 
 Los endpoints listados resumen los principales servicios REST del proyecto. La documentación OpenAPI permite consultar los parámetros y formatos de respuesta de cada operación.
 
-La mayoría de las operaciones requiere autenticación mediante JWT.
+
 
 **Ejemplo 1. Inicio de sesión**
 
@@ -1199,7 +1199,7 @@ Request Body:
 
 Una solicitud satisfactoria devuelve un código HTTP `200 OK` y los datos necesarios para mantener una sesión autenticada.
 
-Ejemplo de respuesta (referencial):
+Ejemplo de respuesta con datos de prueba:
 
 ```json
 {
@@ -1410,15 +1410,15 @@ Las principales lecciones obtenidas fueron:
 
 ![Contribuciones del backend](assets/images/evidence-sprint3/contribuciones-backend.png)
 
-*Figura 9. Evidencia de contribuciones en el repositorio Backend.*
+*Figura 10. Evidencia de contribuciones en el repositorio Backend.*
 
 ![Contribuciones del frontend](assets/images/evidence-sprint3/contribuciones-fronted.png)
 
-*Figura 10. Evidencia de contribuciones en el repositorio Frontend.*
+*Figura 11. Evidencia de contribuciones en el repositorio Frontend.*
 
 ![Contribuciones de la Landing Page](assets/images/evidence-sprint3/contribuciones-landingpage.png)
 
-*Figura 11. Evidencia de contribuciones en el repositorio Landing-Page.*
+*Figura 12. Evidencia de contribuciones en el repositorio Landing-Page.*
 
 Durante el período revisado no se identificaron contribuciones de implementación de Sunio Danilo Landa Sánchez ni Pierre Alessandro Mendoza Boluarte. Sus participaciones anteriores permanecen registradas en los sprints correspondientes.
 
@@ -1468,7 +1468,7 @@ Se dispone de **tres grabaciones MP4** de sesiones de validación, con una durac
 
 **E01 — Interacción con el perfil de Jefe de Planta («George»)**
 
-- Archivo aportado: `WhatsApp Video 2026-11-10 at 02.13.01.mp4`.
+- Grabación: `WhatsApp Video 2026-11-10 at 02.13.01.mp4`.
 
 - **00:20:** Landing Page y presentación de FixCore; **00:50–02:20:** secciones de características y planes.
 - **02:50–03:50:** vista de Jefe de Planta y listado de máquinas con filtros.
@@ -1483,7 +1483,7 @@ Se dispone de **tres grabaciones MP4** de sesiones de validación, con una durac
 
 **E02 — Interacción con el perfil de Gerente de Operaciones (Víctor Manuel Alberca Saavedra)**
 
-- Archivo aportado: `WhatsApp Video 2026-11-10 at 01.26.11.mp4`.
+- Grabación: `WhatsApp Video 2026-11-10 at 01.26.11.mp4`.
 
 - **00:20–02:20:** Landing Page y pantalla de inicio de sesión.
 - **02:50–05:50:** dashboard, indicadores, plantas y detalle de planta.
@@ -1498,7 +1498,7 @@ Se dispone de **tres grabaciones MP4** de sesiones de validación, con una durac
 
 **E03 — Interacción con el perfil de Técnico («cabanillas anderson»)**
 
-- Archivo aportado: `entrevista de validación (técnico).mp4`.
+- Grabación: `entrevista de validación (técnico).mp4`.
 
 - **00:20–02:20:** Landing Page, ingreso a la aplicación y panel de Técnico.
 - **02:50–03:50:** consulta de órdenes asignadas y máquinas.
