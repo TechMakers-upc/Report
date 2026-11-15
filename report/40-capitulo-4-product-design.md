@@ -9,7 +9,7 @@
 La identidad de FixCore se centra en mejorar la organización del mantenimiento industrial y facilitar el seguimiento de equipos, órdenes de trabajo y repuestos. La marca busca transmitir claridad, confianza y facilidad de uso tanto para personal técnico como para responsables de planta.
 
 **Nombre de la Marca**
-FixCore es una marca compuesta que transmite resolución y centralización. El prefijo "Fix" (reparar o solucionar en inglés) hace referencia directa a la acción principal del mantenimiento y la corrección de fallas. Por su parte, "Core" (núcleo o centro en inglés) representa el corazón de la operación industrial, centralizando los datos, reportes y métricas. La combinación transmite el mensaje de que el mantenimiento no es un gasto secundario, sino el núcleo vital para que la maquinaria y la rentabilidad de la empresa nunca se detengan.
+El nombre FixCore reúne dos ideas: «Fix», asociada a la reparación de fallas, y «Core», relacionada con la centralización de la información. La marca resume la intención de organizar los registros de máquinas y las actividades de mantenimiento en un mismo sistema.
 
 **Logotipo**
 El logotipo de FixCore consiste en un isotipo geométrico combinado con el nombre de la marca. El ícono principal es un hexágono delineado que forma un cubo isométrico, representando la estructura, la maquinaria y la industria manufacturera. En el centro de este cubo (el core), se encuentra un círculo sólido que simboliza el control centralizado y el motor del sistema. El diseño utiliza una paleta de azules eléctricos y degradados sobre un fondo oscuro, evocando tecnología moderna y precisión. La tipografía es limpia, sin serifas, dividiendo visualmente la palabra: "FIX" en color blanco para destacar la acción, y "CORE" en azul brillante, unificando el texto con el isotipo.
@@ -21,38 +21,38 @@ El logotipo de FixCore consiste en un isotipo geométrico combinado con el nombr
 </div>
 
 **Eslogan**
-El eslogan principal de FixCore es "El núcleo de tu mantenimiento industrial". Esta frase refleja el objetivo de la plataforma de convertirse en el eje central donde convergen operarios, gerentes y maquinaria. Transmite la promesa de dejar atrás la dispersión de los mensajes de WhatsApp y los Excel, consolidando toda la operación en un solo motor digital.
+El eslogan «El núcleo de tu mantenimiento industrial» expresa la propuesta de reunir en un solo lugar la información y las tareas de mantenimiento.
 
 **Valores de Marca**
-FixCore se basa en los siguientes valores fundamentales que guían todas las decisiones de diseño arquitectónico y de interfaz:
+Los siguientes criterios orientan el diseño de FixCore:
 
 **1. Facilidad de uso:** La interfaz busca simplificar el registro de incidencias y la consulta de órdenes de trabajo para los técnicos de mantenimiento.
 
-**2. Trazabilidad:** Cada orden de trabajo, repuesto y tiempo muerto queda registrado con precisión. El diseño transmite exactitud, permitiendo a la gerencia auditar y tomar decisiones basadas en datos reales.
+**2. Trazabilidad:** El diseño contempla registros de órdenes de trabajo, repuestos e intervenciones para consultar el historial y dar seguimiento a las actividades de mantenimiento.
 
 **3. Agilidad:** La plataforma contempla alertas para dar seguimiento a las actividades de mantenimiento. La integración con servicios externos de mensajería se mantiene como una posibilidad de evolución del producto.
 
-**4. Pragmatismo:** La plataforma se adapta a la realidad del sector industrial. Evita flujos de trabajo sobre-teorizados y se enfoca directamente en solucionar el problema de la máquina detenida.
+**4. Enfoque operativo:** Los formularios y recorridos se diseñan alrededor de tareas habituales, como reportar una falla, asignar una orden y registrar un mantenimiento.
 
 **Personalidad de Marca**
-La personalidad de FixCore se define en el espectro entre varios ejes comunicacionales:
+Para definir el tono visual y la comunicación del producto se consideran tres características:
 
-Robusto pero Intuitivo: La arquitectura backend maneja lógicas complejas de mantenimiento, pero la cara visible para el operario es extremadamente sencilla. Es una herramienta seria de grado industrial, pero no requiere capacitaciones tediosas.
+**Claro y funcional:** La aplicación presenta las opciones de mantenimiento según el rol del usuario y evita mostrar información innecesaria en las tareas frecuentes.
 
-Estructurado sin ser Burocrático: A diferencia de los sistemas tradicionales (CMMS) que obligan a llenar formularios interminables, FixCore ordena la información de manera inteligente y automatizada, pidiendo solo los datos estrictamente necesarios al usuario.
+**Organizado:** Los datos de máquinas, órdenes y repuestos se agrupan por módulo y se muestran mediante tablas, formularios y paneles.
 
-Tecnológico pero Centrado en el Humano: Aunque es un sistema digital basado en la nube, la marca se comunica en el lenguaje del técnico. Entiende sus frustraciones y utiliza canales que ya domina, presentándose como un aliado en su turno, no como un auditor vigilante.
+**Orientado al usuario:** Los nombres de las funciones y las indicaciones de la interfaz emplean términos relacionados con el trabajo de mantenimiento.
 
 #### 4.1.1.2. Typography
 
-El sistema tipográfico de FixCore establece una jerarquía técnica y estructurada que permite a operarios y gerentes escanear rápidamente datos críticos (como el estado de una máquina o los códigos de repuestos), manteniendo la claridad absoluta incluso en condiciones de poca iluminación o pantallas móviles sucias en la planta industrial.
+La tipografía permite distinguir títulos, estados, tablas y descripciones. La prioridad es que cada usuario pueda identificar la información necesaria para sus tareas.
 
 **Familia Tipográfica Principal**
 
-FixCore utiliza dos familias tipográficas complementarias que equilibran la estética de un software industrial (robusto y técnico) con la legibilidad necesaria para el trabajo operativo diario:
+La Landing Page utiliza **Inter** y **Outfit**, como se observa en sus hojas de estilo. Las especificaciones siguientes, con Roboto y Open Sans, se conservan como propuestas para las vistas de la aplicación web y deben compararse con la implementación de Angular:
 
-*   **Roboto (Sans-serif):** Utilizada para títulos, métricas en los dashboards (KPIs) y números de órdenes de trabajo. Es una fuente neo-grotesca, altamente legible y estructurada, desarrollada específicamente para pantallas móviles. Su versión Bold transmite la solidez y precisión mecánica que requiere el sector de mantenimiento industrial.
-*   **Open Sans (Sans-serif):** Utilizada para el cuerpo de texto, descripciones de fallas e instrucciones técnicas. Su diseño abierto y neutral reduce la fatiga visual del operario al leer manuales o historiales largos de maquinaria, complementando perfectamente el peso estructurado de Roboto.
+*   **Roboto (Sans-serif, propuesta):** Considerada para títulos, etiquetas e indicadores de la aplicación web por su legibilidad en tamaños de interfaz.
+*   **Open Sans (Sans-serif, propuesta):** Considerada para descripciones, mensajes y textos de apoyo en formularios y tablas.
 
 <div align="center">
   <strong>Gráfico: Tipografía utilizada en FixCore (Ejemplo Roboto)</strong><br><br>
@@ -62,7 +62,7 @@ FixCore utiliza dos familias tipográficas complementarias que equilibran la est
 
 **Jerarquía Tipográfica**
 
-La jerarquía tipográfica de FixCore está optimizada para la lectura rápida (escaneo) y la visualización de datos numéricos en los tableros de control:
+La siguiente escala tipográfica sirve de referencia para el diseño de la aplicación web:
 
 *   **Métricas y KPIs (Display):** Roboto Bold, 48-56px. Utilizado en los dashboards gerenciales para mostrar datos críticos de impacto inmediato (Ej. "Downtime Total", "MTTR").
 *   **H1 (Títulos de página):** Roboto Bold, 32px. Utilizado para los títulos principales de los módulos, como "Inventario de Repuestos" o "Órdenes de Trabajo".
@@ -75,7 +75,7 @@ La jerarquía tipográfica de FixCore está optimizada para la lectura rápida (
 
 **Espaciado y Ritmo Tipográfico**
 
-El sistema tipográfico de FixCore sigue un ritmo diseñado para evitar el desorden visual (clutter) común en los softwares industriales tradicionales:
+Los espacios entre títulos, párrafos y etiquetas permiten separar la información dentro de las pantallas:
 
 *   El espaciado entre líneas (interlineado) en el cuerpo de texto es generoso (1.5x) para facilitar la lectura en movimiento dentro de la planta.
 *   El espaciado debajo de los H1 y H2 es amplio (24px) para separar claramente los módulos de información técnica.
@@ -90,7 +90,7 @@ La paleta de colores de FixCore está diseñada para comunicar solidez técnica 
 
 El esquema de color primario de FixCore transmite tecnología, precisión y control centralizado:
 
-*   **Core Blue (#38bdf8 - Sky 400):** El azul eléctrico de FixCore representa el núcleo del sistema, la conectividad y la eficiencia tecnológica. Es el color principal utilizado para botones de acción primarios (ej. "Crear Orden de Trabajo"), enlaces de navegación, estados activos y elementos centrales del dashboard. Su tono brillante garantiza un alto contraste sobre fondos oscuros, evocando un panel de control moderno.
+*   **Core Blue (#38bdf8 - Sky 400):** Color de referencia para las acciones principales, los enlaces y los elementos destacados de la propuesta de diseño. El contraste debe comprobarse según los colores del texto y el fondo.
 *   **Core Dark (#0284c7 - Sky 600):** Una versión más profunda del azul primario, utilizada para estados *hover* (al pasar el cursor) y para dar énfasis estructural en las tarjetas de información de las máquinas, manteniendo la jerarquía sin saturar la vista.
 *   **Core Light (#7dd3fc - Sky 300):** Una versión más clara utilizada para fondos sutiles, selección de pestañas o para resaltar filas específicas dentro del inventario de repuestos.
 
@@ -106,15 +106,15 @@ El esquema secundario se centra en el estado de salud de la maquinaria y la fina
 
 **Esquema de Color de Alerta**
 
-En el mantenimiento industrial, las alertas equivalen a dinero y tiempo, por lo que estos colores comunican urgencia de forma inequívoca:
+Los colores de alerta ayudan a distinguir situaciones de mantenimiento que requieren distintos niveles de atención:
 
 *   **Warning Amber (#f59e0b - Amber 500):** Naranja/Ámbar para advertencias de nivel medio y programación pendiente. Utilizado para:
     *   Mantenimientos preventivos próximos a vencer.
     *   Stock bajo de repuestos en el inventario.
     *   Máquinas operando con advertencias de rendimiento.
-*   **Downtime Red (#ef4444 - Red 500):** Rojo para fallas críticas, inactividad y pérdidas de producción. Su uso es estricto y llama a la acción inmediata:
+*   **Downtime Red (#ef4444 - Red 500):** Color de referencia para fallas críticas, inactividad y acciones que requieren precaución:
     *   Estado "Falla" o "Tiempo Muerto" (Downtime) de una máquina.
-    *   Alertas críticas enviadas por webhook al WhatsApp del Jefe de Planta.
+    *   Alertas críticas dentro de la aplicación; la integración con WhatsApp se considera una funcionalidad futura.
     *   Acciones destructivas (ej. "Eliminar activo").
 
 **Paleta de Colores Neutral**
@@ -141,7 +141,7 @@ La paleta de colores sigue criterios de legibilidad y señalización visual:
 
 #### 4.1.1.4. Spacing System
 
-El sistema de espaciado de FixCore establece una cuadrícula consistente que prioriza la usabilidad y precisión en entornos industriales. Está diseñado específicamente para evitar toques accidentales en pantallas táctiles (considerando operarios con guantes o en movimiento) y para estructurar visualmente la alta densidad de datos en los paneles de control gerenciales.
+El sistema de espaciado organiza formularios, botones y tablas para facilitar la identificación de elementos relacionados. Se contemplan tamaños adecuados para la interacción desde computadoras y dispositivos móviles.
 
 **Base de Espaciado**
 
@@ -169,7 +169,7 @@ FixCore utiliza un sistema de grillas flexible que se adapta desde las computado
 
 Cada componente de la interfaz tiene un espaciado interno (*padding*) definido para maximizar la legibilidad y la interacción:
 
-*   **Botones (CTAs):** Padding vertical de 12-16px y horizontal de 24px. Garantiza un área interactiva robusta para operarios en la planta.
+*   **Botones (CTAs):** Se propone un espaciado vertical de 12 a 16 px y horizontal de 24 px, que deberá comprobarse en las vistas implementadas.
 *   **Tarjetas (Activos/Máquinas):** Padding de 24px en desktop y 16px en móvil, conteniendo claramente los detalles técnicos y el estado del equipo.
 *   **Campos de Formulario (Inputs):** Padding de 12px vertical y 16px horizontal, facilitando el ingreso de datos al reportar fallas.
 *   **Tablas de Inventario/Historial:** Padding de 12px por celda para asegurar que los códigos de repuestos no se amontonen visualmente.
@@ -180,19 +180,19 @@ La interfaz de FixCore muta drásticamente según el contexto de uso y el dispos
 
 *   **Desktop (>1024px - Vista Gerencial):** Se utiliza la escala de espaciado completa. Se aprovechan los márgenes de 32px a 48px para separar módulos analíticos y mantener un tablero limpio.
 *   **Tablet (768-1024px - Vista de Supervisor):** Reducción de los márgenes externos a 24px para priorizar el contenido de las órdenes de trabajo.
-*   **Mobile (<768px - Vista de Técnico de Planta):** Los márgenes externos se reducen a 16px, pero **se mantiene el tamaño de los botones (48px de alto)** y el espaciado interno de las áreas táctiles para asegurar una fricción cero al reportar fallas desde la fábrica.
+*   **Mobile (menos de 768 px):** Se propone reducir los márgenes externos a 16 px y mantener botones suficientemente grandes para facilitar su uso en pantallas pequeñas.
 
 ### 4.1.2. Web Style Guidelines.
 
 #### 4.1.2.1. Responsive Design Principles
 
-Los principios de diseño responsivo de FixCore garantizan que la plataforma sea una herramienta de alta precisión tanto para el gerente en su oficina como para el técnico que se desplaza por la planta industrial.
+El diseño adaptable de FixCore busca que las pantallas mantengan una organización clara en computadoras, tabletas y celulares.
 
 **Mobile-First Approach (Enfoque Técnico-Primero)**
-FixCore adopta un diseño mobile-first riguroso, asumiendo que el reporte de fallas ocurrirá en condiciones adversas (de pie, con prisa o usando guantes). Este enfoque asegura que:
-* El contenido esencial (botones de reporte y estado de la máquina) sea hiper-visible.
-* Las áreas táctiles tengan un tamaño industrial (mínimo 48x48px).
-* La interfaz móvil se centre en operaciones frecuentes de los técnicos
+Para las vistas utilizadas en planta se priorizan los controles más frecuentes y se consideran condiciones de uso como pantallas pequeñas o interacción en movimiento. Los siguientes elementos son criterios de diseño:
+* Mostrar de manera destacada las opciones para reportar fallas y consultar el estado de las máquinas.
+* Plantear áreas táctiles de al menos 48 × 48 px para las acciones principales.
+* Dar prioridad a las operaciones que los técnicos realizan con mayor frecuencia.
 
 **Breakpoints Established**
 FixCore define los siguientes puntos de quiebre para adaptar su interfaz:
@@ -201,22 +201,22 @@ FixCore define los siguientes puntos de quiebre para adaptar su interfaz:
 * **Desktop (1024-1440px):** Vista analítica para la Gerencia. Tableros de control de 12 columnas, tablas de inventario extendidas y gráficos de mantenimiento predictivo.
 
 **Fluid Typography**
-La tipografía (Roboto y Open Sans) escala mediante *viewport units* y funciones `clamp()`, asegurando que las alertas de "MÁQUINA DETENIDA" sean legibles desde la distancia en un móvil, sin verse desproporcionadas en un monitor ultrawide.
+Se propone utilizar tamaños de texto adaptables mediante CSS, por ejemplo con `clamp()`, para mantener una jerarquía legible en distintas resoluciones.
 
 #### 4.1.2.2. Web Component States
 
-Los componentes de FixCore comunican sus estados de forma inconfundible para evitar errores críticos en la gestión de mantenimiento:
+Los componentes de la interfaz se diseñan con estados visuales que indican si una acción está disponible, seleccionada o deshabilitada:
 
 **Estados Interactivos**
 * **Default:** Estado base. Tarjetas en *Slate 800* (modo oscuro) o *White* con bordes sutiles en *Slate 200*.
 * **Hover (Escritorio):** El color de fondo se oscurece ligeramente (ej. de *Core Blue* a *Core Dark*), el cursor cambia a puntero y la tarjeta se eleva para indicar interactividad a los gerentes.
-* **Active/Pressed (Móvil):** Estado crítico en planta. Al presionar, el botón reduce su escala al 95% instantáneamente y oscurece su fondo, brindando retroalimentación táctil visual de que la falla fue reportada.
-* **Focus (Teclado):** Anillo de enfoque de 3px en *Core Blue*. Vital para el personal administrativo que ingresa inventarios rápidamente usando tabulación.
+* **Active/Pressed (Móvil):** Estado visual del control mientras recibe una interacción, mediante cambios de tono o tamaño según el componente.
+* **Focus (Teclado):** Se propone un contorno visible de enfoque para identificar el control activo durante la navegación por teclado.
 * **Disabled:** Botones opacos (50%) con cursor bloqueado. Utilizado para evitar reportes duplicados cuando una máquina ya está en estado de "Falla".
 
 #### 4.1.2.3. Form Elements
 
-Los formularios en FixCore están diseñados para requerir menos de 3 clics y minimizar la fricción cognitiva del operario.
+Los formularios agrupan los campos necesarios para registrar datos y presentan mensajes cuando una entrada es incorrecta.
 
 **Input Fields (Campos de Entrada)**
 * Altura mínima de 48px para facilitar el toque rápido.
@@ -236,17 +236,17 @@ Los formularios en FixCore están diseñados para requerir menos de 3 clics y mi
 
 **Global Navigation (Navegación Principal)**
 * **Desktop:** Barra lateral izquierda (Sidebar) oscura, expandible/colapsable, mostrando todos los módulos (Dashboard, Activos, Órdenes, Inventario).
-* **Mobile:** Barra de navegación inferior (Bottom Tab Bar) anclada a la pantalla para que el operario alcance los botones "Inicio", "Escanear QR" y "Alertas" con el dedo pulgar.
+* **Mobile:** Navegación adaptada al tamaño de pantalla. Las opciones disponibles dependen de los módulos y permisos del usuario; una barra inferior se considera un patrón de diseño, no una función comprobada.
 
 **Secondary Navigation (Breadcrumbs)**
 * Vital para la estructura jerárquica industrial. Rastrea la ubicación exacta: `Planta Lima > Área de Empaque > Faja Transportadora B > Motor Eléctrico`.
 
 #### 4.1.2.5. Accessibility Guidelines
 
-FixCore cumple con el estándar WCAG AA, priorizando las realidades del trabajo físico.
+Las pautas de accesibilidad de FixCore toman como referencia los criterios WCAG de contraste, navegación por teclado y etiquetado de controles. Su cumplimiento debe comprobarse mediante pruebas específicas.
 
 **Visual Accessibility (Visibilidad en Planta)**
-* Contraste ultra-alto (> 4.5:1). El sistema debe ser legible bajo la luz solar intensa o la luz fluorescente parpadeante de una fábrica.
+* Se propone una relación de contraste de al menos 4.5:1 para texto normal, sujeta a verificación sobre los colores implementados.
 * Las alertas de estado no dependen solo del color: una luz roja siempre va acompañada de la palabra en negrita "**FALLA CRÍTICA**" y un icono triangular de advertencia.
 
 **Keyboard Navigation & Screen Readers**
@@ -254,7 +254,7 @@ FixCore cumple con el estándar WCAG AA, priorizando las realidades del trabajo 
 
 #### 4.1.2.6. Animation Guidelines
 
-En un entorno industrial, la velocidad supera a la estética. Las animaciones en FixCore son pragmáticas y utilitarias.
+Las animaciones se reservan para indicar cambios de estado o carga de información sin dificultar el trabajo del usuario.
 
 **Purpose of Animations (Propósito)**
 * **Feedback inmediato:** Confirmar que un toque fue registrado para que el técnico no presione múltiples veces.
@@ -271,21 +271,21 @@ En un entorno industrial, la velocidad supera a la estética. Las animaciones en
 
 #### 4.2.1.1. Organización del Landing Page
 
-El Landing Page de FixCore sirve como el punto de entrada principal para tomadores de decisión (Jefes de Planta, Gerentes de Operaciones) que buscan modernizar su gestión de mantenimiento. Su organización está diseñada para guiar al usuario a través de un recorrido de conversión altamente profesional y enfocado en el retorno de inversión (ROI) industrial.
+La Landing Page presenta FixCore a responsables de planta, personal técnico y empresas contratistas. Su estructura reúne la propuesta de valor, las funciones principales, información sobre el equipo, planes y preguntas frecuentes.
 
 **Estructura Jerárquica en el Landing Page**
 
-La organización del Landing Page sigue una jerarquía visual clara que refleja el proceso lógico de evaluación B2B:
-* **Nivel 1 - Header de Impacto:** El *hero section* presenta el valor principal de FixCore de manera inmediata ("El núcleo de tu mantenimiento industrial"). El visitante entiende en menos de 3 segundos que la plataforma reduce tiempos muertos. Incluye el título principal, subtítulo explicativo, una previsualización de la interfaz móvil/dashboard, y botones de llamada a la acción primarios ("Probar Gratis" / "Solicitar Demo").
-* **Nivel 2 - Beneficios Clave:** Inmediatamente después, se presentan los diferenciadores principales en una cuadrícula de tarjetas (Baja Fricción, Trazabilidad, Alertas por WhatsApp). Responde a la pregunta: ¿Cómo FixCore elimina el caos de los reportes en papel?
-* **Nivel 3 - Módulos y Flujo de Trabajo:** Las secciones siguientes explican la funcionalidad paso a paso (1. Escanea QR, 2. Reporta Falla, 3. Reparación Rápida) y profundizan en los módulos principales (Órdenes de Trabajo, Inventario, Dashboard).
-* **Nivel 4 - Footer y Navegación Adicional:** El *footer* proporciona navegación secundaria, enlaces a políticas de privacidad, soporte técnico y opciones de contacto organizadas por función empresarial.
+La Landing Page organiza sus secciones de la siguiente manera:
+* **Nivel 1 - Presentación:** El encabezado y la sección principal explican para qué sirve FixCore y ofrecen enlaces de acceso a la plataforma y al recorrido del producto.
+* **Nivel 2 - Características:** Se presentan las funciones principales y los problemas de mantenimiento que busca atender el producto.
+* **Nivel 3 - Funcionamiento y perfiles:** Se muestra el proceso general de mantenimiento y la información dirigida a distintos perfiles de usuario.
+* **Nivel 4 - Información complementaria:** El resto del sitio ofrece detalles de tecnología, equipo, planes y preguntas frecuentes.
 
 **Principios de Organización Aplicados**
 
 La organización del Landing Page de FixCore aplica los siguientes principios:
-* **Jerarquía visual estricta:** El usuario escanea naturalmente de arriba abajo, siendo guiado desde el problema (tiempos muertos) hacia la solución (software) y la acción (demo).
-* **Progresión pragmática:** La narrativa avanza desde la promesa de valor gerencial hacia la facilidad de uso operativo, mitigando la objeción clásica de "mis técnicos no usarán un sistema complejo".
+* **Jerarquía visual:** Los títulos, subtítulos y botones ayudan a recorrer las secciones e identificar acciones.
+* **Orden de contenidos:** Primero se presenta el problema que aborda FixCore, luego sus funciones y, finalmente, las opciones de acceso.
 * **Agrupación por función:** Características similares (funcionalidades de campo vs. análisis gerencial) comparten secciones visualmente delimitadas.
 
 #### 4.2.1.2. Organización de la Aplicación Web (Dashboard y Área Principal)
@@ -328,19 +328,19 @@ El almacén de repuestos se organiza utilizando:
 
 #### 4.2.1.3. Estrategia de Organización para Búsqueda y Acceso Rápido
 
-En el mantenimiento industrial, el tiempo de búsqueda es tiempo de inactividad (downtime). FixCore implementa una arquitectura orientada al acceso ultrarrápido:
+Para facilitar el acceso a los registros de mantenimiento se propusieron accesos a información y acciones habituales:
 
 **Accesos Directos Basados en Contexto**
-* **Para el Técnico (Planta):** Escaneo de código QR pegado en la máquina física, que abre instantáneamente el formulario de reporte de esa máquina específica sin tener que buscarla en el sistema.
-* **Para el Gerente (Oficina):** Tarjetas de KPI dinámicas en el dashboard que funcionan como filtros rápidos (ej. hacer clic en "3 Máquinas Detenidas" redirige automáticamente a la lista filtrada de esas 3 máquinas).
+* **Para el Técnico (Planta):** El acceso a la ficha de una máquina mediante código QR se considera una mejora propuesta; su funcionamiento completo aún no está validado.
+* **Para el Gerente (Oficina):** Los indicadores del panel permiten consultar información general; los accesos directos desde cada indicador son una posibilidad de diseño.
 
 **Colecciones y Agrupaciones Predictivas**
-* **Kits de Mantenimiento Previos (Bundles):** Agrupación de repuestos que siempre se consumen juntos (ej. "Kit de cambio de aceite: Filtro + Aceite 5W + Empaquetadura"). Al generar la Orden de Trabajo, el operario puede retirar todo el bloque con un solo clic.
-* **Autocompletado de Búsqueda:** Buscadores globales que reconocen códigos de serie parciales (SKU) o nombres coloquiales con los que los operarios llaman a las herramientas.
+* **Kits de mantenimiento (propuesta):** Se plantea agrupar repuestos que suelen utilizarse juntos, para facilitar su selección cuando se registra una intervención.
+* **Búsqueda asistida (propuesta):** Se considera permitir consultas por código o nombre de máquina, con sugerencias para localizar registros.
 
 ### 4.2.2. Labeling Systems.
 
-Aquí el equipo explica de qué maneras se representarán los datos, priorizando la agilidad operativa y buscando evitar la confusión o fricción para los técnicos en planta y gerentes. En esta sección se especifican las etiquetas (con el mínimo número de palabras) a utilizar para representar los conjuntos de información y las asociaciones directas entre las mismas.
+Esta sección define las etiquetas utilizadas para identificar módulos, operaciones y estados dentro de FixCore, procurando mantener los mismos términos en las distintas pantallas.
 
 #### 4.2.2.1. Principios de Etiquetado
 
@@ -348,7 +348,7 @@ FixCore sigue principios específicos para todas las etiquetas utilizadas en la 
 
 *   **Mínimo número de palabras:** Las etiquetas son cortas, directas y accionables. Máximo 2 palabras para botones tácticos (ej. "Cerrar OT") y 3 para navegación.
 *   **Lenguaje de planta (Común):** Se utilizan los términos que los técnicos e ingenieros ya emplean en su día a día. El sistema se adapta a la fábrica, no al revés.
-*   **Consistencia estricta:** Un concepto tiene una única etiqueta en todo el software. "Maquinaria" siempre se etiqueta como "Activos" para evitar duplicidad conceptual con "Equipos" o "Sistemas".
+*   **Consistencia:** Se procura emplear una misma denominación para cada concepto, especialmente en las listas, formularios y mensajes de la aplicación.
 *   **Diferenciación clara:** Las etiquetas de emergencia visualmente y textualmente se separan de las rutinarias ("Falla Crítica" vs. "Mantenimiento Preventivo").
 *   **Orientación a la acción:** Los botones utilizan verbos imperativos claros para no generar dudas en situaciones de estrés ("Reportar", "Escanear", "Cerrar").
 
@@ -660,7 +660,7 @@ La aplicación web, orientada a Jefes de Planta y Consultores, cuenta con una na
 
 #### 4.2.5.4. Sistema de Breadcrumbs
 
-FixCore implementa breadcrumbs para facilitar la navegación profunda en la jerarquía de activos e inventario.
+La navegación mediante rutas jerárquicas o *breadcrumbs* se considera un patrón de diseño para ubicar al usuario en los módulos de activos e inventario.
 
 **Estructura de Breadcrumbs (Ejemplo)**
 *   FixCore > Planta San Miguel > Activos > Inyectoras > Inyectora 01 > OT-1045
@@ -709,7 +709,7 @@ FixCore asegura una navegación inclusiva y adaptada a entornos industriales de 
 
 #### 4.2.5.8. Feedback de Navegación
 
-FixCore proporciona respuestas visuales inmediatas para confirmar que las acciones críticas del mantenimiento han sido registradas.
+Los mensajes y cambios de estado de la interfaz indican al usuario si una acción se registró o si necesita corregir algún dato.
 
 **Indicadores Visuales**
 *   **Estados Activos:** Resaltado claro (*active state highlighted*) de la sección actual en el menú lateral.
@@ -726,9 +726,9 @@ FixCore proporciona respuestas visuales inmediatas para confirmar que las accion
 
 #### 4.3.1.1. Introducción al Wireframe del Landing Page
 
-El wireframe del Landing Page de FixCore establece la estructura fundamental y el flujo de persuasión B2B antes de la aplicación de la interfaz gráfica final (UI). Este esquema sirve como plano arquitectónico para definir la jerarquía de la información, guiando al visitante desde la propuesta de valor inicial en el *Hero Section* centrada en la reducción de tiempos muertos, pasando por la validación técnica (métricas de impacto y características del sistema), hasta los planes de suscripción y el llamado a la acción final (CTA).
+El wireframe muestra la distribución inicial de la Landing Page: presentación del producto, características, explicación del funcionamiento, planes y acceso a la aplicación.
 
-Aunque el diseño adopta un enfoque responsivo indispensable para su eventual visualización en el entorno operativo, la estructura del wireframe prioriza una lectura analítica y detallada en resolución *desktop*. Esto responde directamente al perfil del comprador objetivo (Jefaturas de Planta y Gerencias de Operaciones), quienes evalúan, comparan y toman decisiones de adquisición de software SaaS principalmente desde equipos de oficina. La distribución en bloques modulares —como la grilla de beneficios y la segmentación por perfiles de usuario— garantiza que el recorrido de navegación sea intuitivo, escalable y esté optimizado para maximizar la conversión hacia el modelo *Freemium* o la solicitud de demostraciones.
+Se prepararon vistas para escritorio y móvil. La primera permite revisar la distribución de las secciones; la segunda muestra cómo se reorganizan en una pantalla vertical.
 
 #### 4.3.1.2. Wireframe Desktop
 El wireframe desktop del Landing Page se estructura en las siguientes regiones principales:
@@ -752,9 +752,9 @@ El wireframe mobile adapta la estructura desktop a formatos verticales:
 
 **Justificación de la estructura del wireframe**
 
-El wireframe del Landing Page de FixCore establece la estructura fundamental y el flujo de persuasión B2B antes de la aplicación de la interfaz gráfica final (UI). Este esquema sirve como plano arquitectónico para definir la jerarquía de la información, guiando al visitante desde la propuesta de valor inicial en el *Hero Section* centrada en la reducción de tiempos muertos, pasando por la validación técnica (métricas de impacto y características del sistema), hasta los planes de suscripción y el llamado a la acción final (CTA).
+El wireframe muestra la distribución inicial de la Landing Page: presentación del producto, características, explicación del funcionamiento, planes y acceso a la aplicación.
 
-El diseño del wireframe sigue el principio de "mobile-first" adaptando el flujo en una sola columna para operarios en campo, pero prioriza la presentación analítica en desktop, dado que el Landing Page busca maximizar conversiones corporativas. Los compradores objetivos (Jefaturas de Planta y Gerencias de Operaciones) evalúan y toman decisiones de adquisición de software SaaS principalmente desde pantallas grandes. El wireframe está diseñado para ser escalable, modular y mantener su efectividad en ambos formatos.
+La versión móvil distribuye los contenidos en una sola columna y adapta los controles de navegación al espacio disponible, manteniendo las secciones principales de escritorio.
 
 ---
 
@@ -824,8 +824,8 @@ El último esfuerzo de conversión y navegación secundaria.
 El esquema estructural de FixCore se sostiene en los siguientes fundamentos UX/UI:
 
 *   **Jerarquía Visual y Contraste:** Uso de bloques con fondos oscuros (Stats y Bottom CTA) intercalados con fondos claros para crear "cortes" naturales en la lectura y evitar la fatiga visual.
-*   **Modularidad (Grid System):** Aplicación de un sistema de grillas estricto (12 columnas en desktop) que permite que los bloques de 3 (Features, How it works) y 2 (Testimonios) se redistribuyan perfectamente al hacer reflow en pantallas móviles (1 columna).
-*   **Diseño Orientado a la Conversión (CRO):** Los llamados a la acción (CTAs) mantienen una ubicación estratégica y constante a lo largo de todo el recorrido (Header, Hero, Pricing, Bottom), reduciendo la fricción para solicitar la demo.
+*   **Organización mediante grillas:** Las tarjetas y secciones cambian de distribución entre escritorio y móvil para conservar una lectura ordenada.
+*   **Acciones visibles:** Los botones de acceso y consulta del producto se ubican junto a las secciones principales.
 *   **Escalabilidad Mobile-First:** Elementos como el acordeón de FAQs y la barra de navegación se transforman en patrones nativos móviles (hamburguesa, menús desplegables) asegurando áreas táctiles de mínimo 44x44px.
 
 ### 4.3.2. Landing Page Mock-up.
@@ -834,11 +834,11 @@ Esta sección presenta y explica los Mock-ups (prototipos de alta fidelidad) del
 
 #### 4.3.2.1. Introducción al Mock-up
 
-El mock-up del Landing Page representa la implementación visual final del producto. Transforma el esquema estructural (Lo-Fi) aplicando los colores corporativos, tipografías, iconografía y espaciados definidos para crear una experiencia visual coherente que transmita confianza, modernidad y eficiencia operativa, valores centrales de FixCore.
+El mock-up muestra una propuesta visual de la Landing Page a partir del wireframe, con colores, tipografía, iconos y espaciados definidos para FixCore.
 
 #### 4.3.2.2. Mock-up Desktop
 
-El mock-up desktop del Landing Page aplica los siguientes elementos del Design System para maximizar la conversión en pantallas grandes:
+El mock-up de escritorio utiliza los siguientes elementos visuales:
 
 **Paleta de Colores Aplicada**
 *   **Primary (Azul Brillante):** `#0ea5e9` (Aprox.)
@@ -987,7 +987,7 @@ El mock-up aplica los principios de diseño responsivo *Mobile-First* a través 
 
 ## 4.4. Web Applications UX/UI Design.
 
-En esta sección se detalla el diseño visual e interactivo de la plataforma web y móvil de FixCore, un sistema open-source diseñado para optimizar y centralizar el mantenimiento industrial. La propuesta se fundamenta en las necesidades de los usuarios, criterios de usabilidad y la estructura de información planificada previamente, asegurando armonía con la identidad visual del proyecto.
+En esta sección se presentan los diseños de la aplicación web FixCore y su adaptación a pantallas de distintos tamaños. Se incluyen wireframes, wireflows, mock-ups y diagramas de flujo de usuario.
 
 El desarrollo se divide en cuatro apartados principales: los Wireframes, que establecen la distribución y jerarquía visual de los elementos en cada pantalla; los Wireflow Diagrams, que muestran la secuencia de navegación según los propósitos de cada usuario; los Mock-ups, que reflejan el diseño gráfico final aplicando la paleta de estilos; y los User Flow Diagrams, que conectan las interfaces con el recorrido ideal y las posibles rutas ante errores o imprevistos.
 
@@ -1106,7 +1106,7 @@ Explicación del flujo: El flujo comienza en el panel de inicio, donde luego se 
 
 ### 4.4.3. Web Applications Mock-ups.
 
-En esta sección presentamos los Mock-ups de alta fidelidad, los cuales materializan visualmente los wireframes que definimos previamente para FixCore. Para su desarrollo en Figma, aplicamos de manera rigurosa los lineamientos de nuestro Design System, integrando la paleta de colores corporativa, la jerarquía tipográfica, el sistema de espaciados y los componentes de interfaz estandarizados, garantizando así total coherencia gráfica de nuestro proyecto.
+Esta sección reúne los mock-ups de alta fidelidad elaborados en Figma a partir de los wireframes. Las pantallas muestran la distribución de módulos, formularios y controles según los perfiles de FixCore.
 
 **Mockups Mobile**
 
@@ -1157,9 +1157,9 @@ En esta sección presentamos los Mock-ups de alta fidelidad, los cuales material
 </div>
 
 Explicación de la propuesta:
-Los mock-ups reflejan fielmente el diseño visual definitivo de la plataforma. Implementamos una interfaz limpia y estructurada mediante tarjetas (cards), barras de navegación intuitivas y contenedores claramente delimitados que reducen la fatiga visual y facilitan la lectura rápida de los datos. La selección cromática prioriza contrastes óptimos para asegurar una legibilidad excelente tanto en monitores de oficina como en las pantallas móviles utilizadas por los técnicos en la fábrica.
+Los mock-ups muestran el diseño previsto para las pantallas de FixCore. Se utilizan tarjetas, tablas y formularios para organizar los datos, junto con colores que permiten distinguir las acciones principales.
 
-Asimismo, cuidamos la accesibilidad y el diseño inclusivo en cada componente. Los elementos interactivos —como botones de acción primaria y campos de formulario— cuentan con áreas táctiles amplias y estados visuales definidos (hover, active, disabled), permitiendo que los operarios interactúen con la aplicación sin errores accidentales. De este modo, logramos una interfaz moderna, profesional y altamente funcional para la gestión del mantenimiento industrial.
+Los diseños contemplan áreas táctiles amplias, mensajes de validación y estados visuales para botones y formularios. La accesibilidad de la aplicación implementada requiere verificaciones específicas de contraste y navegación.
 
 ### 4.4.4. Web Applications User Flow Diagrams.
 

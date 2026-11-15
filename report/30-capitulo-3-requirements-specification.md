@@ -2,7 +2,7 @@
 
 ## 3.1. User Stories.
 
-Las siguientes User Stories representan las principales funcionalidades de FixCore a partir de las necesidades identificadas en los segmentos objetivo. Los criterios de aceptación fueron definidos mediante escenarios Given-When-Then, considerando tanto los casos principales como situaciones alternativas relevantes para cada funcionalidad.
+Las siguientes User Stories describen las funcionalidades previstas para FixCore a partir de las necesidades identificadas durante las entrevistas. Cada historia incluye criterios de aceptación con escenarios Given-When-Then para las operaciones principales y situaciones alternativas.
 
 | Story ID | Título | Descripción | Criterios de aceptación | Relacionado con |
 | :--- | :--- | :--- | :--- | :--- |
@@ -73,7 +73,7 @@ Las siguientes User Stories representan las principales funcionalidades de FixCo
 
 **Technical Stories**
 
-Las siguientes Technical Stories representan capacidades técnicas necesarias para soportar las funcionalidades de la Web Application mediante la RESTful API de FixCore.
+Las Technical Stories reúnen las capacidades que necesita la API REST para dar soporte a la aplicación web, como autenticación, gestión de activos, órdenes de trabajo, inventario y reportes.
 
 | Story ID | Título | Descripción | Criterios de aceptación | Relacionado con |
 | :--- | :--- | :--- | :--- | :--- |
@@ -112,9 +112,9 @@ Las siguientes Technical Stories representan capacidades técnicas necesarias pa
 
 ## 3.3. Product Backlog.
 
-El Product Backlog de FixCore reúne los Product Backlog Items definidos para el desarrollo de la solución. Estos incluyen las User Stories relacionadas con las necesidades de los usuarios y las Technical Stories necesarias para implementar las capacidades técnicas de la plataforma.
+El Product Backlog reúne las User Stories y Technical Stories previstas para el desarrollo de FixCore. Su orden considera las necesidades de los usuarios, la importancia de cada función y las dependencias entre tareas.
 
-Los elementos fueron ordenados considerando el valor que aportan a los segmentos objetivo, las funcionalidades principales del producto y las dependencias necesarias para su implementación. Para realizar las estimaciones se utilizaron Story Points siguiendo la escala de 1, 2, 3, 5 y 8.
+Las estimaciones del Product Backlog se expresan en Story Points mediante la escala de 1, 2, 3, 5 y 8. Estos valores corresponden al esfuerzo estimado, no a horas de trabajo ni a historias ya completadas.
 
 Enlace del Product Backlog elaborado en Trello: [https://trello.com/b/yJyuiOSO](https://trello.com/b/yJyuiOSO)
 

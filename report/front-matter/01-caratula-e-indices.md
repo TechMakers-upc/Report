@@ -298,6 +298,12 @@ Proyecto
       <td style="border: 1px solid black;">Alvar Lucas Córdova</td>
       <td style="border: 1px solid black;">Revisión de la coherencia técnica, los metadatos web y los flujos de usuario del Capítulo IV; actualización de redacción y referencias audiovisuales del AV2.</td>
     </tr>
+    <tr>
+      <td style="border: 1px solid black; text-align: center;">40</td>
+      <td style="border: 1px solid black; text-align: center;">15/11/2026</td>
+      <td style="border: 1px solid black;">Alvar Lucas Córdova</td>
+      <td style="border: 1px solid black;">Revisión integral de la redacción y coherencia de los Capítulos I al V, con ajustes de descripciones técnicas y distinción entre funciones implementadas y propuestas de diseño.</td>
+    </tr>
 </tbody>
 </table>
 

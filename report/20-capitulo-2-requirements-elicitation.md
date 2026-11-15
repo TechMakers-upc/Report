@@ -3,13 +3,13 @@
 ## 2.1. Competidores.
 
 **1. Fracttal**
-- Plataforma CMMS 100% en la nube y móvil, muy consolidada en el mercado hispanohablante. Ofrece gestión de activos y mantenimiento predictivo con módulos de IoT. Sin embargo, sus planes de pago y la complejidad de implementación inicial pueden ser barreras de entrada para pymes industriales que buscan soluciones inmediatas.
+- Plataforma CMMS en la nube que ofrece gestión de activos, órdenes de trabajo, mantenimiento y funciones relacionadas con IoT. Para evaluar su adopción en pymes se deben considerar las necesidades de cada empresa y el alcance del plan contratado.
 
 **2. UpKeep**
-- Solución de mantenimiento *"mobile-first"* diseñada específicamente para facilitar el trabajo del técnico en campo. Agiliza la creación de órdenes de trabajo mediante una interfaz sencilla. No obstante, carece de la profundidad necesaria para integraciones corporativas complejas con ERPs en industrias de gran escala.
+- Plataforma de mantenimiento con énfasis en el uso desde dispositivos móviles. Ofrece funciones para administrar órdenes de trabajo y actividades del personal técnico. El alcance de sus integraciones depende de las capacidades contratadas.
 
 **3. IBM Maximo**
-- Software líder mundial en gestión de activos empresariales (EAM). Es extremadamente potente y personalizable, ideal para corporaciones gigantes con operaciones críticas. Su principal debilidad radica en sus altísimos costos de licencia, infraestructura pesada y una curva de aprendizaje muy pronunciada.
+- Plataforma empresarial de gestión de activos (EAM), utilizada en organizaciones con operaciones complejas. Su implementación puede requerir más planificación, personal especializado y presupuesto que una solución dirigida a pequeñas empresas.
 
 ### 2.1.1. Análisis competitivo.
 
@@ -51,7 +51,7 @@ IBM Maximo
 </tr>
 <tr>
 <th>Ventaja competitiva<br>¿Qué valor ofrece a los clientes?</th>
-<td>Baja fricción para técnicos, facilidad de adopción, centralización de la información y enfoque en pymes manufactureras y contratistas de mantenimiento industrial.</td>
+<td>Propuesta de interfaz sencilla, información centralizada y enfoque en pymes manufactureras y contratistas de mantenimiento industrial.</td>
 <td>Amplio ecosistema de mantenimiento que integra movilidad, IoT, automatización, monitoreo de activos y analítica.</td>
 <td>Experiencia mobile-first que facilita a los técnicos consultar, crear y gestionar órdenes de trabajo directamente desde campo.</td>
 <td>Alta capacidad para administrar activos críticos, mantenimiento, planificación y operaciones empresariales complejas dentro de una misma plataforma.</td>
@@ -66,7 +66,7 @@ IBM Maximo
 </tr>
 <tr>
 <th>Estrategias de marketing</th>
-<td>Modelo freemium, pruebas piloto, demostraciones técnicas, alianzas con empresas industriales y énfasis en una adopción sencilla para los usuarios.</td>
+<td>Propuesta de comercialización mediante una modalidad básica, demostraciones y posibles alianzas con empresas del sector industrial.</td>
 <td>Contenido especializado, demostraciones comerciales, presencia internacional y comunicación orientada a la eficiencia operativa y mantenimiento inteligente.</td>
 <td>Pruebas del producto, marketing digital, demostraciones y posicionamiento basado en una experiencia mobile-first.</td>
 <td>Ventas empresariales, servicios especializados, alianzas estratégicas y una amplia red de partners tecnológicos.</td>
@@ -81,7 +81,7 @@ IBM Maximo
 </tr>
 <tr>
 <th>Precios y Costos</th>
-<td>Modelo freemium con funcionalidades básicas gratuitas y planes premium para acceder a capacidades y módulos avanzados.</td>
+<td>Modelo de precios planteado con una modalidad básica y opciones de pago; su aplicación comercial depende de la evolución del producto.</td>
 <td>Modelo de suscripción comercial con planes definidos según las necesidades y características de cada organización.</td>
 <td>Modelo de suscripción basado en usuarios y funcionalidades contratadas.</td>
 <td>Modelo de licenciamiento y suscripción empresarial configurable según los módulos y necesidades de cada organización.</td>
@@ -99,7 +99,7 @@ IBM Maximo
 </tr>
 <tr>
 <th>Fortalezas</th>
-<td>Facilidad de uso, enfoque en pymes y contratistas, diseño web adaptable, baja fricción para técnicos y centralización de los procesos de mantenimiento.</td>
+<td>Enfoque en las necesidades de pymes y contratistas, diseño web adaptable y organización de información de mantenimiento.</td>
 <td>Solución madura, integración de IoT, analítica, automatización y amplia cobertura funcional.</td>
 <td>Experiencia móvil sencilla, facilidad de adopción y fuerte orientación hacia el trabajo diario de los técnicos.</td>
 <td>Alta capacidad empresarial, gestión integral de activos, analítica avanzada y soporte para operaciones de gran escala.</td>
@@ -1002,9 +1002,9 @@ A veces tenemos que esperar o preguntar para conseguir información que necesita
 
 El análisis de las entrevistas permitió identificar patrones comunes y diferencias entre los tres segmentos objetivo de FixCore. Para realizarlo se revisaron las respuestas de los participantes y se agruparon los principales hallazgos relacionados con la forma en que actualmente se desarrollan las actividades de mantenimiento, los medios utilizados para coordinar el trabajo, el acceso a la información, la disponibilidad de repuestos, el uso de herramientas digitales y las principales dificultades presentes durante estos procesos.
 
-Los resultados presentados a continuación corresponden exclusivamente a los participantes entrevistados en esta etapa de investigación. Por ello, los porcentajes se utilizan de manera descriptiva para representar coincidencias dentro de la muestra y no pretenden generalizar los resultados a la totalidad del mercado.
+Los resultados corresponden a las personas entrevistadas durante esta etapa. Los porcentajes describen las respuestas de la muestra y no representan a todas las empresas del sector.
 
-Estos hallazgos sirven posteriormente como base para la construcción de los User Personas y los demás artefactos de Needfinding de FixCore.
+Los resultados se utilizaron para elaborar los User Personas y los demás artefactos de Needfinding.
 
 
 **Segmento 1: Pymes de Manufactura y Producción**
@@ -1050,13 +1050,13 @@ El smartphone tiene una presencia importante dentro de las actividades diarias. 
 
 Para actividades de supervisión y gestión se combina el uso del smartphone con laptops o computadoras con Windows. Entre las herramientas digitales mencionadas se encuentran WhatsApp, Microsoft Excel, Google Sheets, Google Drive, Gmail, Microsoft Outlook y Google Chrome.
 
-Este comportamiento evidencia que los usuarios ya poseen experiencia utilizando diferentes herramientas digitales. Sin embargo, el problema no se encuentra necesariamente en la ausencia de tecnología, sino en que cada actividad se desarrolla mediante una herramienta diferente y la información termina distribuida entre múltiples canales.
+Las entrevistas muestran que los participantes ya usan herramientas digitales. El problema principal no es la falta de tecnología, sino la información distribuida entre aplicaciones y registros diferentes.
 
 La facilidad de uso fue otro aspecto importante. Algunos entrevistados mencionaron experiencias anteriores en las que determinadas herramientas dejaron de utilizarse porque resultaban complicadas para los operarios o requerían demasiado tiempo para registrar información. Por este motivo, una solución destinada al personal de planta debe permitir realizar las principales acciones rápidamente y reducir la cantidad de pasos y campos necesarios.
 
 Las alertas automáticas también fueron valoradas positivamente. Los entrevistados consideran útil recibir avisos cuando ocurre una falla importante o una situación requiere atención inmediata, especialmente cuando estos avisos pueden consultarse desde dispositivos que utilizan constantemente durante su jornada.
 
-Finalmente, los tres entrevistados mostraron disposición para probar inicialmente una solución digital antes de implementarla completamente. Esto permite considerar una estrategia de adopción progresiva, comenzando con determinadas máquinas o procesos y ampliando posteriormente el uso de la plataforma según los resultados obtenidos.
+Los tres entrevistados de este segmento manifestaron interés en probar primero una herramienta digital en una parte de sus operaciones. Esto sugiere evaluar su uso de forma gradual antes de extenderlo a otras actividades.
 
 **Relación con el User Persona**
 
@@ -1264,7 +1264,7 @@ A pesar de compartir varios problemas, las prioridades de cada segmento son dife
 
 Los dispositivos, marcas y tecnologías identificados durante las entrevistas también sirven como referencia para definir los atributos tecnológicos de los User Personas. Debido a que un User Persona representa los patrones de un segmento y no a un participante específico, estos atributos reúnen características observadas entre diferentes entrevistados.
 
-En conjunto, los resultados muestran la necesidad de centralizar la información relacionada con el mantenimiento y reducir la dependencia de procesos manuales o canales separados. Asimismo, respaldan que FixCore sea planteado como una aplicación web responsive que pueda utilizarse desde diferentes dispositivos sin depender de una marca o sistema operativo específico.
+Los resultados orientaron el diseño de FixCore hacia una aplicación web adaptable a distintos dispositivos y centrada en el registro, consulta y seguimiento del mantenimiento.
 
 Estos hallazgos sirven como base para la elaboración de los User Personas, User Task Matrix, User Journey Maps y Empathy Maps de FixCore.
 
@@ -1592,7 +1592,7 @@ Luego de elaborar el Big Picture EventStorming se identificaron los siguientes p
 
 ## 2.5. Ubiquitous Language.
 
-Con el objetivo de mantener un lenguaje común entre los integrantes del equipo y evitar diferentes interpretaciones de los conceptos utilizados en FixCore, se definió el siguiente Ubiquitous Language. Los términos representan conceptos propios de la gestión del mantenimiento industrial y serán utilizados de forma consistente en los diferentes artefactos del proyecto.
+Para utilizar los mismos términos en los requerimientos, diagramas y código de FixCore, definimos el siguiente Ubiquitous Language. El glosario reúne conceptos de mantenimiento industrial y sus definiciones dentro del proyecto.
 
 | Término | Definición |
 | :--- | :--- |

@@ -4,19 +4,19 @@
 
 ### 1.1.1. Descripción de la Startup
 
-TechMakers es una startup conformada por estudiantes de Ingeniería de Software que busca desarrollar soluciones tecnológicas orientadas a mejorar y digitalizar procesos presentes en distintos sectores empresariales.
+TechMakers es una startup formada por estudiantes de Ingeniería de Software. El equipo desarrolla herramientas para ayudar a las empresas a organizar sus procesos de trabajo.
 
 Actualmente, TechMakers se enfoca en una problemática presente en empresas del sector industrial: la gestión del mantenimiento de maquinaria y equipos. En muchas organizaciones, actividades como la programación de mantenimientos, el registro de fallas y el control de repuestos todavía se gestionan mediante cuadernos, pizarras, archivos de Excel o canales de comunicación separados.
 
 Esta forma de trabajo dificulta el acceso y seguimiento de la información y puede provocar que ciertos mantenimientos no se realicen en las fechas previstas, que no exista suficiente disponibilidad de repuestos o que una falla no sea atendida oportunamente. Estas situaciones pueden ocasionar tiempos muertos, interrupciones en la producción y mayores costos para las empresas.
 
-Frente a esta problemática surge **FixCore**, una plataforma orientada a centralizar la información y las actividades relacionadas con el mantenimiento industrial. FixCore permitirá gestionar los activos de una empresa mediante fichas digitales que contienen información como marca, modelo, manuales e historial de mantenimiento. Asimismo, busca facilitar la programación de mantenimientos, el registro de fallas, la gestión de órdenes de trabajo y el control de repuestos.
+Para atender estas dificultades, desarrollamos **FixCore**, una aplicación que reúne información de máquinas, mantenimientos, fallas, órdenes de trabajo y repuestos. Las fichas digitales permiten consultar datos técnicos e historiales, mientras que los demás módulos ayudan a registrar y seguir las actividades.
 
-De esta manera, TechMakers busca ofrecer una solución accesible y fácil de utilizar que permita a las empresas mejorar la organización de sus actividades de mantenimiento y reducir los problemas generados por procesos manuales o información dispersa.
+Con FixCore buscamos reducir la dependencia de registros separados y facilitar el seguimiento de las actividades de mantenimiento desde una misma aplicación.
 
 **Misión**
 
-La misión de TechMakers es ofrecer a empresas manufactureras y contratistas de mantenimiento industrial una solución tecnológica que facilite la organización y gestión de sus actividades de mantenimiento. Mediante FixCore buscamos centralizar la información de las máquinas, mejorar la programación de los mantenimientos y facilitar el control de los repuestos, contribuyendo a reducir las interrupciones ocasionadas por fallas o una planificación inadecuada.
+La misión de TechMakers es desarrollar herramientas para que empresas manufactureras y contratistas organicen sus actividades de mantenimiento. FixCore reúne información sobre máquinas, órdenes de trabajo y repuestos para facilitar la coordinación entre responsables y técnicos.
 
 **Visión**
 
@@ -134,7 +134,7 @@ El mantenimiento de maquinaria y equipos en pymes manufactureras y empresas cont
 
 Los principales usuarios afectados son los responsables de mantenimiento, administradores, técnicos y operarios, quienes necesitan consultar y registrar información durante sus actividades diarias. Cuando estos procesos dependen de cuadernos, hojas de cálculo, llamadas o mensajes, puede resultar más difícil mantener la información actualizada y conocer el estado de las actividades de mantenimiento.
 
-Las soluciones existentes no siempre se adaptan a las necesidades y recursos de pequeñas y medianas organizaciones, especialmente cuando requieren procesos de implementación complejos o interfaces poco prácticas para el personal que trabaja directamente en planta.
+Algunas plataformas requieren una configuración y unos recursos que dificultan su adopción en organizaciones pequeñas. Por ello, al diseñar FixCore consideramos la simplicidad de sus formularios y el acceso desde distintos dispositivos.
 
 Existe, por lo tanto, una oportunidad para desarrollar una solución que centralice la información y permita realizar las principales actividades de mantenimiento desde una interfaz sencilla y adaptable a diferentes dispositivos.
 

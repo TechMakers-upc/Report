@@ -2,7 +2,7 @@
 
 ## 5.1. Software Configuration Management
 
-En este capítulo se documenta el proceso de implementación, integración, pruebas y despliegue de FixCore, producto desarrollado por la startup TechMakers. Se presentan las herramientas utilizadas, la administración del código fuente, las convenciones de desarrollo y las evidencias correspondientes a los tres primeros sprints.
+Este capítulo presenta el desarrollo de FixCore desde la Landing Page inicial hasta la integración de Angular con los servicios REST de Spring Boot. Se describen las herramientas, las tareas por sprint, las pruebas realizadas y la configuración del despliegue.
 
 El desarrollo del producto se realizó de manera progresiva. Durante el Sprint 1 se implementó la Landing Page. En el Sprint 2 se desarrolló una primera versión de la Web Application utilizando Angular y una API simulada. Finalmente, durante el Sprint 3 se implementaron servicios REST propios con Spring Boot, se integraron con Angular y se configuró el despliegue de la solución en la nube.
 
@@ -909,7 +909,7 @@ Estos commits representan una selección de cambios. Los mensajes y la presencia
 - https://github.com/TechMakers-upc/Frontend/pull/9
 - https://github.com/TechMakers-upc/Frontend/pull/10
 
-Los registros muestran la evolución de FixCore desde una aplicación con interfaces demostrativas hacia una solución integrada con servicios de negocio, persistencia y mecanismos de seguridad.
+Los commits seleccionados muestran los cambios realizados en el backend, el frontend y la Landing Page durante la integración del Sprint 3.
 
 #### 5.2.3.5. Execution Evidence for Sprint Review
 
@@ -1026,13 +1026,13 @@ Se verificó la disponibilidad de las interfaces y la opción de exportación CS
 
 **Video de navegación del producto — Sprint 3**
 
-Para acompañar las capturas de esta sección, el equipo preparó una grabación de navegación de FixCore. Se presenta como evidencia audiovisual del Sprint 3 y permite revisar el recorrido de la aplicación junto con las pantallas y las operaciones descritas anteriormente.
+El video de navegación del Sprint 3 muestra distintas pantallas y operaciones de FixCore como complemento de las capturas incluidas en esta sección.
 
 [Ver video de navegación del Sprint 3 en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202324461_upc_edu_pe/IQAmjsCEEoO2RpFwsr6v6JFrAYjzXHwygwx15IxXrxnUXBs?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=ynn4Vg)
 
 
 
-La grabación complementa las capturas anteriores. Los recorridos con participantes se presentan en [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas).
+Los recorridos registrados durante las entrevistas de validación se documentan en [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas).
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
 Durante el Sprint 3 se desarrolló una API REST propia utilizando Java, Spring Boot, Spring Security, Spring Data JPA y PostgreSQL.
@@ -1384,7 +1384,7 @@ Quedan por documentar pruebas completas del cierre de órdenes, el consumo de in
 
 Durante el Sprint 3 se grabaron **tres sesiones de interacción** con la Landing Page y la aplicación de FixCore. Este apartado recoge las pantallas visitadas, las tareas realizadas y los momentos más relevantes de cada grabación.
 
-Las sesiones se enfocaron en la comprensión de la propuesta de FixCore, la navegación y las tareas principales de cada perfil. Para incorporar opiniones sobre facilidad de uso y satisfacción todavía es necesario revisar las respuestas de los participantes en el audio.
+Las tres sesiones recorren la Landing Page y tareas de los perfiles Jefe de Planta, Gerente de Operaciones y Técnico. El análisis de opiniones y dificultades requiere revisar las respuestas de los participantes.
 
 #### 5.3.1. Diseño de Entrevistas
 
@@ -1418,7 +1418,7 @@ Se dispone de **tres grabaciones MP4** de sesiones de validación, con una durac
 - [Enlace de validación 2 — Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202324461_upc_edu_pe/IQCgWLgTjns1T6HIqOm0lbuZAWSdUbm4AuT0lfSPbGicQQ8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=OhDqkm)
 - [Enlace de validación 3 — Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202324461_upc_edu_pe/IQALFPlFxumyQrXU888fIzevAWpVsdnZGXzEaKdIgfr2ZPo?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=w0a8ne)
 
-**Enlaces de las sesiones:** los videos se presentan en el orden en que fueron compartidos por el equipo; su correspondencia con cada archivo MP4 aún requiere confirmación.
+**Enlaces de las sesiones:** se mantienen los enlaces aportados por el equipo. La correspondencia entre cada dirección de Stream y los archivos E01–E03 debe confirmarse con los títulos de las grabaciones.
 
 **E01 — Interacción con el perfil de Jefe de Planta («George»)**
 
@@ -1475,7 +1475,7 @@ Se dispone de **tres grabaciones MP4** de sesiones de validación, con una durac
 
 #### 5.3.3. Evaluaciones según heurísticas
 
-La evaluación sigue tres ejes del Anexo D: **usabilidad, arquitectura de información y diseño inclusivo**. Las grabaciones permiten observar pantallas y recorridos; para calificar problemas y su severidad se necesita registrar las dificultades concretas de los participantes.
+La evaluación considera tres aspectos: **usabilidad, arquitectura de información y diseño inclusivo**. Las pantallas y tareas de las grabaciones sirven para identificar puntos de revisión; la valoración de severidad corresponde a los problemas observados durante las sesiones.
 
 | ID | Área / heurística o principio | Evidencia visible y minuto aproximado | Valoración sustentada | Severidad | Acción de verificación o mejora |
 |---|---|---|---|---|---|
@@ -1485,7 +1485,7 @@ La evaluación sigue tres ejes del Anexo D: **usabilidad, arquitectura de inform
 | H04 | Usabilidad: información y retroalimentación | E02, 09:50–10:50: vista previa del reporte | Se mostró una vista previa; falta comprobar la descarga del PDF | Por evaluar | Exportar el archivo y revisar el contenido y los mensajes del sistema |
 | H05 | Diseño inclusivo: idioma, accesibilidad y adaptación | E01/E02/E03: selector de idioma | Se muestra el selector de idioma; falta probar teclado, lector de pantalla y dispositivos móviles | Por evaluar | Revisar contraste, foco, etiquetas y diseño responsive |
 
-El análisis de las sesiones se organiza por tarea, pantalla, principio de usabilidad, minuto del video y medida de mejora. La valoración de severidad se completará con los problemas que se identifiquen durante la evaluación.
+Cada hallazgo de usabilidad debe quedar asociado a la tarea realizada, la pantalla utilizada, el minuto de la grabación y la mejora propuesta.
 
 **Resultados de las sesiones:** se recorrieron las funciones principales de FixCore y la sesión E03 mostró el cierre de una Orden de Trabajo hasta el estado `COMPLETADA`. Para evaluar la experiencia de uso faltan más entrevistas, las respuestas de los participantes y pruebas específicas de permisos e inventario.
 
@@ -1493,9 +1493,9 @@ El análisis de las sesiones se organiza por tarea, pantalla, principio de usabi
 
 ### 5.4. Video About-the-Product
 
-El video About-the-Product presenta FixCore a las personas que desean conocer la propuesta antes de utilizar la aplicación. Complementa la información de la Landing Page y permite mostrar el enfoque del producto en el registro de activos, las órdenes de trabajo y el seguimiento del mantenimiento industrial.
+El video About-the-Product presenta las funciones principales de FixCore y su aplicación en la gestión de mantenimiento industrial. Complementa la información de la Landing Page.
 
-El equipo ha compartido las siguientes versiones del video:
+El video está enlazado desde las siguientes plataformas:
 
 | Evidencia | Enlace o estado |
 |---|---|
@@ -1507,4 +1507,4 @@ El equipo ha compartido las siguientes versiones del video:
 
 
 
-El video se publica en Microsoft Stream y YouTube como presentación de la propuesta de FixCore. Se relaciona con los recorridos del producto y las entrevistas de validación documentadas en la sección 5.3.
+Los enlaces de Stream y YouTube permiten consultar el video. Las sesiones de validación se documentan por separado en el apartado 5.3.
