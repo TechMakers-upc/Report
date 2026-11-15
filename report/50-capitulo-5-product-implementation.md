@@ -1024,12 +1024,15 @@ Se verificó la disponibilidad de las interfaces y la opción de exportación CS
 
 Los resultados describen las comprobaciones realizadas y no constituyen una certificación de todos los flujos funcionales.
 
-**Video de ejecución del Sprint 3**
+**Video de navegación del producto — Sprint 3**
 
-[EVIDENCIA PENDIENTE: URL del video de demostración del Sprint 3]
+Para acompañar las capturas de esta sección, el equipo preparó una grabación de navegación de FixCore. Se presenta como evidencia audiovisual del Sprint 3 y permite revisar el recorrido de la aplicación junto con las pantallas y las operaciones descritas anteriormente.
 
-Como evidencia complementaria de ejecución, las grabaciones E01–E03 están descritas en [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas); no sustituyen automáticamente el video de ejecución exigido para esta sección.
+[Ver video de navegación del Sprint 3 en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202324461_upc_edu_pe/IQAmjsCEEoO2RpFwsr6v6JFrAYjzXHwygwx15IxXrxnUXBs?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=ynn4Vg)
 
+**Captura del video:** falta agregar un fotograma auténtico de la grabación. El enlace a Stream está disponible para su revisión.
+
+La grabación de navegación sirve para mostrar las pantallas y los pasos seguidos en la aplicación; las comprobaciones de permisos, persistencia y consumo de inventario deben contrastarse también con pruebas del backend. Las tres grabaciones de validación E01–E03 se encuentran documentadas por separado en [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas).
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
 Durante el Sprint 3 se desarrolló una API REST propia utilizando Java, Spring Boot, Spring Security, Spring Data JPA y PostgreSQL.
@@ -1490,33 +1493,18 @@ La evaluación se organiza según el enfoque exigido por el Anexo D del Final Pr
 
 ### 5.4. Video About-the-Product
 
-El Video About-the-Product tiene como objetivo presentar FixCore, explicar el problema de mantenimiento industrial que aborda y demostrar sus principales funcionalidades.
+El video About-the-Product presenta FixCore a las personas que desean conocer la propuesta antes de utilizar la aplicación. Complementa la información de la Landing Page y permite mostrar el enfoque del producto en el registro de activos, las órdenes de trabajo y el seguimiento del mantenimiento industrial.
 
-La estructura propuesta comprende:
+El equipo ha compartido las siguientes versiones del video:
 
-1. Presentación de FixCore y TechMakers.
-2. Descripción del problema de mantenimiento industrial.
-3. Explicación de la propuesta de valor.
-4. Demostración de la Landing Page.
-5. Demostración de la Web Application.
-6. Presentación de las funcionalidades según el perfil del usuario.
-7. Ejemplo de un proceso de mantenimiento industrial.
-8. Testimonio positivo auténtico de un participante de las entrevistas de validación.
-9. Cierre y presentación de los beneficios del producto.
-
-**Evidencia del video**
-
-| Campo | Información |
+| Evidencia | Enlace o estado |
 |---|---|
-| Producto | FixCore |
-| Startup | TechMakers |
-| Microsoft Stream | Pendiente de incorporar |
-| YouTube | Pendiente de incorporar |
-| Duración | Pendiente de registrar |
-| Estado | Pendiente de evidencia de publicación |
+| Video en Microsoft Stream | [Ver About-the-Product en Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202324461_upc_edu_pe/IQD3Y-222unpSqLHrugg2zeNAXK9ADnGeW4TyY1WH0SVX4I?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=vIHqJF) |
+| Video en YouTube | [Ver About-the-Product en YouTube](https://www.youtube.com/watch?v=5l8ZtW_ztyQ) |
+| Integración en la Landing Page | Se incorpora el video de YouTube a la sección de presentación del producto; su publicación web deberá comprobarse después de integrar la rama de Landing-Page. |
+| Duración exacta | Por registrar después de comprobar el archivo MP4. |
+| Reproducción y permisos | Los enlaces fueron aportados por el equipo; queda comprobar su acceso desde una cuenta habilitada para evaluación. |
 
-[EVIDENCIA PENDIENTE: captura del Video About-the-Product]
+**Captura del video:** pendiente de incorporar un fotograma auténtico del MP4 o de su publicación en Stream.
 
-La versión final del video deberá incluir una demostración real del producto y al menos un testimonio auténtico obtenido durante las entrevistas de validación.
-
-El material deberá mantener coherencia con las funcionalidades implementadas y con los resultados documentados en los tres sprints.
+Para completar la evidencia de esta sección todavía hay que verificar la duración del archivo y comprobar el contenido audiovisual, incluida la presencia de testimonios positivos auténticos de participantes de las entrevistas de validación. No se atribuyen declaraciones a personas entrevistadas sin revisar la grabación correspondiente.

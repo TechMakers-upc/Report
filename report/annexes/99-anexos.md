@@ -85,4 +85,12 @@ Las fichas, minutos y capturas correspondientes a E01–E03 se documentan en [5.
 
 - [Video de exposición AV1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202324461_upc_edu_pe/IQDmty3FNqrWTLFvZG58kxPfAfv-bKwb9TGY5O8XUFahqSs?e=p3LPOL)
 
+**Material audiovisual del Sprint 3**
+
+- [Navegación del producto — Sprint 3 (Microsoft Stream)](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202324461_upc_edu_pe/IQAmjsCEEoO2RpFwsr6v6JFrAYjzXHwygwx15IxXrxnUXBs?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=ynn4Vg)
+- [About-the-Product (Microsoft Stream)](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202324461_upc_edu_pe/IQD3Y-222unpSqLHrugg2zeNAXK9ADnGeW4TyY1WH0SVX4I?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=vIHqJF)
+- [About-the-Product (YouTube)](https://www.youtube.com/watch?v=5l8ZtW_ztyQ)
+
+El video de navegación se documenta en el apartado 5.2.3.5 y el video About-the-Product en el apartado 5.4. Las grabaciones de entrevistas de validación se encuentran en el Anexo D.
+
 El enlace del video de exposición AV2 se incorporará cuando el archivo MP4 y su publicación en Microsoft Stream estén disponibles. No se añade un enlace ficticio.

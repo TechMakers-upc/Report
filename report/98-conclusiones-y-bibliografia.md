@@ -34,7 +34,7 @@ Durante el Sprint 3 se documentaron la API REST con Spring Boot, la integración
 - **Resultados de las sesiones de validación.** Se dispone de tres grabaciones con recorridos de Jefe de Planta, Gerente de Operaciones y Técnico. Visualmente se aprecia una orden que llega al estado COMPLETADA; no se dispone de transcripciones verificadas para atribuir comentarios u opiniones a los participantes.
 - **Límites del alcance.** Las tres grabaciones no alcanzan el mínimo de tres a cinco entrevistas por cada segmento objetivo exigido por el enunciado. Siguen pendientes la comprobación integral del descuento de stock, la validación del contenido PDF y otras evidencias indicadas en el apartado 5.2.3.5.
 
-**Recomendaciones.** Completar los videos About-the-Product y About-the-Team, anexar las capturas de colaboración de GitHub, verificar permisos y persistencia por rol, contrastar los endpoints con la versión desplegada y completar las evidencias de validación sin atribuir declaraciones no comprobadas.
+**Recomendaciones.** Comprobar el acceso y las capturas de los videos de navegación y About-the-Product ya enlazados en el Capítulo V; completar el video About-the-Team, anexar las capturas de colaboración de GitHub, verificar permisos y persistencia por rol, contrastar los endpoints con la versión desplegada y completar las evidencias de validación sin atribuir declaraciones no comprobadas.
 
 ### Contraste de hipótesis Lean UX
 
