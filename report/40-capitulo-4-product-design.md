@@ -1336,7 +1336,7 @@ Realizamos una sesión de Design-Level EventStorming tomando como punto de parti
 
 El diagrama de contexto ubica a FixCore como la plataforma central para gestionar el mantenimiento industrial. El Jefe de Planta organiza máquinas, mantenimientos y órdenes; el Técnico consulta sus tareas y registra las intervenciones; y el Gerente de Operaciones supervisa plantas e indicadores.
 
-En el diseño también se considera un servicio externo para notificaciones por WhatsApp. Se trata de una integración prevista: las alertas que actualmente registra la API no demuestran por sí solas el envío real de mensajes mediante WhatsApp. Por ello, esta relación debe entenderse como parte de la arquitectura propuesta y no como una funcionalidad validada en producción.
+La arquitectura contempla una futura integración con WhatsApp. En el Sprint 3 se implementaron alertas dentro de la aplicación; el envío de mensajes externos sigue fuera de las funciones comprobadas en el despliegue.
 <div align="center">
   <strong></strong><br><br>
   <img src="assets/images/FixCoreSystemContext-dark.png" width="700"><br>
@@ -1347,7 +1347,7 @@ En el diseño también se considera un servicio externo para notificaciones por 
 
 El modelo de contenedores muestra cómo se relacionan la aplicación web Angular, la API REST desarrollada en Spring Boot y la base de datos PostgreSQL. Angular consume los endpoints mediante HTTP/JSON y Spring Boot concentra las reglas de negocio y la persistencia. La Landing Page es otro sitio web, publicado de forma independiente.
 
-En el Sprint 3, el backend se implementó como un **monolito modular**, organizado por bounded contexts dentro de una misma aplicación Spring Boot. Estos contextos no son microservicios desplegados por separado. Si el diagrama representa servicios especializados o bases de datos individuales, debe leerse como una separación de responsabilidades de diseño que todavía necesita ajustarse para reflejar exactamente el despliegue realizado.
+En el Sprint 3, el backend se organizó como un **monolito modular** en Spring Boot, con bounded contexts dentro de una sola aplicación. Los diagramas representan esa división por responsabilidades. Las representaciones que muestran servicios o bases de datos independientes deben ajustarse a la arquitectura desplegada.
 <div align="center">
   <strong></strong><br><br>
   <img src="assets/images/Containers-dark.png" width="700"><br>

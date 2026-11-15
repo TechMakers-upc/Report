@@ -31,14 +31,14 @@ Durante el Sprint 3 se documentaron la API REST con Spring Boot, la integración
 
 - **Integración entre frontend y backend.** La Web Application fue conectada a servicios REST propios para gestionar plantas, activos, mantenimientos, órdenes, inventario e indicadores. El informe conserva evidencias de interfaces y operaciones seleccionadas; no debe confundirse con una validación exhaustiva de todos los flujos.
 - **Seguridad y persistencia.** Se documentaron autenticación JWT, restricciones por rol y planta, migraciones Flyway y mecanismos de integridad en operaciones del backend. El cumplimiento integral requiere pruebas de seguridad y persistencia realizadas sobre el sistema desplegado.
-- **Resultados de las sesiones de validación.** Se dispone de tres grabaciones con recorridos de Jefe de Planta, Gerente de Operaciones y Técnico. Visualmente se aprecia una orden que llega al estado COMPLETADA; no se dispone de transcripciones verificadas para atribuir comentarios u opiniones a los participantes.
-- **Límites del alcance.** Las tres grabaciones no alcanzan el mínimo de tres a cinco entrevistas por cada segmento objetivo exigido por el enunciado. Siguen pendientes la comprobación integral del descuento de stock, la validación del contenido PDF y otras evidencias indicadas en el apartado 5.2.3.5.
+- **Sesiones de validación.** Se registraron tres recorridos con los perfiles de Jefe de Planta, Gerente de Operaciones y Técnico. En la sesión del Técnico aparece una orden en estado `COMPLETADA`. Queda analizar las respuestas de los participantes.
+- **Aspectos por completar.** Faltan entrevistas por segmento, pruebas de descuento de inventario y la comprobación del archivo PDF exportado.
 
-**Recomendaciones.** Comprobar el acceso y las capturas de los videos de navegación y About-the-Product ya enlazados en el Capítulo V; verificar las publicaciones y completar las capturas del video About-the-Team, anexar las capturas de colaboración de GitHub, verificar permisos y persistencia por rol, contrastar los endpoints con la versión desplegada y completar las evidencias de validación sin atribuir declaraciones no comprobadas.
+**Prioridades.** Completar las entrevistas de validación, revisar los permisos y la persistencia de FixCore, incorporar las capturas y duraciones de los videos y actualizar las evidencias de colaboración de GitHub.
 
 ### Contraste de hipótesis Lean UX
 
-En el Capítulo I definimos cinco hipótesis sobre la utilidad de FixCore. Las revisamos con las funciones implementadas y con las tres grabaciones de validación disponibles. Por ahora podemos hablar de avances en la aplicación, pero no de una aceptación comprobada por los usuarios: no tenemos datos suficientes sobre tiempos, satisfacción o uso autónomo.
+Las cinco hipótesis Lean UX del Capítulo I se revisaron a partir de las funciones implementadas y las tres sesiones de validación. Se observaron avances en los recorridos de la aplicación, pero faltan mediciones sobre tiempos, satisfacción y uso autónomo.
 
 | Hipótesis del Capítulo I | Qué se pudo observar en AV2 | Resultado de la revisión |
 |---|---|---|
@@ -48,9 +48,9 @@ En el Capítulo I definimos cinco hipótesis sobre la utilidad de FixCore. Las r
 | H4. Alertas y notificaciones | El backend documenta endpoints de alertas, pero no se midió si los avisos ayudaron a recordar actividades ni se confirmó envío mediante WhatsApp. | Sin validar el beneficio planteado. |
 | H5. Dashboard para supervisión | E02 muestra indicadores, plantas y vistas de reportes. | Vistas disponibles; comprensión de los indicadores sin medir. |
 
-Las hipótesis sobre la reducción de trabajo manual, la utilidad percibida y la continuidad de uso necesitan pruebas con usuarios de los segmentos objetivo y preguntas cuyas respuestas puedan revisarse. Con tres grabaciones no se alcanza el número de entrevistas solicitado en el enunciado.
+Para contrastar las hipótesis de reducción del trabajo manual, utilidad y continuidad de uso se necesitan más sesiones con participantes de los segmentos objetivo y resultados de tareas medibles.
 
-**Próximos pasos.** Primero corresponde comprobar el flujo completo de órdenes, permisos e inventario con datos persistidos. Después deben completarse las evaluaciones de usabilidad e inclusión, junto con la prueba de los avisos y la exportación de reportes. Finalmente, las funciones como acceso por QR y notificaciones externas deben contrastarse con los requerimientos y la implementación real antes de presentarlas como terminadas.
+**Siguientes actividades.** Probar el flujo completo de órdenes, inventario y permisos; completar las entrevistas y evaluaciones de usabilidad; revisar las alertas y las exportaciones; y contrastar los requerimientos de QR y notificaciones externas con el alcance implementado.
 
 
 ### Video About-the-Team
@@ -70,7 +70,7 @@ El video About-the-Team presenta el trabajo realizado por TechMakers durante el 
 | Captura representativa | Pendiente de incorporar una imagen real |
 | Inserción en la Landing Page | Incorporada al código en español e inglés; verificar reproducción en el sitio publicado. |
 
-El contenido del video complementa el apartado Student Outcome, donde se registran las actividades y los aprendizajes de los integrantes. Antes de entregar el informe, se deben comprobar los permisos de reproducción de ambos enlaces.
+El video complementa el apartado Student Outcome, donde se describen las actividades y los aprendizajes del equipo. Los enlaces están registrados; queda revisar los permisos de reproducción con una cuenta de evaluación.
 
 <div style="page-break-after: always;"></div>
 

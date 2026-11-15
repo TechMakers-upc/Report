@@ -47,13 +47,13 @@
 
 ### Entrevistas de validación AV2 — Sprint 3
 
-Se incluyen únicamente **tres grabaciones reales** aportadas por el equipo (E01 Jefe de Planta, E02 Gerente de Operaciones y E03 Técnico). La correspondencia definitiva entre los archivos MP4 y cada URL de Stream sigue pendiente de confirmación; los enlaces se enumeran en el orden en que fueron compartidos.
+Se registraron **tres sesiones de validación**: E01 (Jefe de Planta), E02 (Gerente de Operaciones) y E03 (Técnico). Los enlaces de Stream aparecen en el orden en que fueron enviados; falta confirmar su correspondencia con cada MP4.
 
 - [Grabación 1 en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202324461_upc_edu_pe/IQAP5e8dn0yhQY3L36LRTBe_ATyEYBqREHub17NjnAOoeBs?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=uwNoPi)
 - [Grabación 2 en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202324461_upc_edu_pe/IQCgWLgTjns1T6HIqOm0lbuZAWSdUbm4AuT0lfSPbGicQQ8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=OhDqkm)
 - [Grabación 3 en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202324461_upc_edu_pe/IQALFPlFxumyQrXU888fIzevAWpVsdnZGXzEaKdIgfr2ZPo?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=w0a8ne)
 
-Las fichas, minutos y capturas correspondientes a E01–E03 se documentan en [5.3. Validation Interviews](../50-capitulo-5-product-implementation.md#53-validation-interviews). El conjunto no equivale a las 9 entrevistas mínimas requeridas por la rúbrica.
+Las fichas, los minutos y las capturas de E01–E03 se encuentran en [5.3. Validation Interviews](../50-capitulo-5-product-implementation.md#53-validation-interviews). La rúbrica exige al menos 9 entrevistas, por lo que todavía faltan sesiones de validación.
 <div style="page-break-after: always;"></div>
 
 ## Anexo E. Despliegues
@@ -97,4 +97,4 @@ El video de navegación se documenta en el apartado 5.2.3.5 y el video About-the
 
 El video About-the-Team se documenta en Conclusiones. La grabación se incorpora como evidencia del proceso de trabajo del equipo.
 
-El enlace del video de exposición AV2 se incorporará cuando el archivo MP4 y su publicación en Microsoft Stream estén disponibles. No se añade un enlace ficticio.
+El video de exposición AV2 todavía no tiene enlace registrado en Stream. Se agregará en este anexo cuando el equipo lo publique.

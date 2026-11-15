@@ -328,14 +328,14 @@ En el TB1 organizamos la implementación inicial de la aplicación web por módu
 
 En esta etapa todavía trabajábamos con una API simulada. La revisión de los módulos ayudó a identificar los puntos que debíamos resolver en el Sprint 3, principalmente la autenticación, la persistencia y la conexión con servicios REST propios. El detalle de la coordinación y la captura disponible del Sprint 2 se encuentran en [5.2.2.8. Team Collaboration Insights during Sprint](../50-capitulo-5-product-implementation.md#5228-team-collaboration-insights-during-sprint).
 
-Este resumen corresponde al trabajo documentado para TB1. Las capturas específicas de Pulse y Contributors del repositorio Report deben verificarse para esa entrega antes de presentar métricas de participación.
+El trabajo del TB1 queda documentado en el Sprint Backlog 2 y en el historial de GitHub. Para completar las evidencias de colaboración de ese periodo faltan las capturas de Pulse y Contributors del repositorio Report.
 
 
 <!-- TECHMAKERS-AV2-COLLABORATION -->
 
 **AV2 — Sprint 3 (18 de octubre al 3 de noviembre de 2026)**
 
-En este avance, las contribuciones a la documentación del Sprint 3 y las evidencias técnicas consideradas se concentraron en **Alvar Lucas Córdova, Giuseppe Adrián Villanueva Rodríguez y Diego Rances Rojas Huaranga**. La colaboración documental se registra de manera diferenciada de la autoría de código: un commit de Backend o Frontend no se presenta como si fuera un commit del repositorio Report.
+Durante el Sprint 3, Alvar Lucas Córdova, Giuseppe Adrián Villanueva Rodríguez y Diego Rances Rojas Huaranga concentraron las contribuciones documentadas. El historial del Report registra los cambios del informe, mientras que los repositorios Backend y Frontend muestran los aportes al software.
 
 Se utilizaron ramas de trabajo y commits registrados en GitHub para consolidar la planificación del Sprint 3, las evidencias de implementación, las pruebas y el despliegue de FixCore. Para esta actualización se consideran los siguientes aportes verificables:
 
@@ -343,13 +343,13 @@ Se utilizaron ramas de trabajo y commits registrados en GitHub para consolidar l
 |---|---|---|
 | **Alvar Lucas Córdova** (`AlvarLC`) | Reorganización modular del informe; planificación del Sprint 3; actualización de contenidos de arquitectura, integración y evidencias del Capítulo V. | [Reorganización](https://github.com/TechMakers-upc/Report/commit/63505073a), [Sprint 3/backend](https://github.com/TechMakers-upc/Report/commit/5ef9eccc9), [Evidencias de Sprint 3](https://github.com/TechMakers-upc/Report/commit/f495b1f95) |
 | **Giuseppe Adrián Villanueva Rodríguez** (`Giuseppe152004`) | Incorporación y actualización de evidencias del Capítulo V, material gráfico y ajustes en la planificación y estimaciones del Sprint 3. | [Evidencias y texto](https://github.com/TechMakers-upc/Report/commit/b12de2b5f), [Detalles y carga de trabajo](https://github.com/TechMakers-upc/Report/commit/6d78bf36e) |
-| **Diego Rances Rojas Huaranga** (`diego27-16`) | Evidencia técnica del trabajo de integración, pruebas y controles de seguridad del backend que sirve de sustento al apartado de implementación. No se atribuyen commits del repositorio Report sin respaldo. | [Seguridad de órdenes](https://github.com/TechMakers-upc/Backend/commit/4f9d7737), [Integridad de inventario](https://github.com/TechMakers-upc/Backend/commit/b8bb1411), [Integración de autenticación](https://github.com/TechMakers-upc/Frontend/commit/435662ca) |
+| **Diego Rances Rojas Huaranga** (`diego27-16`) | Evidencia técnica del trabajo de integración, pruebas y controles de seguridad del backend que sirve de sustento al apartado de implementación. Su participación técnica se sustenta en los commits enlazados de Backend y Frontend. | [Seguridad de órdenes](https://github.com/TechMakers-upc/Backend/commit/4f9d7737), [Integridad de inventario](https://github.com/TechMakers-upc/Backend/commit/b8bb1411), [Integración de autenticación](https://github.com/TechMakers-upc/Frontend/commit/435662ca) |
 
 **Recursos de colaboración del informe:** [Repositorio Report](https://github.com/TechMakers-upc/Report), [historial de commits](https://github.com/TechMakers-upc/Report/commits/main/), [Pull Requests](https://github.com/TechMakers-upc/Report/pulls?q=is%3Apr), [Pulse](https://github.com/TechMakers-upc/Report/pulse) y [Contributors](https://github.com/TechMakers-upc/Report/graphs/contributors).
 
-**Interpretación de la evidencia.** Los enlaces a commits muestran cambios identificables en el repositorio. La sección no asigna cantidades de commits u horas a personas sin comprobarlas, ni presenta participación oral o capturas de sesiones como si ya estuvieran grabadas. Las contribuciones técnicas se explican en el apartado 5.2.3.8 del Capítulo V.
+Los commits enlazados permiten consultar los cambios de cada integrante. Las tareas de integración, pruebas y despliegue se explican en el apartado 5.2.3.8 del Capítulo V.
 
-**Evidencia gráfica por verificar:** Si las capturas automáticas no se generaron, incorporar screenshots auténticos de GitHub Pulse y Contributors del repositorio Report antes de exportar el PDF.
+**Capturas de colaboración pendientes:** incorporar imágenes de Pulse y Contributors del repositorio Report correspondientes al AV2.
 
 <div style="page-break-after: always;"></div>
 
