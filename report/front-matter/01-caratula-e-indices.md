@@ -274,6 +274,18 @@ Proyecto
       <td style="border: 1px solid black;">Alvar Lucas Córdova</td>
       <td style="border: 1px solid black;">Ajuste de redacción y trazabilidad de AV2: colaboración TB1, estimaciones del Sprint 3, tabla de commits, documentación de servicios, relación entre arquitectura y despliegue, y contraste de las hipótesis Lean UX.</td>
     </tr>
+    <tr>
+      <td style="border: 1px solid black; text-align: center;">36</td>
+      <td style="border: 1px solid black; text-align: center;">15/11/2026</td>
+      <td style="border: 1px solid black;">Alvar Lucas Córdova</td>
+      <td style="border: 1px solid black;">Se incorporaron los enlaces de los videos de navegación del Sprint 3 y About-the-Product en el Capítulo V y los anexos. Se actualizaron las conclusiones para distinguir la publicación de videos de las verificaciones aún pendientes.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; text-align: center;">37</td>
+      <td style="border: 1px solid black; text-align: center;">15/11/2026</td>
+      <td style="border: 1px solid black;">Alvar Lucas Córdova</td>
+      <td style="border: 1px solid black;">Incorporación de los enlaces de Microsoft Stream y YouTube del video About-the-Team en las conclusiones y anexos del AV2. Se precisaron las evidencias que deben verificarse antes de la entrega.</td>
+    </tr>
   </tbody>
 </table>
 
