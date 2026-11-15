@@ -1469,9 +1469,25 @@ Se dispone de **tres grabaciones MP4** de sesiones de validación, con una durac
 
 *Figura E03-B. Una Orden de Trabajo aparece como `COMPLETADA` al final de la grabación.*
 
-**Información pendiente de las entrevistas:** fechas, datos generales de los participantes y transcripción de respuestas. Es necesario registrar también las opiniones y dificultades expresadas durante cada sesión.
+**Matriz de resultados observables (sin atribuir opiniones)**
 
-**Cobertura de entrevistas:** el enunciado solicita de 3 a 5 entrevistas por cada uno de los tres segmentos objetivo (mínimo 9). Actualmente hay 3 sesiones documentadas. Se necesitan al menos 6 entrevistas adicionales y confirmar a qué segmento pertenece cada participante.
+La siguiente matriz analiza exclusivamente las acciones y pantallas ya registradas en las fichas de los videos. Describe qué se observa en el recorrido y qué información todavía no permite demostrar. No constituye una transcripción ni afirma que los entrevistados hayan valorado positiva o negativamente el producto.
+
+| Sesión y perfil de prueba | Tareas observables documentadas | Resultado observable | Límite de la evidencia |
+|---|---|---|---|
+| E01 — Jefe de Planta | Navegación en Landing Page; consulta y formulario de máquinas; reporte de falla; orden de trabajo; inventario | El recorrido muestra acceso a las vistas y formularios correspondientes al perfil de prueba | No permite concluir satisfacción, facilidad de uso, éxito de persistencia ni experiencia laboral real sin escuchar las respuestas y contrastar la API |
+| E02 — Gerente de Operaciones | Landing Page; inicio de sesión; indicadores, plantas y órdenes; mantenimiento; reportes | El recorrido muestra navegación entre módulos de supervisión y la vista previa de reportes | No certifica exportación PDF, exactitud de los indicadores ni opiniones del participante |
+| E03 — Técnico | Consulta de órdenes; cambio de estado; repuestos; registro de un repuesto; formulario de cierre | En la grabación documentada se observa una orden que llega a estado `COMPLETADA` en la interfaz | No confirma por sí sola persistencia en PostgreSQL, descuento efectivo de stock ni permisos sobre órdenes ajenas |
+
+**Análisis comparativo de los recorridos.** Las tres sesiones abarcan funciones diferenciadas según el rol de prueba: administración de máquinas y fallas (E01), supervisión de operaciones y reportes (E02), y ejecución de órdenes (E03). En conjunto permiten documentar cobertura visual de navegación y de flujos seleccionados. No prueban la percepción de los participantes ni equivalen a una validación integral de backend.
+
+**Hallazgos observables y acciones de mejora.** El registro permite identificar tres necesidades de verificación: (1) comprobar que las operaciones de registro y actualización persistan al recargar la aplicación; (2) validar la exportación y el contenido de los reportes, incluida la ruta de impresión a PDF; y (3) comprobar las restricciones de acceso y el descuento de stock en órdenes ejecutadas. Son necesidades de pruebas derivadas del alcance de las grabaciones, no quejas atribuidas a los entrevistados.
+
+**Pendientes que requieren evidencia original.** Confirmar la fecha real y la correspondencia de cada enlace de Stream con E01–E03; identificar el segmento real de los participantes sin publicar datos personales innecesarios; escuchar el audio y registrar las preguntas, respuestas, dificultades expresadas y conclusiones de cada sesión. No asignar citas ni valoraciones sin su transcripción. Las duraciones consignadas se mantienen como las documentadas en los archivos MP4.
+
+**Cobertura frente al enunciado.** El propio informe identifica 3 a 5 entrevistas por cada uno de los tres segmentos objetivo (mínimo 9). En esta versión siguen documentadas solo 3 sesiones. Faltan al menos 6 si se confirma que las tres sesiones cubren los segmentos exigidos de manera válida; si no, la distribución por segmento deberá ajustarse. Este pendiente no queda resuelto por la matriz anterior.
+
+
 
 #### 5.3.3. Evaluaciones según heurísticas
 
@@ -1599,18 +1615,27 @@ La inspección del código permitió identificar **cinco puntos de mejora** en l
 
 ### 5.4. Video About-the-Product
 
-El video About-the-Product presenta las funciones principales de FixCore y su aplicación en la gestión de mantenimiento industrial. Complementa la información de la Landing Page.
+El equipo TechMakers incorporó un video **About-the-Product** para presentar FixCore como una aplicación de gestión del mantenimiento industrial. Esta evidencia complementa la Landing Page y permite al visitante acceder a una presentación audiovisual del producto. No debe confundirse con el video About-the-Team ni con las grabaciones de validación de la sección 5.3.
 
-El video está enlazado desde las siguientes plataformas:
+**Enlaces de la evidencia audiovisual**
 
-| Evidencia | Enlace o estado |
+| Medio | Evidencia y comprobación |
 |---|---|
-| Video en Microsoft Stream | [Ver About-the-Product en Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202324461_upc_edu_pe/IQD3Y-222unpSqLHrugg2zeNAXK9ADnGeW4TyY1WH0SVX4I?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=vIHqJF) |
-| Video en YouTube | [Ver About-the-Product en YouTube](https://www.youtube.com/watch?v=5l8ZtW_ztyQ) |
-| Integración en la Landing Page | Video incluido en el código de las versiones en español e inglés; queda comprobar su reproducción en el sitio público. |
-| Duración exacta | Por registrar después de comprobar el archivo MP4. |
-| Reproducción y permisos | Los enlaces fueron aportados por el equipo; queda comprobar su acceso desde una cuenta habilitada para evaluación. |
+| Landing Page publicada | [Ver la sección «Descubre cómo funciona FixCore»](https://techmakers-upc.github.io/Landing-Page/#product-video) |
+| YouTube | [Ver About-the-Product](https://www.youtube.com/watch?v=5l8ZtW_ztyQ) |
+| Microsoft Stream | [Enlace facilitado por el equipo](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202324461_upc_edu_pe/IQD3Y-222unpSqLHrugg2zeNAXK9ADnGeW4TyY1WH0SVX4I?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=vIHqJF) |
+| Implementación en español | [Código `index-es.html`, sección `product-video`](https://github.com/TechMakers-upc/Landing-Page/blob/main/index-es.html) |
+| Implementación en inglés | [Código `index.html`, sección `product-video`](https://github.com/TechMakers-upc/Landing-Page/blob/main/index.html) |
 
+**Integración comprobable en el repositorio.** Los dos archivos HTML de la Landing Page contienen la sección `id="product-video"` y un reproductor `iframe` con origen `https://www.youtube-nocookie.com/embed/5l8ZtW_ztyQ`. Ambos incluyen un enlace alternativo que conduce al video en YouTube. Así queda sustentada la implementación de la integración en el código publicado.
 
+**Propósito y alcance.** El video está ubicado en la presentación pública del producto, cerca de la explicación de FixCore. Su objetivo es complementar las descripciones escritas mediante un recurso audiovisual accesible desde la Landing Page. La presencia del reproductor en el HTML no demuestra por sí sola que el video se pueda reproducir en todos los navegadores o cuentas.
 
-Los enlaces de Stream y YouTube permiten consultar el video. Las sesiones de validación se documentan por separado en el apartado 5.3.
+**Comprobaciones finales para entrega:**
+
+- [ ] Abrir la Landing Page pública en una ventana sin sesión de la universidad y reproducir el video completo.
+- [ ] Confirmar que el enlace de YouTube funciona y registrar la duración exacta desde el reproductor.
+- [ ] Verificar que el enlace de Microsoft Stream permite acceso al evaluador o conservar YouTube como alternativa pública.
+- [ ] Comprobar que el iframe funciona en escritorio y móvil; si falla, registrar el error sin marcar la reproducción como validada.
+
+**Estado de la evidencia:** inserción en el código HTML **verificada**; reproducción pública, permisos y duración **pendientes de comprobación manual**. No se ha inventado una duración ni se ha declarado una prueba de reproducción inexistente.
