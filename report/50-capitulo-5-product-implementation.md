@@ -965,7 +965,7 @@ Se implementaron servicios para registrar órdenes, asignar técnicos, consultar
 
 Las verificaciones realizadas confirmaron la creación de una orden de prueba y su aparición en la vista del técnico asignado.
 
-El flujo completo de inicio, ejecución, consumo de repuestos y cierre requiere una evidencia integral adicional.
+Las evidencias complementarias incluidas en este apartado documentan la ejecución de órdenes, el uso de repuestos y el cierre de una intervención desde la aplicación desplegada.
 
 ![Modulo de ordenes de trabajo](<assets/images/05-modulo-ordenes.png>)
 
@@ -999,11 +999,86 @@ El backend incorpora validaciones destinadas a proteger la integridad de los dat
 
 Se incorporaron consultas de indicadores y vistas para presentar información de mantenimiento.
 
-Se verificó la disponibilidad de las interfaces y la opción de exportación CSV. La validación integral del contenido de los archivos PDF permanece pendiente.
+Se verificó la disponibilidad de las interfaces y la exportación CSV. Además, se generó y abrió un PDF de mantenimiento mediante el diálogo de impresión del navegador. La exactitud de indicadores con datos históricos complejos requiere pruebas adicionales.
 
 ![dashboard indicadores](<assets/images/08a-dashboard-indicadores.png>)
 
 ![Reportes](<assets/images/08b-reportes.png>)
+
+
+<!-- FIXCORE-EVIDENCIAS-EJECUCION-AV2 -->
+
+**Evidencias complementarias de ejecución — Sprint 3**
+
+Las siguientes capturas corresponden a verificaciones realizadas el 15 de noviembre de 2026 en la aplicación desplegada de FixCore. Se utilizaron cuentas de prueba de los perfiles Gerente de Operaciones, Jefe de Planta y Técnico de Mantenimiento.
+
+**Caso 1. Registro, ejecución y cierre de órdenes de trabajo**
+
+Se documentaron operaciones de creación y consulta de órdenes, así como el recorrido del Técnico de Mantenimiento para ejecutar y finalizar una intervención. Las capturas muestran estados de las órdenes de trabajo y permiten identificar el resultado de las operaciones realizadas.
+
+![Evidencia de orden 1](assets/images/evidence-sprint3/1-ordenes.png)
+
+*Figura E-01. Primera evidencia del proceso de gestión de órdenes de trabajo.*
+
+![Evidencia de orden 2](assets/images/evidence-sprint3/2-ordenes.png)
+
+*Figura E-02. Segunda evidencia del proceso de gestión de órdenes de trabajo.*
+
+![Evidencia de orden 3](assets/images/evidence-sprint3/3-ordenes.png)
+
+*Figura E-03. Evidencia del seguimiento de una orden desde el perfil correspondiente.*
+
+![Evidencia de orden 4](assets/images/evidence-sprint3/4-ordenes.png)
+
+*Figura E-04. Evidencia complementaria de la ejecución y finalización de una orden.*
+
+![Evidencia de orden 5](assets/images/evidence-sprint3/5-ordenes.png)
+
+*Figura E-05. Evidencia final del proceso de órdenes de trabajo.*
+
+**Resultado:** las capturas de la aplicación muestran operaciones de órdenes de trabajo, incluida su finalización en la interfaz. Se conservan como evidencia visual del flujo funcional ejecutado.
+
+**Caso 2. Registro de repuestos y actualización de inventario**
+
+Se registró un repuesto de prueba con SKU `3232323`, denominado `asdasd`, categoría Mecánicos y stock inicial de 100 unidades. Posteriormente se documentó el uso de 20 unidades en una orden de trabajo y la visualización de 80 unidades disponibles en el inventario.
+
+![Formulario de inventario](assets/images/evidence-sprint3/1-inventario.png)
+
+*Figura E-06. Formulario de registro del repuesto con stock inicial de 100 unidades.*
+
+![Inventario inicial](assets/images/evidence-sprint3/2-inventario.png)
+
+*Figura E-07. Ficha del repuesto registrado con stock de 100 unidades y movimiento de ingreso inicial.*
+
+![Inventario actualizado](assets/images/evidence-sprint3/4-inventario.png)
+
+*Figura E-08. Listado de inventario con 80 unidades disponibles para el SKU `3232323`.*
+
+**Resultado:** se observó una reducción de 100 a 80 unidades, consistente con el registro de 20 unidades utilizadas durante una intervención. Las capturas demuestran el cambio mostrado por la aplicación. La comprobación directa de los registros de PostgreSQL se considera una verificación técnica distinta.
+
+**Caso 3. Generación y revisión de reportes PDF**
+
+Desde el perfil Gerente de Operaciones se utilizó la función de impresión del módulo Reportes para guardar un documento en formato PDF. Se comprobó visualmente que el archivo generado podía abrirse y mostraba la estructura del reporte de mantenimiento, el período seleccionado, los indicadores y las secciones de trabajos, tiempo muerto, repuestos y fallas.
+
+![Vista previa del reporte PDF](assets/images/evidence-sprint3/1-reporte.png)
+
+*Figura E-09. Vista previa del reporte de mantenimiento con la opción Guardar como PDF.*
+
+![Documento PDF abierto](assets/images/evidence-sprint3/2-reporte.png)
+
+*Figura E-10. Archivo PDF generado y abierto en el visor del navegador.*
+
+**Resultado:** se comprobó la generación y apertura de un documento PDF. El reporte mostrado corresponde a una selección sin órdenes ni fallas registradas para el período indicado, por lo que sus indicadores muestran valores vacíos o cero. Esta prueba valida la generación y presentación del archivo, no la exactitud de cálculos con datos históricos complejos.
+
+**Resumen de las evidencias complementarias**
+
+| Caso evaluado | Resultado sustentado por las capturas |
+|---|---|
+| Gestión de órdenes | Creación, consulta y ejecución de órdenes documentadas visualmente; se muestra una intervención completada. |
+| Inventario | Registro de un repuesto con stock de 100 unidades y posterior visualización de 80 unidades tras el uso de 20. |
+| Exportación PDF | Generación mediante el diálogo de impresión y apertura del documento resultante. |
+
+Las capturas respaldan las operaciones observadas en la interfaz desplegada. No se presentan como sustituto de pruebas automatizadas ni de una auditoría directa de la base de datos.
 
 **Resultados de verificación**
 
@@ -1016,13 +1091,13 @@ Se verificó la disponibilidad de las interfaces y la opción de exportación CS
 | Creación y asignación de órdenes | Verificada. |
 | Visualización de órdenes asignadas | Verificada. |
 | Ejecución y cierre completo de órdenes | La entrevista E03 muestra una orden que pasa por estados de ejecución hasta COMPLETADA; faltan pruebas integrales de persistencia y autorización. |
-| Consumo de repuestos durante una orden | La entrevista E03 muestra el registro de un repuesto en la orden; no verifica por sí sola el descuento real de stock en PostgreSQL. |
+| Consumo de repuestos durante una orden | Las capturas complementarias muestran 100 unidades iniciales, uso de 20 unidades y 80 unidades disponibles. No se realizó una comprobación SQL directa. |
 | Exportación CSV | Verificada. |
-| Validación del contenido PDF | Pendiente. |
+| Validación del contenido PDF | Se generó y abrió un PDF real; se comprobó visualmente su estructura, período e indicadores para una selección sin operaciones registradas. |
 | Pruebas automatizadas del backend | Ejecutadas durante la integración. |
 | Integración continua del frontend | Se registraron ejecuciones satisfactorias en GitHub Actions. |
 
-**Alcance de las pruebas:** se comprobaron los casos de la tabla. Quedan por completar las pruebas integrales de autorización, persistencia y consumo de inventario.
+**Alcance de las pruebas:** las nuevas capturas amplían la evidencia del flujo de órdenes, el cambio visible de stock y la generación de PDF. Las comprobaciones directas en PostgreSQL y las pruebas integrales de autorización se mantienen diferenciadas de la evidencia visual.
 
 **Video de navegación del producto — Sprint 3**
 
