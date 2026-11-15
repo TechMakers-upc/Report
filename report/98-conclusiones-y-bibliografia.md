@@ -34,7 +34,7 @@ Durante el Sprint 3 se documentaron la API REST con Spring Boot, la integración
 - **Resultados de las sesiones de validación.** Se dispone de tres grabaciones con recorridos de Jefe de Planta, Gerente de Operaciones y Técnico. Visualmente se aprecia una orden que llega al estado COMPLETADA; no se dispone de transcripciones verificadas para atribuir comentarios u opiniones a los participantes.
 - **Límites del alcance.** Las tres grabaciones no alcanzan el mínimo de tres a cinco entrevistas por cada segmento objetivo exigido por el enunciado. Siguen pendientes la comprobación integral del descuento de stock, la validación del contenido PDF y otras evidencias indicadas en el apartado 5.2.3.5.
 
-**Recomendaciones.** Comprobar el acceso y las capturas de los videos de navegación y About-the-Product ya enlazados en el Capítulo V; completar el video About-the-Team, anexar las capturas de colaboración de GitHub, verificar permisos y persistencia por rol, contrastar los endpoints con la versión desplegada y completar las evidencias de validación sin atribuir declaraciones no comprobadas.
+**Recomendaciones.** Comprobar el acceso y las capturas de los videos de navegación y About-the-Product ya enlazados en el Capítulo V; verificar las publicaciones y completar las capturas del video About-the-Team, anexar las capturas de colaboración de GitHub, verificar permisos y persistencia por rol, contrastar los endpoints con la versión desplegada y completar las evidencias de validación sin atribuir declaraciones no comprobadas.
 
 ### Contraste de hipótesis Lean UX
 
@@ -55,17 +55,22 @@ Las hipótesis sobre la reducción de trabajo manual, la utilidad percibida y la
 
 ### Video About-the-Team
 
-El Video About-the-Team debe explicar el proceso de trabajo seguido por TechMakers, utilizando escenas auténticas de coordinación y desarrollo, narración del proceso y testimonios ante cámara de los participantes sobre sus actividades, logros y competencias. Las secuencias y los tiempos se registrarán a partir del video final efectivamente publicado.
+El video About-the-Team presenta el trabajo realizado por TechMakers durante el desarrollo de FixCore. El equipo comparte su experiencia en la planificación, implementación y pruebas de la aplicación, así como los conocimientos adquiridos durante el proyecto.
 
-| Evidencia requerida | Estado al cierre de esta revisión |
+**Enlaces del video:**
+
+- [Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202324461_upc_edu_pe/IQCy_oG3MzDYQ7ne46gN0GfhAYYoHjXXsS60BV5yvUVTCaA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=FjqA81)
+- [YouTube](https://www.youtube.com/watch?v=yaMSK-DhRhE)
+
+| Evidencia | Estado |
 |---|---|
-| Video publicado en Microsoft Stream | Pendiente de incorporar enlace auténtico |
-| Video publicado en YouTube | Pendiente de incorporar enlace auténtico |
-| Duración total y pauta de secuencias con inicio `hh:mm:ss` | Pendiente de registrar desde el video editado |
-| Fotograma representativo | Pendiente de incorporar captura real |
-| Inserción en la Landing Page | Pendiente de verificar tras la publicación |
+| Publicación en Microsoft Stream | Enlace incorporado |
+| Publicación en YouTube | Enlace incorporado |
+| Duración y secuencias del video | Pendientes de registrar después de revisar el video |
+| Captura representativa | Pendiente de incorporar una imagen real |
+| Inserción en la Landing Page | Pendiente de completar y verificar |
 
-No se presenta un video como publicado ni se atribuyen testimonios que no estén documentados.
+El contenido del video complementa el apartado Student Outcome, donde se registran las actividades y los aprendizajes de los integrantes. Antes de entregar el informe, se deben comprobar los permisos de reproducción de ambos enlaces.
 
 <div style="page-break-after: always;"></div>
 
