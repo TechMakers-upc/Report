@@ -286,6 +286,12 @@ Proyecto
       <td style="border: 1px solid black;">Alvar Lucas Córdova</td>
       <td style="border: 1px solid black;">Incorporación de los enlaces de Microsoft Stream y YouTube del video About-the-Team en las conclusiones y anexos del AV2. Se precisaron las evidencias que deben verificarse antes de la entrega.</td>
     </tr>
+    <tr>
+      <td style="border: 1px solid black; text-align: center;">38</td>
+      <td style="border: 1px solid black; text-align: center;">15/11/2026</td>
+      <td style="border: 1px solid black;">Alvar Lucas Córdova</td>
+      <td style="border: 1px solid black;">Se integró el video About-the-Team a las versiones en español e inglés de la Landing Page y se completó su referencia en el informe.</td>
+    </tr>
   </tbody>
 </table>
 
