@@ -1475,19 +1475,107 @@ Se dispone de **tres grabaciones MP4** de sesiones de validación, con una durac
 
 #### 5.3.3. Evaluaciones según heurísticas
 
-La evaluación considera tres aspectos: **usabilidad, arquitectura de información y diseño inclusivo**. Las pantallas y tareas de las grabaciones sirven para identificar puntos de revisión; la valoración de severidad corresponde a los problemas observados durante las sesiones.
+**Evaluación de experiencia de usuario: usabilidad, arquitectura de información y diseño inclusivo**
 
-| ID | Área / heurística o principio | Evidencia visible y minuto aproximado | Valoración sustentada | Severidad | Acción de verificación o mejora |
-|---|---|---|---|---|---|
-| H01 | Usabilidad: visibilidad del estado | E03, 04:20–08:20: estados pendiente, en progreso y completada | La interfaz muestra el progreso de la orden; falta revisar si el participante comprendió cada estado | Por evaluar | Preguntar por el significado de cada estado sin ofrecer pistas |
-| H02 | Usabilidad: prevención de errores | E03, 07:20: formulario de cierre | Se observó la validación del formulario; queda evaluar la claridad del mensaje | Por evaluar | Probar campos vacíos y registrar cómo se corrigen los errores |
-| H03 | Arquitectura de información: organización y búsqueda | E01, 03:20–03:50; E02, 06:20–07:50: listas y filtros | Se utilizaron listas y filtros; falta medir su facilidad de uso | Por evaluar | Realizar búsquedas sin guía y anotar dificultades |
-| H04 | Usabilidad: información y retroalimentación | E02, 09:50–10:50: vista previa del reporte | Se mostró una vista previa; falta comprobar la descarga del PDF | Por evaluar | Exportar el archivo y revisar el contenido y los mensajes del sistema |
-| H05 | Diseño inclusivo: idioma, accesibilidad y adaptación | E01/E02/E03: selector de idioma | Se muestra el selector de idioma; falta probar teclado, lector de pantalla y dispositivos móviles | Por evaluar | Revisar contraste, foco, etiquetas y diseño responsive |
+| Dato | Información |
+|---|---|
+| Carrera y curso | Ingeniería de Software — Desarrollo de Aplicaciones Open Source |
+| Proyecto y producto | TechMakers — FixCore |
+| Auditor | Equipo TechMakers |
+| Aplicaciones revisadas | [Landing Page de FixCore](https://techmakers-upc.github.io/Landing-Page/) y [aplicación web FixCore](https://fixcore-frontend-eight.vercel.app/) |
+| Método | Inspección del código de las interfaces y de sus rutas, componentes y respuestas previstas |
+| Alcance de la evidencia | Hallazgos sustentados en el código de GitHub. La reproducción en el despliegue y las capturas de los problemas deben completarse con una comprobación visual. No se atribuyen estos hallazgos a los entrevistados E01, E02 o E03. |
 
-Cada hallazgo de usabilidad debe quedar asociado a la tarea realizada, la pantalla utilizada, el minuto de la grabación y la mejora propuesta.
+**Objetivo y tareas evaluadas**
 
-**Resultados de las sesiones:** se recorrieron las funciones principales de FixCore y la sesión E03 mostró el cierre de una Orden de Trabajo hasta el estado `COMPLETADA`. Para evaluar la experiencia de uso faltan más entrevistas, las respuestas de los participantes y pruebas específicas de permisos e inventario.
+Se revisaron los recorridos necesarios para acceder al producto desde la Landing Page, iniciar sesión, consultar reportes, utilizar el lector QR y recuperarse de un error al consultar información. La inspección también consideró la navegación mediante teclado en el cuadro de diálogo del lector QR.
+
+Las tareas analizadas fueron: (1) seleccionar «Crear cuenta» desde la Landing Page; (2) utilizar la opción «PDF» en los reportes de mantenimiento; (3) intentar escanear el código QR de una máquina; (4) recuperar un reporte después de una solicitud fallida; y (5) cerrar el lector QR y continuar mediante teclado. No se evaluaron pagos, contratación de planes, recuperación de contraseña ni aplicaciones móviles nativas.
+
+**Escala de severidad (Anexo D del Final Project Statement)**
+
+| Nivel | Significado |
+|---|---|
+| **1** | Problema superficial o poco frecuente; prioridad baja. |
+| **2** | Problema menor que dificulta la tarea, pero puede superarse; prioridad baja de corrección. |
+| **3** | Problema mayor que puede impedir completar la tarea o se presenta con frecuencia; prioridad alta. |
+| **4** | Problema muy grave que impide continuar utilizando la herramienta; requiere corrección antes del lanzamiento. |
+
+Las severidades siguientes son **estimaciones iniciales basadas en el código**. Su confirmación requiere reproducir cada caso en la versión desplegada y revisar su impacto real sobre los usuarios.
+
+**Tabla resumen de problemas**
+
+| N.º | Problema identificado | Severidad inicial | Heurística o principio relacionado | Evidencia técnica |
+|---|---|:---:|---|---|
+| **H01** | El enlace «Crear cuenta» de la Landing Page dirige al inicio de sesión, no a un formulario de registro público. | **3** | Arquitectura de información: facilidad para encontrar la función; usabilidad: correspondencia entre etiqueta y resultado. | Landing Page `index-es.html` y rutas Angular `app.routes.ts`. |
+| **H02** | La acción «PDF» del módulo de reportes abre el cuadro de impresión del navegador en lugar de iniciar una descarga directa. | **2** | Usabilidad: consistencia y estándares; visibilidad del resultado de la acción. | `maintenance-report.html` y método `print()` de `maintenance-report.ts`. |
+| **H03** | El lector QR depende de `BarcodeDetector`; cuando esa API no existe, el componente presenta el estado «no compatible» sin ofrecer un segundo mecanismo de escaneo con cámara. | **2** | Diseño inclusivo: experiencias comparables; usabilidad: flexibilidad de uso. | Componente `qr-scanner.ts` y su plantilla HTML. |
+| **H04** | Un fallo al cargar los datos de un reporte muestra un mensaje de error sin una acción visible «Reintentar» en esa pantalla. | **2** | Usabilidad: recuperación ante errores y control del usuario. | `maintenance-report.html` y control de errores de `maintenance-report.ts`. |
+| **H05** | El lector QR se implementa como un cuadro de diálogo personalizado sin gestión explícita de retorno del foco al cerrarlo ni un mecanismo de contención de foco dentro del diálogo. | **2** | Diseño inclusivo: navegación por teclado y manejo del foco. | `qr-scanner.html` y `qr-scanner.ts`. |
+
+##### Problema H01. La opción «Crear cuenta» lleva al inicio de sesión
+
+**Severidad inicial:** 3. **Principios:** arquitectura de información — *findability*; usabilidad — correspondencia entre las opciones y sus resultados.
+
+**Descripción.** En la Landing Page, las opciones «Crear cuenta» y «Iniciar sesión» apuntan a la misma dirección `/start`. En las rutas de Angular, `/start` redirige a `/login`. Por lo tanto, las dos opciones conducen al formulario de acceso y no existe un recorrido de registro público diferenciado. Esto puede impedir que un visitante que espera registrarse complete la tarea indicada por el botón.
+
+**Evidencia técnica:** [Landing Page, `index-es.html`](https://github.com/TechMakers-upc/Landing-Page/blob/main/index-es.html) y [rutas de Angular, `app.routes.ts`](https://github.com/TechMakers-upc/Frontend/blob/main/src/app/app.routes.ts).
+
+**Captura de pantalla:** incorporar una captura de «Crear cuenta» en la Landing Page y otra de la pantalla de inicio de sesión a la que dirige. La imagen debe corresponder al despliegue revisado.
+
+**Recomendación.** Si la creación de cuentas depende de un responsable autorizado, cambiar «Crear cuenta» por una acción coherente, como «Solicitar acceso», y explicar el proceso. Si se habilita el registro público en el futuro, crear un recorrido específico y ajustar el enlace.
+
+##### Problema H02. La acción «PDF» requiere utilizar la función de impresión
+
+**Severidad inicial:** 2. **Principios:** usabilidad — consistencia y estándares; visibilidad del resultado.
+
+**Descripción.** El botón identificado como «PDF» ejecuta `window.print()`. Esto abre el diálogo de impresión del navegador, donde el usuario debe elegir una opción como «Guardar como PDF». El texto del botón puede sugerir que el archivo se descargará directamente, por lo que el comportamiento puede generar dudas sobre el siguiente paso.
+
+**Evidencia técnica:** [plantilla de reportes](https://github.com/TechMakers-upc/Frontend/blob/main/src/app/analytics/presentation/views/maintenance-report/maintenance-report.html) y [función `print()`](https://github.com/TechMakers-upc/Frontend/blob/main/src/app/analytics/presentation/views/maintenance-report/maintenance-report.ts).
+
+**Captura de pantalla:** incorporar la vista del reporte con el botón «PDF» y el diálogo de impresión abierto.
+
+**Recomendación.** Si la función seguirá usando el navegador, cambiar el texto a «Imprimir / guardar PDF» y añadir una indicación breve. Otra opción es implementar una descarga directa de PDF y mantener «Descargar PDF» como etiqueta.
+
+##### Problema H03. El lector QR no dispone de un segundo mecanismo de escaneo
+
+**Severidad inicial:** 2. **Principios:** diseño inclusivo — experiencias comparables; usabilidad — flexibilidad.
+
+**Descripción.** Antes de iniciar el escaneo, el componente comprueba la disponibilidad de `BarcodeDetector` y `getUserMedia`. Si alguna de estas capacidades falta, muestra un estado de incompatibilidad y no intenta otra biblioteca o procedimiento de escaneo por cámara. El formulario de reporte de fallas permite buscar la máquina manualmente, por lo que la tarea principal tiene una alternativa, pero el escaneo QR deja de estar disponible en esos entornos.
+
+**Evidencia técnica:** [lógica del lector QR](https://github.com/TechMakers-upc/Frontend/blob/main/src/app/shared/presentation/components/qr-scanner/qr-scanner.ts), [plantilla del lector](https://github.com/TechMakers-upc/Frontend/blob/main/src/app/shared/presentation/components/qr-scanner/qr-scanner.html) y [búsqueda manual de máquinas](https://github.com/TechMakers-upc/Frontend/blob/main/src/app/service-execution/presentation/views/failure-report/failure-report.html).
+
+**Captura de pantalla:** incorporar el mensaje de incompatibilidad al abrir el lector en un entorno donde `BarcodeDetector` no esté disponible. Registrar el navegador utilizado.
+
+**Recomendación.** Incorporar una alternativa compatible para leer códigos QR o mostrar, dentro del mismo diálogo, un acceso visible a la búsqueda manual de máquinas. Probar el flujo en los navegadores incluidos en el alcance del producto.
+
+##### Problema H04. El reporte no presenta un botón directo para reintentar la carga
+
+**Severidad inicial:** 2. **Principios:** usabilidad — reconocimiento y recuperación de errores; control del usuario.
+
+**Descripción.** Cuando falla una solicitud del reporte, la interfaz muestra un mensaje general de carga fallida. La plantilla no ofrece una acción «Reintentar» junto al mensaje. Aunque cambiar un filtro puede solicitar los datos nuevamente, el usuario no dispone de una acción directa para repetir la misma consulta, con la misma planta y fechas.
+
+**Evidencia técnica:** [vista de reportes](https://github.com/TechMakers-upc/Frontend/blob/main/src/app/analytics/presentation/views/maintenance-report/maintenance-report.html) y [tratamiento de fallos de las solicitudes](https://github.com/TechMakers-upc/Frontend/blob/main/src/app/analytics/presentation/views/maintenance-report/maintenance-report.ts).
+
+**Captura de pantalla:** incorporar la vista del error de carga tras un fallo reproducible de red, mostrando que el mensaje no incluye «Reintentar». No utilizar información privada en la captura.
+
+**Recomendación.** Añadir un botón «Reintentar» que repita la consulta de la planta y el periodo seleccionados. Mantener los filtros del usuario e indicar el estado de carga.
+
+##### Problema H05. Falta verificar el control del foco en el lector QR
+
+**Severidad inicial:** 2. **Principios:** diseño inclusivo — navegación con teclado y foco.
+
+**Descripción.** El lector QR utiliza un contenedor con `role="dialog"` y `aria-modal="true"`. El código enfoca el botón «Cerrar» cuando se abre; sin embargo, no se observa una función que devuelva el foco al botón que abrió el lector al cerrarlo ni un mecanismo que limite el recorrido del teclado al diálogo. Esto representa un riesgo para quienes navegan sin ratón y requiere una prueba manual con las teclas Tab, Shift+Tab y Escape.
+
+**Evidencia técnica:** [plantilla del diálogo QR](https://github.com/TechMakers-upc/Frontend/blob/main/src/app/shared/presentation/components/qr-scanner/qr-scanner.html) y [lógica de apertura/cierre](https://github.com/TechMakers-upc/Frontend/blob/main/src/app/shared/presentation/components/qr-scanner/qr-scanner.ts).
+
+**Captura de pantalla:** incorporar la pantalla del lector abierto con el indicador de foco visible; documentar adicionalmente el resultado de la prueba por teclado. Una imagen por sí sola no prueba el funcionamiento del foco.
+
+**Recomendación.** Utilizar un cuadro de diálogo con gestión de foco o implementar el retorno del foco al botón de apertura y la contención del teclado mientras el lector está activo. Verificar el comportamiento con teclado y lector de pantalla.
+
+**Resultados y límites de la evaluación**
+
+La inspección del código permitió identificar **cinco puntos de mejora** en la relación entre etiquetas y rutas, exportación de reportes, compatibilidad del lector QR, recuperación de errores y navegación con teclado. Estos hallazgos son técnicos y no representan opiniones expresadas por los participantes de las entrevistas de validación. Antes de cerrar la evaluación deben reproducirse en la versión desplegada, ajustarse las severidades si corresponde y agregarse las capturas que exige el Anexo D.
 
 ---
 

@@ -304,6 +304,12 @@ Proyecto
       <td style="border: 1px solid black;">Alvar Lucas Córdova</td>
       <td style="border: 1px solid black;">Revisión integral de la redacción y coherencia de los Capítulos I al V, con ajustes de descripciones técnicas y distinción entre funciones implementadas y propuestas de diseño.</td>
     </tr>
+    <tr>
+      <td style="border: 1px solid black; text-align: center;">41</td>
+      <td style="border: 1px solid black; text-align: center;">15/11/2026</td>
+      <td style="border: 1px solid black;">Alvar Lucas Córdova</td>
+      <td style="border: 1px solid black;">Evaluación de experiencia de usuario según heurísticas, con cinco hallazgos de inspección del código, severidades iniciales y recomendaciones.</td>
+    </tr>
 </tbody>
 </table>
 
