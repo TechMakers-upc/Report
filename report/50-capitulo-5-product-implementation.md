@@ -1533,7 +1533,13 @@ Las severidades siguientes son **estimaciones iniciales basadas en el código**.
 
 **Evidencia técnica:** [plantilla de reportes](https://github.com/TechMakers-upc/Frontend/blob/main/src/app/analytics/presentation/views/maintenance-report/maintenance-report.html) y [función `print()`](https://github.com/TechMakers-upc/Frontend/blob/main/src/app/analytics/presentation/views/maintenance-report/maintenance-report.ts).
 
-**Captura de pantalla:** incorporar la vista del reporte con el botón «PDF» y el diálogo de impresión abierto.
+**Evidencia visual:**
+
+![H02 - evidencia real de FixCore](assets/images/heuristicas/reportepdf.png)
+
+**Figura H02.** El botón de exportación PDF abre el cuadro de impresión del navegador y requiere seleccionar «Guardar como PDF».
+
+Captura real del frontend de FixCore en el módulo de reportes.
 
 **Recomendación.** Si la función seguirá usando el navegador, cambiar el texto a «Imprimir / guardar PDF» y añadir una indicación breve. Otra opción es implementar una descarga directa de PDF y mantener «Descargar PDF» como etiqueta.
 
@@ -1545,7 +1551,13 @@ Las severidades siguientes son **estimaciones iniciales basadas en el código**.
 
 **Evidencia técnica:** [lógica del lector QR](https://github.com/TechMakers-upc/Frontend/blob/main/src/app/shared/presentation/components/qr-scanner/qr-scanner.ts), [plantilla del lector](https://github.com/TechMakers-upc/Frontend/blob/main/src/app/shared/presentation/components/qr-scanner/qr-scanner.html) y [búsqueda manual de máquinas](https://github.com/TechMakers-upc/Frontend/blob/main/src/app/service-execution/presentation/views/failure-report/failure-report.html).
 
-**Captura de pantalla:** incorporar el mensaje de incompatibilidad al abrir el lector en un entorno donde `BarcodeDetector` no esté disponible. Registrar el navegador utilizado.
+**Evidencia visual:**
+
+![H03 - evidencia real de FixCore](assets/images/heuristicas/QR.png)
+
+**Figura H03.** El lector QR informa que el navegador no puede leer códigos QR desde esta pantalla.
+
+Captura real del lector QR en el formulario de reporte de fallas. La compatibilidad depende del navegador.
 
 **Recomendación.** Incorporar una alternativa compatible para leer códigos QR o mostrar, dentro del mismo diálogo, un acceso visible a la búsqueda manual de máquinas. Probar el flujo en los navegadores incluidos en el alcance del producto.
 
@@ -1557,7 +1569,13 @@ Las severidades siguientes son **estimaciones iniciales basadas en el código**.
 
 **Evidencia técnica:** [vista de reportes](https://github.com/TechMakers-upc/Frontend/blob/main/src/app/analytics/presentation/views/maintenance-report/maintenance-report.html) y [tratamiento de fallos de las solicitudes](https://github.com/TechMakers-upc/Frontend/blob/main/src/app/analytics/presentation/views/maintenance-report/maintenance-report.ts).
 
-**Captura de pantalla:** incorporar la vista del error de carga tras un fallo reproducible de red, mostrando que el mensaje no incluye «Reintentar». No utilizar información privada en la captura.
+**Evidencia visual:**
+
+![H04 - evidencia real de FixCore](assets/images/heuristicas/fallonetwork.png)
+
+**Figura H04.** El reporte presenta un error al cargar indicadores sin un botón visible «Reintentar».
+
+Captura tomada con la red configurada como Offline en DevTools; se observan solicitudes fallidas.
 
 **Recomendación.** Añadir un botón «Reintentar» que repita la consulta de la planta y el periodo seleccionados. Mantener los filtros del usuario e indicar el estado de carga.
 
@@ -1575,7 +1593,7 @@ Las severidades siguientes son **estimaciones iniciales basadas en el código**.
 
 **Resultados y límites de la evaluación**
 
-La inspección del código permitió identificar **cinco puntos de mejora** en la relación entre etiquetas y rutas, exportación de reportes, compatibilidad del lector QR, recuperación de errores y navegación con teclado. Estos hallazgos son técnicos y no representan opiniones expresadas por los participantes de las entrevistas de validación. Antes de cerrar la evaluación deben reproducirse en la versión desplegada, ajustarse las severidades si corresponde y agregarse las capturas que exige el Anexo D.
+La inspección del código permitió identificar **cinco puntos de mejora** en la relación entre etiquetas y rutas, exportación de reportes, compatibilidad del lector QR, recuperación de errores y navegación con teclado. Estos hallazgos son técnicos y no representan opiniones expresadas por los participantes de las entrevistas de validación. Los hallazgos H02, H03 y H04 cuentan con capturas reales incorporadas en esta sección; H01 y H05 aún requieren evidencia complementaria y comprobación del comportamiento. Las severidades deben ajustarse si las pruebas posteriores lo justifican.
 
 ---
 
