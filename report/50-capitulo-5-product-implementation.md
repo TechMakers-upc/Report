@@ -1654,7 +1654,7 @@ El informe establece un mínimo de nueve entrevistas distribuidas entre los tres
 | Auditor | Equipo TechMakers |
 | Aplicaciones revisadas | [Landing Page de FixCore](https://techmakers-upc.github.io/Landing-Page/) y [aplicación web FixCore](https://fixcore-frontend-eight.vercel.app/) |
 | Método | Inspección del código de las interfaces y de sus rutas, componentes y respuestas previstas |
-| Alcance de la evidencia | Hallazgos sustentados en el código de GitHub. La reproducción en el despliegue y las capturas de los problemas deben completarse con una comprobación visual. No se atribuyen estos hallazgos a los entrevistados E01, E02 o E03. |
+| Alcance de la evidencia | Revisión del código de GitHub y capturas de los problemas H02, H03 y H04. Los problemas H01 y H05 se documentan a partir del código, sin prueba visual complementaria. |
 
 **Objetivo y tareas evaluadas**
 
@@ -1691,7 +1691,7 @@ Las severidades siguientes son **estimaciones iniciales basadas en el código**.
 
 **Evidencia técnica:** [Landing Page, `index-es.html`](https://github.com/TechMakers-upc/Landing-Page/blob/main/index-es.html) y [rutas de Angular, `app.routes.ts`](https://github.com/TechMakers-upc/Frontend/blob/main/src/app/app.routes.ts).
 
-**Captura de pantalla:** incorporar una captura de «Crear cuenta» en la Landing Page y otra de la pantalla de inicio de sesión a la que dirige. La imagen debe corresponder al despliegue revisado.
+**Evidencia revisada:** los enlaces de la Landing Page y la configuración de rutas de Angular. El hallazgo se sustenta en el código consultado.
 
 **Recomendación.** Si la creación de cuentas depende de un responsable autorizado, cambiar «Crear cuenta» por una acción coherente, como «Solicitar acceso», y explicar el proceso. Si se habilita el registro público en el futuro, crear un recorrido específico y ajustar el enlace.
 
@@ -1757,7 +1757,7 @@ Captura tomada con la red configurada como Offline en DevTools; se observan soli
 
 **Evidencia técnica:** [plantilla del diálogo QR](https://github.com/TechMakers-upc/Frontend/blob/main/src/app/shared/presentation/components/qr-scanner/qr-scanner.html) y [lógica de apertura/cierre](https://github.com/TechMakers-upc/Frontend/blob/main/src/app/shared/presentation/components/qr-scanner/qr-scanner.ts).
 
-**Captura de pantalla:** incorporar la pantalla del lector abierto con el indicador de foco visible; documentar adicionalmente el resultado de la prueba por teclado. Una imagen por sí sola no prueba el funcionamiento del foco.
+**Evidencia revisada:** el código del diálogo QR muestra el enfoque inicial del botón «Cerrar», pero no una gestión explícita del retorno y contención del foco. No se registró una prueba manual de navegación por teclado.
 
 **Recomendación.** Utilizar un cuadro de diálogo con gestión de foco o implementar el retorno del foco al botón de apertura y la contención del teclado mientras el lector está activo. Verificar el comportamiento con teclado y lector de pantalla.
 
@@ -1769,27 +1769,23 @@ La inspección del código permitió identificar **cinco puntos de mejora** en l
 
 ### 5.4. Video About-the-Product
 
-El equipo TechMakers incorporó un video **About-the-Product** para presentar FixCore como una aplicación de gestión del mantenimiento industrial. Esta evidencia complementa la Landing Page y permite al visitante acceder a una presentación audiovisual del producto. No debe confundirse con el video About-the-Team ni con las grabaciones de validación de la sección 5.3.
+El equipo TechMakers elaboró un video About-the-Product para presentar FixCore y explicar sus principales funcionalidades de gestión del mantenimiento industrial.
 
-**Enlaces de la evidencia audiovisual**
+El video se incorporó a la Landing Page en sus versiones en español e inglés. También se puede consultar mediante los siguientes enlaces.
 
-| Medio | Evidencia y comprobación |
+**Enlaces del video**
+
+| Medio | Enlace |
 |---|---|
-| Landing Page publicada | [Ver la sección «Descubre cómo funciona FixCore»](https://techmakers-upc.github.io/Landing-Page/#product-video) |
+| Landing Page | [Ver video en la Landing Page](https://techmakers-upc.github.io/Landing-Page/#product-video) |
 | YouTube | [Ver About-the-Product](https://www.youtube.com/watch?v=5l8ZtW_ztyQ) |
 | Microsoft Stream | [Enlace facilitado por el equipo](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202324461_upc_edu_pe/IQD3Y-222unpSqLHrugg2zeNAXK9ADnGeW4TyY1WH0SVX4I?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=vIHqJF) |
-| Implementación en español | [Código `index-es.html`, sección `product-video`](https://github.com/TechMakers-upc/Landing-Page/blob/main/index-es.html) |
-| Implementación en inglés | [Código `index.html`, sección `product-video`](https://github.com/TechMakers-upc/Landing-Page/blob/main/index.html) |
 
-**Integración comprobable en el repositorio.** Los dos archivos HTML de la Landing Page contienen la sección `id="product-video"` y un reproductor `iframe` con origen `https://www.youtube-nocookie.com/embed/5l8ZtW_ztyQ`. Ambos incluyen un enlace alternativo que conduce al video en YouTube. Así queda sustentada la implementación de la integración en el código publicado.
+**Integración en la Landing Page**
 
-**Propósito y alcance.** El video está ubicado en la presentación pública del producto, cerca de la explicación de FixCore. Su objetivo es complementar las descripciones escritas mediante un recurso audiovisual accesible desde la Landing Page. La presencia del reproductor en el HTML no demuestra por sí sola que el video se pueda reproducir en todos los navegadores o cuentas.
+El video aparece en la sección «Descubre cómo funciona FixCore». La página incluye un reproductor integrado y un enlace a YouTube para acceder al contenido directamente.
 
-**Comprobaciones finales para entrega:**
+La implementación se encuentra disponible en el repositorio de la Landing Page:
 
-- [ ] Abrir la Landing Page pública en una ventana sin sesión de la universidad y reproducir el video completo.
-- [ ] Confirmar que el enlace de YouTube funciona y registrar la duración exacta desde el reproductor.
-- [ ] Verificar que el enlace de Microsoft Stream permite acceso al evaluador o conservar YouTube como alternativa pública.
-- [ ] Comprobar que el iframe funciona en escritorio y móvil; si falla, registrar el error sin marcar la reproducción como validada.
-
-**Estado:** el video está integrado en la Landing Page. Falta comprobar su reproducción pública, los permisos de acceso y su duración.
+- [Versión en español](https://github.com/TechMakers-upc/Landing-Page/blob/main/index-es.html)
+- [Versión en inglés](https://github.com/TechMakers-upc/Landing-Page/blob/main/index.html)
