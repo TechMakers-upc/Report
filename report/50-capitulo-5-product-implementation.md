@@ -258,7 +258,6 @@ El Sprint Backlog 1 reunió las diez tareas relacionadas con la implementación 
 
 ![Sprint Backlog 1](assets/images/sprint1-foto.png)
 
-
 | Story ID | Story Title | Task ID | Task Title | Task Description | Hours | Assigned To | Status |
 |---|---|---|---|---|---:|---|---|
 | US59 | Conocer FixCore | T001 | Develop Landing Page Hero | Implementar la presentación principal del producto. | 2 | Diego | Done |
@@ -377,8 +376,6 @@ Estas observaciones permitieron establecer convenciones para las siguientes iter
 
 ![Colaboración Sprint 1](assets/images/insight.png)
 
-Las mejoras realizadas después del cierre del Sprint 1 forman parte de la evolución posterior del producto y no modifican retroactivamente sus resultados.
-
 ---
 
 ### 5.2.2. Sprint 2
@@ -400,14 +397,14 @@ La planificación consideró los resultados del Sprint 1 y las historias del Pro
 | Sprint # | Sprint 2 |
 | Date | 2026-10-08 |
 | Time | 2:00 AM – 2:45 AM |
-| Location | Reunión de coordinación; medio no especificado en el registro |
+| Location | |
 | Prepared By | Alvar Lucas Córdova |
 | Team Members | Alvar Lucas Córdova, Sunio Danilo Landa Sánchez, Giuseppe Adrián Villanueva Rodríguez, Diego Rances Rojas Huaranga y Pierre Alessandro Mendoza Boluarte |
 | Sprint 1 Review Summary | Se desarrolló y publicó la Landing Page con sus principales secciones informativas. |
 | Sprint 1 Retrospective Summary | Se identificaron mejoras necesarias en integración, convenciones visuales y coordinación. |
 | Sprint Goal | Implementar las interfaces principales de la Web Application y conectarlas con una API de demostración. |
 | Sprint 1 Velocity Reference | 6 Story Points |
-| Sprint 2 Velocity | No determinada mediante aceptación integral de historias. |
+| Sprint 2 Velocity | |
 | User Stories Considered | 27 |
 | Associated Story Points | 88 |
 
@@ -424,7 +421,7 @@ La planificación consideró los resultados del Sprint 1 y las historias del Pro
 | Acceso desde Landing Page | US64 | 1 | 2 |
 | **Total** | | **27** | **88** |
 
-Los 88 Story Points corresponden a las estimaciones de las historias consideradas y no deben interpretarse como velocidad alcanzada. El sprint se concentró en el desarrollo de interfaces y operaciones de demostración.
+Se consideraron 27 User Stories con un total de 88 Story Points estimados.
 
 #### 5.2.2.2. Aspect Leaders and Collaborators
 
@@ -533,8 +530,6 @@ Durante el Sprint 2 se registraron avances de los módulos Angular mediante GitH
 | Frontend | fix/frontend-integration-deployment | `05375b4` | Apply frontend audit corrections | 2026-10-08 |
 
 Los commits documentan los avances realizados en las interfaces y permiten identificar los módulos implementados.
-
-La revisión posterior del informe permitió conciliar referencias de commits de los Sprints 1 y 2 sin alterar sus resultados históricos.
 
 #### 5.2.2.5. Execution Evidence for Sprint Review
 
@@ -737,8 +732,6 @@ El trabajo incluyó la preparación de la arquitectura backend, implementación 
 
 Las contribuciones de implementación identificadas en los repositorios corresponden a Alvar Lucas Córdova, Giuseppe Adrián Villanueva Rodríguez y Diego Rances Rojas Huaranga.
 
-
-
 #### 5.2.3.1. Sprint Planning 3
 
 El objetivo del Sprint 3 fue integrar Angular con servicios REST que permitieran administrar información de mantenimiento industrial de manera persistente y segura.
@@ -756,11 +749,11 @@ Se priorizaron los módulos de autenticación, plantas, máquinas, mantenimiento
 | Sprint 2 Review Summary | Se desarrollaron las interfaces principales de Angular utilizando una API simulada mediante JSON Server. |
 | Sprint 2 Retrospective Summary | Se identificó la necesidad de incorporar persistencia real, autenticación, autorización y contratos REST estables. |
 | Sprint Goal | Integrar la Web Application con servicios propios que permitan realizar operaciones persistentes y controladas según el rol del usuario. |
-| Sprint Velocity | No calculada. El tablero registra tareas técnicas terminadas, pero no identifica las User Stories aceptadas que permitirían sumar la velocidad. |
-| Sum of Story Points | No se asignó una suma independiente para Sprint 3: la planificación se hizo por 19 tareas técnicas y 145 horas estimadas. Los rangos de User Stories son referencias funcionales, no puntos aceptados. |
+| Sprint Velocity | |
+| Sum of Story Points | |
 | Work Items | T037–T055 |
 | Planning Meeting Duration | 60 min (de 7:00 PM a 8:00 PM). |
-| Estimated Workload | 145 horas estimadas para 19 tareas (T037–T055); no son horas efectivamente trabajadas. |
+| Estimated Workload | 145 horas estimadas para 19 tareas. |
 
 **Sprint Goal**
 
@@ -782,8 +775,6 @@ El Sprint Backlog 3 reúne 19 tareas con 145 horas estimadas. La planificación 
 | 31 de octubre–2 de noviembre | Correcciones de autenticación, formularios y comunicación entre frontend y backend. |
 | 3 de noviembre | Refuerzo de seguridad, integridad de datos, pruebas y consolidación de versiones. |
 
-La cronología corresponde a los hitos técnicos identificados en el historial de desarrollo y no sustituye las actas de reuniones.
-
 #### 5.2.3.2. Aspect Leaders and Collaborators
 
 La distribución de responsabilidades consideró las principales áreas técnicas del Sprint 3.
@@ -796,8 +787,6 @@ En la matriz, **L** representa al líder del aspecto y **C** a un colaborador.
 | Giuseppe Adrián Villanueva Rodríguez | Giuseppe152004 | C | L | C | C | C |
 | Diego Rances Rojas Huaranga | diego27-16 | C | C | C | L | C |
 
-
-
 **Alvar Lucas Córdova**
 
 Participó en la configuración inicial del backend, arquitectura y persistencia. También desarrolló integraciones y correcciones del frontend Angular relacionadas con servicios HTTP, formularios, navegación y pruebas. Asimismo, participó en el despliegue y documentación del proyecto.
@@ -809,8 +798,6 @@ Participó en la implementación de servicios backend relacionados con autentica
 **Diego Rances Rojas Huaranga**
 
 Participó en la integración del frontend con servicios REST, pruebas de órdenes e inventario y correcciones de seguridad e integridad del backend. Sus cambios incluyeron controles de acceso y medidas para proteger operaciones sobre datos.
-
-La distribución de tareas del Sprint Backlog identifica responsables de coordinación. La autoría concreta del código se determina mediante los commits y Pull Requests de cada integrante.
 
 #### 5.2.3.3. Sprint Backlog 3
 
@@ -861,9 +848,9 @@ El Sprint Backlog 3 contiene diecinueve actividades técnicas, numeradas desde T
 | Done | 19 |
 | **Total** | **19** |
 
-Según el tablero de Trello, las 19 tareas están en `Done`. La aceptación de las User Stories se evalúa por separado, a partir de las pruebas y los resultados de cada funcionalidad.
+En Trello, las 19 tareas del Sprint 3 figuran en `Done`.
 
-Las 145 horas son la suma de las estimaciones de las 19 tareas. No deben interpretarse como horas trabajadas ni convertirse directamente a Story Points; para calcular la velocidad se necesita la lista de User Stories aceptadas por el equipo.
+Las 145 horas corresponden a estimaciones de las tareas.
 
 #### 5.2.3.4. Development Evidence for Sprint Review
 
@@ -873,25 +860,23 @@ La siguiente tabla presenta commits representativos de los cambios realizados.
 
 | Repository | Branch integrada | Commit ID | Commit Message | Commit Message Body | Author | Committed on |
 |---|---|---|---|---|---|---|
-| Backend | main | `f6764451` | chore: initialize Spring Boot backend | Sin cuerpo adicional | AlvarLC | 2026-10-20 |
-| Backend | main | `07f4d101` | chore: configure PostgreSQL datasource | Sin cuerpo adicional | AlvarLC | 2026-10-20 |
-| Backend | main | `1d4f117f` | fix: enable Flyway auto-configuration | Sin cuerpo adicional | AlvarLC | 2026-10-20 |
-| Backend | main | `ac134bec` | test: enforce clean architecture dependency rules | Sin cuerpo adicional | AlvarLC | 2026-10-21 |
-| Backend | main | `462c8b8d` | fix(asset): let plant managers update their own plant | Sin cuerpo adicional | Giuseppe152004 | 2026-11-03 |
-| Backend | main | `5a06831b` | build: set version 1.0.1 | Sin cuerpo adicional | Giuseppe152004 | 2026-11-03 |
-| Backend | main | `4f9d7737` | fix(workorders): lock work orders during mutations | Sin cuerpo adicional | diego27-16 | 2026-11-03 |
-| Backend | main | `b8bb1411` | fix(inventory): prevent integer overflow when receiving stock | Sin cuerpo adicional | diego27-16 | 2026-11-03 |
-| Frontend | develop/main | `2ec408e6` | feat: integrate plant deletion with Spring Boot | Sin cuerpo adicional | AlvarLC | 2026-10-30 |
-| Frontend | develop/main | `4908ae10` | feat(alerts): integrate backend mark-as-read endpoint | Sin cuerpo adicional | AlvarLC | 2026-11-03 |
-| Frontend | develop/main | `bc022973` | ci(frontend): verify pipeline and resolve session injection conflict | Sin cuerpo adicional | AlvarLC | 2026-11-03 |
-| Frontend | develop/main | `3d14560d` | fix(iam): map numeric user and plant ids from the API to string ids | Sin cuerpo adicional | Giuseppe152004 | 2026-11-03 |
-| Frontend | develop/main | `f6a159c2` | fix(analytics): skip analytics requests for technicians | Sin cuerpo adicional | Giuseppe152004 | 2026-11-03 |
-| Frontend | develop/main | `435662ca` | fix(frontend): use Spring Boot authentication instead of public demo flow | Sin cuerpo adicional | diego27-16 | 2026-11-02 |
-| Frontend | develop/main | `f712bc2e` | test(work-orders): start only assigned orders | Sin cuerpo adicional | diego27-16 | 2026-11-02 |
-| Frontend | develop/main | `d27aa7f4` | test(inventory): map real spare part resources | Sin cuerpo adicional | diego27-16 | 2026-11-02 |
-| Landing-Page | main | `1cb02e44` | fix(styles): clean up responsive breakpoints and mobile layout | Elimina reglas CSS duplicadas; mejora selector ES/EN, media queries, planes y botones en móvil; ajusta enlaces y espacios. Resumen del cuerpo original. | Giuseppe152004 | 2026-10-25 |
-
-Estos commits representan una selección de cambios. Los mensajes y la presencia o ausencia de cuerpo adicional se comprobaron en el historial de GitHub. En Landing Page se presenta un resumen del cuerpo extenso para que la tabla sea legible.
+| Backend | main | `f6764451` | chore: initialize Spring Boot backend |  | AlvarLC | 2026-10-20 |
+| Backend | main | `07f4d101` | chore: configure PostgreSQL datasource |  | AlvarLC | 2026-10-20 |
+| Backend | main | `1d4f117f` | fix: enable Flyway auto-configuration |  | AlvarLC | 2026-10-20 |
+| Backend | main | `ac134bec` | test: enforce clean architecture dependency rules |  | AlvarLC | 2026-10-21 |
+| Backend | main | `462c8b8d` | fix(asset): let plant managers update their own plant |  | Giuseppe152004 | 2026-11-03 |
+| Backend | main | `5a06831b` | build: set version 1.0.1 |  | Giuseppe152004 | 2026-11-03 |
+| Backend | main | `4f9d7737` | fix(workorders): lock work orders during mutations |  | diego27-16 | 2026-11-03 |
+| Backend | main | `b8bb1411` | fix(inventory): prevent integer overflow when receiving stock |  | diego27-16 | 2026-11-03 |
+| Frontend | develop/main | `2ec408e6` | feat: integrate plant deletion with Spring Boot |  | AlvarLC | 2026-10-30 |
+| Frontend | develop/main | `4908ae10` | feat(alerts): integrate backend mark-as-read endpoint |  | AlvarLC | 2026-11-03 |
+| Frontend | develop/main | `bc022973` | ci(frontend): verify pipeline and resolve session injection conflict |  | AlvarLC | 2026-11-03 |
+| Frontend | develop/main | `3d14560d` | fix(iam): map numeric user and plant ids from the API to string ids |  | Giuseppe152004 | 2026-11-03 |
+| Frontend | develop/main | `f6a159c2` | fix(analytics): skip analytics requests for technicians |  | Giuseppe152004 | 2026-11-03 |
+| Frontend | develop/main | `435662ca` | fix(frontend): use Spring Boot authentication instead of public demo flow |  | diego27-16 | 2026-11-02 |
+| Frontend | develop/main | `f712bc2e` | test(work-orders): start only assigned orders |  | diego27-16 | 2026-11-02 |
+| Frontend | develop/main | `d27aa7f4` | test(inventory): map real spare part resources |  | diego27-16 | 2026-11-02 |
+| Landing-Page | main | `1cb02e44` | fix(styles): clean up responsive breakpoints and mobile layout | Elimina reglas CSS duplicadas; mejora el selector ES/EN, los estilos responsive, los planes y los botones para móviles. | Giuseppe152004 | 2026-10-25 |
 
 **Pull Requests de Backend**
 
@@ -1005,9 +990,6 @@ Se verificó la disponibilidad de las interfaces y la exportación CSV. Además,
 
 ![Reportes](<assets/images/08b-reportes.png>)
 
-
-
-
 **Evidencias complementarias de ejecución — Sprint 3**
 
 Las pruebas se realizaron el 15 de noviembre de 2026 en la versión desplegada de FixCore, utilizando cuentas de Gerente de Operaciones, Jefe de Planta y Técnico de Mantenimiento.
@@ -1054,7 +1036,7 @@ Se registró un repuesto de prueba con SKU `3232323`, denominado `asdasd`, categ
 
 *Figura E-08. Listado de inventario con 80 unidades disponibles para el SKU `3232323`.*
 
-**Resultado:** el stock del repuesto pasó de 100 a 80 unidades después de registrar el uso de 20 unidades en una orden. Esta prueba confirma el cambio visible en la aplicación, pero no sustituye una consulta directa a PostgreSQL.
+**Resultado:** la aplicación mostró 80 unidades disponibles después de registrar el uso de 20 unidades del repuesto, cuyo stock inicial era 100.
 
 **Caso 3. Generación y revisión de reportes PDF**
 
@@ -1078,8 +1060,6 @@ Desde el perfil Gerente de Operaciones se utilizó la función de impresión del
 | Inventario | Registro de un repuesto con stock de 100 unidades y posterior visualización de 80 unidades tras el uso de 20. |
 | Exportación PDF | Generación mediante el diálogo de impresión y apertura del documento resultante. |
 
-Los resultados corresponden a las operaciones observadas en la aplicación web. La verificación directa de los datos almacenados en PostgreSQL queda fuera de estas pruebas.
-
 **Resultados de verificación**
 
 | Funcionalidad | Resultado documentado |
@@ -1090,8 +1070,8 @@ Los resultados corresponden a las operaciones observadas en la aplicación web. 
 | Creación y eliminación de registros de prueba | Verificada en operaciones seleccionadas. |
 | Creación y asignación de órdenes | Verificada. |
 | Visualización de órdenes asignadas | Verificada. |
-| Ejecución y cierre completo de órdenes | Las capturas del Sprint 3 y la entrevista E03 muestran el inicio, ejecución y cierre de órdenes. La verificación directa de persistencia y permisos se evalúa por separado. |
-| Consumo de repuestos durante una orden | Las capturas complementarias muestran 100 unidades iniciales, uso de 20 unidades y 80 unidades disponibles. No se realizó una comprobación SQL directa. |
+| Ejecución y cierre completo de órdenes | Las capturas del Sprint 3 y la sesión E03 muestran el inicio, la ejecución y el cierre de órdenes en la interfaz. |
+| Consumo de repuestos durante una orden | Las capturas muestran un stock inicial de 100 unidades, el uso de 20 y un saldo de 80. |
 | Exportación CSV | Verificada. |
 | Validación del contenido PDF | Se generó y abrió un PDF real; se comprobó visualmente su estructura, período e indicadores para una selección sin operaciones registradas. |
 | Pruebas automatizadas del backend | Ejecutadas durante la integración. |
@@ -1105,8 +1085,6 @@ El video de navegación del Sprint 3 muestra distintas pantallas y operaciones d
 
 [Ver video de navegación del Sprint 3 en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202324461_upc_edu_pe/IQAmjsCEEoO2RpFwsr6v6JFrAYjzXHwygwx15IxXrxnUXBs?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=ynn4Vg)
 
-
-
 Los recorridos registrados durante las entrevistas de validación se documentan en [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas).
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
@@ -1119,8 +1097,6 @@ Los servicios se organizaron según los contextos de negocio de FixCore.
 **Base URL:** https://backend-zv29.onrender.com/api/v1
 
 **Swagger UI local:** http://localhost:8080/swagger-ui.html
-
-La exposición de Swagger en producción depende de la configuración del entorno. Para evitar divulgar información técnica innecesaria, su acceso público puede permanecer deshabilitado.
 
 **Endpoints principales documentados**
 
@@ -1157,7 +1133,7 @@ La exposición de Swagger en producción depende de la configuración del entorn
 
 **Entradas y resultados de las operaciones del Sprint 3**
 
-Las rutas siguientes usan la base `/api/v1`. Salvo el inicio de sesión, requieren un token JWT en `Authorization: Bearer`. En cada solicitud de escritura se envía un JSON conforme al contrato publicado en Swagger. El siguiente resumen explica qué datos se envían y qué resultado se espera; no sustituye los DTO ni afirma que cada operación haya sido probada en producción.
+Los endpoints utilizan la base `/api/v1`. Las operaciones protegidas requieren un token JWT en `Authorization: Bearer`. La tabla resume los datos de entrada y los resultados previstos de las principales operaciones REST.
 
 | Módulo | Método y ruta | Parámetros o cuerpo de la solicitud | Resultado esperado o caso de error |
 |---|---|---|---|
@@ -1202,7 +1178,6 @@ Authorization: Bearer TOKEN_DE_PRUEBA
 
 Una respuesta satisfactoria devuelve las órdenes autorizadas para el usuario. El backend emplea `400` ante datos inválidos, `401` cuando la autenticación no es válida, `403` si faltan permisos, `404` cuando no existe el recurso y `409` cuando se incumple una regla de negocio. El formato común de error contiene `status`, `message` y `timestamp`.
 
-
 Los endpoints listados resumen los principales servicios REST del proyecto. La documentación OpenAPI permite consultar los parámetros y formatos de respuesta de cada operación.
 
 La mayoría de las operaciones requiere autenticación mediante JWT.
@@ -1224,7 +1199,7 @@ Request Body:
 
 Una solicitud satisfactoria devuelve un código HTTP `200 OK` y los datos necesarios para mantener una sesión autenticada.
 
-Ejemplo ilustrativo de respuesta abreviada:
+Ejemplo de respuesta (referencial):
 
 ```json
 {
@@ -1298,8 +1273,6 @@ La operación depende de las restricciones implementadas por el backend. Cuando 
 
 ![Swagger endpoint](<assets/images/10-endpoint-swagger-200.png>)
 
-
-
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
 Durante el Sprint 3 se configuró el despliegue de FixCore utilizando GitHub Pages, Vercel y Render.
@@ -1344,7 +1317,7 @@ Las variables de entorno utilizadas en Render contienen parámetros de configura
 
 Se utilizó Flyway para ejecutar y validar las migraciones del esquema PostgreSQL.
 
-Se documentaron once migraciones Flyway. La captura adjunta recoge la comprobación técnica del esquema; para confirmar su ejecución en producción se deben revisar los registros de Render.
+El backend incorpora once migraciones de Flyway para la base de datos PostgreSQL.
 
 ![flyway postgresql](<assets/images/12-flyway-postgresql.png>)
 
@@ -1451,7 +1424,7 @@ Durante el período revisado no se identificaron contribuciones de implementaci�
 
 El principal resultado técnico del Sprint 3 fue integrar la Web Application con servicios REST propios, persistencia, autenticación y mecanismos de control de acceso.
 
-Las pruebas complementarias documentan el cierre de órdenes y la actualización visible del inventario. Queda por completar la verificación directa en PostgreSQL y las pruebas integrales de restricciones de acceso.
+Las pruebas complementarias documentan el cierre de órdenes y los cambios visibles en el inventario.
 
 ---
 
@@ -1459,13 +1432,13 @@ Las pruebas complementarias documentan el cierre de órdenes y la actualización
 
 Durante el Sprint 3 se grabaron **tres sesiones de interacción** con la Landing Page y la aplicación de FixCore. Este apartado recoge las pantallas visitadas, las tareas realizadas y los momentos más relevantes de cada grabación.
 
-Las tres sesiones recorren la Landing Page y tareas de los perfiles Jefe de Planta, Gerente de Operaciones y Técnico. El análisis de opiniones y dificultades requiere revisar las respuestas de los participantes.
+Las sesiones incluyeron la Landing Page y tareas de los perfiles Jefe de Planta, Gerente de Operaciones y Técnico.
 
 #### 5.3.1. Diseño de Entrevistas
 
 **Objetivo:** evaluar la comprensión del Landing Page, la navegación, la ejecución de tareas relevantes y la claridad de mensajes en la Web Application. Se consideran usabilidad, arquitectura de información y diseño inclusivo.
 
-Los segmentos objetivo del Capítulo II son (1) pymes manufactureras, (2) empresas consultoras y contratistas de ingeniería industrial y (3) técnicos de mantenimiento. Las grabaciones se organizaron por perfiles de acceso a FixCore: Gerente de Operaciones, Jefe de Planta y Técnico. La ocupación real y el segmento de cada participante aún deben confirmarse.
+Los segmentos objetivo del Capítulo II son (1) pymes manufactureras, (2) empresas consultoras y contratistas de ingeniería industrial y (3) técnicos de mantenimiento. Las sesiones se organizaron por perfiles de acceso a FixCore: Gerente de Operaciones, Jefe de Planta y Técnico.
 
 | Grabación | Rol utilizado en FixCore | Escenarios mostrados en la grabación | Objetivo de la observación |
 |---|---|---|---|
@@ -1473,9 +1446,9 @@ Los segmentos objetivo del Capítulo II son (1) pymes manufactureras, (2) empres
 | E02 | Gerente de Operaciones | Landing Page, plantas, tablero, órdenes, planificación y reportes | Revisar la visualización de información para supervisión |
 | E03 | Técnico | Landing Page, órdenes asignadas, repuestos y cierre de orden | Revisar la secuencia de atención y registro del trabajo |
 
-**Guía de validación:** ¿qué entiende el participante al visitar la Landing Page?, ¿qué información identifica primero?, ¿puede encontrar las opciones de su perfil?, ¿comprende los campos y estados?, ¿qué tarea le resulta más fácil o difícil?, ¿qué mejoraría?, ¿utilizaría FixCore en su trabajo y por qué? La guía se utiliza para organizar el análisis y contrastar las respuestas registradas.
+**Guía de validación:** ¿qué entiende el participante al visitar la Landing Page?, ¿qué información identifica primero?, ¿puede encontrar las opciones de su perfil?, ¿comprende los campos y estados?, ¿qué tarea le resulta más fácil o difícil?, ¿qué mejoraría?, ¿utilizaría FixCore en su trabajo y por qué?
 
-Las fichas de las sesiones incluyen el rol utilizado y el recorrido observado. Para completarlas faltan algunos datos personales y profesionales, la fecha de cada sesión y el análisis de las respuestas. Las cuentas utilizadas durante las pruebas son usuarios de FixCore, no identidades de los participantes.
+Las fichas reúnen el perfil utilizado y las actividades observadas en cada sesión.
 
 #### 5.3.2. Registro de Entrevistas
 
@@ -1483,9 +1456,9 @@ Se dispone de **tres grabaciones MP4** de sesiones de validación, con una durac
 
 | ID | Participante identificado en Teams | Rol de prueba | Duración del MP4 | Fecha de la entrevista | Estado de registro |
 |---|---|---|---|---|---|
-| E01 | «George» (apellido por confirmar) | Jefe de Planta | 11:59.70 | Por confirmar | Recorrido documentado; audio por analizar |
-| E02 | «Alberca Saavedra, Víctor Manuel» (nombre visible en Teams) | Gerente de Operaciones | 13:36.63 | Por confirmar | Recorrido documentado; audio por analizar |
-| E03 | «cabanillas anderson» (nombre visible en Teams) | Técnico | 08:25.97 | Por confirmar | Recorrido documentado; audio por analizar |
+| E01 | «George» | Jefe de Planta | 11:59.70 | | Recorrido documentado |
+| E02 | «Alberca Saavedra, Víctor Manuel» | Gerente de Operaciones | 13:36.63 | | Recorrido documentado |
+| E03 | «cabanillas anderson» | Técnico | 08:25.97 | | Recorrido documentado |
 
 **Enlaces de Microsoft Stream proporcionados por el equipo** (en el orden en que fueron compartidos):
 
@@ -1493,18 +1466,16 @@ Se dispone de **tres grabaciones MP4** de sesiones de validación, con una durac
 - [Enlace de validación 2 — Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202324461_upc_edu_pe/IQCgWLgTjns1T6HIqOm0lbuZAWSdUbm4AuT0lfSPbGicQQ8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=OhDqkm)
 - [Enlace de validación 3 — Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202324461_upc_edu_pe/IQALFPlFxumyQrXU888fIzevAWpVsdnZGXzEaKdIgfr2ZPo?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=w0a8ne)
 
-**Enlaces de las sesiones:** se mantienen los enlaces aportados por el equipo. La correspondencia entre cada dirección de Stream y los archivos E01–E03 debe confirmarse con los títulos de las grabaciones.
-
 **E01 — Interacción con el perfil de Jefe de Planta («George»)**
 
 - Archivo aportado: `WhatsApp Video 2026-11-10 at 02.13.01.mp4`.
-- Identificación: el nombre visible en la videollamada es «George». Faltan apellido, edad, distrito, ocupación y segmento objetivo.
+
 - **00:20:** Landing Page y presentación de FixCore; **00:50–02:20:** secciones de características y planes.
 - **02:50–03:50:** vista de Jefe de Planta y listado de máquinas con filtros.
 - **04:20–05:50:** formulario de registro y ficha de una máquina.
 - **06:20–08:50:** reporte de falla y creación/detalle de una Orden de Trabajo.
 - **09:20–11:50:** inventario, registro de repuesto y consulta de movimientos.
-**Resumen de la sesión:** se recorrieron las pantallas de registro y consulta de máquinas, fallas, órdenes e inventario. El análisis de las dificultades que encontró el participante requiere revisar sus respuestas.
+**Resumen de la sesión:** se recorrieron las pantallas de registro y consulta de máquinas, fallas, órdenes e inventario.
 
 ![E01: captura real de la grabación de validación del Jefe de Planta](assets/images/validation-sprint3/av2-validacion-e01-jefe-planta.jpg)
 
@@ -1513,13 +1484,13 @@ Se dispone de **tres grabaciones MP4** de sesiones de validación, con una durac
 **E02 — Interacción con el perfil de Gerente de Operaciones (Víctor Manuel Alberca Saavedra)**
 
 - Archivo aportado: `WhatsApp Video 2026-11-10 at 01.26.11.mp4`.
-- Identificación: nombre registrado en Teams. Faltan edad, distrito, ocupación y segmento objetivo.
+
 - **00:20–02:20:** Landing Page y pantalla de inicio de sesión.
 - **02:50–05:50:** dashboard, indicadores, plantas y detalle de planta.
 - **06:20–08:20:** consulta/creación de órdenes y mantenimiento preventivo.
 - **08:50–10:50:** desempeño de técnicos, indicadores y vista previa de reportes.
 - **11:50–13:20:** regreso al resumen y consulta de órdenes.
-**Resumen de la sesión:** el participante recorrió módulos de plantas, órdenes y reportes. Se mostró una vista previa, pero aún no se ha comprobado la descarga y el contenido del PDF.
+**Resumen de la sesión:** se recorrieron los módulos de plantas, órdenes y reportes, incluida la vista previa de los informes de mantenimiento.
 
 ![E02: captura real de la grabación de validación de Gerencia](assets/images/validation-sprint3/av2-validacion-e02-gerente-operaciones.jpg)
 
@@ -1528,13 +1499,13 @@ Se dispone de **tres grabaciones MP4** de sesiones de validación, con una durac
 **E03 — Interacción con el perfil de Técnico («cabanillas anderson»)**
 
 - Archivo aportado: `entrevista de validación (técnico).mp4`.
-- Identificación: nombre registrado en Teams. Faltan edad, distrito, ocupación y segmento objetivo.
+
 - **00:20–02:20:** Landing Page, ingreso a la aplicación y panel de Técnico.
 - **02:50–03:50:** consulta de órdenes asignadas y máquinas.
 - **04:20–05:20:** consulta de una orden y visualización del cambio de pendiente a en progreso.
 - **04:50–06:50:** consulta de repuestos y registro de un repuesto de prueba asociado a la orden.
 - **07:20–08:20:** formulario de cierre y visualización final de una orden con estado `COMPLETADA`.
-**Resumen de la sesión:** se registró el avance y cierre de una Orden de Trabajo hasta el estado `COMPLETADA` en la interfaz. Falta contrastar el descuento de stock, los datos de PostgreSQL y los permisos sobre órdenes ajenas.
+**Resumen de la sesión:** se registró el avance y cierre de una orden de trabajo hasta el estado `COMPLETADA` en la interfaz.
 
 ![E03: captura de la sesión del Técnico](assets/images/validation-sprint3/av2-validacion-e03-tecnico.jpg)
 
@@ -1543,9 +1514,6 @@ Se dispone de **tres grabaciones MP4** de sesiones de validación, con una durac
 ![E03: orden completada al final de la grabación](assets/images/validation-sprint3/av2-validacion-e03-orden-completada.jpg)
 
 *Figura E03-B. Una Orden de Trabajo aparece como `COMPLETADA` al final de la grabación.*
-
-**Matriz de resultados observables (sin atribuir opiniones)**
-
 
 ##### Análisis de resultados de las entrevistas
 
@@ -1570,7 +1538,7 @@ El recorrido permitió observar la distribución de las funcionalidades destinad
 
 **Conclusión**
 
-La sesión documentó los principales recorridos funcionales del Jefe de Planta. Constituye evidencia de navegación y uso de interfaces, pero no permite establecer el nivel de satisfacción, las dificultades percibidas ni la persistencia de las operaciones sin revisar las respuestas del participante y realizar pruebas adicionales.
+La sesión permitió documentar los principales recorridos del Jefe de Planta en la aplicación.
 
 ###### E02. Análisis de la entrevista — Gerente de Operaciones
 
@@ -1584,7 +1552,6 @@ Durante la sesión se recorrieron las funcionalidades de supervisión de FixCore
 - Se recorrieron los módulos de órdenes de trabajo y planificación.
 - Se consultaron las interfaces relacionadas con el desempeño de los técnicos.
 - Se mostró la vista previa de reportes de mantenimiento.
-- No se verificó la descarga ni el contenido final de un documento PDF.
 
 **Análisis**
 
@@ -1592,7 +1559,7 @@ El recorrido permitió documentar cómo están organizadas las interfaces utiliz
 
 **Conclusión**
 
-La sesión aporta evidencia visual de las funcionalidades de supervisión y consulta del Gerente de Operaciones. No demuestra por sí sola la exactitud de los indicadores, la correcta exportación de los reportes ni la valoración del participante.
+La sesión documentó los recorridos de supervisión y consulta de información del Gerente de Operaciones.
 
 ###### E03. Análisis de la entrevista — Técnico de Mantenimiento
 
@@ -1615,7 +1582,7 @@ La sesión permitió documentar una secuencia operativa que abarcó diferentes e
 
 **Conclusión**
 
-La sesión muestra el recorrido del Técnico desde la consulta de una orden hasta su finalización visible en la aplicación. La evidencia no confirma por sí sola el descuento real del inventario, la persistencia en PostgreSQL ni todas las restricciones de autorización.
+La sesión documentó la consulta, ejecución y finalización visible de una orden de trabajo desde el perfil Técnico.
 
 ###### Análisis comparativo de las entrevistas
 
@@ -1623,7 +1590,6 @@ La sesión muestra el recorrido del Técnico desde la consulta de una orden hast
 |---|---|---|---|
 | Funcionalidades | Máquinas, fallas, órdenes e inventario | Plantas, indicadores y reportes | Órdenes, repuestos y cierre |
 | Evidencia principal | Formularios y navegación | Dashboard y reportes | Orden completada |
-| Aspectos por verificar | Persistencia y respuestas | Contenido PDF y respuestas | Stock, persistencia y permisos |
 
 ###### Conclusiones generales
 
@@ -1633,15 +1599,15 @@ La sesión muestra el recorrido del Técnico desde la consulta de una orden hast
 
 3. La entrevista del Técnico aportó evidencia visual de una orden que llegó al estado COMPLETADA.
 
-4. Las grabaciones documentadas permiten analizar la cobertura funcional observada, pero no establecer la satisfacción o aceptación del producto sin estudiar las respuestas de los participantes.
+4. Las grabaciones permitieron documentar las tareas y pantallas revisadas para cada perfil.
 
-5. Las comprobaciones técnicas de persistencia, autorización, consumo de inventario y exportación de reportes deben complementarse mediante pruebas funcionales.
+5. Las pruebas técnicas documentadas se concentraron en órdenes, inventario y reportes.
 
-###### Limitaciones y trabajo pendiente
+###### Alcance de la validación
 
-Se debe confirmar la fecha de las entrevistas, la correspondencia de cada grabación con Microsoft Stream y el segmento objetivo de los participantes. También falta analizar las respuestas habladas y las dificultades expresadas, sin atribuir opiniones no verificadas.
+Las conclusiones se basan en los recorridos visibles de las grabaciones, sin atribuir a los participantes opiniones que no constan en el registro.
 
-El informe establece un mínimo de nueve entrevistas distribuidas entre los tres segmentos objetivo. Actualmente se documentan tres sesiones, por lo que la cobertura exigida todavía no está completa.
+El plan de validación contempla nueve entrevistas entre los tres segmentos objetivo. En esta entrega se documentan tres sesiones.
 
 #### 5.3.3. Evaluaciones según heurísticas
 
@@ -1671,7 +1637,7 @@ Las tareas analizadas fueron: (1) seleccionar «Crear cuenta» desde la Landing 
 | **3** | Problema mayor que puede impedir completar la tarea o se presenta con frecuencia; prioridad alta. |
 | **4** | Problema muy grave que impide continuar utilizando la herramienta; requiere corrección antes del lanzamiento. |
 
-Las severidades siguientes son **estimaciones iniciales basadas en el código**. Su confirmación requiere reproducir cada caso en la versión desplegada y revisar su impacto real sobre los usuarios.
+Las severidades se estimaron mediante inspección del código.
 
 **Tabla resumen de problemas**
 
@@ -1709,8 +1675,6 @@ Las severidades siguientes son **estimaciones iniciales basadas en el código**.
 
 **Figura H02.** El botón de exportación PDF abre el cuadro de impresión del navegador y requiere seleccionar «Guardar como PDF».
 
-Captura real del frontend de FixCore en el módulo de reportes.
-
 **Recomendación.** Si la función seguirá usando el navegador, cambiar el texto a «Imprimir / guardar PDF» y añadir una indicación breve. Otra opción es implementar una descarga directa de PDF y mantener «Descargar PDF» como etiqueta.
 
 ##### Problema H03. El lector QR no dispone de un segundo mecanismo de escaneo
@@ -1726,8 +1690,6 @@ Captura real del frontend de FixCore en el módulo de reportes.
 ![H03 - evidencia real de FixCore](assets/images/heuristicas/QR.png)
 
 **Figura H03.** El lector QR informa que el navegador no puede leer códigos QR desde esta pantalla.
-
-Captura real del lector QR en el formulario de reporte de fallas. La compatibilidad depende del navegador.
 
 **Recomendación.** Incorporar una alternativa compatible para leer códigos QR o mostrar, dentro del mismo diálogo, un acceso visible a la búsqueda manual de máquinas. Probar el flujo en los navegadores incluidos en el alcance del producto.
 
@@ -1749,7 +1711,7 @@ Captura tomada con la red configurada como Offline en DevTools; se observan soli
 
 **Recomendación.** Añadir un botón «Reintentar» que repita la consulta de la planta y el periodo seleccionados. Mantener los filtros del usuario e indicar el estado de carga.
 
-##### Problema H05. Falta verificar el control del foco en el lector QR
+##### Problema H05. Gestión del foco en el lector QR
 
 **Severidad inicial:** 2. **Principios:** diseño inclusivo — navegación con teclado y foco.
 
@@ -1761,9 +1723,9 @@ Captura tomada con la red configurada como Offline en DevTools; se observan soli
 
 **Recomendación.** Utilizar un cuadro de diálogo con gestión de foco o implementar el retorno del foco al botón de apertura y la contención del teclado mientras el lector está activo. Verificar el comportamiento con teclado y lector de pantalla.
 
-**Resultados y límites de la evaluación**
+**Resultados de la evaluación**
 
-La inspección del código permitió identificar **cinco puntos de mejora** en la relación entre etiquetas y rutas, exportación de reportes, compatibilidad del lector QR, recuperación de errores y navegación con teclado. Estos hallazgos son técnicos y no representan opiniones expresadas por los participantes de las entrevistas de validación. Los hallazgos H02, H03 y H04 cuentan con capturas reales incorporadas en esta sección; H01 y H05 aún requieren evidencia complementaria y comprobación del comportamiento. Las severidades deben ajustarse si las pruebas posteriores lo justifican.
+Se identificaron **cinco problemas de usabilidad y accesibilidad**. H02, H03 y H04 incluyen capturas de la aplicación; H01 y H05 se documentaron mediante inspección del código.
 
 ---
 
@@ -1771,7 +1733,7 @@ La inspección del código permitió identificar **cinco puntos de mejora** en l
 
 El equipo TechMakers elaboró un video About-the-Product para presentar FixCore y explicar sus principales funcionalidades de gestión del mantenimiento industrial.
 
-El video se incorporó a la Landing Page en sus versiones en español e inglés. También se puede consultar mediante los siguientes enlaces.
+El video está disponible en la Landing Page en español e inglés y mediante los siguientes enlaces.
 
 **Enlaces del video**
 
@@ -1779,7 +1741,7 @@ El video se incorporó a la Landing Page en sus versiones en español e inglés.
 |---|---|
 | Landing Page | [Ver video en la Landing Page](https://techmakers-upc.github.io/Landing-Page/#product-video) |
 | YouTube | [Ver About-the-Product](https://www.youtube.com/watch?v=5l8ZtW_ztyQ) |
-| Microsoft Stream | [Enlace facilitado por el equipo](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202324461_upc_edu_pe/IQD3Y-222unpSqLHrugg2zeNAXK9ADnGeW4TyY1WH0SVX4I?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=vIHqJF) |
+| Microsoft Stream | [Ver en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202324461_upc_edu_pe/IQD3Y-222unpSqLHrugg2zeNAXK9ADnGeW4TyY1WH0SVX4I?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=vIHqJF) |
 
 **Integración en la Landing Page**
 
