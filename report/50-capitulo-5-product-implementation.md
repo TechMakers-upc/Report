@@ -1006,37 +1006,37 @@ Se verificó la disponibilidad de las interfaces y la exportación CSV. Además,
 ![Reportes](<assets/images/08b-reportes.png>)
 
 
-<!-- FIXCORE-EVIDENCIAS-EJECUCION-AV2 -->
+
 
 **Evidencias complementarias de ejecución — Sprint 3**
 
-Las siguientes capturas corresponden a verificaciones realizadas el 15 de noviembre de 2026 en la aplicación desplegada de FixCore. Se utilizaron cuentas de prueba de los perfiles Gerente de Operaciones, Jefe de Planta y Técnico de Mantenimiento.
+Las pruebas se realizaron el 15 de noviembre de 2026 en la versión desplegada de FixCore, utilizando cuentas de Gerente de Operaciones, Jefe de Planta y Técnico de Mantenimiento.
 
 **Caso 1. Registro, ejecución y cierre de órdenes de trabajo**
 
-Se documentaron operaciones de creación y consulta de órdenes, así como el recorrido del Técnico de Mantenimiento para ejecutar y finalizar una intervención. Las capturas muestran estados de las órdenes de trabajo y permiten identificar el resultado de las operaciones realizadas.
+Se creó una orden correctiva y se revisó su asignación, ejecución y cierre desde los perfiles correspondientes.
 
-![Evidencia de orden 1](assets/images/evidence-sprint3/1-ordenes.png)
+![Registro de orden correctiva](assets/images/evidence-sprint3/1-ordenes.png)
 
-*Figura E-01. Primera evidencia del proceso de gestión de órdenes de trabajo.*
+*Figura E-01. Registro de una orden de trabajo correctiva.*
 
-![Evidencia de orden 2](assets/images/evidence-sprint3/2-ordenes.png)
+![Detalle de orden registrada](assets/images/evidence-sprint3/2-ordenes.png)
 
-*Figura E-02. Segunda evidencia del proceso de gestión de órdenes de trabajo.*
+*Figura E-02. Consulta del detalle y estado de la orden registrada.*
 
-![Evidencia de orden 3](assets/images/evidence-sprint3/3-ordenes.png)
+![Orden asignada al tecnico](assets/images/evidence-sprint3/3-ordenes.png)
 
-*Figura E-03. Evidencia del seguimiento de una orden desde el perfil correspondiente.*
+*Figura E-03. Seguimiento de la orden desde la cuenta del técnico asignado.*
 
-![Evidencia de orden 4](assets/images/evidence-sprint3/4-ordenes.png)
+![Ejecucion de orden de trabajo](assets/images/evidence-sprint3/4-ordenes.png)
 
-*Figura E-04. Evidencia complementaria de la ejecución y finalización de una orden.*
+*Figura E-04. Registro de actividades durante la ejecución de la orden.*
 
-![Evidencia de orden 5](assets/images/evidence-sprint3/5-ordenes.png)
+![Resultado de orden de trabajo](assets/images/evidence-sprint3/5-ordenes.png)
 
-*Figura E-05. Evidencia final del proceso de órdenes de trabajo.*
+*Figura E-05. Consulta del resultado de la orden de trabajo.*
 
-**Resultado:** las capturas de la aplicación muestran operaciones de órdenes de trabajo, incluida su finalización en la interfaz. Se conservan como evidencia visual del flujo funcional ejecutado.
+**Resultado:** FixCore mostró la creación y ejecución de órdenes de trabajo, incluido el cierre de una intervención.
 
 **Caso 2. Registro de repuestos y actualización de inventario**
 
@@ -1054,7 +1054,7 @@ Se registró un repuesto de prueba con SKU `3232323`, denominado `asdasd`, categ
 
 *Figura E-08. Listado de inventario con 80 unidades disponibles para el SKU `3232323`.*
 
-**Resultado:** se observó una reducción de 100 a 80 unidades, consistente con el registro de 20 unidades utilizadas durante una intervención. Las capturas demuestran el cambio mostrado por la aplicación. La comprobación directa de los registros de PostgreSQL se considera una verificación técnica distinta.
+**Resultado:** el stock del repuesto pasó de 100 a 80 unidades después de registrar el uso de 20 unidades en una orden. Esta prueba confirma el cambio visible en la aplicación, pero no sustituye una consulta directa a PostgreSQL.
 
 **Caso 3. Generación y revisión de reportes PDF**
 
@@ -1068,7 +1068,7 @@ Desde el perfil Gerente de Operaciones se utilizó la función de impresión del
 
 *Figura E-10. Archivo PDF generado y abierto en el visor del navegador.*
 
-**Resultado:** se comprobó la generación y apertura de un documento PDF. El reporte mostrado corresponde a una selección sin órdenes ni fallas registradas para el período indicado, por lo que sus indicadores muestran valores vacíos o cero. Esta prueba valida la generación y presentación del archivo, no la exactitud de cálculos con datos históricos complejos.
+**Resultado:** el documento PDF se generó y abrió correctamente. Para los filtros seleccionados, el reporte mostró cero órdenes y cero fallas. No se comprobaron cálculos con otros conjuntos de datos.
 
 **Resumen de las evidencias complementarias**
 
@@ -1078,7 +1078,7 @@ Desde el perfil Gerente de Operaciones se utilizó la función de impresión del
 | Inventario | Registro de un repuesto con stock de 100 unidades y posterior visualización de 80 unidades tras el uso de 20. |
 | Exportación PDF | Generación mediante el diálogo de impresión y apertura del documento resultante. |
 
-Las capturas respaldan las operaciones observadas en la interfaz desplegada. No se presentan como sustituto de pruebas automatizadas ni de una auditoría directa de la base de datos.
+Los resultados corresponden a las operaciones observadas en la aplicación web. La verificación directa de los datos almacenados en PostgreSQL queda fuera de estas pruebas.
 
 **Resultados de verificación**
 
@@ -1090,14 +1090,14 @@ Las capturas respaldan las operaciones observadas en la interfaz desplegada. No 
 | Creación y eliminación de registros de prueba | Verificada en operaciones seleccionadas. |
 | Creación y asignación de órdenes | Verificada. |
 | Visualización de órdenes asignadas | Verificada. |
-| Ejecución y cierre completo de órdenes | La entrevista E03 muestra una orden que pasa por estados de ejecución hasta COMPLETADA; faltan pruebas integrales de persistencia y autorización. |
+| Ejecución y cierre completo de órdenes | Las capturas del Sprint 3 y la entrevista E03 muestran el inicio, ejecución y cierre de órdenes. La verificación directa de persistencia y permisos se evalúa por separado. |
 | Consumo de repuestos durante una orden | Las capturas complementarias muestran 100 unidades iniciales, uso de 20 unidades y 80 unidades disponibles. No se realizó una comprobación SQL directa. |
 | Exportación CSV | Verificada. |
 | Validación del contenido PDF | Se generó y abrió un PDF real; se comprobó visualmente su estructura, período e indicadores para una selección sin operaciones registradas. |
 | Pruebas automatizadas del backend | Ejecutadas durante la integración. |
 | Integración continua del frontend | Se registraron ejecuciones satisfactorias en GitHub Actions. |
 
-**Alcance de las pruebas:** las nuevas capturas amplían la evidencia del flujo de órdenes, el cambio visible de stock y la generación de PDF. Las comprobaciones directas en PostgreSQL y las pruebas integrales de autorización se mantienen diferenciadas de la evidencia visual.
+**Alcance:** se verificaron operaciones de órdenes, actualización visible del inventario y generación de PDF. No se realizaron consultas SQL adicionales ni una prueba integral de autorización entre plantas.
 
 **Video de navegación del producto — Sprint 3**
 
@@ -1451,7 +1451,7 @@ Durante el período revisado no se identificaron contribuciones de implementaci�
 
 El principal resultado técnico del Sprint 3 fue integrar la Web Application con servicios REST propios, persistencia, autenticación y mecanismos de control de acceso.
 
-Quedan por documentar pruebas completas del cierre de órdenes, el consumo de inventario y las restricciones de acceso.
+Las pruebas complementarias documentan el cierre de órdenes y la actualización visible del inventario. Queda por completar la verificación directa en PostgreSQL y las pruebas integrales de restricciones de acceso.
 
 ---
 
@@ -1547,11 +1547,11 @@ Se dispone de **tres grabaciones MP4** de sesiones de validación, con una durac
 **Matriz de resultados observables (sin atribuir opiniones)**
 
 
-### Análisis de resultados de las entrevistas de validación
+##### Análisis de resultados de las entrevistas
 
-Los análisis siguientes se basan en los recorridos, capturas y momentos documentados de las tres sesiones. No se atribuyen opiniones a los participantes que no hayan sido verificadas mediante sus respuestas.
+Se analizaron los recorridos registrados en las tres sesiones de validación, considerando las tareas realizadas y los resultados observados en la aplicación.
 
-#### E01. Análisis de la entrevista — Jefe de Planta
+###### E01. Análisis de la entrevista — Jefe de Planta
 
 **Interacción documentada**
 
@@ -1572,7 +1572,7 @@ El recorrido permitió observar la distribución de las funcionalidades destinad
 
 La sesión documentó los principales recorridos funcionales del Jefe de Planta. Constituye evidencia de navegación y uso de interfaces, pero no permite establecer el nivel de satisfacción, las dificultades percibidas ni la persistencia de las operaciones sin revisar las respuestas del participante y realizar pruebas adicionales.
 
-#### E02. Análisis de la entrevista — Gerente de Operaciones
+###### E02. Análisis de la entrevista — Gerente de Operaciones
 
 **Interacción documentada**
 
@@ -1594,7 +1594,7 @@ El recorrido permitió documentar cómo están organizadas las interfaces utiliz
 
 La sesión aporta evidencia visual de las funcionalidades de supervisión y consulta del Gerente de Operaciones. No demuestra por sí sola la exactitud de los indicadores, la correcta exportación de los reportes ni la valoración del participante.
 
-#### E03. Análisis de la entrevista — Técnico de Mantenimiento
+###### E03. Análisis de la entrevista — Técnico de Mantenimiento
 
 **Interacción documentada**
 
@@ -1617,7 +1617,7 @@ La sesión permitió documentar una secuencia operativa que abarcó diferentes e
 
 La sesión muestra el recorrido del Técnico desde la consulta de una orden hasta su finalización visible en la aplicación. La evidencia no confirma por sí sola el descuento real del inventario, la persistencia en PostgreSQL ni todas las restricciones de autorización.
 
-#### Análisis comparativo de las entrevistas
+###### Análisis comparativo de las entrevistas
 
 | Criterio | E01 — Jefe de Planta | E02 — Gerente | E03 — Técnico |
 |---|---|---|---|
@@ -1625,7 +1625,7 @@ La sesión muestra el recorrido del Técnico desde la consulta de una orden hast
 | Evidencia principal | Formularios y navegación | Dashboard y reportes | Orden completada |
 | Aspectos por verificar | Persistencia y respuestas | Contenido PDF y respuestas | Stock, persistencia y permisos |
 
-#### Conclusiones generales
+###### Conclusiones generales
 
 1. Las tres sesiones documentaron recorridos diferenciados para los perfiles de Jefe de Planta, Gerente de Operaciones y Técnico de Mantenimiento.
 
@@ -1637,7 +1637,7 @@ La sesión muestra el recorrido del Técnico desde la consulta de una orden hast
 
 5. Las comprobaciones técnicas de persistencia, autorización, consumo de inventario y exportación de reportes deben complementarse mediante pruebas funcionales.
 
-#### Limitaciones y trabajo pendiente
+###### Limitaciones y trabajo pendiente
 
 Se debe confirmar la fecha de las entrevistas, la correspondencia de cada grabación con Microsoft Stream y el segmento objetivo de los participantes. También falta analizar las respuestas habladas y las dificultades expresadas, sin atribuir opiniones no verificadas.
 
@@ -1792,4 +1792,4 @@ El equipo TechMakers incorporó un video **About-the-Product** para presentar Fi
 - [ ] Verificar que el enlace de Microsoft Stream permite acceso al evaluador o conservar YouTube como alternativa pública.
 - [ ] Comprobar que el iframe funciona en escritorio y móvil; si falla, registrar el error sin marcar la reproducción como validada.
 
-**Estado de la evidencia:** inserción en el código HTML **verificada**; reproducción pública, permisos y duración **pendientes de comprobación manual**. No se ha inventado una duración ni se ha declarado una prueba de reproducción inexistente.
+**Estado:** el video está integrado en la Landing Page. Falta comprobar su reproducción pública, los permisos de acceso y su duración.
