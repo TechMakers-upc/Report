@@ -1471,23 +1471,102 @@ Se dispone de **tres grabaciones MP4** de sesiones de validación, con una durac
 
 **Matriz de resultados observables (sin atribuir opiniones)**
 
-La siguiente matriz analiza exclusivamente las acciones y pantallas ya registradas en las fichas de los videos. Describe qué se observa en el recorrido y qué información todavía no permite demostrar. No constituye una transcripción ni afirma que los entrevistados hayan valorado positiva o negativamente el producto.
 
-| Sesión y perfil de prueba | Tareas observables documentadas | Resultado observable | Límite de la evidencia |
+### Análisis de resultados de las entrevistas de validación
+
+Los análisis siguientes se basan en los recorridos, capturas y momentos documentados de las tres sesiones. No se atribuyen opiniones a los participantes que no hayan sido verificadas mediante sus respuestas.
+
+#### E01. Análisis de la entrevista — Jefe de Planta
+
+**Interacción documentada**
+
+Durante la sesión se presentó la Landing Page y se recorrieron las principales funcionalidades del Jefe de Planta. Se revisaron el listado y registro de máquinas, los filtros de búsqueda, el reporte de fallas, las órdenes de trabajo y la administración de repuestos.
+
+**Resultados observados**
+
+- Se recorrieron las opciones de consulta y registro de máquinas.
+- Se visualizaron los formularios de reporte de fallas y órdenes de trabajo.
+- Se revisaron las funcionalidades de consulta y registro de repuestos.
+- Se documentó la navegación entre módulos relacionados con la administración del mantenimiento.
+
+**Análisis**
+
+El recorrido permitió observar la distribución de las funcionalidades destinadas a la administración de activos y mantenimiento industrial. Las pantallas revisadas muestran cómo se organizan las operaciones de registro, consulta y seguimiento.
+
+**Conclusión**
+
+La sesión documentó los principales recorridos funcionales del Jefe de Planta. Constituye evidencia de navegación y uso de interfaces, pero no permite establecer el nivel de satisfacción, las dificultades percibidas ni la persistencia de las operaciones sin revisar las respuestas del participante y realizar pruebas adicionales.
+
+#### E02. Análisis de la entrevista — Gerente de Operaciones
+
+**Interacción documentada**
+
+Durante la sesión se recorrieron las funcionalidades de supervisión de FixCore. Se revisaron el dashboard, los indicadores, las plantas, las órdenes de trabajo, el mantenimiento preventivo, el rendimiento de técnicos y la vista previa de reportes.
+
+**Resultados observados**
+
+- Se visualizaron indicadores generales e información de plantas.
+- Se recorrieron los módulos de órdenes de trabajo y planificación.
+- Se consultaron las interfaces relacionadas con el desempeño de los técnicos.
+- Se mostró la vista previa de reportes de mantenimiento.
+- No se verificó la descarga ni el contenido final de un documento PDF.
+
+**Análisis**
+
+El recorrido permitió documentar cómo están organizadas las interfaces utilizadas para supervisar las operaciones de mantenimiento. Se observaron módulos de consulta de información y seguimiento de actividades de distintas plantas.
+
+**Conclusión**
+
+La sesión aporta evidencia visual de las funcionalidades de supervisión y consulta del Gerente de Operaciones. No demuestra por sí sola la exactitud de los indicadores, la correcta exportación de los reportes ni la valoración del participante.
+
+#### E03. Análisis de la entrevista — Técnico de Mantenimiento
+
+**Interacción documentada**
+
+Durante la sesión se recorrieron las funcionalidades correspondientes al Técnico de Mantenimiento. Se consultaron órdenes asignadas, máquinas y repuestos, se registró un repuesto de prueba y se visualizó el cierre de una orden de trabajo.
+
+**Resultados observados**
+
+- Se consultaron las órdenes asignadas al técnico.
+- Se visualizó el cambio de una orden pendiente a en progreso.
+- Se revisaron los repuestos disponibles.
+- Se registró un repuesto asociado a una intervención.
+- Se utilizó el formulario de cierre.
+- Se observó una orden con estado COMPLETADA al finalizar el recorrido.
+
+**Análisis**
+
+La sesión permitió documentar una secuencia operativa que abarcó diferentes estados de una orden de trabajo. Se observó la utilización de interfaces para registrar actividades y consultar los recursos relacionados con la intervención.
+
+**Conclusión**
+
+La sesión muestra el recorrido del Técnico desde la consulta de una orden hasta su finalización visible en la aplicación. La evidencia no confirma por sí sola el descuento real del inventario, la persistencia en PostgreSQL ni todas las restricciones de autorización.
+
+#### Análisis comparativo de las entrevistas
+
+| Criterio | E01 — Jefe de Planta | E02 — Gerente | E03 — Técnico |
 |---|---|---|---|
-| E01 — Jefe de Planta | Navegación en Landing Page; consulta y formulario de máquinas; reporte de falla; orden de trabajo; inventario | El recorrido muestra acceso a las vistas y formularios correspondientes al perfil de prueba | No permite concluir satisfacción, facilidad de uso, éxito de persistencia ni experiencia laboral real sin escuchar las respuestas y contrastar la API |
-| E02 — Gerente de Operaciones | Landing Page; inicio de sesión; indicadores, plantas y órdenes; mantenimiento; reportes | El recorrido muestra navegación entre módulos de supervisión y la vista previa de reportes | No certifica exportación PDF, exactitud de los indicadores ni opiniones del participante |
-| E03 — Técnico | Consulta de órdenes; cambio de estado; repuestos; registro de un repuesto; formulario de cierre | En la grabación documentada se observa una orden que llega a estado `COMPLETADA` en la interfaz | No confirma por sí sola persistencia en PostgreSQL, descuento efectivo de stock ni permisos sobre órdenes ajenas |
+| Funcionalidades | Máquinas, fallas, órdenes e inventario | Plantas, indicadores y reportes | Órdenes, repuestos y cierre |
+| Evidencia principal | Formularios y navegación | Dashboard y reportes | Orden completada |
+| Aspectos por verificar | Persistencia y respuestas | Contenido PDF y respuestas | Stock, persistencia y permisos |
 
-**Análisis comparativo de los recorridos.** Las tres sesiones abarcan funciones diferenciadas según el rol de prueba: administración de máquinas y fallas (E01), supervisión de operaciones y reportes (E02), y ejecución de órdenes (E03). En conjunto permiten documentar cobertura visual de navegación y de flujos seleccionados. No prueban la percepción de los participantes ni equivalen a una validación integral de backend.
+#### Conclusiones generales
 
-**Hallazgos observables y acciones de mejora.** El registro permite identificar tres necesidades de verificación: (1) comprobar que las operaciones de registro y actualización persistan al recargar la aplicación; (2) validar la exportación y el contenido de los reportes, incluida la ruta de impresión a PDF; y (3) comprobar las restricciones de acceso y el descuento de stock en órdenes ejecutadas. Son necesidades de pruebas derivadas del alcance de las grabaciones, no quejas atribuidas a los entrevistados.
+1. Las tres sesiones documentaron recorridos diferenciados para los perfiles de Jefe de Planta, Gerente de Operaciones y Técnico de Mantenimiento.
 
-**Pendientes que requieren evidencia original.** Confirmar la fecha real y la correspondencia de cada enlace de Stream con E01–E03; identificar el segmento real de los participantes sin publicar datos personales innecesarios; escuchar el audio y registrar las preguntas, respuestas, dificultades expresadas y conclusiones de cada sesión. No asignar citas ni valoraciones sin su transcripción. Las duraciones consignadas se mantienen como las documentadas en los archivos MP4.
+2. Se observaron funcionalidades relacionadas con máquinas, mantenimiento, indicadores, órdenes de trabajo y repuestos.
 
-**Cobertura frente al enunciado.** El propio informe identifica 3 a 5 entrevistas por cada uno de los tres segmentos objetivo (mínimo 9). En esta versión siguen documentadas solo 3 sesiones. Faltan al menos 6 si se confirma que las tres sesiones cubren los segmentos exigidos de manera válida; si no, la distribución por segmento deberá ajustarse. Este pendiente no queda resuelto por la matriz anterior.
+3. La entrevista del Técnico aportó evidencia visual de una orden que llegó al estado COMPLETADA.
 
+4. Las grabaciones documentadas permiten analizar la cobertura funcional observada, pero no establecer la satisfacción o aceptación del producto sin estudiar las respuestas de los participantes.
 
+5. Las comprobaciones técnicas de persistencia, autorización, consumo de inventario y exportación de reportes deben complementarse mediante pruebas funcionales.
+
+#### Limitaciones y trabajo pendiente
+
+Se debe confirmar la fecha de las entrevistas, la correspondencia de cada grabación con Microsoft Stream y el segmento objetivo de los participantes. También falta analizar las respuestas habladas y las dificultades expresadas, sin atribuir opiniones no verificadas.
+
+El informe establece un mínimo de nueve entrevistas distribuidas entre los tres segmentos objetivo. Actualmente se documentan tres sesiones, por lo que la cobertura exigida todavía no está completa.
 
 #### 5.3.3. Evaluaciones según heurísticas
 
